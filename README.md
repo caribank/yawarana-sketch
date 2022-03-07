@@ -12,10 +12,10 @@ then    3-go-PST
 
 ## Basic morphological template
 
-| Prefix   | Root   | TAM   |
-|:---------|:-------|:------|
-| ij-      |        | -se   |
-|          |        | -jtë  |
+| Prefix   | Root   | TAM          |
+|:---------|:-------|:-------------|
+| ij-      |        | -se |
+|          |        | -jtë         |
 
 # Nouns
 

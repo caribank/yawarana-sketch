@@ -6,10 +6,10 @@ This is an example for a simple past verb:
 
 ## Basic morphological template
 
-| Prefix   | Root   | TAM   |
-|:---------|:-------|:------|
-| ij-      |        | -se   |
-|          |        | -jtë  |
+| Prefix   | Root   | TAM          |
+|:---------|:-------|:-------------|
+| ij-      |        | [Morpheme sepst](MorphsetTable#cldf:sepst) |
+|          |        | -jtë         |
 
 # Nouns
 

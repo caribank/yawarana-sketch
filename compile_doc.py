@@ -86,6 +86,20 @@ with open("combined_raw.md", "w") as outfile:
     outfile.write(compiled)
 
 
+def insert_tables(md):
+    current = 0
+    for m in MD_LINK_PATTERN.finditer(md):
+        yield md[current : m.start()]
+        current = m.end()
+        key = m.group("label")
+        url = m.group("url")
+        if key == "table":
+            table = pd.read_csv(Path(TABLES, f"{url}.csv"), keep_default_na=False)
+            yield table.to_markdown(index=False)
+        else:
+            yield md[m.start() : m.end()]
+    yield md[current:]
+
 def iter_md(md):
     current = 0
     for m in MD_LINK_PATTERN.finditer(md):
@@ -103,16 +117,17 @@ def iter_md(md):
             yield f"[Concept {url}](FormTable?parameterReference={url}#cldf:__all__)"
         elif key == "ex":
             yield f"[Example {url}](ExampleTable#cldf:{url})"
-        elif key == "table":
-            table = pd.read_csv(Path(TABLES, f"{url}.csv"), keep_default_na=False)
-            yield table.to_markdown(index=False)
+        elif key == "mpm":
+            yield f"[Morpheme {url}](MorphsetTable#cldf:{url})"
         else:
             yield md[m.start() : m.end()]
     yield md[current:]
 
 
 def preprocess(md):
-    return "".join(iter_md(md))
+    md = "".join(insert_tables(md))
+    md = "".join(iter_md(md))
+    return md
 
 
 preprocessed = preprocess(compiled)
@@ -120,7 +135,7 @@ with open("combined_preprocessed.md", "w") as outfile:
     outfile.write(preprocessed)
 
 ds = Dataset.from_metadata("../yaw_cldf/cldf/metadata.json")
-output = render(preprocessed, ds)
+output = render(preprocessed, ds, template_dir="templates")
 with open("README.md", "w") as f:
     f.write(output)
 print(output)
