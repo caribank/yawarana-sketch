@@ -1,0 +1,12 @@
+document:
+  title: A digital grammar sketch of Yawarana
+  children:
+    verbs:
+      title: Verbs
+    nouns:
+      title: Nouns
+      abstract: The abstract for the nouns chapter
+      children:
+        possession:
+          title: Nominal possession
+          abstract: Another abstract
