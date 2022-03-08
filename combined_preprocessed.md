@@ -2,7 +2,7 @@
 
 This is an example for a simple past verb:
 
-[Example CtoRat-44_0](ExampleTable#cldf:CtoRat-44_0)
+[Example ctorat-44](ExampleTable#cldf:ctorat-44)
 
 ## Basic morphological template
 
@@ -10,6 +10,13 @@ This is an example for a simple past verb:
 |:---------|:-------|:-------------|
 | ij-      |        | [Morpheme sepst](MorphsetTable#cldf:sepst) |
 |          |        | -jtë         |
+
+## The pluractional marker _-pëtï_
+This aspect-marking morpheme is known from other Cariban languages:
+
+[Example ctorat-40](ExampleTable#cldf:ctorat-40)
+
+TODO: reference to pluractional marker
 
 # Nouns
 

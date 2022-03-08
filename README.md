@@ -3,11 +3,11 @@
 This is an example for a simple past verb:
 
 
-> (CtoRat-44_0) 
+> (ctorat-44) 
 <pre>
-irëjpë  ij-të-se  
-then    3-go-PST  
-‘después se fue’</pre>
+tawara  ma      ta-∅      ti    wej-sapë  tëwï  waraijtokon  maniki  
+too     =RESTR  say-IPFV  like  COP-PFV   3SG   man          ???  
+‘así no más decía el hombre’</pre>
 
 
 ## Basic morphological template
@@ -16,6 +16,19 @@ then    3-go-PST
 |:---------|:-------|:-------------|
 | ij-      |        | -se |
 |          |        | -jtë         |
+
+## The pluractional marker _-pëtï_
+This aspect-marking morpheme is known from other Cariban languages:
+
+
+> (ctorat-40) 
+<pre>
+tipa-pëj-se-jne       waijta-jne  
+go.group-PLUR-PST-PL  mouse-PL  
+‘las ratas se fueron’</pre>
+
+
+TODO: reference to pluractional marker
 
 # Nouns
 
