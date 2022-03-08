@@ -29,6 +29,7 @@ go.group-PLUR-PST-PL  mouse-PL
 
 
 TODO: reference to pluractional marker
+[Mattiola and Gildea under review](#source-mattiola2020pluractional)
 
 # Nouns
 

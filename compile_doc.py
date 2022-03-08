@@ -13,6 +13,7 @@ structure = yaml.load(open("structure.yaml"), Loader=yaml.SafeLoader)
 
 print("Checking files...")
 
+
 def enumerate_children(child_id, child_data, depths, level, tuples):
     depths[level] += 1
     tuples.append((child_id, "".join([str(x) for x in depths.values()])))
@@ -100,6 +101,7 @@ def insert_tables(md):
             yield md[m.start() : m.end()]
     yield md[current:]
 
+
 def iter_md(md):
     current = 0
     for m in MD_LINK_PATTERN.finditer(md):
@@ -128,6 +130,8 @@ def iter_md(md):
 
 def preprocess(md):
     md = "".join(insert_tables(md))
+    with open("combined_tables.md", "w") as outfile:
+        outfile.write(md)
     md = "".join(iter_md(md))
     return md
 

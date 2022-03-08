@@ -14,6 +14,7 @@ This aspect-marking morpheme is known from other Cariban languages:
 [ex](ctorat-40)
 
 TODO: reference to pluractional marker
+[src](mattiola2020pluractional)
 
 # Nouns
 
