@@ -2,16 +2,17 @@
 
 This is an example for a simple past verb:
 
+[Example ctorat-42](ExampleTable#cldf:ctorat-42)
 [Example ctorat-44](ExampleTable#cldf:ctorat-44)
 
 ## Basic morphological template
 
 | Prefix   | Root   | TAM          |
 |:---------|:-------|:-------------|
-| ij-      |        | [Morpheme sepst](MorphsetTable#cldf:sepst) |
+| ij-      |        | [Morpheme pstse](MorphsetTable#cldf:pstse) |
 |          |        | -jtë         |
 
-## The pluractional marker _-pëtï_
+## The pluractional marker [Morpheme plur](MorphsetTable#cldf:plur)
 This aspect-marking morpheme is known from other Cariban languages:
 
 [Example ctorat-40](ExampleTable#cldf:ctorat-40)

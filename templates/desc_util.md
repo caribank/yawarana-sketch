@@ -1,3 +1,3 @@
 {% macro morpheme(m) -%} 
-{{ m["Form"] }}
+_{{ m["Form"] }}_
 {%- endmacro %}
