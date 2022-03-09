@@ -7,12 +7,12 @@ This is an example for a simple past verb:
 
 ## Basic morphological template
 
-| Prefix    | Root   | TAM          |
-|:----------|:-------|:-------------|
-| [Morpheme i3](MorphsetTable#cldf:i3) |        | [Morpheme pstse](MorphsetTable#cldf:pstse) |
-|           |        | [Morpheme pstjt](MorphsetTable#cldf:pstjt) |
+| Prefix   | Root   | Aspect     | Tense        | Number      |
+|:---------|:-------|:-----------|:-------------|:------------|
+| [Morpheme i3](MorphsetTable#cldf:i3) |        | [Morpheme plur](MorphsetTable#cldf:plur) | [Morpheme pstse](MorphsetTable#cldf:pstse)  | [Morpheme pljne](MorphsetTable#cldf:pljne) |
+|          |        |            | [Morpheme pstjte](MorphsetTable#cldf:pstjte) |             |
 
-## The pluractional marker [Morpheme plur](MorphsetTable#cldf:plur)
+## The pluractional marker [mpm](plur)
 This aspect-marking morpheme is known from other Cariban languages ([mattiola2020pluractional](sources.bib?with_internal_ref_link&ref#cldf:mattiola2020pluractional)).
 
 [Example ctorat-40](ExampleTable#cldf:ctorat-40)

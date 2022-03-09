@@ -119,9 +119,9 @@ def iter_md(md):
             yield f"[Concept {url}](FormTable?parameterReference={url}#cldf:__all__)"
         elif key == "ex":
             yield f"[Example {url}](ExampleTable#cldf:{url})"
-        elif key == "mpm":
-            yield f"[Morpheme {url}](MorphsetTable#cldf:{url})"
         elif key == "mp":
+            yield f"[Morpheme {url}](MorphsetTable#cldf:{url})"
+        elif key == "m":
             yield f"[Morph {url}](MorphTable#cldf:{url})"
         else:
             yield md[m.start() : m.end()]

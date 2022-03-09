@@ -1,3 +1,3 @@
-Prefix,Root,TAM
-[mpm](i3),,[mpm](pstse)
-,,[mpm](pstjt)
+Prefix,Root,Aspect,Tense,Number
+[mp](i3),,[mp](plur),[mp](pstse),[mp](pljne)
+,,,[mp](pstjte),

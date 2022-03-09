@@ -7,10 +7,10 @@ This is an example for a simple past verb:
 
 ## Basic morphological template
 
-| Prefix    | Root   | TAM          |
-|:----------|:-------|:-------------|
-| [mpm](i3) |        | [mpm](pstse) |
-|           |        | [mpm](pstjt) |
+| Prefix   | Root   | Aspect     | Tense        | Number      |
+|:---------|:-------|:-----------|:-------------|:------------|
+| [mp](i3) |        | [mp](plur) | [mp](pstse)  | [mp](pljne) |
+|          |        |            | [mp](pstjte) |             |
 
 ## The pluractional marker [mpm](plur)
 This aspect-marking morpheme is known from other Cariban languages [psrc](mattiola2020pluractional).
