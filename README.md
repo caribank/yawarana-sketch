@@ -19,10 +19,10 @@ too     RESTR  say-IPFV  QUOT  come-PFV  3SG   man          AN.REL
 
 ## Basic morphological template
 
-| Prefix   | Root   | TAM          |
-|:---------|:-------|:-------------|
-| ij-      |        | _-se_ |
-|          |        | -jtë         |
+| Prefix    | Root   | TAM          |
+|:----------|:-------|:-------------|
+| _i-_ |        | _-se_ |
+|           |        | _-jtë_ |
 
 ## The pluractional marker _-pëtï_
 This aspect-marking morpheme is known from other Cariban languages ([Mattiola and Gildea under review](#source-mattiola2020pluractional)).
