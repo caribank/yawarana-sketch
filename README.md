@@ -24,7 +24,7 @@ too     RESTR  say-IPFV  QUOT  come-PFV  3SG   man          AN.REL
 | _i-_ |        | _-pëtï_ | _-se_  | _-jnë_ |
 |          |        |            | _-jtë_ |             |
 
-## The pluractional marker [mpm](plur)
+## The pluractional marker _-pëtï_
 This aspect-marking morpheme is known from other Cariban languages ([Mattiola and Gildea under review](#source-mattiola2020pluractional)).
 
 

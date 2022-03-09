@@ -12,7 +12,7 @@ This is an example for a simple past verb:
 | [Morpheme i3](MorphsetTable#cldf:i3) |        | [Morpheme plur](MorphsetTable#cldf:plur) | [Morpheme pstse](MorphsetTable#cldf:pstse)  | [Morpheme pljne](MorphsetTable#cldf:pljne) |
 |          |        |            | [Morpheme pstjte](MorphsetTable#cldf:pstjte) |             |
 
-## The pluractional marker [mpm](plur)
+## The pluractional marker [Morpheme plur](MorphsetTable#cldf:plur)
 This aspect-marking morpheme is known from other Cariban languages ([mattiola2020pluractional](sources.bib?with_internal_ref_link&ref#cldf:mattiola2020pluractional)).
 
 [Example ctorat-40](ExampleTable#cldf:ctorat-40)
