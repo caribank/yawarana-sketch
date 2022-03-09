@@ -39,4 +39,5 @@ go.group-PLUR-PST-PL  mouse-PL
 # Nouns
 
 Someting about nouns.
+# References
 - <a id="source-mattiola2020pluractional"> </a>Mattiola, Simone and Gildea, Spike. under review. The pluractional marker -pödï of Akawaio (Cariban) and beyond.
