@@ -110,7 +110,7 @@ def iter_md(md):
         key = m.group("label")
         url = m.group("url")
         if key == "src":
-            yield f"[{url}](sources.bib?with_internal_ref_link&ref#cldf:{url})"
+            yield f"[{url}](sources.bib?with_internal_ref_link&ref&year_brackets=round#cldf:{url})"
         elif key == "psrc":
             yield f"([{url}](sources.bib?with_internal_ref_link&ref#cldf:{url}))"
         elif key == "form":

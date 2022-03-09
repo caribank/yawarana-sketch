@@ -25,7 +25,7 @@ too     RESTR  say-IPFV  QUOT  come-PFV  3SG   man          AN.REL
 |          |        | -jtë         |
 
 ## The pluractional marker _-pëtï_
-This aspect-marking morpheme is known from other Cariban languages:
+This aspect-marking morpheme is known from other Cariban languages ([Mattiola and Gildea under review](#source-mattiola2020pluractional)).
 
 
 > (ctorat-40) 
@@ -35,8 +35,6 @@ go.group-PLUR-PST-PL  mouse-PL
 ‘las ratas se fueron’</pre>
 
 
-TODO: reference to pluractional marker
-[Mattiola and Gildea under review](#source-mattiola2020pluractional)
 
 # Nouns
 

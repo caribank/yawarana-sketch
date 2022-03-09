@@ -13,12 +13,10 @@ This is an example for a simple past verb:
 |          |        | -jtë         |
 
 ## The pluractional marker [Morpheme plur](MorphsetTable#cldf:plur)
-This aspect-marking morpheme is known from other Cariban languages:
+This aspect-marking morpheme is known from other Cariban languages ([mattiola2020pluractional](sources.bib?with_internal_ref_link&ref#cldf:mattiola2020pluractional)).
 
 [Example ctorat-40](ExampleTable#cldf:ctorat-40)
 
-TODO: reference to pluractional marker
-[mattiola2020pluractional](sources.bib?with_internal_ref_link&ref#cldf:mattiola2020pluractional)
 
 # Nouns
 
