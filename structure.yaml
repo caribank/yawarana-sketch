@@ -10,3 +10,5 @@ document:
         possession:
           title: Nominal possession
           abstract: Another abstract
+    references:
+      title: References
