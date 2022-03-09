@@ -41,4 +41,4 @@ TODO: reference to pluractional marker
 # Nouns
 
 Someting about nouns.
-- Mattiola, Simone and Gildea, Spike. under review. The pluractional marker -pödï of Akawaio (Cariban) and beyond.
+- <a id="source-mattiola2020pluractional"> </a>Mattiola, Simone and Gildea, Spike. under review. The pluractional marker -pödï of Akawaio (Cariban) and beyond.
