@@ -63,7 +63,6 @@ if "structure" in tasks:
             else:
                 if content_files[section] != new_path:
                     print(f"'{section}': {content_files[section]} > {new_path}")
-                    print("GOOD")
                     content_files[section].rename(new_path)
                 del content_files[section]
         elif section in var_files:
@@ -99,7 +98,6 @@ def insert_tables(md, latex=False):
         key = m.group("label")
         url = m.group("url")
         if key == "table":
-            print(tables[url])
             table = pd.read_csv(Path(TABLES, f"{url}.csv"), keep_default_na=False)
             if latex:
                 table_str = f"""\\begin{{table}}
@@ -180,14 +178,14 @@ if preprocessed != old_preprocessed or 1 ==1:
 
     ds = Dataset.from_metadata("../yaw_cldf/cldf/metadata.json")
     if "github" in tasks:
+        preface = open("etc/README_preface.md", "r").read()
         output = render(preprocessed, ds, template_dir="github_templates")
         with open("README.md", "w") as f:
-            f.write(output)
+            f.write(preface + "\n\n" + output)
     if "preview" in tasks:
         output = render(preprocessed, ds, template_dir="plain_templates")
         with open("preview.md", "w") as f:
             f.write(output)
-        print(output)
     if "latex" in tasks:
         tmpl = open("latex_version/tmpl.tex", "r").read()
         output = render(preprocess_latex(compiled), ds, template_dir="latex_templates")

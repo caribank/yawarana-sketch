@@ -1,3 +1,6 @@
+This README file was generated from the files in [contents/](contents); they use [cldfviz](https://github.com/cldf/cldfviz/) and some preprocessing to load data from [the corresponding CLDF dataset](https://github.com/fmatter/yaw_cldf).
+There is also a [plaintext preview](preview.md) to be used during the writing process, and a [PDF version](latex_version/main.pdf), generated via LaTeX.
+
 # Verbs <a name="sec:verbs"></a> 
 
 This is an example for a simple past verb with _-se_.
