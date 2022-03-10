@@ -7,6 +7,7 @@ import pandas as pd
 import pandoc
 from clldutils import jsonlib
 import subprocess
+from pynterlinear import get_expex_code
 
 CONTENT = "content"
 TEMP = "var"
@@ -190,7 +191,7 @@ if preprocessed != old_preprocessed:
 
 if "latex" in tasks:
     tmpl = open("latex_version/tmpl.tex", "r").read()
-    output = render(preprocess_latex(compiled), ds, template_dir="latex_templates")
+    output = render(preprocess_latex(compiled), ds, "latex_templates", {"get_expex_code": get_expex_code})
     doc = pandoc.read(output)
     with open("latex_version/main.tex", "w") as f:
         f.write(tmpl + "\n\n" + pandoc.write(doc, format="latex") + "\n\n\\end{document}")

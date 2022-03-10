@@ -10,8 +10,12 @@
 \begingl
 \glpreamble {{ ctx.cldf.primaryText }} //
 {% if ctx.cldf.analyzedWord != [] %}
+{% set glosslist = [] %}
+{% for w in ctx.cldf.gloss %}
+    {% set glosslist = glosslist.append(get_expex_code(w)) %}
+{% endfor %}
 \gla {{ " ".join(ctx.cldf.analyzedWord) }}//
-\glb {{ " ".join(ctx.cldf.gloss) }}//
+\glb {{ " ".join(glosslist) }}//
 {% endif %}
 {% if ctx.cldf.translatedText != None %}
 \glft ‘{{ ctx.cldf.translatedText }}’// {% endif %} 
