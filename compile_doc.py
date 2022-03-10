@@ -152,7 +152,7 @@ def iter_md(md, latex=False):
 [References](Source?with_anchor#cldf:__all__)"""
         elif key == "label":
             if latex:
-                yield f"\\label{{{url}}}"
+                yield f"""{{#{url}}}"""
             else:
                 yield f"""<a name="{url}"></a>"""
         else:

@@ -1,4 +1,4 @@
-# Verbs <a name="verbs"></a> 
+# Verbs <a name="sec:verbs"></a> 
 
 This is an example for a simple past verb with _-se_.
 
