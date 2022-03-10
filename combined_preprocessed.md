@@ -1,4 +1,4 @@
-# Verbs {#sec:verbs} 
+# Verbs <a name="verbs"></a> 
 
 This is an example for a simple past verb with [Morpheme pstse](MorphsetTable#cldf:pstse).
 

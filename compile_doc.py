@@ -150,6 +150,11 @@ def iter_md(md, latex=False):
             else:
                 yield """# References
 [References](Source?with_anchor#cldf:__all__)"""
+        elif key == "label":
+            if latex:
+                yield f"\\label{{{url}}}"
+            else:
+                yield f"""<a name="{url}"></a>"""
         else:
             yield md[m.start() : m.end()]
     yield md[current:]
