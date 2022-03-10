@@ -19,7 +19,7 @@ structure = yaml.load(open(STRUCTURE), Loader=yaml.SafeLoader)
 tables = jsonlib.load(TABLE_MD)
 tent = Path(CONTENT)
 
-tasks = ["latex"]
+tasks = ["github", "latex"]
 
 if "structure" in tasks:
     print("Checking files...")
@@ -110,7 +110,7 @@ def insert_tables(md, latex=False):
 """
                 yield table_str
             else:
-                yield table.to_markdown(index=False)
+                yield tables[url]["caption"] + f":[label]({url})\n\n" + table.to_markdown(index=False)
         else:
             yield md[m.start() : m.end()]
     yield md[current:]

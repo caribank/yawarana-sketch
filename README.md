@@ -15,6 +15,8 @@ tëwï  ajpachi  yaka  won-se     pïnika  tëwï
 
 ## Basic morphological template
 
+Basic verb template:<a name="verb_templ"></a>
+
 | Prefix   | Root   | Aspect     | Tense        | Number      |
 |:---------|:-------|:-----------|:-------------|:------------|
 | _i-_ |        | _-pëtï_ | _-se_  | _-jnë_ |

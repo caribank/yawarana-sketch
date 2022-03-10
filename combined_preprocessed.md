@@ -6,6 +6,8 @@ This is an example for a simple past verb with [Morpheme pstse](MorphsetTable#cl
 
 ## Basic morphological template
 
+Basic verb template:<a name="verb_templ"></a>
+
 | Prefix   | Root   | Aspect     | Tense        | Number      |
 |:---------|:-------|:-----------|:-------------|:------------|
 | [Morpheme i3](MorphsetTable#cldf:i3) |        | [Morpheme plur](MorphsetTable#cldf:plur) | [Morpheme pstse](MorphsetTable#cldf:pstse)  | [Morpheme pljne](MorphsetTable#cldf:pljne) |

@@ -6,6 +6,8 @@ This is an example for a simple past verb with [mp](pstse).
 
 ## Basic morphological template
 
+Basic verb template:[label](verb_templ)
+
 | Prefix   | Root   | Aspect     | Tense        | Number      |
 |:---------|:-------|:-----------|:-------------|:------------|
 | [mp](i3) |        | [mp](plur) | [mp](pstse)  | [mp](pljne) |
