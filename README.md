@@ -1,6 +1,6 @@
-# Verbs
+# Verbs {#sec:verbs} 
 
-This is an example for a simple past verb:
+This is an example for a simple past verb with _-se_.
 
 
 > (ctorat-42) 
@@ -8,13 +8,6 @@ This is an example for a simple past verb:
 tëwï  ajpachi  yaka  won-se     pïnika  tëwï  
 3SG   weeds    into  enter-PST  PROB    3SG  
 ‘tal vez se metió en el monte’</pre>
-
-
-> (ctorat-44) 
-<pre>
-tawara  ma     ta-∅      ti    wej-sapë  tëwï  waraijtokon  maniki  
-too     RESTR  say-IPFV  QUOT  come-PFV  3SG   man          AN.REL  
-‘así no más decía el hombre’</pre>
 
 
 ## Basic morphological template
@@ -25,7 +18,8 @@ too     RESTR  say-IPFV  QUOT  come-PFV  3SG   man          AN.REL
 |          |        |            | _-jtë_ |             |
 
 ## The pluractional marker _-pëtï_
-This aspect-marking morpheme is known from other Cariban languages ([Mattiola and Gildea under review](#source-mattiola2020pluractional)).
+This aspect-marking morpheme is known from other Cariban languages [Mattiola and Gildea (under review)](#source-mattiola2020pluractional).
+This example illustrates its _-pëj_ allomorph:
 
 
 > (ctorat-40) 
@@ -33,6 +27,7 @@ This aspect-marking morpheme is known from other Cariban languages ([Mattiola an
 tipa-pëj-se-jne       waijta-jne  
 go.group-PLUR-PST-PL  mouse-PL  
 ‘las ratas se fueron’</pre>
+ 
 
 
 

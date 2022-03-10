@@ -1,9 +1,8 @@
-# Verbs
+# Verbs {#sec:verbs} 
 
-This is an example for a simple past verb:
+This is an example for a simple past verb with [mp](pstse).
 
 [ex](ctorat-42)
-[ex](ctorat-44)
 
 ## Basic morphological template
 
@@ -14,12 +13,13 @@ This is an example for a simple past verb:
 
 ## The pluractional marker [mp](plur)
 This aspect-marking morpheme is known from other Cariban languages [psrc](mattiola2020pluractional).
+This example illustrates its [m](plur2) allomorph:
 
-[ex](ctorat-40)
+[ex](ctorat-40) 
+
 
 
 # Nouns
 
 Someting about nouns.
-# References
-[References](Source?with_anchor#cldf:__all__)
+[refs](all)
