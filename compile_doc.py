@@ -6,15 +6,19 @@ from pycldf import Dataset
 import pandas as pd
 import pandoc
 from clldutils import jsonlib
+import subprocess
 
 CONTENT = "content"
 TEMP = "var"
 TABLES = "tables"
+STRUCTURE = "structure.yaml"
+TABLE_MD = "tables/table_metadata.json"
 
-structure = yaml.load(open("structure.yaml"), Loader=yaml.SafeLoader)
-tables = jsonlib.load("tables/table_metadata.json")
+structure = yaml.load(open(STRUCTURE), Loader=yaml.SafeLoader)
+tables = jsonlib.load(TABLE_MD)
+tent = Path(CONTENT)
 
-tasks = ["structure", "github", "preview", "latex"]
+tasks = ["latex"]
 
 if "structure" in tasks:
     print("Checking files...")
@@ -39,7 +43,6 @@ if "structure" in tasks:
     num_pre = re.compile("[\d]+\ ")
     
     content_files = {}
-    tent = Path(CONTENT)
     for file in tent.iterdir():
         if ".md" not in file.name:
             continue
@@ -86,9 +89,6 @@ for file in tent.iterdir():
     content = open(file).read()
     compiled.append(content)
 compiled = "\n".join(compiled)
-
-with open("combined_raw.md", "w") as outfile:
-    outfile.write(compiled)
 
 def insert_tables(md, latex=False):
     current = 0
@@ -172,11 +172,12 @@ def preprocess_latex(md):
 
 preprocessed = preprocess(compiled)
 old_preprocessed = open("combined_preprocessed.md", "r").read()
-if preprocessed != old_preprocessed or 1 ==1:
+ds = Dataset.from_metadata("../yaw_cldf/cldf/metadata.json")
+
+if preprocessed != old_preprocessed:
     with open("combined_preprocessed.md", "w") as outfile:
         outfile.write(preprocessed)
 
-    ds = Dataset.from_metadata("../yaw_cldf/cldf/metadata.json")
     if "github" in tasks:
         preface = open("etc/README_preface.md", "r").read()
         output = render(preprocessed, ds, template_dir="github_templates")
@@ -186,9 +187,11 @@ if preprocessed != old_preprocessed or 1 ==1:
         output = render(preprocessed, ds, template_dir="plain_templates")
         with open("preview.md", "w") as f:
             f.write(output)
-    if "latex" in tasks:
-        tmpl = open("latex_version/tmpl.tex", "r").read()
-        output = render(preprocess_latex(compiled), ds, template_dir="latex_templates")
-        doc = pandoc.read(output)
-        with open("latex_version/main.tex", "w") as f:
-            f.write(tmpl + "\n\n" + pandoc.write(doc, format="latex") + "\n\n\\end{document}")
+
+if "latex" in tasks:
+    tmpl = open("latex_version/tmpl.tex", "r").read()
+    output = render(preprocess_latex(compiled), ds, template_dir="latex_templates")
+    doc = pandoc.read(output)
+    with open("latex_version/main.tex", "w") as f:
+        f.write(tmpl + "\n\n" + pandoc.write(doc, format="latex") + "\n\n\\end{document}")
+    subprocess.Popen("latexmk --xelatex main.tex", shell=True, cwd="latex_version")
