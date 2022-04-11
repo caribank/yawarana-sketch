@@ -1,14 +1,16 @@
 document:
   title: A digital grammar sketch of Yawarana
-  children:
+  parts:
     verbs:
       title: Verbs
+    postp:
+      title: Postpositions
+    test:
+      title: a test
     nouns:
       title: Nouns
       abstract: The abstract for the nouns chapter
-      children:
+      parts:
         possession:
           title: Nominal possession
           abstract: Another abstract
-    references:
-      title: References
