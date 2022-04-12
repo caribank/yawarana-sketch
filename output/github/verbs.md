@@ -2,9 +2,39 @@
 
 This is an example for a simple past verb with _-se_.
 
-TODO
 
-TODO
+
+
+
+> (ctorat-42) Yawarana
+<pre>
+
+
+
+tëwï  ajpachi  yaka  won-se     pïnika  tëwï  
+3SG   weeds    deer  enter-PST  PROB    3SG  
+
+
+‘tal vez se metió en el monte’
+</pre>
+
+
+
+
+
+
+> (anfoperso-18) Yawarana
+<pre>
+
+
+
+papa        pano   sëma-saj  yawë  
+father:VOC  CONCL  die-PFV   LOC  
+
+
+‘porque se murió mi papá’
+</pre>
+
 
 
 ## Basic morphological template
@@ -19,13 +49,58 @@ TODO
 This aspect-marking morpheme is known from other Cariban languages [psrc](mattiola2020pluractional).
 This example illustrates its  allomorph:
 
-TODO
+
+
+
+
+> (ctorat-40) Yawarana
+<pre>
+
+
+
+tipa-pëj-se-jne       waijta-jne  
+go.group-PLUR-PST-PL  mouse-PL  
+
+
+‘las ratas se fueron’
+</pre>
+
 
 ## _-jpë_
 _-jpë_ was originally a nominalizer, but now also functions as a simple past marker:
 
-TODO
+
+
+
+
+> (anfoperso-02) Yawarana
+<pre>
+
+
+
+ana  këyeta-jpë   intipijkë  ana  chi-∅     yawë  
+1+3  grow.up-PST  a.little   1+3  COP-IPFV  LOC  
+
+
+‘nos criamos cuando estábamos chiquiticos nosotros’
+</pre>
+
 
 It also occurs on nouns:
 
-TODO
+
+
+
+
+> (anfoperso-17) Yawarana
+<pre>
+
+
+
+tawara  ma-∅        ana  këyeta-jpë   ana  papa        pan   pata-jpë  të-∅  
+too     throw-IPFV  1+3  grow.up-PST  1+3  father:VOC  late  axe-PST   go-IPFV  
+
+
+‘así nos criamos después de que se murió mi papá en su pueblo’
+</pre>
+
