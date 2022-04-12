@@ -6,6 +6,7 @@ This is an example for a simple past verb with [mp](pstse).
 
 [ex](anfoperso-18)
 
+
 ## Basic morphological template
 
 [table](verb_templ)
