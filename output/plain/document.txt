@@ -31,7 +31,7 @@ Basic verb template
 +----------+--------+------------+--------------+-------------+
 
 ## The pluractional marker -pëtï
-This aspect-marking morpheme is known from other Cariban languages [psrc](mattiola2020pluractional).
+This aspect-marking morpheme is known from other Cariban languages [Mattiola and Gildea under review](#source-mattiola2020pluractional).
 This example illustrates its  allomorph:
 
 
@@ -59,3 +59,12 @@ tawara  ma-∅        ana  këyeta-jpë   ana  papa        pan   pata-jpë  të-
 too     throw-IPFV  1+3  grow.up-PST  1+3  father:VOC  late  axe-PST   go-IPFV  
 ‘así nos criamos después de que se murió mi papá en su pueblo’
 
+
+Hellosdasda
+
+# Nouns
+
+Someting about nouns.
+
+# References 
+- <a id="source-mattiola2020pluractional"> </a>Mattiola, Simone and Gildea, Spike. under review. The pluractional marker -pödï of Akawaio (Cariban) and beyond.

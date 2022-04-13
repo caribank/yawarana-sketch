@@ -1,3 +1,0 @@
-# Nouns
-
-Someting about nouns.
