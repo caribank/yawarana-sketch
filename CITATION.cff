@@ -17,8 +17,8 @@ keywords:
 - yawarana
 - cariban
 license: CC-BY-SA-4.0
+type: dataset
+url: https://github.com/fmatter/yawarana-sketch
 message: Created with [pylingdocs](https://github.com/fmatter/pylingdocs/)
 date-released: '2022-04-13'
-type: dataset
 cff-version: 1.2.0
-url: https://github.com/fmatter/yawarana-sketch
