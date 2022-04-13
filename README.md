@@ -5,8 +5,8 @@
 * version: `0.0.1.draft`
 
 Created with [pylingdocs](https://github.com/fmatter/pylingdocs/) v0.0.1.
-Different output formats can be found in [output](./output).
-The [github](.output/github) output is most suitable for github(-like) repos.
+The available output formats are in [output](./output).
+The [github](./output/github) format is most suitable for github(-like) repos.
 
 
 To refer to the content of unreleased versions:
