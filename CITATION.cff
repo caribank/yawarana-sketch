@@ -1,10 +1,9 @@
-id: yawarana-sketch
 version: 0.0.1.draft
 title: A digital sketch grammar of Yawarana
 authors:
 - family-names: Matter
   given-names: Florian
-  orcid: 0000-0002-2545-5154
+  orcid: https://orcid.org/0000-0002-2545-5154
   email: florianmatter@gmail.com
   affiliation: University of Oregon, University of Bern
 repository: https://github.com/fmatter/yawarana-sketch
@@ -18,7 +17,8 @@ keywords:
 - yawarana
 - cariban
 license: CC-BY-SA-4.0
-type: dataset
 message: Created with [pylingdocs](https://github.com/fmatter/pylingdocs/)
 date-released: '2022-04-13'
+type: dataset
+cff-version: 1.2.0
 url: https://github.com/fmatter/yawarana-sketch
