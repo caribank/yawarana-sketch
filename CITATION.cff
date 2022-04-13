@@ -5,7 +5,12 @@ authors:
   given-names: Florian
   orcid: https://orcid.org/0000-0002-2545-5154
   email: florianmatter@gmail.com
-  affiliation: University of Oregon, University of Bern
+  affiliation: University of Oregon and University of Bern
+- family-names: Matterd
+  given-names: Floridan
+  orcid: https://orcid.org/0001-0002-2545-5154
+  email: florianmattesr@gmail.com
+  affiliation: University of Oregon and University of Bern
 repository: https://github.com/fmatter/yawarana-sketch
 abstract: This is a digital sketch grammar of Yawarana, an endangered language of
   the Cariban family, spoken in Venezuela.
