@@ -1,3 +1,3 @@
 # Nouns
 
-Someting about nouns.
+TODO: write
