@@ -1,4 +1,4 @@
-# Verbs [label](sec:verbs) 
+# Verbs {#sec:verbs}
 
 This is an example for a simple past verb with [mp](pstse).
 
