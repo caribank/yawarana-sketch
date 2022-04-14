@@ -55,7 +55,7 @@ It also occurs on nouns:
 > too     throw-IPFV  1+3  grow.up-PST  1+3  father:VOC  late  axe-PST   go-IPFV  
 > ‘así nos criamos después de que se murió mi papá en su pueblo’</pre>
 
-Hellosdasda
+*-pëtï*
 
 # Nouns
 

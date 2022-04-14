@@ -18,16 +18,15 @@ Basic morphological template
 
 Basic verb template:
 
-+----------+--------+------------+--------------+--------------+
-| Prefix   | Root   | Aspect     | Tense        | Number       |
-+==========+========+============+==============+==============+
-| i- |     | |      | -se | -jn  | ë            |              |
-|          | -pëtï  |            |              |              |
-+----------+--------+------------+--------------+--------------+
-|          |        |            | -jpë |       |              |
-+----------+--------+------------+--------------+--------------+
-|          |        |            | -tojpe |     |              |
-+----------+--------+------------+--------------+--------------+
+  ---------------------------------------------------
+  Prefix     Root     Aspect     Tense     Number
+  ---------- -------- ---------- --------- ----------
+  i-                  -pëtï      -se       -jnë
+
+                                 -jpë      
+
+                                 -tojpe    
+  ---------------------------------------------------
 
 The pluractional marker -pëtï
 
@@ -60,7 +59,7 @@ tawara ma-∅ ana këyeta-jpë ana papa pan pata-jpë të-∅
 too throw-IPFV 1+3 grow.up-PST 1+3 father:VOC late axe-PST go-IPFV
 ‘así nos criamos después de que se murió mi papá en su pueblo’
 
-Hellosdasda
+-pëtï
 
 Nouns
 
