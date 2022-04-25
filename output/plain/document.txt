@@ -1,8 +1,8 @@
-Verbs
+Verbs (label placeholder)
 
 TODO: write introduction
 
-[@sec:verb-template]
+(crossref placeholder)
 
 Basic morphological template
 

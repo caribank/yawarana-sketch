@@ -1,10 +1,10 @@
 # A digital sketch grammar of Yawarana
 
-# Verbs
+# Verbs (label placeholder)
 
 TODO: write introduction
 
-\[@sec:verb-template\]
+(crossref placeholder)
 
 ## Basic morphological template
 

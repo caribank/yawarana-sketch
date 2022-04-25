@@ -1,9 +1,8 @@
-# Verbs {#sec:verbs}
+# Verbs [label](sec:verb-template)
 
 TODO: write introduction
 
-
-[@sec:verb-template]
+[ref](sec:verb-template)
 
 ## Basic morphological template {#sec:verb-template}
 
