@@ -2,6 +2,8 @@ Verbs
 
 TODO: write introduction
 
+[@sec:verb-template]
+
 Basic morphological template
 
 The following table shows the morpological template of Yawarana verbs,
@@ -32,10 +34,10 @@ go.group-PLUR-PST-PL mouse-PL
 More data is needed to firmly establish the relative order of all
 suffixes.
 
-The pluractional marker -pëtï
+The pluractional marker -pëtï.
 
 This aspect-marking morpheme is known from other Cariban languages
-Mattiola and Gildea under review. This example illustrates its
+(Mattiola and Gildea under review). This example illustrates its -pëj
 allomorph:
 
 (ctorat-40) Yawarana
@@ -52,15 +54,15 @@ simple past marker:
 (anfoperso-02) Yawarana
 
 ana këyeta-jpë intipijkë ana chi-∅ yawë
-1+3 grow.up-PST a.little 1+3 COP-IPFV LOC
+1+3 grow.up-PST a.little 1+3 COP-IPFV TEMP.LOC
 ‘nos criamos cuando estábamos chiquiticos nosotros’
 
 It also occurs on nouns:
 
 (anfoperso-17) Yawarana
 
-tawara ma-∅ ana këyeta-jpë ana papa pan pata-jpë të-∅
-too throw-IPFV 1+3 grow.up-PST 1+3 father:VOC late axe-PST go-IPFV
+tawara ma-∅ ana këyeta-jpë ana papa pan patajpë të-∅
+too throw-IPFV 1+3 grow.up-PST 1+3 father:VOC deceased death go-IPFV
 ‘así nos criamos después de que se murió mi papá en su pueblo’
 
 Postpositions

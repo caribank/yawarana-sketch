@@ -2,21 +2,15 @@
 
 # Verbs
 
-This is an example for a simple past verb with *-se*.
+TODO: write introduction
 
-> (ctorat-42) Yawarana
-> <pre>
-> tëwï  ajpachi  yaka  won-se     pïnika  tëwï  
-> 3SG   weeds    deer  enter-PST  PROB    3SG  
-> ‘tal vez se metió en el monte’</pre>
-
-> (anfoperso-18) Yawarana
-> <pre>
-> papa        pano   sëma-saj  yawë  
-> father:VOC  CONCL  die-PFV   LOC  
-> ‘porque se murió mi papá’</pre>
+\[@sec:verb-template\]
 
 ## Basic morphological template
+
+The following table shows the morpological template of Yawarana verbs,
+i.e. the order in which bound morphemes can occur within a vebral word
+form.
 
 | Prefix | Root | Aspect  | Tense    | Number |
 |:-------|:-----|:--------|:---------|:-------|
@@ -24,11 +18,23 @@ This is an example for a simple past verb with *-se*.
 |        |      |         | *-jpë*   |        |
 |        |      |         | *-tojpe* |        |
 
-## The pluractional marker *-pëtï*
+The first slot contains personal prefixes. The relative order of three
+tense-aspect-mood suffixes can be seen in the following example:
+
+> (ctorat-40) Yawarana
+> <pre>
+> tipa-pëj-se-jne       waijta-jne  
+> go.group-PLUR-PST-PL  mouse-PL  
+> ‘las ratas se fueron’</pre>
+
+More data is needed to firmly establish the relative order of all
+suffixes.
+
+## The pluractional marker *-pëtï*.
 
 This aspect-marking morpheme is known from other Cariban languages
-[Mattiola and Gildea under review](#source-mattiola2020pluractional).
-This example illustrates its allomorph:
+([Mattiola and Gildea under review](#source-mattiola2020pluractional)).
+This example illustrates its *-pëj* allomorph:
 
 > (ctorat-40) Yawarana
 > <pre>
@@ -38,28 +44,32 @@ This example illustrates its allomorph:
 
 ## *-jpë*
 
-*-jpë* was originally a nominalizer, but now also functions as a simple
-past marker:
+*-jpë* is etymologically a nominalizer, but now it also functions as a
+simple past marker:
 
 > (anfoperso-02) Yawarana
 > <pre>
 > ana  këyeta-jpë   intipijkë  ana  chi-∅     yawë  
-> 1+3  grow.up-PST  a.little   1+3  COP-IPFV  LOC  
+> 1+3  grow.up-PST  a.little   1+3  COP-IPFV  TEMP.LOC  
 > ‘nos criamos cuando estábamos chiquiticos nosotros’</pre>
 
 It also occurs on nouns:
 
 > (anfoperso-17) Yawarana
 > <pre>
-> tawara  ma-∅        ana  këyeta-jpë   ana  papa        pan   pata-jpë  të-∅  
-> too     throw-IPFV  1+3  grow.up-PST  1+3  father:VOC  late  axe-PST   go-IPFV  
+> tawara  ma-∅        ana  këyeta-jpë   ana  papa        pan       patajpë  të-∅  
+> too     throw-IPFV  1+3  grow.up-PST  1+3  father:VOC  deceased  death    go-IPFV  
 > ‘así nos criamos después de que se murió mi papá en su pueblo’</pre>
 
-*-pëtï*
+# Postpositions
+
+TODO: write
 
 # Nouns
 
-Someting about nouns.
+TODO: write
+
+## Nominal possession
 
 # References
 
