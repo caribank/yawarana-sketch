@@ -2,20 +2,26 @@
 \usepackage{fontspec}
 \setmainfont{Brill}
 \usepackage{glossingtool}
-\usepackage{hyperref}
 \usepackage{booktabs}
-\usepackage{biblatex}
+\usepackage[style=authoryear]{biblatex}
 \addbibresource{/home/florianm/Dropbox/research/cariban/yawarana/yaw_cldf/cldf/sources.bib}
-\begin{document}
-Title: A digital sketch grammar of Yawarana
+\def\tightlist{}
 
-\section{Verbs \href{sec:verb-template}{label}}
+\title{A digital sketch grammar of Yawarana}
+\author{Florian Matter}
+
+\usepackage{hyperref}
+\usepackage[capitalise]{cleveref}
+\begin{document}
+\maketitle
+
+\section{Verbs \label{sec:verbs}}
 
 TODO: write introduction
 
-\href{sec:verb-template}{ref}
+\cref{sec:verb-template}
 
-\subsection{Basic morphological template}
+\subsection{Basic morphological template \label{sec:verb-template}}
 
 The following table shows the morpological template of Yawarana verbs,
 i.e.~the order in which bound morphemes can occur within a vebral word
@@ -23,13 +29,13 @@ form.
 
 \begin{table}
 \caption{Basic verb template}
-\label{verb_templ}
+\label{tab:verb_templ}
 \centering
 \begin{tabular}{lllll}
 \toprule
   Prefix & Root &      Aspect &        Tense &     Number \\
 \midrule
-\obj{i-} &      & \obj{-pëtï} &    \obj{-se} & \obj{-jnë} \\
+\obj{i-} &      & \obj{-pëti} &    \obj{-se} & \obj{-jnë} \\
          &      &             &   \obj{-jpë} &            \\
          &      &             & \obj{-tojpe} &            \\
 \bottomrule
@@ -52,7 +58,30 @@ tense-aspect-mood suffixes can be seen in the following example:
 More data is needed to firmly establish the relative order of all
 suffixes.
 
-\subsection{The pluractional marker \obj{-pëtï}.}
+\subsection{Person}
+
+Person marking is identical on transitive and intransitive verbs:
+
+\pex
+\a<convrisamaj-28> Yawarana\\
+\begingl
+\glpreamble  uyïwïj yawë usenejkari sukuri jwama //
+\gla u-y-ïwïj yawë u-s-enejka-ri sukuri jwama//
+\glb 1-LK-house TEMP.LOC 1-DETRZ-watch-IPFV quietly ***//
+\glft ‘yo me quedo en mi casa tranquila’//  
+\endgl 
+\a<convrisamaj-02> Yawarana\\
+\begingl
+\glpreamble  mëyaruwari, mëpëkëpene //
+\gla më-yaruwa-ri më-pëkëpene//
+\glb 2-laugh-IPFV 2-alone//
+\glft ‘usted se rie sola’//  
+\endgl 
+\xe
+
+\subsection{Aspect}
+
+\subsubsection{The pluractional marker \obj{-pëti}.}
 
 This aspect-marking morpheme is known from other Cariban languages
 \parencite{mattiola2020pluractional}. This example illustrates its
@@ -67,7 +96,9 @@ This aspect-marking morpheme is known from other Cariban languages
 \endgl 
 \xe
 
-\subsection{\obj{-jpë}}
+\subsection{Tense}
+
+\subsubsection{\obj{-jpë}}
 
 \obj{-jpë} is etymologically a nominalizer, but now it also functions as
 a simple past marker:
@@ -86,9 +117,24 @@ It also occurs on nouns:
 \ex<anfoperso-17> Yawarana \\
 \begingl
 \glpreamble  tawara ma ana këyetajpë, ana papa pan patajpë të //
-\gla tawara ma-∅ ana këyeta-jpë ana papa pan patajpë të-∅//
-\glb too throw-IPFV 1+3 grow.up-PST 1+3 father:VOC deceased death go-IPFV//
+\gla tawara ma-∅ ana këyeta-jpë ana papa pan pata-jpë të-∅//
+\glb too throw-IPFV 1+3 grow.up-PST 1+3 father:VOC deceased town-PST go-IPFV//
 \glft ‘así nos criamos después de que se murió mi papá en su pueblo’//  
+\endgl 
+\xe
+
+\subsubsection{The supine}
+
+The suffix \obj{-se} can be used to express a co-called supine meaning,
+i.e., purpose of motion. Intransitive verbs occur unprefixed, while
+transitive verbs can carry person prefixes.
+
+\ex<ctorat-03> Yawarana \\
+\begingl
+\glpreamble  enijpëtërë waraijtokomo ijtëse ti mïjna tëijpo wïnïjse //
+\gla enijpëtërë waraijtokomo ij-të-se ti mïjna tëijpo wïnïj-se//
+\glb one man 3-go-PST QUOT there far sleep-SUP//
+\glft ‘un hombre se fué allá, a dormir lejos’//  
 \endgl 
 \xe
 
