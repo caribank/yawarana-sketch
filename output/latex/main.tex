@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage{fontspec}
 \setmainfont{Brill}
-\usepackage{glossingtool}
+\usepackage[abbrevs=none,refmode=latex]{expex-acro}
 \usepackage{booktabs}
 \usepackage[style=authoryear]{biblatex}
 \addbibresource{/home/florianm/Dropbox/research/cariban/yawarana/yaw_cldf/cldf/sources.bib}
@@ -17,7 +17,7 @@
 
 \section{Verbs \label{sec:verbs}}
 
-TODO: write introduction
+TODO: write introduction about verbs
 
 \cref{sec:verb-template}
 
@@ -46,8 +46,8 @@ form.
 The first slot contains personal prefixes. The relative order of three
 tense-aspect-mood suffixes can be seen in the following example:
 
-\ex<ctorat-40> Yawarana \\
-\begingl
+\ex Yawarana \\
+\label{ctorat-40}\begingl
 \glpreamble  tipapëjsejne waijtajne //
 \gla tipa-pëj-se-jne waijta-jne//
 \glb go.group-PLUR-PST-PL mouse-PL//
@@ -60,22 +60,30 @@ suffixes.
 
 \subsection{Person}
 
-Person marking is identical on transitive and intransitive verbs:
-
-\pex
-\a<convrisamaj-28> Yawarana\\
-\begingl
+\ex Yawarana \\
+\label{convrisamaj-28}\begingl
 \glpreamble  uyïwïj yawë usenejkari sukuri jwama //
 \gla u-y-ïwïj yawë u-s-enejka-ri sukuri jwama//
-\glb 1-LK-house TEMP.LOC 1-DETRZ-watch-IPFV quietly ***//
+\glb 1-LK-house LOC 1-DETRZ-watch-NMLZ quietly ***//
 \glft ‘yo me quedo en mi casa tranquila’//  
 \endgl 
-\a<convrisamaj-02> Yawarana\\
-\begingl
-\glpreamble  mëyaruwari, mëpëkëpene //
-\gla më-yaruwa-ri më-pëkëpene//
-\glb 2-laugh-IPFV 2-alone//
-\glft ‘usted se rie sola’//  
+\xe
+
+\ex Yawarana \\
+\label{desccasmaj-008}\begingl
+\glpreamble  sere mëkase //
+\gla sere më-ka-se//
+\glb cassava.bread 2-take.out-PTCP//
+\glft ‘cuando uno va a arrancar yuca’//  
+\endgl 
+\xe
+
+\ex Yawarana \\
+\label{anfoperso-26}\begingl
+\glpreamble  taturu makampra ya ana yoti //
+\gla ta-tu-ru makampra ya ana y-oti//
+\glb 3P-give-IPFV maternal.aunt:VOC OBL 1+3 LK-game.food//
+\glft ‘mi tía lo da comida de nosotros’//  
 \endgl 
 \xe
 
@@ -87,14 +95,28 @@ This aspect-marking morpheme is known from other Cariban languages
 \parencite{mattiola2020pluractional}. This example illustrates its
 \obj{-pëj} allomorph:
 
-\ex<ctorat-40> Yawarana \\
-\begingl
+\ex Yawarana \\
+\label{ctorat-40}\begingl
 \glpreamble  tipapëjsejne waijtajne //
 \gla tipa-pëj-se-jne waijta-jne//
 \glb go.group-PLUR-PST-PL mouse-PL//
 \glft ‘las ratas se fueron’//  
 \endgl 
 \xe
+
+``Cuento de las ratas por AnFo'' And this example illustrates its
+\obj{-pëti} allomorph:
+
+\ex Yawarana \\
+\label{ctorat-32}\begingl
+\glpreamble  waraijtokomo ya inpëti ti //
+\gla waraijtokomo ya in-pëti-∅ ti//
+\glb man OBL see-PLUR-IPFV QUOT//
+\glft ‘el hombre lo estaba viendo’//  
+\endgl 
+\xe
+
+Yawarana
 
 \subsection{Tense}
 
@@ -103,22 +125,22 @@ This aspect-marking morpheme is known from other Cariban languages
 \obj{-jpë} is etymologically a nominalizer, but now it also functions as
 a simple past marker:
 
-\ex<anfoperso-02> Yawarana \\
-\begingl
+\ex Yawarana \\
+\label{anfoperso-02}\begingl
 \glpreamble  ana këyetajpë, intipijkë ana chi yawë //
 \gla ana këyeta-jpë intipijkë ana chi-∅ yawë//
-\glb 1+3 grow.up-PST a.little 1+3 COP-IPFV TEMP.LOC//
+\glb 1+3 grow.up-PST a.little 1+3 COP-NMLZ LOC//
 \glft ‘nos criamos cuando estábamos chiquiticos nosotros’//  
 \endgl 
 \xe
 
 It also occurs on nouns:
 
-\ex<anfoperso-17> Yawarana \\
-\begingl
+\ex Yawarana \\
+\label{anfoperso-17}\begingl
 \glpreamble  tawara ma ana këyetajpë, ana papa pan patajpë të //
-\gla tawara ma-∅ ana këyeta-jpë ana papa pan pata-jpë të-∅//
-\glb too throw-IPFV 1+3 grow.up-PST 1+3 father:VOC deceased town-PST go-IPFV//
+\gla tawara ma ana këyeta-jpë ana papa pan pata-jpë të//
+\glb too RESTR 1+3 grow.up-PST 1+3 father:VOC deceased town-PST LOC//
 \glft ‘así nos criamos después de que se murió mi papá en su pueblo’//  
 \endgl 
 \xe
@@ -129,8 +151,8 @@ The suffix \obj{-se} can be used to express a co-called supine meaning,
 i.e., purpose of motion. Intransitive verbs occur unprefixed, while
 transitive verbs can carry person prefixes.
 
-\ex<ctorat-03> Yawarana \\
-\begingl
+\ex Yawarana \\
+\label{ctorat-03}\begingl
 \glpreamble  enijpëtërë waraijtokomo ijtëse ti mïjna tëijpo wïnïjse //
 \gla enijpëtërë waraijtokomo ij-të-se ti mïjna tëijpo wïnïj-se//
 \glb one man 3-go-PST QUOT there far sleep-SUP//
@@ -146,18 +168,6 @@ TODO: write
 
 TODO: write
 
-\subsection{Nominal possession}
-
 \printbibliography
-
-% 
-% \input{verbs.tex}
-% 
-% \input{postp.tex}
-% 
-% \input{nouns.tex}
-% 
-% \input{possession.tex}
-% 
 
 \end{document}

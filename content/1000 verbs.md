@@ -1,6 +1,6 @@
 # Verbs [label](sec:verbs)
 
-TODO: write introduction
+TODO: write introduction about verbs
 
 [ref](sec:verb-template)
 
@@ -18,10 +18,14 @@ The relative order of three tense-aspect-mood suffixes can be seen in the follow
 More data is needed to firmly establish the relative order of all suffixes.
 
 ## Person
-Person marking is identical on transitive and intransitive verbs:
 
-[ex](convrisamaj-28,convrisamaj-02)
+[ex](convrisamaj-28)
 
+
+[ex](desccasmaj-008)
+
+
+[ex](anfoperso-26)
 
 
 ## Aspect
@@ -30,7 +34,14 @@ Person marking is identical on transitive and intransitive verbs:
 This aspect-marking morpheme is known from other Cariban languages [psrc](mattiola2020pluractional).
 This example illustrates its [m](plur2) allomorph:
 
-[ex](ctorat-40)
+[ex](ctorat-40?withLanguage=False)
+
+[txt](CtoRat)
+And this example illustrates its [m](plur1) allomorph:
+
+[ex](ctorat-32)
+
+[lg](yab)
 
 ## Tense
 ### [mp](jpepst)

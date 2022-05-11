@@ -1,10 +1,12 @@
+**Do not cite from this branch**.
+
 # A digital sketch grammar of Yawarana
 
 * author: Florian Matter ([0000-0002-2545-5154](https://orcid.org/0000-0002-2545-5154), University of Oregon and University of Bern)
 
 * version: `0.0.1.draft`
 
-Created using [pylingdocs](https://github.com/fmatter/pylingdocs/) v0.0.1.dev.
+Created using [pylingdocs](https://github.com/fmatter/pylingdocs/) v0.0.2.dev.
 The available output formats are in [output](./output); if you are viewing this readme
 in a browser, you probably want the [github formatted output](./output/github).
 
