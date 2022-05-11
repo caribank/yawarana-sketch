@@ -1,14 +1,18 @@
 # A digital sketch grammar of Yawarana
 
-# Verbs (label:sec:verbs)
+# Verbs
+
+(label:sec:verbs)
 
 TODO: write introduction about verbs
 
 (ref:sec:verb-template)
 
-## Basic morphological template (label:sec:verb-template)
+## Basic morphological template
 
-The following table shows the morpological template of Yawarana verbs,
+(label:sec:verb-template)
+
+The following table shows a morpological template of Yawarana verbs,
 i.e. the order in which bound morphemes can occur within a vebral word
 form.
 
@@ -107,14 +111,6 @@ transitive verbs can carry person prefixes.
 > enijpëtërë  waraijtokomo  ij-të-se  ti    mïjna  tëijpo  wïnïj-se  
 > one         man           3-go-PST  QUOT  there  far     sleep-SUP  
 > ‘un hombre se fué allá, a dormir lejos’</pre>
-
-# Postpositions
-
-TODO: write
-
-# Nouns
-
-TODO: write
 
 # References
 

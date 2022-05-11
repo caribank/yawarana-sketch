@@ -1,3 +1,0 @@
-# Nouns
-
-TODO: write

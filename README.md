@@ -1,5 +1,3 @@
-**Do not cite from this branch**.
-
 # A digital sketch grammar of Yawarana
 
 * author: Florian Matter ([0000-0002-2545-5154](https://orcid.org/0000-0002-2545-5154), University of Oregon and University of Bern)
@@ -17,6 +15,7 @@ To refer to the content of unreleased versions:
     author = "Matter, Florian",
     year = "2022",
     title = "A digital sketch grammar of Yawarana (version 0.0.1.draft)",
-    url = "https://github.com/fmatter/yawarana-sketch"
+    urldate = "2022-05-11",
+    url = "https://github.com/fmatter/yawarana-sketch/tree/0.0.1.draft"
 }
 ```

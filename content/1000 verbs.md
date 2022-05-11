@@ -1,12 +1,14 @@
-# Verbs [label](sec:verbs)
+# Verbs
+[label](sec:verbs)
 
 TODO: write introduction about verbs
 
 [ref](sec:verb-template)
 
-## Basic morphological template [label](sec:verb-template)
+## Basic morphological template
+[label](sec:verb-template)
 
-The following table shows the morpological template of [lg](yab) verbs, i.e. the order in which bound morphemes can occur within a vebral word form.
+The following table shows a morpological template of [lg](yab) verbs, i.e. the order in which bound morphemes can occur within a vebral word form.
 
 [table](verb_templ)
 
