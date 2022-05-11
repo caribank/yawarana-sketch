@@ -3,12 +3,3 @@ document:
   parts:
     verbs:
       title: Verbs
-    postp:
-      title: Postpositions
-    nouns:
-      title: Nouns
-      abstract: The abstract for the nouns chapter
-      parts:
-        possession:
-          title: Nominal possession
-          abstract: Another abstract

@@ -1,21 +1,24 @@
  <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="interlinear.css">
+<link rel="stylesheet" href="examples.css">
+<link rel="stylesheet" href="sections.css">
+<link rel="stylesheet" href="https://latex.now.sh/style.css">
 <title>A digital sketch grammar of Yawarana</title>
 </head>
 <body>
 
 <h1>A digital sketch grammar of Yawarana</h1>
 
-<h2 id="verbs-label-placeholder">Verbs (label placeholder)</h2>
-<p>TODO: write introduction</p>
-<p>(crossref placeholder)</p>
-<h3 id="basic-morphological-template-label-placeholder">Basic
-morphological template (label placeholder)</h3>
-<p>The following table shows the morpological template of Yawarana
-verbs, i.e. the order in which bound morphemes can occur within a vebral
-word form.</p>
+<h2 id="verbs">Verbs</h2>
+<p><a href="sec:verbs">label</a></p>
+<p>TODO: write introduction about verbs</p>
+<p><a href="sec:verb-template">ref</a></p>
+<h3 id="basic-morphological-template">Basic morphological template</h3>
+<p><a href="sec:verb-template">label</a></p>
+<p>The following table shows a morpological template of Yawarana verbs,
+i.e. the order in which bound morphemes can occur within a vebral word
+form.</p>
 <table border="1" class="dataframe">
 <thead>
 <tr style="text-align: right;">
@@ -84,166 +87,284 @@ Number
 <p>The first slot contains personal prefixes. The relative order of
 three tense-aspect-mood suffixes can be seen in the following
 example:</p>
-<!-- adapted from https://linguistics.stackexchange.com/a/534 -->
-<div class="interlinear">
-(ctorat-40) <div class="surf"> tipapëjsejne waijtajne</div>
-<div class="intlin">
-    <span class="obj">tipa-pëj-se-jne</span>
-    <span class="trans">go.group-PLUR-PST-PL</span>
-</div>
-<div class="intlin">
-    <span class="obj">waijta-jne</span>
-    <span class="trans">mouse-PL</span>
-</div>
-<div class="freetrans">‘las ratas se fueron’</div><br>
-</div>
+<ol class="example">
+<li class=example id ="ctorat-40">
+  <div class="interlinear">
+      <div class="surf"> tipapëjsejne waijtajne</div>
+        <div class="intlin">
+          <span class="obj">tipa-pëj-se-jne</span>
+          <span class="trans">go.group-PLUR-PST-PL</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">waijta-jne</span>
+          <span class="trans">mouse-PL</span>
+        </div>
+    <div class="freetrans">‘las ratas se fueron’
+        </div>
+  </div>
+</li>
+</ol>
 <p>More data is needed to firmly establish the relative order of all
 suffixes.</p>
 <h3 id="person">Person</h3>
-<p>Person marking is identical on transitive and intransitive verbs:</p>
-<p>&lt;pycldf.orm.Example id=“convrisamaj-02”&gt; &lt;pycldf.orm.Example
-id=“convrisamaj-28”&gt;</p>
+<ol class="example">
+<li class=example id ="convrisamaj-28">
+  <div class="interlinear">
+      <div class="surf"> uyïwïj yawë usenejkari sukuri jwama</div>
+        <div class="intlin">
+          <span class="obj">u-y-ïwïj</span>
+          <span class="trans">1-LK-house</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">yawë</span>
+          <span class="trans">LOC</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">u-s-enejka-ri</span>
+          <span class="trans">1-DETRZ-watch-NMLZ</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">sukuri</span>
+          <span class="trans">quietly</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">jwama</span>
+          <span class="trans">***</span>
+        </div>
+    <div class="freetrans">‘yo me quedo en mi casa tranquila’
+        </div>
+  </div>
+</li>
+</ol>
+<ol class="example">
+<li class=example id ="desccasmaj-008">
+  <div class="interlinear">
+      <div class="surf"> sere mëkase</div>
+        <div class="intlin">
+          <span class="obj">sere</span>
+          <span class="trans">cassava.bread</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">më-ka-se</span>
+          <span class="trans">2-take.out-PTCP</span>
+        </div>
+    <div class="freetrans">‘cuando uno va a arrancar yuca’
+        </div>
+  </div>
+</li>
+</ol>
+<ol class="example">
+<li class=example id ="anfoperso-26">
+  <div class="interlinear">
+      <div class="surf"> taturu makampra ya ana yoti</div>
+        <div class="intlin">
+          <span class="obj">ta-tu-ru</span>
+          <span class="trans">3P-give-IPFV</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">makampra</span>
+          <span class="trans">maternal.aunt:VOC</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ya</span>
+          <span class="trans">OBL</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ana</span>
+          <span class="trans">1+3</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">y-oti</span>
+          <span class="trans">LK-game.food</span>
+        </div>
+    <div class="freetrans">‘mi tía lo da comida de nosotros’
+        </div>
+  </div>
+</li>
+</ol>
 <h3 id="aspect">Aspect</h3>
 <h4 id="the-pluractional-marker--pëti.">The pluractional marker
 <i>-pëti</i>.</h4>
 <p>This aspect-marking morpheme is known from other Cariban languages
 (<a href="#source-mattiola2020pluractional">Mattiola and Gildea under
 review</a>). This example illustrates its <i>-pëj</i> allomorph:</p>
-<!-- adapted from https://linguistics.stackexchange.com/a/534 -->
-<div class="interlinear">
-(ctorat-40) <div class="surf"> tipapëjsejne waijtajne</div>
-<div class="intlin">
-    <span class="obj">tipa-pëj-se-jne</span>
-    <span class="trans">go.group-PLUR-PST-PL</span>
-</div>
-<div class="intlin">
-    <span class="obj">waijta-jne</span>
-    <span class="trans">mouse-PL</span>
-</div>
-<div class="freetrans">‘las ratas se fueron’</div><br>
-</div>
+<ol class="example">
+<li class=example id ="ctorat-40">
+  <div class="interlinear">
+      <div class="surf"> tipapëjsejne waijtajne</div>
+        <div class="intlin">
+          <span class="obj">tipa-pëj-se-jne</span>
+          <span class="trans">go.group-PLUR-PST-PL</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">waijta-jne</span>
+          <span class="trans">mouse-PL</span>
+        </div>
+    <div class="freetrans">‘las ratas se fueron’
+        </div>
+  </div>
+</li>
+</ol>
+<p>“Cuento de las ratas por AnFo” And this example illustrates its
+<i>-pëti</i> allomorph:</p>
+<ol class="example">
+<li class=example id ="ctorat-32">
+  <div class="interlinear">
+      <div class="surf"> waraijtokomo ya inpëti ti</div>
+        <div class="intlin">
+          <span class="obj">waraijtokomo</span>
+          <span class="trans">man</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ya</span>
+          <span class="trans">OBL</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">in-pëti-∅</span>
+          <span class="trans">see-PLUR-IPFV</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ti</span>
+          <span class="trans">QUOT</span>
+        </div>
+    <div class="freetrans">‘el hombre lo estaba viendo’
+        </div>
+  </div>
+</li>
+</ol>
+<p>Yawarana</p>
 <h3 id="tense">Tense</h3>
 <h4 id="jpë"><i>-jpë</i></h4>
 <p><i>-jpë</i> is etymologically a nominalizer, but now it also
 functions as a simple past marker:</p>
-<!-- adapted from https://linguistics.stackexchange.com/a/534 -->
-<div class="interlinear">
-(anfoperso-02) <div class="surf"> ana këyetajpë, intipijkë ana chi yawë</div>
-<div class="intlin">
-    <span class="obj">ana</span>
-    <span class="trans">1+3</span>
-</div>
-<div class="intlin">
-    <span class="obj">këyeta-jpë</span>
-    <span class="trans">grow.up-PST</span>
-</div>
-<div class="intlin">
-    <span class="obj">intipijkë</span>
-    <span class="trans">a.little</span>
-</div>
-<div class="intlin">
-    <span class="obj">ana</span>
-    <span class="trans">1+3</span>
-</div>
-<div class="intlin">
-    <span class="obj">chi-∅</span>
-    <span class="trans">COP-IPFV</span>
-</div>
-<div class="intlin">
-    <span class="obj">yawë</span>
-    <span class="trans">TEMP.LOC</span>
-</div>
-<div class="freetrans">‘nos criamos cuando estábamos chiquiticos nosotros’</div><br>
-</div>
+<ol class="example">
+<li class=example id ="anfoperso-02">
+  <div class="interlinear">
+      <div class="surf"> ana këyetajpë, intipijkë ana chi yawë</div>
+        <div class="intlin">
+          <span class="obj">ana</span>
+          <span class="trans">1+3</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">këyeta-jpë</span>
+          <span class="trans">grow.up-PST</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">intipijkë</span>
+          <span class="trans">a.little</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ana</span>
+          <span class="trans">1+3</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">chi-∅</span>
+          <span class="trans">COP-NMLZ</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">yawë</span>
+          <span class="trans">LOC</span>
+        </div>
+    <div class="freetrans">‘nos criamos cuando estábamos chiquiticos nosotros’
+        </div>
+  </div>
+</li>
+</ol>
 <p>It also occurs on nouns:</p>
-<!-- adapted from https://linguistics.stackexchange.com/a/534 -->
-<div class="interlinear">
-(anfoperso-17) <div class="surf"> tawara ma ana këyetajpë, ana papa pan patajpë të</div>
-<div class="intlin">
-    <span class="obj">tawara</span>
-    <span class="trans">too</span>
-</div>
-<div class="intlin">
-    <span class="obj">ma-∅</span>
-    <span class="trans">throw-IPFV</span>
-</div>
-<div class="intlin">
-    <span class="obj">ana</span>
-    <span class="trans">1+3</span>
-</div>
-<div class="intlin">
-    <span class="obj">këyeta-jpë</span>
-    <span class="trans">grow.up-PST</span>
-</div>
-<div class="intlin">
-    <span class="obj">ana</span>
-    <span class="trans">1+3</span>
-</div>
-<div class="intlin">
-    <span class="obj">papa</span>
-    <span class="trans">father:VOC</span>
-</div>
-<div class="intlin">
-    <span class="obj">pan</span>
-    <span class="trans">deceased</span>
-</div>
-<div class="intlin">
-    <span class="obj">pata-jpë</span>
-    <span class="trans">town-PST</span>
-</div>
-<div class="intlin">
-    <span class="obj">të-∅</span>
-    <span class="trans">go-IPFV</span>
-</div>
-<div class="freetrans">‘así nos criamos después de que se murió mi papá en su pueblo’</div><br>
-</div>
+<ol class="example">
+<li class=example id ="anfoperso-17">
+  <div class="interlinear">
+      <div class="surf"> tawara ma ana këyetajpë, ana papa pan patajpë të</div>
+        <div class="intlin">
+          <span class="obj">tawara</span>
+          <span class="trans">too</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ma</span>
+          <span class="trans">RESTR</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ana</span>
+          <span class="trans">1+3</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">këyeta-jpë</span>
+          <span class="trans">grow.up-PST</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ana</span>
+          <span class="trans">1+3</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">papa</span>
+          <span class="trans">father:VOC</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">pan</span>
+          <span class="trans">deceased</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">pata-jpë</span>
+          <span class="trans">town-PST</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">të</span>
+          <span class="trans">LOC</span>
+        </div>
+    <div class="freetrans">‘así nos criamos después de que se murió mi papá en su pueblo’
+        </div>
+  </div>
+</li>
+</ol>
 <h4 id="the-supine">The supine</h4>
 <p>The suffix <i>-se</i> can be used to express a co-called supine
 meaning, i.e., purpose of motion. Intransitive verbs occur unprefixed,
 while transitive verbs can carry person prefixes.</p>
-<!-- adapted from https://linguistics.stackexchange.com/a/534 -->
-<div class="interlinear">
-(ctorat-03) <div class="surf"> enijpëtërë waraijtokomo ijtëse ti mïjna tëijpo wïnïjse</div>
-<div class="intlin">
-    <span class="obj">enijpëtërë</span>
-    <span class="trans">one</span>
-</div>
-<div class="intlin">
-    <span class="obj">waraijtokomo</span>
-    <span class="trans">man</span>
-</div>
-<div class="intlin">
-    <span class="obj">ij-të-se</span>
-    <span class="trans">3-go-PST</span>
-</div>
-<div class="intlin">
-    <span class="obj">ti</span>
-    <span class="trans">QUOT</span>
-</div>
-<div class="intlin">
-    <span class="obj">mïjna</span>
-    <span class="trans">there</span>
-</div>
-<div class="intlin">
-    <span class="obj">tëijpo</span>
-    <span class="trans">far</span>
-</div>
-<div class="intlin">
-    <span class="obj">wïnïj-se</span>
-    <span class="trans">sleep-SUP</span>
-</div>
-<div class="freetrans">‘un hombre se fué allá, a dormir lejos’</div><br>
-</div>
-<h2 id="postpositions">Postpositions</h2>
-<p>TODO: write</p>
-<h2 id="nouns">Nouns</h2>
-<p>TODO: write</p>
-<h3 id="nominal-possession">Nominal possession</h3>
+<ol class="example">
+<li class=example id ="ctorat-03">
+  <div class="interlinear">
+      <div class="surf"> enijpëtërë waraijtokomo ijtëse ti mïjna tëijpo wïnïjse</div>
+        <div class="intlin">
+          <span class="obj">enijpëtërë</span>
+          <span class="trans">one</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">waraijtokomo</span>
+          <span class="trans">man</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ij-të-se</span>
+          <span class="trans">3-go-PST</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ti</span>
+          <span class="trans">QUOT</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">mïjna</span>
+          <span class="trans">there</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">tëijpo</span>
+          <span class="trans">far</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">wïnïj-se</span>
+          <span class="trans">sleep-SUP</span>
+        </div>
+    <div class="freetrans">‘un hombre se fué allá, a dormir lejos’
+        </div>
+  </div>
+</li>
+</ol>
 <h2 id="references">References</h2>
 <ul>
 <li><a id="source-mattiola2020pluractional"> </a>Mattiola, Simone and
 Gildea, Spike. under review. The pluractional marker -pödï of Akawaio
 (Cariban) and beyond.</li>
 </ul>
+
+<script src="examples.js"></script> 
+
 </body>
 </html> 
