@@ -1,127 +1,344 @@
  <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <link rel="stylesheet" href="examples.css">
+<link rel="stylesheet" href="styling.css">
 <link rel="stylesheet" href="sections.css">
-<link rel="stylesheet" href="https://latex.now.sh/style.css">
+<!-- <link rel="stylesheet" href="https://latex.now.sh/style.css"> -->
 <title>A digital sketch grammar of Yawarana</title>
 </head>
 <body>
 
+<article>
 <h1>A digital sketch grammar of Yawarana</h1>
+<div class="author">Florian Matter and Natalia Cáceres Arandia and Spike Gildea</div>
 
-<h2 id="verbs">Verbs</h2>
-<p><a href="sec:verbs">label</a></p>
-<p>TODO: write introduction about verbs</p>
-<p><a href="sec:verb-template">ref</a></p>
-<h3 id="basic-morphological-template">Basic morphological template</h3>
-<p><a href="sec:verb-template">label</a></p>
-<p>The following table shows a morpological template of Yawarana verbs,
-i.e. the order in which bound morphemes can occur within a vebral word
-form.</p>
+<h2 id="intro">Introduction</h2>
+<p><a id='intro'></a></p>
+<h3 id="sec:people">The Yawarana people and their language</h3>
+<p><a id='sec:people'></a></p>
+<h3 id="sec:context">Location, historical records</h3>
+<p><a id='sec:context'></a></p>
+<h3 id="sec:currentlife">Current life</h3>
+<p><a id='sec:currentlife'></a></p>
+<h3 id="sec:vitality">Sociolinguistic vitality</h3>
+<p><a id='sec:vitality'></a></p>
+<h3 id="sec:previous">Previous studies on the Yawarana language</h3>
+<p><a id='sec:previous'></a></p>
+<h3 id="sec:thisproject">This project</h3>
+<p><a id='sec:thisproject'></a></p>
+<h2 id="phono">Phonetics and phonology</h2>
+<p><a id='phono'></a></p>
+<h3 id="sec:segmental">Segmental phonetics and phonemes</h3>
+<p><a id='sec:segmental'></a> The consonant phonemes of Yawarana are
+shown in
+<a href='#tab:consonants' class='crossref' name='tab:consonants'>ref</a>,
+and the vowels in
+<a href='#tab:vowels' class='crossref' name='tab:vowels'>ref</a>. This
+is a fairly standard Cariban phoneme inventory, only departing from the
+mainstream by the addition of /t͡ʃ/.</p>
 <table border="1" class="dataframe">
+<caption class="table" id="tab:consonants">
+Consonant phonemes
+</caption>
 <thead>
 <tr style="text-align: right;">
 <th>
-Prefix
 </th>
 <th>
-Root
+bilabial
 </th>
 <th>
-Aspect
+alveolar
 </th>
 <th>
-Tense
+palatal
 </th>
 <th>
-Number
+velar
+</th>
+<th>
+glottal
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<i>i-</i>
+occlusive
 </td>
 <td>
+/p/
 </td>
 <td>
-<i>-pëti</i>
+/t/
 </td>
 <td>
-<i>-se</i>
+/t͡ʃ/
 </td>
 <td>
-<i>-jnë</i>
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td>
-<i>-jpë</i>
+/k/
 </td>
 <td>
 </td>
 </tr>
 <tr>
 <td>
+nasal
+</td>
+<td>
+/m/
+</td>
+<td>
+/n/
+</td>
+<td>
+/ɲ/
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+fricative
+</td>
+<td>
+</td>
+<td>
+/s/
 </td>
 <td>
 </td>
 <td>
 </td>
 <td>
-<i>-tojpe</i>
+/h/
+</td>
+</tr>
+<tr>
+<td>
+liquid
+</td>
+<td>
+</td>
+<td>
+/r/
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+glide
+</td>
+<td>
+/w/
+</td>
+<td>
+</td>
+<td>
+/j/
+</td>
+<td>
 </td>
 <td>
 </td>
 </tr>
 </tbody>
 </table>
-<p>The first slot contains personal prefixes. The relative order of
-three tense-aspect-mood suffixes can be seen in the following
-example:</p>
-<ol class="example">
-<li class=example id ="ctorat-40">
-  <div class="interlinear">
-      <div class="surf"> tipapëjsejne waijtajne</div>
-        <div class="intlin">
-          <span class="obj">tipa-pëj-se-jne</span>
-          <span class="trans">go.group-PLUR-PST-PL</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">waijta-jne</span>
-          <span class="trans">mouse-PL</span>
-        </div>
-    <div class="freetrans">‘las ratas se fueron’
-        </div>
-  </div>
-</li>
-</ol>
-<p>More data is needed to firmly establish the relative order of all
-suffixes.</p>
-<h3 id="person">Person</h3>
+<table border="1" class="dataframe">
+<caption class="table" id="tab:vowels">
+Vowel phonemes
+</caption>
+<thead>
+<tr style="text-align: right;">
+<th>
+</th>
+<th>
+front
+</th>
+<th>
+central
+</th>
+<th>
+back
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+close
+</td>
+<td>
+/i/
+</td>
+<td>
+/ɨ/
+</td>
+<td>
+/u/
+</td>
+</tr>
+<tr>
+<td>
+mid
+</td>
+<td>
+/e/
+</td>
+<td>
+/ə/
+</td>
+<td>
+/o/
+</td>
+</tr>
+<tr>
+<td>
+open
+</td>
+<td>
+</td>
+<td>
+/a/
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
+<h4 id="sec:consonants">Consonants</h4>
+<p><a id='sec:consonants'></a></p>
+<h4 id="sec:vowels">Vowels</h4>
+<p><a id='sec:vowels'></a></p>
+<h3 id="sec:morphophono">Morphophonological Processes</h3>
+<p><a id='sec:morphophono'></a></p>
+<h4 id="sec:sylred">Syllable Reduction</h4>
+<p><a id='sec:sylred'></a></p>
+<h4 id="sec:vowelharm">Vowel harmony?</h4>
+<p><a id='sec:vowelharm'></a></p>
+<h3 id="sec:prosody">Prosody</h3>
+<p><a id='sec:prosody'></a></p>
+<h4 id="sec:stress">Lexical stress</h4>
+<p><a id='sec:stress'></a></p>
+<h4 id="sec:intphrases">Intonational Phrases</h4>
+<p><a id='sec:intphrases'></a></p>
+<h4 id="sec:intmelodies">Intonational Melodies</h4>
+<p><a id='sec:intmelodies'></a></p>
+<h3 id="sec:histphono">Historical Considerations</h3>
+<p><a id='sec:histphono'></a></p>
+<h2 id="POS">Distinguishing parts of speech in Yawarana</h2>
+<p><a id='POS'></a></p>
+<h2 id="nouns">Nouns</h2>
+<p><a id='nouns'></a></p>
+<h3 id="sec:pronouns">Pronouns</h3>
+<p><a id='sec:pronouns'></a> * person pronouns * full forms * reduced
+forms</p>
+<table border="1" class="dataframe">
+<caption class="table" id="tab:pronouns">
+Pronouns
+</caption>
+<thead>
+<tr style="text-align: right;">
+<th>
+</th>
+<th>
+<span class="gloss">sg <span class="tooltiptext gloss-sg"></span></span>
+</th>
+<th>
+<span class="gloss">pl <span class="tooltiptext gloss-pl"></span></span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span class="gloss">1 <span class="tooltiptext gloss-1"></span></span>
+</td>
+<td>
+<i>wïrë</i>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">1+2 <span
+class="tooltiptext gloss-1+2"></span></span>
+</td>
+<td>
+</td>
+<td>
+<i>ejnë</i>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">1+3 <span
+class="tooltiptext gloss-1+3"></span></span>
+</td>
+<td>
+</td>
+<td>
+<i>ana</i>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">2 <span class="tooltiptext gloss-2"></span></span>
+</td>
+<td>
+<i>mërë</i>
+</td>
+<td>
+<i>mokontomo</i>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">3 <span class="tooltiptext gloss-3"></span></span>
+</td>
+<td>
+<i>tëwï</i>
+</td>
+<td>
+<i>tëwïsantomo</i>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Short forms of the first and second person pronouns can only occur as
+proclitics attaching to nouns to indicate possessor (described below in
+this chapter), attached to verbs to indicate subject or object
+(described in
+<a href='#verbinfl' class='crossref' name='verbinfl'>ref</a>), or
+attached to postpositions to indicate object of the postposition
+(described in
+<a href='#postp' class='crossref' name='postp'>ref</a>):</p>
 <ol class="example">
 <li class=example id ="convrisamaj-28">
   <div class="interlinear">
-      <div class="surf"> uyïwïj yawë usenejkari sukuri jwama</div>
+    Yawarana
+       <div class="surf"> uyïwïj yawë usenejkari sukuri jwama</div>
         <div class="intlin">
           <span class="obj">u-y-ïwïj</span>
-          <span class="trans">1-LK-house</span>
+          <span class="trans"><span class="gloss">1 <span class="tooltiptext gloss-1" ></span></span>-<span class="gloss">lk <span class="tooltiptext gloss-lk" ></span></span>-house</span>
         </div>
         <div class="intlin">
           <span class="obj">yawë</span>
-          <span class="trans">LOC</span>
+          <span class="trans"><span class="gloss">loc <span class="tooltiptext gloss-loc" ></span></span></span>
         </div>
         <div class="intlin">
-          <span class="obj">u-s-enejka-ri</span>
-          <span class="trans">1-DETRZ-watch-NMLZ</span>
+          <span class="obj">u-senejka-ri</span>
+          <span class="trans"><span class="gloss">1 <span class="tooltiptext gloss-1" ></span></span>-remain-<span class="gloss">ipfv <span class="tooltiptext gloss-ipfv" ></span></span></span>
         </div>
         <div class="intlin">
           <span class="obj">sukuri</span>
@@ -131,240 +348,1187 @@ suffixes.</p>
           <span class="obj">jwama</span>
           <span class="trans">***</span>
         </div>
-    <div class="freetrans">‘yo me quedo en mi casa tranquila’
+    <div class="freetrans">‘I silently stay in my house.’
         </div>
   </div>
 </li>
 </ol>
 <ol class="example">
-<li class=example id ="desccasmaj-008">
+<li class=example id ="desccasmaj-025">
   <div class="interlinear">
-      <div class="surf"> sere mëkase</div>
+    Yawarana
+       <div class="surf"> mënai wëjkase chijpë wararë</div>
         <div class="intlin">
-          <span class="obj">sere</span>
-          <span class="trans">cassava.bread</span>
+          <span class="obj">më-nai-∅</span>
+          <span class="trans">?</span>
         </div>
         <div class="intlin">
-          <span class="obj">më-ka-se</span>
-          <span class="trans">2-take.out-PTCP</span>
+          <span class="obj">wëjka-se</span>
+          <span class="trans">?</span>
         </div>
-    <div class="freetrans">‘cuando uno va a arrancar yuca’
+        <div class="intlin">
+          <span class="obj">chi-jpë</span>
+          <span class="trans">?</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">?</span>
+          <span class="trans">?</span>
+        </div>
+    <div class="freetrans">‘se cayó tu cosa’
         </div>
   </div>
 </li>
 </ol>
 <ol class="example">
-<li class=example id ="anfoperso-26">
+<li class=example id ="convrisamaj-02">
   <div class="interlinear">
-      <div class="surf"> taturu makampra ya ana yoti</div>
+    Yawarana
+       <div class="surf"> mëyaruwari, mëpëkëpene</div>
         <div class="intlin">
-          <span class="obj">ta-tu-ru</span>
-          <span class="trans">3P-give-IPFV</span>
+          <span class="obj">më-yaruwa-ri</span>
+          <span class="trans"><span class="gloss">2 <span class="tooltiptext gloss-2" ></span></span>-laugh-<span class="gloss">ipfv <span class="tooltiptext gloss-ipfv" ></span></span></span>
         </div>
         <div class="intlin">
-          <span class="obj">makampra</span>
-          <span class="trans">maternal.aunt:VOC</span>
+          <span class="obj">më-pëkëpene</span>
+          <span class="trans"><span class="gloss">2 <span class="tooltiptext gloss-2" ></span></span>-alone</span>
         </div>
-        <div class="intlin">
-          <span class="obj">ya</span>
-          <span class="trans">OBL</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">ana</span>
-          <span class="trans">1+3</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">y-oti</span>
-          <span class="trans">LK-game.food</span>
-        </div>
-    <div class="freetrans">‘mi tía lo da comida de nosotros’
+    <div class="freetrans">‘You just laugh.’
         </div>
   </div>
 </li>
 </ol>
-<h3 id="aspect">Aspect</h3>
-<h4 id="the-pluractional-marker--pëti.">The pluractional marker
-<i>-pëti</i>.</h4>
-<p>This aspect-marking morpheme is known from other Cariban languages
-(<a href="#source-mattiola2020pluractional">Mattiola and Gildea under
-review</a>). This example illustrates its <i>-pëj</i> allomorph:</p>
+<ul>
+<li>Demonstrative pronouns / articles
+<ul>
+<li>4‑way distinction? (cf. Ye’kwana?)</li>
+</ul></li>
+</ul>
+<table border="1" class="dataframe">
+<caption class="table" id="tab:pronouns3">
+Demonstrative pronouns / articles
+</caption>
+<thead>
+<tr style="text-align: right;">
+<th>
+</th>
+<th>
+<span class="gloss">anim <span
+class="tooltiptext gloss-anim"></span></span>
+</th>
+<th>
+</th>
+<th>
+<span class="gloss">inan <span
+class="tooltiptext gloss-inan"></span></span>
+</th>
+<th>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+<span class="gloss">sg <span class="tooltiptext gloss-sg"></span></span>
+</td>
+<td>
+<span class="gloss">pl <span class="tooltiptext gloss-pl"></span></span>
+</td>
+<td>
+<span class="gloss">sg <span class="tooltiptext gloss-sg"></span></span>
+</td>
+<td>
+<span class="gloss">pl <span class="tooltiptext gloss-pl"></span></span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">prox <span
+class="tooltiptext gloss-prox"></span></span>
+</td>
+<td>
+<i>kërë</i>
+</td>
+<td>
+<em>kërësantomo</em>
+</td>
+<td>
+<i>eni</i>
+</td>
+<td>
+<i>eni</i>-<em>santomo</em>
+</td>
+</tr>
+<tr>
+<td>
+medial? near?
+</td>
+<td>
+<i>michi</i>
+</td>
+<td>
+</td>
+<td>
+<i>mërë</i>
+</td>
+<td>
+<i>mërë</i>-<em>santomo</em>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">dist <span
+class="tooltiptext gloss-dist"></span></span>
+</td>
+<td>
+<i>mëkï</i>
+</td>
+<td>
+<i>mëkïsantomo</i>
+</td>
+<td>
+<i>mënï</i>
+</td>
+<td>
+<i>mënï</i>-<em>santomo</em>
+</td>
+</tr>
+</tbody>
+</table>
+<p>None of the demonstrative pronouns become shortened forms or
+prefixes.</p>
+<ul>
+<li>Nominal Interrogative pronouns:
+<ul>
+<li><i>aniki</i> ‘who? anim’</li>
+<li><i>ati</i> ‘what? inan’</li>
+<li><em>ëjkë</em> ‘which? inan’</li>
+</ul></li>
+<li>No plural forms for any of these?</li>
+</ul>
+<h3 id="sec:nouninfl">Inflected nouns</h3>
+<p><a id='sec:nouninfl'></a></p>
+<p>Nouns in Yawarana may bear suffixes for possession
+(<a href='#sec:nounposssuf' class='crossref' name='sec:nounposssuf'>ref</a>)
+and number
+(<a href='#sec:nominalnumber' class='crossref' name='sec:nominalnumber'>ref</a>),
+and possessed nouns may bear a third person prefix, indexing a third
+person possessor, or a first or second proclitic (a reduced form of the
+free pronoun), indexing a first or second person possessor
+(<a href='#sec:nominalperson' class='crossref' name='sec:nominalperson'>ref</a>).</p>
+<h4 id="sec:nounposssuf">Suffixes for possessed (<span
+class="gloss">poss <span class="tooltiptext gloss-poss"></span></span>)
+and non-possessed (<span class="gloss">nposs <span
+class="tooltiptext gloss-nposs"></span></span>) nouns</h4>
+<p><a id='sec:nounposssuf'></a></p>
+<p>In the possession construction in Yawarana, the possessor noun occurs
+immediately preceding the possessed noun, which is the head of the
+possession phrase. Alternatively, the possessor can appear as a bound
+pronominal clitic (first &amp; second person) or a prefix (third person)
+on the possessed noun. The possessor noun is never marked (for instance,
+with genitive case), but the possessed noun (the head) is often marked
+by a lexically specified ‘possessed’ suffix, either -ri/-ru ‘pos’ or
+-ti/-tï ‘pos’. Unpossessed nouns generally are unmarked, but some 15
+nouns bear the suffix -të ‘npos’ when they appear without a possessor.
+Examples
+<a class="exref" exid="onlypossessed"end="unsuffixednouns" ></a>
+illustrate the possible patterns of markedness for nouns when possessed
+and unpossessed. In the first category, which contains the vast majority
+of nouns in our corpus, the unpossessed noun is unmarked, but when
+possessed the suffix -ri ‘pos’ occurs
+<a class="exref" exid="onlypossessed"></a>. A handful of nouns is marked
+with -ri/-ti ‘pos’ when possessed and with -të ‘npos’ when not possessed
+<a class="exref" exid="diffpossessed"></a>. Another handful is unmarked
+when possessed and marked with -të when not possessed
+<a class="exref" exid="suffunpossessed"></a>. The fourth logical
+possibility, in which the noun bears no marker of possession (or
+non-possession) whether possessed or unpossessed, contains very few
+members (only one attested so far); in this case, the difference is
+marked only by the presence or absence of a possessive prefix or
+free-form possessor <a class="exref" exid="unsuffixednouns"></a>.</p>
+<ol class="example">
+<li class="example" id="onlypossessed">
+<div data-markdown="block">
+<p>Nouns that take a suffix only when possessed:</p>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th>
+<em>akajra-ri</em>
+</th>
+<th>
+‘X’s bow’
+</th>
+<th>
+<em>akajra</em>
+</th>
+<th>
+‘bow’
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<em>y-amaka-ri</em>
+</td>
+<td>
+‘X’s yucca’
+</td>
+<td>
+<em>amaka</em>
+</td>
+<td>
+‘yucca’
+</td>
+</tr>
+<tr>
+<td>
+<em>y-ántë-ri</em>
+</td>
+<td>
+‘X’s fishhook’
+</td>
+<td>
+<em>antë</em>
+</td>
+<td>
+‘fishhook’
+</td>
+</tr>
+<tr>
+<td>
+<em>y-ateri-ri</em>
+</td>
+<td>
+‘X’s garden/field’
+</td>
+<td>
+<em>ateri</em>
+</td>
+<td>
+‘garden/field’
+</td>
+</tr>
+<tr>
+<td>
+<em>ënu-ru</em>
+</td>
+<td>
+‘X’s eye’
+</td>
+<td>
+<em>ënu</em>
+</td>
+<td>
+‘eye’
+</td>
+</tr>
+<tr>
+<td>
+<em>y-ëpi-ri</em>
+</td>
+<td>
+‘X’s medicine’
+</td>
+<td>
+<em>ëpi</em>
+</td>
+<td>
+‘medicine’
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="diffpossessed">
+<div data-markdown="block">
+<p>Nouns that take one suffix when possessed and another when
+unpossessed</p>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th>
+<em>yë-ri</em>
+</th>
+<th>
+‘X’s tooth’
+</th>
+<th>
+<em>yë-të</em>
+</th>
+<th>
+‘tooth’
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<em>pata-ri</em>
+</td>
+<td>
+‘X’s place’
+</td>
+<td>
+<em>pata-të</em>
+</td>
+<td>
+‘(part of name) San Juan de Manapiare’
+</td>
+</tr>
+<tr>
+<td>
+<em>y-ese-ti</em>
+</td>
+<td>
+‘X’s name’
+</td>
+<td>
+<em>ese-të</em>
+</td>
+<td>
+‘name’
+</td>
+</tr>
+<tr>
+<td>
+<em>y-ase-tï</em>
+</td>
+<td>
+‘X’s cord’
+</td>
+<td>
+<em>ase-të</em>
+</td>
+<td>
+‘cord’
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="suffunpossessed">
+<div data-markdown="block">
+<p>Nouns that take a suffix only when unpossessed:</p>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th>
+<em>yëjpë</em>
+</th>
+<th>
+‘X’s bone’
+</th>
+<th>
+<em>yëjpë-të</em>
+</th>
+<th>
+‘bone’
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<em>petï</em>
+</td>
+<td>
+‘X’s thigh’
+</td>
+<td>
+<em>petï-të</em> / <em>pej-të</em>
+</td>
+<td>
+‘thigh’
+</td>
+</tr>
+<tr>
+<td>
+<em>y-aponi</em>
+</td>
+<td>
+‘X’s stool’
+</td>
+<td>
+<em>apon-të</em>
+</td>
+<td>
+‘stool’
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="unsuffixednouns">
+<div data-markdown="block">
+<p>Nouns that never take a suffix, whether possessed or unpossessed:</p>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th>
+<em>i-jmëy</em>
+</th>
+<th>
+‘his egg’
+</th>
+<th>
+<em>ëjmëy</em>
+</th>
+<th>
+‘egg’
+</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+<h4 id="sec:nominalnumber">Number suffixes</h4>
+<p><a id='sec:nominalnumber'></a> There are three plural suffixes that
+can occur on nouns, apparently freely interchangeable. What conditions
+the choice of suffix is not clear as of yet.</p>
+<ol class="example">
+<li class=example id ="ctorat-09">
+  <div class="interlinear">
+    Yawarana
+       <div class="surf"> ti waijtaton nwajtë wejsapë</div>
+        <div class="intlin">
+          <span class="obj">ti</span>
+          <span class="trans"><span class="gloss">quot <span class="tooltiptext gloss-quot" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">waijta-ton</span>
+          <span class="trans">mouse-<span class="gloss">pl <span class="tooltiptext gloss-pl" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">nwajtë-∅</span>
+          <span class="trans">dance-<span class="gloss">ipfv <span class="tooltiptext gloss-ipfv" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">wej-sapë</span>
+          <span class="trans"><span class="gloss">cop <span class="tooltiptext gloss-cop" ></span></span>-<span class="gloss">pfv <span class="tooltiptext gloss-pfv" ></span></span></span>
+        </div>
+    <div class="freetrans">‘The mice were dancing.’
+        </div>
+  </div>
+</li>
+</ol>
 <ol class="example">
 <li class=example id ="ctorat-40">
   <div class="interlinear">
-      <div class="surf"> tipapëjsejne waijtajne</div>
+    Yawarana
+       <div class="surf"> tipapëjsejne waijtajne</div>
         <div class="intlin">
           <span class="obj">tipa-pëj-se-jne</span>
-          <span class="trans">go.group-PLUR-PST-PL</span>
+          <span class="trans">go.group-<span class="gloss">plur <span class="tooltiptext gloss-plur" ></span></span>-<span class="gloss">pst <span class="tooltiptext gloss-pst" ></span></span>-<span class="gloss">pl <span class="tooltiptext gloss-pl" ></span></span></span>
         </div>
         <div class="intlin">
           <span class="obj">waijta-jne</span>
-          <span class="trans">mouse-PL</span>
+          <span class="trans">mouse-<span class="gloss">pl <span class="tooltiptext gloss-pl" ></span></span></span>
         </div>
-    <div class="freetrans">‘las ratas se fueron’
-        </div>
-  </div>
-</li>
-</ol>
-<p>“Cuento de las ratas por AnFo” And this example illustrates its
-<i>-pëti</i> allomorph:</p>
-<ol class="example">
-<li class=example id ="ctorat-32">
-  <div class="interlinear">
-      <div class="surf"> waraijtokomo ya inpëti ti</div>
-        <div class="intlin">
-          <span class="obj">waraijtokomo</span>
-          <span class="trans">man</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">ya</span>
-          <span class="trans">OBL</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">in-pëti-∅</span>
-          <span class="trans">see-PLUR-IPFV</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">ti</span>
-          <span class="trans">QUOT</span>
-        </div>
-    <div class="freetrans">‘el hombre lo estaba viendo’
+    <div class="freetrans">‘the mice went away.’
         </div>
   </div>
 </li>
 </ol>
-<p>Yawarana</p>
-<h3 id="tense">Tense</h3>
-<h4 id="jpë"><i>-jpë</i></h4>
-<p><i>-jpë</i> is etymologically a nominalizer, but now it also
-functions as a simple past marker:</p>
 <ol class="example">
-<li class=example id ="anfoperso-02">
+<li class=example id ="ctorat-17">
   <div class="interlinear">
-      <div class="surf"> ana këyetajpë, intipijkë ana chi yawë</div>
+    Yawarana
+       <div class="surf"> waijtatomo ëjwenakase</div>
         <div class="intlin">
-          <span class="obj">ana</span>
-          <span class="trans">1+3</span>
+          <span class="obj">waijta-tomo</span>
+          <span class="trans">mouse-<span class="gloss">pl <span class="tooltiptext gloss-pl" ></span></span></span>
         </div>
         <div class="intlin">
-          <span class="obj">këyeta-jpë</span>
-          <span class="trans">grow.up-PST</span>
+          <span class="obj">ëj-wenaka-se</span>
+          <span class="trans"><span class="gloss">detrz <span class="tooltiptext gloss-detrz" ></span></span>-vomit-<span class="gloss">pst <span class="tooltiptext gloss-pst" ></span></span></span>
+        </div>
+    <div class="freetrans">‘The mice vomited.’
+        </div>
+  </div>
+</li>
+</ol>
+<h4 id="sec:nominalperson">Argument prefixes</h4>
+<p><a id='sec:nominalperson'></a> Person prefixes on nouns are
+conditioned by the initial segment
+(<a href='#tab:possprefixes' class='crossref' name='tab:possprefixes'>ref</a>).
+C-initial nouns take third person <i>i-</i>, and first and second person
+are bare <i>u-</i> and <i>më-</i>. On V-initial nouns, third person is
+marked by <i>t-</i>, and first and second person combine with the linker
+<i>y-</i>. Here are some examples:</p>
+<ol class="example">
+<li class=example id ="ctorat-23">
+  <div class="interlinear">
+    Yawarana
+       <div class="surf"> aaa usukuru morone ta wïrë usujta ta ne</div>
+        <div class="intlin">
+          <span class="obj">aaa</span>
+          <span class="trans">ah</span>
         </div>
         <div class="intlin">
-          <span class="obj">intipijkë</span>
-          <span class="trans">a.little</span>
+          <span class="obj">u-suku-ru</span>
+          <span class="trans"><span class="gloss">1 <span class="tooltiptext gloss-1" ></span></span>-urine-<span class="gloss">pert <span class="tooltiptext gloss-pert" ></span></span></span>
         </div>
         <div class="intlin">
-          <span class="obj">ana</span>
-          <span class="trans">1+3</span>
+          <span class="obj">morone</span>
+          <span class="trans">painful</span>
         </div>
         <div class="intlin">
-          <span class="obj">chi-∅</span>
-          <span class="trans">COP-NMLZ</span>
+          <span class="obj">ta</span>
+          <span class="trans">like</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">wïrë</span>
+          <span class="trans"><span class="gloss">1 <span class="tooltiptext gloss-1" ></span></span><span class="gloss">sg <span class="tooltiptext gloss-sg" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">u-suj-ta-∅</span>
+          <span class="trans"><span class="gloss">1 <span class="tooltiptext gloss-1" ></span></span>-urine-<span class="gloss">vbz <span class="tooltiptext gloss-vbz" ></span></span>-<span class="gloss">ipfv <span class="tooltiptext gloss-ipfv" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ta</span>
+          <span class="trans">like</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ne</span>
+          <span class="trans"><span class="gloss">ints <span class="tooltiptext gloss-ints" ></span></span></span>
+        </div>
+    <div class="freetrans">‘My urine hurts, I will urinate.’
+        </div>
+  </div>
+</li>
+</ol>
+<ol class="example">
+<li class=example id ="convrisamaj-28">
+  <div class="interlinear">
+    Yawarana
+       <div class="surf"> uyïwïj yawë usenejkari sukuri jwama</div>
+        <div class="intlin">
+          <span class="obj">u-y-ïwïj</span>
+          <span class="trans"><span class="gloss">1 <span class="tooltiptext gloss-1" ></span></span>-<span class="gloss">lk <span class="tooltiptext gloss-lk" ></span></span>-house</span>
         </div>
         <div class="intlin">
           <span class="obj">yawë</span>
-          <span class="trans">LOC</span>
+          <span class="trans"><span class="gloss">loc <span class="tooltiptext gloss-loc" ></span></span></span>
         </div>
-    <div class="freetrans">‘nos criamos cuando estábamos chiquiticos nosotros’
+        <div class="intlin">
+          <span class="obj">u-senejka-ri</span>
+          <span class="trans"><span class="gloss">1 <span class="tooltiptext gloss-1" ></span></span>-remain-<span class="gloss">ipfv <span class="tooltiptext gloss-ipfv" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">sukuri</span>
+          <span class="trans">quietly</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">jwama</span>
+          <span class="trans">***</span>
+        </div>
+    <div class="freetrans">‘I silently stay in my house.’
         </div>
   </div>
 </li>
 </ol>
-<p>It also occurs on nouns:</p>
 <ol class="example">
-<li class=example id ="anfoperso-17">
+<li class=example id ="desccasmaj-025">
   <div class="interlinear">
-      <div class="surf"> tawara ma ana këyetajpë, ana papa pan patajpë të</div>
+    Yawarana
+       <div class="surf"> mënai wëjkase chijpë wararë</div>
         <div class="intlin">
-          <span class="obj">tawara</span>
-          <span class="trans">too</span>
+          <span class="obj">më-nai-∅</span>
+          <span class="trans">?</span>
         </div>
         <div class="intlin">
-          <span class="obj">ma</span>
-          <span class="trans">RESTR</span>
+          <span class="obj">wëjka-se</span>
+          <span class="trans">?</span>
         </div>
         <div class="intlin">
-          <span class="obj">ana</span>
-          <span class="trans">1+3</span>
+          <span class="obj">chi-jpë</span>
+          <span class="trans">?</span>
         </div>
         <div class="intlin">
-          <span class="obj">këyeta-jpë</span>
-          <span class="trans">grow.up-PST</span>
+          <span class="obj">?</span>
+          <span class="trans">?</span>
         </div>
-        <div class="intlin">
-          <span class="obj">ana</span>
-          <span class="trans">1+3</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">papa</span>
-          <span class="trans">father:VOC</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">pan</span>
-          <span class="trans">deceased</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">pata-jpë</span>
-          <span class="trans">town-PST</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">të</span>
-          <span class="trans">LOC</span>
-        </div>
-    <div class="freetrans">‘así nos criamos después de que se murió mi papá en su pueblo’
+    <div class="freetrans">‘se cayó tu cosa’
         </div>
   </div>
 </li>
 </ol>
-<h4 id="the-supine">The supine</h4>
-<p>The suffix <i>-se</i> can be used to express a co-called supine
-meaning, i.e., purpose of motion. Intransitive verbs occur unprefixed,
-while transitive verbs can carry person prefixes.</p>
 <ol class="example">
-<li class=example id ="ctorat-03">
+<li class=example id ="ctorat-46">
   <div class="interlinear">
-      <div class="surf"> enijpëtërë waraijtokomo ijtëse ti mïjna tëijpo wïnïjse</div>
+    Yawarana
+       <div class="surf"> tïwïj yaka waraijtokomo manikijpë</div>
         <div class="intlin">
-          <span class="obj">enijpëtërë</span>
-          <span class="trans">one</span>
+          <span class="obj">t-ïwïj</span>
+          <span class="trans"><span class="gloss">3 <span class="tooltiptext gloss-3" ></span></span>-house</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">yaka</span>
+          <span class="trans"><span class="gloss">all <span class="tooltiptext gloss-all" ></span></span></span>
         </div>
         <div class="intlin">
           <span class="obj">waraijtokomo</span>
           <span class="trans">man</span>
         </div>
         <div class="intlin">
-          <span class="obj">ij-të-se</span>
-          <span class="trans">3-go-PST</span>
+          <span class="obj">maniki-jpë</span>
+          <span class="trans">?-<span class="gloss">pst <span class="tooltiptext gloss-pst" ></span></span></span>
         </div>
-        <div class="intlin">
-          <span class="obj">ti</span>
-          <span class="trans">QUOT</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">mïjna</span>
-          <span class="trans">there</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">tëijpo</span>
-          <span class="trans">far</span>
-        </div>
-        <div class="intlin">
-          <span class="obj">wïnïj-se</span>
-          <span class="trans">sleep-SUP</span>
-        </div>
-    <div class="freetrans">‘un hombre se fué allá, a dormir lejos’
+    <div class="freetrans">‘He went to his house.’
         </div>
   </div>
 </li>
 </ol>
-<h2 id="references">References</h2>
+<ol class="example">
+<li class=example id ="ctorat-19">
+  <div class="interlinear">
+    Yawarana
+       <div class="surf"> pïrarë ti iwenaru wejsapë</div>
+        <div class="intlin">
+          <span class="obj">pïrarë</span>
+          <span class="trans">nothing</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ti</span>
+          <span class="trans"><span class="gloss">quot <span class="tooltiptext gloss-quot" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">i-wena-ru</span>
+          <span class="trans"><span class="gloss">3 <span class="tooltiptext gloss-3" ></span></span>-vomit-<span class="gloss">pert <span class="tooltiptext gloss-pert" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">wej-sapë</span>
+          <span class="trans"><span class="gloss">cop <span class="tooltiptext gloss-cop" ></span></span>-<span class="gloss">pfv <span class="tooltiptext gloss-pfv" ></span></span></span>
+        </div>
+    <div class="freetrans">‘Their vomit was not there.’
+        </div>
+  </div>
+</li>
+</ol>
+<table border="1" class="dataframe">
+<caption class="table" id="tab:possprefixes">
+Possessive prefixes on nouns
+</caption>
+<thead>
+<tr style="text-align: right;">
+<th>
+</th>
+<th>
+_C
+</th>
+<th>
+_V
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span class="gloss">1 <span class="tooltiptext gloss-1"></span></span>
+</td>
+<td>
+<i>u-</i>
+</td>
+<td>
+<i>u-</i><i>y-</i>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">2 <span class="tooltiptext gloss-2"></span></span>
+</td>
+<td>
+<i>më-</i>
+</td>
+<td>
+<i>më-</i><i>y-</i>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">3 <span class="tooltiptext gloss-3"></span></span>
+</td>
+<td>
+<i>i-</i>
+</td>
+<td>
+<i>t-</i>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The linker also occurs with (pro-)nominal possessors:</p>
+<ol class="example">
+<li class=example id ="desccasmaj-131">
+  <div class="interlinear">
+    Yawarana
+       <div class="surf"> ejnë yemekunu</div>
+        <div class="intlin">
+          <span class="obj">ejnë</span>
+          <span class="trans"><span class="gloss">1+2 <span class="tooltiptext gloss-1+2" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">y-emekunu</span>
+          <span class="trans"><span class="gloss">lk <span class="tooltiptext gloss-lk" ></span></span>-hand</span>
+        </div>
+    <div class="freetrans">‘la mano de uno’
+        </div>
+  </div>
+</li>
+</ol>
+<p>There are some nouns (kinship terms?) that take an apparently older
+old second person <i>a-</i>
+(<a href='#tab:oldpossprefixes' class='crossref' name='tab:oldpossprefixes'>ref</a>).</p>
+<table border="1" class="dataframe">
+<caption class="table" id="tab:oldpossprefixes">
+Archaic possessive prefixes on nouns
+</caption>
+<thead>
+<tr style="text-align: right;">
+<th>
+</th>
+<th>
+_C
+</th>
+<th>
+_V
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span class="gloss">1 <span class="tooltiptext gloss-1"></span></span>
+</td>
+<td>
+<i>u-</i>
+</td>
+<td>
+<i>u-</i><i>y-</i>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">2 <span class="tooltiptext gloss-2"></span></span>
+</td>
+<td>
+<i>a-</i>
+</td>
+<td>
+<i>a-</i><i>y-</i>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">3 <span class="tooltiptext gloss-3"></span></span>
+</td>
+<td>
+<i>i-</i>
+</td>
+<td>
+<i>t-</i>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sec:nounderiv">Nominal Derivational Morphology</h3>
+<p><a id='sec:nounderiv'></a></p>
 <ul>
-<li><a id="source-mattiola2020pluractional"> </a>Mattiola, Simone and
-Gildea, Spike. under review. The pluractional marker -pödï of Akawaio
-(Cariban) and beyond.</li>
+<li>V -&gt; N
+<ul>
+<li><i>-ri</i> ‘act.nzr’</li>
+<li><i>-jpë</i>
+<ul>
+<li>‘past.abs.nzr’</li>
+<li>‘past.act.nzr?’</li>
+</ul></li>
+<li>?<i>-në</i> ‘infinitive / generic action nominalizer’
+<ul>
+<li>Only intransitive verbs? no also <em>wanumanë</em> ‘gossip, lie’ and
+<em>wajtënë</em> ‘dance’</li>
+</ul></li>
+<li><i>-ni</i> ‘a.nzr’</li>
+<li><em>n‑</em> ‘o.nzr’
+<ul>
+<li>n‑V‑ri ‘nonpast?’</li>
+<li>?? n‑V‑jpë ‘past?’</li>
+</ul></li>
+<li><i>-sapë</i> ‘abs.nzr’ (contrast with ‑jpë )</li>
+<li><i>-topo</i> ‘circ.nzr’</li>
+<li><em>‑pïnï</em> ‘privative.nzr’ ?</li>
+</ul></li>
+<li>Adv -&gt; N
+<ul>
+<li><i>-mï</i> ‘nzr’</li>
+</ul></li>
+<li>Postp -&gt; N
+<ul>
+<li><i>-ano</i> ‘nzr’</li>
+</ul></li>
+<li>What about <i>-jpë</i> on AD forms? Does it derive a noun?</li>
 </ul>
+<h2 id="verbinfl">Verbal inflection</h2>
+<p><a id='verbinfl'></a></p>
+<h3 id="personal-prefixation">Personal prefixation(?)</h3>
+<ul>
+<li>Absolutive proclitics
+<ul>
+<li>(Check: appears that they are reduced forms, with long vowel?)</li>
+<li><em>wï= /u=</em> ‘1S/O’</li>
+<li><em>më= / mo=</em> ‘2S/O’
+<ul>
+<li>one example of (më=) ‘2A’ on imperative verb</li>
+</ul></li>
+</ul></li>
+<li>Third person
+<ul>
+<li>Ø‑ ‘3S’ with intransitive verbs</li>
+<li>• exception: <em>ij‑të‑ri</em> ‘he goes’ plus 2 more</li>
+<li>Ø‑ ‘3O’ with transitive verbs with 1A or 2A; also sometimes 3A</li>
+<li><em>ta=</em> ‘3A3O’
+<ul>
+<li>Not required, but possible
+<ul>
+<li>Check: not in alternation with preceding O NP?</li>
+</ul></li>
+<li><em>ta=</em> ‘3O’ attested on one V in the pan‑Cariban “progressive”
+construction w/ 2nd person A</li>
+</ul></li>
+</ul></li>
+<li>Note that all transitive verbs are consonant‑initial, whether
+etymologically or not because <em>y‑</em> ‘rel’ is added to all
+vowel‑initial roots
+<ul>
+<li>the <em>y‑</em> disappears when preceded by the detransitivizer</li>
+</ul></li>
+</ul>
+<h3 id="nonpersonal-prefixation-is-there-any-probably-not">Non‑personal
+prefixation — is there any? Probably not?</h3>
+<ul>
+<li>t‑V‑se is no more — the t‑ is gone (except with tënëse ‘eat’ and
+tenise ‘drink’)
+<ul>
+<li>Any funny forms with the negative?
+<ul>
+<li><em>i‑</em> with intransitive negatives?</li>
+<li><em>an‑</em> with transitive negatives?</li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id="tenseaspectmoodpolarity-suffixes">Tense‑aspect‑mood‑polarity
+suffixes</h3>
+<ul>
+<li><i>-ri</i> ‘imperf’</li>
+<li><i>-se</i> ‘PST’</li>
+</ul>
+<ol class="example">
+<li class=example id ="ctorat-17">
+  <div class="interlinear">
+    Yawarana
+       <div class="surf"> waijtatomo ëjwenakase</div>
+        <div class="intlin">
+          <span class="obj">waijta-tomo</span>
+          <span class="trans">mouse-<span class="gloss">pl <span class="tooltiptext gloss-pl" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ëj-wenaka-se</span>
+          <span class="trans"><span class="gloss">detrz <span class="tooltiptext gloss-detrz" ></span></span>-vomit-<span class="gloss">pst <span class="tooltiptext gloss-pst" ></span></span></span>
+        </div>
+    <div class="freetrans">‘The mice vomited.’
+        </div>
+  </div>
+</li>
+</ol>
+<ul>
+<li><i>-sapë</i> ‘‘perf1?’</li>
+<li><i>-jpë</i> ‘perf2? remote.past?’</li>
+<li><i>-sarë</i> ‘imminent future’</li>
+<li><i>-se</i>=<i>pano</i> ‘past=concl’</li>
+<li><i>-saj</i>=<i>pano</i> ‘perf=concl’</li>
+<li><i>-ja</i> ‘neg’</li>
+<li><i>-ri</i>=<i>-jra</i> ‘ipfv=neg’</li>
+<li><i>-se</i>=<i>-jra</i> ‘past=neg’</li>
+<li><em>‑jrama</em> ‘prohibitive’</li>
+<li><i>-kë</i> ‑<em>të</em><i>-kë</i> ‘imper / imper.pl’</li>
+<li><i>-ta</i> / <i>-ta</i><em>ntë</em><i>-kë</i> ‘imper.mot /
+imper.mot.pl’</li>
+<li><em>‑tojpano</em> ‘future’</li>
+<li><i>-tëpëkë</i> / -<i>pëkë</i> ‘prog.intr / prog.tr’</li>
+</ul>
+<h3 id="subordinate-clause-markers">Subordinate Clause markers</h3>
+<ul>
+<li>Nominalizations</li>
+<li>Adverbial Clauses
+<ul>
+<li><i>-se</i> ‘supine’</li>
+<li><i>-tojpe</i> ‘purpose’</li>
+<li>(‑jpë)=tërë ‘after’</li>
+<li><i>-tane</i> ‘concessive’</li>
+<li><i>-sarë</i> ‘converb’</li>
+<li><i>yawë</i> ‘simult’</li>
+<li><em>‑yapo</em> ‘neg.purp’</li>
+<li>others?</li>
+</ul></li>
+</ul>
+<h3 id="number">Number</h3>
+<ul>
+<li>‑rï=komtomo</li>
+<li>‑se=jne=kontomo</li>
+<li>‑se=jne=pano (‑se=jne=kontom=pano?)</li>
+</ul>
+<h3 id="copula-auxiliary">Copula / Auxiliary</h3>
+<p>◦ Paradigm ◦ Any particles? Man, wai, manai, etc? ◦ Past/Perfect
+particles? nahkë, etc. chijpë , wejsapë</p>
+<h2 id="derbderiv">Verbal roots and stems</h2>
+<p><a id='derbderiv'></a></p>
+<h2 id="adverbs">Adverbs</h2>
+<p><a id='adverbs'></a></p>
+<h2 id="postp">Postpositions</h2>
+<p><a id='postp'></a></p>
+<h3 id="defining-the-category">Defining the category</h3>
+<h3 id="locative-postpositions">Locative Postpositions</h3>
+<ul>
+<li>Clear bipartite Ground+Path</li>
+<li>Unproductive Bipartite X+Path?</li>
+<li>Other forms</li>
+</ul>
+<h3 id="nonlocative-oblique-postpositions">Nonlocative Oblique
+Postpositions</h3>
+<ul>
+<li>ya ‘erg’</li>
+<li>ke ‘instr’</li>
+<li>wanai</li>
+<li>etc.</li>
+</ul>
+<h3 id="propositional-postpositions">Propositional Postpositions</h3>
+<ul>
+<li>=se ‘desiderative’</li>
+<li>others?</li>
+</ul>
+<h2 id="partideo">Particles and Ideophones</h2>
+<p><a id='partideo'></a></p>
+<h2 id="phrases">Phrases</h2>
+<p><a id='phrases'></a></p>
+<h2 id="nonverbal">Nonverbal predications</h2>
+<p><a id='nonverbal'></a></p>
+<h2 id="simpleverb">Simple verbal clauses</h2>
+<p><a id='simpleverb'></a></p>
+<h2 id="negation">Negation</h2>
+<p><a id='negation'></a></p>
+<h2 id="questions">Questions</h2>
+<p><a id='questions'></a></p>
+<h2 id="multiclausal">Multiclausal</h2>
+<p><a id='multiclausal'></a></p>
+<h2 id="wordorder">Word order variation</h2>
+<p><a id='wordorder'></a></p>
+<h2 id="marked">Pragmatically marked constructions</h2>
+<p><a id='marked'></a></p>
+<h2 id="for-testing-purposes">For testing purposes</h2>
+<h3 id="inline-linked-entities">Inline linked entities</h3>
+<h4 id="single">Single</h4>
+<ol type="1">
+<li>morph: <i>-jne</i></li>
+<li>morpheme: <i>-jnë</i></li>
+<li>wordform: asamo-ri-jra</li>
+<li>text: “Historia personal por AnFo”</li>
+</ol>
+<h4 id="multiple">Multiple</h4>
+<ol type="1">
+<li>morph: <i>-jne</i>, and <i>-i</i></li>
+<li>morpheme: <i>-jnë</i>, and <i>-ru</i></li>
+<li>wordform:<br />
+</li>
+<li>text:</li>
+</ol>
+<h3 id="examples">Examples</h3>
+<h4 id="interlinear">Interlinear</h4>
+<ol class="example">
+<li class=example id ="ctorat-34">
+  <div class="interlinear">
+    Yawarana
+       <div class="surf"> ëkëtë mërë ëkï</div>
+        <div class="intlin">
+          <span class="obj">ëkëtë</span>
+          <span class="trans">where</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">mërë</span>
+          <span class="trans"><span class="gloss">3 <span class="tooltiptext gloss-3" ></span></span><span class="gloss">in <span class="tooltiptext gloss-in" ></span></span>:<span class="gloss">md <span class="tooltiptext gloss-md" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ëkï</span>
+          <span class="trans">manioc.beer</span>
+        </div>
+    <div class="freetrans">‘Where is the chicha?’
+        </div>
+  </div>
+</li>
+</ol>
+<ol class="example">
+    <li class="example" id="multiigt">
+        <ol class="subexample">
+                <li class=subexample id ="ctorat-35">
+  <div class="interlinear">
+    Yawarana
+       <div class="surf"> ëkï ta rë pïrarë wenarujpë ta rë pïrarë</div>
+        <div class="intlin">
+          <span class="obj">ëkï</span>
+          <span class="trans">manioc.beer</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ta</span>
+          <span class="trans">like</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">rë</span>
+          <span class="trans"><span class="gloss">emp <span class="tooltiptext gloss-emp" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">pïrarë</span>
+          <span class="trans">nothing</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">wena-ru-jpë</span>
+          <span class="trans">vomit-<span class="gloss">pert <span class="tooltiptext gloss-pert" ></span></span>-<span class="gloss">pst <span class="tooltiptext gloss-pst" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ta</span>
+          <span class="trans">like</span>
+        </div>
+        <div class="intlin">
+          <span class="obj">rë</span>
+          <span class="trans"><span class="gloss">emp <span class="tooltiptext gloss-emp" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">pïrarë</span>
+          <span class="trans">nothing</span>
+        </div>
+    <div class="freetrans">‘The chicha was gone and so was the vomit.’
+        </div>
+  </div>
+</li>
+                <li class=subexample id ="ctorat-36">
+  <div class="interlinear">
+    Yawarana
+       <div class="surf"> ta ti wejsaj ti tëwï</div>
+        <div class="intlin">
+          <span class="obj">ta-∅</span>
+          <span class="trans">say-<span class="gloss">ipfv <span class="tooltiptext gloss-ipfv" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ti</span>
+          <span class="trans"><span class="gloss">quot <span class="tooltiptext gloss-quot" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">wej-saj</span>
+          <span class="trans"><span class="gloss">cop <span class="tooltiptext gloss-cop" ></span></span>-<span class="gloss">pfv <span class="tooltiptext gloss-pfv" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">ti</span>
+          <span class="trans"><span class="gloss">quot <span class="tooltiptext gloss-quot" ></span></span></span>
+        </div>
+        <div class="intlin">
+          <span class="obj">tëwï</span>
+          <span class="trans"><span class="gloss">3 <span class="tooltiptext gloss-3" ></span></span><span class="gloss">sg <span class="tooltiptext gloss-sg" ></span></span></span>
+        </div>
+    <div class="freetrans">‘...he said.’
+        </div>
+  </div>
+</li>
+        </ol>
+    </li>
+</ol>
+<h4 id="other">Other</h4>
+<ol class="example">
+<li class="example" id="test1">
+<div data-markdown="block">
+<table border="1" class="dataframe">
+<caption class="table" id="tab:test">
+None
+</caption>
+<thead>
+<tr style="text-align: right;">
+<th>
+<i>konopo</i>
+</th>
+<th>
+root
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<i>-se</i>
+</td>
+<td>
+suffix
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="multiparttest">
+<ol class="subexample">
+<li class="subexample" id="test2">
+<div data-markdown="block">
+Hello <i>-se</i> ‘PST’
+</div>
+</li>
+<li class="subexample" id="test3">
+<div data-markdown="block">
+<p>World</p>
+<em>and</em> more
+</div>
+</li>
+</ol>
+</li>
+</ol>
+<h4 id="example-references">Example references</h4>
+<p><a class="exref" exid="ctorat-34"></a></p>
+<p><a class="exref" exid="multiigt"></a> or
+<a class="exref" exid="ctorat-36"></a> or even
+<a class="exref" exid="multiigt"suffix="a-b" ></a></p>
+<p><a class="exref" exid="test1"></a></p>
+<p><a class="exref" exid="multiparttest"></a></p>
+<p><a class="exref" exid="test1"end="multiparttest" ></a></p>
+<h2 id="references">References</h2>
 
+<script>var abbrev_dict={'pl': 'plural', 'sg': 'singular', 'detrz': 'detransivizer', 'pst': 'past', '1': 'first person', '2': '2 second person', '3': '3 third person', '1+2': 'first person inclusive', '1+3': 'first person exclusive', 'lk': 'linker', 'loc': 'locative', 'ipfv': 'imperfective', 'anim': 'animate', 'inan': 'inanimate', 'prox': 'proximal', 'dist': 'distal', 'poss': 'possession', 'nposs': 'nonpossessed', 'in': 'inanimate', 'md': 'medial', 'emp': 'emphatic', 'pert': 'pertensive', 'quot': 'quotative', 'cop': 'copula', 'pfv': 'perfective', 'vbz': 'verbalizer', 'ints': 'intensifier', 'all': 'allative', 'plur': 'pluractional'}; for (var key in abbrev_dict){
+var targets = document.getElementsByClassName('gloss-'+key)
+for (var i = 0; i < targets.length; i++) {
+    targets[i].innerHTML = abbrev_dict[key];
+}
+};</script>
+</article>
 <script src="examples.js"></script> 
+<script src="glossing.js"></script> 
+<script src="crossref.js"></script>
+<script type="text/javascript" src="https://livejs.com/live.js"></script>
+<script>
+number_examples()
+number_sections()
+number_captions()
+</script>
+
 
 </body>
 </html> 

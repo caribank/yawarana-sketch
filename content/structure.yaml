@@ -1,5 +1,39 @@
 document:
   title: A digital grammar sketch of Yawarana
   parts:
-    verbs:
-      title: Verbs
+    intro:
+      title: Introduction
+    phono:
+      title: irrelevant
+    POS:
+      title: Distinguishing parts of speech in Yawarana
+    nouns:
+      title: Nouns
+    verbinfl:
+      title: x
+    verbderiv:
+      title: x
+    adverbs:
+      title: x
+    postp:
+      title: Postpositions
+    partideo:
+      title: Particles and Ideophones
+    phrases:
+      title: x
+    nonverbal:
+      title: x
+    simpleverb:
+      title: x
+    negation:
+      title: x
+    questions:
+      title: x
+    multiclausal:
+      title: x
+    wordorder:
+      title: x
+    marked:
+      title: x
+    test:
+      title: Just testin'
