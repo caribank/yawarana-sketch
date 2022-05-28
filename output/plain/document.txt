@@ -75,9 +75,11 @@ Nouns (label:nouns)
 
 Pronouns (label:sec:pronouns)
 
--   person pronouns
-    -   full forms
-    -   reduced forms
+The personal pronouns of Yawarana are shown in (ref:tab:pronouns). It
+shows the usual Cariban inclusive/exclusive (1+2 and 1+3) distinction.
+Note that the plural marker -kontomo appears to usually be restricted to
+verbs, while -santomo is found with third person pronouns and
+demonstratives.
 
 Pronouns:
 
@@ -95,11 +97,11 @@ Pronouns:
   3     tëwï   tëwïsantomo
   --------------------------
 
-Short forms of the first and second person pronouns can only occur as
-proclitics attaching to nouns to indicate possessor (described below in
-this chapter), attached to verbs to indicate subject or object
-(described in (ref:verbinfl)), or attached to postpositions to indicate
-object of the postposition (described in (ref:postp)):
+Short forms of the first and second person pronouns can occur as
+proclitics attaching to nouns to indicate possessor
+((ref:sec:nominalperson)), attached to verbs to indicate subject or
+object (described in (ref:verbinfl)), or attached to postpositions to
+indicate object of the postposition (described in (ref:postp)):
 
 (1) Yawarana
     u-y-ïwïj    yawë  u-senejka-ri   sukuri   jwama
@@ -116,8 +118,10 @@ object of the postposition (described in (ref:postp)):
     2-laugh-IPFV  2-alone
     ‘You just laugh.’
 
--   Demonstrative pronouns / articles
-    -   4‑way distinction? (cf. Ye’kwana?)
+An open question is whether ta- on verbs is a reduction of tëwï.
+
+The third person demonstrative pronouns or articles are shown in
+(ref:tab:pronouns3).
 
 Demonstrative pronouns / articles:
 
@@ -133,15 +137,15 @@ Demonstrative pronouns / articles:
   DIST            mëkï     mëkïsantomo     mënï     mënï-santomo
   ------------------------------------------------------------------
 
-None of the demonstrative pronouns become shortened forms or prefixes.
+None of the demonstrative pronouns have shortened, phonologically bound
+counterparts.
 
 -   Nominal Interrogative pronouns:
     -   aniki ‘who? anim’
     -   ati ‘what? inan’
     -   ëjkë ‘which? inan’
--   No plural forms for any of these?
 
-Inflected nouns (label:sec:nouninfl)
+Nominal inflection (label:sec:nouninfl)
 
 Nouns in Yawarana may bear suffixes for possession
 ((ref:sec:nounposssuf)) and number ((ref:sec:nominalnumber)), and
@@ -158,21 +162,20 @@ possession phrase. Alternatively, the possessor can appear as a bound
 pronominal clitic (first & second person) or a prefix (third person) on
 the possessed noun. The possessor noun is never marked (for instance,
 with genitive case), but the possessed noun (the head) is often marked
-by a lexically specified ‘possessed’ suffix, either -ri/-ru ‘pos’ or
--ti/-tï ‘pos’. Unpossessed nouns generally are unmarked, but some 15
-nouns bear the suffix -të ‘npos’ when they appear without a possessor.
-Examples exref illustrate the possible patterns of markedness for nouns
-when possessed and unpossessed. In the first category, which contains
-the vast majority of nouns in our corpus, the unpossessed noun is
-unmarked, but when possessed the suffix -ri ‘pos’ occurs exref. A
-handful of nouns is marked with -ri/-ti ‘pos’ when possessed and with
--të ‘npos’ when not possessed exref. Another handful is unmarked when
-possessed and marked with -të when not possessed exref. The fourth
-logical possibility, in which the noun bears no marker of possession (or
-non-possession) whether possessed or unpossessed, contains very few
-members (only one attested so far); in this case, the difference is
-marked only by the presence or absence of a possessive prefix or
-free-form possessor exref.
+by a lexically specified ‘possessed’ suffix, either -ru ‘PERT’ or -ti
+‘pos’. Unpossessed nouns generally are unmarked, but some 15 nouns bear
+the suffix -të ‘NPERT’ when they appear without a possessor. Examples
+exref illustrate the possible patterns of markedness for nouns when
+possessed and unpossessed. In the first category, which contains the
+vast majority of nouns in our corpus, the unpossessed noun is unmarked,
+but when possessed the suffix -ri ‘pos’ occurs exref. A handful of nouns
+is marked with -ri/-ti ‘pos’ when possessed and with -të ‘npos’ when not
+possessed exref. Another handful is unmarked when possessed and marked
+with -të when not possessed exref. The fourth logical possibility, in
+which the noun bears no marker of possession (or non-possession) whether
+possessed or unpossessed, contains very few members (only one attested
+so far); in this case, the difference is marked only by the presence or
+absence of a possessive prefix or free-form possessor exref.
 
 Nouns that take a suffix only when possessed:
 
@@ -224,24 +227,19 @@ Nouns that never take a suffix, whether possessed or unpossessed:
 
 Number suffixes (label:sec:nominalnumber)
 
-There are three plural suffixes that can occur on nouns, apparently
-freely interchangeable. What conditions the choice of suffix is not
-clear as of yet.
+There are two plural suffixes that can occur on nouns, apparently freely
+interchangeable. What conditions the choice of suffix is not clear as of
+yet.
 
 (4) Yawarana
-    ti    waijta-ton  nwajtë-∅    wej-sapë
-    QUOT  mouse-PL    dance-IPFV  COP-PFV
-    ‘The mice were dancing.’
+    waijta-tomo  ëj-wenaka-se
+    mouse-PL     DETRZ-vomit-PST
+    ‘The mice vomited.’
 
 (5) Yawarana
     tipa-pëj-se-jne       waijta-jne
     go.group-PLUR-PST-PL  mouse-PL
     ‘the mice went away.’
-
-(6) Yawarana
-    waijta-tomo  ëj-wenaka-se
-    mouse-PL     DETRZ-vomit-PST
-    ‘The mice vomited.’
 
 Argument prefixes (label:sec:nominalperson)
 
@@ -249,32 +247,7 @@ Person prefixes on nouns are conditioned by the initial segment
 ((ref:tab:possprefixes)). C-initial nouns take third person i-, and
 first and second person are bare u- and më-. On V-initial nouns, third
 person is marked by t-, and first and second person combine with the
-linker y-. Here are some examples:
-
-(7) Yawarana
-    aaa  u-suku-ru     morone   ta    wïrë  u-suj-ta-∅        ta    ne
-    ah   1-urine-PERT  painful  like  1SG   1-urine-VBZ-IPFV  like  INTS
-    ‘My urine hurts, I will urinate.’
-
-(8) Yawarana
-    u-y-ïwïj    yawë  u-senejka-ri   sukuri   jwama
-    1-LK-house  LOC   1-remain-IPFV  quietly  ***
-    ‘I silently stay in my house.’
-
-(9) Yawarana
-    më-nai-∅  wëjka-se  chi-jpë  ?
-    ?         ?         ?        ?
-    ‘se cayó tu cosa’
-
-(10) Yawarana
-     t-ïwïj   yaka  waraijtokomo  maniki-jpë
-     3-house  ALL   man           ?-PST
-     ‘He went to his house.’
-
-(11) Yawarana
-     pïrarë   ti    i-wena-ru     wej-sapë
-     nothing  QUOT  3-vomit-PERT  COP-PFV
-     ‘Their vomit was not there.’
+linker y-. Some examples are shown in exref.
 
 Possessive prefixes on nouns:
 
@@ -288,9 +261,34 @@ Possessive prefixes on nouns:
   3    i-     t-
   -------------------
 
+(6) Yawarana
+    aaa  u-suku-ru     morone   ta    wïrë  u-suj-ta-∅        ta    ne
+    ah   1-urine-PERT  painful  like  1SG   1-urine-VBZ-IPFV  like  INTS
+    ‘My urine hurts, I will urinate.’
+
+(7) Yawarana
+    u-y-ïwïj    yawë  u-senejka-ri   sukuri   jwama
+    1-LK-house  LOC   1-remain-IPFV  quietly  ***
+    ‘I silently stay in my house.’
+
+(8) Yawarana
+    më-nai-∅  wëjka-se  chi-jpë  ?
+    ?         ?         ?        ?
+    ‘se cayó tu cosa’
+
+(9) Yawarana
+    t-ïwïj   yaka  waraijtokomo  maniki-jpë
+    3-house  ALL   man           ?-PST
+    ‘He went to his house.’
+
+(10) Yawarana
+     pïrarë   ti    i-wena-ru     wej-sapë
+     nothing  QUOT  3-vomit-PERT  COP-PFV
+     ‘Their vomit was not there.’
+
 The linker also occurs with (pro-)nominal possessors:
 
-(12) Yawarana
+(11) Yawarana
      ejnë  y-emekunu
      1+2   LK-hand
      ‘la mano de uno’
@@ -312,7 +310,7 @@ Archaic possessive prefixes on nouns:
 
 Nominal Derivational Morphology (label:sec:nounderiv)
 
--   V -> N
+-   V → N
     -   -ri ‘act.nzr’
     -   -jpë
         -   ‘past.abs.nzr’
@@ -321,15 +319,15 @@ Nominal Derivational Morphology (label:sec:nounderiv)
         -   Only intransitive verbs? no also wanumanë ‘gossip, lie’ and
             wajtënë ‘dance’
     -   -ni ‘a.nzr’
-    -   n‑ ‘o.nzr’
-        -   n‑V‑ri ‘nonpast?’
-        -   ?? n‑V‑jpë ‘past?’
+    -   n- ‘o.nzr’
+        -   n-V-ri ‘nonpast?’
+        -   ?? n-V-jpë ‘past?’
     -   -sapë ‘abs.nzr’ (contrast with ‑jpë )
     -   -topo ‘circ.nzr’
     -   ‑pïnï ‘privative.nzr’ ?
--   Adv -> N
+-   Adv → N
     -   -mï ‘nzr’
--   Postp -> N
+-   Postp → N
     -   -ano ‘nzr’
 -   What about -jpë on AD forms? Does it derive a noun?
 
@@ -369,7 +367,7 @@ Tense‑aspect‑mood‑polarity suffixes
 -   -ri ‘imperf’
 -   -se ‘PST’
 
-(13) Yawarana
+(12) Yawarana
      waijta-tomo  ëj-wenaka-se
      mouse-PL     DETRZ-vomit-PST
      ‘The mice vomited.’
@@ -478,12 +476,12 @@ Examples
 
 Interlinear
 
-(14) Yawarana
+(13) Yawarana
      ëkëtë  mërë    ëkï
      where  3IN:MD  manioc.beer
      ‘Where is the chicha?’
 
-(15) 
+(14) 
 
 (a) Yawarana
     ëkï          ta    rë   pïrarë   wena-ru-jpë     ta    rë   pïrarë
