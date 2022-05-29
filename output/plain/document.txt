@@ -101,7 +101,7 @@ Short forms of the first and second person pronouns can occur as
 proclitics attaching to nouns to indicate possessor
 ((ref:sec:nominalperson)), attached to verbs to indicate subject or
 object (described in (ref:verbinfl)), or attached to postpositions to
-indicate object of the postposition (described in (ref:postp)):
+indicate object of the postposition (described in (ref:sec:postinfl)):
 
 (1) Yawarana
     u-y-ïwïj    yawë  u-senejka-ri   sukuri   jwama
@@ -418,11 +418,30 @@ Postpositions (label:postp)
 
 Defining the category
 
+Inflectional morphology (label:sec:postinfl)
+
 Locative Postpositions
 
 -   Clear bipartite Ground+Path
 -   Unproductive Bipartite X+Path?
 -   Other forms
+
+Locative postpositions:
+
+  -------------------------
+            ALL     LOC
+  --------- ------- -------
+  inside    yaka    yawë
+
+  aquatic   jwaka   jwawë
+  -------------------------
+
+how do these fit in?
+
+-   poye
+-   po
+-   yatë
+-   yapo
 
 Nonlocative Oblique Postpositions
 
