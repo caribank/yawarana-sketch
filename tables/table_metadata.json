@@ -25,6 +25,8 @@
     "locpost":{"caption": "Locative postpositions"},
     "onlypossessed": {},
     "diffpossessed": {},
+    "verbprefixes": {"caption": "Person marking prefixes on verbs"},
     "suffunpossessed": {},
-    "unsuffixednouns": {}
+    "unsuffixednouns": {},
+    "verbtam": {"caption": "Verbal TAM suffixes"}
 }

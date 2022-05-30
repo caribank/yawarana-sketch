@@ -1,0 +1,71 @@
+\acswitchoff 
+\contentsline {chapter}{Contents}{1}{section*.1}%
+\contentsline {chapter}{\chapternumberline {1}Introduction }{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The Yawarana people and their language }{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Location, historical records }{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Current life }{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Sociolinguistic vitality }{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Previous studies on the Yawarana language }{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}This project }{3}{section.1.6}%
+\contentsline {chapter}{\chapternumberline {2}Phonetics and phonology }{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Segmental phonetics and phonemes }{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Consonants }{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Vowels }{6}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Morphophonological Processes }{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Syllable Reduction }{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Vowel harmony? }{6}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Prosody }{6}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Lexical stress }{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Intonational Phrases }{6}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Intonational Melodies }{6}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Historical Considerations }{6}{section.2.4}%
+\contentsline {chapter}{\chapternumberline {3}Distinguishing parts of speech in Yawarana }{7}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {4}Nouns }{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Pronouns }{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Nominal inflection }{10}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Suffixes for possessed (poss) and non-possessed (nposs) nouns }{10}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Number suffixes }{11}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Argument prefixes }{11}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Nominal Derivational Morphology }{13}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Misc}{13}{subsection.4.3.1}%
+\contentsline {chapter}{\chapternumberline {5}Verbal inflection }{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Person prefixes }{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Non‑personal inflectional prefixation --- is there any? Probably not?}{16}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Tense‑aspect‑mood‑polarity suffixes}{16}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}\textit {-ri}}{16}{subsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.1}Semantics}{17}{subsubsection.5.3.1.1}%
+\contentsline {subsection}{\numberline {5.3.2}\textit {-jpë}}{17}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}\textit {-se}}{17}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}\textit {-sapë}}{18}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}\textit {-sarë}}{18}{subsection.5.3.5}%
+\contentsline {section}{\numberline {5.4}Subordinate Clause markers}{19}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Number}{19}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Copula / Auxiliary}{19}{section.5.6}%
+\contentsline {chapter}{\chapternumberline {6}Verbal roots and stems }{21}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {7}Adverbs }{23}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Inflection}{23}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Simple adverbs }{23}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Derived adverbs }{23}{section.7.3}%
+\contentsline {chapter}{\chapternumberline {8}Postpositions }{25}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Defining the category}{25}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Inflectional morphology }{25}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Locative Postpositions}{25}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Nonlocative Oblique Postpositions}{26}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Propositional Postpositions}{26}{section.8.5}%
+\contentsline {chapter}{\chapternumberline {9}Particles and Ideophones }{27}{chapter.9}%
+\contentsline {chapter}{\chapternumberline {10}Phrases }{29}{chapter.10}%
+\contentsline {chapter}{\chapternumberline {11}Nonverbal predications }{31}{chapter.11}%
+\contentsline {chapter}{\chapternumberline {12}Simple verbal clauses }{33}{chapter.12}%
+\contentsline {chapter}{\chapternumberline {13}Negation }{35}{chapter.13}%
+\contentsline {chapter}{\chapternumberline {14}Questions }{37}{chapter.14}%
+\contentsline {chapter}{\chapternumberline {15}Multiclausal }{39}{chapter.15}%
+\contentsline {chapter}{\chapternumberline {16}Word order variation }{41}{chapter.16}%
+\contentsline {chapter}{\chapternumberline {17}Pragmatically marked constructions }{43}{chapter.17}%
+\contentsline {chapter}{\chapternumberline {18}For testing purposes}{45}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Inline linked entities}{45}{section.18.1}%
+\contentsline {subsection}{\numberline {18.1.1}Single}{45}{subsection.18.1.1}%
+\contentsline {subsection}{\numberline {18.1.2}Multiple}{45}{subsection.18.1.2}%
+\contentsline {section}{\numberline {18.2}Examples}{45}{section.18.2}%
+\contentsline {subsection}{\numberline {18.2.1}Interlinear}{45}{subsection.18.2.1}%
+\contentsline {subsection}{\numberline {18.2.2}Other}{46}{subsection.18.2.2}%
+\contentsline {subsection}{\numberline {18.2.3}Example references}{46}{subsection.18.2.3}%

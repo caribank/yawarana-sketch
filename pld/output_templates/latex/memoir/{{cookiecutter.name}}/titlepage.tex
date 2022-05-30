@@ -1,0 +1,27 @@
+\begin{titlingpage}
+\BgThispage
+\newgeometry{left=1cm,right=1cm}
+\vspace*{2cm}
+\centering
+\textcolor{white}{ \hugefont {{cookiecutter.project_title}} }
+\raggedleft
+\vspace*{1cm}\par
+{% if cookiecutter.version != "" %}
+\textcolor{white}{ \large {{ cookiecutter.version }} }
+{% endif %}
+\vspace*{2cm}\par
+\noindent
+{
+\begin{minipage}{0.90\linewidth}
+    \begin{flushright}
+        {% for author in cookiecutter.author.split(";") %}
+{\Huge {{author}} }\\[\baselineskip]
+{% endfor %}
+    \end{flushright}
+\end{minipage} \hspace{15pt}
+}
+\centering
+\vfill
+\rule{0.4\textwidth}{0.4pt}\\
+{\Huge 2022 \\ \large pylingdocs }
+\end{titlingpage}
