@@ -1,5 +1,7 @@
 # Adverbs [label](adverbs)
 
+* [pos](adv)
+
 ## Inflection
 
 * presumably no prefixation

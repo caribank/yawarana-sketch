@@ -1,4 +1,6 @@
 <a id='postp'></a>
+* [POS postp](POSTable?#cldf:postp)
+
 ## Defining the category
 
 ## Inflectional morphology {#sec:postinfl}
@@ -24,21 +26,20 @@ Postpositions take the same inflectional prefixes as nouns ([crossref](ChapterTa
 | inside  | [Morpheme yakaall](MorphsetTable?#cldf:yakaall)                                                           | [Morpheme yaweloc](MorphsetTable?#cldf:yaweloc)                                                           |
 | aquatic | [Morpheme 912b3549-888e-4efa-953a-4aab76d5ff49](MorphsetTable?#cldf:912b3549-888e-4efa-953a-4aab76d5ff49) | [Morpheme eb7abf0a-143e-4724-8d4c-85f92ee39be2](MorphsetTable?#cldf:eb7abf0a-143e-4724-8d4c-85f92ee39be2) |
 
-how do these fit in?
+<span title='how do these fit in?'>❓</span>
 
-* [Morpheme poye-above](MorphsetTable?#cldf:poye-above)
-* [Morpheme po-on-in](MorphsetTable?#cldf:po-on-in)
-* [Morpheme yate-loc](MorphsetTable?#cldf:yate-loc)
-* [Morpheme yapo-neg](MorphsetTable?#cldf:yapo-neg)
+* *poye* <!-- (poye-above) -->
+* *po* <!-- (po-on-in) -->
+* *yatë* <!-- (yate-loc) -->
+* *yapo* <!-- (yapo-neg) -->
 
-
-[Example histpajirdi-186](ExampleTable?example_no=24#cldf:histpajirdi-186)
+[Example histpajirdi-186](ExampleTable?example_no=25#cldf:histpajirdi-186)
 
 ## Nonlocative Oblique Postpositions 
-* ya ‘erg’
-* ke ‘instr’
-* wanai
-* etc.
+* [Morpheme yaerg](MorphsetTable?#cldf:yaerg) ya ‘erg’ <span title='is this a different morpheme from [Morpheme yaobl'>❗️</span>](MorphsetTable?#cldf:yaobl'>❗️</span>)
+* *ke* ‘instr’
+* _wanai_
+
 
 ## Propositional Postpositions
 * =se ‘desiderative’

@@ -4,22 +4,22 @@
 ### Single
 1. morph: [Morph pljne1](MorphTable?#cldf:pljne1)
 1. morpheme: [Morpheme jnepl](MorphsetTable?#cldf:jnepl)
-1. wordform: [Form asamo-0-ri-jraneg](FormTable?#cldf:asamo-0-ri-jraneg)
+1. wordform: (asamo-0-ri-jraneg)
 1. text: [Text HistAnFo](TextTable?#cldf:HistAnFo)
 
 ### Multiple
 1. morph: [Morph pljne1,ipert](MorphTable?ids=pljne1,ipert#cldf:__all__)
 1. morpheme: [Morpheme jnepl,rupert](MorphsetTable?ids=jnepl,rupert#cldf:__all__)
-1. wordform: [Form asamo-0-ri-jraneg,asamo-0-ri-zero](FormTable?ids=asamo-0-ri-jraneg,asamo-0-ri-zero#cldf:__all__)
+1. wordform: (asamo-0-ri-jraneg,asamo-0-ri-zero)
 1. text: [Text HistAnFo,CtoRat](TextTable?ids=HistAnFo,CtoRat#cldf:__all__)
 
 ## Examples
 
 ### Interlinear
 
-[Example ctorat-34](ExampleTable?example_no=25#cldf:ctorat-34)
+[Example ctorat-34](ExampleTable?example_no=26#cldf:ctorat-34)
 
-[Example ctorat-35,ctorat-36](ExampleTable?exid=multiigt&ids=ctorat-35,ctorat-36&example_no=26#cldf:__all__)
+[Example ctorat-35,ctorat-36](ExampleTable?exid=multiigt&ids=ctorat-35,ctorat-36&example_no=27#cldf:__all__)
 
 ### Other
 
@@ -52,14 +52,14 @@
 
 ### Example references
 
-<a class="exref" exid="ctorat-34"></a>
+<a class="exref" example_id="ctorat-34"></a>
 
-<a class="exref" exid="multiigt"></a> or <a class="exref" exid="ctorat-36"></a> or even <a class="exref" exid="multiigt"suffix="a-b" ></a>
+<a class="exref" example_id="multiigt"></a> or <a class="exref" example_id="ctorat-36"></a> or even <a class="exref" example_id="multiigt"suffix="a-b" ></a>
 
-<a class="exref" exid="test1"></a>
+<a class="exref" example_id="test1"></a>
 
-<a class="exref" exid="multiparttest"></a>
+<a class="exref" example_id="multiparttest"></a>
 
-<a class="exref" exid="test1"end="multiparttest" ></a>
+<a class="exref" example_id="test1"end="multiparttest" ></a>
 
 

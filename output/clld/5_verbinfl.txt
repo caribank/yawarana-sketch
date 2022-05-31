@@ -43,10 +43,10 @@
 | [Morpheme jpepst](MorphsetTable?#cldf:jpepst)   | past                                     |
 | [Morpheme sepst](MorphsetTable?#cldf:sepst)     | past 2?                                  |
 | [Morpheme sapepfv](MorphsetTable?#cldf:sapepfv) | perfective?                              |
-| [Morpheme sareinm](MorphsetTable?#cldf:sareinm) | imminent future                          |
+| [Morpheme sareimn](MorphsetTable?#cldf:sareimn) | imminent future                          |
 | [Morpheme tepeke](MorphsetTable?#cldf:tepeke)   | <span class="smallcaps">prog.intr</span> |
 | [Morpheme pekeon](MorphsetTable?#cldf:pekeon)   | <span class="smallcaps">prog.tr</span>   |
-| [Morpheme sareinm](MorphsetTable?#cldf:sareinm) | imminent future                          |
+| [Morpheme sareimn](MorphsetTable?#cldf:sareimn) | imminent future                          |
 
 <span title='how do the following ones fit in?'>❓</span>
 
@@ -55,11 +55,12 @@
 * *‑tojpano* ‘<span class="smallcaps">fut</span>’
 
 <span title='what are these?'>❓</span>
+
 * [Morpheme septcp](MorphsetTable?#cldf:septcp)=[Morpheme pano](MorphsetTable?#cldf:pano) ‘<span class="smallcaps">pst</span>=<span class="smallcaps">concl</span>’
 * [Morph sajpfv](MorphTable?#cldf:sajpfv)=[Morpheme pano](MorphsetTable?#cldf:pano) ‘<span class="smallcaps">pfv</span>=<span class="smallcaps">concl</span>’
 
 * imperatives:
-    * [Morpheme keimp](MorphsetTable?#cldf:keimp) ‑*të*[Morpheme keimp](MorphsetTable?#cldf:keimp) ‘<span class="smallcaps">imp</span> / <span class="smallcaps">imp.pl</span>’
+    * [Morpheme keimp](MorphsetTable?#cldf:keimp) / ‑*të*[Morpheme keimp](MorphsetTable?#cldf:keimp) ‘<span class="smallcaps">imp</span> / <span class="smallcaps">imp.pl</span>’
     * [Morpheme tamotimp](MorphsetTable?#cldf:tamotimp) / [Morpheme tamotimp](MorphsetTable?#cldf:tamotimp)*ntë*[Morpheme keimp](MorphsetTable?#cldf:keimp) ‘<span class="smallcaps">imp</span>.<span class="smallcaps">mot</span> / <span class="smallcaps">imp</span>.<span class="smallcaps">mot.pl</span>’
 
 ### [Morpheme riipfv](MorphsetTable?#cldf:riipfv)
@@ -97,18 +98,18 @@ not specified for tense, just imperfective aspect:
 ### [Morpheme sapepfv](MorphsetTable?#cldf:sapepfv)
 * diachrony and distribution:  only occurs on the copula?
 * allomorphy: [Morph sapepfv](MorphTable?#cldf:sapepfv) and [Morph sajpfv](MorphTable?#cldf:sajpfv)
-* negation: with [Morpheme janeg](MorphsetTable?#cldf:janeg) on lexical verb <a class="exref" exid="ctoaragrme-38"end="ctoaragrme-40" ></a>
+* negation: with [Morpheme janeg](MorphsetTable?#cldf:janeg) on lexical verb <a class="exref" example_id="ctoaragrme-38"end="ctoaragrme-40" ></a>
 <span title='semantics?'>❓</span>
 
 [Example ctoaragrme-38](ExampleTable?example_no=18#cldf:ctoaragrme-38)
 [Example ctoaragrme-39](ExampleTable?example_no=19#cldf:ctoaragrme-39)
 [Example ctoaragrme-40](ExampleTable?example_no=20#cldf:ctoaragrme-40)
 
-* what about <a class="exref" exid="ctorat-19"></a>? is that existential negation?
+* what about <a class="exref" example_id="ctorat-19"></a>? is that existential negation?
 
 [Example ctorat-19](ExampleTable?example_no=21#cldf:ctorat-19)
 
-### [Morpheme sareinm](MorphsetTable?#cldf:sareinm)
+### [Morpheme sareimn](MorphsetTable?#cldf:sareimn)
 
 [Example ctorat-25](ExampleTable?example_no=22#cldf:ctorat-25)
 [Example ctoaragrme-25](ExampleTable?example_no=23#cldf:ctoaragrme-25)
@@ -116,16 +117,20 @@ not specified for tense, just imperfective aspect:
 
 
 ## Subordinate Clause markers
+<span title='are these not derivational? wrong section?'>❓</span>
+
 * Nominalizations
 * Adverbial Clauses
     * [Morpheme septcp](MorphsetTable?#cldf:septcp) ‘supine’
     * [Morpheme tojpefut](MorphsetTable?#cldf:tojpefut) ‘purpose’
     * (‑jpë)=tërë ‘after’
     * [Morpheme tanecncs](MorphsetTable?#cldf:tanecncs) ‘concessive’
-    * [Morpheme sareinm](MorphsetTable?#cldf:sareinm) ‘converb’
+    * [Morpheme sareimn](MorphsetTable?#cldf:sareimn) ‘converb’
     * [Morpheme yaweloc](MorphsetTable?#cldf:yaweloc) ‘simult’
     * *‑yapo* ‘neg.purp’
     * others?
+
+What about [Morpheme podes](MorphsetTable?#cldf:podes)?
 
 ## Number
 * _‑rï=kontomo_

@@ -15,7 +15,7 @@ Short forms of the first and second person pronouns can occur as proclitics atta
 
 [ex](convrisamaj-02)
 
-An open question is whether [mp](t3) on verbs is a reduction of [mp](587b3015-391a-4db2-b4b9-0e92563a5332). [todo](or is there a clear yes/no answer?)
+An open question is whether [mp](t3) on verbs is a reduction of [mp](tewi-3pro). [todo](or is there a clear yes/no answer?)
 
 The third person demonstrative pronouns or articles are shown in [ref](tab:pronouns3).
 [todo](is there a 4‑way distinction? [cf. Ye’kwana?])
@@ -25,9 +25,9 @@ The third person demonstrative pronouns or articles are shown in [ref](tab:prono
 None of the demonstrative pronouns have shortened, phonologically bound counterparts.
 
 * Nominal Interrogative pronouns:
-    * [mp](aniki-who) ‘who? anim’
-    * [mp](d5f051fe-c25a-4507-b4cc-f04a47e15e24) ‘what? inan’
-    * _ëjkë_ ‘which? inan’
+    * [mp](aniki-who) 'who?'
+    * [mp](ati-what) 'what?'
+    * _ëjkë_ 'which? inan'
 [todo](No plural forms for any of these?)
 
 
@@ -39,6 +39,8 @@ Nouns in Yawarana may bear suffixes for possession ([ref](sec:nounposssuf)) and 
 
 In the possession construction in Yawarana, the possessor noun occurs immediately preceding the possessed noun, which is the head of the possession phrase. Alternatively, the possessor can appear as a bound pronominal clitic (first & second person) or a prefix (third person) on the possessed noun. The possessor noun is never marked (for instance, with genitive case), but the possessed noun (the head) is often marked by a lexically specified ‘possessed’ suffix, either [mp](rupert) '[gl](pert)' or [mp](tipert) ‘pos’. Unpossessed nouns generally are unmarked, but some 15 nouns bear the suffix [mp](tenpert) ‘[gl](npert)’ when they appear without a possessor. 
 Examples [exref](onlypossessed?end=unsuffixednouns) illustrate the possible patterns of markedness for nouns when possessed and unpossessed. In the first category, which contains the vast majority of nouns in our corpus, the unpossessed noun is unmarked, but when possessed the suffix -ri ‘pos’ occurs [exref](onlypossessed). A handful of nouns is marked with -ri/-ti ‘pos’ when possessed and with -të ‘npos’ when not possessed [exref](diffpossessed). Another handful is unmarked when possessed and marked with -të when not possessed [exref](suffunpossessed). The fourth logical possibility, in which the noun bears no marker of possession (or non-possession) whether possessed or unpossessed, contains very few members (only one attested so far); in this case, the difference is marked only by the presence or absence of a possessive prefix or free-form possessor [exref](unsuffixednouns). 
+
+[todo](where did these come from? elicitation? is there a record?)
 
 [manex](onlypossessed)
 

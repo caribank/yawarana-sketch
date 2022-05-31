@@ -5,4 +5,10 @@ class Phoneme(Entity):
     cldf_table = "PhonemeTable"
     shortcut = "pnm"
 
-models = [Phoneme]
+class POS(Entity):
+    name = "POS"
+    cldf_table = "POSTable"
+    shortcut = "pos"
+
+
+models = [Phoneme, POS]

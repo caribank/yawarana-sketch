@@ -43,7 +43,6 @@ contents={\begin{tikzpicture}[remember picture,overlay]
 \newGlossingAbbrev{poss}{possession}
 \newGlossingAbbrev{nposs}{nonpossessed}
 \newGlossingAbbrev{in}{inanimate}
-\newGlossingAbbrev{md}{medial}
 \newGlossingAbbrev{emp}{emphatic}
 \newGlossingAbbrev{pert}{pertensive}
 \newGlossingAbbrev{quot}{quotative}
@@ -62,6 +61,10 @@ contents={\begin{tikzpicture}[remember picture,overlay]
 \newGlossingAbbrev{concl}{conclusive}
 \newGlossingAbbrev{imp}{imperative}
 \newGlossingAbbrev{mot}{motion}
+\newGlossingAbbrev{pro}{pronoun}
+\newGlossingAbbrev{hsy}{hearsay evidentiality}
+\newGlossingAbbrev{imn}{imminent}
+\newGlossingAbbrev{med}{medial}
 
 \begin{document}
 
@@ -186,7 +189,7 @@ third person pronouns and demonstratives.
   \gl{1} & \obj{wïrë} &                   \\
 \gl{1+2} &            &        \obj{ejnë} \\
 \gl{1+3} &            &         \obj{ana} \\
-  \gl{2} & \obj{mërë} &   \obj{mokontomo} \\
+  \gl{2} & \obj{mërë} &  \obj{monkontomo} \\
   \gl{3} & \obj{tëwï} & \obj{tëwïsantomo} \\
 \bottomrule
 \end{tabular}
@@ -200,8 +203,13 @@ object (described in \cref{verbinfl}), or attached to postpositions to
 indicate object of the postposition (described in \cref{sec:postinfl}):
 
 \ex Yawarana \\
-\label{convrisamaj-28}    \textit{uyïwïj yawë usenejkari sukuri jwama }\\
-        ‘yo me quedo en mi casa tranquila’ \xe
+\label{convrisamaj-28}    \begingl
+    \glpreamble  uyïwïj yawë usenejkari sukuri jwama //
+    \gla u-y-ïwïj yawë u-senejka-ri suku-ri jwama//
+    \glb \gl{1}-\gl{lk}-house \gl{loc} \gl{1}-remain-\gl{ipfv} urine-\gl{pert} ***//
+        \glft ‘I silently stay in my house.’//  
+    \endgl 
+\xe
 
 \ex Yawarana \\
 \label{desccasmaj-025}    \textit{mënai wëjkase chijpë wararë }\\
@@ -230,10 +238,10 @@ The third person demonstrative pronouns or articles are shown in
 \toprule
               & \multicolumn{2}{l}{anim} & \multicolumn{2}{l}{inan} \\
 \midrule
-              &          sg &                 pl &         sg &                        pl \\
-         prox &  \obj{kërë} & \emph{kërësantomo} &  \obj{eni} &  \obj{eni}-\emph{santomo} \\
-medial? near? & \obj{michi} &                    & \obj{mërë} & \obj{mërë}-\emph{santomo} \\
-         dist &  \obj{mëkï} &  \obj{mëkïsantomo} & \obj{mënï} & \obj{mënï}-\emph{santomo} \\
+              &           sg &                pl &                      sg &                                   pl \\
+         prox &   \obj{kërë} & \obj{kërësantomo} &               \obj{eni} &                         \obj{enijne} \\
+medial? near? &  \obj{michí} &                   & \obj{misi} / \obj{mërë} & \obj{michisantomo} / \obj{michitomo} \\
+         dist & \emph{mëkï}? & \obj{mëkïsantomo} &             \obj{mëjnï} &                       \obj{mëjnijne} \\
 \bottomrule
 \end{tabular}
 
@@ -250,9 +258,9 @@ counterparts.
   \begin{itemize}
   \tightlist
   \item
-    \obj{aniki} `who? anim'
+    \obj{aniki} `who?'
   \item
-    \obj{ati} `what? inan'
+    \obj{ati} `what?'
   \item
     \emph{ëjkë} `which? inan'
   \end{itemize}
@@ -355,12 +363,22 @@ interchangeable. What conditions the choice of suffix is not clear as of
 yet.
 
 \ex Yawarana \\
-\label{ctorat-17}    \textit{waijtatomo ëjwenakase }\\
-        ‘se vomitaron las ratas’ \xe
+\label{ctorat-17}    \begingl
+    \glpreamble  waijtatomo ëjwenakase //
+    \gla waijta-tomo ëj-wenaka-se//
+    \glb mouse-\gl{pl} \gl{detrz}-vomit-\gl{pst}//
+        \glft ‘The mice vomited.’//  
+    \endgl 
+\xe
 
 \ex Yawarana \\
-\label{ctorat-40}    \textit{tipapëjsejne waijtajne }\\
-        ‘las ratas se fueron’ \xe
+\label{ctorat-40}    \begingl
+    \glpreamble  tipapëjsejne waijtajne //
+    \gla tipa-pëj-se-jne waijta-jne//
+    \glb go.in.group-\gl{plur}-\gl{pst}-\gl{pl} mouse-\gl{pl}//
+        \glft ‘the mice went away.’//  
+    \endgl 
+\xe
 
 \subsection{\texorpdfstring{Argument prefixes
 \label{sec:nominalperson}}{Argument prefixes }}
@@ -389,24 +407,44 @@ in \exref[][ctorat-19]{ctorat-23}.
 \end{table}
 
 \ex Yawarana \\
-\label{ctorat-23}    \textit{aaa usukuru morone ta wïrë usujta ta ne }\\
-        ‘me duele mis orines, voy a orinar’ \xe
+\label{ctorat-23}    \begingl
+    \glpreamble  aaa usukuru morone ta wïrë usujta ta ne //
+    \gla aaa u-suku-ru morone ta wïrë u-suj-ta-∅ ta ne//
+    \glb *** \gl{1}-urine-\gl{pert} hurting like \gl{1}\gl{pro} \gl{1}-urine-\gl{vbz}-\gl{ipfv} like \gl{ints}//
+        \glft ‘My urine hurts, I will urinate.’//  
+    \endgl 
+\xe
 
 \ex Yawarana \\
-\label{convrisamaj-28}    \textit{uyïwïj yawë usenejkari sukuri jwama }\\
-        ‘yo me quedo en mi casa tranquila’ \xe
+\label{convrisamaj-28}    \begingl
+    \glpreamble  uyïwïj yawë usenejkari sukuri jwama //
+    \gla u-y-ïwïj yawë u-senejka-ri suku-ri jwama//
+    \glb \gl{1}-\gl{lk}-house \gl{loc} \gl{1}-remain-\gl{ipfv} urine-\gl{pert} ***//
+        \glft ‘I silently stay in my house.’//  
+    \endgl 
+\xe
 
 \ex Yawarana \\
 \label{desccasmaj-025}    \textit{mënai wëjkase chijpë wararë }\\
         ‘se cayó tu cosa’ \xe
 
 \ex Yawarana \\
-\label{ctorat-46}    \textit{tïwïj yaka waraijtokomo manikijpë }\\
-        ‘se fue el hombre para su casa (porque ya amaneció)’ \xe
+\label{ctorat-46}    \begingl
+    \glpreamble  tïwïj yaka waraijtokomo manikijpë //
+    \gla t-ïwïj yaka waraijtokomo maniki-jpë//
+    \glb \gl{3}-house \gl{all} man ?-\gl{pst}//
+        \glft ‘He went to his house.’//  
+    \endgl 
+\xe
 
 \ex Yawarana \\
-\label{ctorat-19}    \textit{pïrarë ti iwenaru wejsapë }\\
-        ‘no había su vómito’ \xe
+\label{ctorat-19}    \begingl
+    \glpreamble  pïrarë ti iwenaru wejsapë //
+    \gla pïrarë ti i-wena-ru wej-sapë//
+    \glb nothing \gl{hsy} \gl{3}-vomit-\gl{pert} \gl{cop}-\gl{pfv}//
+        \glft ‘Their vomit was not there.’//  
+    \endgl 
+\xe
 
 The linker also occurs with (pro-)nominal possessors:
 
@@ -511,8 +549,13 @@ second person \obj{a-} (\cref{tab:oldpossprefixes}).
 predicative negation of nominalized verb:
 
 \ex Yawarana \\
-\label{convrisamaj-52}    \textit{tari yarikasemïjra }\\
-        ‘uy! no hay como para reir’ \xe
+\label{convrisamaj-52}    \begingl
+    \glpreamble ¡ tari\%¡ yarikasemïjra //
+    \gla ta-ri yarikasemïjra//
+    \glb say-\gl{ipfv} ***//
+        \glft ‘Oh, there’s nothing to laugh about.’//  
+    \endgl 
+\xe
 
 \chapter{\texorpdfstring{Verbal inflection
 \label{verbinfl}}{Verbal inflection }}
@@ -689,28 +732,53 @@ Probably not?}
 \end{itemize}
 
 \ex Yawarana \\
-\label{convrisamaj-04}    \textit{wïrë yaruwarijra }\\
-        ‘!‘yo no me río’ \xe
+\label{convrisamaj-04}    \begingl
+    \glpreamble  wïrë yaruwarijra\#\#\# //
+    \gla wïrë yaruwa-ri-jra//
+    \glb \gl{1}\gl{pro} laugh-\gl{ipfv}-\gl{neg}//
+        \glft ‘I don’t laugh.’//  
+    \endgl 
+\xe
 
 \subsubsection{Semantics}
 
 not specified for tense, just imperfective aspect:
 
 \ex Yawarana \\
-\label{ctorat-16}    \textit{irëjpë tëwï waijtatomo nwajtëri }\\
-        ‘después las ratas estaban bailando’ \xe
+\label{ctorat-16}    \begingl
+    \glpreamble  irëjpë tëwï waijtatomo nwajtëri //
+    \gla irëjpë tëwï waijta-tomo nwajtë-ri//
+    \glb then \gl{3}\gl{pro} mouse-\gl{pl} dance-\gl{ipfv}//
+        \glft ‘Then the mice were dancing.’//  
+    \endgl 
+\xe
 
 \ex Yawarana \\
-\label{convrisamaj-06}    \textit{kwase ejnë yaruwari }\\
-        ‘¿cómo vamos a reir?’ \xe
+\label{convrisamaj-06}    \begingl
+    \glpreamble ¿ kwase ejnë yaruwari? //
+    \gla kwase ejnë yaruwa-ri//
+    \glb how \gl{1+2}\gl{pro} laugh-\gl{ipfv}//
+        \glft ‘How will we laugh?’//  
+    \endgl 
+\xe
 
 \ex Yawarana \\
-\label{convrisamaj-04}    \textit{wïrë yaruwarijra }\\
-        ‘!‘yo no me río’ \xe
+\label{convrisamaj-04}    \begingl
+    \glpreamble  wïrë yaruwarijra\#\#\# //
+    \gla wïrë yaruwa-ri-jra//
+    \glb \gl{1}\gl{pro} laugh-\gl{ipfv}-\gl{neg}//
+        \glft ‘I don’t laugh.’//  
+    \endgl 
+\xe
 
 \ex Yawarana \\
-\label{convrisamaj-28}    \textit{uyïwïj yawë usenejkari sukuri jwama }\\
-        ‘yo me quedo en mi casa tranquila’ \xe
+\label{convrisamaj-28}    \begingl
+    \glpreamble  uyïwïj yawë usenejkari sukuri jwama //
+    \gla u-y-ïwïj yawë u-senejka-ri suku-ri jwama//
+    \glb \gl{1}-\gl{lk}-house \gl{loc} \gl{1}-remain-\gl{ipfv} urine-\gl{pert} ***//
+        \glft ‘I silently stay in my house.’//  
+    \endgl 
+\xe
 
 \subsection{\texorpdfstring{\obj{-jpë}}{}}
 
@@ -764,14 +832,24 @@ not specified for tense, just imperfective aspect:
 \end{itemize}
 
 \ex Yawarana \\
-\label{ctorat-19}    \textit{pïrarë ti iwenaru wejsapë }\\
-        ‘no había su vómito’ \xe
+\label{ctorat-19}    \begingl
+    \glpreamble  pïrarë ti iwenaru wejsapë //
+    \gla pïrarë ti i-wena-ru wej-sapë//
+    \glb nothing \gl{hsy} \gl{3}-vomit-\gl{pert} \gl{cop}-\gl{pfv}//
+        \glft ‘Their vomit was not there.’//  
+    \endgl 
+\xe
 
 \subsection{\texorpdfstring{\obj{-sarë}}{}}
 
 \ex Yawarana \\
-\label{ctorat-25}    \textit{irëjpë ta ti ta konopo wejsarë konopo wejsarë }\\
-        ‘después dijo, está lloviendo, está lloviendo!’ \xe
+\label{ctorat-25}    \begingl
+    \glpreamble  irëjpë ta ti ta konopo wejsarë konopo wejsarë //
+    \gla irëjpë ta-∅ ti ta konopo wej-sarë konopo wej-sarë//
+    \glb then say-\gl{ipfv} \gl{hsy} like rain \gl{cop}-\gl{imn} rain \gl{cop}-\gl{imn}//
+        \glft ‘Then they said: “it’s raining, it’s raining”.’//  
+    \endgl 
+\xe
 
 \ex Yawarana \\
 \label{ctoaragrme-25}    \textit{moyochi tasarë moyochi chipokono kojpaye pïnika warotari }\\
@@ -807,6 +885,8 @@ not specified for tense, just imperfective aspect:
   \end{itemize}
 \end{itemize}
 
+What about \obj{-po}?
+
 \section{Number}
 
 \begin{itemize}
@@ -838,6 +918,11 @@ not specified for tense, just imperfective aspect:
 
 \chapter{\texorpdfstring{Adverbs \label{adverbs}}{Adverbs }}
 
+\begin{itemize}
+\tightlist
+\item
+\end{itemize}
+
 \section{Inflection}
 
 \begin{itemize}
@@ -849,8 +934,13 @@ not specified for tense, just imperfective aspect:
 \end{itemize}
 
 \ex Yawarana \\
-\label{convrisamaj-52}    \textit{tari yarikasemïjra }\\
-        ‘uy! no hay como para reir’ \xe
+\label{convrisamaj-52}    \begingl
+    \glpreamble ¡ tari\%¡ yarikasemïjra //
+    \gla ta-ri yarikasemïjra//
+    \glb say-\gl{ipfv} ***//
+        \glft ‘Oh, there’s nothing to laugh about.’//  
+    \endgl 
+\xe
 
 \section{\texorpdfstring{Simple adverbs
 \label{sec:simpleadv}}{Simple adverbs }}
@@ -859,6 +949,11 @@ not specified for tense, just imperfective aspect:
 \label{sec:derivedadv}}{Derived adverbs }}
 
 \chapter{\texorpdfstring{Postpositions \label{postp}}{Postpositions }}
+
+\begin{itemize}
+\tightlist
+\item
+\end{itemize}
 
 \section{Defining the category}
 
@@ -896,10 +991,10 @@ Postpositions take the same inflectional prefixes as nouns
 \centering
 \begin{tabular}{lll}
 \toprule
-        &         all &         loc \\
+        &        all &        loc \\
 \midrule
- inside &  \obj{yaka} &  \obj{yawë} \\
-aquatic & \obj{jwaka} & \obj{jwawë} \\
+ inside & \obj{yaka} & \obj{yawë} \\
+aquatic &          ? &          ? \\
 \bottomrule
 \end{tabular}
 
@@ -926,13 +1021,11 @@ aquatic & \obj{jwaka} & \obj{jwawë} \\
 \begin{itemize}
 \tightlist
 \item
-  ya `erg'
+  \obj{ya} ya `erg' ?)
 \item
-  ke `instr'
+  \emph{ke} `instr'
 \item
-  wanai
-\item
-  etc.
+  \emph{wanai}
 \end{itemize}
 
 \section{Propositional Postpositions}
@@ -948,6 +1041,12 @@ aquatic & \obj{jwaka} & \obj{jwawë} \\
 \chapter{\texorpdfstring{Particles and Ideophones
 \label{partideo}}{Particles and Ideophones }}
 
+\begin{itemize}
+\tightlist
+\item
+\item
+\end{itemize}
+
 \chapter{\texorpdfstring{Phrases \label{phrases}}{Phrases }}
 
 \chapter{\texorpdfstring{Nonverbal predications
@@ -957,6 +1056,23 @@ aquatic & \obj{jwaka} & \obj{jwawë} \\
 \label{simpleverb}}{Simple verbal clauses }}
 
 \chapter{\texorpdfstring{Negation \label{negation}}{Negation }}
+
+Relevant morphemes:
+
+\begin{itemize}
+\item
+  \obj{-ja}
+\item
+  \obj{-jra}
+\item
+  \obj{-jnari}
+\item
+  \obj{-kempïnirë}
+\item
+  \obj{pïnirë}
+\item
+  \obj{pïrarë}
+\end{itemize}
 
 \chapter{\texorpdfstring{Questions \label{questions}}{Questions }}
 
@@ -1010,25 +1126,35 @@ aquatic & \obj{jwaka} & \obj{jwawë} \\
 \ex Yawarana \\
 \label{ctorat-34}    \begingl
     \glpreamble  ëkëtë mërë ëkï //
-    \gla ëkëtë më-rë ëkï//
-    \glb where \gl{2}-\gl{emp} manioc.beer//
+    \gla ëkëtë mërë ëkï//
+    \glb where \gl{med}.\gl{inan} manioc.beer//
         \glft ‘Where is the chicha?’//  
     \endgl 
 \xe
 
 \pex\label{}    \a Yawarana\\
-    \label{ctorat-35}        \textit{ëkï ta rë pïrarë wenarujpë ta rë pïrarë }\\
-            ‘el yaraki no había y tampoco el vómito’     \a Yawarana\\
-    \label{ctorat-36}        \textit{ta ti wejsaj ti tëwï }\\
-            ‘dijo él’ \xe
+    \label{ctorat-35}        \begingl
+        \glpreamble  ëkï ta rë pïrarë wenarujpë ta rë pïrarë //
+        \gla ëkï ta rë pïrarë wena-ru-jpë ta rë pïrarë//
+        \glb manioc.beer like \gl{emp} nothing vomit-\gl{pert}-\gl{pst} like \gl{emp} nothing//
+            \glft ‘The chicha was gone and so was the vomit.’//  
+        \endgl 
+    \a Yawarana\\
+    \label{ctorat-36}        \begingl
+        \glpreamble  ta ti wejsaj ti tëwï //
+        \gla ta-∅ ti wej-saj ti tëwï//
+        \glb say-\gl{ipfv} \gl{hsy} \gl{cop}-\gl{pfv} \gl{hsy} \gl{3}\gl{pro}//
+            \glft ‘...he said.’//  
+        \endgl 
+\xe
 
 \subsection{Other}
 
 \ex\label{test1}\begin{tabular}[t]{ll}
 
-\obj{konopo} &   root \\
+\obj{yaka} &   root \\
 
-   \obj{-se} & suffix \\
+ \obj{-se} & suffix \\
 
 \end{tabular}
  \xe

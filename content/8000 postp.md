@@ -1,5 +1,7 @@
 # Postpositions [label](postp)
 
+* [pos](postp)
+
 ## Defining the category
 
 ## Inflectional morphology [label](sec:postinfl)
@@ -24,10 +26,10 @@ Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssu
 [ex](histpajirdi-186)
 
 ## Nonlocative Oblique Postpositions 
-* ya ‘erg’
-* ke ‘instr’
-* wanai
-* etc.
+* [mp](yaerg) ya ‘erg’ [todo](is this a different morpheme from [mp](yaobl)?)
+* *ke* ‘instr’
+* _wanai_
+
 
 ## Propositional Postpositions
 * =se ‘desiderative’

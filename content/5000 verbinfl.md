@@ -91,7 +91,7 @@ not specified for tense, just imperfective aspect:
 
 [ex](ctorat-19)
 
-### [mp](sareinm)
+### [mp](sareimn)
 
 [ex](ctorat-25)
 [ex](ctoaragrme-25)
@@ -107,10 +107,12 @@ not specified for tense, just imperfective aspect:
     * [mp](tojpefut) ‘purpose’
     * (‑jpë)=tërë ‘after’
     * [mp](tanecncs) ‘concessive’
-    * [mp](sareinm) ‘converb’
+    * [mp](sareimn) ‘converb’
     * [mp](yaweloc) ‘simult’
     * *‑yapo* ‘neg.purp’
     * others?
+
+What about [mp](podes)?
 
 ## Number
 * _‑rï=kontomo_

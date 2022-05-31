@@ -92,7 +92,7 @@ Pronouns:
 
   1+3          ana
 
-  2     mërë   mokontomo
+  2     mërë   monkontomo
 
   3     tëwï   tëwïsantomo
   --------------------------
@@ -104,8 +104,9 @@ object (described in (ref:verbinfl)), or attached to postpositions to
 indicate object of the postposition (described in (ref:sec:postinfl)):
 
 (1) Yawarana
-    uyïwïj yawë usenejkari sukuri jwama ‘yo me quedo en mi casa
-    tranquila’
+    u-y-ïwïj    yawë  u-senejka-ri   suku-ri     jwama
+    1-LK-house  LOC   1-remain-IPFV  urine-PERT  ***
+    ‘I silently stay in my house.’
 
 (2) Yawarana
     mënai wëjkase chijpë wararë ‘se cayó tu cosa’
@@ -122,24 +123,25 @@ The third person demonstrative pronouns or articles are shown in
 
 Demonstrative pronouns / articles:
 
-  ------------------------------------------------------------------
-                  ANIM                     INAN     
-  --------------- -------- --------------- -------- ----------------
-                  SG       PL              SG       PL
+  --------------------------------------------------------------------------
+                 ANIM                   INAN         
+  -------------- -------- ------------- ------------ -----------------------
+                 SG       PL            SG           PL
 
-  PROX            kërë     kërësantomo     eni      eni-santomo
+  PROX           kërë     kërësantomo   eni          enijne
 
-  medial? near?   michi                    mërë     mërë-santomo
+  medial? near?  michí                  misi / mërë  michisantomo /
+                                                     michitomo
 
-  DIST            mëkï     mëkïsantomo     mënï     mënï-santomo
-  ------------------------------------------------------------------
+  DIST           mëkï?    mëkïsantomo   mëjnï        mëjnijne
+  --------------------------------------------------------------------------
 
 None of the demonstrative pronouns have shortened, phonologically bound
 counterparts.
 
 -   Nominal Interrogative pronouns:
-    -   aniki ‘who? anim’
-    -   ati ‘what? inan’
+    -   aniki ‘who?’
+    -   ati ‘what?’
     -   ëjkë ‘which? inan’
 
 Nominal inflection (label:sec:nouninfl)
@@ -229,10 +231,14 @@ interchangeable. What conditions the choice of suffix is not clear as of
 yet.
 
 (4) Yawarana
-    waijtatomo ëjwenakase ‘se vomitaron las ratas’
+    waijta-tomo  ëj-wenaka-se
+    mouse-PL     DETRZ-vomit-PST
+    ‘The mice vomited.’
 
 (5) Yawarana
-    tipapëjsejne waijtajne ‘las ratas se fueron’
+    tipa-pëj-se-jne          waijta-jne
+    go.in.group-PLUR-PST-PL  mouse-PL
+    ‘the mice went away.’
 
 Argument prefixes (label:sec:nominalperson)
 
@@ -255,22 +261,27 @@ Possessive prefixes on nouns:
   -------------------
 
 (6) Yawarana
-    aaa usukuru morone ta wïrë usujta ta ne ‘me duele mis orines, voy a
-    orinar’
+    aaa  u-suku-ru     morone   ta    wïrë  u-suj-ta-∅        ta    ne
+    ***  1-urine-PERT  hurting  like  1PRO  1-urine-VBZ-IPFV  like  INTS
+    ‘My urine hurts, I will urinate.’
 
 (7) Yawarana
-    uyïwïj yawë usenejkari sukuri jwama ‘yo me quedo en mi casa
-    tranquila’
+    u-y-ïwïj    yawë  u-senejka-ri   suku-ri     jwama
+    1-LK-house  LOC   1-remain-IPFV  urine-PERT  ***
+    ‘I silently stay in my house.’
 
 (8) Yawarana
     mënai wëjkase chijpë wararë ‘se cayó tu cosa’
 
 (9) Yawarana
-    tïwïj yaka waraijtokomo manikijpë ‘se fue el hombre para su casa
-    (porque ya amaneció)’
+    t-ïwïj   yaka  waraijtokomo  maniki-jpë
+    3-house  ALL   man           ?-PST
+    ‘He went to his house.’
 
 (10) Yawarana
-     pïrarë ti iwenaru wejsapë ‘no había su vómito’
+     pïrarë   ti   i-wena-ru     wej-sapë
+     nothing  HSY  3-vomit-PERT  COP-PFV
+     ‘Their vomit was not there.’
 
 The linker also occurs with (pro-)nominal possessors:
 
@@ -320,7 +331,9 @@ Misc
 predicative negation of nominalized verb:
 
 (12) Yawarana
-     tari yarikasemïjra ‘uy! no hay como para reir’
+     ta-ri     yarikasemïjra
+     say-IPFV  ***
+     ‘Oh, there’s nothing to laugh about.’
 
 Verbal inflection (label:verbinfl)
 
@@ -414,25 +427,33 @@ Verbal TAM suffixes:
 -   combines with -jra:
 
 (13) Yawarana
-     wïrë yaruwarijra ‘!‘yo no me río’
+     wïrë  yaruwa-ri-jra
+     1PRO  laugh-IPFV-NEG
+     ‘I don’t laugh.’
 
 Semantics
 
 not specified for tense, just imperfective aspect:
 
 (14) Yawarana
-     irëjpë tëwï waijtatomo nwajtëri ‘después las ratas estaban
-     bailando’
+     irëjpë  tëwï  waijta-tomo  nwajtë-ri
+     then    3PRO  mouse-PL     dance-IPFV
+     ‘Then the mice were dancing.’
 
 (15) Yawarana
-     kwase ejnë yaruwari ‘¿cómo vamos a reir?’
+     kwase  ejnë    yaruwa-ri
+     how    1+2PRO  laugh-IPFV
+     ‘How will we laugh?’
 
 (16) Yawarana
-     wïrë yaruwarijra ‘!‘yo no me río’
+     wïrë  yaruwa-ri-jra
+     1PRO  laugh-IPFV-NEG
+     ‘I don’t laugh.’
 
 (17) Yawarana
-     uyïwïj yawë usenejkari sukuri jwama ‘yo me quedo en mi casa
-     tranquila’
+     u-y-ïwïj    yawë  u-senejka-ri   suku-ri     jwama
+     1-LK-house  LOC   1-remain-IPFV  urine-PERT  ***
+     ‘I silently stay in my house.’
 
 -jpë
 
@@ -463,13 +484,16 @@ not specified for tense, just imperfective aspect:
 -   what about exref? is that existential negation?
 
 (21) Yawarana
-     pïrarë ti iwenaru wejsapë ‘no había su vómito’
+     pïrarë   ti   i-wena-ru     wej-sapë
+     nothing  HSY  3-vomit-PERT  COP-PFV
+     ‘Their vomit was not there.’
 
 -sarë
 
 (22) Yawarana
-     irëjpë ta ti ta konopo wejsarë konopo wejsarë ‘después dijo, está
-     lloviendo, está lloviendo!’
+     irëjpë  ta-∅      ti   ta    konopo  wej-sarë  konopo  wej-sarë
+     then    say-IPFV  HSY  like  rain    COP-IMN   rain    COP-IMN
+     ‘Then they said: “it’s raining, it’s raining”.’
 
 (23) Yawarana
      moyochi tasarë moyochi chipokono kojpaye pïnika warotari ‘le dicen
@@ -488,6 +512,8 @@ Subordinate Clause markers
     -   ‑yapo ‘neg.purp’
     -   others?
 
+What about -po?
+
 Number
 
 -   ‑rï=kontomo
@@ -505,19 +531,25 @@ Verbal roots and stems (label:derbderiv)
 
 Adverbs (label:adverbs)
 
+-   
+
 Inflection
 
 -   presumably no prefixation
 -   negation:
 
 (24) Yawarana
-     tari yarikasemïjra ‘uy! no hay como para reir’
+     ta-ri     yarikasemïjra
+     say-IPFV  ***
+     ‘Oh, there’s nothing to laugh about.’
 
 Simple adverbs (label:sec:simpleadv)
 
 Derived adverbs (label:sec:derivedadv)
 
 Postpositions (label:postp)
+
+-   
 
 Defining the category
 
@@ -547,7 +579,7 @@ Locative postpositions:
   --------- ------- -------
   inside    yaka    yawë
 
-  aquatic   jwaka   jwawë
+  aquatic   ?       ?
   -------------------------
 
 -   poye
@@ -561,10 +593,9 @@ Locative postpositions:
 
 Nonlocative Oblique Postpositions
 
--   ya ‘erg’
+-   ya ya ‘erg’ ?)
 -   ke ‘instr’
 -   wanai
--   etc.
 
 Propositional Postpositions
 
@@ -573,6 +604,9 @@ Propositional Postpositions
 
 Particles and Ideophones (label:partideo)
 
+-   
+-   
+
 Phrases (label:phrases)
 
 Nonverbal predications (label:nonverbal)
@@ -580,6 +614,15 @@ Nonverbal predications (label:nonverbal)
 Simple verbal clauses (label:simpleverb)
 
 Negation (label:negation)
+
+Relevant morphemes:
+
+-   -ja
+-   -jra
+-   -jnari
+-   -kempïnirë
+-   pïnirë
+-   pïrarë
 
 Questions (label:questions)
 
@@ -612,27 +655,30 @@ Examples
 Interlinear
 
 (26) Yawarana
-     ëkëtë  më-rë  ëkï
-     where  2-EMP  manioc.beer
+     ëkëtë  mërë      ëkï
+     where  MED.INAN  manioc.beer
      ‘Where is the chicha?’
 
 (27) 
 
 (a) Yawarana
-    ëkï ta rë pïrarë wenarujpë ta rë pïrarë ‘el yaraki no había y
-    tampoco el vómito’
+    ëkï          ta    rë   pïrarë   wena-ru-jpë     ta    rë   pïrarë
+    manioc.beer  like  EMP  nothing  vomit-PERT-PST  like  EMP  nothing
+    ‘The chicha was gone and so was the vomit.’
 
 (b) Yawarana
-    ta ti wejsaj ti tëwï ‘dijo él’
+    ta-∅      ti   wej-saj  ti   tëwï
+    say-IPFV  HSY  COP-PFV  HSY  3PRO
+    ‘…he said.’
 
 Other
 
-  ---------------------
-  konopo     root
-  ---------- ----------
-  -se        suffix
+  -----------------
+  yaka     root
+  -------- --------
+  -se      suffix
 
-  ---------------------
+  -----------------
 
 Hello -se ‘PST’ World
 

@@ -18,7 +18,6 @@ dist,distal
 poss,possession
 nposs,nonpossessed
 in,inanimate
-md,medial
 emp,emphatic
 pert,pertensive
 quot,quotative
@@ -37,3 +36,7 @@ fut,future
 concl,conclusive
 imp,imperative
 mot,motion
+pro,pronoun
+hsy,hearsay evidentiality
+imn,imminent
+med,medial
