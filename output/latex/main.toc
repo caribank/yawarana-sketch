@@ -23,7 +23,7 @@
 \contentsline {chapter}{\chapternumberline {4}Nouns }{9}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Pronouns }{9}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Nominal inflection }{10}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Suffixes for possessed (poss) and non-possessed (nposs) nouns }{10}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Suffixes for possessed and non-possessed nouns }{10}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Number suffixes }{11}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Argument prefixes }{12}{subsection.4.2.3}%
 \contentsline {section}{\numberline {4.3}Nominal Derivational Morphology }{13}{section.4.3}%
@@ -63,11 +63,11 @@
 \contentsline {chapter}{\chapternumberline {16}Word order variation }{41}{chapter.16}%
 \contentsline {chapter}{\chapternumberline {17}Pragmatically marked constructions }{43}{chapter.17}%
 \contentsline {chapter}{\chapternumberline {18}For testing and demonstration purposes}{45}{chapter.18}%
-\contentsline {section}{\numberline {18.1}here's what an ignorant parser couldn't handle:}{45}{section.18.1}%
+\contentsline {section}{\numberline {18.1}Some unparsable forms with derivational morphology}{45}{section.18.1}%
 \contentsline {section}{\numberline {18.2}Inline linked entities}{46}{section.18.2}%
 \contentsline {subsection}{\numberline {18.2.1}Single}{46}{subsection.18.2.1}%
 \contentsline {subsection}{\numberline {18.2.2}Multiple}{46}{subsection.18.2.2}%
-\contentsline {section}{\numberline {18.3}Examples}{46}{section.18.3}%
-\contentsline {subsection}{\numberline {18.3.1}Interlinear}{46}{subsection.18.3.1}%
+\contentsline {section}{\numberline {18.3}Examples}{47}{section.18.3}%
+\contentsline {subsection}{\numberline {18.3.1}Interlinear}{47}{subsection.18.3.1}%
 \contentsline {subsection}{\numberline {18.3.2}Other}{47}{subsection.18.3.2}%
-\contentsline {subsection}{\numberline {18.3.3}Example references}{47}{subsection.18.3.3}%
+\contentsline {subsection}{\numberline {18.3.3}Example references}{48}{subsection.18.3.3}%

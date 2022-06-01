@@ -153,7 +153,7 @@ possessor, or a first or second proclitic (a reduced form of the free
 pronoun), indexing a first or second person possessor
 ((ref:sec:nominalperson)).
 
-Suffixes for possessed (POSS) and non-possessed (NPOSS) nouns (label:sec:nounposssuf)
+Suffixes for possessed and non-possessed nouns (label:sec:nounposssuf)
 
 In the possession construction in Yawarana, the possessor noun occurs
 immediately preceding the possessed noun, which is the head of the
@@ -641,7 +641,7 @@ Pragmatically marked constructions (label:marked)
 
 For testing and demonstration purposes
 
-here’s what an ignorant parser couldn’t handle:
+Some unparsable forms with derivational morphology
 
 -   combination of verb with -kempïnirë results in what? always used as
     predicate
@@ -684,7 +684,7 @@ Inline linked entities
 
 Single
 
-1.  morph: -jne
+1.  morph: -jne[1]
 2.  morpheme: -jnë
 3.  wordform: (asamo-0-ri-jraneg)
 4.  text: “Historia personal por AnFo”
@@ -700,10 +700,14 @@ Examples
 
 Interlinear
 
+single:
+
 (31) Yawarana
      ëkëtë  mërë      ëkï
      where  MED.INAN  manioc.beer
      ‘Where is the chicha?’
+
+multiple:
 
 (multiigt)
 
@@ -719,6 +723,8 @@ Interlinear
 
 Other
 
+single:
+
   -----------------
   yaka     root
   -------- --------
@@ -726,9 +732,20 @@ Other
 
   -----------------
 
+double:
+
 Hello -se ‘PST’ World
 
 and more
+
+You can even mix them:
+
+Some random text in combination with an example from the corpus.
+
+(33) Yawarana
+     tipa-se-kontomo     warë  irëjpë  pïrarë
+     go.in.group-PST-PL  thus  then    nothing
+     ‘They left and were gone.’
 
 Example references
 
@@ -743,3 +760,5 @@ exref
 exref
 
 References
+
+[1] This is what a footnote looks like.
