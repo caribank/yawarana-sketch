@@ -21,10 +21,10 @@ Postpositions take the same inflectional prefixes as nouns ([crossref](ChapterTa
 
 <a id='tab:locpost'></a><div class='caption table' id='tab:locpost'>Locative postpositions</div>
 
-|         | <span class="smallcaps">all</span>                                                                        | <span class="smallcaps">loc</span>                                                                        |
-|:--------|:----------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
-| inside  | [Morpheme yakaall](MorphsetTable?#cldf:yakaall)                                                           | [Morpheme yaweloc](MorphsetTable?#cldf:yaweloc)                                                           |
-| aquatic | [Morpheme 912b3549-888e-4efa-953a-4aab76d5ff49](MorphsetTable?#cldf:912b3549-888e-4efa-953a-4aab76d5ff49) | [Morpheme eb7abf0a-143e-4724-8d4c-85f92ee39be2](MorphsetTable?#cldf:eb7abf0a-143e-4724-8d4c-85f92ee39be2) |
+|         | <span class="smallcaps">all</span>              | <span class="smallcaps">loc</span>              |
+|:--------|:------------------------------------------------|:------------------------------------------------|
+| inside  | [Morpheme yakaall](MorphsetTable?#cldf:yakaall) | [Morpheme yaweloc](MorphsetTable?#cldf:yaweloc) |
+| aquatic | ?                                               | ?                                               |
 
 <span title='how do these fit in?'>❓</span>
 

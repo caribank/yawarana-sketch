@@ -17,7 +17,6 @@ prox,proximal
 dist,distal
 poss,possession
 nposs,nonpossessed
-in,inanimate
 emp,emphatic
 pert,pertensive
 quot,quotative
@@ -40,3 +39,7 @@ pro,pronoun
 hsy,hearsay evidentiality
 imn,imminent
 med,medial
+cncs,concessive
+contrast,contrastive
+nmlz,nominalizer
+dat,dative

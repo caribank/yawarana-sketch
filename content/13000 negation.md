@@ -2,7 +2,7 @@
 
 [todo](should this really be a separate chapter?)
 
-Relevant morphemes:
+Probably relevant morphemes:
 
 * [mp](janeg)
 * [mp](jraneg)

@@ -42,7 +42,6 @@ contents={\begin{tikzpicture}[remember picture,overlay]
 \newGlossingAbbrev{dist}{distal}
 \newGlossingAbbrev{poss}{possession}
 \newGlossingAbbrev{nposs}{nonpossessed}
-\newGlossingAbbrev{in}{inanimate}
 \newGlossingAbbrev{emp}{emphatic}
 \newGlossingAbbrev{pert}{pertensive}
 \newGlossingAbbrev{quot}{quotative}
@@ -65,6 +64,10 @@ contents={\begin{tikzpicture}[remember picture,overlay]
 \newGlossingAbbrev{hsy}{hearsay evidentiality}
 \newGlossingAbbrev{imn}{imminent}
 \newGlossingAbbrev{med}{medial}
+\newGlossingAbbrev{cncs}{concessive}
+\newGlossingAbbrev{contrast}{contrastive}
+\newGlossingAbbrev{nmlz}{nominalizer}
+\newGlossingAbbrev{dat}{dative}
 
 \begin{document}
 
@@ -916,6 +919,16 @@ What about \obj{-po}?
 \chapter{\texorpdfstring{Verbal roots and stems
 \label{derbderiv}}{Verbal roots and stems }}
 
+\section{Deriving verbs}
+
+\begin{itemize}
+\tightlist
+\item
+  denominal verbalizers: \obj{-ta}, \obj{-jtë}?
+\item
+  detransitivizers: \obj{s-}, \obj{ëj-}
+\end{itemize}
+
 \chapter{\texorpdfstring{Adverbs \label{adverbs}}{Adverbs }}
 
 \begin{itemize}
@@ -1049,6 +1062,8 @@ aquatic &          ? &          ? \\
 
 \chapter{\texorpdfstring{Phrases \label{phrases}}{Phrases }}
 
+TBD
+
 \chapter{\texorpdfstring{Nonverbal predications
 \label{nonverbal}}{Nonverbal predications }}
 
@@ -1057,7 +1072,7 @@ aquatic &          ? &          ? \\
 
 \chapter{\texorpdfstring{Negation \label{negation}}{Negation }}
 
-Relevant morphemes:
+Probably relevant morphemes:
 
 \begin{itemize}
 \item
@@ -1085,7 +1100,87 @@ Relevant morphemes:
 \chapter{\texorpdfstring{Pragmatically marked constructions
 \label{marked}}{Pragmatically marked constructions }}
 
-\chapter{For testing purposes}
+\chapter{For testing and demonstration purposes}
+
+\section{here's what an ignorant parser couldn't handle:}
+
+\begin{itemize}
+\tightlist
+\item
+  combination of verb with \obj{-kempïnirë} results in what? always used
+  as predicate
+\end{itemize}
+
+\ex Yawarana \\
+\label{convrisamaj-07}    \begingl
+    \glpreamble  wïrë yaruwakempïnirë, mëkïsantomo a-ja-ja tajtane //
+    \gla wïrë yaruwakempïnirë mëkïsantomo ajaja taj-tane//
+    \glb \gl{1}\gl{pro} *** \gl{dist}.\gl{anim}.\gl{pl} hahaha say-\gl{cncs}//
+        \glft ‘I don’t laugh, but they are saying “hahaha”.’//  
+    \endgl 
+\xe
+
+\begin{itemize}
+\tightlist
+\item
+  deverbal from \obj{tunamï} to an adverb, right?
+\end{itemize}
+
+\ex Yawarana \\
+\label{convrisamaj-09}    \begingl
+    \glpreamble  tëwï neke ne, tajne yakarama pokono nwarë tajne iri mïntë, tunampe //
+    \gla tëwï neke ne ta-jne yakarama-∅ poko-no nwarë ta-jne i-ri mïntë tunampe//
+    \glb \gl{3}\gl{pro} \gl{contrast} \gl{ints} \gl{3}-\gl{pl} tell-\gl{ipfv} on.surface-\gl{nmlz} thus \gl{3}-\gl{pl} do-\gl{ipfv} there.\gl{loc} ***//
+        \glft ‘Yes indeed, they tell what they are doing there on the down-low.’//  
+    \endgl 
+\xe
+
+\begin{itemize}
+\tightlist
+\item
+  deverbal nominalizer:
+\end{itemize}
+
+\ex Yawarana \\
+\label{convrisamaj-13}    \begingl
+    \glpreamble  pïrarë, seneja ejnë yarikatopo //
+    \gla pïrarë sene-∅-ja ejnë yarikatopo//
+    \glb nothing see.self-\gl{ipfv}-\gl{neg} \gl{1+2}\gl{pro} ***//
+        \glft ‘Nothing, there’s nothing for us to laugh.’//  
+    \endgl 
+\xe
+
+\begin{itemize}
+\tightlist
+\item
+  probably special handling needed (copula + \obj{pëkë} + ? `because of
+  that')
+\end{itemize}
+
+\ex Yawarana \\
+\label{convrisamaj-29}    \begingl
+    \glpreamble  nope seneja chipokono ejnë pana nope seneja chipokono ejnë yaruwatopo pïrärë //
+    \gla nope sene-∅-ja chipokono ejnë pana nope sene-∅-ja chipokono ejnë yaruwatopo pïrärë//
+    \glb good see.self-\gl{ipfv}-\gl{neg} *** \gl{1+2}\gl{pro} \gl{dat} good see.self-\gl{ipfv}-\gl{neg} *** \gl{1+2}\gl{pro} *** ***//
+        \glft ‘We don’t see anything good, so we don’t laugh.’//  
+    \endgl 
+\xe
+
+\begin{itemize}
+\tightlist
+\item
+  MCMM has \emph{narë} as emphatic particle\ldots{} is this a
+  adverbialization?
+\end{itemize}
+
+\ex Yawarana \\
+\label{convrisamaj-47}    \begingl
+    \glpreamble  aniki narëpe yakërë ejnë përemekïrï, ejnë pëkëpene, wanene //
+    \gla aniki narëpe yakërë ejnë përemekï-rï ejnë pëkëpene wanene//
+    \glb who *** *** \gl{1+2}\gl{pro} talk-\gl{ipfv} \gl{1+2}\gl{pro} alone aunt//
+        \glft ‘Who are we gonna talk to? We’re alone, aunt.’//  
+    \endgl 
+\xe
 
 \section{Inline linked entities}
 
@@ -1132,7 +1227,7 @@ Relevant morphemes:
     \endgl 
 \xe
 
-\pex\label{}    \a Yawarana\\
+\pex\label{multiigt}    \a Yawarana\\
     \label{ctorat-35}        \begingl
         \glpreamble  ëkï ta rë pïrarë wenarujpë ta rë pïrarë //
         \gla ëkï ta rë pïrarë wena-ru-jpë ta rë pïrarë//

@@ -1,7 +1,7 @@
 <a id='negation'></a>
 <span title='should this really be a separate chapter?'>❓</span>
 
-Relevant morphemes:
+Probably relevant morphemes:
 
 * [Morpheme janeg](MorphsetTable?#cldf:janeg)
 * [Morpheme jraneg](MorphsetTable?#cldf:jraneg)

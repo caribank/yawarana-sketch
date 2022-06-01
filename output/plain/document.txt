@@ -529,6 +529,11 @@ Copula / Auxiliary
 
 Verbal roots and stems (label:derbderiv)
 
+Deriving verbs
+
+-   denominal verbalizers: -ta, -jtë?
+-   detransitivizers: s-, ëj-
+
 Adverbs (label:adverbs)
 
 -   
@@ -609,13 +614,15 @@ Particles and Ideophones (label:partideo)
 
 Phrases (label:phrases)
 
+TBD
+
 Nonverbal predications (label:nonverbal)
 
 Simple verbal clauses (label:simpleverb)
 
 Negation (label:negation)
 
-Relevant morphemes:
+Probably relevant morphemes:
 
 -   -ja
 -   -jra
@@ -632,7 +639,46 @@ Word order variation (label:wordorder)
 
 Pragmatically marked constructions (label:marked)
 
-For testing purposes
+For testing and demonstration purposes
+
+here’s what an ignorant parser couldn’t handle:
+
+-   combination of verb with -kempïnirë results in what? always used as
+    predicate
+
+(26) Yawarana
+     wïrë  yaruwakempïnirë  mëkïsantomo   ajaja   taj-tane
+     1PRO  ***              DIST.ANIM.PL  hahaha  say-CNCS
+     ‘I don’t laugh, but they are saying “hahaha”.’
+
+-   deverbal from tunamï to an adverb, right?
+
+(27) Yawarana
+     tëwï  neke      ne    ta-jne  yakarama-∅  poko-no          nwarë  ta-jne  i-ri     mïntë      tunampe
+     3PRO  CONTRAST  INTS  3-PL    tell-IPFV   on.surface-NMLZ  thus   3-PL    do-IPFV  there.LOC  ***
+     ‘Yes indeed, they tell what they are doing there on the down-low.’
+
+-   deverbal nominalizer:
+
+(28) Yawarana
+     pïrarë   sene-∅-ja          ejnë    yarikatopo
+     nothing  see.self-IPFV-NEG  1+2PRO  ***
+     ‘Nothing, there’s nothing for us to laugh.’
+
+-   probably special handling needed (copula + pëkë + ? ‘because of
+    that’)
+
+(29) Yawarana
+     nope  sene-∅-ja          chipokono  ejnë    pana  nope  sene-∅-ja          chipokono  ejnë    yaruwatopo  pïrärë
+     good  see.self-IPFV-NEG          1+2PRO  DAT   good  see.self-IPFV-NEG          1+2PRO           
+     ‘We don’t see anything good, so we don’t laugh.’
+
+-   MCMM has narë as emphatic particle… is this a adverbialization?
+
+(30) Yawarana
+     aniki  narëpe  yakërë  ejnë    përemekï-rï  ejnë    pëkëpene  wanene
+     who              1+2PRO  talk-IPFV    1+2PRO  alone     aunt
+     ‘Who are we gonna talk to? We’re alone, aunt.’
 
 Inline linked entities
 
@@ -654,12 +700,12 @@ Examples
 
 Interlinear
 
-(26) Yawarana
+(31) Yawarana
      ëkëtë  mërë      ëkï
      where  MED.INAN  manioc.beer
      ‘Where is the chicha?’
 
-(27) 
+(multiigt)
 
 (a) Yawarana
     ëkï          ta    rë   pïrarë   wena-ru-jpë     ta    rë   pïrarë
