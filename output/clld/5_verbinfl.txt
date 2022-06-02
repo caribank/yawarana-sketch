@@ -1,4 +1,6 @@
 <a id='verbinfl'></a>
+Are chapter introductions handled properly?
+
 ## Person prefixes {#sec:verbperson}
 
 

@@ -14,7 +14,7 @@ Short forms of the first and second person pronouns can occur as proclitics atta
 [ex](desccasmaj-025)
 
 [ex](convrisamaj-02)
-
+[ex](ctoaragrme-07)
 An open question is whether [mp](t3) on verbs is a reduction of [mp](tewi-3pro). [todo](or is there a clear yes/no answer?)
 
 The third person demonstrative pronouns or articles are shown in [ref](tab:pronouns3).

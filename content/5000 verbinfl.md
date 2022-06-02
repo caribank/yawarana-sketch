@@ -1,5 +1,7 @@
 # Verbal inflection [label](verbinfl)
 
+Are chapter introductions handled properly?
+
 ## Person prefixes [label](sec:verbperson)
 
 [table](verbprefixes)
