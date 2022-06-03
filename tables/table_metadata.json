@@ -21,5 +21,12 @@
     },
     "consonants": {"caption": "Consonant phonemes"},
     "vowels": {"caption": "Vowel phonemes"},
-    "test":{}
+    "test":{},
+    "locpost":{"caption": "Locative postpositions"},
+    "onlypossessed": {},
+    "diffpossessed": {},
+    "verbprefixes": {"caption": "Person marking prefixes on verbs"},
+    "suffunpossessed": {},
+    "unsuffixednouns": {},
+    "verbtam": {"caption": "Verbal TAM suffixes"}
 }

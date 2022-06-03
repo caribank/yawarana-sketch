@@ -1,0 +1,11 @@
+<a id='adverbs'></a>
+[POS adv](POSTable?#cldf:adv)
+
+## Inflection
+
+* presumably no prefixation
+* <span title='negation?'>❓</span>
+
+## Simple adverbs {#sec:simpleadv}
+
+## Derived adverbs {#sec:derivedadv}

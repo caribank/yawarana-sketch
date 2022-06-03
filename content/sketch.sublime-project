@@ -5,4 +5,7 @@
 			"path": "."
 		}
 	],
+    "settings": {
+        "color_scheme": "Breakers.sublime-color-scheme"        
+    }
 }
