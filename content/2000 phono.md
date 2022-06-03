@@ -2,7 +2,6 @@
 
 ## Segmental phonetics and phonemes [label](sec:segmental)
 The consonant phonemes of Yawarana are shown in [ref](tab:consonants), and the vowels in [ref](tab:vowels).
-This is a fairly standard Cariban phoneme inventory, only departing from the mainstream by the addition of [pnm](ch).
 
 [table](consonants)
 

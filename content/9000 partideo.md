@@ -1,4 +1,4 @@
 # Particles and Ideophones [label](partideo)
 
-* [pos](part)
-* [pos](ideo)
+[pos](part)
+[pos](ideo)

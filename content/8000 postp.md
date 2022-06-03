@@ -1,36 +1,41 @@
 # Postpositions [label](postp)
 
-* [pos](postp)
+[pos](postp)
 
 ## Defining the category
 
 ## Inflectional morphology [label](sec:postinfl)
-Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssuf)). [todo](are there any examples of postpositions inflected for third person?)
+Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssuf)). [todo](are there postpositions with third person i-?)
 
 [table](postpprefixes)
 
 ## Locative Postpositions
-* Clear bipartite Ground+Path
-* Unproductive Bipartite X+Path?
-* Other forms
+* clear bipartite Ground+Path
+* unproductive Bipartite X+Path?
+* other forms
 
 [table](locpost)
 
 [todo](how do these fit in?)
 
-* *poye* <!-- (poye-above) -->
-* *po* <!-- (po-on-in) -->
-* *yatë* <!-- (yate-loc) -->
-* *yapo* <!-- (yapo-neg) -->
+* *poye* 'above'
+* *po* 'locative'
+* *yatë* 'locative'
+* *yapo* 'negation'?
+
+* allative: 
 
 [ex](histpajirdi-186)
 
 ## Nonlocative Oblique Postpositions 
-* [mp](yaerg) ya ‘erg’ [todo](is this a different morpheme from [mp](yaobl)?)
-* *ke* ‘instr’
+* [mp](yaerg) ‘[gl](erg)’
+* *ke* '[gl](ins)'
 * _wanai_
 
 
 ## Propositional Postpositions
-* =se ‘desiderative’
-* others?
+* =se '[gl](des)'
+
+## Misc
+
+* copular [mp](chi-cop) combines with [mp](yaweloc), sometimes spelled *chi yawë*, sometimes *chawë*.

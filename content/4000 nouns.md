@@ -62,7 +62,7 @@ What conditions the choice of suffix is not clear as of yet.
 Person prefixes on nouns are conditioned by the initial segment ([ref](tab:possprefixes)).
 C-initial nouns take third person [m](i31), and first and second person are bare [m](u1) and [m](me2).
 On V-initial nouns, third person is marked by [m](it3), and first and second person combine with the linker [mp](ylk).
-Some examples are shown in [exref](ctorat-23?end=ctorat-19).
+Some examples are shown in [exref](ctorat-23?end=lastex).
 
 [table](possprefixes)
 
@@ -74,7 +74,7 @@ Some examples are shown in [exref](ctorat-23?end=ctorat-19).
 
 [ex](ctorat-46)
 
-[ex](ctorat-19)
+[ex](ctorat-19?example_id=lastex)
 
 
 The linker also occurs with (pro-)nominal possessors:
@@ -87,30 +87,33 @@ There are some nouns (kinship terms?) that take an apparently older old second p
 
 [todo](find examples for these)
 
+#### irregularly inflected nouns:
+
+* 'father':
+    * 1 *papa*
+    * 2 _ëmë_ / _omo_ / _ëmo_ (?)
+    * 3 _imu_
+    * NP _yïmï_
+
+
 ## Nominal Derivational Morphology [label](sec:nounderiv)
 
 * V → N
-    * [mp](rinmlz) ‘act.nzr’
-    * [mp](jpepst)
-        * ‘past.abs.nzr’
-        * ‘past.act.nzr?’ 
-    * ?[mp](neinf) ‘infinitive / generic action nominalizer’
-        * Only intransitive verbs? no also *wanumanë* 'gossip, lie' and *wajtënë* 'dance' 
-    * [mp](ninmlz) ‘a.nzr’
-    * [mp](nnmlzpre) ‘o.nzr’
+    * [mp](rinmlz) ‘action [gl](nmlz)’
+    * [mp](jpenmlz)
+        * ‘[gl](PST.ABS.nmlz)’
+        * ‘[gl](PST).ACT.[gl](nmlz)?’ 
+    * ?[mp](neinf) ‘[gl](inf) / generic action nominalizer’
+        * Not only on intransitive verbs? see *wanumanë* 'gossip, lie' and *wajtënë* 'dance' 
+    * [mp](ninmlz) ‘[gl](a.nmlz)’
+    * [mp](nnmlzpre) ‘[gl](p.nmlz)’
         * [mp](nnmlzpre)V[mp](rinmlz)    ‘nonpast?’
         * ?? [mp](nnmlzpre)V[mp](jpepst)    ‘past?’
-    * [mp](sapepfv) ‘abs.nzr’ (contrast with ‑jpë )
-    * [mp](toponmlz) ‘circ.nzr’
-    * [mp](pininmlz) ‘privative.nzr’ ?
+    * [mp](sapenmlz) ‘[gl](ABS.nmlz)’ (contrast with ‑jpë )
+    * [mp](toponmlz) ‘[gl](circ.nmlz)’
+    * [mp](pininmlz) ‘[gl](priv.nmlz)’ ?
 * Adv → N 
-    * [mp](minmlz) ‘nzr’
+    * [mp](minmlz) '[gl](nmlz)'
 * Postp → N
-    * [mp](anonmlz) ‘nzr’
-* What about [mp](jpepst) on AD forms? Does it derive a noun?
-
-### Misc
-predicative negation of nominalized verb:
-
-[ex](convrisamaj-52)
-
+    * [mp](anonmlz) ‘[gl](nmlz)’
+* What about [mp](jpenmlz) on AD forms? Does it derive a noun?

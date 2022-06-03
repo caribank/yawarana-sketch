@@ -24,54 +24,67 @@ contents={\begin{tikzpicture}[remember picture,overlay]
 \title{A digital sketch grammar of Yawarana}
 \author{Florian Matter;Natalia Cáceres Arandia;Spike Gildea}
 
-\newGlossingAbbrev{pl}{plural}
-\newGlossingAbbrev{sg}{singular}
-\newGlossingAbbrev{detrz}{detransivizer}
-\newGlossingAbbrev{pst}{past}
 \newGlossingAbbrev{1}{first person}
-\newGlossingAbbrev{2}{2 second person}
-\newGlossingAbbrev{3}{3 third person}
+\newGlossingAbbrev{2}{second person}
+\newGlossingAbbrev{3}{third person}
 \newGlossingAbbrev{1+2}{first person inclusive}
 \newGlossingAbbrev{1+3}{first person exclusive}
-\newGlossingAbbrev{lk}{linker}
-\newGlossingAbbrev{loc}{locative}
-\newGlossingAbbrev{ipfv}{imperfective}
-\newGlossingAbbrev{anim}{animate}
-\newGlossingAbbrev{inan}{inanimate}
-\newGlossingAbbrev{prox}{proximal}
-\newGlossingAbbrev{dist}{distal}
-\newGlossingAbbrev{poss}{possession}
-\newGlossingAbbrev{nposs}{nonpossessed}
-\newGlossingAbbrev{emp}{emphatic}
-\newGlossingAbbrev{pert}{pertensive}
-\newGlossingAbbrev{quot}{quotative}
-\newGlossingAbbrev{cop}{copula}
-\newGlossingAbbrev{pfv}{perfective}
-\newGlossingAbbrev{vbz}{verbalizer}
-\newGlossingAbbrev{ints}{intensifier}
+\newGlossingAbbrev{a}{agent-like argument}
+\newGlossingAbbrev{abs}{absolutive}
 \newGlossingAbbrev{all}{allative}
-\newGlossingAbbrev{plur}{pluractional}
-\newGlossingAbbrev{npert}{unpossessed}
-\newGlossingAbbrev{intr}{intransitive}
-\newGlossingAbbrev{tr}{transitive}
-\newGlossingAbbrev{neg}{negation}
-\newGlossingAbbrev{proh}{prohibitive}
-\newGlossingAbbrev{fut}{future}
-\newGlossingAbbrev{concl}{conclusive}
-\newGlossingAbbrev{imp}{imperative}
-\newGlossingAbbrev{mot}{motion}
-\newGlossingAbbrev{pro}{pronoun}
-\newGlossingAbbrev{hsy}{hearsay evidentiality}
-\newGlossingAbbrev{imn}{imminent}
-\newGlossingAbbrev{med}{medial}
+\newGlossingAbbrev{anim}{animate}
+\newGlossingAbbrev{circ}{circumstantive}
 \newGlossingAbbrev{cncs}{concessive}
+\newGlossingAbbrev{concl}{conclusive}
 \newGlossingAbbrev{contrast}{contrastive}
-\newGlossingAbbrev{nmlz}{nominalizer}
+\newGlossingAbbrev{cop}{copula}
 \newGlossingAbbrev{dat}{dative}
 \newGlossingAbbrev{dem}{demonstrative}
-\newGlossingAbbrev{prob}{probabilitive}
+\newGlossingAbbrev{des}{desiderative}
+\newGlossingAbbrev{detrz}{detransivizer}
+\newGlossingAbbrev{dim}{diminutive}
+\newGlossingAbbrev{dist}{distal}
+\newGlossingAbbrev{emp}{emphatic}
+\newGlossingAbbrev{erg}{ergative}
 \newGlossingAbbrev{ess}{essive}
-\newGlossingAbbrev{circ}{circumstantive}
+\newGlossingAbbrev{fut}{future}
+\newGlossingAbbrev{hsy}{hearsay evidentiality}
+\newGlossingAbbrev{imn}{imminent}
+\newGlossingAbbrev{imp}{imperative}
+\newGlossingAbbrev{inan}{inanimate}
+\newGlossingAbbrev{inf}{infinitive}
+\newGlossingAbbrev{ins}{instrumental}
+\newGlossingAbbrev{intr}{intransitive}
+\newGlossingAbbrev{ints}{intensifier}
+\newGlossingAbbrev{ipfv}{imperfective}
+\newGlossingAbbrev{lk}{linker}
+\newGlossingAbbrev{loc}{locative}
+\newGlossingAbbrev{med}{medial}
+\newGlossingAbbrev{mot}{motion}
+\newGlossingAbbrev{motimp}{motion imperative}
+\newGlossingAbbrev{neg}{negation}
+\newGlossingAbbrev{nmlz}{nominalizer}
+\newGlossingAbbrev{npert}{unpossessed}
+\newGlossingAbbrev{nposs}{nonpossessed}
+\newGlossingAbbrev{p}{patient-like argument}
+\newGlossingAbbrev{pert}{pertensive}
+\newGlossingAbbrev{pfv}{perfective}
+\newGlossingAbbrev{pl}{plural}
+\newGlossingAbbrev{plur}{pluractional}
+\newGlossingAbbrev{poss}{possession}
+\newGlossingAbbrev{priv}{privative}
+\newGlossingAbbrev{pro}{pronoun}
+\newGlossingAbbrev{prob}{probabilitive}
+\newGlossingAbbrev{prog}{progressive}
+\newGlossingAbbrev{proh}{prohibitive}
+\newGlossingAbbrev{prox}{proximal}
+\newGlossingAbbrev{pst}{past}
+\newGlossingAbbrev{quot}{quotative}
+\newGlossingAbbrev{rst}{restrictive}
+\newGlossingAbbrev{s}{intransitive argument}
+\newGlossingAbbrev{sg}{singular}
+\newGlossingAbbrev{tr}{transitive}
+\newGlossingAbbrev{vbz}{verbalizer}
 
 \begin{document}
 
@@ -106,9 +119,7 @@ contents={\begin{tikzpicture}[remember picture,overlay]
 \label{sec:segmental}}{Segmental phonetics and phonemes }}
 
 The consonant phonemes of Yawarana are shown in \cref{tab:consonants},
-and the vowels in \cref{tab:vowels}. This is a fairly standard Cariban
-phoneme inventory, only departing from the mainstream by the addition of
-/t͡ʃ/.
+and the vowels in \cref{tab:vowels}.
 
 \begin{table}
 \caption{Consonant phonemes}
@@ -191,7 +202,7 @@ third person pronouns and demonstratives.
 \centering
 \begin{tabular}{lll}
 \toprule
-         &         sg &                pl \\
+         &    \gl{sg} &           \gl{pl} \\
 \midrule
   \gl{1} & \obj{wïrë} &                   \\
 \gl{1+2} &            &        \obj{ejnë} \\
@@ -257,12 +268,12 @@ The third person demonstrative pronouns or articles are shown in
 \centering
 \begin{tabular}{lllll}
 \toprule
-              & \multicolumn{2}{l}{anim} & \multicolumn{2}{l}{inan} \\
+              & \multicolumn{2}{l}{\gl{anim}} & \multicolumn{2}{l}{\gl{inan}} \\
 \midrule
-              &           sg &                pl &                      sg &                                   pl \\
-         prox &   \obj{kërë} & \obj{kërësantomo} &               \obj{eni} &                         \obj{enijne} \\
-medial? near? &  \obj{michí} &                   & \obj{misi} / \obj{mërë} & \obj{michisantomo} / \obj{michitomo} \\
-         dist & \emph{mëkï}? & \obj{mëkïsantomo} &             \obj{mëjnï} &                       \obj{mëjnijne} \\
+              &      \gl{sg} &           \gl{pl} &                 \gl{sg} &                              \gl{pl} \\
+    \gl{prox} &   \obj{kërë} & \obj{kërësantomo} &               \obj{eni} &                         \obj{enijne} \\
+medial? near? &  \obj{michi} &                   & \obj{misi} / \obj{mërë} & \obj{michisantomo} / \obj{michitomo} \\
+    \gl{dist} & \emph{mëkï}? & \obj{mëkïsantomo} &             \obj{mëjnï} &                       \obj{mëjnijne} \\
 \bottomrule
 \end{tabular}
 
@@ -307,22 +318,23 @@ possession phrase. Alternatively, the possessor can appear as a bound
 pronominal clitic (first \& second person) or a prefix (third person) on
 the possessed noun. The possessor noun is never marked (for instance,
 with genitive case), but the possessed noun (the head) is often marked
-by a lexically specified `possessed' suffix, either \obj{-ru} `pert' or
-\obj{-ti} `pos'. Unpossessed nouns generally are unmarked, but some 15
-nouns bear the suffix \obj{-të} `npert' when they appear without a
-possessor. Examples \exref[][unsuffixednouns]{onlypossessed} illustrate
-the possible patterns of markedness for nouns when possessed and
-unpossessed. In the first category, which contains the vast majority of
-nouns in our corpus, the unpossessed noun is unmarked, but when
-possessed the suffix -ri `pos' occurs \exref[]{onlypossessed}. A handful
-of nouns is marked with -ri/-ti `pos' when possessed and with -të `npos'
-when not possessed \exref[]{diffpossessed}. Another handful is unmarked
-when possessed and marked with -të when not possessed
-\exref[]{suffunpossessed}. The fourth logical possibility, in which the
-noun bears no marker of possession (or non-possession) whether possessed
-or unpossessed, contains very few members (only one attested so far); in
-this case, the difference is marked only by the presence or absence of a
-possessive prefix or free-form possessor \exref[]{unsuffixednouns}.
+by a lexically specified `possessed' suffix, either \obj{-ru}
+`\gl{pert}' or \obj{-ti} `pos'. Unpossessed nouns generally are
+unmarked, but some 15 nouns bear the suffix \obj{-të} `\gl{npert}' when
+they appear without a possessor. Examples
+\exref[][unsuffixednouns]{onlypossessed} illustrate the possible
+patterns of markedness for nouns when possessed and unpossessed. In the
+first category, which contains the vast majority of nouns in our corpus,
+the unpossessed noun is unmarked, but when possessed the suffix -ri
+`pos' occurs \exref[]{onlypossessed}. A handful of nouns is marked with
+-ri/-ti `pos' when possessed and with -të `npos' when not possessed
+\exref[]{diffpossessed}. Another handful is unmarked when possessed and
+marked with -të when not possessed \exref[]{suffunpossessed}. The fourth
+logical possibility, in which the noun bears no marker of possession (or
+non-possession) whether possessed or unpossessed, contains very few
+members (only one attested so far); in this case, the difference is
+marked only by the presence or absence of a possessive prefix or
+free-form possessor \exref[]{unsuffixednouns}.
 
 \ex\label{onlypossessed} Nouns that take a suffix only when possessed:
 
@@ -386,8 +398,8 @@ yet.
 \ex Yawarana \\
 \label{ctorat-17}    \begingl
     \glpreamble  waijtatomo ëjwenakase //
-    \gla waijta-tomo ?//
-    \glb mouse-\gl{pl} ?//
+    \gla waijta-tomo ëj-wenaka-se//
+    \glb mouse-\gl{pl} \gl{detrz}-vomit-\gl{pst}//
         \glft ‘The mice vomited.’//  
     \endgl 
 \xe
@@ -409,7 +421,7 @@ Person prefixes on nouns are conditioned by the initial segment
 and first and second person are bare \obj{u-} and \obj{më-}. On
 V-initial nouns, third person is marked by \obj{t-}, and first and
 second person combine with the linker \obj{y-}. Some examples are shown
-in \exref[][ctorat-19]{ctorat-23}.
+in \exref[][lastex]{ctorat-23}.
 
 \begin{table}
 \caption{Possessive prefixes on nouns}
@@ -464,10 +476,10 @@ in \exref[][ctorat-19]{ctorat-23}.
 \xe
 
 \ex Yawarana \\
-\label{ctorat-19}    \begingl
+\label{lastex}    \begingl
     \glpreamble  pïrarë ti iwenaru wejsapë //
-    \gla pïrarë ti i-wena-ru ?//
-    \glb nothing \gl{hsy} \gl{3}-vomit-\gl{pert} ?//
+    \gla pïrarë ti i-wena-ru wej-sapë//
+    \glb nothing \gl{hsy} \gl{3}-vomit-\gl{pert} \gl{cop}-\gl{pfv}//
         \glft ‘Their vomit was not there.’//  
     \endgl 
 \xe
@@ -502,6 +514,26 @@ second person \obj{a-} (\cref{tab:oldpossprefixes}).
 
 \end{table}
 
+\subsubsection{irregularly inflected nouns:}
+
+\begin{itemize}
+\tightlist
+\item
+  `father':
+
+  \begin{itemize}
+  \tightlist
+  \item
+    1 \emph{papa}
+  \item
+    2 \emph{ëmë} / \emph{omo} / \emph{ëmo} (?)
+  \item
+    3 \emph{imu}
+  \item
+    NP \emph{yïmï}
+  \end{itemize}
+\end{itemize}
+
 \section{\texorpdfstring{Nominal Derivational Morphology
 \label{sec:nounderiv}}{Nominal Derivational Morphology }}
 
@@ -512,34 +544,34 @@ second person \obj{a-} (\cref{tab:oldpossprefixes}).
 
   \begin{itemize}
   \item
-    \obj{-ri} `act.nzr'
+    \obj{-ri} `action \gl{nmlz}'
   \item
     \obj{-jpë}
 
     \begin{itemize}
     \tightlist
     \item
-      `past.abs.nzr'
+      `\gl{pst}.\gl{abs}.\gl{nmlz}'
 
       \begin{itemize}
       \tightlist
       \item
-        `past.act.nzr?'
+        `\gl{pst}.ACT.\gl{nmlz}?'
       \end{itemize}
     \end{itemize}
   \item
-    ?\obj{-në} `infinitive / generic action nominalizer'
+    ?\obj{-në} `\gl{inf} / generic action nominalizer'
 
     \begin{itemize}
     \tightlist
     \item
-      Only intransitive verbs? no also \emph{wanumanë} `gossip, lie' and
-      \emph{wajtënë} `dance'
+      Not only on intransitive verbs? see \emph{wanumanë} `gossip, lie'
+      and \emph{wajtënë} `dance'
     \end{itemize}
   \item
-    \obj{-ni} `a.nzr'
+    \obj{-ni} `\gl{a}.\gl{nmlz}'
   \item
-    \obj{n-} `o.nzr'
+    \obj{n-} `\gl{p}.\gl{nmlz}'
 
     \begin{itemize}
     \tightlist
@@ -549,11 +581,11 @@ second person \obj{a-} (\cref{tab:oldpossprefixes}).
       ?? \obj{n-}V\obj{-jpë} `past?'
     \end{itemize}
   \item
-    \obj{-sapë} `abs.nzr' (contrast with ‑jpë )
+    \obj{-sapë} `\gl{abs}.\gl{nmlz}' (contrast with ‑jpë )
   \item
-    \obj{-topo} `circ.nzr'
+    \obj{-topo} `\gl{circ}.\gl{nmlz}'
   \item
-    \obj{‑pïnï} `privative.nzr' ?
+    \obj{‑pïnï} `\gl{priv}.\gl{nmlz}' ?
   \end{itemize}
 \item
   Adv → N
@@ -561,7 +593,7 @@ second person \obj{a-} (\cref{tab:oldpossprefixes}).
   \begin{itemize}
   \tightlist
   \item
-    \obj{-mï} `nzr'
+    \obj{-mï} `\gl{nmlz}'
   \end{itemize}
 \item
   Postp → N
@@ -569,29 +601,16 @@ second person \obj{a-} (\cref{tab:oldpossprefixes}).
   \begin{itemize}
   \tightlist
   \item
-    \obj{-ano} `nzr'
+    \obj{-ano} `\gl{nmlz}'
   \end{itemize}
 \item
   What about \obj{-jpë} on AD forms? Does it derive a noun?
 \end{itemize}
 
-\subsection{Misc}
-
-predicative negation of nominalized verb:
-
-\ex Yawarana \\
-\label{convrisamaj-52}    \begingl
-    \glpreamble ¡ tari\%¡ yarikasemïjra //
-    \gla ? yarikasemïjra//
-    \glb ? ***//
-        \glft ‘Oh, there’s nothing to laugh about.’//  
-    \endgl 
-\xe
-
 \chapter{\texorpdfstring{Verbal inflection
 \label{verbinfl}}{Verbal inflection }}
 
-Are chapter introductions handled properly?
+TBD: An introduction to this chapter.
 
 \section{\texorpdfstring{Person prefixes
 \label{sec:verbperson}}{Person prefixes }}
@@ -602,7 +621,7 @@ Are chapter introductions handled properly?
 \centering
 \begin{tabular}{lll}
 \toprule
-       &      intr &        tr \\
+       & \gl{intr} &   \gl{tr} \\
 \midrule
 \gl{1} &  \obj{u-} &  \obj{u-} \\
 \gl{2} & \obj{më-} & \obj{më-} \\
@@ -621,14 +640,14 @@ Are chapter introductions handled properly?
   \tightlist
   \item
   \item
-    \obj{u-} `1S/O'
+    \obj{u-} `\gl{1}\gl{s}/\gl{p}'
   \item
-    \obj{më-} `2S/O'
+    \obj{më-} `\gl{2}\gl{s}/\gl{p}'
 
     \begin{itemize}
     \tightlist
     \item
-      one example of (më=) `2A' on imperative verb
+      one example of (\obj{më-}) `\gl{2}\gl{a}' on imperative verb
     \end{itemize}
   \end{itemize}
 \item
@@ -637,13 +656,14 @@ Are chapter introductions handled properly?
   \begin{itemize}
   \tightlist
   \item
-    Ø‑ `3S' with intransitive verbs
+    Ø‑ `\gl{3}\gl{s}' with intransitive verbs
   \item
     • exception: \emph{ij‑të‑ri} `he goes' plus 2 more
   \item
-    Ø‑ `3O' with transitive verbs with 1A or 2A; also sometimes 3A
+    Ø‑ `\gl{3}\gl{p}' with transitive verbs with \gl{1}\gl{a} or
+    \gl{2}\gl{a}; also sometimes \gl{3}\gl{a}
   \item
-    \obj{ta-} `3A3O'
+    \obj{ta-} `\gl{3}\textgreater{}\gl{3}'
 
     \begin{itemize}
     \tightlist
@@ -656,8 +676,8 @@ Are chapter introductions handled properly?
         Check: not in alternation with preceding O NP?
       \end{itemize}
     \item
-      \obj{ta-} `3O' attested on one V in the pan‑Cariban
-      ``progressive'' construction w/ 2nd person A
+      \obj{ta-} `\gl{3}\gl{p}' attested on one V in the pan‑Cariban
+      ``progressive'' construction w/ 2nd person \gl{a}
     \end{itemize}
   \end{itemize}
 \item
@@ -672,14 +692,13 @@ Are chapter introductions handled properly?
   \end{itemize}
 \end{itemize}
 
-\section{Non‑personal inflectional prefixation --- is there any?
-Probably not?}
+\section{Non‑personal inflectional prefixation}
 
 \begin{itemize}
 \tightlist
 \item
-  t‑V‑se is no more --- the t‑ is gone (except with tënëse `eat' and
-  tenise `drink')
+  *\emph{t‑V‑se} is no more --- the t‑ is gone (except with
+  \emph{t-ënë-se} `eat' and \emph{t-eni-se} `drink')
 
   \begin{itemize}
   \tightlist
@@ -704,16 +723,15 @@ Probably not?}
 \centering
 \begin{tabular}{ll}
 \toprule
-       Suffix &        Function \\
+       Suffix &            Function \\
 \midrule
-    \obj{-ri} &    imperfective \\
-   \obj{-jpë} &            past \\
-    \obj{-se} &         past 2? \\
-  \obj{-sapë} &     perfective? \\
-  \obj{-sarë} & imminent future \\
-\obj{-tëpëkë} &       prog.intr \\
-   \obj{pëkë} &         prog.tr \\
-  \obj{-sarë} & imminent future \\
+    \obj{-ri} &        imperfective \\
+   \obj{-jpë} &                past \\
+    \obj{-se} &             past 2? \\
+  \obj{-sapë} &         perfective? \\
+  \obj{-sarë} &     imminent future \\
+\obj{-tëpëkë} & \gl{prog}.\gl{intr} \\
+   \obj{pëkë} &   \gl{prog}.\gl{tr} \\
 \bottomrule
 \end{tabular}
 
@@ -721,24 +739,25 @@ Probably not?}
 
 \begin{itemize}
 \item
-  \obj{-ja} `neg'
+  \obj{-ja} `\gl{neg}'
 \item
-  \emph{‑jrama} `proh'
+  \emph{‑jrama} `\gl{proh}'
 \item
-  \emph{‑tojpano} `fut'
+  \emph{‑tojpano} `\gl{fut}'
 \item
-  \obj{-se}=\obj{pano} `pst=concl'
+  \obj{-se}=\obj{pano} `\gl{pst}=\gl{concl}'
 \item
-  \obj{-saj}=\obj{pano} `pfv=concl'
+  \obj{-saj}=\obj{pano} `\gl{pfv}=\gl{concl}'
 \item
   imperatives:
 
   \begin{itemize}
   \tightlist
   \item
-    \obj{-kë} / ‑\emph{të}\obj{-kë} `imp / imp.pl'
+    \obj{-kë} / ‑\emph{të}\obj{-kë} `\gl{imp} / \gl{imp}.\gl{pl}'
   \item
-    \obj{-ta} / \obj{-ta}\emph{ntë}\obj{-kë} `imp.mot / imp.mot.pl'
+    \obj{-ta} / \obj{-ta}\emph{ntë}\obj{-kë} `\gl{imp}.\gl{mot} /
+    \gl{imp}.\gl{mot}.\gl{pl}'
   \end{itemize}
 \end{itemize}
 
@@ -759,7 +778,7 @@ Probably not?}
     what about \obj{-rï}? Looks like the original one\ldots{}
   \end{itemize}
 \item
-  diachrony: related to other \emph{-ri}
+  diachrony: from the nominalizer \obj{-ri}
 \item
   combines with \obj{-jra}:
 \end{itemize}
@@ -775,7 +794,21 @@ Probably not?}
 
 \subsubsection{Semantics}
 
-not specified for tense, just imperfective aspect:
+\begin{itemize}
+\tightlist
+\item
+  not specified for tense, just imperfective aspect:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    past \exref[]{ctorat-16}
+  \item
+    future \exref[]{convrisamaj-06}
+  \item
+    gnomic/present? \exref[]{gnomicri}
+  \end{itemize}
+\end{itemize}
 
 \ex Yawarana \\
 \label{ctorat-16}    \begingl
@@ -789,28 +822,26 @@ not specified for tense, just imperfective aspect:
 \ex Yawarana \\
 \label{convrisamaj-06}    \begingl
     \glpreamble ¿ kwase ejnë yaruwari? //
-    \gla kwase ejnë ?//
-    \glb how \gl{1+2}\gl{pro} ?//
+    \gla kwase ejnë yaruwa-ri//
+    \glb how \gl{1+2}\gl{pro} laugh-\gl{ipfv}//
         \glft ‘How will we laugh?’//  
     \endgl 
 \xe
 
-\ex Yawarana \\
-\label{convrisamaj-04}    \begingl
-    \glpreamble  wïrë yaruwarijra\#\#\# //
-    \gla wïrë yaruwa-ri-jra//
-    \glb \gl{1}\gl{pro} laugh-\gl{ipfv}-\gl{neg}//
-        \glft ‘I don’t laugh.’//  
-    \endgl 
-\xe
-
-\ex Yawarana \\
-\label{convrisamaj-28}    \begingl
-    \glpreamble  uyïwïj yawë usenejkari sukuri jwama //
-    \gla u-y-ïwïj yawë u-senejka-ri suku-ri jwama//
-    \glb \gl{1}-\gl{lk}-house \gl{loc} \gl{1}-remain-\gl{ipfv} urine-\gl{pert} ***//
-        \glft ‘I silently stay in my house.’//  
-    \endgl 
+\pex\label{gnomicri}    \a Yawarana\\
+    \label{convrisamaj-04}        \begingl
+        \glpreamble  wïrë yaruwarijra\#\#\# //
+        \gla wïrë yaruwa-ri-jra//
+        \glb \gl{1}\gl{pro} laugh-\gl{ipfv}-\gl{neg}//
+            \glft ‘I don’t laugh.’//  
+        \endgl 
+    \a Yawarana\\
+    \label{convrisamaj-28}        \begingl
+        \glpreamble  uyïwïj yawë usenejkari sukuri jwama //
+        \gla u-y-ïwïj yawë u-senejka-ri suku-ri jwama//
+        \glb \gl{1}-\gl{lk}-house \gl{loc} \gl{1}-remain-\gl{ipfv} urine-\gl{pert} ***//
+            \glft ‘I silently stay in my house.’//  
+        \endgl 
 \xe
 
 \subsection{\texorpdfstring{\obj{-jpë}}{}}
@@ -820,7 +851,7 @@ not specified for tense, just imperfective aspect:
 \item
   allomorphy: none?
 \item
-  diachrony: from other \emph{-jpë}
+  diachrony: from nominalizer \obj{-jpë}
 \end{itemize}
 
 \subsection{\texorpdfstring{\obj{-se}}{}}
@@ -830,7 +861,7 @@ not specified for tense, just imperfective aspect:
 \item
   allomorphy: \obj{-se}/\obj{-che}
 \item
-  diachrony: from participle
+  diachrony: from participle \obj{-se}
 \end{itemize}
 
 \subsection{\texorpdfstring{\obj{-sapë}}{}}
@@ -838,7 +869,9 @@ not specified for tense, just imperfective aspect:
 \begin{itemize}
 \tightlist
 \item
-  diachrony and distribution: only occurs on the copula?
+  diachrony: from nominalizer \obj{-sapë}
+\item
+  distribution: only occurs on the copula?
 \item
   allomorphy: \obj{-sapë} and \obj{-saj}
 \item
@@ -882,13 +915,19 @@ not specified for tense, just imperfective aspect:
 \ex Yawarana \\
 \label{ctorat-19}    \begingl
     \glpreamble  pïrarë ti iwenaru wejsapë //
-    \gla pïrarë ti i-wena-ru ?//
-    \glb nothing \gl{hsy} \gl{3}-vomit-\gl{pert} ?//
+    \gla pïrarë ti i-wena-ru wej-sapë//
+    \glb nothing \gl{hsy} \gl{3}-vomit-\gl{pert} \gl{cop}-\gl{pfv}//
         \glft ‘Their vomit was not there.’//  
     \endgl 
 \xe
 
 \subsection{\texorpdfstring{\obj{-sarë}}{}}
+
+\begin{itemize}
+\tightlist
+\item
+  once a converb, now `imminent future'
+\end{itemize}
 
 \ex Yawarana \\
 \label{ctorat-25}    \begingl
@@ -938,7 +977,7 @@ not specified for tense, just imperfective aspect:
   \end{itemize}
 \end{itemize}
 
-What about \obj{-po}?
+What about desiderative \obj{-po}?
 
 \section{Number}
 
@@ -957,13 +996,7 @@ What about \obj{-po}?
 \begin{itemize}
 \tightlist
 \item
-  Paradigm
-\item
-  Any particles? Man, wai, manai, etc?
-\item
-  Past/Perfect particles? nahkë, etc.
-\item
-  chijpë, wejsapë
+  there is stem allomorphy: \obj{chi}, \obj{wej}
 \end{itemize}
 
 \chapter{\texorpdfstring{Verbal roots and stems
@@ -981,11 +1014,6 @@ What about \obj{-po}?
 
 \chapter{\texorpdfstring{Adverbs \label{adverbs}}{Adverbs }}
 
-\begin{itemize}
-\tightlist
-\item
-\end{itemize}
-
 \section{Inflection}
 
 \begin{itemize}
@@ -993,17 +1021,7 @@ What about \obj{-po}?
 \item
   presumably no prefixation
 \item
-  negation:
 \end{itemize}
-
-\ex Yawarana \\
-\label{convrisamaj-52}    \begingl
-    \glpreamble ¡ tari\%¡ yarikasemïjra //
-    \gla ? yarikasemïjra//
-    \glb ? ***//
-        \glft ‘Oh, there’s nothing to laugh about.’//  
-    \endgl 
-\xe
 
 \section{\texorpdfstring{Simple adverbs
 \label{sec:simpleadv}}{Simple adverbs }}
@@ -1012,11 +1030,6 @@ What about \obj{-po}?
 \label{sec:derivedadv}}{Derived adverbs }}
 
 \chapter{\texorpdfstring{Postpositions \label{postp}}{Postpositions }}
-
-\begin{itemize}
-\tightlist
-\item
-\end{itemize}
 
 \section{Defining the category}
 
@@ -1041,11 +1054,11 @@ Postpositions take the same inflectional prefixes as nouns
 \begin{itemize}
 \tightlist
 \item
-  Clear bipartite Ground+Path
+  clear bipartite Ground+Path
 \item
-  Unproductive Bipartite X+Path?
+  unproductive Bipartite X+Path?
 \item
-  Other forms
+  other forms
 \end{itemize}
 
 \begin{table}
@@ -1054,7 +1067,7 @@ Postpositions take the same inflectional prefixes as nouns
 \centering
 \begin{tabular}{lll}
 \toprule
-        &        all &        loc \\
+        &   \gl{all} &   \gl{loc} \\
 \midrule
  inside & \obj{yaka} & \obj{yawë} \\
 aquatic &          ? &          ? \\
@@ -1064,15 +1077,16 @@ aquatic &          ? &          ? \\
 \end{table}
 
 \begin{itemize}
-\tightlist
 \item
-  \emph{poye}
+  \emph{poye} `above'
 \item
-  \emph{po}
+  \emph{po} `locative'
 \item
-  \emph{yatë}
+  \emph{yatë} `locative'
 \item
-  \emph{yapo}
+  \emph{yapo} `negation'?
+\item
+  allative:
 \end{itemize}
 
 \ex Yawarana \\
@@ -1089,9 +1103,9 @@ aquatic &          ? &          ? \\
 \begin{itemize}
 \tightlist
 \item
-  \obj{ya} ya `erg' ?)
+  \obj{ya} `\gl{erg}'
 \item
-  \emph{ke} `instr'
+  \emph{ke} `\gl{ins}'
 \item
   \emph{wanai}
 \end{itemize}
@@ -1101,253 +1115,43 @@ aquatic &          ? &          ? \\
 \begin{itemize}
 \tightlist
 \item
-  =se `desiderative'
+  =se `\gl{des}'
+\end{itemize}
+
+\section{Misc}
+
+\begin{itemize}
+\tightlist
 \item
-  others?
+  copular \obj{chi} combines with \obj{yawë}, sometimes spelled
+  \emph{chi yawë}, sometimes \emph{chawë}.
 \end{itemize}
 
 \chapter{\texorpdfstring{Particles and Ideophones
 \label{partideo}}{Particles and Ideophones }}
 
-\begin{itemize}
-\tightlist
-\item
-\item
-\end{itemize}
-
-\chapter{\texorpdfstring{Phrases \label{phrases}}{Phrases }}
-
-TBD
-
-\chapter{\texorpdfstring{Nonverbal predications
-\label{nonverbal}}{Nonverbal predications }}
-
-\chapter{\texorpdfstring{Simple verbal clauses
-\label{simpleverb}}{Simple verbal clauses }}
-
 \chapter{\texorpdfstring{Negation \label{negation}}{Negation }}
 
-Probably relevant morphemes:
-
-\begin{itemize}
-\item
-  \obj{-ja}
-\item
-  \obj{-jra}
-\item
-  \obj{-jnari}
-\item
-  \obj{-kempïnirë}
-\item
-  \obj{pïnirë}
-\item
-  \obj{pïrarë}
-\end{itemize}
-
-\chapter{\texorpdfstring{Questions \label{questions}}{Questions }}
-
-\chapter{\texorpdfstring{Multiclausal
-\label{multiclausal}}{Multiclausal }}
-
-\chapter{\texorpdfstring{Word order variation
-\label{wordorder}}{Word order variation }}
-
-\chapter{\texorpdfstring{Pragmatically marked constructions
-\label{marked}}{Pragmatically marked constructions }}
-
-\chapter{For testing and demonstration purposes}
-
-\section{Some unparsable forms with derivational morphology}
-
 \begin{itemize}
 \tightlist
 \item
-  combination of verb with \obj{-kempïnirë} results in what? always used
-  as predicate
+  probably relevant morphemes:
+
+  \begin{itemize}
+  \item
+    \obj{-ja}
+  \item
+    \obj{-jra}
+  \item
+    \obj{-jnari}
+  \item
+    \obj{-kempïnirë}
+  \item
+    \obj{pïnirë}
+  \item
+    \obj{pïrarë}
+  \end{itemize}
 \end{itemize}
-
-\ex Yawarana \\
-\label{convrisamaj-07}    \begingl
-    \glpreamble  wïrë yaruwakempïnirë, mëkïsantomo a-ja-ja tajtane //
-    \gla wïrë yaruwakempïnirë mëkïsantomo ajaja taj-tane//
-    \glb \gl{1}\gl{pro} *** \gl{dist}.\gl{anim}.\gl{pl} hahaha say-\gl{cncs}//
-        \glft ‘I don’t laugh, but they are saying “hahaha”.’//  
-    \endgl 
-\xe
-
-\begin{itemize}
-\tightlist
-\item
-  deverbal from \obj{tunamï} to an adverb, right?
-\end{itemize}
-
-\ex Yawarana \\
-\label{convrisamaj-09}    \begingl
-    \glpreamble  tëwï neke ne, tajne yakarama pokono nwarë tajne iri mïntë, tunampe //
-    \gla tëwï neke ne ta-jne yakarama-∅ poko-no nwarë ta-jne i-ri mïntë tunam-pe//
-    \glb \gl{3}\gl{pro} \gl{contrast} \gl{ints} \gl{3}-\gl{pl} tell-\gl{ipfv} on.surface-\gl{nmlz} thus \gl{3}-\gl{pl} do-\gl{ipfv} there.\gl{loc} hide-\gl{ess}//
-        \glft ‘Yes indeed, they tell what they are doing there on the down-low.’//  
-    \endgl 
-\xe
-
-\begin{itemize}
-\tightlist
-\item
-  deverbal nominalizer:
-\end{itemize}
-
-\ex Yawarana \\
-\label{convrisamaj-13}    \begingl
-    \glpreamble  pïrarë, seneja ejnë yarikatopo //
-    \gla pïrarë sene-∅-ja ejnë yarika-topo//
-    \glb nothing see.self-\gl{ipfv}-\gl{neg} \gl{1+2}\gl{pro} laugh-\gl{circ}.\gl{nmlz}//
-        \glft ‘Nothing, there’s nothing for us to laugh.’//  
-    \endgl 
-\xe
-
-\begin{itemize}
-\tightlist
-\item
-  probably special handling needed (copula + \obj{pëkë} + ? `because of
-  that')
-\end{itemize}
-
-\ex Yawarana \\
-\label{convrisamaj-29}    \begingl
-    \glpreamble  nope seneja chipokono ejnë pana nope seneja chipokono ejnë yaruwatopo pïrärë //
-    \gla nope sene-∅-ja chipokono ejnë pana nope sene-∅-ja chipokono ejnë yaruwa-topo pïrärë//
-    \glb good see.self-\gl{ipfv}-\gl{neg} *** \gl{1+2}\gl{pro} \gl{dat} good see.self-\gl{ipfv}-\gl{neg} *** \gl{1+2}\gl{pro} laugh-\gl{circ}.\gl{nmlz} ***//
-        \glft ‘We don’t see anything good, so we don’t laugh.’//  
-    \endgl 
-\xe
-
-\begin{itemize}
-\tightlist
-\item
-  MCMM has \emph{narë} as emphatic particle\ldots{} is this a
-  adverbialization?
-\end{itemize}
-
-\ex Yawarana \\
-\label{convrisamaj-47}    \begingl
-    \glpreamble  aniki narëpe yakërë ejnë përemekïrï, ejnë pëkëpene, wanene //
-    \gla aniki narëpe yakërë ejnë përemekï-rï ejnë pëkëpene wanene//
-    \glb who *** *** \gl{1+2}\gl{pro} talk-\gl{ipfv} \gl{1+2}\gl{pro} alone aunt//
-        \glft ‘Who are we gonna talk to? We’re alone, aunt.’//  
-    \endgl 
-\xe
-
-\section{Inline linked entities}
-
-\subsection{Single}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  morph: \obj{-jne}\footnote{This is what a footnote looks like.}
-\item
-  morpheme: \obj{-jnë}
-\item
-  wordform: (asamo-0-ri-jraneg)
-\item
-  text: ``Conversación sobre la risa entre GrMe y ElPe''
-\end{enumerate}
-
-\subsection{Multiple}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  morph: \obj{-jne}, and \obj{-i}
-\item
-  morpheme: \obj{-jnë}, and \obj{-ru}
-\item
-  wordform: (asamo-0-ri-jraneg,asamo-0-ri-zero)
-\item
-  text:
-\end{enumerate}
-
-\section{Examples}
-
-\subsection{Interlinear}
-
-single:
-
-\ex Yawarana \\
-\label{ctorat-34}    \begingl
-    \glpreamble  ëkëtë mërë ëkï //
-    \gla ëkëtë mërë ëkï//
-    \glb where \gl{med}.\gl{inan} manioc.beer//
-        \glft ‘Where is the chicha?’//  
-    \endgl 
-\xe
-
-multiple:
-
-\pex\label{multiigt}    \a Yawarana\\
-    \label{ctorat-35}        \begingl
-        \glpreamble  ëkï ta rë pïrarë wenarujpë ta rë pïrarë //
-        \gla ëkï ta rë pïrarë wena-ru-jpë ta rë pïrarë//
-        \glb manioc.beer like \gl{emp} nothing vomit-\gl{pert}-\gl{pst} like \gl{emp} nothing//
-            \glft ‘The chicha was gone and so was the vomit.’//  
-        \endgl 
-    \a Yawarana\\
-    \label{ctorat-36}        \begingl
-        \glpreamble  ta ti wejsaj ti tëwï //
-        \gla ta-∅ ti wej-saj ti tëwï//
-        \glb say-\gl{ipfv} \gl{hsy} \gl{cop}-\gl{pfv} \gl{hsy} \gl{3}\gl{pro}//
-            \glft ‘...he said.’//  
-        \endgl 
-\xe
-
-\subsection{Other}
-
-single:
-
-\ex\label{test1}\begin{tabular}[t]{ll}
-
-\obj{yaka} &   root \\
-
- \obj{-se} & suffix \\
-
-\end{tabular}
- \xe
-
-double:
-
-\pex\label{multiparttest} \a\label{test2} Hello \obj{-se} `PST'
-\a\label{test3} World
-
-\emph{and} more \xe
-
-You can even mix them:
-
-\pex\label{multiparttest2} \a\label{test4} Some random text in
-combination with an example from the corpus.
-
-\a Yawarana \\
-\label{ctorat-20}    \begingl
-    \glpreamble  wenaru pïrarë //
-    \gla wena-ru pïrarë//
-    \glb vomit-\gl{pert} nothing//
-        \glft ‘There was no vomit.’//  
-    \endgl 
-
-\xe
-
-\subsection{Example references}
-
-\exref[]{ctorat-34}
-
-\exref[]{multiigt} or \exref[]{ctorat-36} or even \exref[a-b]{multiigt}
-
-\exref[]{test1}
-
-\exref[]{multiparttest}
-
-\exref[][multiparttest]{test1}
 
 \printbibliography
 

@@ -1,13 +1,11 @@
 # Adverbs [label](adverbs)
 
-* [pos](adv)
+[pos](adv)
 
 ## Inflection
 
 * presumably no prefixation
-* negation:
-
-[ex](convrisamaj-52)
+* [todo](negation?)
 
 ## Simple adverbs [label](sec:simpleadv)
 

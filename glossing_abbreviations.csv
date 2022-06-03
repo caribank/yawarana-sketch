@@ -1,49 +1,62 @@
 ID,Description
-pl,plural
-sg,singular
-detrz,detransivizer
-pst,past
 1,first person
-2,2 second person
-3,3 third person
+2,second person
+3,third person
 1+2,first person inclusive
 1+3,first person exclusive
-lk,linker
-loc,locative
-ipfv,imperfective
-anim,animate
-inan,inanimate
-prox,proximal
-dist,distal
-poss,possession
-nposs,nonpossessed
-emp,emphatic
-pert,pertensive
-quot,quotative
-cop,copula
-pfv,perfective
-vbz,verbalizer
-ints,intensifier
+a,agent-like argument
+abs,absolutive
 all,allative
-plur,pluractional
-npert,unpossessed
-intr,intransitive
-tr,transitive
-neg,negation
-proh,prohibitive
-fut,future
-concl,conclusive
-imp,imperative
-mot,motion
-pro,pronoun
-hsy,hearsay evidentiality
-imn,imminent
-med,medial
+anim,animate
+circ,circumstantive
 cncs,concessive
+concl,conclusive
 contrast,contrastive
-nmlz,nominalizer
+cop,copula
 dat,dative
 dem,demonstrative
-prob,probabilitive
+des,desiderative
+detrz,detransivizer
+dim,diminutive
+dist,distal
+emp,emphatic
+erg,ergative
 ess,essive
-circ,circumstantive
+fut,future
+hsy,hearsay evidentiality
+imn,imminent
+imp,imperative
+inan,inanimate
+inf,infinitive
+ins,instrumental
+intr,intransitive
+ints,intensifier
+ipfv,imperfective
+lk,linker
+loc,locative
+med,medial
+mot,motion
+motimp,motion imperative
+neg,negation
+nmlz,nominalizer
+npert,unpossessed
+nposs,nonpossessed
+p,patient-like argument
+pert,pertensive
+pfv,perfective
+pl,plural
+plur,pluractional
+poss,possession
+priv,privative
+pro,pronoun
+prob,probabilitive
+prog,progressive
+proh,prohibitive
+prox,proximal
+pst,past
+quot,quotative
+rst,restrictive
+s,intransitive argument
+sg,singular
+tr,transitive
+vbz,verbalizer

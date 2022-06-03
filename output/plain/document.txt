@@ -17,16 +17,14 @@ Phonetics and phonology (label:phono)
 Segmental phonetics and phonemes (label:sec:segmental)
 
 The consonant phonemes of Yawarana are shown in (ref:tab:consonants),
-and the vowels in (ref:tab:vowels). This is a fairly standard Cariban
-phoneme inventory, only departing from the mainstream by the addition of
-/t͡ʃ/.
+and the vowels in (ref:tab:vowels).
 
 Consonant phonemes:
 
   -----------------------------------------------------------------------
               bilabial     alveolar     palatal     velar     glottal
   ----------- ------------ ------------ ----------- --------- -----------
-  occlusive   /p/          /t/          /t͡ʃ/        /k/       
+  occlusive   /p/          /t/          /t͡ʃ/ |      /k/ |     
 
   nasal       /m/          /n/          /ɲ/                   
 
@@ -136,7 +134,7 @@ Demonstrative pronouns / articles:
 
   PROX           kërë     kërësantomo   eni          enijne
 
-  medial? near?  michí                  misi / mërë  michisantomo /
+  medial? near?  michi                  misi / mërë  michisantomo /
                                                      michitomo
 
   DIST           mëkï?    mëkïsantomo   mëjnï        mëjnijne
@@ -237,8 +235,8 @@ interchangeable. What conditions the choice of suffix is not clear as of
 yet.
 
 (5) Yawarana
-    waijta-tomo  ?
-    mouse-PL     ?
+    waijta-tomo  ëj-wenaka-se
+    mouse-PL     DETRZ-vomit-PST
     ‘The mice vomited.’
 
 (6) Yawarana
@@ -286,10 +284,10 @@ Possessive prefixes on nouns:
      3-house  ALL   man           ?-PST
      ‘He went to his house.’
 
-(11) Yawarana
-     pïrarë   ti   i-wena-ru     ?
-     nothing  HSY  3-vomit-PERT  ?
-     ‘Their vomit was not there.’
+(lastex) Yawarana
+pïrarë   ti   i-wena-ru     wej-sapë
+nothing  HSY  3-vomit-PERT  COP-PFV
+‘Their vomit was not there.’
 
 The linker also occurs with (pro-)nominal possessors:
 
@@ -313,41 +311,40 @@ Archaic possessive prefixes on nouns:
   3    i-     t-
   ------------------
 
+irregularly inflected nouns:
+
+-   ‘father’:
+    -   1 papa
+    -   2 ëmë / omo / ëmo (?)
+    -   3 imu
+    -   NP yïmï
+
 Nominal Derivational Morphology (label:sec:nounderiv)
 
 -   V → N
-    -   -ri ‘act.nzr’
+    -   -ri ‘action NMLZ’
     -   -jpë
-        -   ‘past.abs.nzr’
-        -   ‘past.act.nzr?’
-    -   ?-në ‘infinitive / generic action nominalizer’
-        -   Only intransitive verbs? no also wanumanë ‘gossip, lie’ and
-            wajtënë ‘dance’
-    -   -ni ‘a.nzr’
-    -   n- ‘o.nzr’
+        -   ‘PST.ABS.NMLZ’
+        -   ‘PST.ACT.NMLZ?’
+    -   ?-në ‘INF / generic action nominalizer’
+        -   Not only on intransitive verbs? see wanumanë ‘gossip, lie’
+            and wajtënë ‘dance’
+    -   -ni ‘A.NMLZ’
+    -   n- ‘P.NMLZ’
         -   n-V-ri ‘nonpast?’
         -   ?? n-V-jpë ‘past?’
-    -   -sapë ‘abs.nzr’ (contrast with ‑jpë )
-    -   -topo ‘circ.nzr’
-    -   ‑pïnï ‘privative.nzr’ ?
+    -   -sapë ‘ABS.NMLZ’ (contrast with ‑jpë )
+    -   -topo ‘CIRC.NMLZ’
+    -   ‑pïnï ‘PRIV.NMLZ’ ?
 -   Adv → N
-    -   -mï ‘nzr’
+    -   -mï ‘NMLZ’
 -   Postp → N
-    -   -ano ‘nzr’
+    -   -ano ‘NMLZ’
 -   What about -jpë on AD forms? Does it derive a noun?
-
-Misc
-
-predicative negation of nominalized verb:
-
-(13) Yawarana
-     ?  yarikasemïjra
-     ?  ***
-     ‘Oh, there’s nothing to laugh about.’
 
 Verbal inflection (label:verbinfl)
 
-Are chapter introductions handled properly?
+TBD: An introduction to this chapter.
 
 Person prefixes (label:sec:verbperson)
 
@@ -365,27 +362,27 @@ Person marking prefixes on verbs:
 
 -   Absolutive proclitics
     -   
-    -   u- ‘1S/O’
-    -   më- ‘2S/O’
-        -   one example of (më=) ‘2A’ on imperative verb
+    -   u- ‘1S/P’
+    -   më- ‘2S/P’
+        -   one example of (më-) ‘2A’ on imperative verb
 -   Third person
     -   Ø‑ ‘3S’ with intransitive verbs
     -   • exception: ij‑të‑ri ‘he goes’ plus 2 more
-    -   Ø‑ ‘3O’ with transitive verbs with 1A or 2A; also sometimes 3A
-    -   ta- ‘3A3O’
+    -   Ø‑ ‘3P’ with transitive verbs with 1A or 2A; also sometimes 3A
+    -   ta- ‘3>3’
         -   Not required, but possible
             -   Check: not in alternation with preceding O NP?
-        -   ta- ‘3O’ attested on one V in the pan‑Cariban “progressive”
+        -   ta- ‘3P’ attested on one V in the pan‑Cariban “progressive”
             construction w/ 2nd person A
 -   Note that all transitive verbs are consonant‑initial, whether
     etymologically or not because y- ‘rel’ is added to all vowel‑initial
     roots
     -   the y‑ disappears when preceded by the detransitivizer
 
-Non‑personal inflectional prefixation — is there any? Probably not?
+Non‑personal inflectional prefixation
 
--   t‑V‑se is no more — the t‑ is gone (except with tënëse ‘eat’ and
-    tenise ‘drink’)
+-   *t‑V‑se is no more — the t‑ is gone (except with t-ënë-se ‘eat’ and
+    t-eni-se ‘drink’)
     -   Any divergent forms with the negative?
         -   i‑ with intransitive negatives?
         -   an‑ with transitive negatives?
@@ -410,8 +407,6 @@ Verbal TAM suffixes:
   -tëpëkë    PROG.INTR
 
   pëkë       PROG.TR
-
-  -sarë      imminent future
   ----------------------------
 
 -   -ja ‘NEG’
@@ -435,84 +430,90 @@ Verbal TAM suffixes:
     -   -∅, phonetic loss
     -   -ru, assimilation
     -   what about -rï? Looks like the original one…
--   diachrony: related to other -ri
+-   diachrony: from the nominalizer -ri
 -   combines with -jra:
 
-(14) Yawarana
+(13) Yawarana
      wïrë  yaruwa-ri-jra
      1PRO  laugh-IPFV-NEG
      ‘I don’t laugh.’
 
 Semantics
 
-not specified for tense, just imperfective aspect:
+-   not specified for tense, just imperfective aspect:
+    -   past exref
+    -   future exref
+    -   gnomic/present? exref
 
-(15) Yawarana
+(14) Yawarana
      irëjpë  tëwï  waijta-tomo  nwajtë-ri
      then    3PRO  mouse-PL     dance-IPFV
      ‘Then the mice were dancing.’
 
-(16) Yawarana
-     kwase  ejnë    ?
-     how    1+2PRO  ?
-     ‘How will we laugh?’
+(15) Yawarana
+     kwase  ejnë    yaruwa-ri
+     how    1+2PRO  laugh-IPFV
+     ‘How will we laugh?’ (gnomicri)
 
-(17) Yawarana
-     wïrë  yaruwa-ri-jra
-     1PRO  laugh-IPFV-NEG
-     ‘I don’t laugh.’
+(a) Yawarana
+    wïrë  yaruwa-ri-jra
+    1PRO  laugh-IPFV-NEG
+    ‘I don’t laugh.’
 
-(18) Yawarana
-     u-y-ïwïj    yawë  u-senejka-ri   suku-ri     jwama
-     1-LK-house  LOC   1-remain-IPFV  urine-PERT  ***
-     ‘I silently stay in my house.’
+(b) Yawarana
+    u-y-ïwïj    yawë  u-senejka-ri   suku-ri     jwama
+    1-LK-house  LOC   1-remain-IPFV  urine-PERT  ***
+    ‘I silently stay in my house.’
 
 -jpë
 
 -   allomorphy: none?
--   diachrony: from other -jpë
+-   diachrony: from nominalizer -jpë
 
 -se
 
 -   allomorphy: -se/-che
--   diachrony: from participle
+-   diachrony: from participle -se
 
 -sapë
 
--   diachrony and distribution: only occurs on the copula?
+-   diachrony: from nominalizer -sapë
+-   distribution: only occurs on the copula?
 -   allomorphy: -sapë and -saj
 -   negation: with -ja on lexical verb exref
 
-(19) Yawarana
+(17) Yawarana
      irë  wej-tane  mujyampe  patakaja  wej-sapë
      DEM  COP-CNCS                COP-PFV
      ‘a pesar de eso no salió embarazada’
 
-(20) Yawarana
+(18) Yawarana
      apatakaja  pïnïka  wej-sapë
      ***        PROB    COP-PFV
      ‘tal vez no salió (embarazada)’
 
-(21) Yawarana
+(19) Yawarana
      tayakïjtëja  pïnika  wej-sapë
      ***          PROB    COP-PFV
      ‘tal vez no se acostó con ella’
 
 -   what about exref? is that existential negation?
 
-(22) Yawarana
-     pïrarë   ti   i-wena-ru     ?
-     nothing  HSY  3-vomit-PERT  ?
+(20) Yawarana
+     pïrarë   ti   i-wena-ru     wej-sapë
+     nothing  HSY  3-vomit-PERT  COP-PFV
      ‘Their vomit was not there.’
 
 -sarë
 
-(23) Yawarana
+-   once a converb, now ‘imminent future’
+
+(21) Yawarana
      irëjpë  ta-∅      ti   ta    konopo  wej-sarë  konopo  wej-sarë
      then    say-IPFV  HSY  like  rain    COP-IMN   rain    COP-IMN
      ‘Then they said: “it’s raining, it’s raining”.’
 
-(24) Yawarana
+(22) Yawarana
      moyochi  ta-sarë  moyochi  chipokono  kojpaye  pïnika  warotari
            say-IMN                      PROB    ***
      ‘le dicen araña, tal vez porque la araña trabaja de noche’
@@ -530,7 +531,7 @@ Subordinate Clause markers
     -   ‑yapo ‘neg.purp’
     -   others?
 
-What about -po?
+What about desiderative -po?
 
 Number
 
@@ -540,10 +541,7 @@ Number
 
 Copula / Auxiliary
 
--   Paradigm
--   Any particles? Man, wai, manai, etc?
--   Past/Perfect particles? nahkë, etc.
--   chijpë, wejsapë
+-   there is stem allomorphy: chi, wej
 
 Verbal roots and stems (label:derbderiv)
 
@@ -554,25 +552,16 @@ Deriving verbs
 
 Adverbs (label:adverbs)
 
--   
-
 Inflection
 
 -   presumably no prefixation
--   negation:
-
-(25) Yawarana
-     ?  yarikasemïjra
-     ?  ***
-     ‘Oh, there’s nothing to laugh about.’
+-   
 
 Simple adverbs (label:sec:simpleadv)
 
 Derived adverbs (label:sec:derivedadv)
 
 Postpositions (label:postp)
-
--   
 
 Defining the category
 
@@ -591,9 +580,9 @@ Postpositions take the same inflectional prefixes as nouns
 
 Locative Postpositions
 
--   Clear bipartite Ground+Path
--   Unproductive Bipartite X+Path?
--   Other forms
+-   clear bipartite Ground+Path
+-   unproductive Bipartite X+Path?
+-   other forms
 
 Locative postpositions:
 
@@ -605,179 +594,46 @@ Locative postpositions:
   aquatic   ?       ?
   -------------------------
 
--   poye
--   po
--   yatë
--   yapo
+-   poye ‘above’
 
-(26) Yawarana
+-   po ‘locative’
+
+-   yatë ‘locative’
+
+-   yapo ‘negation’?
+
+-   allative:
+
+(23) Yawarana
      tichikimuru  peti  warë  patakasapë  yakucho  pana
                   thus                 DAT
      ‘su rodilla, su pierna, salió (llaga) hacia Ayacucho’
 
 Nonlocative Oblique Postpositions
 
--   ya ya ‘erg’ ?)
--   ke ‘instr’
+-   ya ‘ERG’
+-   ke ‘INS’
 -   wanai
 
 Propositional Postpositions
 
--   =se ‘desiderative’
--   others?
+-   =se ‘DES’
+
+Misc
+
+-   copular chi combines with yawë, sometimes spelled chi yawë,
+    sometimes chawë.
 
 Particles and Ideophones (label:partideo)
 
--   
--   
-
-Phrases (label:phrases)
-
-TBD
-
-Nonverbal predications (label:nonverbal)
-
-Simple verbal clauses (label:simpleverb)
-
 Negation (label:negation)
 
-Probably relevant morphemes:
-
--   -ja
--   -jra
--   -jnari
--   -kempïnirë
--   pïnirë
--   pïrarë
-
-Questions (label:questions)
-
-Multiclausal (label:multiclausal)
-
-Word order variation (label:wordorder)
-
-Pragmatically marked constructions (label:marked)
-
-For testing and demonstration purposes
-
-Some unparsable forms with derivational morphology
-
--   combination of verb with -kempïnirë results in what? always used as
-    predicate
-
-(27) Yawarana
-     wïrë  yaruwakempïnirë  mëkïsantomo   ajaja   taj-tane
-     1PRO  ***              DIST.ANIM.PL  hahaha  say-CNCS
-     ‘I don’t laugh, but they are saying “hahaha”.’
-
--   deverbal from tunamï to an adverb, right?
-
-(28) Yawarana
-     tëwï  neke      ne    ta-jne  yakarama-∅  poko-no          nwarë  ta-jne  i-ri     mïntë      tunam-pe
-     3PRO  CONTRAST  INTS  3-PL    tell-IPFV   on.surface-NMLZ  thus   3-PL    do-IPFV  there.LOC  hide-ESS
-     ‘Yes indeed, they tell what they are doing there on the down-low.’
-
--   deverbal nominalizer:
-
-(29) Yawarana
-     pïrarë   sene-∅-ja          ejnë    yarika-topo
-     nothing  see.self-IPFV-NEG  1+2PRO  laugh-CIRC.NMLZ
-     ‘Nothing, there’s nothing for us to laugh.’
-
--   probably special handling needed (copula + pëkë + ? ‘because of
-    that’)
-
-(30) Yawarana
-     nope  sene-∅-ja          chipokono  ejnë    pana  nope  sene-∅-ja          chipokono  ejnë    yaruwa-topo      pïrärë
-     good  see.self-IPFV-NEG          1+2PRO  DAT   good  see.self-IPFV-NEG          1+2PRO  laugh-CIRC.NMLZ  ***
-     ‘We don’t see anything good, so we don’t laugh.’
-
--   MCMM has narë as emphatic particle… is this a adverbialization?
-
-(31) Yawarana
-     aniki  narëpe  yakërë  ejnë    përemekï-rï  ejnë    pëkëpene  wanene
-     who              1+2PRO  talk-IPFV    1+2PRO  alone     aunt
-     ‘Who are we gonna talk to? We’re alone, aunt.’
-
-Inline linked entities
-
-Single
-
-1.  morph: -jne[1]
-2.  morpheme: -jnë
-3.  wordform: (asamo-0-ri-jraneg)
-4.  text: “Conversación sobre la risa entre GrMe y ElPe”
-
-Multiple
-
-1.  morph: -jne, and -i
-2.  morpheme: -jnë, and -ru
-3.  wordform: (asamo-0-ri-jraneg,asamo-0-ri-zero)
-4.  text:
-
-Examples
-
-Interlinear
-
-single:
-
-(32) Yawarana
-     ëkëtë  mërë      ëkï
-     where  MED.INAN  manioc.beer
-     ‘Where is the chicha?’
-
-multiple:
-
-(multiigt)
-
-(a) Yawarana
-    ëkï          ta    rë   pïrarë   wena-ru-jpë     ta    rë   pïrarë
-    manioc.beer  like  EMP  nothing  vomit-PERT-PST  like  EMP  nothing
-    ‘The chicha was gone and so was the vomit.’
-
-(b) Yawarana
-    ta-∅      ti   wej-saj  ti   tëwï
-    say-IPFV  HSY  COP-PFV  HSY  3PRO
-    ‘…he said.’
-
-Other
-
-single:
-
-  -----------------
-  yaka     root
-  -------- --------
-  -se      suffix
-
-  -----------------
-
-double:
-
-Hello -se ‘PST’ World
-
-and more
-
-You can even mix them:
-
-Some random text in combination with an example from the corpus.
-
-(34) Yawarana
-     wena-ru     pïrarë
-     vomit-PERT  nothing
-     ‘There was no vomit.’
-
-Example references
-
-exref
-
-exref or exref or even exref
-
-exref
-
-exref
-
-exref
+-   probably relevant morphemes:
+    -   -ja
+    -   -jra
+    -   -jnari
+    -   -kempïnirë
+    -   pïnirë
+    -   pïrarë
 
 References
-
-[1] This is what a footnote looks like.
