@@ -7,7 +7,7 @@
 
 * version: `0.0.3.draft`
 
-Created using [pylingdocs](https://github.com/fmatter/pylingdocs/) v0.0.4.dev.
+Created using [pylingdocs](https://github.com/fmatter/pylingdocs/) v0.0.4.
 The available output formats are in [output](./output); if you are viewing this readme
 in a browser, you probably want the [github formatted output](./output/github).
 
