@@ -20,20 +20,30 @@
 The consonant phonemes of Yawarana are shown in [Table], and the vowels in [Table].
 
 
++-----------+------------+------------+-----------+---------+-----------+
             bilabial    alveolar    palatal    velar    glottal   
-:----------:-----------:-----------:----------:--------:----------
++===========+============+============+===========+=========+===========+
  occlusive  /p/         /t/         /t͡ʃ/       /k/                
++-----------+------------+------------+-----------+---------+-----------+
  nasal      /m/         /n/         /ɲ/                           
++-----------+------------+------------+-----------+---------+-----------+
  fricative              /s/                             /h/       
++-----------+------------+------------+-----------+---------+-----------+
  liquid                 /r/                                       
++-----------+------------+------------+-----------+---------+-----------+
  glide      /w/                     /j/                           
++-----------+------------+------------+-----------+---------+-----------+
 
 
++-------+---------+-----------+--------+
         front    central    back   
-:------:--------:----------:-------
++=======+=========+===========+========+
  close  /i/      /ɨ/        /u/    
++-------+---------+-----------+--------+
  mid    /e/      /ə/        /o/    
++-------+---------+-----------+--------+
  open            /a/               
++-------+---------+-----------+--------+
 
 ### Consonants <a id='sec:consonants'><a/>
 
@@ -68,13 +78,19 @@ It shows the usual Cariban inclusive/exclusive (1+2 and 1+3) distinction.
 Note that the plural marker _-kontomo_ appears to usually be restricted to verbs, while *-santomo* is found with third person pronouns and demonstratives.
 
 
++-----+--------+---------------+
       SG      PL            
-:----:-------:--------------
++=====+========+===============+
  1    _wïrë_                
++-----+--------+---------------+
  1+2          _ejnë_        
++-----+--------+---------------+
  1+3          _ana_         
++-----+--------+---------------+
  2    _mërë_  _monkontomo_  
++-----+--------+---------------+
  3    _tëwï_  _tëwïsantomo_ 
++-----+--------+---------------+
 
 Short forms of the first and second person pronouns can occur as proclitics attaching to nouns to indicate possessor (<a href='#sec:nominalperson'>click</a>), attached to verbs to indicate subject or object (described in <a href='#verbinfl'>click</a>), or attached to postpositions to indicate object of the postposition (described in <a href='#sec:postinfl'>click</a>):
 
@@ -114,12 +130,17 @@ The third person demonstrative pronouns or articles are shown in [Table].
 
 
 
++---------------+---------+---------------+-----------------+------------------------------+
                 ANIM                    INAN                                          
-:--------------:--------:--------------:----------------:-----------------------------
++===============+=========+===============+=================+==============================+
                 SG       PL             SG               PL                           
++---------------+---------+---------------+-----------------+------------------------------+
  PROX           _kërë_   _kërësantomo_  _eni_            _enijne_                     
++---------------+---------+---------------+-----------------+------------------------------+
  medial? near?  _michi_                 _misi_ / _mërë_  _michisantomo_ / _michitomo_ 
++---------------+---------+---------------+-----------------+------------------------------+
  DIST           _mëjkï_  _mëkïsantomo_  _mëjnï_          _mëjnijne_                   
++---------------+---------+---------------+-----------------+------------------------------+
 
 None of the demonstrative pronouns have shortened, phonologically bound counterparts.
 
@@ -144,7 +165,7 @@ Examples [ex:onlypossessed–unsuffixednouns] illustrate the possible patterns o
 Nouns that take a suffix only when possessed:
 
  *akajra-ri*    ‘X’s bow’           *akajra*    ‘bow’          
-:--------------:-------------------:-----------:---------------
+---------------------------------------------------------------
  *y-amaka-ri*   ‘X’s yucca’         *amaka*     ‘yucca’        
  *y-ántë-ri*    ‘X’s fishhook’      *antë*      ‘fishhook’     
  *y-ateri-ri*   ‘X’s garden/field’  *ateri*     ‘garden/field’ 
@@ -154,7 +175,7 @@ Nouns that take a suffix only when possessed:
 Nouns that take one suffix when possessed and another when unpossessed
 
  *yë-ri*       ‘X’s tooth’    *yë-të*    ‘tooth’                                
-:-------------:--------------:----------:---------------------------------------
+--------------------------------------------------------------------------------
  *pata-ri*     ‘X’s place’    *pata-të*  ‘(part of name) San Juan de Manapiare’ 
  *y-ese-ti*    ‘X’s name’     *ese-të*   ‘name’                                 
  *y-ase-tï*    ‘X’s cord’     *ase-të*   ‘cord’                                 
@@ -163,7 +184,7 @@ Nouns that take a suffix only when unpossessed:
 
 
  *yëjpë*    ‘X’s bone’    *yëjpë-të*            ‘bone’   
-:----------:-------------:---------------------:---------
+---------------------------------------------------------
  *petï*     ‘X’s thigh’   *petï-të* / *pej-të*  ‘thigh’  
  *y-aponi*  ‘X’s stool’   *apon-të*             ‘stool’  
 
@@ -199,11 +220,15 @@ On V-initial nouns, third person is marked by _t-_, and first and second person 
 Some examples are shown in [ex:ctorat-23–lastex].
 
 
++----+-------+-----------+
      _C     _V        
----::------:----------
++====+=======+===========+
   1  _u-_   _u-__y-_  
++----+-------+-----------+
   2  _më-_  _më-__y-_ 
++----+-------+-----------+
   3  _i-_   _t-_      
++----+-------+-----------+
 
 
 > (7) Yawarana
@@ -259,11 +284,15 @@ ejnë    yemekunu
 There are some nouns (kinship terms?) that take an apparently older old second person _a-_ ([Table]).
 
 
++----+------+----------+
      _C    _V       
----::-----:---------
++====+======+==========+
   1  _u-_  _u-__y-_ 
++----+------+----------+
   2  _a-_  _a-__y-_ 
++----+------+----------+
   3  _i-_  _t-_     
++----+------+----------+
 
 
 
@@ -310,11 +339,15 @@ An exception to this is the verb _të_ 'to go', which shows an idiosyncratic pre
 
 
 
++----+--------+-------+
      INTR    TR    
----::-------:------
++====+========+=======+
   1  _u-_    _u-_  
++----+--------+-------+
   2  _më-_   _më-_ 
++----+--------+-------+
   3  ∅       _ta-_ 
++----+--------+-------+
 
 * _ta-_ ‘3P’ attested on one V in the pan‑Cariban “progressive” construction w/ 2nd person A 
 * Ø‑ ‘3P’ with transitive verbs with 1A or 2A; also sometimes 3A
@@ -339,15 +372,23 @@ Verbs in main clauses are inflected for TAMP with a set of suffixes, shown in [T
 They are discussed in <a href='#sec:riipfv'>click</a>.
 
 
++-----------+-----------------+
  Suffix     Function        
-:----------:----------------
++===========+=================+
  _-ri_      imperfective    
++-----------+-----------------+
  _-jpë_     past            
++-----------+-----------------+
  _-se_      past 2?         
++-----------+-----------------+
  _-sapë_    perfective?     
++-----------+-----------------+
  _-sarë_    imminent future 
++-----------+-----------------+
  _-tëpëkë_  PROG.INTR       
++-----------+-----------------+
  _pëkë_     PROG.TR         
++-----------+-----------------+
 
 
 
@@ -6526,11 +6567,15 @@ _-tojpe_ can be inflected:
 Postpositions take the same inflectional prefixes as nouns (<a href='#sec:nounposssuf'>click</a>). 
 
 
++----+----------+
               
----::---------
++====+==========+
   1  _u-_     
++----+----------+
   2  _më-_    
++----+----------+
   3  _i-/t-_? 
++----+----------+
 
 ## Locative Postpositions
 * clear bipartite Ground+Path
@@ -6538,10 +6583,13 @@ Postpositions take the same inflectional prefixes as nouns (<a href='#sec:nounpo
 * other forms
 
 
++---------+--------+--------+
           ALL     LOC    
-:--------:-------:-------
++=========+========+========+
  inside   _yaka_  _yawë_ 
++---------+--------+--------+
  aquatic  ?       ?      
++---------+--------+--------+
 
 
 
@@ -12694,7 +12742,7 @@ single:
 
 
  _yaka_    root   
-:---------:-------
+------------------
  _-se_     suffix 
 
 double:
