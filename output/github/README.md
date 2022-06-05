@@ -1,106 +1,74 @@
 # A digital sketch grammar of Yawarana
 
--   <a href="#introduction" id="toc-introduction">Introduction
-    <a id='intro'><a/></a>
-    -   <a href="#the-yawarana-people-and-their-language"
-        id="toc-the-yawarana-people-and-their-language">The Yawarana people and
-        their language <a id='sec:people'><a/></a>
-    -   <a href="#location-historical-records"
-        id="toc-location-historical-records">Location, historical records
-        <a id='sec:context'><a/></a>
-    -   <a href="#current-life" id="toc-current-life">Current life
-        <a id='sec:currentlife'><a/></a>
-    -   <a href="#sociolinguistic-vitality"
-        id="toc-sociolinguistic-vitality">Sociolinguistic vitality
-        <a id='sec:vitality'><a/></a>
-    -   <a href="#previous-studies-on-the-yawarana-language"
-        id="toc-previous-studies-on-the-yawarana-language">Previous studies on
-        the Yawarana language <a id='sec:previous'><a/></a>
-    -   <a href="#this-project" id="toc-this-project">This project
-        <a id='sec:thisproject'><a/></a>
--   <a href="#phonetics-and-phonology"
-    id="toc-phonetics-and-phonology">Phonetics and phonology
-    <a id='phono'><a/></a>
-    -   <a href="#segmental-phonetics-and-phonemes"
-        id="toc-segmental-phonetics-and-phonemes">Segmental phonetics and
-        phonemes <a id='sec:segmental'><a/></a>
-        -   <a href="#consonants" id="toc-consonants">Consonants
-            <a id='sec:consonants'><a/></a>
-        -   <a href="#vowels" id="toc-vowels">Vowels <a id='sec:vowels'><a/></a>
-    -   <a href="#morphophonological-processes"
-        id="toc-morphophonological-processes">Morphophonological Processes
-        <a id='sec:morphophono'><a/></a>
-        -   <a href="#syllable-reduction" id="toc-syllable-reduction">Syllable
-            Reduction <a id='sec:sylred'><a/></a>
-        -   <a href="#vowel-harmony" id="toc-vowel-harmony">Vowel harmony?
-            <a id='sec:vowelharm'><a/></a>
-    -   <a href="#prosody" id="toc-prosody">Prosody <a id='sec:prosody'><a/></a>
-        -   <a href="#lexical-stress" id="toc-lexical-stress">Lexical stress
-            <a id='sec:stress'><a/></a>
-        -   <a href="#intonational-phrases"
-            id="toc-intonational-phrases">Intonational Phrases
-            <a id='sec:intphrases'><a/></a>
-        -   <a href="#intonational-melodies"
-            id="toc-intonational-melodies">Intonational Melodies
-            <a id='sec:intmelodies'><a/></a>
-    -   <a href="#historical-considerations"
-        id="toc-historical-considerations">Historical Considerations
-        <a id='sec:histphono'><a/></a>
--   <a href="#distinguishing-parts-of-speech-in-yawarana"
-    id="toc-distinguishing-parts-of-speech-in-yawarana">Distinguishing parts
-    of speech in Yawarana <a id='POS'><a/></a>
--   <a href="#nouns" id="toc-nouns">Nouns <a id='nouns'><a/></a>
-    -   <a href="#pronouns" id="toc-pronouns">Pronouns
-        <a id='sec:pronouns'><a/></a>
-    -   <a href="#nominal-inflection" id="toc-nominal-inflection">Nominal
-        inflection <a id='sec:nouninfl'><a/></a>
-        -   <a href="#suffixes-for-possessed-and-non-possessed-nouns"
-            id="toc-suffixes-for-possessed-and-non-possessed-nouns">Suffixes for
-            possessed and non-possessed nouns <a id='sec:nounposssuf'><a/></a>
-        -   <a href="#number-suffixes" id="toc-number-suffixes">Number suffixes
-            <a id='sec:nominalnumber'><a/></a>
-        -   <a href="#argument-prefixes" id="toc-argument-prefixes">Argument
-            prefixes <a id='sec:nominalperson'><a/></a>
-    -   <a href="#nominal-derivational-morphology"
-        id="toc-nominal-derivational-morphology">Nominal Derivational Morphology
-        <a id='sec:nounderiv'><a/></a>
--   <a href="#verbal-inflection" id="toc-verbal-inflection">Verbal
-    inflection <a id='verbinfl'><a/></a>
-    -   <a href="#person-prefixes" id="toc-person-prefixes">Person prefixes
-        <a id='sec:verbperson'><a/></a>
+-   <a href="#intro" id="toc-intro">Introduction</a>
+    -   <a href="#sec:people" id="toc-sec:people">The Yawarana people and their
+        language</a>
+    -   <a href="#sec:context" id="toc-sec:context">Location, historical
+        records</a>
+    -   <a href="#sec:currentlife" id="toc-sec:currentlife">Current life</a>
+    -   <a href="#sec:vitality" id="toc-sec:vitality">Sociolinguistic
+        vitality</a>
+    -   <a href="#sec:previous" id="toc-sec:previous">Previous studies on the
+        Yawarana language</a>
+    -   <a href="#sec:thisproject" id="toc-sec:thisproject">This project</a>
+-   <a href="#phono" id="toc-phono">Phonetics and phonology</a>
+    -   <a href="#sec:segmental" id="toc-sec:segmental">Segmental phonetics and
+        phonemes</a>
+        -   <a href="#sec:consonants" id="toc-sec:consonants">Consonants</a>
+        -   <a href="#sec:vowels" id="toc-sec:vowels">Vowels</a>
+    -   <a href="#sec:morphophono" id="toc-sec:morphophono">Morphophonological
+        Processes</a>
+        -   <a href="#sec:sylred" id="toc-sec:sylred">Syllable Reduction</a>
+        -   <a href="#sec:vowelharm" id="toc-sec:vowelharm">Vowel harmony?</a>
+    -   <a href="#sec:prosody" id="toc-sec:prosody">Prosody</a>
+        -   <a href="#sec:stress" id="toc-sec:stress">Lexical stress</a>
+        -   <a href="#sec:intphrases" id="toc-sec:intphrases">Intonational
+            Phrases</a>
+        -   <a href="#sec:intmelodies" id="toc-sec:intmelodies">Intonational
+            Melodies</a>
+    -   <a href="#sec:histphono" id="toc-sec:histphono">Historical
+        Considerations</a>
+-   <a href="#POS" id="toc-POS">Distinguishing parts of speech in
+    Yawarana</a>
+-   <a href="#nouns" id="toc-nouns">Nouns</a>
+    -   <a href="#sec:pronouns" id="toc-sec:pronouns">Pronouns</a>
+    -   <a href="#sec:nouninfl" id="toc-sec:nouninfl">Nominal inflection</a>
+        -   <a href="#sec:nounposssuf" id="toc-sec:nounposssuf">Suffixes for
+            possessed and non-possessed nouns</a>
+        -   <a href="#sec:nominalnumber" id="toc-sec:nominalnumber">Number
+            suffixes</a>
+        -   <a href="#sec:nominalperson" id="toc-sec:nominalperson">Argument
+            prefixes</a>
+    -   <a href="#sec:nounderiv" id="toc-sec:nounderiv">Nominal Derivational
+        Morphology</a>
+-   <a href="#verbinfl" id="toc-verbinfl">Verbal inflection</a>
+    -   <a href="#sec:verbperson" id="toc-sec:verbperson">Person prefixes</a>
     -   <a href="#nonpersonal-inflectional-prefixation"
         id="toc-nonpersonal-inflectional-prefixation">Non‑personal inflectional
         prefixation</a>
-    -   <a href="#tenseaspectmoodpolarity-suffixes"
-        id="toc-tenseaspectmoodpolarity-suffixes">Tense‑aspect‑mood‑polarity
-        suffixes <a id='sec:tam'><a/></a>
-        -   <a href="#ri" id="toc-ri"><em>-ri</em> <a id='sec:riipfv'><a/></a>
+    -   <a href="#sec:tam" id="toc-sec:tam">Tense‑aspect‑mood‑polarity
+        suffixes</a>
+        -   <a href="#sec:riipfv" id="toc-sec:riipfv"><em>-ri</em></a>
         -   <a href="#jpë" id="toc-jpë"><em>-jpë</em></a>
         -   <a href="#se" id="toc-se"><em>-se</em></a>
         -   <a href="#sapë" id="toc-sapë"><em>-sapë</em></a>
-        -   <a href="#sarë" id="toc-sarë"><em>-sarë</em>
-            <a id='sec:sareimn'><a/></a>
+        -   <a href="#sec:sareimn" id="toc-sec:sareimn"><em>-sarë</em></a>
     -   <a href="#subordinate-clause-markers"
         id="toc-subordinate-clause-markers">Subordinate Clause markers</a>
     -   <a href="#number" id="toc-number">Number</a>
     -   <a href="#copula-auxiliary" id="toc-copula-auxiliary">Copula /
         Auxiliary</a>
--   <a href="#verbal-roots-and-stems" id="toc-verbal-roots-and-stems">Verbal
-    roots and stems <a id='derbderiv'><a/></a>
+-   <a href="#derbderiv" id="toc-derbderiv">Verbal roots and stems</a>
     -   <a href="#deriving-verbs" id="toc-deriving-verbs">Deriving verbs</a>
--   <a href="#adverbs" id="toc-adverbs">Adverbs <a id='adverbs'><a/></a>
+-   <a href="#adverbs" id="toc-adverbs">Adverbs</a>
     -   <a href="#inflection" id="toc-inflection">Inflection</a>
-    -   <a href="#simple-adverbs" id="toc-simple-adverbs">Simple adverbs
-        <a id='sec:simpleadv'><a/></a>
-    -   <a href="#derived-adverbs" id="toc-derived-adverbs">Derived adverbs
-        <a id='sec:derivedadv'><a/></a>
--   <a href="#postpositions" id="toc-postpositions">Postpositions
-    <a id='postp'><a/></a>
+    -   <a href="#sec:simpleadv" id="toc-sec:simpleadv">Simple adverbs</a>
+    -   <a href="#sec:derivedadv" id="toc-sec:derivedadv">Derived adverbs</a>
+-   <a href="#postp" id="toc-postp">Postpositions</a>
     -   <a href="#defining-the-category" id="toc-defining-the-category">Defining
         the category</a>
-    -   <a href="#inflectional-morphology"
-        id="toc-inflectional-morphology">Inflectional morphology
-        <a id='sec:postinfl'><a/></a>
+    -   <a href="#sec:postinfl" id="toc-sec:postinfl">Inflectional
+        morphology</a>
     -   <a href="#locative-postpositions"
         id="toc-locative-postpositions">Locative Postpositions</a>
     -   <a href="#nonlocative-oblique-postpositions"
@@ -109,10 +77,8 @@
     -   <a href="#propositional-postpositions"
         id="toc-propositional-postpositions">Propositional Postpositions</a>
     -   <a href="#misc" id="toc-misc">Misc</a>
--   <a href="#particles-and-ideophones"
-    id="toc-particles-and-ideophones">Particles and Ideophones
-    <a id='partideo'><a/></a>
--   <a href="#negation" id="toc-negation">Negation <a id='negation'><a/></a>
+-   <a href="#partideo" id="toc-partideo">Particles and Ideophones</a>
+-   <a href="#negation" id="toc-negation">Negation</a>
 -   <a href="#for-testing-and-demonstration-purposes"
     id="toc-for-testing-and-demonstration-purposes">For testing and
     demonstration purposes</a>
@@ -130,23 +96,23 @@
             references</a>
 -   <a href="#references" id="toc-references">References</a>
 
-# Introduction <a id='intro'><a/>
+# Introduction
 
-## The Yawarana people and their language <a id='sec:people'><a/>
+## The Yawarana people and their language
 
-## Location, historical records <a id='sec:context'><a/>
+## Location, historical records
 
-## Current life <a id='sec:currentlife'><a/>
+## Current life
 
-## Sociolinguistic vitality <a id='sec:vitality'><a/>
+## Sociolinguistic vitality
 
-## Previous studies on the Yawarana language <a id='sec:previous'><a/>
+## Previous studies on the Yawarana language
 
-## This project <a id='sec:thisproject'><a/>
+## This project
 
-# Phonetics and phonology <a id='phono'><a/>
+# Phonetics and phonology
 
-## Segmental phonetics and phonemes <a id='sec:segmental'><a/>
+## Segmental phonetics and phonemes
 
 The consonant phonemes of Yawarana are shown in \[Table\], and the
 vowels in \[Table\].
@@ -165,31 +131,31 @@ vowels in \[Table\].
 | mid   | /e/   | /ə/     | /o/  |
 | open  |       | /a/     |      |
 
-### Consonants <a id='sec:consonants'><a/>
+### Consonants
 
-### Vowels <a id='sec:vowels'><a/>
+### Vowels
 
-## Morphophonological Processes <a id='sec:morphophono'><a/>
+## Morphophonological Processes
 
-### Syllable Reduction <a id='sec:sylred'><a/>
+### Syllable Reduction
 
-### Vowel harmony? <a id='sec:vowelharm'><a/>
+### Vowel harmony?
 
-## Prosody <a id='sec:prosody'><a/>
+## Prosody
 
-### Lexical stress <a id='sec:stress'><a/>
+### Lexical stress
 
-### Intonational Phrases <a id='sec:intphrases'><a/>
+### Intonational Phrases
 
-### Intonational Melodies <a id='sec:intmelodies'><a/>
+### Intonational Melodies
 
-## Historical Considerations <a id='sec:histphono'><a/>
+## Historical Considerations
 
-# Distinguishing parts of speech in Yawarana <a id='POS'><a/>
+# Distinguishing parts of speech in Yawarana
 
-# Nouns <a id='nouns'><a/>
+# Nouns
 
-## Pronouns <a id='sec:pronouns'><a/>
+## Pronouns
 
 The personal pronouns of Yawarana are shown in \[Table\]. It shows the
 usual Cariban inclusive/exclusive (1+2 and 1+3) distinction. Note that
@@ -255,7 +221,7 @@ counterparts.
     -   *ati* ‘what?’
     -   *ëjkë* ‘which? inan’
 
-## Nominal inflection <a id='sec:nouninfl'><a/>
+## Nominal inflection
 
 Nouns in Yawarana may bear suffixes for possession
 (<a href='#sec:nounposssuf'>click</a>) and number
@@ -264,7 +230,7 @@ third person prefix, indexing a third person possessor, or a first or
 second proclitic (a reduced form of the free pronoun), indexing a first
 or second person possessor (<a href='#sec:nominalperson'>click</a>).
 
-### Suffixes for possessed and non-possessed nouns <a id='sec:nounposssuf'><a/>
+### Suffixes for possessed and non-possessed nouns
 
 In the possession construction in Yawarana, the possessor noun occurs
 immediately preceding the possessed noun, which is the head of the
@@ -319,7 +285,7 @@ Nouns that never take a suffix, whether possessed or unpossessed:
 | *i-jmëy* | ‘his egg’ | *ëjmëy* | ‘egg’ |
 |----------|-----------|---------|-------|
 
-### Number suffixes <a id='sec:nominalnumber'><a/>
+### Number suffixes
 
 There are two plural suffixes that can occur on nouns, apparently freely
 interchangeable. What conditions the choice of suffix is not clear as of
@@ -337,7 +303,7 @@ yet.
 >     go.in.group-PLUR-PST-PL  mouse-PL  
 >     ‘the mice went away.’</pre>
 
-### Argument prefixes <a id='sec:nominalperson'><a/>
+### Argument prefixes
 
 Person prefixes on nouns are conditioned by the initial segment
 (\[Table\]). C-initial nouns take third person *i-*, and first and
@@ -406,7 +372,7 @@ second person *a-* (\[Table\]).
     -   3 *imu*
     -   NP *yïmï*
 
-## Nominal Derivational Morphology <a id='sec:nounderiv'><a/>
+## Nominal Derivational Morphology
 
 -   V → N
     -   *-ri* ‘action NMLZ’ <!-- Productive -->
@@ -429,9 +395,9 @@ second person *a-* (\[Table\]).
     -   *-ano* ‘NMLZ’ <!-- productive -->
 -   What about *-jpë* on AD forms? Does it derive a noun?
 
-# Verbal inflection <a id='verbinfl'><a/>
+# Verbal inflection
 
-## Person prefixes <a id='sec:verbperson'><a/>
+## Person prefixes
 
 Verbs are inflected for person with a set of prefixes, shown in
 \[Table\]. First and second person prefixes show accusative alignment,
@@ -463,7 +429,7 @@ idiosyncratic prefix *ij-*.
     -   *i‑* with intransitive negatives?
     -   *an‑* with transitive negatives?
 
-## Tense‑aspect‑mood‑polarity suffixes <a id='sec:tam'><a/>
+## Tense‑aspect‑mood‑polarity suffixes
 
 Verbs in main clauses are inflected for TAMP with a set of suffixes,
 shown in \[Table\]. They are discussed in
@@ -494,7 +460,7 @@ shown in \[Table\]. They are discussed in
     -   *-kë* / ‑*të*\_-kë\_ ‘IMP / IMP.PL’
     -   *-ta* / *-tantë*\_-kë\_ ‘IMP.MOT / IMP.MOT.PL’
 
-### *-ri* <a id='sec:riipfv'><a/>
+### *-ri*
 
 -   allomorphy:
     -   *-∅*, phonetic loss
@@ -586,7 +552,7 @@ shown in \[Table\]. They are discussed in
 >     nothing  HSY  3-vomit-PERT  COP-PFV  
 >     ‘Their vomit was not there.’</pre>
 
-### *-sarë* <a id='sec:sareimn'><a/>
+### *-sarë*
 
 -   once a converb, now ‘imminent future’
 
@@ -629,7 +595,7 @@ What about desiderative *-po*?
 
 -   there is stem allomorphy: *chi*, *wej*
 
-# Verbal roots and stems <a id='derbderiv'><a/>
+# Verbal roots and stems
 
 ## Deriving verbs
 
@@ -638,15 +604,15 @@ What about desiderative *-po*?
 
 <!-- manually, the lot -->
 
-# Adverbs <a id='adverbs'><a/>
+# Adverbs
 
 ## Inflection
 
 -   
 
-## Simple adverbs <a id='sec:simpleadv'><a/>
+## Simple adverbs
 
-## Derived adverbs <a id='sec:derivedadv'><a/>
+## Derived adverbs
 
 *-tojpe* can be inflected:
 
@@ -665,11 +631,11 @@ What about desiderative *-po*?
 >     <i> uyepematojpe pïrarë wïrë inawë</i>  
 >     ‘yo no tengo para pagar’</pre>
 
-# Postpositions <a id='postp'><a/>
+# Postpositions
 
 ## Defining the category
 
-## Inflectional morphology <a id='sec:postinfl'><a/>
+## Inflectional morphology
 
 Postpositions take the same inflectional prefixes as nouns
 (<a href='#sec:nounposssuf'>click</a>).
@@ -722,9 +688,9 @@ Postpositions take the same inflectional prefixes as nouns
 -   copular *chi* combines with *yawë*, sometimes spelled *chi yawë*,
     sometimes *chawë*.
 
-# Particles and Ideophones <a id='partideo'><a/>
+# Particles and Ideophones
 
-# Negation <a id='negation'><a/>
+# Negation
 
 -   probably relevant morphemes:
     -   *-ja*
