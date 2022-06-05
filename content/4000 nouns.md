@@ -99,21 +99,21 @@ There are some nouns (kinship terms?) that take an apparently older old second p
 ## Nominal Derivational Morphology [label](sec:nounderiv)
 
 * V → N
-    * [mp](rinmlz) ‘action [gl](nmlz)’
-    * [mp](jpenmlz)
+    * [mp](rinmlz) ‘action [gl](nmlz)’ <!-- Productive -->
+    * [mp](jpenmlz) <!-- Productive -->
         * ‘[gl](PST.ABS.nmlz)’
         * ‘[gl](PST).ACT.[gl](nmlz)?’ 
-    * ?[mp](neinf) ‘[gl](inf) / generic action nominalizer’
+    * ?[mp](neinf) ‘[gl](inf) / generic action nominalizer’ <!-- productive -->
         * Not only on intransitive verbs? see *wanumanë* 'gossip, lie' and *wajtënë* 'dance' 
-    * [mp](ninmlz) ‘[gl](a.nmlz)’
-    * [mp](nnmlzpre) ‘[gl](p.nmlz)’
+    * [mp](ninmlz) ‘[gl](a.nmlz)’ <!-- ? -->
+    * [mp](nnmlzpre) ‘[gl](p.nmlz)’ <!-- There's only 2 tokens in FLEx? -->
         * [mp](nnmlzpre)V[mp](rinmlz)    ‘nonpast?’
         * ?? [mp](nnmlzpre)V[mp](jpepst)    ‘past?’
-    * [mp](sapenmlz) ‘[gl](ABS.nmlz)’ (contrast with ‑jpë )
-    * [mp](toponmlz) ‘[gl](circ.nmlz)’
-    * [mp](pininmlz) ‘[gl](priv.nmlz)’ ?
+    * [mp](sapenmlz) ‘[gl](ABS.nmlz)’ (contrast with ‑jpë ) <!-- productive -->
+    * [mp](toponmlz) ‘[gl](circ.nmlz)’ <!-- ? -->
+    * [mp](pininmlz) ‘[gl](priv.nmlz)’ ? <!-- productive? -->
 * Adv → N 
-    * [mp](minmlz) '[gl](nmlz)'
+    * [mp](minmlz) '[gl](nmlz)' <!-- productive? -->
 * Postp → N
-    * [mp](anonmlz) ‘[gl](nmlz)’
+    * [mp](anonmlz) ‘[gl](nmlz)’ [todo](I mostly see this with adverbs, not postpositions?) <!-- productive -->
 * What about [mp](jpenmlz) on AD forms? Does it derive a noun?

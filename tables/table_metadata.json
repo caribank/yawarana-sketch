@@ -28,5 +28,6 @@
     "verbprefixes": {"caption": "Person marking prefixes on verbs"},
     "suffunpossessed": {},
     "unsuffixednouns": {},
-    "verbtam": {"caption": "Verbal TAM suffixes"}
+    "verbtam": {"caption": "Verbal TAM suffixes"},
+    "postpprefixes": {"caption": "Person marking prefixes on postpositions"}
 }

@@ -1,7 +1,12 @@
 <a id='verbinfl'></a>
-TBD: An introduction to this chapter.
+<span title='write an introduction'>❗️</span>
 
 ## Person prefixes {#sec:verbperson}
+Verbs are inflected for person with a set of prefixes, shown in <a href='#tab:verbprefixes' class='crossref' name='tab:verbprefixes' >ref</a>.
+First and second person prefixes show accusative alignment, expressing <span class="smallcaps">s</span> and <span class="smallcaps">p</span>.
+Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [Morpheme t3](MorphsetTable?#cldf:t3) in <span class="smallcaps">3</span>><span class="smallcaps">3</span> scenarios. <span title='Check: not in alternation with preceding O NP?'>❓</span>
+An exception to this is the verb [Morpheme te-go](MorphsetTable?#cldf:te-go) 'to go', which shows an idiosyncratic prefix [Morph i32](MorphTable?#cldf:i32). <span title='"*ij‑të‑ri* ‘he goes’ plus 2 more" -- which ones?'>❓</span>
+
 
 
 <a id='tab:verbprefixes'></a><div class='caption table' id='tab:verbprefixes'>Person marking prefixes on verbs</div>
@@ -12,30 +17,27 @@ TBD: An introduction to this chapter.
 | <span class="smallcaps">2</span> | [Morpheme me2](MorphsetTable?#cldf:me2) | [Morpheme me2](MorphsetTable?#cldf:me2) |
 | <span class="smallcaps">3</span> | ∅                                       | [Morpheme t3](MorphsetTable?#cldf:t3)   |
 
-* Absolutive proclitics 
-    * <span title='Check: appears that they are reduced forms, with long vowel? FM: i noticed a long vowel in convrisamaj-02'>❓</span>
-    * [Morpheme u1](MorphsetTable?#cldf:u1) ‘<span class="smallcaps">1s/p</span>’ <span title='is this ever actually *wï-*?'>❓</span>
-    * [Morpheme me2](MorphsetTable?#cldf:me2) ‘<span class="smallcaps">2s/p</span>’
-        * one example of ([Morpheme me2](MorphsetTable?#cldf:me2)) ‘<span class="smallcaps">2A</span>’ on imperative verb <span title='where?'>❓</span>
-* Third person
-    * Ø‑ '<span class="smallcaps">3s</span>' with intransitive verbs
-    *   • exception: *ij‑të‑ri* ‘he goes’ plus 2 more <span title='which ones?'>❓</span>
-    * Ø‑ ‘<span class="smallcaps">3p</span>’ with transitive verbs with <span class="smallcaps">1a</span> or <span class="smallcaps">2a</span>; also sometimes <span class="smallcaps">3a</span>
-    * [Morpheme t3](MorphsetTable?#cldf:t3) ‘<span class="smallcaps">3>3</span>’
-        * Not required, but possible
-            * Check: not in alternation with preceding O NP?
-        * [Morpheme t3](MorphsetTable?#cldf:t3) ‘<span class="smallcaps">3p</span>’ attested on one V in the pan‑Cariban “progressive” construction w/ 2nd person <span class="smallcaps">a</span> <span title='which one?'>❓</span>
-* Note that all transitive verbs are consonant‑initial, whether etymologically or not because [Morpheme ylk](MorphsetTable?#cldf:ylk) ‘rel’ is added to all vowel‑initial roots
-    * the _y‑_ disappears when preceded by the detransitivizer <span title='examples for detransitivized verbs'>❗️</span>
+* [Morpheme t3](MorphsetTable?#cldf:t3) ‘<span class="smallcaps">3p</span>’ attested on one V in the pan‑Cariban “progressive” construction w/ 2nd person <span class="smallcaps">a</span> <span title='which one?'>❓</span>
+* Ø‑ ‘<span class="smallcaps">3p</span>’ with transitive verbs with <span class="smallcaps">1a</span> or <span class="smallcaps">2a</span>; also sometimes <span class="smallcaps">3a</span>
+* one example of ([Morpheme me2](MorphsetTable?#cldf:me2)) ‘<span class="smallcaps">2A</span>’ on imperative verb <span title='where?'>❓</span>
+* Note that all transitive verbs are consonant‑initial, whether etymologically or not because [Morpheme ylk](MorphsetTable?#cldf:ylk) '<span class="smallcaps">lk</span>' is added to all vowel‑initial roots
+    * the _y‑_ disappears when preceded by the detransitivizer <span title='examples for detransitivized verbs'>❗️</span> <span title='what about V-initial intransitive verbs? how are they inflected?'>❓</span>
+
+<span title='Check: appears that first and second person are reduced forms, with long vowel? FM: i noticed a long vowel in convrisamaj-02'>❓</span>
+<span title='FM: is first person ever actually *wï-*?'>❓</span>
+
 
 ## Non‑personal inflectional prefixation
-<span title='is there any?'>❓</span>
-* \*_t‑V‑se_ is no more — the t‑ is gone (except with _t-ënë-se_ ‘eat’ and _t-eni-se_ ‘drink’) <span title='or are these t-verbs?'>❓</span>
-  * Any divergent forms with the negative?
+<span title='can we delete this section?'>❓</span>
+
+* \*_t‑V‑se_ is no more — the t‑ is gone (except with _t-ënë-se_ ‘eat’ and _t-eni-se_ ‘drink’) <span title='or are these just t-verbs?'>❓</span>
+* Any divergent forms with the negative?
     * _i‑_ with intransitive negatives?
     * _an‑_ with transitive negatives?
     
-## Tense‑aspect‑mood‑polarity suffixes
+## Tense‑aspect‑mood‑polarity suffixes {#sec:tam}
+Verbs in main clauses are inflected for TAMP with a set of suffixes, shown in <a href='#tab:verbtam' class='crossref' name='tab:verbtam' >ref</a>.
+They are discussed in <a href='#sec:riipfv' class='crossref' name='sec:riipfv' end="sec:sareimn" >ref</a>.
 
 
 <a id='tab:verbtam'></a><div class='caption table' id='tab:verbtam'>Verbal TAM suffixes</div>
@@ -61,11 +63,12 @@ TBD: An introduction to this chapter.
 * [Morpheme septcp](MorphsetTable?#cldf:septcp)=[Morpheme pano](MorphsetTable?#cldf:pano) ‘<span class="smallcaps">pst</span>=<span class="smallcaps">concl</span>’
 * [Morph sajpfv](MorphTable?#cldf:sajpfv)=[Morpheme pano](MorphsetTable?#cldf:pano) ‘<span class="smallcaps">pfv</span>=<span class="smallcaps">concl</span>’
 
+<span title='should the imperatives go with the other TAMP suffixes?'>❓</span>
 * imperatives:
     * [Morpheme keimp](MorphsetTable?#cldf:keimp) / ‑*të*[Morpheme keimp](MorphsetTable?#cldf:keimp) ‘<span class="smallcaps">imp</span> / <span class="smallcaps">imp.pl</span>’
     * [Morpheme tamotimp](MorphsetTable?#cldf:tamotimp) / [Morpheme tamotimp](MorphsetTable?#cldf:tamotimp)*ntë*[Morpheme keimp](MorphsetTable?#cldf:keimp) ‘<span class="smallcaps">imp</span>.<span class="smallcaps">mot</span> / <span class="smallcaps">imp</span>.<span class="smallcaps">mot.pl</span>’
 
-### [Morpheme riipfv](MorphsetTable?#cldf:riipfv)
+### [Morpheme riipfv](MorphsetTable?#cldf:riipfv) {#sec:riipfv}
 
 * allomorphy:
     * [Morph ri-zero](MorphTable?#cldf:ri-zero), phonetic loss
@@ -113,7 +116,7 @@ TBD: An introduction to this chapter.
 
 [Example ctorat-19](ExampleTable?example_no=20#cldf:ctorat-19)
 
-### [Morpheme sareimn](MorphsetTable?#cldf:sareimn)
+### [Morpheme sareimn](MorphsetTable?#cldf:sareimn) {#sec:sareimn}
 * once a converb, now 'imminent future'
 
 [Example ctorat-25](ExampleTable?example_no=21#cldf:ctorat-25)
@@ -124,6 +127,7 @@ TBD: An introduction to this chapter.
 ## Subordinate Clause markers
 <span title='these should maybe go to another section'>❗️</span>
 
+<!-- probably all productive, right? -->
 * Nominalizations
 * Adverbial Clauses
     * [Morpheme septcp](MorphsetTable?#cldf:septcp) ‘supine’

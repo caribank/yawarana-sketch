@@ -30,17 +30,17 @@
 \contentsline {section}{\numberline {4.3}Nominal Derivational Morphology }{13}{section.4.3}%
 \contentsline {chapter}{\chapternumberline {5}Verbal inflection }{15}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Person prefixes }{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Non‑personal inflectional prefixation}{16}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Tense‑aspect‑mood‑polarity suffixes}{16}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}\textit {-ri}}{17}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.2}Non‑personal inflectional prefixation}{15}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Tense‑aspect‑mood‑polarity suffixes }{16}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}\textit {-ri} }{16}{subsection.5.3.1}%
 \contentsline {subsubsection}{\numberline {5.3.1.1}Semantics}{17}{subsubsection.5.3.1.1}%
-\contentsline {subsection}{\numberline {5.3.2}\textit {-jpë}}{18}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}\textit {-se}}{18}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.2}\textit {-jpë}}{17}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}\textit {-se}}{17}{subsection.5.3.3}%
 \contentsline {subsection}{\numberline {5.3.4}\textit {-sapë}}{18}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}\textit {-sarë}}{19}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.5}\textit {-sarë} }{19}{subsection.5.3.5}%
 \contentsline {section}{\numberline {5.4}Subordinate Clause markers}{19}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Number}{20}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Copula / Auxiliary}{20}{section.5.6}%
+\contentsline {section}{\numberline {5.5}Number}{19}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Copula / Auxiliary}{19}{section.5.6}%
 \contentsline {chapter}{\chapternumberline {6}Verbal roots and stems }{21}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Deriving verbs}{21}{section.6.1}%
 \contentsline {chapter}{\chapternumberline {7}Adverbs }{23}{chapter.7}%
@@ -56,3 +56,12 @@
 \contentsline {section}{\numberline {8.6}Misc}{26}{section.8.6}%
 \contentsline {chapter}{\chapternumberline {9}Particles and Ideophones }{27}{chapter.9}%
 \contentsline {chapter}{\chapternumberline {10}Negation }{29}{chapter.10}%
+\contentsline {chapter}{\chapternumberline {11}For testing and demonstration purposes}{31}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Some unparsable forms with derivational morphology}{31}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Inline linked entities}{33}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Single}{33}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Multiple}{33}{subsection.11.2.2}%
+\contentsline {section}{\numberline {11.3}Examples}{33}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}Interlinear}{33}{subsection.11.3.1}%
+\contentsline {subsection}{\numberline {11.3.2}Other}{34}{subsection.11.3.2}%
+\contentsline {subsection}{\numberline {11.3.3}Example references}{34}{subsection.11.3.3}%

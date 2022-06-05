@@ -35,7 +35,7 @@ Postpositions take the same inflectional prefixes as nouns ([crossref](ChapterTa
 
 * allative: 
 
-[Example histpajirdi-186](ExampleTable?example_no=23#cldf:histpajirdi-186)
+[Example histpajirdi-186](ExampleTable?example_no=26#cldf:histpajirdi-186)
 
 ## Nonlocative Oblique Postpositions 
 * [Morpheme yaerg](MorphsetTable?#cldf:yaerg) ‘<span class="smallcaps">erg</span>’

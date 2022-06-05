@@ -3,3 +3,5 @@
 
 * denominal verbalizers: [Morpheme tavbz](MorphsetTable?#cldf:tavbz), [Morpheme jtevbz](MorphsetTable?#cldf:jtevbz)?
 * detransitivizers: [Morpheme dt2](MorphsetTable?#cldf:dt2), [Morpheme dt1](MorphsetTable?#cldf:dt1)
+
+<!-- manually, the lot -->

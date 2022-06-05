@@ -3,9 +3,16 @@
 
 ## Inflection
 
-* presumably no prefixation
 * <span title='negation?'>❓</span>
 
 ## Simple adverbs {#sec:simpleadv}
 
 ## Derived adverbs {#sec:derivedadv}
+
+[Morpheme tojpepurp](MorphsetTable?#cldf:tojpepurp) can be inflected:
+
+[Example convestsjm-086](ExampleTable?example_no=23#cldf:convestsjm-086)
+
+[Example histpedgrme-163](ExampleTable?example_no=24#cldf:histpedgrme-163)
+
+[Example histyarirdi-0875](ExampleTable?example_no=25#cldf:histyarirdi-0875)

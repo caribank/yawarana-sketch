@@ -1,35 +1,37 @@
 # Verbal inflection [label](verbinfl)
 
-TBD: An introduction to this chapter.
+[todo](write an introduction)
 
 ## Person prefixes [label](sec:verbperson)
+Verbs are inflected for person with a set of prefixes, shown in [ref](tab:verbprefixes).
+First and second person prefixes show accusative alignment, expressing [gl](s) and [gl](p).
+Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [mp](t3) in [gl](3)>[gl](3) scenarios. [todo](Check: not in alternation with preceding O NP?)
+An exception to this is the verb [mp](te-go) 'to go', which shows an idiosyncratic prefix [m](i32). [todo]("*ij‑të‑ri* ‘he goes’ plus 2 more" -- which ones?)
+
 
 [table](verbprefixes)
 
-* Absolutive proclitics 
-    * [todo](Check: appears that they are reduced forms, with long vowel? FM: i noticed a long vowel in convrisamaj-02)
-    * [mp](u1) ‘[gl](1s/p)’ [todo](is this ever actually *wï-*?)
-    * [mp](me2) ‘[gl](2s/p)’
-        * one example of ([mp](me2)) ‘[gl](2A)’ on imperative verb [todo](where?)
-* Third person
-    * Ø‑ '[gl](3s)' with intransitive verbs
-    *   • exception: *ij‑të‑ri* ‘he goes’ plus 2 more [todo](which ones?)
-    * Ø‑ ‘[gl](3p)’ with transitive verbs with [gl](1a) or [gl](2a); also sometimes [gl](3a)
-    * [mp](t3) ‘[gl](3>3)’
-        * Not required, but possible
-            * Check: not in alternation with preceding O NP?
-        * [mp](t3) ‘[gl](3p)’ attested on one V in the pan‑Cariban “progressive” construction w/ 2nd person [gl](a) [todo](which one?)
-* Note that all transitive verbs are consonant‑initial, whether etymologically or not because [mp](ylk) ‘rel’ is added to all vowel‑initial roots
-    * the _y‑_ disappears when preceded by the detransitivizer [todo](examples for detransitivized verbs)
+* [mp](t3) ‘[gl](3p)’ attested on one V in the pan‑Cariban “progressive” construction w/ 2nd person [gl](a) [todo](which one?)
+* Ø‑ ‘[gl](3p)’ with transitive verbs with [gl](1a) or [gl](2a); also sometimes [gl](3a)
+* one example of ([mp](me2)) ‘[gl](2A)’ on imperative verb [todo](where?)
+* Note that all transitive verbs are consonant‑initial, whether etymologically or not because [mp](ylk) '[gl](lk)' is added to all vowel‑initial roots
+    * the _y‑_ disappears when preceded by the detransitivizer [todo](examples for detransitivized verbs) [todo](what about V-initial intransitive verbs? how are they inflected?)
+
+[todo](Check: appears that first and second person are reduced forms, with long vowel? FM: i noticed a long vowel in convrisamaj-02)
+[todo](FM: is first person ever actually *wï-*?)
+
 
 ## Non‑personal inflectional prefixation
-[todo](is there any?)
-* \*_t‑V‑se_ is no more — the t‑ is gone (except with _t-ënë-se_ ‘eat’ and _t-eni-se_ ‘drink’) [todo](or are these t-verbs?)
-  * Any divergent forms with the negative?
+[todo](can we delete this section?)
+
+* \*_t‑V‑se_ is no more — the t‑ is gone (except with _t-ënë-se_ ‘eat’ and _t-eni-se_ ‘drink’) [todo](or are these just t-verbs?)
+* Any divergent forms with the negative?
     * _i‑_ with intransitive negatives?
     * _an‑_ with transitive negatives?
     
-## Tense‑aspect‑mood‑polarity suffixes
+## Tense‑aspect‑mood‑polarity suffixes [label](sec:tam)
+Verbs in main clauses are inflected for TAMP with a set of suffixes, shown in [ref](tab:verbtam).
+They are discussed in [ref](sec:riipfv?end=sec:sareimn).
 
 [table](verbtam)
 
@@ -44,11 +46,12 @@ TBD: An introduction to this chapter.
 * [mp](septcp)=[mp](pano) ‘[gl](pst)=[gl](concl)’
 * [m](sajpfv)=[mp](pano) ‘[gl](pfv)=[gl](concl)’
 
+[todo](should the imperatives go with the other TAMP suffixes?)
 * imperatives:
     * [mp](keimp) / ‑*të*[mp](keimp) ‘[gl](imp) / [gl](imp.pl)’
     * [mp](tamotimp) / [mp](tamotimp)*ntë*[mp](keimp) ‘[gl](imp).[gl](mot) / [gl](imp).[gl](mot.pl)’
 
-### [mp](riipfv)
+### [mp](riipfv) [label](sec:riipfv)
 
 * allomorphy:
     * [m](ri-zero), phonetic loss
@@ -96,7 +99,7 @@ TBD: An introduction to this chapter.
 
 [ex](ctorat-19)
 
-### [mp](sareimn)
+### [mp](sareimn) [label](sec:sareimn)
 * once a converb, now 'imminent future'
 
 [ex](ctorat-25)
@@ -107,6 +110,7 @@ TBD: An introduction to this chapter.
 ## Subordinate Clause markers
 [todo](these should maybe go to another section)
 
+<!-- probably all productive, right? -->
 * Nominalizations
 * Adverbial Clauses
     * [mp](septcp) ‘supine’
