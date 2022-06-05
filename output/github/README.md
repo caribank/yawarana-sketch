@@ -1,5 +1,135 @@
 # A digital sketch grammar of Yawarana
 
+-   <a href="#introduction" id="toc-introduction">Introduction
+    <a id='intro'><a/></a>
+    -   <a href="#the-yawarana-people-and-their-language"
+        id="toc-the-yawarana-people-and-their-language">The Yawarana people and
+        their language <a id='sec:people'><a/></a>
+    -   <a href="#location-historical-records"
+        id="toc-location-historical-records">Location, historical records
+        <a id='sec:context'><a/></a>
+    -   <a href="#current-life" id="toc-current-life">Current life
+        <a id='sec:currentlife'><a/></a>
+    -   <a href="#sociolinguistic-vitality"
+        id="toc-sociolinguistic-vitality">Sociolinguistic vitality
+        <a id='sec:vitality'><a/></a>
+    -   <a href="#previous-studies-on-the-yawarana-language"
+        id="toc-previous-studies-on-the-yawarana-language">Previous studies on
+        the Yawarana language <a id='sec:previous'><a/></a>
+    -   <a href="#this-project" id="toc-this-project">This project
+        <a id='sec:thisproject'><a/></a>
+-   <a href="#phonetics-and-phonology"
+    id="toc-phonetics-and-phonology">Phonetics and phonology
+    <a id='phono'><a/></a>
+    -   <a href="#segmental-phonetics-and-phonemes"
+        id="toc-segmental-phonetics-and-phonemes">Segmental phonetics and
+        phonemes <a id='sec:segmental'><a/></a>
+        -   <a href="#consonants" id="toc-consonants">Consonants
+            <a id='sec:consonants'><a/></a>
+        -   <a href="#vowels" id="toc-vowels">Vowels <a id='sec:vowels'><a/></a>
+    -   <a href="#morphophonological-processes"
+        id="toc-morphophonological-processes">Morphophonological Processes
+        <a id='sec:morphophono'><a/></a>
+        -   <a href="#syllable-reduction" id="toc-syllable-reduction">Syllable
+            Reduction <a id='sec:sylred'><a/></a>
+        -   <a href="#vowel-harmony" id="toc-vowel-harmony">Vowel harmony?
+            <a id='sec:vowelharm'><a/></a>
+    -   <a href="#prosody" id="toc-prosody">Prosody <a id='sec:prosody'><a/></a>
+        -   <a href="#lexical-stress" id="toc-lexical-stress">Lexical stress
+            <a id='sec:stress'><a/></a>
+        -   <a href="#intonational-phrases"
+            id="toc-intonational-phrases">Intonational Phrases
+            <a id='sec:intphrases'><a/></a>
+        -   <a href="#intonational-melodies"
+            id="toc-intonational-melodies">Intonational Melodies
+            <a id='sec:intmelodies'><a/></a>
+    -   <a href="#historical-considerations"
+        id="toc-historical-considerations">Historical Considerations
+        <a id='sec:histphono'><a/></a>
+-   <a href="#distinguishing-parts-of-speech-in-yawarana"
+    id="toc-distinguishing-parts-of-speech-in-yawarana">Distinguishing parts
+    of speech in Yawarana <a id='POS'><a/></a>
+-   <a href="#nouns" id="toc-nouns">Nouns <a id='nouns'><a/></a>
+    -   <a href="#pronouns" id="toc-pronouns">Pronouns
+        <a id='sec:pronouns'><a/></a>
+    -   <a href="#nominal-inflection" id="toc-nominal-inflection">Nominal
+        inflection <a id='sec:nouninfl'><a/></a>
+        -   <a href="#suffixes-for-possessed-and-non-possessed-nouns"
+            id="toc-suffixes-for-possessed-and-non-possessed-nouns">Suffixes for
+            possessed and non-possessed nouns <a id='sec:nounposssuf'><a/></a>
+        -   <a href="#number-suffixes" id="toc-number-suffixes">Number suffixes
+            <a id='sec:nominalnumber'><a/></a>
+        -   <a href="#argument-prefixes" id="toc-argument-prefixes">Argument
+            prefixes <a id='sec:nominalperson'><a/></a>
+    -   <a href="#nominal-derivational-morphology"
+        id="toc-nominal-derivational-morphology">Nominal Derivational Morphology
+        <a id='sec:nounderiv'><a/></a>
+-   <a href="#verbal-inflection" id="toc-verbal-inflection">Verbal
+    inflection <a id='verbinfl'><a/></a>
+    -   <a href="#person-prefixes" id="toc-person-prefixes">Person prefixes
+        <a id='sec:verbperson'><a/></a>
+    -   <a href="#nonpersonal-inflectional-prefixation"
+        id="toc-nonpersonal-inflectional-prefixation">Non‑personal inflectional
+        prefixation</a>
+    -   <a href="#tenseaspectmoodpolarity-suffixes"
+        id="toc-tenseaspectmoodpolarity-suffixes">Tense‑aspect‑mood‑polarity
+        suffixes <a id='sec:tam'><a/></a>
+        -   <a href="#ri" id="toc-ri"><em>-ri</em> <a id='sec:riipfv'><a/></a>
+        -   <a href="#jpë" id="toc-jpë"><em>-jpë</em></a>
+        -   <a href="#se" id="toc-se"><em>-se</em></a>
+        -   <a href="#sapë" id="toc-sapë"><em>-sapë</em></a>
+        -   <a href="#sarë" id="toc-sarë"><em>-sarë</em>
+            <a id='sec:sareimn'><a/></a>
+    -   <a href="#subordinate-clause-markers"
+        id="toc-subordinate-clause-markers">Subordinate Clause markers</a>
+    -   <a href="#number" id="toc-number">Number</a>
+    -   <a href="#copula-auxiliary" id="toc-copula-auxiliary">Copula /
+        Auxiliary</a>
+-   <a href="#verbal-roots-and-stems" id="toc-verbal-roots-and-stems">Verbal
+    roots and stems <a id='derbderiv'><a/></a>
+    -   <a href="#deriving-verbs" id="toc-deriving-verbs">Deriving verbs</a>
+-   <a href="#adverbs" id="toc-adverbs">Adverbs <a id='adverbs'><a/></a>
+    -   <a href="#inflection" id="toc-inflection">Inflection</a>
+    -   <a href="#simple-adverbs" id="toc-simple-adverbs">Simple adverbs
+        <a id='sec:simpleadv'><a/></a>
+    -   <a href="#derived-adverbs" id="toc-derived-adverbs">Derived adverbs
+        <a id='sec:derivedadv'><a/></a>
+-   <a href="#postpositions" id="toc-postpositions">Postpositions
+    <a id='postp'><a/></a>
+    -   <a href="#defining-the-category" id="toc-defining-the-category">Defining
+        the category</a>
+    -   <a href="#inflectional-morphology"
+        id="toc-inflectional-morphology">Inflectional morphology
+        <a id='sec:postinfl'><a/></a>
+    -   <a href="#locative-postpositions"
+        id="toc-locative-postpositions">Locative Postpositions</a>
+    -   <a href="#nonlocative-oblique-postpositions"
+        id="toc-nonlocative-oblique-postpositions">Nonlocative Oblique
+        Postpositions</a>
+    -   <a href="#propositional-postpositions"
+        id="toc-propositional-postpositions">Propositional Postpositions</a>
+    -   <a href="#misc" id="toc-misc">Misc</a>
+-   <a href="#particles-and-ideophones"
+    id="toc-particles-and-ideophones">Particles and Ideophones
+    <a id='partideo'><a/></a>
+-   <a href="#negation" id="toc-negation">Negation <a id='negation'><a/></a>
+-   <a href="#for-testing-and-demonstration-purposes"
+    id="toc-for-testing-and-demonstration-purposes">For testing and
+    demonstration purposes</a>
+    -   <a href="#some-unparsable-forms-with-derivational-morphology"
+        id="toc-some-unparsable-forms-with-derivational-morphology">Some
+        unparsable forms with derivational morphology</a>
+    -   <a href="#inline-linked-entities" id="toc-inline-linked-entities">Inline
+        linked entities</a>
+        -   <a href="#single" id="toc-single">Single</a>
+        -   <a href="#multiple" id="toc-multiple">Multiple</a>
+    -   <a href="#examples" id="toc-examples">Examples</a>
+        -   <a href="#interlinear" id="toc-interlinear">Interlinear</a>
+        -   <a href="#other" id="toc-other">Other</a>
+        -   <a href="#example-references" id="toc-example-references">Example
+            references</a>
+-   <a href="#references" id="toc-references">References</a>
+
 # Introduction <a id='intro'><a/>
 
 ## The Yawarana people and their language <a id='sec:people'><a/>
