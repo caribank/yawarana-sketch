@@ -2,7 +2,7 @@
 
 [pos](adv)
 
-## Inflection
+## Inflection [label](sec:adverbinfl)
 
 * [todo](negation?)
 
@@ -10,10 +10,26 @@
 
 ## Derived adverbs [label](sec:derivedadv)
 
-[mp](tojpepurp) can be inflected:
+Morphemes deriving adverbs:
+
+* [mp](peess)
+* [mp](tojpepurp)
+* [mp](sarecvb)
+* [mp](septcp)
+* [mp](tanecncs)
+
+* [mp](readvz)
+
+[todo](others?)
+
+Forms with [mp](tojpepurp) can be inflected for person:
 
 [ex](convestsjm-086)
 
 [ex](histpedgrme-163)
 
 [ex](histyarirdi-0875)
+
+### [mp](readvz)
+
+[table](reyeadvz)

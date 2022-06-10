@@ -29,12 +29,8 @@ Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssu
 
 ## Nonlocative Oblique Postpositions 
 * [mp](yaerg) ‘[gl](erg)’
-* *ke* '[gl](ins)'
-* _wanai_
-
-
-## Propositional Postpositions
-* =se '[gl](des)'
+* [mp](ke-ins) '[gl](ins)'
+* _wanai_ 
 
 ## Misc
 

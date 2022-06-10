@@ -102,13 +102,13 @@ object (described in [ref:verbinfl]), or attached to postpositions to
 indicate object of the postposition (described in [ref:sec:postinfl]):
 
 (1) Yawarana (convrisamaj-28)
-    u-y-ïwïj    yawë  u-senejka-ri   suku-ri     jwama
-    1-LK-house  LOC   1-remain-IPFV  urine-PERT  ***
+    u-y-ïwïj    yawë  u-senejka-ri  suku-ri     jwama
+    1-LK-house  LOC   1-stay-IPFV   urine-PERT  ***
     ‘I silently stay in my house.’
 
 (2) Yawarana (desccasmaj-025)
-    më-nai-∅   wëjkase  chi-jpë  wararë
-    2-do-IPFV        COP-PST  
+    më-nai-∅   ?  chi-jpë  wara=rë
+    2-do-IPFV  ?  COP-PST  like=EMP
     ‘se cayó tu cosa’
 
 (3) Yawarana (convrisamaj-02)
@@ -117,7 +117,7 @@ indicate object of the postposition (described in [ref:sec:postinfl]):
     ‘You just laugh.’
 
 (4) Yawarana (ctoaragrme-07) moyochi
-    ***
+    spider.(sp.)
     ‘la araña’ An open question is whether ta- on verbs is a reduction
     of tëwï.
 
@@ -265,18 +265,18 @@ Possessive prefixes on nouns: [lbl:possprefixes]
   -------------------
 
 (7) Yawarana (ctorat-23)
-    aaa  u-suku-ru     morone   ta    wïrë  u-suj-ta-∅        ta    ne
-    ***  1-urine-PERT  hurting  like  1PRO  1-urine-VBZ-IPFV  like  INTS
+    aaa  u-suku-ru     morone   ta-∅      wïrë  u-sujta-∅       ta    ne
+    ***  1-urine-PERT  hurting  say-IPFV  1PRO  1-urinate-IPFV  like  INTS
     ‘My urine hurts, I will urinate.’
 
 (8) Yawarana (convrisamaj-28)
-    u-y-ïwïj    yawë  u-senejka-ri   suku-ri     jwama
-    1-LK-house  LOC   1-remain-IPFV  urine-PERT  ***
+    u-y-ïwïj    yawë  u-senejka-ri  suku-ri     jwama
+    1-LK-house  LOC   1-stay-IPFV   urine-PERT  ***
     ‘I silently stay in my house.’
 
 (9) Yawarana (desccasmaj-025)
-    më-nai-∅   wëjkase  chi-jpë  wararë
-    2-do-IPFV        COP-PST  
+    më-nai-∅   ?  chi-jpë  wara=rë
+    2-do-IPFV  ?  COP-PST  like=EMP
     ‘se cayó tu cosa’
 
 (10) Yawarana (ctorat-46)
@@ -284,10 +284,10 @@ Possessive prefixes on nouns: [lbl:possprefixes]
      3-house  ALL   man           ?-PST
      ‘He went to his house.’
 
-(11) Yawarana (ctorat-19)
-     pïrarë   ti   i-wena-ru     wej-sapë
-     nothing  HSY  3-vomit-PERT  COP-PFV
-     ‘Their vomit was not there.’
+(lastex) Yawarana (ctorat-19)
+pïrarë   ti   i-wena-ru     wej-sapë
+nothing  HSY  3-vomit-PERT  COP-PFV
+‘Their vomit was not there.’
 
 The linker also occurs with (pro-)nominal possessors:
 
@@ -451,9 +451,7 @@ Semantics
 (15) Yawarana (convrisamaj-06)
      kwase  ejnë    yaruwa-ri
      how    1+2PRO  laugh-IPFV
-     ‘How will we laugh?’
-
-(16) 
+     ‘How will we laugh?’ (gnomicri)
 
 (a) Yawarana (convrisamaj-04)
     wïrë  yaruwa-ri-jra
@@ -461,8 +459,8 @@ Semantics
     ‘I don’t laugh.’
 
 (b) Yawarana (convrisamaj-28)
-    u-y-ïwïj    yawë  u-senejka-ri   suku-ri     jwama
-    1-LK-house  LOC   1-remain-IPFV  urine-PERT  ***
+    u-y-ïwïj    yawë  u-senejka-ri  suku-ri     jwama
+    1-LK-house  LOC   1-stay-IPFV   urine-PERT  ***
     ‘I silently stay in my house.’
 
 -jpë
@@ -483,18 +481,18 @@ Semantics
 -   negation: with -ja on lexical verb [ex:ctoaragrme-38–ctoaragrme-40]
 
 (17) Yawarana (ctoaragrme-38)
-     irë  wej-tane  mujyampe  patakaja  wej-sapë
-     DEM  COP-CNCS                COP-PFV
+     ?  ?  mujyam-pe      pataka-ja     ?
+     ?  ?  pregnancy-ESS  take.out-NEG  ?
      ‘a pesar de eso no salió embarazada’
 
 (18) Yawarana (ctoaragrme-39)
-     apatakaja  pïnïka  wej-sapë
-     ***        PROB    COP-PFV
+     apataka-ja    pïnïka  ?
+     come.out-NEG  PROB    ?
      ‘tal vez no salió (embarazada)’
 
 (19) Yawarana (ctoaragrme-40)
-     tayakïjtëja  pïnika  wej-sapë
-     ***          PROB    COP-PFV
+     tayakïjtëja  pïnika  ?
+     ***          PROB    ?
      ‘tal vez no se acostó con ella’
 
 -   what about [ex:ctorat-19]? is that existential negation?
@@ -509,13 +507,13 @@ Semantics
 -   once a converb, now ‘imminent future’
 
 (21) Yawarana (ctorat-25)
-     irëjpë  ta-∅      ti   ta    konopo  wej-sarë  konopo  wej-sarë
-     then    say-IPFV  HSY  like  rain    COP-IMN   rain    COP-IMN
+     irëjpë  ta-∅      ti   ta-∅      konopo  wej-sarë  konopo  wej-sarë
+     then    say-IPFV  HSY  say-IPFV  rain    come-IMN  rain    come-IMN
      ‘Then they said: “it’s raining, it’s raining”.’
 
 (22) Yawarana (ctoaragrme-25)
-     moyochi  ta-sarë  moyochi  chipokono  kojpaye  pïnika  warotari
-           say-IMN                      PROB    ***
+     moyochi       ta-sarë  moyochi       chipokono  kojpaye  pïnika  ?
+     spider.(sp.)  say-IMN  spider.(sp.)                PROB    ?
      ‘le dicen araña, tal vez porque la araña trabaja de noche’
 
 Subordinate Clause markers
@@ -543,16 +541,47 @@ Copula / Auxiliary
 
 -   there is stem allomorphy: chi, wej
 
-Verbal roots and stems [lbl:derbderiv]
+Verbal roots and stems [lbl:verbderiv]
 
-Deriving verbs
+Transitive and intransitive roots and stems [lbl:sec:verbroots]
 
--   denominal verbalizers: -ta, -jtë?
--   detransitivizers: s-, ëj-
+Yawarana verb roots can be divided into those yielding an intransitive
+stem, and those yielding a transitive stem. The only inflectional
+criterion distinguishing the two classes is the third person prefix ta-,
+which can only occur on transitive stems. Thus, transitive yawanka
+‘kill’ can take ta- [ex:convfemgrme-217], but intransitive yaruwa
+‘laugh’ does not [ex:convrisamaj-42].
+
+()
+
+(a) Yawarana (convrisamaj-42)
+    yaruwa-∅-kontomo  yatum  ponoko
+    laugh-IPFV-PL     sun    every
+    ‘They laugh every day.’
+
+(b) Yawarana (convfemgrme-217)
+    iyawë  chi-pëkë     ta-yawanka-se
+    ***    COP-PROG.TR  3P-kill-PST
+    ‘por eso, la mató’
+
+Deriving verbs [lbl:sec:derivingverbs]
+
+Verbalizing suffixes [lbl:sec:vbz]
+
+-   denominal
+    -   -ta
+    -   -jtë
+    -   -ka
+
+Detransitivizing prefixes [lbl:sec:detrz]
+
+-   s-
+-   ëj-
+-   at-
 
 Adverbs [lbl:adverbs]
 
-Inflection
+Inflection [lbl:sec:adverbinfl]
 
 -   
 
@@ -560,14 +589,84 @@ Simple adverbs [lbl:sec:simpleadv]
 
 Derived adverbs [lbl:sec:derivedadv]
 
--tojpe can be inflected:
+Morphemes deriving adverbs:
 
-(23) Yawarana (convestsjm-086) ijtëtojpe ‘para que fuera’
+-   -pe
 
-(24) Yawarana (histpedgrme-163) tayëntojpe ‘para que tome’
+-   -tojpe
 
-(25) Yawarana (histyarirdi-0875) uyepematojpe pïrarë wïrë inawë ‘yo no
+-   -sarë
+
+-   -se
+
+-   -tane
+
+-   -re
+
+Forms with -tojpe can be inflected for person:
+
+(24) Yawarana (convestsjm-086) ijtëtojpe ‘para que fuera’
+
+(25) Yawarana (histpedgrme-163) tayëntojpe ‘para que tome’
+
+(26) Yawarana (histyarirdi-0875) uyepematojpe pïrarë wïrë inawë ‘yo no
      tengo para pagar’
+
+-re
+
+Adverbs formed with -re/-ye: [lbl:reyeadvz]
+
+  --------------------------------------------------------
+  -re                                -ye
+  ---------------------------------- ---------------------
+  aponore ‘narrowly’                 mëtëjye ‘thin’
+
+  chipire ‘yellow’                   chiramujye ‘mangy’
+
+  chitënore ‘whole’                  chirimujye ‘moldy’
+
+  kojpayere ‘early in the morning’   kojpaye ‘at night’
+
+  korore ‘always’                    pekuye ‘full’
+
+  këmure ‘purulent’                  pijye ‘fat’
+
+  këyare ‘alive’                     potijye ‘smelly’
+
+  mesujre ‘bloody’                   pëjye ‘bent’
+
+  mesure ‘bloody’                    rajye ‘sour’
+
+  nakire ‘thirsty’                   romoye ‘downriver’
+
+  pëjre ‘bent’                       takiye ‘full’
+
+  tajchiwëre ‘tangled up’            tënuyaye ‘sensible’
+
+  tajwere ‘sweet’                    wanëmojye ‘round’
+
+  tapasajre ‘muddy’                  wanamojye ‘round’
+
+  tapire ‘red’                       yësajye ‘sour’
+
+  tasujre ‘wet’                      
+
+  turupore ‘voluntarily’             
+
+  tënkëyare ‘competent’              
+
+  tënsamire ‘jealous’                
+
+  tëpujre ‘clingy’                   
+
+  tëpîre ‘flowery’                   
+
+  waimure ‘speaking’                 
+
+  wajyare ‘happy’                    
+
+  yëmïre ‘hungry’                    
+  --------------------------------------------------------
 
 Postpositions [lbl:postp]
 
@@ -614,9 +713,9 @@ Locative postpositions: [lbl:locpost]
 
 -   allative:
 
-(26) Yawarana (histpajirdi-186)
-     tichikimuru  peti  warë  patakasapë  yakucho  pana
-                  thus                 DAT
+(27) Yawarana (histpajirdi-186)
+     tichikimuru  peti  ?  ?  yakucho  ?
+               leg   ?  ?        ?
      ‘su rodilla, su pierna, salió (llaga) hacia Ayacucho’
 
 Nonlocative Oblique Postpositions
@@ -624,10 +723,6 @@ Nonlocative Oblique Postpositions
 -   ya ‘ERG’
 -   ke ‘INS’
 -   wanai
-
-Propositional Postpositions
-
--   =se ‘DES’
 
 Misc
 
@@ -653,35 +748,35 @@ Some unparsable forms with derivational morphology
 -   combination of verb with -kempïnirë results in what? always used as
     predicate
 
-(27) Yawarana (convrisamaj-07)
+(28) Yawarana (convrisamaj-07)
      wïrë  yaruwakempïnirë  mëkïsantomo   ajaja   taj-tane
      1PRO  ***              DIST.ANIM.PL  hahaha  say-CNCS
      ‘I don’t laugh, but they are saying “hahaha”.’
 
 -   deverbal from tunamï to an adverb, right?
 
-(28) Yawarana (convrisamaj-09)
+(29) Yawarana (convrisamaj-09)
      tëwï  neke      ne    ta-jne  yakarama-∅  poko-no          nwarë  ta-jne  i-ri     mïntë      tunam-pe
      3PRO  CONTRAST  INTS  3-PL    tell-IPFV   on.surface-NMLZ  thus   3-PL    do-IPFV  there.LOC  hide-ESS
      ‘Yes indeed, they tell what they are doing there on the down-low.’
 
 -   two more pe:
 
-(29) Yawarana (anfoperso-40)
-     yatampe  ana     të-se   pipi                      tawara  rë   waraijtokompe  ij-të-se
-           1+3PRO  go-PST  younger.brother.of.woman  too     EMP              3-go-PST
+(30) Yawarana (anfoperso-40)
+     yatam-pe        ana     të-se   pipi                      tawara  rë   waraijtokom-pe  ij-të-se
+     adolescent-ESS  1+3PRO  go-PST  younger.brother.of.woman  too     EMP  man-ESS         3-go-PST
      ‘We became boys, my brother also became a man.’
 
 -   deverbal nominalizer:
 
-(30) Yawarana (convrisamaj-13)
-     pïrarë   sene-∅-ja          ejnë    yarika-topo
-     nothing  see.self-IPFV-NEG  1+2PRO  laugh-CIRC.NMLZ
+(31) Yawarana (convrisamaj-13)
+     pïrarë   sene-ja       ejnë    yarika-topo
+     nothing  see.self-NEG  1+2PRO  laugh-CIRC.NMLZ
      ‘Nothing, there’s nothing for us to laugh.’
 
 -   nope + -ano:
 
-(31) Yawarana (anfoperso-45)
+(32) Yawarana (anfoperso-45)
      nopano  wej-saj  ta    waraijtokomo
      ***     COP-PFV  like  man
      ‘He was a good man.’
@@ -689,30 +784,30 @@ Some unparsable forms with derivational morphology
 -   probably special handling needed (copula + pëkë + ? ‘because of
     that’)
 
-(32) Yawarana (convrisamaj-29)
-     nope  sene-∅-ja          chipokono  ejnë    pana  nope  sene-∅-ja          chipokono  ejnë    yaruwa-topo      pïrärë
-     good  see.self-IPFV-NEG          1+2PRO  DAT   good  see.self-IPFV-NEG          1+2PRO  laugh-CIRC.NMLZ  ***
+(33) Yawarana (convrisamaj-29)
+     nope  sene-ja       chipokono  ejnë    pana  nope  sene-ja       chipokono  ejnë    yaruwa-topo      pïrärë
+     good  see.self-NEG          1+2PRO  DAT   good  see.self-NEG          1+2PRO  laugh-CIRC.NMLZ  ***
      ‘We don’t see anything good, so we don’t laugh.’
 
 -   how productive are verbalizers?
 
-(33) Yawarana (anfoperso-22)
-     tëwï  ya   papa    kampra  pana  ta-se    ta    kaimo-ta-ta
-     3PRO  ERG  father  big     DAT   say-PST  like  game-VBZ-MOTIMP
+(34) Yawarana (anfoperso-22)
+     tëwï  ya   papa    kampra  pana  ta-se    ta    kaimota-ta
+     3PRO  ERG  father  big     DAT   say-PST  like  hunt-MOTIMP
      ‘She said to my uncle: “go hunt!”.’
 
 -   what does -tane do?
 
-(34) Yawarana (anfoperso-52)
+(35) Yawarana (anfoperso-52)
      makë    y-akërë  ma   wej-tane  tëijpë  rë   pïjkë  ana     y-ïwïtï
      mother  LK-with  RST  COP-CNCS  far     EMP  DIM    1+3PRO  LK-house
      ‘Although I was with my mother, our house was a little further.’
 
 -   MCMM has narë as emphatic particle… is this a adverbialization?
 
-(35) Yawarana (convrisamaj-47)
-     aniki  narëpe  yakërë  ejnë    përemekï-rï  ejnë    pëkëpene  wanene
-     who              1+2PRO  talk-IPFV    1+2PRO  alone     aunt
+(36) Yawarana (convrisamaj-47)
+     aniki  narëpe  y-akërë  ejnë    përemekï-rï  ejnë    pëkëpene  wanene
+     who    ***     LK-with  1+2PRO  talk-IPFV    1+2PRO  alone     aunt
      ‘Who are we gonna talk to? We’re alone, aunt.’
 
 Inline linked entities
@@ -737,14 +832,14 @@ Interlinear
 
 single:
 
-(36) Yawarana (ctorat-34)
+(37) Yawarana (ctorat-34)
      ëkëtë  mërë      ëkï
      where  MED.INAN  manioc.beer
      ‘Where is the chicha?’
 
 multiple:
 
-(37) 
+(multiigt)
 
 (a) Yawarana (ctorat-35)
     ëkï          ta    rë   pïrarë   wena-ru-jpë     ta    rë   pïrarë
@@ -777,7 +872,7 @@ You can even mix them:
 
 Some random text in combination with an example from the corpus.
 
-(38) Yawarana (ctorat-20)
+(39) Yawarana (ctorat-20)
      wena-ru     pïrarë
      vomit-PERT  nothing
      ‘There was no vomit.’

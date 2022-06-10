@@ -4,7 +4,7 @@ phono,Phonetics and phonology,2_phono.txt,2
 POS,Distinguishing parts of speech in Yawarana,3_POS.txt,3
 nouns,Nouns,4_nouns.txt,4
 verbinfl,Verbal inflection,5_verbinfl.txt,5
-derbderiv,Verbal roots and stems,6_derbderiv.txt,6
+verbderiv,Verbal roots and stems,6_verbderiv.txt,6
 adverbs,Adverbs,7_adverbs.txt,7
 postp,Postpositions,8_postp.txt,8
 partideo,Particles and Ideophones,9_partideo.txt,9

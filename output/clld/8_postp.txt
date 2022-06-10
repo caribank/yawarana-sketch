@@ -7,6 +7,8 @@
 Postpositions take the same inflectional prefixes as nouns ([crossref](ChapterTable?_anchor=sec:nounposssuf#cldf:nouns)). <span title='are there postpositions with third person i-?'>❓</span>
 
 
+<a id='tab:postpprefixes'></a><div class='caption table' id='tab:postpprefixes'>Person marking prefixes on postpositions</div>
+
 |                                  |                                         |
 |:---------------------------------|:----------------------------------------|
 | <span class="smallcaps">1</span> | [Morpheme u1](MorphsetTable?#cldf:u1)   |
@@ -35,16 +37,12 @@ Postpositions take the same inflectional prefixes as nouns ([crossref](ChapterTa
 
 * allative: 
 
-[Example histpajirdi-186](ExampleTable?example_no=26#cldf:histpajirdi-186)
+[Example histpajirdi-186](ExampleTable?example_counter=27#cldf:histpajirdi-186)
 
 ## Nonlocative Oblique Postpositions 
 * [Morpheme yaerg](MorphsetTable?#cldf:yaerg) ‘<span class="smallcaps">erg</span>’
-* *ke* '<span class="smallcaps">ins</span>'
-* _wanai_
-
-
-## Propositional Postpositions
-* =se '<span class="smallcaps">des</span>'
+* [Morpheme ke-ins](MorphsetTable?#cldf:ke-ins) '<span class="smallcaps">ins</span>'
+* _wanai_ 
 
 ## Misc
 

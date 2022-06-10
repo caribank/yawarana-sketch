@@ -1,7 +1,7 @@
 <a id='adverbs'></a>
 [POS adv](POSTable?#cldf:adv)
 
-## Inflection
+## Inflection {#sec:adverbinfl}
 
 * <span title='negation?'>❓</span>
 
@@ -9,10 +9,55 @@
 
 ## Derived adverbs {#sec:derivedadv}
 
-[Morpheme tojpepurp](MorphsetTable?#cldf:tojpepurp) can be inflected:
+Morphemes deriving adverbs:
 
-[Example convestsjm-086](ExampleTable?example_no=23#cldf:convestsjm-086)
+* [Morpheme peess](MorphsetTable?#cldf:peess)
+* [Morpheme tojpepurp](MorphsetTable?#cldf:tojpepurp)
+* [Morpheme sarecvb](MorphsetTable?#cldf:sarecvb)
+* [Morpheme septcp](MorphsetTable?#cldf:septcp)
+* [Morpheme tanecncs](MorphsetTable?#cldf:tanecncs)
 
-[Example histpedgrme-163](ExampleTable?example_no=24#cldf:histpedgrme-163)
+* [Morpheme readvz](MorphsetTable?#cldf:readvz)
 
-[Example histyarirdi-0875](ExampleTable?example_no=25#cldf:histyarirdi-0875)
+<span title='others?'>❓</span>
+
+Forms with [Morpheme tojpepurp](MorphsetTable?#cldf:tojpepurp) can be inflected for person:
+
+[Example convestsjm-086](ExampleTable?example_counter=24#cldf:convestsjm-086)
+
+[Example histpedgrme-163](ExampleTable?example_counter=25#cldf:histpedgrme-163)
+
+[Example histyarirdi-0875](ExampleTable?example_counter=26#cldf:histyarirdi-0875)
+
+### [Morpheme readvz](MorphsetTable?#cldf:readvz)
+
+
+<a id='tab:reyeadvz'></a><div class='caption table' id='tab:reyeadvz'>Adverbs formed with *-re*/*-ye*</div>
+
+| [Morph readvz](MorphTable?#cldf:readvz)                                               | [Morph yeadvz](MorphTable?#cldf:yeadvz)                     |
+|:--------------------------------------------------------------------------------------|:------------------------------------------------------------|
+| [Form aponore-narrowly](FormTable?#cldf:aponore-narrowly)                             | [Form metejye-thin](FormTable?#cldf:metejye-thin)           |
+| [Form chipire-yellow](FormTable?#cldf:chipire-yellow)                                 | [Form chiramujye-mangy](FormTable?#cldf:chiramujye-mangy)   |
+| [Form chitenore-whole](FormTable?#cldf:chitenore-whole)                               | [Form chirimujye-moldy](FormTable?#cldf:chirimujye-moldy)   |
+| [Form kojpayere-early-in-the-morning](FormTable?#cldf:kojpayere-early-in-the-morning) | [Form kojpaye-at-night](FormTable?#cldf:kojpaye-at-night)   |
+| [Form korore-always](FormTable?#cldf:korore-always)                                   | [Form pekuye-full](FormTable?#cldf:pekuye-full)             |
+| [Form kemure-purulent](FormTable?#cldf:kemure-purulent)                               | [Form pijye-fat](FormTable?#cldf:pijye-fat)                 |
+| [Form keyare-alive](FormTable?#cldf:keyare-alive)                                     | [Form potijye-smelly](FormTable?#cldf:potijye-smelly)       |
+| [Form mesujre-bloody](FormTable?#cldf:mesujre-bloody)                                 | [Form pejye-bent](FormTable?#cldf:pejye-bent)               |
+| [Form mesure-bloody](FormTable?#cldf:mesure-bloody)                                   | [Form rajye-sour](FormTable?#cldf:rajye-sour)               |
+| [Form nakire-thirsty](FormTable?#cldf:nakire-thirsty)                                 | [Form romoye-downriver](FormTable?#cldf:romoye-downriver)   |
+| [Form pejre-bent](FormTable?#cldf:pejre-bent)                                         | [Form takiye-full](FormTable?#cldf:takiye-full)             |
+| [Form tajchiwere-tangled-up](FormTable?#cldf:tajchiwere-tangled-up)                   | [Form tenuyaye-sensible](FormTable?#cldf:tenuyaye-sensible) |
+| [Form tajwere-sweet](FormTable?#cldf:tajwere-sweet)                                   | [Form wanemojye-round](FormTable?#cldf:wanemojye-round)     |
+| [Form tapasajre-muddy](FormTable?#cldf:tapasajre-muddy)                               | [Form wanamojye-round](FormTable?#cldf:wanamojye-round)     |
+| [Form tapire-red](FormTable?#cldf:tapire-red)                                         | [Form yesajye-sour](FormTable?#cldf:yesajye-sour)           |
+| [Form tasujre-wet](FormTable?#cldf:tasujre-wet)                                       |                                                             |
+| [Form turupore-voluntarily](FormTable?#cldf:turupore-voluntarily)                     |                                                             |
+| [Form tenkeyare-competent](FormTable?#cldf:tenkeyare-competent)                       |                                                             |
+| [Form tensamire-jealous](FormTable?#cldf:tensamire-jealous)                           |                                                             |
+| [Form tepujre-clingy](FormTable?#cldf:tepujre-clingy)                                 |                                                             |
+| [Form tepire-flowery](FormTable?#cldf:tepire-flowery)                                 |                                                             |
+| [Form waimure-speaking](FormTable?#cldf:waimure-speaking)                             |                                                             |
+| [Form wajyare-happy](FormTable?#cldf:wajyare-happy)                                   |                                                             |
+| [Form yemire-hungry](FormTable?#cldf:yemire-hungry)                                   |                                                             |
+

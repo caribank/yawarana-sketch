@@ -1,0 +1,130 @@
+<a id='for-testing-and-demonstration-purposes'></a>
+## Some unparsable forms with derivational morphology
+
+* combination of verb with [Morpheme kempinire](MorphsetTable?#cldf:kempinire) results in what? always used as predicate
+
+[Example convrisamaj-07](ExampleTable?example_counter=28#cldf:convrisamaj-07)
+
+* deverbal from [Morpheme tunami-hide](MorphsetTable?#cldf:tunami-hide) to an adverb, right?
+
+[Example convrisamaj-09](ExampleTable?example_counter=29#cldf:convrisamaj-09)
+
+* two more [Morpheme esspe](MorphsetTable?#cldf:esspe):
+
+[Example anfoperso-40](ExampleTable?title=My own custom title&example_counter=30#cldf:anfoperso-40)
+
+* deverbal nominalizer:
+
+[Example convrisamaj-13](ExampleTable?example_counter=31#cldf:convrisamaj-13)
+
+* [Morpheme nope-good](MorphsetTable?#cldf:nope-good) + [Morpheme anonmlz](MorphsetTable?#cldf:anonmlz):
+
+[Example anfoperso-45](ExampleTable?example_counter=32#cldf:anfoperso-45)
+
+* probably special handling needed (copula + [Morpheme pekeon](MorphsetTable?#cldf:pekeon) + ? 'because of that') 
+
+[Example convrisamaj-29](ExampleTable?example_counter=33#cldf:convrisamaj-29)
+
+* how productive are verbalizers?
+
+[Example anfoperso-22](ExampleTable?example_counter=34#cldf:anfoperso-22)
+
+* what does [Morpheme tanecncs](MorphsetTable?#cldf:tanecncs) do?
+
+[Example anfoperso-52](ExampleTable?example_counter=35#cldf:anfoperso-52)
+
+* MCMM has *narë* as emphatic particle... is this a adverbialization?
+
+[Example convrisamaj-47](ExampleTable?example_counter=36#cldf:convrisamaj-47)
+
+
+
+## Inline linked entities
+
+### Single
+1. morph: [Morph pljne1](MorphTable?#cldf:pljne1)[^2]
+1. morpheme: [Morpheme jnepl](MorphsetTable?#cldf:jnepl)
+1. wordform: (asamo-0-ri-jraneg)
+1. text: [Text ConvRisaMAJ](TextTable?#cldf:ConvRisaMAJ)
+
+[^2]: This is what a footnote looks like.
+
+### Multiple
+1. morph: [Morph pljne1,ipert](MorphTable?ids=pljne1,ipert#cldf:__all__)
+1. morpheme: [Morpheme jnepl,rupert](MorphsetTable?ids=jnepl,rupert#cldf:__all__)
+1. wordform: (asamo-0-ri-jraneg,asamo-0-ri-zero)
+1. text: [Text ConvRisaMAJ,CtoRat](TextTable?ids=ConvRisaMAJ,CtoRat#cldf:__all__)
+
+## Examples
+
+### Interlinear
+
+single:
+
+[Example ctorat-34](ExampleTable?example_counter=37#cldf:ctorat-34)
+
+multiple:
+
+[Example ctorat-35,ctorat-36](ExampleTable?example_id=multiigt&ids=ctorat-35,ctorat-36&example_counter=38#cldf:__all__)
+
+### Other
+
+single:
+
+<ol markdown="block" class="example">
+<li class="example" markdown="block" id="test1"><div markdown="block"> 
+ 
+
+| [Morpheme yakaall](MorphsetTable?#cldf:yakaall)   | root   |
+|:--------------------------------------------------|:-------|
+| [Morpheme septcp](MorphsetTable?#cldf:septcp)     | suffix |</div>
+</li>
+</ol>
+
+double:
+
+<ol markdown="block" class="example">
+<li class="example" markdown="block" id="multiparttest">
+<ol markdown="block" class="subexample">
+
+<li class="subexample" markdown="block" id="test2">
+<div markdown="block">Hello [Morpheme septcp](MorphsetTable?#cldf:septcp) 'PST'</div>
+</li>
+<li class="subexample" markdown="block" id="test3">
+<div markdown="block">World
+
+*and* more</div>
+</li>
+
+</ol>
+</li>
+</ol>
+
+You can even mix them:
+
+<ol markdown="block" class="example">
+<li class="example" markdown="block" id="multiparttest2">
+<ol markdown="block" class="subexample">
+
+<li class="subexample" markdown="block" id="test4">
+<div markdown="block">Some random text in combination with an example from the corpus.</div>
+</li>
+[Example ctorat-20](ExampleTable?format=subexample&example_counter=39#cldf:ctorat-20)
+
+</ol>
+</li>
+</ol>
+
+### Example references
+
+<a class="exref" example_id="ctorat-34"></a>
+
+<a class="exref" example_id="multiigt"></a> or <a class="exref" example_id="ctorat-36"></a> or even <a class="exref" example_id="multiigt"suffix="a-b" ></a>
+
+<a class="exref" example_id="test1"></a>
+
+<a class="exref" example_id="multiparttest"></a>
+
+<a class="exref" example_id="test1"end="multiparttest" ></a>
+
+

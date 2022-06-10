@@ -47,6 +47,7 @@ They are discussed in [ref](sec:riipfv?end=sec:sareimn).
 * [m](sajpfv)=[mp](pano) ‘[gl](pfv)=[gl](concl)’
 
 [todo](should the imperatives go with the other TAMP suffixes?)
+
 * imperatives:
     * [mp](keimp) / ‑*të*[mp](keimp) ‘[gl](imp) / [gl](imp.pl)’
     * [mp](tamotimp) / [mp](tamotimp)*ntë*[mp](keimp) ‘[gl](imp).[gl](mot) / [gl](imp).[gl](mot.pl)’
@@ -79,12 +80,14 @@ They are discussed in [ref](sec:riipfv?end=sec:sareimn).
 [todo](negation?) [todo](semantics?)
 
 ### [mp](sepst)
+
 * allomorphy: [m](septcp)/[m](cheptcp)
 * diachrony: from participle [mp](septcp)
 [todo](negation?)
 [todo](semantics?)
 
 ### [mp](sapepfv)
+
 * diachrony: from nominalizer [mp](sapenmlz)
 * distribution: only occurs on the copula?
 * allomorphy: [m](sapepfv) and [m](sajpfv)
@@ -100,6 +103,7 @@ They are discussed in [ref](sec:riipfv?end=sec:sareimn).
 [ex](ctorat-19)
 
 ### [mp](sareimn) [label](sec:sareimn)
+
 * once a converb, now 'imminent future'
 
 [ex](ctorat-25)

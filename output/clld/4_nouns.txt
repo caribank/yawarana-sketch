@@ -17,12 +17,12 @@ Note that the plural marker [Morpheme kontomopl](MorphsetTable?#cldf:kontomopl) 
 
 Short forms of the first and second person pronouns can occur as proclitics attaching to nouns to indicate possessor (<a href='#sec:nominalperson' class='crossref' name='sec:nominalperson' >ref</a>), attached to verbs to indicate subject or object (described in [crossref](ChapterTable?_anchor=verbinfl#cldf:verbinfl)), or attached to postpositions to indicate object of the postposition (described in [crossref](ChapterTable?_anchor=sec:postinfl#cldf:postp)):
 
-[Example convrisamaj-28](ExampleTable?example_no=1#cldf:convrisamaj-28)
+[Example convrisamaj-28](ExampleTable?example_counter=1#cldf:convrisamaj-28)
 
-[Example desccasmaj-025](ExampleTable?example_no=2#cldf:desccasmaj-025)
+[Example desccasmaj-025](ExampleTable?example_counter=2#cldf:desccasmaj-025)
 
-[Example convrisamaj-02](ExampleTable?example_no=3#cldf:convrisamaj-02)
-[Example ctoaragrme-07](ExampleTable?example_no=4#cldf:ctoaragrme-07)
+[Example convrisamaj-02](ExampleTable?example_counter=3#cldf:convrisamaj-02)
+[Example ctoaragrme-07](ExampleTable?example_counter=4#cldf:ctoaragrme-07)
 An open question is whether [Morpheme t3](MorphsetTable?#cldf:t3) on verbs is a reduction of [Morpheme tewi-3pro](MorphsetTable?#cldf:tewi-3pro). <span title='or is there a clear yes/no answer?'>❓</span>
 
 The third person demonstrative pronouns or articles are shown in <a href='#tab:pronouns3' class='crossref' name='tab:pronouns3' >ref</a>.
@@ -106,9 +106,9 @@ Examples <a class="exref" example_id="onlypossessed"end="unsuffixednouns" ></a> 
 There are two plural suffixes that can occur on nouns, apparently freely interchangeable.
 What conditions the choice of suffix is not clear as of yet.
 
-[Example ctorat-17](ExampleTable?example_no=5#cldf:ctorat-17)
+[Example ctorat-17](ExampleTable?example_counter=5#cldf:ctorat-17)
 
-[Example ctorat-40](ExampleTable?example_no=6#cldf:ctorat-40)
+[Example ctorat-40](ExampleTable?example_counter=6#cldf:ctorat-40)
 
 ### Argument prefixes {#sec:nominalperson}
 Person prefixes on nouns are conditioned by the initial segment (<a href='#tab:possprefixes' class='crossref' name='tab:possprefixes' >ref</a>).
@@ -125,20 +125,20 @@ Some examples are shown in <a class="exref" example_id="ctorat-23"end="lastex" >
 | <span class="smallcaps">2</span> | [Morph me2](MorphTable?#cldf:me2) | [Morph me2](MorphTable?#cldf:me2)[Morph ylk](MorphTable?#cldf:ylk) |
 | <span class="smallcaps">3</span> | [Morph i31](MorphTable?#cldf:i31) | [Morph it3](MorphTable?#cldf:it3)                                  |
 
-[Example ctorat-23](ExampleTable?example_no=7#cldf:ctorat-23)
+[Example ctorat-23](ExampleTable?example_counter=7#cldf:ctorat-23)
 
-[Example convrisamaj-28](ExampleTable?example_no=8#cldf:convrisamaj-28)
+[Example convrisamaj-28](ExampleTable?example_counter=8#cldf:convrisamaj-28)
 
-[Example desccasmaj-025](ExampleTable?example_no=9#cldf:desccasmaj-025)
+[Example desccasmaj-025](ExampleTable?example_counter=9#cldf:desccasmaj-025)
 
-[Example ctorat-46](ExampleTable?example_no=10#cldf:ctorat-46)
+[Example ctorat-46](ExampleTable?example_counter=10#cldf:ctorat-46)
 
-[Example ctorat-19](ExampleTable?example_id=lastex&example_no=11#cldf:ctorat-19)
+[Example ctorat-19](ExampleTable?example_id=lastex&example_counter=11#cldf:ctorat-19)
 
 
 The linker also occurs with (pro-)nominal possessors:
 
-[Example desccasmaj-131](ExampleTable?example_no=12#cldf:desccasmaj-131)
+[Example desccasmaj-131](ExampleTable?example_counter=12#cldf:desccasmaj-131)
 
 There are some nouns (kinship terms?) that take an apparently older old second person [Morpheme a2](MorphsetTable?#cldf:a2) (<a href='#tab:oldpossprefixes' class='crossref' name='tab:oldpossprefixes' >ref</a>).
 

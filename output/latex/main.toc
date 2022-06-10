@@ -42,18 +42,21 @@
 \contentsline {section}{\numberline {5.5}Number}{19}{section.5.5}%
 \contentsline {section}{\numberline {5.6}Copula / Auxiliary}{19}{section.5.6}%
 \contentsline {chapter}{\chapternumberline {6}Verbal roots and stems }{21}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Deriving verbs}{21}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Transitive and intransitive roots and stems }{21}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Deriving verbs }{21}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Verbalizing suffixes }{21}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Detransitivizing prefixes }{21}{subsection.6.2.2}%
 \contentsline {chapter}{\chapternumberline {7}Adverbs }{23}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Inflection}{23}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Inflection }{23}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Simple adverbs }{23}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Derived adverbs }{23}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}\textit {-re}}{24}{subsection.7.3.1}%
 \contentsline {chapter}{\chapternumberline {8}Postpositions }{25}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Defining the category}{25}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Inflectional morphology }{25}{section.8.2}%
 \contentsline {section}{\numberline {8.3}Locative Postpositions}{25}{section.8.3}%
 \contentsline {section}{\numberline {8.4}Nonlocative Oblique Postpositions}{26}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Propositional Postpositions}{26}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Misc}{26}{section.8.6}%
+\contentsline {section}{\numberline {8.5}Misc}{26}{section.8.5}%
 \contentsline {chapter}{\chapternumberline {9}Particles and Ideophones }{27}{chapter.9}%
 \contentsline {chapter}{\chapternumberline {10}Negation }{29}{chapter.10}%
 \contentsline {chapter}{\chapternumberline {11}For testing and demonstration purposes}{31}{chapter.11}%

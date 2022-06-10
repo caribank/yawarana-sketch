@@ -1,0 +1,39 @@
+---
+verb_templ:
+  caption: Basic verb template
+  preprocess:
+pronouns:
+  caption: Pronouns
+  preprocess:
+pronouns3:
+  caption: Demonstrative pronouns / articles
+  preprocess:
+possprefixes:
+  caption: Possessive prefixes on nouns
+  preprocess:
+oldpossprefixes:
+  caption: Archaic possessive prefixes on nouns
+  preprocess:
+consonants:
+  caption: Consonant phonemes
+vowels:
+  caption: Vowel phonemes
+test: {}
+locpost:
+  caption: Locative postpositions
+onlypossessed: {}
+diffpossessed: {}
+verbprefixes:
+  caption: Person marking prefixes on verbs
+suffunpossessed: {}
+unsuffixednouns: {}
+verbtam:
+  caption: Verbal TAM suffixes
+postpprefixes:
+  caption: Person marking prefixes on postpositions
+reyeadvz:
+  caption: Adverbs formed with *-re*/*-ye*
+yeadvz:
+  caption: Adverbs with *-ye*
+readvz:
+  caption: Adverbs with _-re_

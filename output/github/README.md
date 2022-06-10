@@ -81,29 +81,29 @@ subject or object (described in <a href='#verbinfl'>click</a>), or
 attached to postpositions to indicate object of the postposition
 (described in <a href='#sec:postinfl'>click</a>):
 
-> 1)  Yawarana
->     <pre>
->     u-y-ïwïj    yawë  u-senejka-ri   suku-ri     jwama  
->     1-LK-house  LOC   1-remain-IPFV  urine-PERT  ***  
->     ‘I silently stay in my house.’</pre>
+> (convrisamaj-28) Yawarana
+> <pre>
+> u-y-ïwïj    yawë  u-senejka-ri  suku-ri     jwama  
+> 1-LK-house  LOC   1-stay-IPFV   urine-PERT  ***  
+> ‘I silently stay in my house.’</pre>
 
-> 2)  Yawarana
->     <pre>
->     më-nai-∅   wëjkase  chi-jpë  wararë  
->     2-do-IPFV  ***      COP-PST  ***  
->     ‘se cayó tu cosa’</pre>
+> (desccasmaj-025) Yawarana
+> <pre>
+> më-nai-∅   ?  chi-jpë  wara=rë  
+> 2-do-IPFV  ?  COP-PST  like=EMP  
+> ‘se cayó tu cosa’</pre>
 
-> 3)  Yawarana
->     <pre>
->     më-yaruwa-ri  më-pëkëpene  
->     2-laugh-IPFV  2-alone  
->     ‘You just laugh.’</pre>
+> (convrisamaj-02) Yawarana
+> <pre>
+> më-yaruwa-ri  më-pëkëpene  
+> 2-laugh-IPFV  2-alone  
+> ‘You just laugh.’</pre>
 
-> 4)  Yawarana
->     <pre>
->     moyochi  
->     ***  
->     ‘la araña’</pre>
+> (ctoaragrme-07) Yawarana
+> <pre>
+> moyochi  
+> spider.(sp.)  
+> ‘la araña’</pre>
 
 An open question is whether *ta-* on verbs is a reduction of *tëwï*.
 
@@ -195,17 +195,17 @@ There are two plural suffixes that can occur on nouns, apparently freely
 interchangeable. What conditions the choice of suffix is not clear as of
 yet.
 
-> 5)  Yawarana
->     <pre>
->     waijta-tomo  ëj-wenaka-se  
->     mouse-PL     DETRZ-vomit-PST  
->     ‘The mice vomited.’</pre>
+> (ctorat-17) Yawarana
+> <pre>
+> waijta-tomo  ëj-wenaka-se  
+> mouse-PL     DETRZ-vomit-PST  
+> ‘The mice vomited.’</pre>
 
-> 6)  Yawarana
->     <pre>
->     tipa-pëj-se-jne          waijta-jne  
->     go.in.group-PLUR-PST-PL  mouse-PL  
->     ‘the mice went away.’</pre>
+> (ctorat-40) Yawarana
+> <pre>
+> tipa-pëj-se-jne          waijta-jne  
+> go.in.group-PLUR-PST-PL  mouse-PL  
+> ‘the mice went away.’</pre>
 
 ### Argument prefixes <a id='sec:nominalperson'><a/>
 
@@ -221,43 +221,43 @@ is marked by *t-*, and first and second person combine with the linker
 |   2 | *më-* | \_më-\_\_y-\_ |
 |   3 | *i-*  | *t-*          |
 
-> 7)  Yawarana
->     <pre>
->     aaa  u-suku-ru     morone   ta    wïrë  u-suj-ta-∅        ta    ne  
->     ***  1-urine-PERT  hurting  like  1PRO  1-urine-VBZ-IPFV  like  INTS  
->     ‘My urine hurts, I will urinate.’</pre>
+> (ctorat-23) Yawarana
+> <pre>
+> aaa  u-suku-ru     morone   ta-∅      wïrë  u-sujta-∅       ta    ne  
+> ***  1-urine-PERT  hurting  say-IPFV  1PRO  1-urinate-IPFV  like  INTS  
+> ‘My urine hurts, I will urinate.’</pre>
 
-> 8)  Yawarana
->     <pre>
->     u-y-ïwïj    yawë  u-senejka-ri   suku-ri     jwama  
->     1-LK-house  LOC   1-remain-IPFV  urine-PERT  ***  
->     ‘I silently stay in my house.’</pre>
+> (convrisamaj-28) Yawarana
+> <pre>
+> u-y-ïwïj    yawë  u-senejka-ri  suku-ri     jwama  
+> 1-LK-house  LOC   1-stay-IPFV   urine-PERT  ***  
+> ‘I silently stay in my house.’</pre>
 
-> 9)  Yawarana
->     <pre>
->     më-nai-∅   wëjkase  chi-jpë  wararë  
->     2-do-IPFV  ***      COP-PST  ***  
->     ‘se cayó tu cosa’</pre>
+> (desccasmaj-025) Yawarana
+> <pre>
+> më-nai-∅   ?  chi-jpë  wara=rë  
+> 2-do-IPFV  ?  COP-PST  like=EMP  
+> ‘se cayó tu cosa’</pre>
 
-> 10) Yawarana
->     <pre>
->     t-ïwïj   yaka  waraijtokomo  maniki-jpë  
->     3-house  ALL   man           ?-PST  
->     ‘He went to his house.’</pre>
+> (ctorat-46) Yawarana
+> <pre>
+> t-ïwïj   yaka  waraijtokomo  maniki-jpë  
+> 3-house  ALL   man           ?-PST  
+> ‘He went to his house.’</pre>
 
-> 11) Yawarana
->     <pre>
->     pïrarë   ti   i-wena-ru     wej-sapë  
->     nothing  HSY  3-vomit-PERT  COP-PFV  
->     ‘Their vomit was not there.’</pre>
+> (lastex) Yawarana
+> <pre>
+> pïrarë   ti   i-wena-ru     wej-sapë  
+> nothing  HSY  3-vomit-PERT  COP-PFV  
+> ‘Their vomit was not there.’</pre>
 
 The linker also occurs with (pro-)nominal possessors:
 
-> 12) Yawarana
->     <pre>
->     ejnë    yemekunu  
->     1+2PRO  ***  
->     ‘la mano de uno’</pre>
+> (desccasmaj-131) Yawarana
+> <pre>
+> ejnë    yemekunu  
+> 1+2PRO  ***  
+> ‘la mano de uno’</pre>
 
 There are some nouns (kinship terms?) that take an apparently older old
 second person *a-* (\[Table\]).
@@ -373,11 +373,11 @@ shown in \[Table\]. They are discussed in
 -   diachrony: from the nominalizer *-ri*
 -   combines with *-jra*:
 
-> 13) Yawarana
->     <pre>
->     wïrë  yaruwa-ri-jra  
->     1PRO  laugh-IPFV-NEG  
->     ‘I don’t laugh.’</pre>
+> (convrisamaj-04) Yawarana
+> <pre>
+> wïrë  yaruwa-ri-jra  
+> 1PRO  laugh-IPFV-NEG  
+> ‘I don’t laugh.’</pre>
 
 #### Semantics
 
@@ -386,21 +386,19 @@ shown in \[Table\]. They are discussed in
     -   future \[ex:convrisamaj-06\]
     -   gnomic/present? \[ex:gnomicri\]
 
-> 14) Yawarana
->     <pre>
->     irëjpë  tëwï  waijta-tomo  nwajtë-ri  
->     then    3PRO  mouse-PL     dance-IPFV  
->     ‘Then the mice were dancing.’</pre>
+> (ctorat-16) Yawarana
+> <pre>
+> irëjpë  tëwï  waijta-tomo  nwajtë-ri  
+> then    3PRO  mouse-PL     dance-IPFV  
+> ‘Then the mice were dancing.’</pre>
 
-> 15) Yawarana
->     <pre>
->     kwase  ejnë    yaruwa-ri  
->     how    1+2PRO  laugh-IPFV  
->     ‘How will we laugh?’</pre>
+> (convrisamaj-06) Yawarana
+> <pre>
+> kwase  ejnë    yaruwa-ri  
+> how    1+2PRO  laugh-IPFV  
+> ‘How will we laugh?’</pre>
 
-16) 
-
-<!-- -->
+(gnomicri)
 
 1)  Yawarana (convrisamaj-04)  
     wïrë  yaruwa-ri-jra  
@@ -408,8 +406,8 @@ shown in \[Table\]. They are discussed in
     ‘I don’t laugh.’
 
 2)  Yawarana (convrisamaj-28)  
-    u-y-ïwïj    yawë  u-senejka-ri   suku-ri     jwama  
-    1-LK-house  LOC   1-remain-IPFV  urine-PERT  \*\*\*  
+    u-y-ïwïj    yawë  u-senejka-ri  suku-ri     jwama  
+    1-LK-house  LOC   1-stay-IPFV   urine-PERT  \*\*\*  
     ‘I silently stay in my house.’
 
 ### *-jpë*
@@ -430,47 +428,47 @@ shown in \[Table\]. They are discussed in
 -   negation: with *-ja* on lexical verb
     \[ex:ctoaragrme-38–ctoaragrme-40\]
 
-> 17) Yawarana
->     <pre>
->     irë  wej-tane  mujyampe  patakaja  wej-sapë  
->     DEM  COP-CNCS  ***       ***       COP-PFV  
->     ‘a pesar de eso no salió embarazada’</pre>
+> (ctoaragrme-38) Yawarana
+> <pre>
+> ?  ?  mujyam-pe      pataka-ja     ?  
+> ?  ?  pregnancy-ESS  take.out-NEG  ?  
+> ‘a pesar de eso no salió embarazada’</pre>
 
-> 18) Yawarana
->     <pre>
->     apatakaja  pïnïka  wej-sapë  
->     ***        PROB    COP-PFV  
->     ‘tal vez no salió (embarazada)’</pre>
+> (ctoaragrme-39) Yawarana
+> <pre>
+> apataka-ja    pïnïka  ?  
+> come.out-NEG  PROB    ?  
+> ‘tal vez no salió (embarazada)’</pre>
 
-> 19) Yawarana
->     <pre>
->     tayakïjtëja  pïnika  wej-sapë  
->     ***          PROB    COP-PFV  
->     ‘tal vez no se acostó con ella’</pre>
+> (ctoaragrme-40) Yawarana
+> <pre>
+> tayakïjtëja  pïnika  ?  
+> ***          PROB    ?  
+> ‘tal vez no se acostó con ella’</pre>
 
 -   what about \[ex:ctorat-19\]? is that existential negation?
 
-> 20) Yawarana
->     <pre>
->     pïrarë   ti   i-wena-ru     wej-sapë  
->     nothing  HSY  3-vomit-PERT  COP-PFV  
->     ‘Their vomit was not there.’</pre>
+> (ctorat-19) Yawarana
+> <pre>
+> pïrarë   ti   i-wena-ru     wej-sapë  
+> nothing  HSY  3-vomit-PERT  COP-PFV  
+> ‘Their vomit was not there.’</pre>
 
 ### *-sarë* <a id='sec:sareimn'><a/>
 
 -   once a converb, now ‘imminent future’
 
-> 21) Yawarana
->     <pre>
->     irëjpë  ta-∅      ti   ta    konopo  wej-sarë  konopo  wej-sarë  
->     then    say-IPFV  HSY  like  rain    COP-IMN   rain    COP-IMN  
->     ‘Then they said: “it’s raining, it’s raining”.’</pre>
+> (ctorat-25) Yawarana
+> <pre>
+> irëjpë  ta-∅      ti   ta-∅      konopo  wej-sarë  konopo  wej-sarë  
+> then    say-IPFV  HSY  say-IPFV  rain    come-IMN  rain    come-IMN  
+> ‘Then they said: “it’s raining, it’s raining”.’</pre>
 
-> 22) Yawarana
->     <pre>
->     moyochi  ta-sarë  moyochi  chipokono  kojpaye  pïnika  warotari  
->     ***      say-IMN  ***      ***        ***      PROB    ***  
->     ‘le dicen araña, tal vez porque la araña trabaja de noche’</pre>
+> (ctoaragrme-25) Yawarana
+> <pre>
+> moyochi       ta-sarë  moyochi       chipokono  kojpaye  pïnika  ?  
+> spider.(sp.)  say-IMN  spider.(sp.)  ***        ***      PROB    ?  
+> ‘le dicen araña, tal vez porque la araña trabaja de noche’</pre>
 
 ## Subordinate Clause markers
 
@@ -499,18 +497,47 @@ What about desiderative *-po*?
 
 -   there is stem allomorphy: *chi*, *wej*
 
-# Verbal roots and stems <a id='derbderiv'><a/>
+# Verbal roots and stems <a id='verbderiv'><a/>
 
-## Deriving verbs
+## Transitive and intransitive roots and stems <a id='sec:verbroots'><a/>
 
--   denominal verbalizers: *-ta*, *-jtë*?
--   detransitivizers: *s-*, *ëj-*
+Yawarana verb roots can be divided into those yielding an intransitive
+stem, and those yielding a transitive stem. The only inflectional
+criterion distinguishing the two classes is the third person prefix
+*ta-*, which can only occur on transitive stems. Thus, transitive
+*yawanka* ‘kill’ can take *ta-* \[ex:convfemgrme-217\], but intransitive
+*yaruwa* ‘laugh’ does not \[ex:convrisamaj-42\].
 
-<!-- manually, the lot -->
+()
+
+1)  Yawarana (convrisamaj-42)  
+    yaruwa-∅-kontomo  yatum  ponoko  
+    laugh-IPFV-PL     sun    every  
+    ‘They laugh every day.’
+
+2)  Yawarana (convfemgrme-217)  
+    iyawë  chi-pëkë     ta-yawanka-se  
+    \*\*\*    COP-PROG.TR  3P-kill-PST  
+    ‘por eso, la mató’
+
+## Deriving verbs <a id='sec:derivingverbs'><a/>
+
+### Verbalizing suffixes <a id='sec:vbz'><a/>
+
+-   denominal
+    -   *-ta*
+    -   *-jtë*
+    -   *-ka*
+
+### Detransitivizing prefixes <a id='sec:detrz'><a/>
+
+-   *s-*
+-   *ëj-*
+-   *at-*
 
 # Adverbs <a id='adverbs'><a/>
 
-## Inflection
+## Inflection <a id='sec:adverbinfl'><a/>
 
 -   
 
@@ -518,22 +545,65 @@ What about desiderative *-po*?
 
 ## Derived adverbs <a id='sec:derivedadv'><a/>
 
-*-tojpe* can be inflected:
+Morphemes deriving adverbs:
 
-> 23) Yawarana
->     <pre>
->     <i> ijtëtojpe</i>  
->     ‘para que fuera’</pre>
+-   *-pe*
 
-> 24) Yawarana
->     <pre>
->     <i> tayëntojpe</i>  
->     ‘para que tome’</pre>
+-   *-tojpe*
 
-> 25) Yawarana
->     <pre>
->     <i> uyepematojpe pïrarë wïrë inawë</i>  
->     ‘yo no tengo para pagar’</pre>
+-   *-sarë*
+
+-   *-se*
+
+-   *-tane*
+
+-   *-re*
+
+Forms with *-tojpe* can be inflected for person:
+
+> (convestsjm-086) Yawarana
+> <pre>
+> <i> ijtëtojpe</i>  
+> ‘para que fuera’</pre>
+
+> (histpedgrme-163) Yawarana
+> <pre>
+> <i> tayëntojpe</i>  
+> ‘para que tome’</pre>
+
+> (histyarirdi-0875) Yawarana
+> <pre>
+> <i> uyepematojpe pïrarë wïrë inawë</i>  
+> ‘yo no tengo para pagar’</pre>
+
+### *-re*
+
+| *-re*                            | *-ye*               |
+|:---------------------------------|:--------------------|
+| aponore ‘narrowly’               | mëtëjye ‘thin’      |
+| chipire ‘yellow’                 | chiramujye ‘mangy’  |
+| chitënore ‘whole’                | chirimujye ‘moldy’  |
+| kojpayere ‘early in the morning’ | kojpaye ‘at night’  |
+| korore ‘always’                  | pekuye ‘full’       |
+| këmure ‘purulent’                | pijye ‘fat’         |
+| këyare ‘alive’                   | potijye ‘smelly’    |
+| mesujre ‘bloody’                 | pëjye ‘bent’        |
+| mesure ‘bloody’                  | rajye ‘sour’        |
+| nakire ‘thirsty’                 | romoye ‘downriver’  |
+| pëjre ‘bent’                     | takiye ‘full’       |
+| tajchiwëre ‘tangled up’          | tënuyaye ‘sensible’ |
+| tajwere ‘sweet’                  | wanëmojye ‘round’   |
+| tapasajre ‘muddy’                | wanamojye ‘round’   |
+| tapire ‘red’                     | yësajye ‘sour’      |
+| tasujre ‘wet’                    |                     |
+| turupore ‘voluntarily’           |                     |
+| tënkëyare ‘competent’            |                     |
+| tënsamire ‘jealous’              |                     |
+| tëpujre ‘clingy’                 |                     |
+| tëpîre ‘flowery’                 |                     |
+| waimure ‘speaking’               |                     |
+| wajyare ‘happy’                  |                     |
+| yëmïre ‘hungry’                  |                     |
 
 # Postpositions <a id='postp'><a/>
 
@@ -571,21 +641,17 @@ Postpositions take the same inflectional prefixes as nouns
 
 -   allative:
 
-> 26) Yawarana
->     <pre>
->     tichikimuru  peti  warë  patakasapë  yakucho  pana  
->     ***          ***   thus  ***         ***      DAT  
->     ‘su rodilla, su pierna, salió (llaga) hacia Ayacucho’</pre>
+> (histpajirdi-186) Yawarana
+> <pre>
+> tichikimuru  peti  ?  ?  yakucho  ?  
+> ***          leg   ?  ?  ***      ?  
+> ‘su rodilla, su pierna, salió (llaga) hacia Ayacucho’</pre>
 
 ## Nonlocative Oblique Postpositions
 
 -   *ya* ‘ERG’
 -   *ke* ‘INS’
 -   *wanai*
-
-## Propositional Postpositions
-
--   =se ‘DES’
 
 ## Misc
 
@@ -611,76 +677,76 @@ Postpositions take the same inflectional prefixes as nouns
 -   combination of verb with *-kempïnirë* results in what? always used
     as predicate
 
-> 27) Yawarana
->     <pre>
->     wïrë  yaruwakempïnirë  mëkïsantomo   ajaja   taj-tane  
->     1PRO  ***              DIST.ANIM.PL  hahaha  say-CNCS  
->     ‘I don’t laugh, but they are saying “hahaha”.’</pre>
+> (convrisamaj-07) Yawarana
+> <pre>
+> wïrë  yaruwakempïnirë  mëkïsantomo   ajaja   taj-tane  
+> 1PRO  ***              DIST.ANIM.PL  hahaha  say-CNCS  
+> ‘I don’t laugh, but they are saying “hahaha”.’</pre>
 
 -   deverbal from *tunamï* to an adverb, right?
 
-> 28) Yawarana
->     <pre>
->     tëwï  neke      ne    ta-jne  yakarama-∅  poko-no          nwarë  ta-jne  i-ri     mïntë      tunam-pe  
->     3PRO  CONTRAST  INTS  3-PL    tell-IPFV   on.surface-NMLZ  thus   3-PL    do-IPFV  there.LOC  hide-ESS  
->     ‘Yes indeed, they tell what they are doing there on the down-low.’</pre>
+> (convrisamaj-09) Yawarana
+> <pre>
+> tëwï  neke      ne    ta-jne  yakarama-∅  poko-no          nwarë  ta-jne  i-ri     mïntë      tunam-pe  
+> 3PRO  CONTRAST  INTS  3-PL    tell-IPFV   on.surface-NMLZ  thus   3-PL    do-IPFV  there.LOC  hide-ESS  
+> ‘Yes indeed, they tell what they are doing there on the down-low.’</pre>
 
 -   two more *pe*:
 
-> 29) Yawarana
->     <pre>
->     yatampe  ana     të-se   pipi                      tawara  rë   waraijtokompe  ij-të-se  
->     ***      1+3PRO  go-PST  younger.brother.of.woman  too     EMP  ***            3-go-PST  
->     ‘We became boys, my brother also became a man.’</pre>
+> (anfoperso-40) Yawarana
+> <pre>
+> yatam-pe        ana     të-se   pipi                      tawara  rë   waraijtokom-pe  ij-të-se  
+> adolescent-ESS  1+3PRO  go-PST  younger.brother.of.woman  too     EMP  man-ESS         3-go-PST  
+> ‘We became boys, my brother also became a man.’</pre>
 
 -   deverbal nominalizer:
 
-> 30) Yawarana
->     <pre>
->     pïrarë   sene-∅-ja          ejnë    yarika-topo  
->     nothing  see.self-IPFV-NEG  1+2PRO  laugh-CIRC.NMLZ  
->     ‘Nothing, there’s nothing for us to laugh.’</pre>
+> (convrisamaj-13) Yawarana
+> <pre>
+> pïrarë   sene-ja       ejnë    yarika-topo  
+> nothing  see.self-NEG  1+2PRO  laugh-CIRC.NMLZ  
+> ‘Nothing, there’s nothing for us to laugh.’</pre>
 
 -   *nope* + *-ano*:
 
-> 31) Yawarana
->     <pre>
->     nopano  wej-saj  ta    waraijtokomo  
->     ***     COP-PFV  like  man  
->     ‘He was a good man.’</pre>
+> (anfoperso-45) Yawarana
+> <pre>
+> nopano  wej-saj  ta    waraijtokomo  
+> ***     COP-PFV  like  man  
+> ‘He was a good man.’</pre>
 
 -   probably special handling needed (copula + *pëkë* + ? ‘because of
     that’)
 
-> 32) Yawarana
->     <pre>
->     nope  sene-∅-ja          chipokono  ejnë    pana  nope  sene-∅-ja          chipokono  ejnë    yaruwa-topo      pïrärë  
->     good  see.self-IPFV-NEG  ***        1+2PRO  DAT   good  see.self-IPFV-NEG  ***        1+2PRO  laugh-CIRC.NMLZ  ***  
->     ‘We don’t see anything good, so we don’t laugh.’</pre>
+> (convrisamaj-29) Yawarana
+> <pre>
+> nope  sene-ja       chipokono  ejnë    pana  nope  sene-ja       chipokono  ejnë    yaruwa-topo      pïrärë  
+> good  see.self-NEG  ***        1+2PRO  DAT   good  see.self-NEG  ***        1+2PRO  laugh-CIRC.NMLZ  ***  
+> ‘We don’t see anything good, so we don’t laugh.’</pre>
 
 -   how productive are verbalizers?
 
-> 33) Yawarana
->     <pre>
->     tëwï  ya   papa    kampra  pana  ta-se    ta    kaimo-ta-ta  
->     3PRO  ERG  father  big     DAT   say-PST  like  game-VBZ-MOTIMP  
->     ‘She said to my uncle: “go hunt!”.’</pre>
+> (anfoperso-22) Yawarana
+> <pre>
+> tëwï  ya   papa    kampra  pana  ta-se    ta    kaimota-ta  
+> 3PRO  ERG  father  big     DAT   say-PST  like  hunt-MOTIMP  
+> ‘She said to my uncle: “go hunt!”.’</pre>
 
 -   what does *-tane* do?
 
-> 34) Yawarana
->     <pre>
->     makë    y-akërë  ma   wej-tane  tëijpë  rë   pïjkë  ana     y-ïwïtï  
->     mother  LK-with  RST  COP-CNCS  far     EMP  DIM    1+3PRO  LK-house  
->     ‘Although I was with my mother, our house was a little further.’</pre>
+> (anfoperso-52) Yawarana
+> <pre>
+> makë    y-akërë  ma   wej-tane  tëijpë  rë   pïjkë  ana     y-ïwïtï  
+> mother  LK-with  RST  COP-CNCS  far     EMP  DIM    1+3PRO  LK-house  
+> ‘Although I was with my mother, our house was a little further.’</pre>
 
 -   MCMM has *narë* as emphatic particle… is this a adverbialization?
 
-> 35) Yawarana
->     <pre>
->     aniki  narëpe  yakërë  ejnë    përemekï-rï  ejnë    pëkëpene  wanene  
->     who    ***     ***     1+2PRO  talk-IPFV    1+2PRO  alone     aunt  
->     ‘Who are we gonna talk to? We’re alone, aunt.’</pre>
+> (convrisamaj-47) Yawarana
+> <pre>
+> aniki  narëpe  y-akërë  ejnë    përemekï-rï  ejnë    pëkëpene  wanene  
+> who    ***     LK-with  1+2PRO  talk-IPFV    1+2PRO  alone     aunt  
+> ‘Who are we gonna talk to? We’re alone, aunt.’</pre>
 
 ## Inline linked entities
 
@@ -704,17 +770,15 @@ Postpositions take the same inflectional prefixes as nouns
 
 single:
 
-> 36) Yawarana
->     <pre>
->     ëkëtë  mërë      ëkï  
->     where  MED.INAN  manioc.beer  
->     ‘Where is the chicha?’</pre>
+> (ctorat-34) Yawarana
+> <pre>
+> ëkëtë  mërë      ëkï  
+> where  MED.INAN  manioc.beer  
+> ‘Where is the chicha?’</pre>
 
 multiple:
 
-37) 
-
-<!-- -->
+(multiigt)
 
 1)  Yawarana (ctorat-35)  
     ëkï          ta    rë   pïrarë   wena-ru-jpë     ta    rë   pïrarë  
@@ -744,11 +808,11 @@ You can even mix them:
 
 Some random text in combination with an example from the corpus.
 
-> 38) Yawarana
->     <pre>
->     wena-ru     pïrarë  
->     vomit-PERT  nothing  
->     ‘There was no vomit.’</pre>
+> (ctorat-20) Yawarana
+> <pre>
+> wena-ru     pïrarë  
+> vomit-PERT  nothing  
+> ‘There was no vomit.’</pre>
 
 ### Example references
 
