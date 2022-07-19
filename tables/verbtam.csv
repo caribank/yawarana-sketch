@@ -1,8 +1,8 @@
-Suffix,Function
-[mp](riipfv),imperfective
-[mp](jpepst),past
-[mp](sepst),past 2?
-[mp](sapepfv),perfective?
-[mp](sareimn),imminent future
-[mp](tepeke),[gl](prog.intr)
-[mp](pekeon),[gl](prog.tr)
+"Suffix","Function"
+"[mp](riipfv?no_translation)","imperfective"
+"[mp](jpepst?no_translation)","past"
+"[mp](sepst?no_translation)","past 2?"
+"[mp](sapepfv?no_translation)","perfective?"
+"[mp](sareimn?no_translation)","imminent future"
+"[mp](tepeke?no_translation)","[gl](prog.intr)"
+"[mp](pekeon?no_translation)","[gl](prog.tr)"

@@ -1,8 +1,8 @@
 <a id='verbderiv'></a>
 ## Transitive and intransitive roots and stems {#sec:verbroots}
 [Language yab](LanguageTable?#cldf:yab) verb roots can be divided into those yielding an intransitive stem, and those yielding a transitive stem.
-The only inflectional criterion distinguishing the two classes is the third person prefix [Morpheme t3](MorphsetTable?#cldf:t3), which can only occur on transitive stems.
-Thus, transitive [Morpheme yawanka-kill](MorphsetTable?#cldf:yawanka-kill) 'kill' can take [Morpheme t3](MorphsetTable?#cldf:t3) <a class="exref" example_id="convfemgrme-217"></a>, but intransitive [Morpheme yaruwa-laugh](MorphsetTable?#cldf:yaruwa-laugh) 'laugh' does not <a class="exref" example_id="convrisamaj-42"></a>.
+The only inflectional criterion distinguishing the two classes is the third person prefix [Morpheme t3](MorphsetTable?no_translation#cldf:t3), which can only occur on transitive stems.
+Thus, transitive [Morpheme yawanka-kill](MorphsetTable?#cldf:yawanka-kill) can take [Morpheme t3](MorphsetTable?no_translation#cldf:t3) <a class="exref" example_id="convfemgrme-217"release="False" ></a>, but intransitive [Morpheme yaruwa-laugh](MorphsetTable?#cldf:yaruwa-laugh) does not <a class="exref" example_id="convrisamaj-42"release="False" ></a>.
 
 [Example convfemgrme-217,convrisamaj-42](ExampleTable?ids=convfemgrme-217,convrisamaj-42&example_counter=23#cldf:__all__)
 
@@ -12,16 +12,30 @@ Thus, transitive [Morpheme yawanka-kill](MorphsetTable?#cldf:yawanka-kill) 'kill
 
 * denominal
     * [Morpheme tavbz](MorphsetTable?#cldf:tavbz)
-    * [Morpheme jtevbz](MorphsetTable?#cldf:jtevbz)
+    * [Morpheme jtevbz](MorphsetTable?#cldf:jtevbz) BEN
     * [Morpheme kavbz](MorphsetTable?#cldf:kavbz)
 
-<span title='any more?'>❓</span>
+* -pamï / -mamï
+* -ntë
+
+* -ma/-pa
+* -tama
+
+None of these are productive, although there are many lexemes derived with them.
+
+#### -ta
+[Morpheme tavbz](MorphsetTable?#cldf:tavbz) derives intransitive verbs.
+
+
+| Base                                              | Derivation                                                          |
+|:--------------------------------------------------|:--------------------------------------------------------------------|
+| [Lexeme roko-crazy](LexemeTable?#cldf:roko-crazy) | [Lexeme rokota-become-crazy](LexemeTable?#cldf:rokota-become-crazy) |
 
 ### Detransitivizing prefixes {#sec:detrz}
 
-* [Morpheme dt2](MorphsetTable?#cldf:dt2)
-* [Morpheme dt1](MorphsetTable?#cldf:dt1)
-* [Morpheme dt3](MorphsetTable?#cldf:dt3)
+* [Morpheme dt2](MorphsetTable?no_translation#cldf:dt2)
+* [Morpheme dt1](MorphsetTable?no_translation#cldf:dt1)
+* [Morpheme dt3](MorphsetTable?no_translation#cldf:dt3)
 
-<span title='distribution? morphemic analysis?'>❓</span>
+
 

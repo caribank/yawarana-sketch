@@ -28,10 +28,10 @@ Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssu
 [ex](histpajirdi-186)
 
 ## Nonlocative Oblique Postpositions 
-* [mp](yaerg) ‘[gl](erg)’
-* [mp](ke-ins) '[gl](ins)'
+* [mp](yaerg)
+* [mp](ke-ins)
 * _wanai_ 
 
 ## Misc
 
-* copular [mp](chi-cop) combines with [mp](yaweloc), sometimes spelled *chi yawë*, sometimes *chawë*.
+* [mp](chi-cop) combines with [mp](yaweloc), sometimes spelled *chi yawë*, sometimes *chawë*.

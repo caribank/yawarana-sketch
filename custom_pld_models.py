@@ -10,5 +10,10 @@ class POS(Entity):
     cldf_table = "POSTable"
     shortcut = "pos"
 
+class Lexeme(Entity):
+    name = "Lexeme"
+    cldf_table = "LexemeTable"
+    shortcut = "lex"
 
-models = [Phoneme, POS]
+
+models = [Phoneme, POS, Lexeme]

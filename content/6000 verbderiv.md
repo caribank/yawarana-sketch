@@ -2,8 +2,8 @@
 
 ## Transitive and intransitive roots and stems [label](sec:verbroots)
 [lg](yab) verb roots can be divided into those yielding an intransitive stem, and those yielding a transitive stem.
-The only inflectional criterion distinguishing the two classes is the third person prefix [mp](t3), which can only occur on transitive stems.
-Thus, transitive [mp](yawanka-kill) 'kill' can take [mp](t3) [exref](convfemgrme-217), but intransitive [mp](yaruwa-laugh) 'laugh' does not [exref](convrisamaj-42).
+The only inflectional criterion distinguishing the two classes is the third person prefix [mp](t3?nt), which can only occur on transitive stems.
+Thus, transitive [mp](yawanka-kill) can take [mp](t3?nt) [exref](convfemgrme-217), but intransitive [mp](yaruwa-laugh) does not [exref](convrisamaj-42).
 
 [ex](convfemgrme-217,convrisamaj-42)
 
@@ -13,15 +13,26 @@ Thus, transitive [mp](yawanka-kill) 'kill' can take [mp](t3) [exref](convfemgrme
 
 * denominal
     * [mp](tavbz)
-    * [mp](jtevbz)
+    * [mp](jtevbz) BEN
     * [mp](kavbz)
 
-[todo](any more?)
+* -pamï / -mamï
+* -ntë
+
+* -ma/-pa
+* -tama
+
+None of these are productive, although there are many lexemes derived with them.
+
+#### -ta
+[mp](tavbz) derives intransitive verbs.
+
+[table](tavbz)
 
 ### Detransitivizing prefixes [label](sec:detrz)
 
-* [mp](dt2)
-* [mp](dt1)
-* [mp](dt3)
+* [mp](dt2?nt)
+* [mp](dt1?nt)
+* [mp](dt3?nt)
 
 [todo](distribution? morphemic analysis?)

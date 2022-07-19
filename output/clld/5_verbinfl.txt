@@ -1,125 +1,122 @@
 <a id='verbinfl'></a>
-<span title='write an introduction'>❗️</span>
+
 
 ## Person prefixes {#sec:verbperson}
-Verbs are inflected for person with a set of prefixes, shown in <a href='#tab:verbprefixes' class='crossref' name='tab:verbprefixes' >ref</a>.
-First and second person prefixes show accusative alignment, expressing <span class="smallcaps">s</span> and <span class="smallcaps">p</span>.
-Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [Morpheme t3](MorphsetTable?#cldf:t3) in <span class="smallcaps">3</span>><span class="smallcaps">3</span> scenarios. <span title='Check: not in alternation with preceding O NP?'>❓</span>
-An exception to this is the verb [Morpheme te-go](MorphsetTable?#cldf:te-go) 'to go', which shows an idiosyncratic prefix [Morph i32](MorphTable?#cldf:i32). <span title='"*ij‑të‑ri* ‘he goes’ plus 2 more" -- which ones?'>❓</span>
+Verbs are inflected for person with a set of prefixes, shown in <a href='#tab:verbprefixes' class='crossref' name='tab:verbprefixes' release="False" >ref</a>.
+First and second person prefixes show accusative alignment, expressing <span class='smallcaps'>s</span> and <span class='smallcaps'>p</span>.
+Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [Morpheme t3](MorphsetTable?no_translation#cldf:t3) in <span class='smallcaps'>3</span>><span class='smallcaps'>3</span> scenarios. 
+An exception to this is the verb [Morpheme te-go](MorphsetTable?#cldf:te-go) 'to go', which shows an idiosyncratic prefix [Morph i32](MorphTable?#cldf:i32). 
 
 
 
 <a id='tab:verbprefixes'></a><div class='caption table' id='tab:verbprefixes'>Person marking prefixes on verbs</div>
 
-|                                  | <span class="smallcaps">intr</span>     | <span class="smallcaps">tr</span>       |
-|:---------------------------------|:----------------------------------------|:----------------------------------------|
-| <span class="smallcaps">1</span> | [Morpheme u1](MorphsetTable?#cldf:u1)   | [Morpheme u1](MorphsetTable?#cldf:u1)   |
-| <span class="smallcaps">2</span> | [Morpheme me2](MorphsetTable?#cldf:me2) | [Morpheme me2](MorphsetTable?#cldf:me2) |
-| <span class="smallcaps">3</span> | ∅                                       | [Morpheme t3](MorphsetTable?#cldf:t3)   |
+|                                  | <span class='smallcaps'>intr</span>                   | <span class='smallcaps'>tr</span>                     |
+|:---------------------------------|:------------------------------------------------------|:------------------------------------------------------|
+| <span class='smallcaps'>1</span> | [Morpheme u1](MorphsetTable?no_translation#cldf:u1)   | [Morpheme u1](MorphsetTable?no_translation#cldf:u1)   |
+| <span class='smallcaps'>2</span> | [Morpheme me2](MorphsetTable?no_translation#cldf:me2) | [Morpheme me2](MorphsetTable?no_translation#cldf:me2) |
+| <span class='smallcaps'>3</span> | ∅                                                     | [Morpheme t3](MorphsetTable?no_translation#cldf:t3)   |
 
-* [Morpheme t3](MorphsetTable?#cldf:t3) ‘<span class="smallcaps">3p</span>’ attested on one V in the pan‑Cariban “progressive” construction w/ 2nd person <span class="smallcaps">a</span> <span title='which one?'>❓</span>
-* Ø‑ ‘<span class="smallcaps">3p</span>’ with transitive verbs with <span class="smallcaps">1a</span> or <span class="smallcaps">2a</span>; also sometimes <span class="smallcaps">3a</span>
-* one example of ([Morpheme me2](MorphsetTable?#cldf:me2)) ‘<span class="smallcaps">2A</span>’ on imperative verb <span title='where?'>❓</span>
-* Note that all transitive verbs are consonant‑initial, whether etymologically or not because [Morpheme ylk](MorphsetTable?#cldf:ylk) '<span class="smallcaps">lk</span>' is added to all vowel‑initial roots
-    * the _y‑_ disappears when preceded by the detransitivizer <span title='examples for detransitivized verbs'>❗️</span> <span title='what about V-initial intransitive verbs? how are they inflected?'>❓</span>
+* [Morpheme t3](MorphsetTable?translation=3>3#cldf:t3) attested on one V in the pan‑Cariban “progressive” construction w/ 2nd person <span class='smallcaps'>a</span> 
+* Ø‑ ‘<span class='smallcaps'>3p</span>’ with transitive verbs with <span class='smallcaps'>1a</span> or <span class='smallcaps'>2a</span>; also sometimes <span class='smallcaps'>3a</span>
+* one example of ([Morpheme me2](MorphsetTable?#cldf:me2)) ‘<span class='smallcaps'>2A</span>’ on imperative verb 
+* Note that all transitive verbs are consonant‑initial, whether etymologically or not because [Morpheme ylk](MorphsetTable?#cldf:ylk) is added to all vowel‑initial roots
+    * the _y‑_ disappears when preceded by the detransitivizer  
 
-<span title='Check: appears that first and second person are reduced forms, with long vowel? FM: i noticed a long vowel in convrisamaj-02'>❓</span>
-<span title='FM: is first person ever actually *wï-*?'>❓</span>
+
+
 
 
 ## Non‑personal inflectional prefixation
-<span title='can we delete this section?'>❓</span>
 
-* \*_t‑V‑se_ is no more — the t‑ is gone (except with _t-ënë-se_ ‘eat’ and _t-eni-se_ ‘drink’) <span title='or are these just t-verbs?'>❓</span>
-* Any divergent forms with the negative?
-    * _i‑_ with intransitive negatives?
-    * _an‑_ with transitive negatives?
+
+* \*_t‑V‑se_ is no more — the _t‑_ is gone (except with _t-ënë-se_ ‘eat’ and _t-eni-se_ ‘drink’) 
     
 ## Tense‑aspect‑mood‑polarity suffixes {#sec:tam}
-Verbs in main clauses are inflected for TAMP with a set of suffixes, shown in <a href='#tab:verbtam' class='crossref' name='tab:verbtam' >ref</a>.
-They are discussed in <a href='#sec:riipfv' class='crossref' name='sec:riipfv' end="sec:sareimn" >ref</a>.
+Verbs in main clauses are inflected for TAMP with a set of suffixes, shown in <a href='#tab:verbtam' class='crossref' name='tab:verbtam' release="False" >ref</a>.
+They are discussed in <a href='#sec:riipfv' class='crossref' name='sec:riipfv' release="False"  end="sec:sareimn" >ref</a>.
 
 
 <a id='tab:verbtam'></a><div class='caption table' id='tab:verbtam'>Verbal TAM suffixes</div>
 
-| Suffix                                          | Function                                 |
-|:------------------------------------------------|:-----------------------------------------|
-| [Morpheme riipfv](MorphsetTable?#cldf:riipfv)   | imperfective                             |
-| [Morpheme jpepst](MorphsetTable?#cldf:jpepst)   | past                                     |
-| [Morpheme sepst](MorphsetTable?#cldf:sepst)     | past 2?                                  |
-| [Morpheme sapepfv](MorphsetTable?#cldf:sapepfv) | perfective?                              |
-| [Morpheme sareimn](MorphsetTable?#cldf:sareimn) | imminent future                          |
-| [Morpheme tepeke](MorphsetTable?#cldf:tepeke)   | <span class="smallcaps">prog.intr</span> |
-| [Morpheme pekeon](MorphsetTable?#cldf:pekeon)   | <span class="smallcaps">prog.tr</span>   |
+| Suffix                                                        | Function                                 |
+|:--------------------------------------------------------------|:-----------------------------------------|
+| [Morpheme riipfv](MorphsetTable?no_translation#cldf:riipfv)   | imperfective                             |
+| [Morpheme jpepst](MorphsetTable?no_translation#cldf:jpepst)   | past                                     |
+| [Morpheme sepst](MorphsetTable?no_translation#cldf:sepst)     | past 2?                                  |
+| [Morpheme sapepfv](MorphsetTable?no_translation#cldf:sapepfv) | perfective?                              |
+| [Morpheme sareimn](MorphsetTable?no_translation#cldf:sareimn) | imminent future                          |
+| [Morpheme tepeke](MorphsetTable?no_translation#cldf:tepeke)   | <span class='smallcaps'>prog.intr</span> |
+| [Morpheme pekeon](MorphsetTable?no_translation#cldf:pekeon)   | <span class='smallcaps'>prog.tr</span>   |
 
-<span title='how do the following ones fit in?'>❓</span>
 
-* [Morpheme janeg](MorphsetTable?#cldf:janeg) ‘<span class="smallcaps">neg</span>’
-* *‑jrama* ‘<span class="smallcaps">proh</span>’
-* *‑tojpano* ‘<span class="smallcaps">fut</span>’
 
-<span title='what are these?'>❓</span>
+* [Morpheme janeg](MorphsetTable?#cldf:janeg)
+* *‑jrama* ‘<span class='smallcaps'>proh</span>’
+* *‑tojpano* ‘<span class='smallcaps'>fut</span>’
 
-* [Morpheme septcp](MorphsetTable?#cldf:septcp)=[Morpheme pano](MorphsetTable?#cldf:pano) ‘<span class="smallcaps">pst</span>=<span class="smallcaps">concl</span>’
-* [Morph sajpfv](MorphTable?#cldf:sajpfv)=[Morpheme pano](MorphsetTable?#cldf:pano) ‘<span class="smallcaps">pfv</span>=<span class="smallcaps">concl</span>’
 
-<span title='should the imperatives go with the other TAMP suffixes?'>❓</span>
+
+* [Morpheme septcp](MorphsetTable?no_translation#cldf:septcp)=[Morpheme pano](MorphsetTable?no_translation#cldf:pano) ‘<span class='smallcaps'>pst</span>=<span class='smallcaps'>concl</span>’
+* [Morph sajpfv](MorphTable?no_translation#cldf:sajpfv)=[Morpheme pano](MorphsetTable?no_translation#cldf:pano) ‘<span class='smallcaps'>pfv</span>=<span class='smallcaps'>concl</span>’
+
+
 
 * imperatives:
-    * [Morpheme keimp](MorphsetTable?#cldf:keimp) / ‑*të*[Morpheme keimp](MorphsetTable?#cldf:keimp) ‘<span class="smallcaps">imp</span> / <span class="smallcaps">imp.pl</span>’
-    * [Morpheme tamotimp](MorphsetTable?#cldf:tamotimp) / [Morpheme tamotimp](MorphsetTable?#cldf:tamotimp)*ntë*[Morpheme keimp](MorphsetTable?#cldf:keimp) ‘<span class="smallcaps">imp</span>.<span class="smallcaps">mot</span> / <span class="smallcaps">imp</span>.<span class="smallcaps">mot.pl</span>’
+    * [Morpheme keimp](MorphsetTable?no_translation#cldf:keimp) / ‑*të*[Morpheme keimp](MorphsetTable?no_translation#cldf:keimp) ‘<span class='smallcaps'>imp</span> / <span class='smallcaps'>imp.pl</span>’
+    * [Morpheme tamotimp](MorphsetTable?no_translation#cldf:tamotimp) / [Morpheme tamotimp](MorphsetTable?no_translation#cldf:tamotimp)*ntë*[Morpheme keimp](MorphsetTable?no_translation#cldf:keimp) ‘<span class='smallcaps'>imp</span>.<span class='smallcaps'>mot</span> / <span class='smallcaps'>imp</span>.<span class='smallcaps'>mot.pl</span>’
 
-### [Morpheme riipfv](MorphsetTable?#cldf:riipfv) {#sec:riipfv}
+### [Morpheme riipfv](MorphsetTable?no_translation#cldf:riipfv) {#sec:riipfv}
 
 * allomorphy:
     * [Morph ri-zero](MorphTable?#cldf:ri-zero), phonetic loss
     * [Morph ri-ru](MorphTable?#cldf:ri-ru), assimilation
-    * what about [Morph ri-ri](MorphTable?#cldf:ri-ri)? Looks like the original one...
-* diachrony: from the nominalizer [Morpheme rinmlz](MorphsetTable?#cldf:rinmlz)
+    * what about [Morph ri-ri](MorphTable?#cldf:ri-ri)? looks like the most conservative form
+* diachrony: [Morpheme rinmlz](MorphsetTable?#cldf:rinmlz)
 * combines with [Morpheme jraneg](MorphsetTable?#cldf:jraneg):
 
 [Example convrisamaj-04](ExampleTable?example_counter=13#cldf:convrisamaj-04)
 
 #### Semantics
 * not specified for tense, just imperfective aspect:
-    * past <a class="exref" example_id="ctorat-16"></a>
-    * future <a class="exref" example_id="convrisamaj-06"></a>
-    * gnomic/present? <a class="exref" example_id="gnomicri"></a>
+    * past <a class="exref" example_id="ctorat-16"release="False" ></a>
+    * future <a class="exref" example_id="convrisamaj-06"release="False" ></a>
+    * gnomic/present? <a class="exref" example_id="gnomicri"release="False" ></a>
 
 [Example ctorat-16](ExampleTable?example_counter=14#cldf:ctorat-16)
 [Example convrisamaj-06](ExampleTable?example_counter=15#cldf:convrisamaj-06)
 [Example convrisamaj-04,convrisamaj-28](ExampleTable?example_id=gnomicri&ids=convrisamaj-04,convrisamaj-28&example_counter=16#cldf:__all__)
 
-### [Morpheme jpepst](MorphsetTable?#cldf:jpepst)
+### [Morpheme jpepst](MorphsetTable?no_translation#cldf:jpepst)
 
 * allomorphy: none?
-* diachrony: from nominalizer [Morpheme jpenmlz](MorphsetTable?#cldf:jpenmlz)
-<span title='negation?'>❓</span> <span title='semantics?'>❓</span>
+* diachrony: from [Morpheme jpenmlz](MorphsetTable?#cldf:jpenmlz)
+ 
 
-### [Morpheme sepst](MorphsetTable?#cldf:sepst)
+### [Morpheme sepst](MorphsetTable?no_translation#cldf:sepst)
 
-* allomorphy: [Morph septcp](MorphTable?#cldf:septcp)/[Morph cheptcp](MorphTable?#cldf:cheptcp)
-* diachrony: from participle [Morpheme septcp](MorphsetTable?#cldf:septcp)
-<span title='negation?'>❓</span>
-<span title='semantics?'>❓</span>
+* allomorphy: [Morph septcp](MorphTable?no_translation#cldf:septcp)/[Morph cheptcp](MorphTable?#cldf:cheptcp)
+* diachrony: from [Morpheme septcp](MorphsetTable?#cldf:septcp)
 
-### [Morpheme sapepfv](MorphsetTable?#cldf:sapepfv)
 
-* diachrony: from nominalizer [Morpheme sapenmlz](MorphsetTable?#cldf:sapenmlz)
+
+### [Morpheme sapepfv](MorphsetTable?no_translation#cldf:sapepfv)
+
+* diachrony: from [Morpheme sapenmlz](MorphsetTable?#cldf:sapenmlz)
 * distribution: only occurs on the copula?
-* allomorphy: [Morph sapepfv](MorphTable?#cldf:sapepfv) and [Morph sajpfv](MorphTable?#cldf:sajpfv)
-* negation: with [Morpheme janeg](MorphsetTable?#cldf:janeg) on lexical verb <a class="exref" example_id="ctoaragrme-38"end="ctoaragrme-40" ></a>
-<span title='semantics?'>❓</span>
+* allomorphy: [Morph sapepfv](MorphTable?no_translation#cldf:sapepfv) and [Morph sajpfv](MorphTable?no_translation#cldf:sajpfv)
+* negation: with [Morpheme janeg](MorphsetTable?#cldf:janeg) on lexical verb <a class="exref" example_id="ctoaragrme-38"release="False"  end="ctoaragrme-40" ></a>
+
 
 [Example ctoaragrme-38](ExampleTable?example_counter=17#cldf:ctoaragrme-38)
 [Example ctoaragrme-39](ExampleTable?example_counter=18#cldf:ctoaragrme-39)
 [Example ctoaragrme-40](ExampleTable?example_counter=19#cldf:ctoaragrme-40)
 
-* what about <a class="exref" example_id="ctorat-19"></a>? is that existential negation?
+* what about <a class="exref" example_id="ctorat-19"release="False" ></a>? is that existential negation?
 
 [Example ctorat-19](ExampleTable?example_counter=20#cldf:ctorat-19)
 
-### [Morpheme sareimn](MorphsetTable?#cldf:sareimn) {#sec:sareimn}
+### [Morpheme sareimn](MorphsetTable?no_translation#cldf:sareimn) {#sec:sareimn}
 
 * once a converb, now 'imminent future'
 
@@ -129,21 +126,21 @@ They are discussed in <a href='#sec:riipfv' class='crossref' name='sec:riipfv' e
 
 
 ## Subordinate Clause markers
-<span title='these should maybe go to another section'>❗️</span>
+
 
 <!-- probably all productive, right? -->
 * Nominalizations
 * Adverbial Clauses
-    * [Morpheme septcp](MorphsetTable?#cldf:septcp) ‘supine’
-    * [Morpheme tojpefut](MorphsetTable?#cldf:tojpefut) ‘purpose’
+    * [Morpheme septcp](MorphsetTable?translation=supine#cldf:septcp)
+    * [Morpheme tojpepurp](MorphsetTable?translation=purpose#cldf:tojpepurp) 
     * (‑jpë)=tërë ‘after’
-    * [Morpheme tanecncs](MorphsetTable?#cldf:tanecncs) ‘concessive’
-    * [Morpheme sareimn](MorphsetTable?#cldf:sareimn) ‘converb’
-    * [Morpheme yaweloc](MorphsetTable?#cldf:yaweloc) ‘simult’
+    * [Morpheme tanecncs](MorphsetTable?translation=concessive#cldf:tanecncs)
+    * [Morpheme sareimn](MorphsetTable?translation=converb#cldf:sareimn)
+    * [Morpheme yaweloc](MorphsetTable?translation=simult#cldf:yaweloc)
     * *‑yapo* ‘neg.purp’
     * others?
 
-What about desiderative [Morpheme podes](MorphsetTable?#cldf:podes)?
+What about [Morpheme podes](MorphsetTable?#cldf:podes)?
 
 ## Number
 * _‑rï=kontomo_
@@ -151,8 +148,8 @@ What about desiderative [Morpheme podes](MorphsetTable?#cldf:podes)?
 * _‑se=jne=pano_ (_‑se=jne=kontom=pano_?)
 
 ## Copula / Auxiliary
-<span title='paradigm'>❗️</span>
-<span title='did any particles develop from inflected forms?  Man, wai, manai, etc'>❓</span>
-<span title='are there irregular pat/perfect participles? nahkë, etc'>❓</span>
 
-* there is stem allomorphy: [Morpheme chi-cop](MorphsetTable?#cldf:chi-cop), [Morpheme wej-cop](MorphsetTable?#cldf:wej-cop) <span title='should these be the same morpheme?'>❓</span>
+
+
+
+* there is stem allomorphy: [Morpheme chi-cop](MorphsetTable?no_translation#cldf:chi-cop), [Morpheme wej-cop](MorphsetTable?no_translation#cldf:wej-cop) 

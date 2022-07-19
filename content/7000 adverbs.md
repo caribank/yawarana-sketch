@@ -30,6 +30,6 @@ Forms with [mp](tojpepurp) can be inflected for person:
 
 [ex](histyarirdi-0875)
 
-### [mp](readvz)
+### [mp](readvz?nt)
 
 [table](reyeadvz)

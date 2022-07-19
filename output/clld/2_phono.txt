@@ -1,6 +1,6 @@
 <a id='phono'></a>
 ## Segmental phonetics and phonemes {#sec:segmental}
-The consonant phonemes of Yawarana are shown in <a href='#tab:consonants' class='crossref' name='tab:consonants' >ref</a>, and the vowels in <a href='#tab:vowels' class='crossref' name='tab:vowels' >ref</a>.
+The consonant phonemes of Yawarana are shown in <a href='#tab:consonants' class='crossref' name='tab:consonants' release="False" >ref</a>, and the vowels in <a href='#tab:vowels' class='crossref' name='tab:vowels' release="False" >ref</a>.
 
 
 <a id='tab:consonants'></a><div class='caption table' id='tab:consonants'>Consonant phonemes</div>

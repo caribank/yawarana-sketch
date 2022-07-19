@@ -1,6 +1,6 @@
-,[gl](sg),[gl](pl)
-[gl](1),[mp](wire-1pro),
-[gl](1+2),,[mp](ejne-1-2pro)
-[gl](1+3),,[mp](ana-1-3pro)
-[gl](2),[mp](mere-2pro),[mp](monkontomo-2pl-pro)
-[gl](3),[mp](tewi-3pro),[mp](tewisantomo-3pro-pl)
+,"[gl](sg)","[gl](pl)"
+"[gl](1)","[mp](wire-1pro?no_translation)",
+"[gl](1+2)",,"[mp](ejne-1-2pro?no_translation)"
+"[gl](1+3)",,"[mp](ana-1-3pro?no_translation)"
+"[gl](2)","[mp](mere-2pro?no_translation)","[mp](monkontomo-2pl-pro?no_translation)"
+"[gl](3)","[mp](tewi-3pro?no_translation)","[mp](tewisantomo-3pro-pl?no_translation)"

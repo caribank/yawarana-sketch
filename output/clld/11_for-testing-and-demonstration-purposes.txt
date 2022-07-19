@@ -41,11 +41,13 @@
 
 ## Inline linked entities
 
+Some text to [Form chiyakono-friend-0](FormTable?#cldf:chiyakono-friend-0) try out wordforms.
+
 ### Single
 1. morph: [Morph pljne1](MorphTable?#cldf:pljne1)[^2]
 1. morpheme: [Morpheme jnepl](MorphsetTable?#cldf:jnepl)
 1. wordform: (asamo-0-ri-jraneg)
-1. text: [Text ConvRisaMAJ](TextTable?#cldf:ConvRisaMAJ)
+1. text: [Text convrisamaj](TextTable?#cldf:convrisamaj)
 
 [^2]: This is what a footnote looks like.
 
@@ -117,14 +119,14 @@ You can even mix them:
 
 ### Example references
 
-<a class="exref" example_id="ctorat-34"></a>
+<a class="exref" example_id="ctorat-34"release="False" ></a>
 
-<a class="exref" example_id="multiigt"></a> or <a class="exref" example_id="ctorat-36"></a> or even <a class="exref" example_id="multiigt"suffix="a-b" ></a>
+<a class="exref" example_id="multiigt"release="False" ></a> or <a class="exref" example_id="ctorat-36"release="False" ></a> or even <a class="exref" example_id="multiigt"release="False"  suffix="a-b" ></a>
 
-<a class="exref" example_id="test1"></a>
+<a class="exref" example_id="test1"release="False" ></a>
 
-<a class="exref" example_id="multiparttest"></a>
+<a class="exref" example_id="multiparttest"release="False" ></a>
 
-<a class="exref" example_id="test1"end="multiparttest" ></a>
+<a class="exref" example_id="test1"release="False"  end="multiparttest" ></a>
 
 
