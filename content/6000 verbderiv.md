@@ -11,16 +11,11 @@ Thus, transitive [mp](yawanka-kill) can take [mp](t3?nt) [exref](convfemgrme-217
 
 ### Verbalizing suffixes [label](sec:vbz)
 
-* denominal
-    * [mp](tavbz)
-    * [mp](jtevbz) BEN
-    * [mp](kavbz)
-
-* -pamï / -mamï
-* -ntë
-
-* -ma/-pa
-* -tama
+* missing from DB:
+    * _-pamï_ / _-mamï_
+    * _-ntë_
+    * _-ma_ / _-pa_
+    * _-tama_
 
 None of these are productive, although there are many lexemes derived with them.
 
@@ -29,10 +24,18 @@ None of these are productive, although there are many lexemes derived with them.
 
 [table](tavbz)
 
+
+#### -ka
+[mp](kavbz) derives transitive verbs.
+
+#### -jtë
+* benefactive
+
 ### Detransitivizing prefixes [label](sec:detrz)
 
-* [mp](dt2?nt)
-* [mp](dt1?nt)
-* [mp](dt3?nt)
-
 [todo](distribution? morphemic analysis?)
+
+1. [mp](dt2?nt)
+1. [mp](dt1?nt)
+1. [mp](dt3?nt)
+

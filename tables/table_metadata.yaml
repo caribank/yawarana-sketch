@@ -38,4 +38,6 @@ yeadvz:
 readvz:
   caption: Adverbs with _-re_
 tavbz:
-  catption: Lexemes derived with *-ta*
+  caption: Lexemes derived with *-ta*
+  pre_cell: "[lex]("
+  post_cell: ")"
