@@ -2,12 +2,12 @@
 
 ## Pronouns [label](sec:pronouns)
 The personal pronouns of [lg](yab) are shown in [ref](tab:pronouns).
-The system shows the usual Cariban inclusive/exclusive ([gl](1+2) and [gl](1+3)) distinction. [todo](is the 1+2 form cognate with apina? do we know something about its etymology?)
+The system shows the usual Cariban inclusive/exclusive ([gl](1+2) and [gl](1+3)) distinction, although [mp](ejne-1-2pro) does not have the /k/ found elsewhere in the family.
 Note that [mp](kontomopl) appears to usually be restricted to verbs, while *-santomo* is found with third person pronouns and demonstratives.
 
 [table](pronouns)
 
-Short forms of the first and second person pronouns can occur as proclitics attaching to nouns to indicate possessor ([ref](sec:nominalperson)), attached to verbs to indicate subject or object (described in [ref](verbinfl)), or attached to postpositions to indicate the object of the postposition (described in [ref](sec:postinfl)):
+Reduced forms of the first and second person pronouns occur as proclitics [todo](proclitics or prefixes?) attaching to nouns to indicate possessor ([ref](sec:nominalperson)), attached to verbs to indicate subject or object (described in [ref](verbinfl)), or attached to postpositions to indicate the object of the postposition (described in [ref](sec:postinfl)):
 
 [ex](convrisamaj-28)
 
@@ -15,20 +15,19 @@ Short forms of the first and second person pronouns can occur as proclitics atta
 
 [ex](convrisamaj-02)
 [ex](ctoaragrme-07)
-An open question is whether third person [mp](t3?nt) on verbs is a reduction of [mp](tewi-3pro). [todo](or is there a clear yes/no answer?)
 
 The third person demonstrative pronouns or articles are shown in [ref](tab:pronouns3).
 [todo](is there a 4‑way distinction? [cf. Ye’kwana?])
+None of them have shortened, phonologically bound counterparts.
 
 [table](pronouns3)
 
-None of the demonstrative pronouns have shortened, phonologically bound counterparts.
-
-* Nominal Interrogative pronouns:
+* nominal interrogative pronouns:
     * [mp](aniki-who)
     * [mp](ati-what)
     * _ëjkë_ 'which? ([gl](inan))'
-[todo](No plural forms for any of these?)
+
+[todo](Are there plural forms of any of these?)
 
 
 ## Nominal inflection [label](sec:nouninfl)
@@ -47,7 +46,7 @@ A handful of nouns is marked with _-ri_/_-ti_ ‘[gl](pert)’ when possessed an
 Another handful is unmarked when possessed and marked with [mp](tenpert) when not possessed [exref](suffunpossessed).
 The fourth logical possibility, in which the noun bears no marker of possession (or non-possession) whether possessed or unpossessed, contains very few members (only one attested so far); in this case, the difference is marked only by the presence or absence of a possessive prefix or free-form possessor [exref](unsuffixednouns). 
 
-[todo](where did these come from? elicitation? is there a record?)
+[todo](where did these come from? elicitation?)
 
 [manex](onlypossessed)
 
@@ -88,13 +87,13 @@ The linker also occurs with (pro-)nominal possessors:
 
 [ex](desccasmaj-131)
 
-There are some nouns (kinship terms?) that take an apparently older old second person [mp](a2) ([ref](tab:oldpossprefixes)).
+There are some nouns [todo](kinship terms?) that take an apparently older old second person [mp](a2) ([ref](tab:oldpossprefixes)).
 
 [table](oldpossprefixes)
 
 [todo](find examples for these)
 
-#### irregularly inflected nouns:
+#### Irregularly inflected nouns [label](sec:irregnouns)
 
 * 'father':
     * 1 *papa*

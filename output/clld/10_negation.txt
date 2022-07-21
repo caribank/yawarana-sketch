@@ -1,5 +1,5 @@
 <a id='negation'></a>
-
+<span title='should this be an individual chapter?'>❓</span>
 
 * probably relevant morphemes:
     * [Morpheme janeg](MorphsetTable?#cldf:janeg)

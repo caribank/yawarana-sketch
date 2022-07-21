@@ -1,7 +1,8 @@
 # Phonetics and phonology [label](phono)
 
 ## Segmental phonetics and phonemes [label](sec:segmental)
-The consonant phonemes of Yawarana are shown in [ref](tab:consonants), and the vowels in [ref](tab:vowels).
+The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel phonemes in [ref](tab:vowels).
+
 
 [table](consonants)
 
@@ -15,7 +16,7 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), and the v
 
 ### Syllable Reduction [label](sec:sylred)
 
-### Vowel harmony? [label](sec:vowelharm)
+### Vowel harmony [label](sec:vowelharm)
 
 ## Prosody [label](sec:prosody)
 

@@ -5,7 +5,7 @@
 ## Person prefixes [label](sec:verbperson)
 Verbs are inflected for person with a set of prefixes, shown in [ref](tab:verbprefixes).
 First and second person prefixes show accusative alignment, expressing [gl](s) and [gl](p).
-Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [mp](t3?nt) in [gl](3)>[gl](3) scenarios. [todo](Check: not in alternation with preceding O NP?)
+Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [mp](t3?nt) in [gl](3)>[gl](3) scenarios.[todo](mentionworthy that this is not in alternation with preceding NPs)
 An exception to this is the verb [mp](te-go) 'to go', which shows an idiosyncratic prefix [m](i32). [todo]("*ij‑të‑ri* ‘he goes’ plus 2 more" -- which ones?)
 
 
@@ -134,5 +134,6 @@ What about [mp](podes)?
 [todo](paradigm)
 [todo](did any particles develop from inflected forms?  Man, wai, manai, etc)
 [todo](are there irregular pat/perfect participles? nahkë, etc)
+[todo](ejnë may come from an inflected form of the copula)
 
 * there is stem allomorphy: [mp](chi-cop?nt), [mp](wej-cop?nt) [todo](should these be the same morpheme?)

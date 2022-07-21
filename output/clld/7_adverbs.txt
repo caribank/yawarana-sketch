@@ -3,7 +3,7 @@
 
 ## Inflection {#sec:adverbinfl}
 
-* 
+* <span title='negation?'>❓</span>
 
 ## Simple adverbs {#sec:simpleadv}
 
@@ -19,7 +19,7 @@ Morphemes deriving adverbs:
 
 * [Morpheme readvz](MorphsetTable?#cldf:readvz)
 
-
+<span title='others?'>❓</span>
 
 Forms with [Morpheme tojpepurp](MorphsetTable?#cldf:tojpepurp) can be inflected for person:
 

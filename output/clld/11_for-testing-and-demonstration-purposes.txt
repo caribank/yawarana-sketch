@@ -119,14 +119,14 @@ You can even mix them:
 
 ### Example references
 
-<a class="exref" example_id="ctorat-34"release="True" ></a>
+<a class="exref" example_id="ctorat-34"></a>
 
-<a class="exref" example_id="multiigt"release="True" ></a> or <a class="exref" example_id="ctorat-36"release="True" ></a> or even <a class="exref" example_id="multiigt"release="True"  suffix="a-b" ></a>
+<a class="exref" example_id="multiigt"></a> or <a class="exref" example_id="ctorat-36"></a> or even <a class="exref" example_id="multiigt"suffix="a-b" ></a>
 
-<a class="exref" example_id="test1"release="True" ></a>
+<a class="exref" example_id="test1"></a>
 
-<a class="exref" example_id="multiparttest"release="True" ></a>
+<a class="exref" example_id="multiparttest"></a>
 
-<a class="exref" example_id="test1"release="True"  end="multiparttest" ></a>
+<a class="exref" example_id="test1"end="multiparttest" ></a>
 
 
