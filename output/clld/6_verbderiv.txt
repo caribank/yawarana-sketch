@@ -2,7 +2,7 @@
 ## Transitive and intransitive roots and stems {#sec:verbroots}
 [Language yab](LanguageTable?#cldf:yab) verb roots can be divided into those yielding an intransitive stem, and those yielding a transitive stem.
 The only inflectional criterion distinguishing the two classes is the third person prefix [Morpheme t3](MorphsetTable?no_translation#cldf:t3), which can only occur on transitive stems.
-Thus, transitive [Morpheme yawanka-kill](MorphsetTable?#cldf:yawanka-kill) can take [Morpheme t3](MorphsetTable?no_translation#cldf:t3) <a class="exref" example_id="convfemgrme-217"release="False" ></a>, but intransitive [Morpheme yaruwa-laugh](MorphsetTable?#cldf:yaruwa-laugh) does not <a class="exref" example_id="convrisamaj-42"release="False" ></a>.
+Thus, transitive [Morpheme yawanka-kill](MorphsetTable?#cldf:yawanka-kill) can take [Morpheme t3](MorphsetTable?no_translation#cldf:t3) <a class="exref" example_id="convfemgrme-217"release="True" ></a>, but intransitive [Morpheme yaruwa-laugh](MorphsetTable?#cldf:yaruwa-laugh) does not <a class="exref" example_id="convrisamaj-42"release="True" ></a>.
 
 [Example convfemgrme-217,convrisamaj-42](ExampleTable?ids=convfemgrme-217,convrisamaj-42&example_counter=23#cldf:__all__)
 
