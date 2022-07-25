@@ -9,6 +9,9 @@ Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssu
 
 [table](postpprefixes)
 
+Number:
+* [mp](kontomopl)
+
 ## Locative Postpositions
 * clear bipartite Ground+Path
 * unproductive Bipartite X+Path?

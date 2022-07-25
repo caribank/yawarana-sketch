@@ -1,4 +1,5 @@
-,"[gl](intr)","[gl](tr)"
-"[gl](1)","[mp](u1?no_translation)","[mp](u1?no_translation)"
-"[gl](2)","[mp](me2?no_translation)","[mp](me2?no_translation)"
-"[gl](3)","∅","[mp](t3?no_translation)"
+,[gl](intr),[gl](tr)
+[gl](1),[mp](u1?no_translation),[mp](u1?no_translation)
+[gl](2),[mp](me2?no_translation),[mp](me2?no_translation)
+[gl](1+2),_ej(n)-_,_ej(n)-_
+[gl](3),∅,[mp](t3?no_translation)

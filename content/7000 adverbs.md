@@ -4,7 +4,7 @@
 
 ## Inflection [label](sec:adverbinfl)
 
-* [todo](negation?)
+[todo](is there negation?)
 
 ## Simple adverbs [label](sec:simpleadv)
 
@@ -17,10 +17,9 @@ Morphemes deriving adverbs:
 * [mp](sarecvb)
 * [mp](septcp)
 * [mp](tanecncs)
-
 * [mp](readvz)
 
-[todo](others?)
+[todo](are there others?)
 
 Forms with [mp](tojpepurp) can be inflected for person:
 

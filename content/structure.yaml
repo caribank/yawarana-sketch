@@ -9,9 +9,9 @@ document:
       title: Distinguishing parts of speech in Yawarana
     nouns:
       title: Nouns
-    verbinfl:
-      title: x
     verbderiv:
+      title: x
+    verbinfl:
       title: x
     adverbs:
       title: x
@@ -21,5 +21,5 @@ document:
       title: Particles and Ideophones
     negation:
       title: x
-    test:
-      title: whatever
+    auxiliary:
+      title: x

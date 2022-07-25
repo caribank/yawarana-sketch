@@ -4,50 +4,38 @@
 
 ## Person prefixes [label](sec:verbperson)
 Verbs are inflected for person with a set of prefixes, shown in [ref](tab:verbprefixes).
-First and second person prefixes show accusative alignment, expressing [gl](s) and [gl](p).
+First and second person prefixes show ergative alignment, expressing [gl](s) and [gl](p). [todo](count cases of expressing A)
 Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [mp](t3?nt) in [gl](3)>[gl](3) scenarios.[todo](mentionworthy that this is not in alternation with preceding NPs)
-An exception to this is the verb [mp](te-go) 'to go', which shows an idiosyncratic prefix [m](i32). [todo]("*ij‑të‑ri* ‘he goes’ plus 2 more" -- which ones?)
-
 
 [table](verbprefixes)
 
-* [mp](t3?translation=3>3) attested on one V in the pan‑Cariban “progressive” construction w/ 2nd person [gl](a) [todo](which one?)
-* Ø‑ ‘[gl](3p)’ with transitive verbs with [gl](1a) or [gl](2a); also sometimes [gl](3a)
-* one example of ([mp](me2)) ‘[gl](2A)’ on imperative verb [todo](where?)
-* Note that all transitive verbs are consonant‑initial, whether etymologically or not because [mp](ylk) is added to all vowel‑initial roots
-    * the _y‑_ disappears when preceded by the detransitivizer [todo](examples for detransitivized verbs) [todo](what about V-initial intransitive verbs? how are they inflected?)
-
-[todo](Check: appears that first and second person are reduced forms, with long vowel? FM: i noticed a long vowel in convrisamaj-02)
-[todo](FM: is first person ever actually *wï-*?)
+* one attested case of [mp](t3?translation=3>3) on the lexical verb of a _-pëkë_ construction w/ 2nd person [gl](a) on [gl](aux) [todo](which one?)
+    * Ø‑ ‘[gl](3p)’ with transitive verbs with [gl](1a) or [gl](2a)
+* one example of [mp](me2) ‘[gl](2A)’ on imperative verb [todo](GrMePers.029)
+[todo](FM: u- is sometimes wï-, but usually not transcribed & distribution unclear)
 
 
-## Non‑personal inflectional prefixation
-[todo](can we delete this section?)
+[todo](Check: appears that first and second person are reduced forms, with long vowel? wait for leila)
 
-* \*_t‑V‑se_ is no more — the _t‑_ is gone (except with _t-ënë-se_ ‘eat’ and _t-eni-se_ ‘drink’) [todo](or are these just t-verbs?)
-    
-## Tense‑aspect‑mood‑polarity suffixes [label](sec:tam)
+* \*_t‑V‑se_ is no more — the _t‑_ is gone, except in lexicalized items
+
+
+## Main clause tense‑aspect‑mood‑polarity suffixes [label](sec:tam)
 Verbs in main clauses are inflected for TAMP with a set of suffixes, shown in [ref](tab:verbtam).
 They are discussed in [ref](sec:riipfv?end=sec:sareimn).
 
 [table](verbtam)
 
-[todo](how do the following ones fit in?)
 
-* [mp](janeg)
-* *‑jrama* ‘[gl](proh)’
-* *‑tojpano* ‘[gl](fut)’
+[table](nondecltam)
 
-[todo](what are these?)
+
+Misc:
 
 * [mp](septcp?nt)=[mp](pano?nt) ‘[gl](pst)=[gl](concl)’
 * [m](sajpfv?nt)=[mp](pano?nt) ‘[gl](pfv)=[gl](concl)’
+* [mp](sareimn?nt)=[mp](pano?nt) ‘[gl](imn)=[gl](concl)’
 
-[todo](should the imperatives go with the other TAMP suffixes?)
-
-* imperatives:
-    * [mp](keimp?nt) / ‑*të*[mp](keimp?nt) ‘[gl](imp) / [gl](imp.pl)’
-    * [mp](tamotimp?nt) / [mp](tamotimp?nt)*ntë*[mp](keimp?nt) ‘[gl](imp).[gl](mot) / [gl](imp).[gl](mot.pl)’
 
 ### [mp](riipfv?nt) [label](sec:riipfv)
 
@@ -56,6 +44,7 @@ They are discussed in [ref](sec:riipfv?end=sec:sareimn).
     * [m](ri-ru), assimilation
     * what about [m](ri-ri)? looks like the most conservative form
 * diachrony: [mp](rinmlz)
+* pluralization?
 * combines with [mp](jraneg):
 
 [ex](convrisamaj-04)
@@ -113,22 +102,35 @@ They are discussed in [ref](sec:riipfv?end=sec:sareimn).
 
 <!-- probably all productive, right? -->
 * Nominalizations
-* Adverbial Clauses
+    * [mp](rinmlz)
+    * [mp](jpenmlz)
+    * [mp](toponmlz)
+* Adverbial Clauses (S/A)
     * [mp](septcp?translation=supine)
-    * [mp](tojpepurp?translation=purpose) 
-    * (‑jpë)=tërë ‘after’
     * [mp](tanecncs?translation=concessive)
-    * [mp](sareimn?translation=converb)
-    * [mp](yaweloc?translation=simult)
+    * [mp](sarecvb?translation=converb)
     * *‑yapo* ‘neg.purp’
     * others?
-
-What about [mp](podes)?
+* Nominalization + postposition (S/P)
+    * [m](ri-zero)[mp](yaweloc?translation=simult)
+    * [m](ri-zero) [mp](esspe) ‘when’
+    * [m](sajnmlz)[mp](yaweloc?translation=simult)
+    * [mp](tojpepurp?translation=purpose) 
+    * (‑jpë)=tërë ‘after’
+    * on auxiliary: [mp](rinmlz?nt) + [mp](po-loc?nt) '[gl](crtf)'
+* not attested:
+    * _se_ '[gl](des)'
+    * _-ajtawï_ 'if when'
 
 ## Number
-* _‑rï=kontomo_
+* _‑ri=kontomo_
+* _saj=kontomo_
+* _-pëj‑se=jne_
 * _‑se=jne=kontomo_
 * _‑se=jne=pano_ (_‑se=jne=kontom=pano_?)
+* _-të-kë_ for the imperative
+* what about _-i_ ‘[gl](juss)’?
+
 
 ## Copula / Auxiliary
 [todo](paradigm)
@@ -137,3 +139,4 @@ What about [mp](podes)?
 [todo](ejnë may come from an inflected form of the copula)
 
 * there is stem allomorphy: [mp](chi-cop?nt), [mp](wej-cop?nt) [todo](should these be the same morpheme?)
+* [mp](mare-rel-inan) and [mp](maniki-rel-anim)

@@ -15,6 +15,9 @@ Postpositions take the same inflectional prefixes as nouns ([crossref](ChapterTa
 | <span class='smallcaps'>2</span> | [Morpheme me2](MorphsetTable?no_translation#cldf:me2) |
 | <span class='smallcaps'>3</span> | [Morpheme i3](MorphsetTable?no_translation#cldf:i3)   |
 
+Number:
+* [Morpheme kontomopl](MorphsetTable?#cldf:kontomopl)
+
 ## Locative Postpositions
 * clear bipartite Ground+Path
 * unproductive Bipartite X+Path?

@@ -3,7 +3,7 @@
 
 ## Inflection {#sec:adverbinfl}
 
-* <span title='negation?'>❓</span>
+<span title='is there negation?'>❓</span>
 
 ## Simple adverbs {#sec:simpleadv}
 
@@ -16,10 +16,9 @@ Morphemes deriving adverbs:
 * [Morpheme sarecvb](MorphsetTable?#cldf:sarecvb)
 * [Morpheme septcp](MorphsetTable?#cldf:septcp)
 * [Morpheme tanecncs](MorphsetTable?#cldf:tanecncs)
-
 * [Morpheme readvz](MorphsetTable?#cldf:readvz)
 
-<span title='others?'>❓</span>
+<span title='are there others?'>❓</span>
 
 Forms with [Morpheme tojpepurp](MorphsetTable?#cldf:tojpepurp) can be inflected for person:
 
