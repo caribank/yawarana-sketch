@@ -1,32 +1,35 @@
 <a id='adverbs'></a>
 [POS adv](POSTable?#cldf:adv)
 
+* copredicative function (resultative, depictive), (S/P pivot)
+* also adverbial modification (S/A pivot)
+
+* no person inflection
+
 ## Inflection {#sec:adverbinfl}
 
-<span title='is there negation?'>❓</span>
+
+* negation with [Morpheme jraneg](MorphsetTable?#cldf:jraneg)
+* plural with [Morpheme jnepl](MorphsetTable?#cldf:jnepl)?
+
 
 ## Simple adverbs {#sec:simpleadv}
+
+<span title='list of simple adverbs'>❗️</span>
+<span title='semantic categories: quantifiers, temporal/locative words, manner, property concepts, ...'>❗️</span>
 
 ## Derived adverbs {#sec:derivedadv}
 
 Morphemes deriving adverbs:
 
 * [Morpheme peess](MorphsetTable?#cldf:peess)
-* [Morpheme tojpepurp](MorphsetTable?#cldf:tojpepurp)
-* [Morpheme sarecvb](MorphsetTable?#cldf:sarecvb)
-* [Morpheme septcp](MorphsetTable?#cldf:septcp)
-* [Morpheme tanecncs](MorphsetTable?#cldf:tanecncs)
 * [Morpheme readvz](MorphsetTable?#cldf:readvz)
+    * [Morph yeadvz](MorphTable?#cldf:yeadvz)
+    * vowel change?
+* _-rë_
+* potentially _-se_, _-ke_, _-ne_
 
-<span title='are there others?'>❓</span>
-
-Forms with [Morpheme tojpepurp](MorphsetTable?#cldf:tojpepurp) can be inflected for person:
-
-[Example convestsjm-086](ExampleTable?example_counter=24#cldf:convestsjm-086)
-
-[Example histpedgrme-163](ExampleTable?example_counter=25#cldf:histpedgrme-163)
-
-[Example histyarirdi-0875](ExampleTable?example_counter=26#cldf:histyarirdi-0875)
+* formatives & etymology
 
 ### [Morpheme readvz](MorphsetTable?no_translation#cldf:readvz)
 
@@ -60,3 +63,7 @@ Forms with [Morpheme tojpepurp](MorphsetTable?#cldf:tojpepurp) can be inflected 
 | [Form wajyare-happy](FormTable?#cldf:wajyare-happy)                                   |                                                               |
 | [Form yemire-hungry](FormTable?#cldf:yemire-hungry)                                   |                                                               |
 
+## Nominalizing adverbs
+
+1. [Morpheme anonmlz](MorphsetTable?#cldf:anonmlz)
+2. [Morpheme minmlz](MorphsetTable?#cldf:minmlz)

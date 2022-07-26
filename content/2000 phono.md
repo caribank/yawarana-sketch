@@ -10,6 +10,8 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 
 ### Consonants [label](sec:consonants)
 
+[wf](apuni-soap-0)
+
 ### Vowels [label](sec:vowels)
 
 ## Morphophonological Processes [label](sec:morphophono)
@@ -23,6 +25,8 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 ### Lexical stress [label](sec:stress)
 
 ### Intonational Phrases [label](sec:intphrases)
+
+[todo](f0 increase associated w/ pitch reset, clause boundaries?)
 
 ### Intonational Melodies [label](sec:intmelodies)
 

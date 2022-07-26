@@ -2,33 +2,41 @@
 
 [pos](adv)
 
+* copredicative function (resultative, depictive), (S/P pivot)
+* also adverbial modification (S/A pivot)
+
+* no person inflection
+
 ## Inflection [label](sec:adverbinfl)
 
-[todo](is there negation?)
+
+* negation with [mp](jraneg)
+* plural with [mp](jnepl)?
+
 
 ## Simple adverbs [label](sec:simpleadv)
+
+[todo](list of simple adverbs)
+[todo](semantic categories: quantifiers, temporal/locative words, manner, property concepts, ...)
 
 ## Derived adverbs [label](sec:derivedadv)
 
 Morphemes deriving adverbs:
 
 * [mp](peess)
-* [mp](tojpepurp)
-* [mp](sarecvb)
-* [mp](septcp)
-* [mp](tanecncs)
 * [mp](readvz)
+    * [m](yeadvz)
+    * vowel change?
+* _-rë_
+* potentially _-se_, _-ke_, _-ne_
 
-[todo](are there others?)
-
-Forms with [mp](tojpepurp) can be inflected for person:
-
-[ex](convestsjm-086)
-
-[ex](histpedgrme-163)
-
-[ex](histyarirdi-0875)
+* formatives & etymology
 
 ### [mp](readvz?nt)
 
 [table](reyeadvz)
+
+## Nominalizing adverbs
+
+1. [mp](anonmlz)
+2. [mp](minmlz)

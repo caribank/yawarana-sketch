@@ -1,6 +1,11 @@
 <a id='POS'></a>
 ## Distinguishing parts of speech
 
+
+### Adverbs
+* copredicative function
+* no person inflection
+
 ## Shared morphology
 
 ## Derivation and productivity
