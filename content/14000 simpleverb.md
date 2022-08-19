@@ -1,1 +1,0 @@
-# Simple verbal clauses [label](simpleverb)

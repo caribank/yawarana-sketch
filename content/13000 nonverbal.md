@@ -1,1 +1,0 @@
-# Nonverbal predications [label](nonverbal)

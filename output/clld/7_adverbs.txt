@@ -15,8 +15,8 @@
 
 ## Simple adverbs {#sec:simpleadv}
 
-<span title='list of simple adverbs'>❗️</span>
-<span title='semantic categories: quantifiers, temporal/locative words, manner, property concepts, ...'>❗️</span>
+
+
 
 ## Derived adverbs {#sec:derivedadv}
 
@@ -41,7 +41,7 @@ Morphemes deriving adverbs:
 | [Form aponore-narrowly](FormTable?#cldf:aponore-narrowly)                             | [Form metejye-thin](FormTable?#cldf:metejye-thin)             |
 | [Form chipire-yellow](FormTable?#cldf:chipire-yellow)                                 | [Form chiramujye-mangy](FormTable?#cldf:chiramujye-mangy)     |
 | [Form chitenore-whole](FormTable?#cldf:chitenore-whole)                               | [Form chirimujye-moldy](FormTable?#cldf:chirimujye-moldy)     |
-| [Form kojpayere-early-in-the-morning](FormTable?#cldf:kojpayere-early-in-the-morning) | [Form kojpaye-night-perl](FormTable?#cldf:kojpaye-night-perl) |
+| [Form kojpayere-early-in-the-morning](FormTable?#cldf:kojpayere-early-in-the-morning) | [Form kojpaye-night-advz](FormTable?#cldf:kojpaye-night-advz) |
 | [Form korore-always](FormTable?#cldf:korore-always)                                   | [Form pekuye-full](FormTable?#cldf:pekuye-full)               |
 | [Form kemure-purulent](FormTable?#cldf:kemure-purulent)                               | [Form pijye-fat](FormTable?#cldf:pijye-fat)                   |
 | [Form keyare-alive](FormTable?#cldf:keyare-alive)                                     | [Form potijye-smelly](FormTable?#cldf:potijye-smelly)         |

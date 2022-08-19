@@ -117,12 +117,13 @@ Misc:
     * [m](sajnmlz)[mp](yaweloc?translation=simult)
     * [mp](tojpepurp?translation=purpose) 
     * (‑jpë)=tërë ‘after’
-    * on auxiliary: [mp](rinmlz?nt) + [mp](po-loc?nt) '[gl](crtf)'
+    * on auxiliary: [mp](rinmlz?nt) + [mp](po-loc?nt) '[gl](ctrf)'
 * not attested:
     * _se_ '[gl](des)'
     * _-ajtawï_ 'if when'
 
 ## Number
+
 * _‑ri=kontomo_
 * _saj=kontomo_
 * _-pëj‑se=jne_
