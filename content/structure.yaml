@@ -1,23 +1,38 @@
-document:
-  title: A digital grammar sketch of Yawarana
-  parts:
-    intro:
-      title: Introduction
-    phono:
-      title: irrelevant
-    POS:
-      title: Distinguishing parts of speech in Yawarana
-    nouns:
-      title: Nouns
-    verbinfl:
-      title: x
-    verbderiv:
-      title: x
-    adverbs:
-      title: x
-    postp:
-      title: Postpositions
-    partideo:
-      title: Particles and Ideophones
-    negation:
-      title: x
+intro:
+  title: Introduction
+phono:
+  title: Phonology
+POS:
+  title: Distinguishing parts of speech in Yawarana
+nouns:
+  title: Nouns
+verbderiv:
+  title: Verbal roots and stems
+verbinfl:
+  title: Verbal inflection
+adverbs:
+  title: Adverbs
+postp:
+  title: Postpositions
+partideo:
+  title: Particles, ideophones and interjections
+negation:
+  title: Negation
+auxiliary:
+  title: Auxiliarized constructions
+phrases:
+  title: Phrases
+nonverbal:
+  title: Nonverbal predications
+simpleverb:
+  title: Simple verbal clauses
+questions:
+  title: Questions
+multiclausal:
+  title: Multiclausal constructions
+wordorder:
+  title: Word order variation
+marked:
+  title: Pragmatically marked constructions
+voice:
+  title: Detransitive voice

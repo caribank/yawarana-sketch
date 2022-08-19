@@ -60,3 +60,23 @@ s,intransitive argument
 sg,singular
 tr,transitive
 vbz,verbalizer
+acnnmlz,action nominalizer
+acnmlz,action nominalizer
+agtnmlz,agent nominalizer
+ptcp,participle
+sup,supine
+purp,purposive
+cvb,converb
+advz,adverbializer
+nzr,nominalizer
+gno,gnomic
+ctmp,contemporative
+cond,conditional
+perl,perlative
+rel,relativizer
+juss,jussive
+ctrf,counterfactive
+cess,cessative
+ad,ad-form
+postp,postposition
+aux,auxiliary

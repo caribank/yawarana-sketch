@@ -1,8 +1,14 @@
 Suffix,Function
-[mp](riipfv),imperfective
-[mp](jpepst),past
-[mp](sepst),past 2?
-[mp](sapepfv),perfective?
-[mp](sareimn),imminent future
-[mp](tepeke),[gl](prog.intr)
-[mp](pekeon),[gl](prog.tr)
+[mp](riipfv?no_translation),imperfective
+[mp](jpepst?no_translation),past
+[mp](sepst?no_translation),past perfective
+[mp](sapepfv?no_translation),perfect
+[mp](sareimn?no_translation),imminent future
+[mp](nepeke?no_translation),[gl](prog.intr)
+[mp](pekeon?no_translation),[gl](prog.tr)
+*‑tojpano*,[gl](fut)
+([mp](tojpefut?nt)),[gl](fut)
+[mp](janeg?nt),[gl](neg)
+[mp](septcp?nt)[mp](minmlz?nt) ,‘obligation’
+[mp](neinf?nt),impersonal S
+[mp](toponmlz?nt),

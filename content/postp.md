@@ -4,10 +4,17 @@
 
 ## Defining the category
 
+* monomorphemic vs bipartite (vs 'stacked')
+
 ## Inflectional morphology [label](sec:postinfl)
 Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssuf)). [todo](are there postpositions with third person i-?)
 
 [table](postpprefixes)
+
+Also:
+
+* [mp](kontomopl)
+* _ësë-_
 
 ## Locative Postpositions
 * clear bipartite Ground+Path
@@ -28,14 +35,12 @@ Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssu
 [ex](histpajirdi-186)
 
 ## Nonlocative Oblique Postpositions 
-* [mp](yaerg) ‘[gl](erg)’
-* *ke* '[gl](ins)'
+* [mp](panadat)
+* [mp](ke-ins)
 * _wanai_
-
-
-## Propositional Postpositions
-* =se '[gl](des)'
 
 ## Misc
 
-* copular [mp](chi-cop) combines with [mp](yaweloc), sometimes spelled *chi yawë*, sometimes *chawë*.
+* [mp](chi-cop) combines with [mp](yaweloc), sometimes spelled *chi yawë*, sometimes *chawë*.
+* syllable reduction
+* postpositions on bare verbs? (e.g. _wejtawë_)
