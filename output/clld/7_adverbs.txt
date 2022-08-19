@@ -15,8 +15,8 @@
 
 ## Simple adverbs {#sec:simpleadv}
 
-
-
+<span title='list of simple adverbs'>❗️</span>
+<span title='semantic categories: quantifiers, temporal/locative words, manner, property concepts, ...'>❗️</span>
 
 ## Derived adverbs {#sec:derivedadv}
 

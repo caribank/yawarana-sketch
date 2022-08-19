@@ -6,7 +6,7 @@
 * monomorphemic vs bipartite (vs 'stacked')
 
 ## Inflectional morphology {#sec:postinfl}
-Postpositions take the same inflectional prefixes as nouns ([crossref](ChapterTable?_anchor=sec:nounposssuf#cldf:nouns)). 
+Postpositions take the same inflectional prefixes as nouns ([crossref](ChapterTable?_anchor=sec:nounposssuf#cldf:nouns)). <span title='are there postpositions with third person i-?'>❓</span>
 
 
 <a id='tab:postpprefixes'></a><div class='caption table' id='tab:postpprefixes'>Person marking prefixes on postpositions</div>
@@ -35,7 +35,7 @@ Also:
 | inside  | [Morpheme yakaall](MorphsetTable?no_translation#cldf:yakaall) | [Morpheme yaweloc](MorphsetTable?no_translation#cldf:yaweloc) |
 | aquatic | ?                                                             | ?                                                             |
 
-
+<span title='how do these fit in?'>❓</span>
 
 * *poye* 'above'
 * *po* 'locative'
