@@ -1,4 +1,4 @@
-# Nouns [label](nouns)
+# Nous [label](nouns)
 
 ## Pronouns [label](sec:pronouns)
 The personal pronouns of [lg](yab) are shown in [ref](tab:pronouns).
