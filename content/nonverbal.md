@@ -1,6 +1,8 @@
 # Nonverbal predications [label](nonverbal)
 
-[todo](check out introduction to overall 2018)
+[src](gildea2018reconstructing[366]) distinguishes two main formal types of nonverbal predication in Cariban languages: juxtaposition and copular constructions.
+
+* juxtaposed NP + ADV or NP + LOC is found in Arara, Ikpeng, Ye'kwana, Wayana, and Apalaí
 
 Spike for PC:
 
@@ -17,3 +19,5 @@ Innovations:
     * Negation
 * What are particles doing?
 * What is word order doing?
+
+[table](nvpoverview)
