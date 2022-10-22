@@ -24,7 +24,7 @@ Consonant phonemes: [lbl:consonants]
   -----------------------------------------------------------------------
               bilabial     alveolar     palatal     velar     glottal
   ----------- ------------ ------------ ----------- --------- -----------
-  occlusive   /p/          /t/          /t͡ʃ/        /k/       
+  occlusive   /p/          /t/          /t͡ʃ/ |      /k/ |     
 
   nasal       /m/          /n/          /ɲ/                   
 
@@ -126,7 +126,7 @@ Derivation and productivity
 -   some constructions need a different word class, no meaning change
     per se
 
-Nouns [lbl:nouns]
+Nous [lbl:nouns]
 
 Pronouns [lbl:sec:pronouns]
 
@@ -463,69 +463,69 @@ Intransitive
 
 Lexemes derived with -ta: [lbl:tavbz]
 
-  -----------------------
-  Base     Derivation
-  -------- --------------
-           
+  -------------------------------------
+  Base                   Derivation
+  ---------------------- --------------
+  suku-urine             
 
-           
+  kaimo-game             
 
-           
+  metej-thin             
 
-           
+  yoko-pimple            
 
-           
+  yerepunu-sick          
 
-           
+  wereyi-cloud           
 
-           
+  wanapu-savannah        
 
-           
+  sakau-sand             
 
-           
+  roko-crazy             
 
-           
+  punu-flesh             
 
-           
+  pike-fart              
 
-           
+  pichipichi-whitebait   
 
-           
+  naki-thirst            
 
-           
+  muku-child             
 
-           
+  moto-worm              
 
-           
+  moroni-pain            
 
-           
+  mesuku-blood           
 
-           
+  kere-ripe              
 
-           
+  kemu-pus               
 
-           
+  konopo-rain            
 
-           
+  kawono-high            
 
-           
+  kampara-big            
 
-           
+  chekey-nit             
 
-           
+  chimichimi-worm-dog    
 
-           
+  chike-chigger          
 
-           
+  awochi-tumor           
 
-           
+  asere-dry-cough        
 
-           
+  aijkorono-recovered    
 
-           
+  ajpachi-undergrowth    
 
-           
-  -----------------------
+  aki-worm               
+  -------------------------------------
 
 -pamï / -mamï
 
@@ -1007,6 +1007,13 @@ Phrases [lbl:phrases]
 
 Nonverbal predications [lbl:nonverbal]
 
+Gildea 2018: 366 distinguishes two main formal types of nonverbal
+predication in Cariban languages: juxtaposition and copular
+constructions.
+
+-   juxtaposed NP + ADV or NP + LOC is found in Arara, Ikpeng, Ye’kwana,
+    Wayana, and Apalaí
+
 Spike for PC:
 
 -   Nsubj + Npred: nominal (juxtaposition) predication. Limited in
@@ -1029,6 +1036,36 @@ Innovations:
 -   What are particles doing?
 
 -   What is word order doing?
+
+An overview of nonverbal predication: [lbl:nvpoverview]
+
+  ---------------------------------------------------------------------------------
+  Function         Affirmative                        Negative
+  ---------------- ---------------------------------- -----------------------------
+  Identification   N + N (ConvCosNoInd.037)           N + N + pïnire (ConvAmGu.042)
+
+  Categorization   N + N (MaPe_Pers2.21)              N + N + pïnire
+                                                      (HistYarIrDi.0623)
+
+  Permanent        N-ke NP COP (ConvCosNoInd.116)     N + N + pïnire
+  property                                            (Conv1stEnc.080)
+
+  Temporary        N + N (DescCasMAJ.085)             N + ADV-jra (HistAcciGrMe.02)
+  property                                            
+
+  Location         N-LOC N (ConvAmGu.080,             N LOC pïnire (ConvAmGu.078 ),
+                   HistYarIrDi.0339)                  N + with COP-NEG N
+                                                      (HistPajIrDi.081)
+
+  Existential      N mïntë (GrMePers.077), entë N     pïrarë N-jra (DescCasMAJ.064,
+                   (GrMePers.087), mëtë N             DescCasMAJ.065), N entë
+                   (GrMePers.090), N entë             pïrarë (HistYarIrDi.0823)
+                   (CtoVarMaFl.450 )                  
+
+  Possession       N-ke N (ConvFemGrMe.146,           N-ke-jra (MaPe_Pers2.58)
+                   ConvInsectMAJ.024), t-N-ke-mï      
+                   (CtoRosq.047)                      
+  ---------------------------------------------------------------------------------
 
 Simple verbal clauses [lbl:simpleverb]
 
@@ -1084,3 +1121,7 @@ References
 
 -    Dixon, Robert M. W. 2010. Basic linguistic theory volume 2:
     Grammatical topics. (2.) Oxford: Oxford University Press.
+-    Gildea, Spike. 2018. Reconstructing the copula and nonverbal
+    predicate constructions in Cariban. In Overall, Simon E. and
+    Vallejos, Rosa and Gildea, Spike (eds.), Nonverbal predication in
+    Amazonian languages, 365–402. Amsterdam: John Benjamins.

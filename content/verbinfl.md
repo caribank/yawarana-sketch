@@ -47,7 +47,7 @@ Misc:
 * pluralization?
 * combines with [mp](jraneg):
 
-[ex](convrisamaj-04)
+[ex](convrisamaj-4)
 
 #### Semantics
 * not specified for tense, just imperfective aspect:
@@ -56,8 +56,8 @@ Misc:
     * gnomic/present? [exref](gnomicri)
 
 [ex](ctorat-16)
-[ex](convrisamaj-06)
-[ex](convrisamaj-04,convrisamaj-28?example_id=gnomicri)
+[ex](convrisamaj-6)
+[ex](convrisamaj-4,convrisamaj-28?example_id=gnomicri)
 
 ### [mp](jpepst?nt)
 

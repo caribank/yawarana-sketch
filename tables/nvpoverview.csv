@@ -1,8 +1,8 @@
 Function,Affirmative,Negative
-Identification,N + N (ConvCosNoInd.037),N + N + pïnire (ConvAmGu.042)
-Categorization,N + N (MaPe_Pers2.21),N + N + pïnire (HistYarIrDi.0623)
-Permanent property,N-ke NP COP (ConvCosNoInd.116),N + N + pïnire (Conv1stEnc.080)
-Temporary property,N + N (DescCasMAJ.085),N + ADV-jra (HistAcciGrMe.02)
-Location,"N-LOC N (ConvAmGu.080, HistYarIrDi.0339)","N LOC pïnire (ConvAmGu.078 ), N + with COP-NEG N (HistPajIrDi.081)"
-Existential,,
-Possession,,
+Identification,N + N,N + N + *pïnirë*
+Categorization,N + N,(N +?) N + *pïnirë*
+Permanent property,[gl](adv) + N + [gl](cop) <br> [gl](adv)[mp](minmlz?nt),N + *pïnirë*
+Temporary property,N + N,N + [gl](adv)[mp](jraneg?nt)
+Location,[gl](loc) + N,N + [gl](loc) + *pïnirë* <br> N + [mp](akere-with) + [gl](cop-neg) + N
+Existential,N + *mïntë* <br> *entë* + N <br>*mëtë* + N <br> N + *entë* + [gl](cop)?,*pïrarë* + N[mp](jraneg?nt) <br> N + *entë* + *pïrarë*
+Possession,N[mp](keprop?nt) + [gl](cop) <br> [gl](adv)[mp](minmlz?nt),N[mp](keprop?nt)[mp](jraneg?nt)

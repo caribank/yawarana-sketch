@@ -1,5 +1,7 @@
 <a id='nonverbal'></a>
-<span title='check out introduction to overall 2018'>❗️</span>
+[gildea2018reconstructing](sources.bib?with_internal_ref_link&ref#cldf:gildea2018reconstructing): 366 distinguishes two main formal types of nonverbal predication in Cariban languages: juxtaposition and copular constructions.
+
+* juxtaposed NP + ADV or NP + LOC is found in Arara, Ikpeng, Ye'kwana, Wayana, and Apalaí
 
 Spike for PC:
 
@@ -16,3 +18,17 @@ Innovations:
     * Negation
 * What are particles doing?
 * What is word order doing?
+
+
+<a id='tab:nvpoverview'></a><div class='caption table' id='tab:nvpoverview'>An overview of nonverbal predication</div>
+
+| Function           | Affirmative                                                                                    | Negative                                                                        |
+|:-------------------|:-----------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|
+| Identification     | N + N (ConvCosNoInd.037)                                                                       | N + N + pïnire (ConvAmGu.042)                                                   |
+| Categorization     | N + N (MaPe_Pers2.21)                                                                          | N + N + pïnire (HistYarIrDi.0623)                                               |
+| Permanent property | N-ke NP COP (ConvCosNoInd.116)                                                                 | N + N + pïnire (Conv1stEnc.080)                                                 |
+| Temporary property | N + N (DescCasMAJ.085)                                                                         | N + ADV-jra (HistAcciGrMe.02)                                                   |
+| Location           | N-LOC N (ConvAmGu.080, HistYarIrDi.0339)                                                       | N LOC pïnire (ConvAmGu.078 ), N + with COP-NEG N (HistPajIrDi.081)              |
+| Existential        | N mïntë (GrMePers.077), entë N (GrMePers.087), mëtë N (GrMePers.090), N entë (CtoVarMaFl.450 ) | pïrarë N-jra (DescCasMAJ.064, DescCasMAJ.065), N entë pïrarë (HistYarIrDi.0823) |
+| Possession         | N-ke N (ConvFemGrMe.146, ConvInsectMAJ.024), t-N-ke-mï (CtoRosq.047)                           | N-ke-jra (MaPe_Pers2.58)                                                        |
+

@@ -114,7 +114,7 @@ e.g. *wajto* ‘fire’
 -   some constructions need a different word class, no meaning change
     per se
 
-# Nouns <a id='nouns'><a/>
+# Nous <a id='nouns'><a/>
 
 ## Pronouns <a id='sec:pronouns'><a/>
 
@@ -422,38 +422,38 @@ with them.
 
 *-ta* ‘VBZ.INTR’ derives intransitive verbs.
 
-| Base | Derivation |
-|:-----|:-----------|
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
-|      |            |
+| Base                 | Derivation |
+|:---------------------|:-----------|
+| suku-urine           |            |
+| kaimo-game           |            |
+| metej-thin           |            |
+| yoko-pimple          |            |
+| yerepunu-sick        |            |
+| wereyi-cloud         |            |
+| wanapu-savannah      |            |
+| sakau-sand           |            |
+| roko-crazy           |            |
+| punu-flesh           |            |
+| pike-fart            |            |
+| pichipichi-whitebait |            |
+| naki-thirst          |            |
+| muku-child           |            |
+| moto-worm            |            |
+| moroni-pain          |            |
+| mesuku-blood         |            |
+| kere-ripe            |            |
+| kemu-pus             |            |
+| konopo-rain          |            |
+| kawono-high          |            |
+| kampara-big          |            |
+| chekey-nit           |            |
+| chimichimi-worm-dog  |            |
+| chike-chigger        |            |
+| awochi-tumor         |            |
+| asere-dry-cough      |            |
+| aijkorono-recovered  |            |
+| ajpachi-undergrowth  |            |
+| aki-worm             |            |
 
 #### *-pamï* / *-mamï*
 
@@ -885,6 +885,13 @@ claim: everything can take an auxiliary, except *-kë* ‘IMP’
 
 # Nonverbal predications <a id='nonverbal'><a/>
 
+[Gildea 2018](#source-gildea2018reconstructing): 366 distinguishes two
+main formal types of nonverbal predication in Cariban languages:
+juxtaposition and copular constructions.
+
+-   juxtaposed NP + ADV or NP + LOC is found in Arara, Ikpeng, Ye’kwana,
+    Wayana, and Apalaí
+
 Spike for PC:
 
 -   Nsubj + Npred: nominal (juxtaposition) predication. Limited in
@@ -907,6 +914,16 @@ Innovations:
 -   What are particles doing?
 
 -   What is word order doing?
+
+| Function           | Affirmative                                                                                    | Negative                                                                        |
+|:-------------------|:-----------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|
+| Identification     | N + N (ConvCosNoInd.037)                                                                       | N + N + pïnire (ConvAmGu.042)                                                   |
+| Categorization     | N + N (MaPe_Pers2.21)                                                                          | N + N + pïnire (HistYarIrDi.0623)                                               |
+| Permanent property | N-ke NP COP (ConvCosNoInd.116)                                                                 | N + N + pïnire (Conv1stEnc.080)                                                 |
+| Temporary property | N + N (DescCasMAJ.085)                                                                         | N + ADV-jra (HistAcciGrMe.02)                                                   |
+| Location           | N-LOC N (ConvAmGu.080, HistYarIrDi.0339)                                                       | N LOC pïnire (ConvAmGu.078 ), N + with COP-NEG N (HistPajIrDi.081)              |
+| Existential        | N mïntë (GrMePers.077), entë N (GrMePers.087), mëtë N (GrMePers.090), N entë (CtoVarMaFl.450 ) | pïrarë N-jra (DescCasMAJ.064, DescCasMAJ.065), N entë pïrarë (HistYarIrDi.0823) |
+| Possession         | N-ke N (ConvFemGrMe.146, ConvInsectMAJ.024), t-N-ke-mï (CtoRosq.047)                           | N-ke-jra (MaPe_Pers2.58)                                                        |
 
 # Simple verbal clauses <a id='simpleverb'><a/>
 
@@ -963,3 +980,8 @@ Innovations:
 -   <a id="source-dixon2010basic"> </a>Dixon, Robert M. W. 2010. Basic
     linguistic theory volume 2: Grammatical topics. (2.) Oxford: Oxford
     University Press.
+-   <a id="source-gildea2018reconstructing"> </a>Gildea, Spike. 2018.
+    Reconstructing the copula and nonverbal predicate constructions in
+    Cariban. In Overall, Simon E. and Vallejos, Rosa and Gildea, Spike
+    (eds.), Nonverbal predication in Amazonian languages, 365–402.
+    Amsterdam: John Benjamins.

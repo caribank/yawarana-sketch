@@ -1,4 +1,4 @@
-# Nous [label](nouns)
+# Nouns [label](nouns)
 
 ## Pronouns [label](sec:pronouns)
 The personal pronouns of [lg](yab) are shown in [ref](tab:pronouns).
@@ -13,10 +13,10 @@ Reduced forms of the first and second person pronouns occur as proclitics [todo]
 
 [ex](convrisamaj-28)
 
-[ex](desccasmaj-025)
+[ex](desccasmaj-25)
 
-[ex](convrisamaj-02)
-[ex](ctoaragrme-07)
+[ex](convrisamaj-2)
+[ex](ctoaragrme-7)
 
 The third person demonstrative pronouns or articles are shown in [ref](tab:pronouns3).
 [todo](is there a 4‑way distinction? [cf. Ye’kwana?])
