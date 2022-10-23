@@ -120,6 +120,10 @@ contents={\begin{tikzpicture}[remember picture,overlay]
 \newGlossingAbbrev{in}{inanimate}
 \newGlossingAbbrev{perf}{perfective}
 \newGlossingAbbrev{inm}{immediate}
+\newGlossingAbbrev{voc}{vocative}
+\newGlossingAbbrev{o}{object}
+\newGlossingAbbrev{rm}{remote?}
+\newGlossingAbbrev{sit}{situational?}
 
 \begin{document}
 
@@ -1784,13 +1788,13 @@ Innovations:
 \toprule
           Function &                                        Affirmative &                                           Negative \\
 \midrule
-    Identification &                                              N + N &                              N + N + \emph{pïnirë} \\
-    Categorization &                                              N + N &                           (N +?) N + \emph{pïnirë} \\
-Permanent property &     \gl{adv} + N + \gl{cop} <br> \gl{adv}\obj{-mï} &                                  N + \emph{pïnirë} \\
-Temporary property &                                              N + N &                             N + \gl{adv}\obj{-jra} \\
-          Location &                                       \gl{loc} + N & N + \gl{loc} + \emph{pïnirë} N + \obj{akërë} `w... \\
+    Identification &    Nsubj + Npred Npred + Nsubj + \emph{manïkï} (?) &                      Npred + \emph{pïnirë} + Nsubj \\
+    Categorization &                                      Nsubj + Npred &                      Npred + \emph{pïnirë} + Nsubj \\
+Permanent property & Nsubj + Npred Nsubj + Npred + \emph{manïkï} \gl... & Npred + \emph{pïnirë} + Nsubj Nsubj + Npred + \... \\
+Temporary property &                                      Nsubj + Npred &                             N + \gl{adv}\obj{-jra} \\
+          Location &                     \gl{loc} + N <br> \gl{loc} + N & N + \gl{loc} + \emph{pïnirë} N + \obj{akërë} `w... \\
        Existential & N + \emph{mïntë} \emph{entë} + N \emph{mëtë} + ... & \emph{pïrarë} + N\obj{-jra} N + \emph{entë} + \... \\
-        Possession &       N\obj{-ke} + \gl{cop} <br> \gl{adv}\obj{-mï} &                               N\obj{-ke}\obj{-jra} \\
+        Possession &    \gl{adv} + \gl{cop} <br> \gl{adv}\obj{-mï} (+N) &                               N\obj{-ke}\obj{-jra} \\
 \bottomrule
 \end{tabular}
 
@@ -1800,7 +1804,11 @@ Temporary property &                                              N + N &       
 
 \subsection{Affirmative}
 
-N+N:
+\begin{itemize}
+\tightlist
+\item
+  Nsubj + Npred:
+\end{itemize}
 
 \ex Yawarana \\
 \label{convcosnoind-37}    \begingl
@@ -1811,9 +1819,28 @@ N+N:
     \endgl 
 \xe
 
+\begin{itemize}
+\tightlist
+\item
+  Npred + Nsubj + \emph{manïkï} (?):
+\end{itemize}
+
+\ex Yawarana \\
+\label{ctovarmafl-315}    \begingl
+    \glpreamble sorori rë mëkï maniki yenepese ta //
+    \gla soro-ri =rë mëkï maniki yenepe-se ta//
+    \glb lie-\gl{poss} =\gl{emph} \gl{3}\gl{an}:\gl{rm} \gl{an}.\gl{rel} send.away-\gl{pfv}.\gl{pst} like//
+        \glft ‘‘eso es un engaño, para espantar’’//  
+    \endgl 
+\xe
+
 \subsection{Negative}
 
-N + N + \emph{pïnirë}:
+\begin{itemize}
+\tightlist
+\item
+  Npred + \emph{pïnirë} + Nsubj:
+\end{itemize}
 
 \ex Yawarana \\
 \label{convamgu-42}    \begingl
@@ -1828,7 +1855,11 @@ N + N + \emph{pïnirë}:
 
 \subsection{Affirmative}
 
-N + N:
+\begin{itemize}
+\tightlist
+\item
+  Nsubj + Npred:
+\end{itemize}
 
 \ex Yawarana \\
 \label{hist2mape-21}    \begingl
@@ -1841,7 +1872,11 @@ N + N:
 
 \subsection{Negative}
 
-(N +?) N + \emph{pïnirë}:
+\begin{itemize}
+\tightlist
+\item
+  Npred + \emph{pïnirë} + Nsubj:
+\end{itemize}
 
 \ex Yawarana \\
 \label{histyarirdi-623}    \begingl
@@ -1856,7 +1891,48 @@ N + N:
 
 \subsection{Affirmative}
 
-\gl{adv} + N + \gl{cop}:
+\begin{itemize}
+\tightlist
+\item
+  Nsubj + Npred:
+\end{itemize}
+
+\ex Yawarana \\
+\label{convinsectmaj-118}    \begingl
+    \glpreamble mmm, sokowa mukujpë, intompijkë //
+    \gla mmm sokowa mukujpë intompijkë//
+    \glb yes patawa.palm small small//
+        \glft ‘sí, sókowa es el pequeñito’’//  
+    \endgl 
+\xe
+
+\begin{itemize}
+\tightlist
+\item
+  Nsubj + Npred + \emph{manïkï}:
+\end{itemize}
+
+\pex\label{}    \a Yawarana\\
+    \label{convinsectmaj-108}        \begingl
+        \glpreamble sokowa mukujpë manïkï //
+        \gla sokowa mukujpë manïkï//
+        \glb patawa.palm small \gl{an}.\gl{rel}//
+            \glft ‘‘sokowa es el pequeño’’//  
+        \endgl 
+    \a Yawarana\\
+    \label{histpajirdi-271}        \begingl
+        \glpreamble enijpëtërë ma, tëwï maniki //
+        \gla enijpëtërë =ma tëwï maniki//
+        \glb one =\gl{restr} \gl{3}\gl{sg} \gl{an}.\gl{rel}//
+            \glft ‘‘el es el único?’//  
+        \endgl 
+\xe
+
+\begin{itemize}
+\tightlist
+\item
+  \gl{adv} + Nsubj + \gl{cop}:
+\end{itemize}
 
 \ex Yawarana \\
 \label{convcosnoind-116}    \begingl
@@ -1867,7 +1943,11 @@ N + N:
     \endgl 
 \xe
 
-\gl{adv}\obj{-mï}:
+\begin{itemize}
+\tightlist
+\item
+  \gl{adv}\obj{-mï}:
+\end{itemize}
 
 \ex Yawarana \\
 \label{conv1stenc-80}    \begingl
@@ -1880,13 +1960,45 @@ N + N:
 
 \subsection{Negative}
 
-N + \emph{pïnirë}, see \exref[]{conv1stenc-80}.
+\begin{itemize}
+\tightlist
+\item
+  Npred + \emph{pïnirë} + Nsubj:
+\end{itemize}
+
+\ex Yawarana \\
+\label{ctovarmafl-64}    \begingl
+    \glpreamble karasakem pïnirë mëkï //
+    \gla karasake-m -pïnirë mëkï//
+    \glb white-\gl{nzr} -\gl{neg} \gl{3}\gl{an}:\gl{rm}//
+        \glft ‘‘ese no es blanco’’//  
+    \endgl 
+\xe
+
+\begin{itemize}
+\tightlist
+\item
+  Nsubj + Npred + \emph{pïnirë}:
+\end{itemize}
+
+\ex Yawarana \\
+\label{descmensgrme-67}    \begingl
+    \glpreamble makë neke ne Yawarana na pïnirë //
+    \gla makë neke =ne Yawarana na -pïnirë//
+    \glb mother:\gl{voc} \gl{contrast} =\gl{ints} Yawarana more -\gl{neg}//
+        \glft ‘‘mi mamá no era muy Yawarana’’//  
+    \endgl 
+\xe
 
 \section{Temporary property}
 
 \subsection{Affirmative}
 
-N + N:
+\begin{itemize}
+\tightlist
+\item
+  Nsubj + Npred:
+\end{itemize}
 
 \ex Yawarana \\
 \label{desccasmaj-85}    \begingl
@@ -1899,7 +2011,11 @@ N + N:
 
 \subsection{Negative}
 
-N + \gl{adv}\obj{-jra}:
+\begin{itemize}
+\tightlist
+\item
+  N + \gl{adv}\obj{-jra}:
+\end{itemize}
 
 \ex Yawarana \\
 \label{histaccigrme-2}    \begingl
@@ -1914,7 +2030,11 @@ N + \gl{adv}\obj{-jra}:
 
 \subsection{Affirmative}
 
-\gl{loc} + N:
+\begin{itemize}
+\tightlist
+\item
+  \gl{loc} + N:
+\end{itemize}
 
 \pex\label{}    \a Yawarana\\
     \label{convamgu-80}        \begingl
@@ -1934,7 +2054,11 @@ N + \gl{adv}\obj{-jra}:
 
 \subsection{Negative}
 
-N + \gl{loc} + \emph{pïnirë}:
+\begin{itemize}
+\tightlist
+\item
+  N + \gl{loc} + \emph{pïnirë}:
+\end{itemize}
 
 \ex Yawarana \\
 \label{convamgu-78}    \begingl
@@ -1945,7 +2069,11 @@ N + \gl{loc} + \emph{pïnirë}:
     \endgl 
 \xe
 
-N + \obj{akërë} `with' + \gl{cop}-\gl{neg} + N:
+\begin{itemize}
+\tightlist
+\item
+  N + \obj{akërë} `with' + \gl{cop}-\gl{neg} + N:
+\end{itemize}
 
 \ex Yawarana \\
 \label{histpajirdi-81}    \begingl
@@ -1960,7 +2088,11 @@ N + \obj{akërë} `with' + \gl{cop}-\gl{neg} + N:
 
 \subsection{Affirmative}
 
-N + \emph{mïntë}:
+\begin{itemize}
+\tightlist
+\item
+  N + \emph{mïntë}:
+\end{itemize}
 
 \ex Yawarana \\
 \label{histgrme-76}    \begingl
@@ -1971,7 +2103,11 @@ N + \emph{mïntë}:
     \endgl 
 \xe
 
-\emph{entë} + N:
+\begin{itemize}
+\tightlist
+\item
+  \emph{entë} + N:
+\end{itemize}
 
 \ex Yawarana \\
 \label{histgrme-86}    \begingl
@@ -1982,7 +2118,11 @@ N + \emph{mïntë}:
     \endgl 
 \xe
 
-\emph{mëtë} + N:
+\begin{itemize}
+\tightlist
+\item
+  \emph{mëtë} + N:
+\end{itemize}
 
 \ex Yawarana \\
 \label{histgrme-89}    \begingl
@@ -1993,7 +2133,11 @@ N + \emph{mïntë}:
     \endgl 
 \xe
 
-N + \emph{entë} + \gl{cop}?:
+\begin{itemize}
+\tightlist
+\item
+  N + \emph{entë} + \gl{cop} (?):
+\end{itemize}
 
 \ex Yawarana \\
 \label{ctovarmafl-453}    \begingl
@@ -2006,7 +2150,11 @@ N + \emph{entë} + \gl{cop}?:
 
 \subsection{Negative}
 
-\emph{pïrarë} + N\obj{-jra}:
+\begin{itemize}
+\tightlist
+\item
+  \emph{pïrarë} + N\obj{-jra}:
+\end{itemize}
 
 \pex\label{}    \a Yawarana\\
     \label{desccasmaj-64}        \begingl
@@ -2024,7 +2172,11 @@ N + \emph{entë} + \gl{cop}?:
         \endgl 
 \xe
 
-N + \emph{entë} + \emph{pïrarë}:
+\begin{itemize}
+\tightlist
+\item
+  N + \emph{entë} + \emph{pïrarë}:
+\end{itemize}
 
 \ex Yawarana \\
 \label{histyarirdi-823}    \begingl
@@ -2039,7 +2191,11 @@ N + \emph{entë} + \emph{pïrarë}:
 
 \subsection{Affirmative}
 
-\gl{adv} + \gl{cop}:
+\begin{itemize}
+\tightlist
+\item
+  \gl{adv} + \gl{cop}:
+\end{itemize}
 
 \ex Yawarana \\
 \label{convfemgrme-146}    \begingl
@@ -2050,7 +2206,11 @@ N + \emph{entë} + \emph{pïrarë}:
     \endgl 
 \xe
 
-\gl{adv}\obj{-mï} (+N):
+\begin{itemize}
+\tightlist
+\item
+  \gl{adv}\obj{-mï} (+N):
+\end{itemize}
 
 \pex\label{}    \a Yawarana\\
     \label{convinsectmaj-24}        \begingl
@@ -2070,7 +2230,11 @@ N + \emph{entë} + \emph{pïrarë}:
 
 \subsection{Negative}
 
-N\obj{-ke}\obj{-jra}:
+\begin{itemize}
+\tightlist
+\item
+  N\obj{-ke}\obj{-jra}:
+\end{itemize}
 
 \ex Yawarana \\
 \label{hist2mape-58}    \begingl

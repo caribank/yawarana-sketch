@@ -96,3 +96,7 @@ px,proximal,from flex
 in,inanimate,from flex
 perf,perfective,from flex
 inm,immediate,from flex
+voc,vocative,from flex
+o,object,from flex
+rm,remote?,from flex
+sit,situational?,from flex

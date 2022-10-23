@@ -1,5 +1,6 @@
 [table](nvpoverview)
-## Identification
+## Identification [label](nvp-id)
+
 ### Affirmative
 * Nsubj + Npred:
 [ex](convcosnoind-37)
@@ -9,7 +10,8 @@
 * Npred + *pïnirë* + Nsubj:
 [ex](convamgu-42)
 
-## Categorization
+## Categorization [label](nvp-cat)
+
 ### Affirmative
 * Nsubj + Npred:
 [ex](hist2mape-21)
@@ -17,7 +19,8 @@
 * Npred + *pïnirë* + Nsubj:
 [ex](histyarirdi-623)
 
-## Permanent property
+## Permanent property [label](nvp-perm)
+
 ### Affirmative
 * Nsubj + Npred:
 [ex](convinsectmaj-118)
@@ -33,7 +36,8 @@
 * Nsubj + Npred + *pïnirë*:
 [ex](descmensgrme-67)
 
-## Temporary property
+## Temporary property [label](nvp-temp)
+
 ### Affirmative
 * Nsubj + Npred:
 [ex](desccasmaj-85)
@@ -41,7 +45,8 @@
 * N + [gl](adv)[mp](jraneg?nt):
 [ex](histaccigrme-2)
 
-## Location
+## Location [label](nvp-loc)
+
 ### Affirmative
 * [gl](loc) + N:
 [ex](convamgu-80,histyarirdi-339)
@@ -51,7 +56,8 @@
 * N + [mp](akere-with) + [gl](cop-neg) + N:
 [ex](histpajirdi-81)
 
-## Existential
+## Existential [label](nvp-ex)
+
 ### Affirmative
 * N + *mïntë*:
 [ex](histgrme-76)
@@ -67,9 +73,10 @@
 * N + *entë* + *pïrarë*:
 [ex](histyarirdi-823)
 
-## Possession
+## Possession [label](nvp-poss)
+
 ### Affirmative
-* [gl](adv) + [gl](cop):
+* [gl](adv) + Nsubj + [gl](cop):
 [ex](convfemgrme-146)
 * [gl](adv)[mp](minmlz?nt) (+N):
 [ex](convinsectmaj-24,ctorosq-47)
