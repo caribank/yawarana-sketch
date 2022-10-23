@@ -20,15 +20,93 @@ Innovations:
 * What is word order doing?
 
 
+
 <a id='tab:nvpoverview'></a><div class='caption table' id='tab:nvpoverview'>An overview of nonverbal predication</div>
 
-| Function           | Affirmative                                                                                    | Negative                                                                        |
-|:-------------------|:-----------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|
-| Identification     | N + N (ConvCosNoInd.037)                                                                       | N + N + pïnire (ConvAmGu.042)                                                   |
-| Categorization     | N + N (MaPe_Pers2.21)                                                                          | N + N + pïnire (HistYarIrDi.0623)                                               |
-| Permanent property | N-ke NP COP (ConvCosNoInd.116)                                                                 | N + N + pïnire (Conv1stEnc.080)                                                 |
-| Temporary property | N + N (DescCasMAJ.085)                                                                         | N + ADV-jra (HistAcciGrMe.02)                                                   |
-| Location           | N-LOC N (ConvAmGu.080, HistYarIrDi.0339)                                                       | N LOC pïnire (ConvAmGu.078 ), N + with COP-NEG N (HistPajIrDi.081)              |
-| Existential        | N mïntë (GrMePers.077), entë N (GrMePers.087), mëtë N (GrMePers.090), N entë (CtoVarMaFl.450 ) | pïrarë N-jra (DescCasMAJ.064, DescCasMAJ.065), N entë pïrarë (HistYarIrDi.0823) |
-| Possession         | N-ke N (ConvFemGrMe.146, ConvInsectMAJ.024), t-N-ke-mï (CtoRosq.047)                           | N-ke-jra (MaPe_Pers2.58)                                                        |
+| Function           | Affirmative                                                                                                                                                                                                                          | Negative                                                                                                                                                      |
+|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Identification     | Nsubj + Npred <br> Npred + Nsubj + *manïkï* (?)                                                                                                                                                                                      | Npred + *pïnirë* + Nsubj                                                                                                                                      |
+| Categorization     | Nsubj + Npred                                                                                                                                                                                                                        | Npred + *pïnirë* + Nsubj                                                                                                                                      |
+| Permanent property | Nsubj + Npred <br> Nsubj + Npred  + *manïkï* <br> <span class='smallcaps'>adv</span> + Nsubj + <span class='smallcaps'>cop</span> <br> <span class='smallcaps'>adv</span>[Morpheme minmlz](MorphsetTable?no_translation#cldf:minmlz) | Npred + *pïnirë* + Nsubj <br> Nsubj + Npred + *pïnirë*                                                                                                        |
+| Temporary property | Nsubj + Npred                                                                                                                                                                                                                        | N + <span class='smallcaps'>adv</span>[Morpheme jraneg](MorphsetTable?no_translation#cldf:jraneg)                                                             |
+| Location           | <span class='smallcaps'>loc</span> + N <br> <span class='smallcaps'>loc</span> + N                                                                                                                                                   | N + <span class='smallcaps'>loc</span> + *pïnirë* <br> N + [Morpheme akere-with](MorphsetTable?#cldf:akere-with) + <span class='smallcaps'>cop-neg</span> + N |
+| Existential        | N + *mïntë* <br> *entë* + N <br> *mëtë* + N <br> N + *entë* + <span class='smallcaps'>cop</span> (?)                                                                                                                                 | *pïrarë* + N[Morpheme jraneg](MorphsetTable?no_translation#cldf:jraneg) <br> N + *entë* + *pïrarë*                                                            |
+| Possession         | <span class='smallcaps'>adv</span> + <span class='smallcaps'>cop</span> <br> <span class='smallcaps'>adv</span>[Morpheme minmlz](MorphsetTable?no_translation#cldf:minmlz) (+N)                                                      | N[Morpheme keprop](MorphsetTable?no_translation#cldf:keprop)[Morpheme jraneg](MorphsetTable?no_translation#cldf:jraneg)                                       |
+## Identification
+### Affirmative
+* Nsubj + Npred:
+[Example convcosnoind-37](ExampleTable?example_counter=25#cldf:convcosnoind-37)
+* Npred + Nsubj + *manïkï* (?):
+[Example ctovarmafl-315](ExampleTable?example_counter=26#cldf:ctovarmafl-315)
+### Negative
+* Npred + *pïnirë* + Nsubj:
+[Example convamgu-42](ExampleTable?example_counter=27#cldf:convamgu-42)
+
+## Categorization
+### Affirmative
+* Nsubj + Npred:
+[Example hist2mape-21](ExampleTable?example_counter=28#cldf:hist2mape-21)
+### Negative
+* Npred + *pïnirë* + Nsubj:
+[Example histyarirdi-623](ExampleTable?example_counter=29#cldf:histyarirdi-623)
+
+## Permanent property
+### Affirmative
+* Nsubj + Npred:
+[Example convinsectmaj-118](ExampleTable?example_counter=30#cldf:convinsectmaj-118)
+* Nsubj + Npred  + *manïkï*:
+[Example convinsectmaj-108,histpajirdi-271](ExampleTable?ids=convinsectmaj-108,histpajirdi-271&example_counter=31#cldf:__all__)
+* <span class='smallcaps'>adv</span> + Nsubj + <span class='smallcaps'>cop</span>:
+[Example convcosnoind-116](ExampleTable?example_counter=32#cldf:convcosnoind-116)
+* <span class='smallcaps'>adv</span>[Morpheme minmlz](MorphsetTable?no_translation#cldf:minmlz):
+[Example conv1stenc-80](ExampleTable?example_counter=33#cldf:conv1stenc-80)
+### Negative
+* Npred + *pïnirë* + Nsubj:
+[Example ctovarmafl-64](ExampleTable?example_counter=34#cldf:ctovarmafl-64)
+* Nsubj + Npred + *pïnirë*:
+[Example descmensgrme-67](ExampleTable?example_counter=35#cldf:descmensgrme-67)
+
+## Temporary property
+### Affirmative
+* Nsubj + Npred:
+[Example desccasmaj-85](ExampleTable?example_counter=36#cldf:desccasmaj-85)
+### Negative
+* N + <span class='smallcaps'>adv</span>[Morpheme jraneg](MorphsetTable?no_translation#cldf:jraneg):
+[Example histaccigrme-2](ExampleTable?example_counter=37#cldf:histaccigrme-2)
+
+## Location
+### Affirmative
+* <span class='smallcaps'>loc</span> + N:
+[Example convamgu-80,histyarirdi-339](ExampleTable?ids=convamgu-80,histyarirdi-339&example_counter=38#cldf:__all__)
+### Negative
+* N + <span class='smallcaps'>loc</span> + *pïnirë*:
+[Example convamgu-78](ExampleTable?example_counter=39#cldf:convamgu-78)
+* N + [Morpheme akere-with](MorphsetTable?#cldf:akere-with) + <span class='smallcaps'>cop-neg</span> + N:
+[Example histpajirdi-81](ExampleTable?example_counter=40#cldf:histpajirdi-81)
+
+## Existential
+### Affirmative
+* N + *mïntë*:
+[Example histgrme-76](ExampleTable?example_counter=41#cldf:histgrme-76)
+* *entë* + N:
+[Example histgrme-86](ExampleTable?example_counter=42#cldf:histgrme-86)
+* *mëtë* + N:
+[Example histgrme-89](ExampleTable?example_counter=43#cldf:histgrme-89)
+* N + *entë* + <span class='smallcaps'>cop</span> (?):
+[Example ctovarmafl-453](ExampleTable?example_counter=44#cldf:ctovarmafl-453)
+### Negative
+* *pïrarë* + N[Morpheme jraneg](MorphsetTable?no_translation#cldf:jraneg):
+[Example desccasmaj-64,desccasmaj-65](ExampleTable?ids=desccasmaj-64,desccasmaj-65&example_counter=45#cldf:__all__)
+* N + *entë* + *pïrarë*:
+[Example histyarirdi-823](ExampleTable?example_counter=46#cldf:histyarirdi-823)
+
+## Possession
+### Affirmative
+* <span class='smallcaps'>adv</span> + <span class='smallcaps'>cop</span>:
+[Example convfemgrme-146](ExampleTable?example_counter=47#cldf:convfemgrme-146)
+* <span class='smallcaps'>adv</span>[Morpheme minmlz](MorphsetTable?no_translation#cldf:minmlz) (+N):
+[Example convinsectmaj-24,ctorosq-47](ExampleTable?ids=convinsectmaj-24,ctorosq-47&example_counter=48#cldf:__all__)
+### Negative
+* N[Morpheme keprop](MorphsetTable?no_translation#cldf:keprop)[Morpheme jraneg](MorphsetTable?no_translation#cldf:jraneg):
+[Example hist2mape-58](ExampleTable?example_counter=49#cldf:hist2mape-58)
 

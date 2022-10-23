@@ -90,7 +90,7 @@ Some examples are shown in [exref](ctorat-23?end=lastex).
 
 [ex](convrisamaj-28)
 
-[ex](desccasmaj-025)
+[ex](desccasmaj-25)
 
 [ex](ctorat-46)
 

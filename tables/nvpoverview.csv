@@ -1,8 +1,8 @@
 Function,Affirmative,Negative
-Identification,N + N,N + N + *pïnirë*
-Categorization,N + N,(N +?) N + *pïnirë*
-Permanent property,[gl](adv) + N + [gl](cop) <br> [gl](adv)[mp](minmlz?nt),N + *pïnirë*
-Temporary property,N + N,N + [gl](adv)[mp](jraneg?nt)
-Location,[gl](loc) + N,N + [gl](loc) + *pïnirë* <br> N + [mp](akere-with) + [gl](cop-neg) + N
-Existential,N + *mïntë* <br> *entë* + N <br>*mëtë* + N <br> N + *entë* + [gl](cop)?,*pïrarë* + N[mp](jraneg?nt) <br> N + *entë* + *pïrarë*
-Possession,N[mp](keprop?nt) + [gl](cop) <br> [gl](adv)[mp](minmlz?nt),N[mp](keprop?nt)[mp](jraneg?nt)
+Identification,Nsubj + Npred <br> Npred + Nsubj + *manïkï* (?),Npred + *pïnirë* + Nsubj
+Categorization,Nsubj + Npred,Npred + *pïnirë* + Nsubj
+Permanent property,Nsubj + Npred <br> Nsubj + Npred  + *manïkï* <br> [gl](adv) + Nsubj + [gl](cop) <br> [gl](adv)[mp](minmlz?nt),Npred + *pïnirë* + Nsubj <br> Nsubj + Npred + *pïnirë*
+Temporary property,Nsubj + Npred,N + [gl](adv)[mp](jraneg?nt)
+Location,[gl](loc) + N <br> [gl](loc) + N,N + [gl](loc) + *pïnirë* <br> N + [mp](akere-with) + [gl](cop-neg) + N
+Existential,N + *mïntë* <br> *entë* + N <br> *mëtë* + N <br> N + *entë* + [gl](cop) (?),*pïrarë* + N[mp](jraneg?nt) <br> N + *entë* + *pïrarë*
+Possession,[gl](adv) + [gl](cop) <br> [gl](adv)[mp](minmlz?nt) (+N),N[mp](keprop?nt)[mp](jraneg?nt)
