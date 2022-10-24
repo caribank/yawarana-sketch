@@ -20,100 +20,130 @@ Innovations:
 * What is word order doing?
 
 
+**First impressions:**
+
+* Order in N + N is variable -- tendency to place demonstrative subjects at end?
+* No copula with nominal predicates
+* negation [Morpheme jraneg](MorphsetTable?#cldf:jraneg) for adverbial, [Morpheme pinire-nothing](MorphsetTable?#cldf:pinire-nothing) for nominal predicates ([Morpheme pirare-nothing](MorphsetTable?#cldf:pirare-nothing) for existentials)
+* [Morpheme maniki-rel-anim](MorphsetTable?#cldf:maniki-rel-anim) in N + N constructions
+
+
 
 <a id='tab:nvpoverview'></a><div class='caption table' id='tab:nvpoverview'>An overview of nonverbal predication</div>
 
-| Function                                                                                                                             | Affirmative                                                                                                                                                                                                                          | Negative                                                                                                                                                      |
-|:-------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Identification (<a href='#nvp-id' class='crossref' name='nvp-id' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>)         | Nsubj + Npred <br> Npred + Nsubj + *manïkï* (?)                                                                                                                                                                                      | Npred + *pïnirë* + Nsubj                                                                                                                                      |
-| Categorization (<a href='#nvp-cat' class='crossref' name='nvp-cat' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>)       | Nsubj + Npred                                                                                                                                                                                                                        | Npred + *pïnirë* + Nsubj                                                                                                                                      |
-| Permanent property (<a href='#nvp-perm' class='crossref' name='nvp-perm' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>) | Nsubj + Npred <br> Nsubj + Npred  + *manïkï* <br> <span class='smallcaps'>adv</span> + Nsubj + <span class='smallcaps'>cop</span> <br> <span class='smallcaps'>adv</span>[Morpheme minmlz](MorphsetTable?no_translation#cldf:minmlz) | Npred + *pïnirë* + Nsubj <br> Nsubj + Npred + *pïnirë*                                                                                                        |
-| Temporary property (<a href='#nvp-temp' class='crossref' name='nvp-temp' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>) | Nsubj + Npred                                                                                                                                                                                                                        | N + <span class='smallcaps'>adv</span>[Morpheme jraneg](MorphsetTable?no_translation#cldf:jraneg)                                                             |
-| Location (<a href='#nvp-loc' class='crossref' name='nvp-loc' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>)             | <span class='smallcaps'>loc</span> + N <br> <span class='smallcaps'>loc</span> + N                                                                                                                                                   | N + <span class='smallcaps'>loc</span> + *pïnirë* <br> N + [Morpheme akere-with](MorphsetTable?#cldf:akere-with) + <span class='smallcaps'>cop-neg</span> + N |
-| Existential (<a href='#nvp-ex' class='crossref' name='nvp-ex' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>)            | N + *mïntë* <br> *entë* + N <br> *mëtë* + N <br> N + *entë* + <span class='smallcaps'>cop</span> (?)                                                                                                                                 | *pïrarë* + N[Morpheme jraneg](MorphsetTable?no_translation#cldf:jraneg) <br> N + *entë* + *pïrarë*                                                            |
-| Possession (<a href='#nvp-poss' class='crossref' name='nvp-poss' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>)         | <span class='smallcaps'>adv</span> + Nsubj + <span class='smallcaps'>cop</span> <br> <span class='smallcaps'>adv</span>[Morpheme minmlz](MorphsetTable?no_translation#cldf:minmlz) (+N)                                              | N[Morpheme keprop](MorphsetTable?no_translation#cldf:keprop)[Morpheme jraneg](MorphsetTable?no_translation#cldf:jraneg)                                       |
+| Function                                                                                                                             | Affirmative                                                                                                                            | Negative                                                                              | Interrogative                          |
+|:-------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:---------------------------------------|
+| Identification (<a href='#nvp-id' class='crossref' name='nvp-id' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>)         | N<sub>sb</sub> N<sub>pr</sub> <br> N<sub>pr</sub> N<sub>sb</sub> <br> N<sub>pr</sub> <br> ?                                            | N<sub>pr</sub> *pïnirë* N<sub>sb</sub> <br> N<sub>pr</sub>                            | N<sub>pr</sub> N<sub>sb</sub> *manïkï* |
+| Categorization (<a href='#nvp-cat' class='crossref' name='nvp-cat' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>)       | N<sub>pr</sub> N<sub>sb</sub> *manïkï* <br> N<sub>sb</sub> N<sub>pr</sub> <br> N<sub>pr</sub>                                          | N<sub>pr</sub>                                                                        |                                        |
+| Permanent property (<a href='#nvp-perm' class='crossref' name='nvp-perm' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>) | N<sub>sb</sub> N<sub>pr</sub> <br> N<sub>sb</sub> N<sub>pr</sub> *manïkï* <br> ADV<sub>pr</sub> N<sub>sb</sub> COP <br> N<sub>pr</sub> | N<sub>pr</sub> *pïnirë* N<sub>sb</sub> <br> N<sub>sb</sub> N<sub>pr</sub> *pïnirë*    |                                        |
+| Temporary property (<a href='#nvp-temp' class='crossref' name='nvp-temp' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>) | N<sub>sb</sub> N<sub>pr</sub>                                                                                                          | N<sub>sb</sub> ADV<sub>pr</sub>*-jra*                                                 | ?                                      |
+| Location (<a href='#nvp-loc' class='crossref' name='nvp-loc' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>)             | LOC<sub>pr</sub> N<sub>sb</sub>                                                                                                        | N<sub>sb</sub> LOC<sub>pr</sub> *pïnirë* <br> LOC<sub>pr</sub> COP-NEG N<sub>sb</sub> | LOC<sub>pr</sub> N<sub>sb</sub>        |
+| Existential (<a href='#nvp-ex' class='crossref' name='nvp-ex' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>)            | N<sub>pr</sub> PART <br> PART N<sub>pr</sub> <br> N<sub>sb</sub> COP PART                                                              | *pïrarë* N<sub>sb</sub>*-jra* <br> N<sub>pr</sub> PART *pïrarë*                       |                                        |
+| Possession (<a href='#nvp-poss' class='crossref' name='nvp-poss' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>)         | ADV<sub>pr</sub> N<sub>sb</sub> COP <br> N<sub>pr</sub> N<sub>sb</sub> <br> N<sub>pr</sub>                                             | ADV<sub>pr</sub>*-jra*                                                                |                                        |
+
 ## Identification {#nvp-id}
 
 ### Affirmative
-* Nsubj + Npred:
+* N<sub>sb</sub> N<sub>pr</sub>:
 [Example convcosnoind-37](ExampleTable?example_counter=25#cldf:convcosnoind-37)
-* Npred + Nsubj + *manïkï* (?):
-[Example ctovarmafl-315](ExampleTable?example_counter=26#cldf:ctovarmafl-315)
+* N<sub>pr</sub> N<sub>sb</sub>:
+[Example ctotawirdi-91,histyarirdi-54](ExampleTable?ids=ctotawirdi-91,histyarirdi-54&example_counter=26#cldf:__all__)
+* N<sub>pr</sub>:
+[Example hist2mape-22](ExampleTable?example_counter=27#cldf:hist2mape-22)
+* ?:
+[Example descmensgrme-68](ExampleTable?example_counter=28#cldf:descmensgrme-68)
 ### Negative
-* Npred + *pïnirë* + Nsubj:
-[Example convamgu-42](ExampleTable?example_counter=27#cldf:convamgu-42)
+* N<sub>pr</sub> *pïnirë* N<sub>sb</sub>:
+[Example convamgu-42](ExampleTable?example_counter=29#cldf:convamgu-42)
+* N<sub>pr</sub>:
+[Example histpajirdi-84,histyarirdi-312](ExampleTable?ids=histpajirdi-84,histyarirdi-312&example_counter=30#cldf:__all__)
+### Interrogative
+* N<sub>pr</sub> N<sub>sb</sub> *manïkï*:
+[Example histpajirdi-271](ExampleTable?example_counter=31#cldf:histpajirdi-271)
 
 ## Categorization {#nvp-cat}
 
 ### Affirmative
-* Nsubj + Npred:
-[Example hist2mape-21](ExampleTable?example_counter=28#cldf:hist2mape-21)
+* N<sub>pr</sub> N<sub>sb</sub> *manïkï*:
+[Example ctovarmafl-315](ExampleTable?example_counter=32#cldf:ctovarmafl-315)
+* N<sub>sb</sub> N<sub>pr</sub>:
+[Example hist2mape-21](ExampleTable?example_counter=33#cldf:hist2mape-21)
+* N<sub>pr</sub>:
+[Example histyarirdi-623](ExampleTable?example_counter=34#cldf:histyarirdi-623)
 ### Negative
-* Npred + *pïnirë* + Nsubj:
-[Example histyarirdi-623](ExampleTable?example_counter=29#cldf:histyarirdi-623)
+* N<sub>pr</sub>:
+[Example histyarirdi-623](ExampleTable?example_counter=35#cldf:histyarirdi-623)
 
 ## Permanent property {#nvp-perm}
 
 ### Affirmative
-* Nsubj + Npred:
-[Example convinsectmaj-118](ExampleTable?example_counter=30#cldf:convinsectmaj-118)
-* Nsubj + Npred  + *manïkï*:
-[Example convinsectmaj-108,histpajirdi-271](ExampleTable?ids=convinsectmaj-108,histpajirdi-271&example_counter=31#cldf:__all__)
-* <span class='smallcaps'>adv</span> + Nsubj + <span class='smallcaps'>cop</span>:
-[Example convcosnoind-116](ExampleTable?example_counter=32#cldf:convcosnoind-116)
-* <span class='smallcaps'>adv</span>[Morpheme minmlz](MorphsetTable?no_translation#cldf:minmlz):
-[Example conv1stenc-80](ExampleTable?example_counter=33#cldf:conv1stenc-80)
+* N<sub>sb</sub> N<sub>pr</sub>:
+[Example convinsectmaj-118](ExampleTable?example_counter=36#cldf:convinsectmaj-118)
+* N<sub>sb</sub> N<sub>pr</sub> *manïkï*:
+[Example convinsectmaj-108](ExampleTable?example_counter=37#cldf:convinsectmaj-108)
+* ADV<sub>pr</sub> N<sub>sb</sub> COP:
+[Example convcosnoind-116](ExampleTable?example_counter=38#cldf:convcosnoind-116)
+* N<sub>pr</sub>:
+[Example conv1stenc-80](ExampleTable?example_counter=39#cldf:conv1stenc-80)
 ### Negative
-* Npred + *pïnirë* + Nsubj:
-[Example ctovarmafl-64](ExampleTable?example_counter=34#cldf:ctovarmafl-64)
-* Nsubj + Npred + *pïnirë*:
-[Example descmensgrme-67](ExampleTable?example_counter=35#cldf:descmensgrme-67)
+* N<sub>pr</sub> *pïnirë* N<sub>sb</sub>:
+[Example ctovarmafl-64](ExampleTable?example_counter=40#cldf:ctovarmafl-64)
+* N<sub>sb</sub> N<sub>pr</sub> *pïnirë*:
+[Example descmensgrme-67](ExampleTable?example_counter=41#cldf:descmensgrme-67)
 
 ## Temporary property {#nvp-temp}
 
 ### Affirmative
-* Nsubj + Npred:
-[Example desccasmaj-85](ExampleTable?example_counter=36#cldf:desccasmaj-85)
+* N<sub>sb</sub> N<sub>pr</sub>:
+[Example desccasmaj-85](ExampleTable?example_counter=42#cldf:desccasmaj-85)
 ### Negative
-* N + <span class='smallcaps'>adv</span>[Morpheme jraneg](MorphsetTable?no_translation#cldf:jraneg):
-[Example histaccigrme-2](ExampleTable?example_counter=37#cldf:histaccigrme-2)
+* N<sub>sb</sub> ADV<sub>pr</sub>*-jra*:
+[Example histaccigrme-2](ExampleTable?example_counter=43#cldf:histaccigrme-2)
+### Interrogative
+* ?:
+[Example convamgu-165](ExampleTable?example_counter=44#cldf:convamgu-165)
 
 ## Location {#nvp-loc}
 
 ### Affirmative
-* <span class='smallcaps'>loc</span> + N:
-[Example convamgu-80,histyarirdi-339](ExampleTable?ids=convamgu-80,histyarirdi-339&example_counter=38#cldf:__all__)
+* LOC<sub>pr</sub> N<sub>sb</sub>:
+[Example convamgu-80,histyarirdi-339](ExampleTable?ids=convamgu-80,histyarirdi-339&example_counter=45#cldf:__all__)
 ### Negative
-* N + <span class='smallcaps'>loc</span> + *pïnirë*:
-[Example convamgu-78](ExampleTable?example_counter=39#cldf:convamgu-78)
-* N + [Morpheme akere-with](MorphsetTable?#cldf:akere-with) + <span class='smallcaps'>cop-neg</span> + N:
-[Example histpajirdi-81](ExampleTable?example_counter=40#cldf:histpajirdi-81)
+* N<sub>sb</sub> LOC<sub>pr</sub> *pïnirë*:
+[Example convamgu-78](ExampleTable?example_counter=46#cldf:convamgu-78)
+* LOC<sub>pr</sub> COP-NEG N<sub>sb</sub>:
+[Example histpajirdi-81](ExampleTable?example_counter=47#cldf:histpajirdi-81)
+### Interrogative
+* LOC<sub>pr</sub> N<sub>sb</sub>:
+[Example histyarirdi-513](ExampleTable?example_counter=48#cldf:histyarirdi-513)
 
 ## Existential {#nvp-ex}
 
 ### Affirmative
-* N + *mïntë*:
-[Example histgrme-76](ExampleTable?example_counter=41#cldf:histgrme-76)
-* *entë* + N:
-[Example histgrme-86](ExampleTable?example_counter=42#cldf:histgrme-86)
-* *mëtë* + N:
-[Example histgrme-89](ExampleTable?example_counter=43#cldf:histgrme-89)
-* N + *entë* + <span class='smallcaps'>cop</span> (?):
-[Example ctovarmafl-453](ExampleTable?example_counter=44#cldf:ctovarmafl-453)
+* N<sub>pr</sub> PART:
+[Example histgrme-76](ExampleTable?example_counter=49#cldf:histgrme-76)
+* PART N<sub>pr</sub>:
+[Example histgrme-86](ExampleTable?example_counter=50#cldf:histgrme-86)
+* PART N<sub>pr</sub>:
+[Example histgrme-89](ExampleTable?example_counter=51#cldf:histgrme-89)
+* N<sub>sb</sub> COP PART:
+[Example ctovarmafl-453](ExampleTable?example_counter=52#cldf:ctovarmafl-453)
 ### Negative
-* *pïrarë* + N[Morpheme jraneg](MorphsetTable?no_translation#cldf:jraneg):
-[Example desccasmaj-64,desccasmaj-65](ExampleTable?ids=desccasmaj-64,desccasmaj-65&example_counter=45#cldf:__all__)
-* N + *entë* + *pïrarë*:
-[Example histyarirdi-823](ExampleTable?example_counter=46#cldf:histyarirdi-823)
+* *pïrarë* N<sub>sb</sub>*-jra*:
+[Example desccasmaj-64,desccasmaj-65](ExampleTable?ids=desccasmaj-64,desccasmaj-65&example_counter=53#cldf:__all__)
+* N<sub>pr</sub> PART *pïrarë*:
+[Example histyarirdi-823](ExampleTable?example_counter=54#cldf:histyarirdi-823)
 
 ## Possession {#nvp-poss}
 
 ### Affirmative
-* <span class='smallcaps'>adv</span> + Nsubj + <span class='smallcaps'>cop</span>:
-[Example convfemgrme-146](ExampleTable?example_counter=47#cldf:convfemgrme-146)
-* <span class='smallcaps'>adv</span>[Morpheme minmlz](MorphsetTable?no_translation#cldf:minmlz) (+N):
-[Example convinsectmaj-24,ctorosq-47](ExampleTable?ids=convinsectmaj-24,ctorosq-47&example_counter=48#cldf:__all__)
+* ADV<sub>pr</sub> N<sub>sb</sub> COP:
+[Example convfemgrme-146](ExampleTable?example_counter=55#cldf:convfemgrme-146)
+* N<sub>pr</sub> N<sub>sb</sub>:
+[Example convinsectmaj-24](ExampleTable?example_counter=56#cldf:convinsectmaj-24)
+* N<sub>pr</sub>:
+[Example ctorosq-47](ExampleTable?example_counter=57#cldf:ctorosq-47)
 ### Negative
-* N[Morpheme keprop](MorphsetTable?no_translation#cldf:keprop)[Morpheme jraneg](MorphsetTable?no_translation#cldf:jraneg):
-[Example hist2mape-58](ExampleTable?example_counter=49#cldf:hist2mape-58)
+* ADV<sub>pr</sub>*-jra*:
+[Example hist2mape-58](ExampleTable?example_counter=58#cldf:hist2mape-58)
 

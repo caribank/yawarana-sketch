@@ -1,8 +1,8 @@
-Function,Affirmative,Negative
-Identification ([ref](nvp-id)),Nsubj + Npred <br> Npred + Nsubj + *manïkï* (?),Npred + *pïnirë* + Nsubj
-Categorization ([ref](nvp-cat)),Nsubj + Npred,Npred + *pïnirë* + Nsubj
-Permanent property ([ref](nvp-perm)),Nsubj + Npred <br> Nsubj + Npred  + *manïkï* <br> [gl](adv) + Nsubj + [gl](cop) <br> [gl](adv)[mp](minmlz?nt),Npred + *pïnirë* + Nsubj <br> Nsubj + Npred + *pïnirë*
-Temporary property ([ref](nvp-temp)),Nsubj + Npred,N + [gl](adv)[mp](jraneg?nt)
-Location ([ref](nvp-loc)),[gl](loc) + N <br> [gl](loc) + N,N + [gl](loc) + *pïnirë* <br> N + [mp](akere-with) + [gl](cop-neg) + N
-Existential ([ref](nvp-ex)),N + *mïntë* <br> *entë* + N <br> *mëtë* + N <br> N + *entë* + [gl](cop) (?),*pïrarë* + N[mp](jraneg?nt) <br> N + *entë* + *pïrarë*
-Possession ([ref](nvp-poss)),[gl](adv) + Nsubj + [gl](cop) <br> [gl](adv)[mp](minmlz?nt) (+N),N[mp](keprop?nt)[mp](jraneg?nt)
+Function,Affirmative,Negative,Interrogative
+Identification ([ref](nvp-id)),N<sub>sb</sub> N<sub>pr</sub> <br> N<sub>pr</sub> N<sub>sb</sub> <br> N<sub>pr</sub> <br> ?,N<sub>pr</sub> *pïnirë* N<sub>sb</sub> <br> N<sub>pr</sub>,N<sub>pr</sub> N<sub>sb</sub> *manïkï*
+Categorization ([ref](nvp-cat)),N<sub>pr</sub> N<sub>sb</sub> *manïkï* <br> N<sub>sb</sub> N<sub>pr</sub> <br> N<sub>pr</sub>,N<sub>pr</sub>,
+Permanent property ([ref](nvp-perm)),N<sub>sb</sub> N<sub>pr</sub> <br> N<sub>sb</sub> N<sub>pr</sub> *manïkï* <br> ADV<sub>pr</sub> N<sub>sb</sub> COP <br> N<sub>pr</sub>,N<sub>pr</sub> *pïnirë* N<sub>sb</sub> <br> N<sub>sb</sub> N<sub>pr</sub> *pïnirë*,
+Temporary property ([ref](nvp-temp)),N<sub>sb</sub> N<sub>pr</sub>,N<sub>sb</sub> ADV<sub>pr</sub>*-jra*,?
+Location ([ref](nvp-loc)),LOC<sub>pr</sub> N<sub>sb</sub>,N<sub>sb</sub> LOC<sub>pr</sub> *pïnirë* <br> LOC<sub>pr</sub> COP-NEG N<sub>sb</sub>,LOC<sub>pr</sub> N<sub>sb</sub>
+Existential ([ref](nvp-ex)),N<sub>pr</sub> PART <br> PART N<sub>pr</sub> <br> N<sub>sb</sub> COP PART,*pïrarë* N<sub>sb</sub>*-jra* <br> N<sub>pr</sub> PART *pïrarë*,
+Possession ([ref](nvp-poss)),ADV<sub>pr</sub> N<sub>sb</sub> COP <br> N<sub>pr</sub> N<sub>sb</sub> <br> N<sub>pr</sub>,ADV<sub>pr</sub>*-jra*,

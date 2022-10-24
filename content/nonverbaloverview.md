@@ -1,85 +1,107 @@
 [table](nvpoverview)
+
 ## Identification [label](nvp-id)
 
 ### Affirmative
-* Nsubj + Npred:
+* N<sub>sb</sub> N<sub>pr</sub>:
 [ex](convcosnoind-37)
-* Npred + Nsubj + *manïkï* (?):
-[ex](ctovarmafl-315)
+* N<sub>pr</sub> N<sub>sb</sub>:
+[ex](ctotawirdi-91,histyarirdi-54)
+* N<sub>pr</sub>:
+[ex](hist2mape-22)
+* ?:
+[ex](descmensgrme-68)
 ### Negative
-* Npred + *pïnirë* + Nsubj:
+* N<sub>pr</sub> *pïnirë* N<sub>sb</sub>:
 [ex](convamgu-42)
+* N<sub>pr</sub>:
+[ex](histpajirdi-84,histyarirdi-312)
+### Interrogative
+* N<sub>pr</sub> N<sub>sb</sub> *manïkï*:
+[ex](histpajirdi-271)
 
 ## Categorization [label](nvp-cat)
 
 ### Affirmative
-* Nsubj + Npred:
+* N<sub>pr</sub> N<sub>sb</sub> *manïkï*:
+[ex](ctovarmafl-315)
+* N<sub>sb</sub> N<sub>pr</sub>:
 [ex](hist2mape-21)
+* N<sub>pr</sub>:
+[ex](histyarirdi-623)
 ### Negative
-* Npred + *pïnirë* + Nsubj:
+* N<sub>pr</sub>:
 [ex](histyarirdi-623)
 
 ## Permanent property [label](nvp-perm)
 
 ### Affirmative
-* Nsubj + Npred:
+* N<sub>sb</sub> N<sub>pr</sub>:
 [ex](convinsectmaj-118)
-* Nsubj + Npred  + *manïkï*:
-[ex](convinsectmaj-108,histpajirdi-271)
-* [gl](adv) + Nsubj + [gl](cop):
+* N<sub>sb</sub> N<sub>pr</sub> *manïkï*:
+[ex](convinsectmaj-108)
+* ADV<sub>pr</sub> N<sub>sb</sub> COP:
 [ex](convcosnoind-116)
-* [gl](adv)[mp](minmlz?nt):
+* N<sub>pr</sub>:
 [ex](conv1stenc-80)
 ### Negative
-* Npred + *pïnirë* + Nsubj:
+* N<sub>pr</sub> *pïnirë* N<sub>sb</sub>:
 [ex](ctovarmafl-64)
-* Nsubj + Npred + *pïnirë*:
+* N<sub>sb</sub> N<sub>pr</sub> *pïnirë*:
 [ex](descmensgrme-67)
 
 ## Temporary property [label](nvp-temp)
 
 ### Affirmative
-* Nsubj + Npred:
+* N<sub>sb</sub> N<sub>pr</sub>:
 [ex](desccasmaj-85)
 ### Negative
-* N + [gl](adv)[mp](jraneg?nt):
+* N<sub>sb</sub> ADV<sub>pr</sub>*-jra*:
 [ex](histaccigrme-2)
+### Interrogative
+* ?:
+[ex](convamgu-165)
 
 ## Location [label](nvp-loc)
 
 ### Affirmative
-* [gl](loc) + N:
+* LOC<sub>pr</sub> N<sub>sb</sub>:
 [ex](convamgu-80,histyarirdi-339)
 ### Negative
-* N + [gl](loc) + *pïnirë*:
+* N<sub>sb</sub> LOC<sub>pr</sub> *pïnirë*:
 [ex](convamgu-78)
-* N + [mp](akere-with) + [gl](cop-neg) + N:
+* LOC<sub>pr</sub> COP-NEG N<sub>sb</sub>:
 [ex](histpajirdi-81)
+### Interrogative
+* LOC<sub>pr</sub> N<sub>sb</sub>:
+[ex](histyarirdi-513)
 
 ## Existential [label](nvp-ex)
 
 ### Affirmative
-* N + *mïntë*:
+* N<sub>pr</sub> PART:
 [ex](histgrme-76)
-* *entë* + N:
+* PART N<sub>pr</sub>:
 [ex](histgrme-86)
-* *mëtë* + N:
+* PART N<sub>pr</sub>:
 [ex](histgrme-89)
-* N + *entë* + [gl](cop) (?):
+* N<sub>sb</sub> COP PART:
 [ex](ctovarmafl-453)
 ### Negative
-* *pïrarë* + N[mp](jraneg?nt):
+* *pïrarë* N<sub>sb</sub>*-jra*:
 [ex](desccasmaj-64,desccasmaj-65)
-* N + *entë* + *pïrarë*:
+* N<sub>pr</sub> PART *pïrarë*:
 [ex](histyarirdi-823)
 
 ## Possession [label](nvp-poss)
 
 ### Affirmative
-* [gl](adv) + Nsubj + [gl](cop):
+* ADV<sub>pr</sub> N<sub>sb</sub> COP:
 [ex](convfemgrme-146)
-* [gl](adv)[mp](minmlz?nt) (+N):
-[ex](convinsectmaj-24,ctorosq-47)
+* N<sub>pr</sub> N<sub>sb</sub>:
+[ex](convinsectmaj-24)
+* N<sub>pr</sub>:
+[ex](ctorosq-47)
 ### Negative
-* N[mp](keprop?nt)[mp](jraneg?nt):
+* ADV<sub>pr</sub>*-jra*:
 [ex](hist2mape-58)

@@ -19,3 +19,11 @@ Innovations:
     * Negation
 * What are particles doing?
 * What is word order doing?
+
+
+**First impressions:**
+
+* Order in N + N is variable -- tendency to place demonstrative subjects at end?
+* No copula with nominal predicates
+* negation [mp](jraneg) for adverbial, [mp](pinire-nothing) for nominal predicates ([mp](pirare-nothing) for existentials)
+* [mp](maniki-rel-anim) in N + N constructions
