@@ -148,3 +148,4 @@ candidates:
     * _-imë_: e.g., _wara_ 'woman' _waraimë_ 'married woman' (dictionary)
 * What about [mp](jpenmlz) on [gl](ad) forms? Does it derive a noun?
     * histyarirdi-0592 _pata penarëjpë_
+
