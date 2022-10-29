@@ -1,0 +1,26 @@
+,id,cat,perm,temp,loc,ex,poss
+[gl](np)<sub>[gl](subj)</sub> [gl](np)<sub>[gl](pred)</sub>,✓,✓,✓,✓,,,
+[gl](np)<sub>[gl](pred)</sub>,✓,✓,✓,,,,✓
+[gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub>,✓ / /,,,,,,✓
+[gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> *manïkï*,,✓,,,,,
+[gl](adv)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop),,✓,✓,✓,,,✓
+[gl](np)<sub>[gl](subj)</sub> [gl](np)<sub>[gl](pred)</sub> *manïkï*,,,✓,,,,
+[gl](np)<sub>[gl](subj)</sub> *mïntë*,,,,,✓,,
+[gl](np)<sub>[gl](subj)</sub> *mëtë*,,,,,✓,,
+*mïntë* [gl](np)<sub>[gl](subj)</sub> [gl](cop),,,,,✓ /,,
+[gl](np)<sub>[gl](subj)</sub> [gl](cop) *mïntë*,,,,,✓ / /,✓,
+[gl](np)<sub>[gl](subj)</sub> [gl](cop) [gl](loc)<sub>[gl](pred)</sub>,,,,,✓,,
+*ijtë* [gl](cop),,,,,✓,,
+[gl](np)<sub>[gl](subj)</sub> *mëtë* [gl](cop),,,,,,✓ /,
+*mëtë* [gl](np)<sub>[gl](pred)</sub>,,,,,✓,✓ /,
+*entë* [gl](cop),,,,,✓,,
+[gl](np)<sub>[gl](subj)</sub> *entë*,,,,,✓,,
+*entë* [gl](np)<sub>[gl](pred)</sub>,,,,,✓ /,✓,
+ente+nsubj+cop,,,,,✓ /,,
+[gl](loc)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop),,,,,✓ / /,,
+[gl](loc)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub>,,,,,✓ /,,
+*mïntë* [gl](np)<sub>[gl](subj)</sub>,,,,,✓,✓,
+[gl](np)<sub>[gl](subj)</sub> [gl](cop) [gl](part),,,,,,✓,
+[gl](np)<sub>[gl](pred)</sub> *mïntë*,,,,,,✓,
+*entë* *pïrarë*,,,,,,✓,
+*mëtë* [gl](np)<sub>[gl](subj)</sub> [gl](cop),,,,,,✓,

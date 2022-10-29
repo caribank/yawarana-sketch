@@ -45,3 +45,9 @@ nondecltam:
   caption: Non-declarative suffixes
 nvpoverview:
   caption: An overview of nonverbal predication
+nvp_neg:
+  caption: Semasiological overview of negated nonverbal predications
+nvp_aff:
+  caption: Semasiological overview of affirmative nonverbal predications
+nvp_q:
+  caption: Semasiological overview of interrogative nonverbal predications
