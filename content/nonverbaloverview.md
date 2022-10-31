@@ -6,168 +6,42 @@
 
 [table](nvp_q)
 
-## Identification [label](nvp-id)
-
-### Affirmative
-* [gl](np)<sub>[gl](subj)</sub> [gl](np)<sub>[gl](pred)</sub>:
-[ex](convcosnoind-37)
-* [gl](np)<sub>[gl](pred)</sub>:
-[ex](hist2mape-22)
-* [gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub>:
-[ex](descmensgrme-68,ctotawirdi-91,histyarirdi-54)
-### Negative
-* [gl](np)<sub>[gl](pred)</sub> *pïnirë*:
-[ex](histpajirdi-84,histyarirdi-312)
-* [gl](np)<sub>[gl](pred)</sub> *pïnirë* [gl](np)<sub>[gl](subj)</sub>:
-[ex](convamgu-42)
-### Interrogative
-* [gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> *manïkï*:
-[ex](histpajirdi-271)
-
-## Categorization [label](nvp-cat)
-
-### Affirmative
-* [gl](np)<sub>[gl](pred)</sub>:
-[ex](histyarirdi-623)
-* [gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> *manïkï*:
-[ex](ctovarmafl-315)
-* [gl](adv)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop):
-[ex](convhistfamsjm-92)
-* [gl](np)<sub>[gl](subj)</sub> [gl](np)<sub>[gl](pred)</sub>:
-[ex](hist2mape-21)
-### Negative
-* [gl](np)<sub>[gl](pred)</sub> *pïnirë*:
-[ex](histyarirdi-623)
-
-## Permanent property [label](nvp-perm)
-
-### Affirmative
-* [gl](np)<sub>[gl](pred)</sub>:
-[ex](conv1stenc-80)
-* [gl](adv)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop):
-[ex](convcosnoind-116)
-* [gl](np)<sub>[gl](subj)</sub> [gl](np)<sub>[gl](pred)</sub> *manïkï*:
-[ex](convinsectmaj-108)
-* [gl](np)<sub>[gl](subj)</sub> [gl](np)<sub>[gl](pred)</sub>:
-[ex](convinsectmaj-118)
-### Negative
-* [gl](np)<sub>[gl](pred)</sub> *pïnirë* [gl](np)<sub>[gl](subj)</sub>:
-[ex](ctovarmafl-64)
-* [gl](np)<sub>[gl](subj)</sub> [gl](np)<sub>[gl](pred)</sub> *pïnirë*:
-[ex](descmensgrme-67)
-
-## Temporary property [label](nvp-temp)
-
-### Affirmative
-* [gl](np)<sub>[gl](subj)</sub> [gl](np)<sub>[gl](pred)</sub>:
-[ex](desccasmaj-85)
-* [gl](adv)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop):
-[ex](convhistfamsjm-80)
-### Negative
-* [gl](np)<sub>[gl](subj)</sub> [gl](adv)<sub>[gl](pred)</sub>*-jra*:
-[ex](histaccigrme-2)
-* [gl](adv)<sub>[gl](pred)</sub> [gl](cop)-[gl](neg):
-[ex](histyarirdi-248,descmensgrme-43)
-* [gl](cop)-[gl](neg) [gl](adv)<sub>[gl](pred)</sub>:
-[ex](histyarirdi-249)
-### Interrogative
-* ?:
-[ex](convamgu-165)
-
-## Location [label](nvp-loc)
-
-### Affirmative
-* [gl](np)<sub>[gl](subj)</sub> *mïntë*:
-[ex](ctovarmafl-366)
-* [gl](np)<sub>[gl](subj)</sub> *mëtë*:
-[ex](histgrme-67,convamgu-77,convamgu-89)
-* *mïntë* [gl](np)<sub>[gl](subj)</sub> [gl](cop):
-[ex](histpajirdi-120,convhistfamsjm-92)
-* [gl](np)<sub>[gl](subj)</sub> [gl](cop) *mïntë*:
-[ex](ctorosq-17,convfemgrme-284,histgrme-17)
-* [gl](np)<sub>[gl](subj)</sub> [gl](cop) [gl](loc)<sub>[gl](pred)</sub>:
-[ex](histgrme-107)
-* *ijtë* [gl](cop):
-[ex](convfemgrme-290)
-* *entë* [gl](cop):
-[ex](convestsjm-35)
-* [gl](np)<sub>[gl](subj)</sub> *entë*:
-[ex](histanfo-1)
-* *entë* [gl](np)<sub>[gl](pred)</sub>:
-[ex](convinsectmaj-33,ctorosq-28)
-* ente+nsubj+cop:
-[ex](convamgu-101,ctovarmafl-40,convamgu-138,histyarirdi-674)
-* *mëtë* [gl](np)<sub>[gl](pred)</sub>:
-[ex](convamgu-76,convamgu-35)
-* [gl](loc)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop):
-[ex](convamgu-127,convfemgrme-157,convfemgrme-99)
-* [gl](loc)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub>:
-[ex](histyarirdi-339,convamgu-80)
-* *mïntë* [gl](np)<sub>[gl](subj)</sub>:
-[ex](histgrme-3)
-### Negative
-* *entë* [gl](cop)-[gl](neg):
-[ex](convfemgrme-235)
-* [gl](loc)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop)-[gl](neg):
-[ex](convamgu-99,ctorosq-8)
-* [gl](np)<sub>[gl](subj)</sub> [gl](cop) *pïnirë* *entë*:
-[ex](histyarirdi-489)
-* [gl](loc)<sub>[gl](pred)</sub> [gl](cop)-[gl](neg) [gl](np)<sub>[gl](subj)</sub>:
-[ex](histpajirdi-81)
-* *entë* [gl](np)<sub>[gl](subj)</sub> [gl](cop)-[gl](neg):
-[ex](convamgu-99)
-* [gl](np)<sub>[gl](subj)</sub> *mëtë* *pïnirë*:
-[ex](convamgu-78)
-### Interrogative
-* [gl](np)<sub>[gl](subj)</sub> [gl](cop) *mëtë*:
-[ex](convhistfamsjm-49,convhistfamsjm-59)
-* [gl](np)<sub>[gl](subj)</sub> *mëtë* [gl](cop):
-[ex](convhistfamsjm-95)
-* *mëtë* [gl](np)<sub>[gl](pred)</sub>:
-[ex](ctowaru-66)
-* [gl](loc)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub>:
-[ex](histyarirdi-513)
-
-## Existential [label](nvp-ex)
-
-### Affirmative
-* [gl](np)<sub>[gl](subj)</sub> [gl](cop) [gl](part):
-[ex](ctovarmafl-453)
-* [gl](np)<sub>[gl](pred)</sub> *mïntë*:
-[ex](histgrme-76)
-* *entë* [gl](np)<sub>[gl](pred)</sub>:
-[ex](histgrme-86)
-* *entë* *pïrarë*:
-[ex](convinsectmaj-18)
-* *mëtë* [gl](np)<sub>[gl](pred)</sub>:
-[ex](histgrme-89,convcosnoind-48)
-* *mëtë* [gl](np)<sub>[gl](subj)</sub> [gl](cop):
-[ex](ctovarmafl-354)
-* [gl](np)<sub>[gl](subj)</sub> *mëtë* [gl](cop):
-[ex](ctovarmafl-355,convcosnoind-49)
-* *mïntë* [gl](np)<sub>[gl](subj)</sub>:
-[ex](ctorosq-116)
-* [gl](np)<sub>[gl](subj)</sub> [gl](cop) *mïntë*:
-[ex](convfemgrme-106)
-### Negative
-* *pïrarë*:
-[ex](histyarirdi-489)
-* *pïrarë* [gl](np)<sub>[gl](subj)</sub>*-jra*:
-[ex](desccasmaj-64,desccasmaj-65)
-* *entë* *pïrarë*:
-[ex](histyarirdi-819,histyarirdi-824)
-* [gl](np)<sub>[gl](pred)</sub> *entë* *pïrarë*:
-[ex](histyarirdi-823,histyarirdi-823)
-
-## Possession [label](nvp-poss)
-
-### Affirmative
-* [gl](adv)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop):
-[ex](convfemgrme-146)
-* [gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub>:
-[ex](convinsectmaj-24)
-* [gl](np)<sub>[gl](pred)</sub>:
-[ex](ctorosq-47)
-### Negative
-* [gl](adv)<sub>[gl](pred)</sub>*-jra*:
-[ex](hist2mape-58)
+[ex](convcosnoind-37,hist2mape-22,descmensgrme-68,histyarirdi-54,ctotawirdi-91?example_id=id-aff-npred-nsubj&title=Identification%20%28affirmative%29%3A%20Npred%20%28%2B%20Nsubj%29)
+[ex](histpajirdi-84,histyarirdi-312,convamgu-42?example_id=id-neg-npred-pinire-nsubj&title=Identification%20%28negative%29%3A%20Npred%20%2Ap%C3%AFnir%C3%AB%2A%20%28%2B%20Nsubj%29)
+[ex](histpajirdi-271?example_id=id-q-npred-nsubj-maniki&title=Identification%20%28interrogative%29%3A%20Npred%20%2B%20Nsubj%20%2Aman%C3%AFk%C3%AF%2A)
+[ex](histyarirdi-623,hist2mape-21?example_id=cat-aff-npred-nsubj&title=Categorization%20%28affirmative%29%3A%20Npred%20%28%2B%20Nsubj%29)
+[ex](convhistfamsjm-92?example_id=cat-aff-npred-nsubj-cop&title=Categorization%20%28affirmative%29%3A%20Npred%20Nsubj%20COP)
+[ex](ctovarmafl-315?example_id=cat-aff-npred-nsubj-maniki&title=Categorization%20%28affirmative%29%3A%20Npred%20%2B%20Nsubj%20%2Aman%C3%AFk%C3%AF%2A)
+[ex](histyarirdi-623?example_id=cat-neg-npred-pinire-nsubj&title=Categorization%20%28negative%29%3A%20Npred%20%2Ap%C3%AFnir%C3%AB%2A%20%28%2B%20Nsubj%29)
+[ex](convcosnoind-116?example_id=perm-aff-advpred-nsubj-cop&title=Permanent%20property%20%28affirmative%29%3A%20ADVpred%20%28Nsubj%29%20COP)
+[ex](conv1stenc-80,convinsectmaj-118?example_id=perm-aff-npred-nsubj&title=Permanent%20property%20%28affirmative%29%3A%20Npred%20%28%2B%20Nsubj%29)
+[ex](convinsectmaj-108?example_id=perm-aff-npred-nsubj-maniki&title=Permanent%20property%20%28affirmative%29%3A%20Npred%20%2B%20Nsubj%20%2Aman%C3%AFk%C3%AF%2A)
+[ex](ctovarmafl-64,descmensgrme-67?example_id=perm-neg-npred-pinire-nsubj&title=Permanent%20property%20%28negative%29%3A%20Npred%20%2Ap%C3%AFnir%C3%AB%2A%20%28%2B%20Nsubj%29)
+[ex](conv1stenc-99?example_id=temp-aff-npred-cop&title=Temporary%20property%20%28affirmative%29%3A%20Npred%20COP)
+[ex](conv1stenc-99,desccasmaj-85?example_id=temp-aff-npred-nsubj&title=Temporary%20property%20%28affirmative%29%3A%20Npred%20%28%2B%20Nsubj%29)
+[ex](convhistfamsjm-80?example_id=temp-aff-npred-nsubj-cop&title=Temporary%20property%20%28affirmative%29%3A%20Npred%20Nsubj%20COP)
+[ex](histyarirdi-249,histyarirdi-248,descmensgrme-43?example_id=temp-neg-advpred-cop-neg-nsubj&title=Temporary%20property%20%28negative%29%3A%20ADVpred%20%2B%20COP-NEG%20%28%2B%20Nsubj%29)
+[ex](convestsjm-34,histaccigrme-2?example_id=temp-neg-nsubj-advpred-jra&title=Temporary%20property%20%28negative%29%3A%20%28Nsubj%29%20ADVpred%2A-jra%2A)
+[ex](convamgu-165?example_id=temp-q-npred-cop&title=Temporary%20property%20%28interrogative%29%3A%20Npred%20COP)
+[ex](convestsjm-35?example_id=loc-aff-advpred-cop&title=Location%20%28affirmative%29%3A%20ADVpred%20COP)
+[ex](convfemgrme-106?example_id=loc-aff-advpred-nsubj-cop&title=Location%20%28affirmative%29%3A%20ADVpred%20%28Nsubj%29%20COP)
+[ex](convfemgrme-157,histgrme-107,convfemgrme-292,convamgu-127,convfemgrme-99?example_id=loc-aff-locpred-cop-nsubj&title=Location%20%28affirmative%29%3A%20LOCpred%20%2B%20COP%20%28%2B%20Nsubj%29)
+[ex](convamgu-80,histyarirdi-339?example_id=loc-aff-locpred-nsubj&title=Location%20%28affirmative%29%3A%20LOCpred%20%28%2B%20Nsubj%29)
+[ex](convhistfamsjm-92,ctorosq-17,histgrme-17,convamgu-101,histyarirdi-674,convfemgrme-292,convamgu-99,ctovarmafl-40,convamgu-138?example_id=loc-aff-part-cop-nsubj&title=Location%20%28affirmative%29%3A%20PART%20%2B%20COP%20%28%2B%20Nsubj%29)
+[ex](ctovarmafl-366,convinsectmaj-33,histanfo-1,convamgu-76,convamgu-35,convhistfamsjm-95,histgrme-67,convamgu-77,convamgu-89,ctorosq-28,histgrme-3?example_id=loc-aff-part-nsubj&title=Location%20%28affirmative%29%3A%20PART%20Nsubj)
+[ex](convamgu-99,histpajirdi-81,ctorosq-8?example_id=loc-neg-locpred-cop-neg-nsubj&title=Location%20%28negative%29%3A%20LOCpred%20%2B%20COP-NEG%20%28%2B%20Nsubj%29)
+[ex](histyarirdi-489?example_id=loc-neg-nsubj-cop-pinire-part&title=Location%20%28negative%29%3A%20Nsubj%20%2B%20COP%20%2B%20%2Ap%C3%AFnir%C3%AB%2A%20%2B%20PART)
+[ex](convamgu-78?example_id=loc-neg-part-nsubj-pinire&title=Location%20%28negative%29%3A%20PART%20Nsubj%20%2Ap%C3%AFnir%C3%AB%2A)
+[ex](histyarirdi-513?example_id=loc-q-locpred-nsubj&title=Location%20%28interrogative%29%3A%20LOCpred%20%28%2B%20Nsubj%29)
+[ex](convhistfamsjm-49,convhistfamsjm-59?example_id=loc-q-part-cop-nsubj&title=Location%20%28interrogative%29%3A%20PART%20%2B%20COP%20%28%2B%20Nsubj%29)
+[ex](ctowaru-66?example_id=loc-q-part-nsubj&title=Location%20%28interrogative%29%3A%20PART%20Nsubj)
+[ex](convcosnoind-49,ctovarmafl-354,ctovarmafl-453,ctovarmafl-355,convfemgrme-284,histpajirdi-120,conv1stenc-123?example_id=ex-aff-part-cop-nsubj&title=Existential%20%28affirmative%29%3A%20PART%20%2B%20COP%20%28%2B%20Nsubj%29)
+[ex](histgrme-89,histgrme-76,histgrme-86,ctorosq-116,convcosnoind-48?example_id=ex-aff-part-nsubj&title=Existential%20%28affirmative%29%3A%20PART%20Nsubj)
+[ex](histyarirdi-819?example_id=ex-neg-part-pirare-cop-nsubj&title=Existential%20%28negative%29%3A%20PART%20%2B%20%2Ap%C3%AFrar%C3%AB%2A%20%2B%20COP%20%28%2BNsubj%29)
+[ex](histyarirdi-824,convinsectmaj-18,histyarirdi-823?example_id=ex-neg-part-pirare-nsubj&title=Existential%20%28negative%29%3A%20PART%20%2B%20%2Ap%C3%AFrar%C3%AB%2A%20%28%2BNsubj%29)
+[ex](histyarirdi-489?example_id=ex-neg-pirare&title=Existential%20%28negative%29%3A%20%2Ap%C3%AFrar%C3%AB%2A)
+[ex](desccasmaj-64,desccasmaj-65?example_id=ex-neg-pirare-nsubj-jra&title=Existential%20%28negative%29%3A%20%2Ap%C3%AFrar%C3%AB%2A%20Nsubj%2A-jra%2A)
+[ex](convfemgrme-146?example_id=poss-aff-advpred-nsubj-cop&title=Possession%20%28affirmative%29%3A%20ADVpred%20%28Nsubj%29%20COP)
+[ex](ctorosq-47,convinsectmaj-24?example_id=poss-aff-npred-nsubj&title=Possession%20%28affirmative%29%3A%20Npred%20%28%2B%20Nsubj%29)
+[ex](hist2mape-58?example_id=poss-neg-nsubj-advpred-jra&title=Possession%20%28negative%29%3A%20%28Nsubj%29%20ADVpred%2A-jra%2A)
+[ex](convfemgrme-229?example_id=poss-neg-part-pinire-nsubj&title=Possession%20%28negative%29%3A%20PART%20%2B%20p%C3%AFnir%C3%AB%20%28%2BNsubj%29)

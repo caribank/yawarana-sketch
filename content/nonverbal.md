@@ -22,3 +22,6 @@
 * No copula with nominal or locative predicates, only adverbial ones?
 * negation [mp](jraneg) for adverbial, [mp](pinire-nothing) for nominal predicates ([mp](pirare-nothing) for existentials)
 * [mp](maniki-rel-anim) in N + N constructions
+
+## Questions
+* how to analyze 'close to LOC' constructions? [wf](teijpo?translation=far) seems to be an adverb.
