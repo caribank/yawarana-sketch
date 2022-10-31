@@ -4,8 +4,8 @@
 [gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop),,✓ [exref](cat-aff-npred-nsubj-cop),,✓ [exref](temp-aff-npred-nsubj-cop),,,
 [gl](adv)<sub>[gl](pred)</sub> ([gl](np)<sub>[gl](subj)</sub>) [gl](cop),,,✓ [exref](perm-aff-advpred-nsubj-cop),,✓ [exref](loc-aff-advpred-nsubj-cop),,✓ [exref](poss-aff-advpred-nsubj-cop)
 [gl](np)<sub>[gl](pred)</sub> [gl](cop),,,,✓ [exref](temp-aff-npred-cop),,,
-[gl](loc)<sub>[gl](pred)</sub> + [gl](cop) (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-aff-locpred-cop-nsubj),,
+[gl](part)<sub>[gl](pred)</sub> + [gl](np)<sub>[gl](subj)</sub>,,,,,✓ [exref](loc-aff-part-nsubj),✓ [exref](ex-aff-part-nsubj),
+[gl](loc)<sub>[gl](pred)</sub> + [gl](cop) (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-aff-locpred-cop-nsubj),,✓ [exref](poss-aff-locpred-cop-nsubj)
 [gl](part)<sub>[gl](pred)</sub> + [gl](cop) (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-aff-part-cop-nsubj),✓ [exref](ex-aff-part-cop-nsubj),
-[gl](loc)<sub>[gl](pred)</sub> (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-aff-locpred-nsubj),,
-[gl](part)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub>,,,,,✓ [exref](loc-aff-part-nsubj),✓ [exref](ex-aff-part-nsubj),
 [gl](adv)<sub>[gl](pred)</sub> [gl](cop),,,,,✓ [exref](loc-aff-advpred-cop),,
+[gl](loc)<sub>[gl](pred)</sub> (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-aff-locpred-nsubj),,

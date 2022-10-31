@@ -23,5 +23,14 @@
 * negation [mp](jraneg) for adverbial, [mp](pinire-nothing) for nominal predicates ([mp](pirare-nothing) for existentials)
 * [mp](maniki-rel-anim) in N + N constructions
 
-## Questions
+## Questions & issues
 * how to analyze 'close to LOC' constructions? [wf](teijpo?translation=far) seems to be an adverb.
+* possessives vs properties? ('footed', etc.)
+* ex vs loc (largely went by translation)
+
+* the one example of [gl](np)<sub>[gl](pred)</sub> [gl](cop) is with weird 'sick':
+[ex](conv1stenc-99)
+
+## Subordination
+* [gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop) only occurs with *chi-yawë* 'when'
+* [gl](adv)<sub>[gl](pred)</sub> ([gl](np)<sub>[gl](subj)</sub>) [gl](cop) with *chi-yawë* 'when' and *chi-pëkë* 'because'
