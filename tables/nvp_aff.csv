@@ -8,4 +8,3 @@
 [gl](loc)<sub>[gl](pred)</sub> + [gl](cop) (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-aff-locpred-cop-nsubj),,✓ [exref](poss-aff-locpred-cop-nsubj)
 [gl](loc)<sub>[gl](pred)</sub> (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-aff-locpred-nsubj),,
 [gl](part)<sub>[gl](pred)</sub> + [gl](cop) (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-aff-part-cop-nsubj),✓ [exref](ex-aff-part-cop-nsubj),
-[gl](adv)<sub>[gl](pred)</sub> [gl](cop),,,,,✓ [exref](loc-aff-advpred-cop),,
