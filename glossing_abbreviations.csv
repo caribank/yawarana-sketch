@@ -100,3 +100,7 @@ voc,vocative,from flex
 o,object,from flex
 rm,remote?,from flex
 sit,situational?,from flex
+np,noun phrase,not a gloss?
+pred,predicative,not a gloss?
+subj,subject,
+part,particle,not a gloss?

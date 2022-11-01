@@ -79,17 +79,17 @@ Misc:
 * pluralization?
 * combines with [Morpheme jraneg](MorphsetTable?#cldf:jraneg):
 
-[Example convrisamaj-4](ExampleTable?example_counter=14#cldf:convrisamaj-4)
+[Example convrisamaj-4](ExampleTable?example_counter=15#cldf:convrisamaj-4)
 
 #### Semantics
 * not specified for tense, just imperfective aspect:
     * past <a class="exref" example_id="ctorat-16"cldf="../yawarana-sketch-cldf/cldf/metadata.json" ></a>
-    * future <a class="exref" example_id="convrisamaj-06"cldf="../yawarana-sketch-cldf/cldf/metadata.json" ></a>
+    * future <a class="exref" example_id="convrisamaj-6"cldf="../yawarana-sketch-cldf/cldf/metadata.json" ></a>
     * gnomic/present? <a class="exref" example_id="gnomicri"cldf="../yawarana-sketch-cldf/cldf/metadata.json" ></a>
 
-[Example ctorat-16](ExampleTable?example_counter=15#cldf:ctorat-16)
-[Example convrisamaj-6](ExampleTable?example_counter=16#cldf:convrisamaj-6)
-[Example convrisamaj-4,convrisamaj-28](ExampleTable?example_id=gnomicri&ids=convrisamaj-4,convrisamaj-28&example_counter=17#cldf:__all__)
+[Example ctorat-16](ExampleTable?example_counter=16#cldf:ctorat-16)
+[Example convrisamaj-6](ExampleTable?example_counter=17#cldf:convrisamaj-6)
+[Example convrisamaj-4,convrisamaj-28](ExampleTable?example_id=gnomicri&ids=convrisamaj-4,convrisamaj-28&example_counter=18#cldf:__all__)
 
 ### [Morpheme jpepst](MorphsetTable?no_translation#cldf:jpepst)
 
@@ -112,20 +112,20 @@ Misc:
 * negation: with [Morpheme janeg](MorphsetTable?#cldf:janeg) on lexical verb <a class="exref" example_id="ctoaragrme-38"cldf="../yawarana-sketch-cldf/cldf/metadata.json"  end="ctoaragrme-40" ></a>
 <span title='semantics?'>❓</span>
 
-[Example ctoaragrme-38](ExampleTable?example_counter=18#cldf:ctoaragrme-38)
-[Example ctoaragrme-39](ExampleTable?example_counter=19#cldf:ctoaragrme-39)
-[Example ctoaragrme-40](ExampleTable?example_counter=20#cldf:ctoaragrme-40)
+[Example ctoaragrme-38](ExampleTable?example_counter=19#cldf:ctoaragrme-38)
+[Example ctoaragrme-39](ExampleTable?example_counter=20#cldf:ctoaragrme-39)
+[Example ctoaragrme-40](ExampleTable?example_counter=21#cldf:ctoaragrme-40)
 
 * what about <a class="exref" example_id="ctorat-19"cldf="../yawarana-sketch-cldf/cldf/metadata.json" ></a>? is that existential negation?
 
-[Example ctorat-19](ExampleTable?example_counter=21#cldf:ctorat-19)
+[Example ctorat-19](ExampleTable?example_counter=22#cldf:ctorat-19)
 
 ### [Morpheme sareimn](MorphsetTable?no_translation#cldf:sareimn) {#sec:sareimn}
 
 * once a converb, now 'imminent future'
 
-[Example ctorat-25](ExampleTable?example_counter=22#cldf:ctorat-25)
-[Example ctoaragrme-25](ExampleTable?example_counter=23#cldf:ctoaragrme-25)
+[Example ctorat-25](ExampleTable?example_counter=23#cldf:ctorat-25)
+[Example ctoaragrme-25](ExampleTable?example_counter=24#cldf:ctoaragrme-25)
 
 
 

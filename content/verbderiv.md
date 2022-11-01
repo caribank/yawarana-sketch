@@ -31,7 +31,7 @@ None of these are productive, although there are many lexemes derived with them.
 [table](tavbz)
 
 #### _-pamï_ / _-mamï_
-[todo](check for _-pantari_)
+[todo](check for -pantari)
 [todo](check tri and way)
 
 ### Transitive
@@ -60,7 +60,7 @@ None of these are productive, although there are many lexemes derived with them.
 
 ### Transitivizing suffixes
 * _-ma_ [todo](from verbs or only nouns?)
-* [todo](_-nïkï_ / _-nïpï_ / _-nëpï_)
+* [todo](-nïkï / -nïpï / -nëpï)
 * does [mp](kavbz) go on intransitive verb stems?
 
 ### Ditransitivizing suffixes

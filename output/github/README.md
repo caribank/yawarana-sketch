@@ -62,7 +62,7 @@ phonemes in \[Table\].
 
 ### Syllable Reduction <a id='sec:sylred'><a/>
 
--   V1rV2 to V1:
+-   V<sub>1</sub>rV2 to V1:
 -   nasal assimilation
 
 #### Contexts
@@ -373,7 +373,11 @@ candidates:
     -   *-imë*: e.g., *wara* ‘woman’ *waraimë* ‘married woman’
         (dictionary)
 -   What about *-jpë* ‘PST.ACNMLZ’ on AD forms? Does it derive a noun?
-    -   histyarirdi-0592 *pata penarëjpë*
+    -   (histyarirdi-592) Yawarana
+        > <pre>
+        > pata-Ø     penarë-jpë      mëtë   ta    mërë  Cerro Muñeca  taj-toj   mare    toto        =ya  
+        > town-POSS  before-PST.PSN  there  like  2SG                 say-CIRC  IN.REL  non.indian  =ERG  
+        > ‘‘ahí se ve el sitio donde vivian, donde los criollos llama Cerro Muñeca’’</pre>
 
 # Verbal roots and stems <a id='verbderiv'><a/>
 
@@ -427,38 +431,38 @@ with them.
 
 *-ta* ‘VBZ.INTR’ derives intransitive verbs.
 
-| Base                 | Derivation |
-|:---------------------|:-----------|
-| suku-urine           |            |
-| kaimo-game           |            |
-| metej-thin           |            |
-| yoko-pimple          |            |
-| yerepunu-sick        |            |
-| wereyi-cloud         |            |
-| wanapu-savannah      |            |
-| sakau-sand           |            |
-| roko-crazy           |            |
-| punu-flesh           |            |
-| pike-fart            |            |
-| pichipichi-whitebait |            |
-| naki-thirst          |            |
-| muku-child           |            |
-| moto-worm            |            |
-| moroni-pain          |            |
-| mesuku-blood         |            |
-| kere-ripe            |            |
-| kemu-pus             |            |
-| konopo-rain          |            |
-| kawono-high          |            |
-| kampara-big          |            |
-| chekey-nit           |            |
-| chimichimi-worm-dog  |            |
-| chike-chigger        |            |
-| awochi-tumor         |            |
-| asere-dry-cough      |            |
-| aijkorono-recovered  |            |
-| ajpachi-undergrowth  |            |
-| aki-worm             |            |
+| Base | Derivation |
+|:-----|:-----------|
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
+|      |            |
 
 #### *-pamï* / *-mamï*
 
@@ -582,7 +586,7 @@ Misc:
 
 -   not specified for tense, just imperfective aspect:
     -   past \[ex:ctorat-16\]
-    -   future \[ex:convrisamaj-06\]
+    -   future \[ex:convrisamaj-6\]
     -   gnomic/present? \[ex:gnomicri\]
 
 > (ctorat-16) Yawarana
@@ -1620,7 +1624,7 @@ juxtaposition and copular constructions.
 
 # Detransitive voice <a id='voice'><a/>
 
--   functions of DETRZ
+-   functions of DETRZ:
     -   antipassive
     -   passive
     -   reflexive

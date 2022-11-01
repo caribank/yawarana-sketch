@@ -147,5 +147,4 @@ candidates:
     * discuss _pïjkë_ and _sere-kë_ 'manioc-DIM' , reference sections
     * _-imë_: e.g., _wara_ 'woman' _waraimë_ 'married woman' (dictionary)
 * What about [mp](jpenmlz) on [gl](ad) forms? Does it derive a noun?
-    * histyarirdi-0592 _pata penarëjpë_
-
+    * [ex](histyarirdi-592)

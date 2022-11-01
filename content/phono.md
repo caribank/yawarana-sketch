@@ -33,7 +33,7 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 
 ### Syllable Reduction [label](sec:sylred)
 
-* V1rV2 to V1:
+* V<sub>1</sub>rV2 to V1:
 * nasal assimilation
 
 

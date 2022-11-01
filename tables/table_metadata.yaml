@@ -41,6 +41,7 @@ tavbz:
   caption: Lexemes derived with *-ta*
   pre_cell: "[lex]("
   post_cell: ")"
+  header_column: false
 nondecltam:
   caption: Non-declarative suffixes
 nvpoverview:

@@ -52,7 +52,7 @@ Misc:
 #### Semantics
 * not specified for tense, just imperfective aspect:
     * past [exref](ctorat-16)
-    * future [exref](convrisamaj-06)
+    * future [exref](convrisamaj-6)
     * gnomic/present? [exref](gnomicri)
 
 [ex](ctorat-16)

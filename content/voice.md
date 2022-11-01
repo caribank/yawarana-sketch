@@ -1,6 +1,7 @@
 # Detransitive voice [label](voice)
 
-* functions of [gl](detrz)
+
+* functions of [gl](detrz):
     * antipassive
     * passive
     * reflexive

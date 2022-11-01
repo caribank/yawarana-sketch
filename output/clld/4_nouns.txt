@@ -213,6 +213,5 @@ candidates:
     * discuss _pïjkë_ and _sere-kë_ 'manioc-DIM' , reference sections
     * _-imë_: e.g., _wara_ 'woman' _waraimë_ 'married woman' (dictionary)
 * What about [Morpheme jpenmlz](MorphsetTable?#cldf:jpenmlz) on <span class='smallcaps'>ad</span> forms? Does it derive a noun?
-    * histyarirdi-0592 _pata penarëjpë_
-
+    * [Example histyarirdi-592](ExampleTable?example_counter=13#cldf:histyarirdi-592)
 

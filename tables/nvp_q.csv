@@ -1,9 +1,9 @@
 ,id,cat,perm,temp,loc,poss
-[gl](np)<sub>[gl](pred)</sub> (+ [gl](np)<sub>[gl](subj)</sub>),✓ [exref](id-q-npred-nsubj),✓ [exref](cat-q-npred-nsubj),,,,
-[gl](np)<sub>[gl](pred)</sub> + [gl](np)<sub>[gl](subj)</sub> *manïkï*,✓ [exref](id-q-npred-nsubj-maniki),,,,,
-[gl](adv)<sub>[gl](pred)</sub> ([gl](np)<sub>[gl](subj)</sub>),,,✓ [exref](perm-q-advpred-nsubj),,,
-[gl](np)<sub>[gl](pred)</sub> [gl](cop),,,,✓ [exref](temp-q-npred-cop),,
-[gl](part)<sub>[gl](pred)</sub> + [gl](np)<sub>[gl](subj)</sub>,,,,,✓ [exref](loc-q-part-nsubj),
-[gl](loc)<sub>[gl](pred)</sub> + [gl](cop) (+ [gl](np)<sub>[gl](subj)</sub>),,,,,,✓ [exref](poss-q-locpred-cop-nsubj)
-[gl](loc)<sub>[gl](pred)</sub> (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-q-locpred-nsubj),
-[gl](part)<sub>[gl](pred)</sub> + [gl](cop) (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-q-part-cop-nsubj),
+[gl](np)~[gl](pred)~ (+ [gl](np)~[gl](subj)~),✓ [exref](id-q-npred-nsubj),✓ [exref](cat-q-npred-nsubj),,,,
+[gl](np)~[gl](pred)~ + [gl](np)~[gl](subj)~ *manïkï*,✓ [exref](id-q-npred-nsubj-maniki),,,,,
+[gl](adv)~[gl](pred)~ ([gl](np)~[gl](subj)~),,,✓ [exref](perm-q-advpred-nsubj),,,
+[gl](np)~[gl](pred)~ [gl](cop),,,,✓ [exref](temp-q-npred-cop),,
+[gl](part)~[gl](pred)~ + [gl](np)~[gl](subj)~,,,,,✓ [exref](loc-q-part-nsubj),
+[gl](loc)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~),,,,,,✓ [exref](poss-q-locpred-cop-nsubj)
+[gl](loc)~[gl](pred)~ (+ [gl](np)~[gl](subj)~),,,,,✓ [exref](loc-q-locpred-nsubj),
+[gl](part)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~),,,,,✓ [exref](loc-q-part-cop-nsubj),

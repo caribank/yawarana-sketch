@@ -1,10 +1,10 @@
 ,id,cat,perm,temp,loc,ex,poss
-[gl](np)<sub>[gl](pred)</sub> (+ [gl](np)<sub>[gl](subj)</sub>),✓ [exref](id-aff-npred-nsubj),✓ [exref](cat-aff-npred-nsubj),✓ [exref](perm-aff-npred-nsubj),✓ [exref](temp-aff-npred-nsubj),,,✓ [exref](poss-aff-npred-nsubj)
-[gl](np)<sub>[gl](pred)</sub> + [gl](np)<sub>[gl](subj)</sub> *manïkï*,,✓ [exref](cat-aff-npred-nsubj-maniki),✓ [exref](perm-aff-npred-nsubj-maniki),,,,
-[gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop),,✓ [exref](cat-aff-npred-nsubj-cop),,✓ [exref](temp-aff-npred-nsubj-cop),,,
-[gl](adv)<sub>[gl](pred)</sub> ([gl](np)<sub>[gl](subj)</sub>) [gl](cop),,,✓ [exref](perm-aff-advpred-nsubj-cop),,✓ [exref](loc-aff-advpred-nsubj-cop),,✓ [exref](poss-aff-advpred-nsubj-cop)
-[gl](np)<sub>[gl](pred)</sub> [gl](cop),,,,✓ [exref](temp-aff-npred-cop),,,
-[gl](part)<sub>[gl](pred)</sub> + [gl](np)<sub>[gl](subj)</sub>,,,,,✓ [exref](loc-aff-part-nsubj),✓ [exref](ex-aff-part-nsubj),
-[gl](loc)<sub>[gl](pred)</sub> + [gl](cop) (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-aff-locpred-cop-nsubj),,✓ [exref](poss-aff-locpred-cop-nsubj)
-[gl](loc)<sub>[gl](pred)</sub> (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-aff-locpred-nsubj),,
-[gl](part)<sub>[gl](pred)</sub> + [gl](cop) (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-aff-part-cop-nsubj),✓ [exref](ex-aff-part-cop-nsubj),
+[gl](np)~[gl](pred)~ (+ [gl](np)~[gl](subj)~),✓ [exref](id-aff-npred-nsubj),✓ [exref](cat-aff-npred-nsubj),✓ [exref](perm-aff-npred-nsubj),✓ [exref](temp-aff-npred-nsubj),,,✓ [exref](poss-aff-npred-nsubj)
+[gl](np)~[gl](pred)~ + [gl](np)~[gl](subj)~ *manïkï*,,✓ [exref](cat-aff-npred-nsubj-maniki),✓ [exref](perm-aff-npred-nsubj-maniki),,,,
+[gl](np)~[gl](pred)~ [gl](np)~[gl](subj)~ [gl](cop),,✓ [exref](cat-aff-npred-nsubj-cop),,✓ [exref](temp-aff-npred-nsubj-cop),,,
+[gl](adv)~[gl](pred)~ ([gl](np)~[gl](subj)~) [gl](cop),,,✓ [exref](perm-aff-advpred-nsubj-cop),,✓ [exref](loc-aff-advpred-nsubj-cop),,✓ [exref](poss-aff-advpred-nsubj-cop)
+[gl](np)~[gl](pred)~ [gl](cop),,,,✓ [exref](temp-aff-npred-cop),,,
+[gl](part)~[gl](pred)~ + [gl](np)~[gl](subj)~,,,,,✓ [exref](loc-aff-part-nsubj),✓ [exref](ex-aff-part-nsubj),
+[gl](loc)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~),,,,,✓ [exref](loc-aff-locpred-cop-nsubj),,✓ [exref](poss-aff-locpred-cop-nsubj)
+[gl](loc)~[gl](pred)~ (+ [gl](np)~[gl](subj)~),,,,,✓ [exref](loc-aff-locpred-nsubj),,
+[gl](part)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~),,,,,✓ [exref](loc-aff-part-cop-nsubj),✓ [exref](ex-aff-part-cop-nsubj),

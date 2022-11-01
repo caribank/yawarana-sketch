@@ -1,12 +1,12 @@
 ,id,cat,perm,temp,loc,ex,poss
-[gl](np)<sub>[gl](pred)</sub> [mp](pinire-nothing?nt) (+ [gl](np)<sub>[gl](subj)</sub>),✓ [exref](id-neg-npred-pinire-nsubj),✓ [exref](cat-neg-npred-pinire-nsubj),✓ [exref](perm-neg-npred-pinire-nsubj),,,,
-([gl](np)<sub>[gl](subj)</sub>) [gl](adv)<sub>[gl](pred)</sub>[mp](jraneg?nt),,,,✓ [exref](temp-neg-nsubj-advpred-jra),,,
-[gl](adv)<sub>[gl](pred)</sub> + [gl](cop)-[gl](neg) (+ [gl](np)<sub>[gl](subj)</sub>),,,,✓ [exref](temp-neg-advpred-cop-neg-nsubj),,,
-[gl](loc)<sub>[gl](pred)</sub> + [gl](cop)-[gl](neg) (+ [gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-neg-locpred-cop-neg-nsubj),,
-[gl](np)<sub>[gl](subj)</sub> + [gl](cop) + [mp](pinire-nothing?nt) + [gl](part)<sub>[gl](pred)</sub>,,,,,✓ [exref](loc-neg-nsubj-cop-pinire-part),,
-[gl](part)<sub>[gl](pred)</sub> + [mp](pinire-nothing?nt) (+[gl](np)<sub>[gl](subj)</sub>),,,,,✓ [exref](loc-neg-part-pinire-nsubj),,✓ [exref](poss-neg-part-pinire-nsubj)
-[gl](part)<sub>[gl](pred)</sub> [mp](pirare-nothing?nt) (+[gl](np)<sub>[gl](subj)</sub>),,,,,,✓ [exref](ex-neg-part-pirare-nsubj),
-[gl](part)<sub>[gl](pred)</sub> [mp](pirare-nothing?nt) + [gl](cop) + [gl](np)<sub>[gl](subj)</sub>,,,,,,✓ [exref](ex-neg-part-pirare-cop-nsubj),
-[mp](pirare-nothing?nt) [gl](np)<sub>[gl](subj)</sub>[mp](jraneg?nt),,,,,,✓ [exref](ex-neg-pirare-nsubj-jra),
+[gl](np)~[gl](pred)~ [mp](pinire-nothing?nt) (+ [gl](np)~[gl](subj)~),✓ [exref](id-neg-npred-pinire-nsubj),✓ [exref](cat-neg-npred-pinire-nsubj),✓ [exref](perm-neg-npred-pinire-nsubj),,,,
+([gl](np)~[gl](subj)~) [gl](adv)~[gl](pred)~[mp](jraneg?nt),,,,✓ [exref](temp-neg-nsubj-advpred-jra),,,
+[gl](adv)~[gl](pred)~ + [gl](cop)-[gl](neg) (+ [gl](np)~[gl](subj)~),,,,✓ [exref](temp-neg-advpred-cop-neg-nsubj),,,
+[gl](loc)~[gl](pred)~ + [gl](cop)-[gl](neg) (+ [gl](np)~[gl](subj)~),,,,,✓ [exref](loc-neg-locpred-cop-neg-nsubj),,
+[gl](np)~[gl](subj)~ + [gl](cop) + [mp](pinire-nothing?nt) + [gl](part)~[gl](pred)~,,,,,✓ [exref](loc-neg-nsubj-cop-pinire-part),,
+[gl](part)~[gl](pred)~ + [mp](pinire-nothing?nt) (+[gl](np)~[gl](subj)~),,,,,✓ [exref](loc-neg-part-pinire-nsubj),,✓ [exref](poss-neg-part-pinire-nsubj)
+[gl](part)~[gl](pred)~ [mp](pirare-nothing?nt) (+[gl](np)~[gl](subj)~),,,,,,✓ [exref](ex-neg-part-pirare-nsubj),
+[gl](part)~[gl](pred)~ [mp](pirare-nothing?nt) + [gl](cop) + [gl](np)~[gl](subj)~,,,,,,✓ [exref](ex-neg-part-pirare-cop-nsubj),
+[mp](pirare-nothing?nt) [gl](np)~[gl](subj)~[mp](jraneg?nt),,,,,,✓ [exref](ex-neg-pirare-nsubj-jra),
 [mp](pirare-nothing?nt),,,,,,✓ [exref](ex-neg-pirare),
-ADVsubj [mp](pirare-nothing?nt) [gl](loc)<sub>[gl](pred)</sub>,,,,,,,✓ [exref](poss-neg-advsubj-pirare-locpred)
+ADVsubj [mp](pirare-nothing?nt) [gl](loc)~[gl](pred)~,,,,,,,✓ [exref](poss-neg-advsubj-pirare-locpred)
