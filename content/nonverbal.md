@@ -9,28 +9,38 @@
 * Innovations:
     * Nsubj + [gl](cop) + Npred (S&M 2009)
     * Nsubj + Adverbial
-* Take functional approach, go through kinds of NVP & find constructions
-    * Negation
-    * Interrogation
-* What are particles doing?
 * What is word order doing?
 
 
-**First impressions:**
+## Observations
 
-* Order in N + N is variable -- tendency to place demonstrative subjects at end?
-* No copula with nominal or locative predicates, only adverbial ones?
-* negation [mp](jraneg) for adverbial, [mp](pinire-nothing) for nominal predicates ([mp](pirare-nothing) for existentials)
-* [mp](maniki-rel-anim) in N + N constructions
+### Patterns
+* copula almost always occurs with adverbs, fairly often with locatives and existential particles, the only tokens with nouns are edge cases
+    * no copula with adverbs when negated [exref](temp-neg-nsubj-advpred-jra), [exref](poss-neg-nsubj-advpred-jra)
+    * [gl](np)<sub>[gl](pred)</sub> [gl](cop) only with 'sick' (a noun?) [exref](temp-aff-npred-cop), [exref](temp-q-npred-cop)
+    * [gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop) only occurs with *chi-yawë* 'when' [exref](cat-aff-npred-nsubj-cop), [exref](temp-aff-npred-nsubj-cop) [todo](does the etymological presence of COP in this construction imply that it once had a copula?)
+    * tendency for copula to occur with existential particles when in past tense [exref](ex-aff-part-cop-nsubj), but not with locatives [exref](loc-aff-part-cop-nsubj)
+* copula does not combine with [mp](pirare-nothing)
+    * one counterexample with [gl](part)<sub>[gl](pred)</sub> + [mp](pirare-nothing?nt) + [gl](cop) + [gl](np)<sub>[gl](subj)</sub> is with a concessive [exref](ex-neg-part-pirare-cop-nsubj) -- copula required for marking?
+    * it does occur with [mp](pinire-nothing), through [exref](loc-neg-nsubj-cop-pinire-part)
+* negation:
+    * [mp](jraneg) for adverbial
+    * [mp](pinire-nothing) for nominal predicates and ones with locative particles
+    * [mp](pirare-nothing) for existentials predicates
+    * *-ja* or *-jnari* on the copula
+* Order in [gl](np)<sub>[gl](pred)</sub> + [gl](np)<sub>[gl](subj)</sub> is variable -- tendency to place demonstrative subjects at end?
 
-## Questions & issues
-* how to analyze 'close to LOC' constructions? [wf](teijpo?translation=far) seems to be an adverb.
+
+
+### Open questions
+* unclear role of [mp](maniki-rel-anim) in [gl](np)<sub>[gl](pred)</sub> + [gl](np)<sub>[gl](subj)</sub> construction
+* is there a pattern to whether existential/locative particles combine with the copula?
+
+### Categorization issues
+* how to analyze 'close to [gl](loc)' constructions? [wf](teijpo?translation=far) seems to be an adverb.
 * possessives vs properties? ('footed', etc.)
-* ex vs loc (largely went by translation)
-
-* the one example of [gl](np)<sub>[gl](pred)</sub> [gl](cop) is with weird 'sick':
-[ex](conv1stenc-99)
-
-## Subordination
-* [gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop) only occurs with *chi-yawë* 'when'
-* [gl](adv)<sub>[gl](pred)</sub> ([gl](np)<sub>[gl](subj)</sub>) [gl](cop) with *chi-yawë* 'when' and *chi-pëkë* 'because'
+* existentials vs locatives both with *mëtë*/*mïntë*/*entë* (largely went by translation)
+    * sometimes they co-occur [exref](convfemgrme-157), [exref](convfemgrme-99)
+* one example of [gl](adv)<sub>[gl](pred)</sub> without copula [exref](perm-q-advpred-nsubj)
+* weird "adverbial subject"? [exref](poss-neg-advsubj-pirare-locpred)
+* construction with two copulas *chi wejsapë*? [exref](convhistfamsjm-92), [exref](convhistfamsjm-59), [exref](histgrme-17), [exref](histgrme-107)
