@@ -36,6 +36,7 @@
     * [mp](jraneg) for adverbs and on nouns in the existential *pïrarë* [gl](np~subj~)*-jra* construction [exref](ex-main-neg-pirare-nsubj-jra)
     * [mp](pinire-nothing) for nominal predicates and ones with locative particles
     * [mp](pirare-nothing) for existential predicates
+        * also for identification [exref](id-main-neg-npred-pirare)
         * so far no example of simple *pïrarë* [gl](np~subj~)
     * *-ja* or *-jnari* on the copula
 * order is fairly flexible; potentially rigid \[ADVpred (Nsubj) COP\] 
@@ -45,6 +46,13 @@
 * unclear role of [mp](maniki-rel-anim) in [gl](np)<sub>[gl](pred)</sub> + [gl](np)<sub>[gl](subj)</sub> construction
 * is there a pattern as to whether existential/locative particles combine with the copula?
 
+* [todo](@spike: how would you classify 'yo estaba sola'?)
+
+[ex](descmensgrme-41)
+
+[todo](can't interpret this even with context)
+
+[ex](convamgu-297)
 
 ### Categorization issues
 * possessives vs properties can be hard to distinguish ('footed', etc.)

@@ -1,12 +1,16 @@
 ,id,cat,perm,temp,loc,ex,poss
-[gl](np)~[gl](pred)~ [mp](pinire-nothing?nt) (+ [gl](np)~[gl](subj)~),✓ [exref](id-main-neg-npred-pinire-nsubj),✓ [exref](cat-main-neg-npred-pinire-nsubj),✓ [exref](perm-main-neg-npred-pinire-nsubj),,,,
-([gl](np)~[gl](subj)~) [gl](adv)~[gl](pred)~[mp](jraneg?nt),,,,✓ [exref](temp-main-neg-nsubj-advpred-jra),,,
+[gl](np)~[gl](pred)~ pïrarë,✓ [exref](id-main-neg-npred-pirare),,,,,,
+[gl](np)~[gl](pred)~ pïnirë (+ [gl](np)~[gl](subj)~),✓ [exref](id-main-neg-npred-pinire-nsubj),✓ [exref](cat-main-neg-npred-pinire-nsubj),✓ [exref](perm-main-neg-npred-pinire-nsubj),,,,
+[gl](np)~[gl](pred)~-jra,,,,✓ [exref](temp-main-neg-npred-jra),,,
+([gl](np)~[gl](subj)~) [gl](adv)~[gl](pred)~-jra,,,,✓ [exref](temp-main-neg-nsubj-advpred-jra),,,
 [gl](adv)~[gl](pred)~ + [gl](cop)-[gl](neg) (+ [gl](np)~[gl](subj)~),,,,✓ [exref](temp-main-neg-advpred-cop-neg-nsubj),,,
-[gl](loc)~[gl](pred)~ + [gl](cop)-[gl](neg) (+ [gl](np)~[gl](subj)~),,,,,✓ [exref](loc-main-neg-locpred-cop-neg-nsubj),,
-[gl](np)~[gl](subj)~ + [gl](cop) + [mp](pinire-nothing?nt) + [gl](part)~[gl](pred)~,,,,,✓ [exref](loc-main-neg-nsubj-cop-pinire-part),,
-[gl](part)~[gl](pred)~ + [mp](pinire-nothing?nt) (+[gl](np)~[gl](subj)~),,,,,✓ [exref](loc-main-neg-part-pinire-nsubj),,✓ [exref](poss-main-neg-part-pinire-nsubj)
-[gl](part)~[gl](pred)~ [mp](pirare-nothing?nt) (+[gl](np)~[gl](subj)~),,,,,,✓ [exref](ex-main-neg-part-pirare-nsubj),
-[gl](part)~[gl](pred)~ [mp](pirare-nothing?nt) + [gl](cop) + [gl](np)~[gl](subj)~,,,,,,✓ [exref](ex-main-neg-part-pirare-cop-nsubj),
-[mp](pirare-nothing?nt) [gl](np)~[gl](subj)~[mp](jraneg?nt),,,,,,✓ [exref](ex-main-neg-pirare-nsubj-jra),
-[mp](pirare-nothing?nt),,,,,,✓ [exref](ex-main-neg-pirare),
-ADVsubj [mp](pirare-nothing?nt) [gl](loc)~[gl](pred)~,,,,,,,✓ [exref](poss-main-neg-advsubj-pirare-locpred)
+[gl](loc)~[gl](pred)~ + [gl](cop)-[gl](neg) (+ [gl](np)~[gl](subj)~),,,,✓ [exref](temp-main-neg-locpred-cop-neg-nsubj),✓ [exref](loc-main-neg-locpred-cop-neg-nsubj),,
+[gl](adv)~[gl](pred)~ [gl](np)~[gl](subj)~ [gl](cop) pïnirë,,,,✓ [exref](temp-main-neg-advpred-nsubj-cop-pinire),,,
+[gl](np)~[gl](subj)~ + [gl](cop) + pïnirë + [gl](part)~[gl](pred)~,,,,,✓ [exref](loc-main-neg-nsubj-cop-pinire-part),,
+[gl](part)~[gl](pred)~ + pïnirë (+[gl](np)~[gl](subj)~),,,,,✓ [exref](loc-main-neg-part-pinire-nsubj),,✓ [exref](poss-main-neg-part-pinire-nsubj)
+pïrarë + [gl](cop) (+ [gl](np)~[gl](subj)~),,,,,,✓ [exref](ex-main-neg-pirare-cop-nsubj),
+pïrarë [gl](np)~[gl](subj)~-jra,,,,,,✓ [exref](ex-main-neg-pirare-nsubj-jra),
+[gl](part)~[gl](pred)~ pïrarë (+[gl](np)~[gl](subj)~),,,,,,✓ [exref](ex-main-neg-part-pirare-nsubj),
+pïrarë,,,,,,✓ [exref](ex-main-neg-pirare),
+[gl](part)~[gl](pred)~ pïrarë + [gl](cop) + [gl](np)~[gl](subj)~,,,,,,✓ [exref](ex-main-neg-part-pirare-cop-nsubj),
+ADVsubj pïrarë [gl](loc)~[gl](pred)~,,,,,,,✓ [exref](poss-main-neg-advsubj-pirare-locpred)
