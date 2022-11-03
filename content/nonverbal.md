@@ -37,7 +37,6 @@
     * [mp](pinire-nothing) for nominal predicates and ones with locative particles
     * [mp](pirare-nothing) for existential predicates
         * also for identification [exref](id-main-neg-npred-pirare)
-        * so far no example of simple *pïrarë* [gl](np~subj~)
     * *-ja* or *-jnari* on the copula
 * order is fairly flexible; potentially rigid \[ADVpred (Nsubj) COP\] 
 [todo](continue here)
