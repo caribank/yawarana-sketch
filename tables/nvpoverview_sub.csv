@@ -3,6 +3,6 @@ Identification,?,?
 Categorization,[gl](np)~[gl](pred)~ [gl](np)~[gl](subj)~ [gl](cop) [exref](cat-sub-aff-npred-nsubj-cop),?
 Permanent property,[gl](adv)~[gl](pred)~ ([gl](np)~[gl](subj)~) [gl](cop) [exref](perm-sub-aff-advpred-nsubj-cop),?
 Temporary property,[gl](np)~[gl](pred)~ [gl](np)~[gl](subj)~ [gl](cop) [exref](temp-sub-aff-npred-nsubj-cop),?
-Location,[gl](part)~[gl](pred)~ + [gl](np)~[gl](subj)~ [exref](loc-sub-aff-part-nsubj) <br> [gl](part)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~) [exref](loc-sub-aff-part-cop-nsubj) <br> [gl](adv)~[gl](pred)~ ([gl](np)~[gl](subj)~) [gl](cop) [exref](loc-sub-aff-advpred-nsubj-cop) <br> [gl](loc)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~) [exref](loc-sub-aff-locpred-cop-nsubj),[gl](loc)~[gl](pred)~ + [gl](cop)-[gl](neg) (+ [gl](np)~[gl](subj)~) [exref](loc-sub-neg-locpred-cop-neg-nsubj)
+Location,[gl](part)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~) [exref](loc-sub-aff-part-cop-nsubj) <br> [gl](adv)~[gl](pred)~ ([gl](np)~[gl](subj)~) [gl](cop) [exref](loc-sub-aff-advpred-nsubj-cop) <br> [gl](loc)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~) [exref](loc-sub-aff-locpred-cop-nsubj),[gl](loc)~[gl](pred)~ + [gl](cop)-[gl](neg) (+ [gl](np)~[gl](subj)~) [exref](loc-sub-neg-locpred-cop-neg-nsubj)
 Existential,?,?
 Possession,?,?

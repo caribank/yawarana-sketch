@@ -49,14 +49,14 @@ nvpoverview_main:
 nvpoverview_sub:
   caption: An overview of nonverbal predication in subordinate clauses
 nvp_neg_main:
-  caption: Semasiological overview of negated nonverbal predications
+  caption: Form-function distribution of negated nonverbal predications
 nvp_aff_main:
-  caption: Semasiological overview of affirmative nonverbal predications
+  caption: Form-function distribution of affirmative nonverbal predications
 nvp_q_main:
-  caption: Semasiological overview of interrogative nonverbal predications
+  caption: Form-function distribution of interrogative nonverbal predications
 nvp_neg_sub:
-  caption: Semasiological overview of negated nonverbal predications in subordinate clauses
+  caption: Form-function distribution of negated nonverbal predications in subordinate clauses
 nvp_aff_sub:
-  caption: Semasiological overview of affirmative nonverbal predications in subordinate clauses
+  caption: Form-function distribution of affirmative nonverbal predications in subordinate clauses
 nvp_q_sub:
-  caption: Semasiological overview of interrogative nonverbal predications in subordinate clauses
+  caption: Form-function distribution of interrogative nonverbal predications in subordinate clauses
