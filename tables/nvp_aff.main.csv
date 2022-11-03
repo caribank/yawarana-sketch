@@ -1,0 +1,31 @@
+,id,cat,perm,temp,loc,ex,poss
+[gl](np)~[gl](subj)~ [gl](np)~[gl](pred)~,✓ [exref](id-main-aff-nsubj-npred),✓ [exref](cat-main-aff-nsubj-npred),✓ [exref](perm-main-aff-nsubj-npred),✓ [exref](temp-main-aff-nsubj-npred),,,
+[gl](np)~[gl](pred)~,✓ [exref](id-main-aff-npred),✓ [exref](cat-main-aff-npred),,✓ [exref](temp-main-aff-npred),,,
+[gl](np)~[gl](pred)~ [gl](np)~[gl](subj)~,✓ [exref](id-main-aff-npred-nsubj),,,,,,
+[gl](np)~[gl](pred)~ [gl](np)~[gl](subj)~ *manïkï*,,✓ [exref](cat-main-aff-npred-nsubj-maniki),,,,,
+[gl](np)~[gl](subj)~ [gl](np)~[gl](pred)~ *manïkï*,,,✓ [exref](perm-main-aff-nsubj-npred-maniki),,,,
+N[mp](keprop?nt)[mp](minmlz?nt),,,✓ [exref](perm-main-aff-n-mp-keprop-nt-mp-minmlz-nt),,,,✓ [exref](poss-main-aff-n-mp-keprop-nt-mp-minmlz-nt)
+[gl](np)~[gl](pred)~ [gl](cop),,,,✓ [exref](temp-main-aff-npred-cop),,,
+*mëtë* [gl](np)~[gl](subj)~,,,,,✓ [exref](loc-main-aff-mete-nsubj),✓ [exref](ex-main-aff-mete-nsubj),
+[gl](np)~[gl](subj)~ [gl](cop) [gl](loc)~[gl](pred)~,,,,,✓ [exref](loc-main-aff-nsubj-cop-locpred),,
+[gl](loc)~[gl](pred)~ [gl](np)~[gl](subj)~,,,,,✓ [exref](loc-main-aff-locpred-nsubj),,
+[gl](np)~[gl](subj)~ *mëtë*,,,,,✓ [exref](loc-main-aff-nsubj-mete),,
+[gl](adv)~[gl](pred)~ [gl](cop),,,,,✓ [exref](loc-main-aff-advpred-cop),,
+*ijtë* [gl](cop),,,,,✓ [exref](loc-main-aff-ijte-cop),,
+[mp](ylk?nt)[mp](akere-with) [gl](cop),,,,,✓ [exref](loc-main-aff-yakere-cop),,
+[gl](np)~[gl](subj)~ *entë*,,,,,✓ [exref](loc-main-aff-nsubj-ente),,
+*entë* [gl](np)~[gl](subj)~,,,,,✓ [exref](loc-main-aff-ente-nsubj),✓ [exref](ex-main-aff-ente-nsubj),
+*entë* NSubj [gl](cop),,,,,✓ [exref](loc-main-aff-ente-nsubj-cop),,
+*mïntë* [gl](np)~[gl](subj)~,,,,,✓ [exref](loc-main-aff-minte-nsubj),✓ [exref](ex-main-aff-minte-nsubj),
+[gl](loc)~[gl](pred)~ [gl](np)~[gl](subj)~ [gl](cop),,,,,✓ [exref](loc-main-aff-locpred-nsubj-cop),,
+[gl](np)~[gl](subj)~ [gl](cop) *mïntë*,,,,,✓ [exref](loc-main-aff-nsubj-cop-minte),✓ [exref](ex-main-aff-nsubj-cop-minte),
+*mïntë* [gl](np)~[gl](subj)~ [gl](cop),,,,,✓ [exref](loc-main-aff-minte-nsubj-cop),✓ [exref](ex-main-aff-minte-nsubj-cop),
+[gl](np)~[gl](subj)~ *mïntë*,,,,,✓ [exref](loc-main-aff-nsubj-minte),,
+*mëtë* [gl](np)~[gl](subj)~ [gl](cop),,,,,,✓ [exref](ex-main-aff-mete-nsubj-cop),
+[gl](np)~[gl](subj)~ [gl](cop) *ijtë*,,,,,,✓ [exref](ex-main-aff-nsubj-cop-ijte),
+[gl](np)~[gl](pred)~ *mïntë*,,,,,,✓ [exref](ex-main-aff-npred-minte),
+[gl](np)~[gl](subj)~ [gl](cop) *entë*,,,,,,✓ [exref](ex-main-aff-nsubj-cop-ente),
+[gl](np)~[gl](subj)~ *mëtë* [gl](cop),,,,,,✓ [exref](ex-main-aff-nsubj-mete-cop),
+N *inawë* [gl](cop) [gl](np)~[gl](subj)~,,,,,,,✓ [exref](poss-main-aff-n-inawe-cop-nsubj)
+N[mp](keprop?nt)[mp](minmlz?nt) [gl](np)~[gl](subj)~,,,,,,,✓ [exref](poss-main-aff-n-mp-keprop-nt-mp-minmlz-nt-nsubj)
+N[mp](keprop?nt) [gl](cop),,,,,,,✓ [exref](poss-main-aff-n-mp-keprop-nt-cop)

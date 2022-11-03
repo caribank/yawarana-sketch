@@ -14,15 +14,15 @@
 
 ### Patterns
 * copula almost always occurs with adverbs, fairly often with locatives and existential particles, the only tokens with nouns are edge cases
-    * no copula with adverbs when negated [exref](temp-neg-nsubj-advpred-jra)
-    * [gl](np)<sub>[gl](pred)</sub> [gl](cop) only with 'sick' (a noun?) [exref](temp-aff-npred-cop), [exref](temp-q-npred-cop)
-    * [gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop) only occurs with *chi-yawë* 'when' [exref](cat-aff-npred-nsubj-cop), [exref](temp-aff-npred-nsubj-cop) [todo](does the etymological presence of COP in this construction imply that it once had a copula?)
+    * no copula with adverbs when negated [exref](temp-main-neg-nsubj-advpred-jra)
+    * [gl](np)<sub>[gl](pred)</sub> [gl](cop) only with 'sick' (a noun?) [exref](temp-main-aff-npred-cop), [exref](temp-main-q-npred-cop)
+    * [gl](np)<sub>[gl](pred)</sub> [gl](np)<sub>[gl](subj)</sub> [gl](cop) only occurs with *chi-yawë* 'when' [exref](cat-sub-aff-npred-nsubj-cop), [exref](temp-sub-aff-npred-nsubj-cop) [todo](does the etymological presence of COP in this construction imply that it once had a copula?)
     * pattern for existential particles?
-        * copula used to express tense in existential function? [exref](ex-aff-part-cop-nsubj) vs [exref](ex-aff-part-nsubj)
-        * no such pattern with locatives... [exref](loc-aff-part-cop-nsubj) vs [exref](loc-aff-part-nsubj)
+        * copula used to express tense in existential function? [exref](ex-main-aff-part-cop-nsubj) vs [exref](ex-main-aff-part-nsubj)
+        * no such pattern with locatives... [exref](loc-main-aff-part-cop-nsubj) vs [exref](loc-main-aff-part-nsubj)
 * copula does not combine with [mp](pirare-nothing)
-    * one counterexample with [gl](part)<sub>[gl](pred)</sub> + [mp](pirare-nothing?nt) + [gl](cop) + [gl](np)<sub>[gl](subj)</sub> is with a concessive [exref](ex-neg-part-pirare-cop-nsubj) -- copula required for marking?
-    * it does occur with [mp](pinire-nothing), though [exref](loc-neg-nsubj-cop-pinire-part)
+    * one counterexample with [gl](part)<sub>[gl](pred)</sub> + [mp](pirare-nothing?nt) + [gl](cop) + [gl](np)<sub>[gl](subj)</sub> is with a concessive [exref](ex-main-neg-part-pirare-cop-nsubj) -- copula required for marking?
+    * it does occur with [mp](pinire-nothing), though [exref](loc-main-neg-nsubj-cop-pinire-part)
 * negation:
     * [mp](jraneg) for adverbs and as privative (?) on nouns in existential predicates
     * [mp](pinire-nothing) for nominal predicates and ones with locative particles
@@ -41,6 +41,6 @@
 * possessives vs properties? ('footed', etc.)
 * existentials vs locatives both with *mëtë*/*mïntë*/*entë* (largely went by translation)
     * sometimes they co-occur [exref](convfemgrme-157), [exref](convfemgrme-99)
-* one apparent example of [gl](adv)<sub>[gl](pred)</sub> without copula [exref](perm-q-advpred-nsubj)
-* weird "adverbial subject"? [exref](poss-neg-advsubj-pirare-locpred)
+* one apparent example of [gl](adv)<sub>[gl](pred)</sub> without copula [exref](perm-main-q-advpred-nsubj)
+* weird "adverbial subject"? [exref](poss-main-neg-advsubj-pirare-locpred)
 * construction with two copulas *chi wejsapë*? [exref](convhistfamsjm-92), [exref](convhistfamsjm-59), [exref](histgrme-17), [exref](histgrme-107)

@@ -128,6 +128,7 @@ contents={\begin{tikzpicture}[remember picture,overlay]
 \newGlossingAbbrev{pred}{predicative}
 \newGlossingAbbrev{subj}{subject}
 \newGlossingAbbrev{part}{particle}
+\newGlossingAbbrev{psn}{person?}
 
 \begin{document}
 
@@ -1891,8 +1892,8 @@ copular constructions.
 \section{Overview tables}
 
 \begin{table}
-\caption{An overview of nonverbal predication}
-\label{tab:nvpoverview}
+\caption{An overview of nonverbal predication in main clauses}
+\label{tab:nvpoverview_main}
 \centering
 \begin{tabular}{llll}
 \toprule
@@ -1901,8 +1902,8 @@ copular constructions.
     Identification & \gl{np}~\gl{pred}~ (+ \gl{np}~\gl{subj}~) \exre... & \gl{np}~\gl{pred}~ \obj{pïnirë} (+ \gl{np}~\gl{... & \gl{np}\textsubscript{\gl{pred}} (+ \gl{np}\tex... \\
     Categorization & \gl{np}\textsubscript{\gl{pred}} + \gl{np}\text... & \gl{np}~\gl{pred}~ \obj{pïnirë} (+ \gl{np}~\gl{... & \gl{np}~\gl{pred}~ (+ \gl{np}~\gl{subj}~) \exre... \\
 Permanent property & \gl{np}\textsubscript{\gl{pred}} (+ \gl{np}\tex... & \gl{np}~\gl{pred}~ \obj{pïnirë} (+ \gl{np}~\gl{... & \gl{adv}~\gl{pred}~ (\gl{np}~\gl{subj}~) \exref... \\
-Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{np}~\gl{subj}~) \gl{adv}~\gl{pred}~\obj{-j... & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-q-npr... \\
-          Location & \gl{loc}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{s... & \gl{loc}~\gl{pred}~ + \gl{cop}-\gl{neg} (+ \gl{... & \gl{part}~\gl{pred}~ + \gl{np}~\gl{subj}~ \exre... \\
+Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-main-... & (\gl{np}~\gl{subj}~) \gl{adv}~\gl{pred}~\obj{-j... & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-main-... \\
+          Location & \gl{loc}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{s... & \gl{np}~\gl{subj}~ + \gl{cop} + \obj{pïnirë} + ... & \gl{part}~\gl{pred}~ + \gl{np}~\gl{subj}~ \exre... \\
        Existential & \gl{part}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{... & \gl{part}~\gl{pred}~ \obj{pïrarë} (+\gl{np}~\gl... &                                                  ? \\
         Possession & \gl{np}~\gl{pred}~ (+ \gl{np}~\gl{subj}~) \exre... & ADVsubj \obj{pïrarë} \gl{loc}~\gl{pred}~ \exref... & \gl{loc}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{s... \\
 \bottomrule
@@ -1911,22 +1912,60 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \end{table}
 
 \begin{table}
+\caption{An overview of nonverbal predication in subordinate clauses}
+\label{tab:nvpoverview_sub}
+\centering
+\begin{tabular}{lll}
+\toprule
+          Function &                                        Affirmative &                                           Negative \\
+\midrule
+    Identification &                                                  ? &                                                  ? \\
+    Categorization & \gl{np}~\gl{pred}~ \gl{np}~\gl{subj}~ \gl{cop} ... &                                                  ? \\
+Permanent property & \gl{adv}~\gl{pred}~ (\gl{np}~\gl{subj}~) \gl{co... &                                                  ? \\
+Temporary property & \gl{np}~\gl{pred}~ \gl{np}~\gl{subj}~ \gl{cop} ... &                                                  ? \\
+          Location & \gl{part}~\gl{pred}~ + \gl{np}~\gl{subj}~ \exre... & \gl{loc}~\gl{pred}~ + \gl{cop}-\gl{neg} (+ \gl{... \\
+       Existential &                                                  ? &                                                  ? \\
+        Possession &                                                  ? &                                                  ? \\
+\bottomrule
+\end{tabular}
+
+\end{table}
+
+\begin{table}
 \caption{Semasiological overview of affirmative nonverbal predications}
-\label{tab:nvp_aff}
+\label{tab:nvp_aff_main}
 \centering
 \begin{tabular}{llllllll}
 \toprule
-                                                   &                             id &                                    cat &                                    perm &                                 temp &                                   loc &                                ex &                                   poss \\
+                                                   &                                  id &                                         cat &                                         perm &                                  temp &                                        loc &                                     ex &                                        poss \\
 \midrule
-         \gl{np}~\gl{pred}~ (+ \gl{np}~\gl{subj}~) & ✓ \exref[]{id-aff-npred-nsubj} &        ✓ \exref[]{cat-aff-npred-nsubj} &        ✓ \exref[]{perm-aff-npred-nsubj} &     ✓ \exref[]{temp-aff-npred-nsubj} &                                       &                                   &       ✓ \exref[]{poss-aff-npred-nsubj} \\
-\gl{np}\textsubscript{\gl{pred}} + \gl{np}\text... &                                & ✓ \exref[]{cat-aff-npred-nsubj-maniki} & ✓ \exref[]{perm-aff-npred-nsubj-maniki} &                                      &                                       &                                   &                                        \\
-    \gl{np}~\gl{pred}~ \gl{np}~\gl{subj}~ \gl{cop} &                                &    ✓ \exref[]{cat-aff-npred-nsubj-cop} &                                         & ✓ \exref[]{temp-aff-npred-nsubj-cop} &                                       &                                   &                                        \\
- \gl{adv}~\gl{pred}~ (\gl{np}~\gl{subj}~) \gl{cop} &                                &                                        &  ✓ \exref[]{perm-aff-advpred-nsubj-cop} &                                      & ✓ \exref[]{loc-aff-advpred-nsubj-cop} &                                   & ✓ \exref[]{poss-aff-advpred-nsubj-cop} \\
-                       \gl{np}~\gl{pred}~ \gl{cop} &                                &                                        &                                         &       ✓ \exref[]{temp-aff-npred-cop} &                                       &                                   &                                        \\
-         \gl{part}~\gl{pred}~ + \gl{np}~\gl{subj}~ &                                &                                        &                                         &                                      &        ✓ \exref[]{loc-aff-part-nsubj} &     ✓ \exref[]{ex-aff-part-nsubj} &                                        \\
-\gl{loc}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{s... &                                &                                        &                                         &                                      & ✓ \exref[]{loc-aff-locpred-cop-nsubj} &                                   & ✓ \exref[]{poss-aff-locpred-cop-nsubj} \\
-        \gl{loc}~\gl{pred}~ (+ \gl{np}~\gl{subj}~) &                                &                                        &                                         &                                      &     ✓ \exref[]{loc-aff-locpred-nsubj} &                                   &                                        \\
-\gl{part}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{... &                                &                                        &                                         &                                      &    ✓ \exref[]{loc-aff-part-cop-nsubj} & ✓ \exref[]{ex-aff-part-cop-nsubj} &                                        \\
+         \gl{np}~\gl{pred}~ (+ \gl{np}~\gl{subj}~) & ✓ \exref[]{id-main-aff-npred-nsubj} &        ✓ \exref[]{cat-main-aff-npred-nsubj} &        ✓ \exref[]{perm-main-aff-npred-nsubj} & ✓ \exref[]{temp-main-aff-npred-nsubj} &                                            &                                        &       ✓ \exref[]{poss-main-aff-npred-nsubj} \\
+\gl{np}\textsubscript{\gl{pred}} + \gl{np}\text... &                                     & ✓ \exref[]{cat-main-aff-npred-nsubj-maniki} & ✓ \exref[]{perm-main-aff-npred-nsubj-maniki} &                                       &                                            &                                        &                                             \\
+ \gl{adv}~\gl{pred}~ (\gl{np}~\gl{subj}~) \gl{cop} &                                     &                                             &                                              &                                       & ✓ \exref[]{loc-main-aff-advpred-nsubj-cop} &                                        & ✓ \exref[]{poss-main-aff-advpred-nsubj-cop} \\
+                       \gl{np}~\gl{pred}~ \gl{cop} &                                     &                                             &                                              &   ✓ \exref[]{temp-main-aff-npred-cop} &                                            &                                        &                                             \\
+         \gl{part}~\gl{pred}~ + \gl{np}~\gl{subj}~ &                                     &                                             &                                              &                                       &        ✓ \exref[]{loc-main-aff-part-nsubj} &     ✓ \exref[]{ex-main-aff-part-nsubj} &                                             \\
+\gl{loc}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{s... &                                     &                                             &                                              &                                       & ✓ \exref[]{loc-main-aff-locpred-cop-nsubj} &                                        & ✓ \exref[]{poss-main-aff-locpred-cop-nsubj} \\
+        \gl{loc}~\gl{pred}~ (+ \gl{np}~\gl{subj}~) &                                     &                                             &                                              &                                       &     ✓ \exref[]{loc-main-aff-locpred-nsubj} &                                        &                                             \\
+\gl{part}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{... &                                     &                                             &                                              &                                       &    ✓ \exref[]{loc-main-aff-part-cop-nsubj} & ✓ \exref[]{ex-main-aff-part-cop-nsubj} &                                             \\
+\bottomrule
+\end{tabular}
+
+\end{table}
+
+\begin{table}
+\caption{Semasiological overview of affirmative nonverbal predications in
+subordinate clauses}
+\label{tab:nvp_aff_sub}
+\centering
+\begin{tabular}{lllll}
+\toprule
+                                                   &                                     cat &                                       perm &                                     temp &                                       loc \\
+\midrule
+    \gl{np}~\gl{pred}~ \gl{np}~\gl{subj}~ \gl{cop} & ✓ \exref[]{cat-sub-aff-npred-nsubj-cop} &                                            & ✓ \exref[]{temp-sub-aff-npred-nsubj-cop} &                                           \\
+ \gl{adv}~\gl{pred}~ (\gl{np}~\gl{subj}~) \gl{cop} &                                         & ✓ \exref[]{perm-sub-aff-advpred-nsubj-cop} &                                          & ✓ \exref[]{loc-sub-aff-advpred-nsubj-cop} \\
+         \gl{part}~\gl{pred}~ + \gl{np}~\gl{subj}~ &                                         &                                            &                                          &        ✓ \exref[]{loc-sub-aff-part-nsubj} \\
+\gl{loc}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{s... &                                         &                                            &                                          & ✓ \exref[]{loc-sub-aff-locpred-cop-nsubj} \\
+\gl{part}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{... &                                         &                                            &                                          &    ✓ \exref[]{loc-sub-aff-part-cop-nsubj} \\
 \bottomrule
 \end{tabular}
 
@@ -1934,23 +1973,38 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 
 \begin{table}
 \caption{Semasiological overview of negated nonverbal predications}
-\label{tab:nvp_neg}
+\label{tab:nvp_neg_main}
 \centering
 \begin{tabular}{llllllll}
 \toprule
-                                                   &                                    id &                                    cat &                                    perm &                                       temp &                                       loc &                                       ex &                                        poss \\
+                                                   &                                         id &                                         cat &                                         perm &                                            temp &                                            loc &                                            ex &                                             poss \\
 \midrule
-\gl{np}~\gl{pred}~ \obj{pïnirë} (+ \gl{np}~\gl{... & ✓ \exref[]{id-neg-npred-pinire-nsubj} & ✓ \exref[]{cat-neg-npred-pinire-nsubj} & ✓ \exref[]{perm-neg-npred-pinire-nsubj} &                                            &                                           &                                          &                                             \\
-(\gl{np}~\gl{subj}~) \gl{adv}~\gl{pred}~\obj{-jra} &                                       &                                        &                                         &     ✓ \exref[]{temp-neg-nsubj-advpred-jra} &                                           &                                          &                                             \\
-\gl{adv}~\gl{pred}~ + \gl{cop}-\gl{neg} (+ \gl{... &                                       &                                        &                                         & ✓ \exref[]{temp-neg-advpred-cop-neg-nsubj} &                                           &                                          &                                             \\
-\gl{loc}~\gl{pred}~ + \gl{cop}-\gl{neg} (+ \gl{... &                                       &                                        &                                         &                                            & ✓ \exref[]{loc-neg-locpred-cop-neg-nsubj} &                                          &                                             \\
-\gl{np}~\gl{subj}~ + \gl{cop} + \obj{pïnirë} + ... &                                       &                                        &                                         &                                            & ✓ \exref[]{loc-neg-nsubj-cop-pinire-part} &                                          &                                             \\
-\gl{part}~\gl{pred}~ + \obj{pïnirë} (+\gl{np}~\... &                                       &                                        &                                         &                                            &     ✓ \exref[]{loc-neg-part-pinire-nsubj} &                                          &      ✓ \exref[]{poss-neg-part-pinire-nsubj} \\
-\gl{part}~\gl{pred}~ \obj{pïrarë} (+\gl{np}~\gl... &                                       &                                        &                                         &                                            &                                           &     ✓ \exref[]{ex-neg-part-pirare-nsubj} &                                             \\
-\gl{part}~\gl{pred}~ \obj{pïrarë} + \gl{cop} + ... &                                       &                                        &                                         &                                            &                                           & ✓ \exref[]{ex-neg-part-pirare-cop-nsubj} &                                             \\
-         \obj{pïrarë} \gl{np}~\gl{subj}~\obj{-jra} &                                       &                                        &                                         &                                            &                                           &      ✓ \exref[]{ex-neg-pirare-nsubj-jra} &                                             \\
-                                      \obj{pïrarë} &                                       &                                        &                                         &                                            &                                           &                ✓ \exref[]{ex-neg-pirare} &                                             \\
-          ADVsubj \obj{pïrarë} \gl{loc}~\gl{pred}~ &                                       &                                        &                                         &                                            &                                           &                                          & ✓ \exref[]{poss-neg-advsubj-pirare-locpred} \\
+\gl{np}~\gl{pred}~ \obj{pïnirë} (+ \gl{np}~\gl{... & ✓ \exref[]{id-main-neg-npred-pinire-nsubj} & ✓ \exref[]{cat-main-neg-npred-pinire-nsubj} & ✓ \exref[]{perm-main-neg-npred-pinire-nsubj} &                                                 &                                                &                                               &                                                  \\
+(\gl{np}~\gl{subj}~) \gl{adv}~\gl{pred}~\obj{-jra} &                                            &                                             &                                              &     ✓ \exref[]{temp-main-neg-nsubj-advpred-jra} &                                                &                                               &                                                  \\
+\gl{adv}~\gl{pred}~ + \gl{cop}-\gl{neg} (+ \gl{... &                                            &                                             &                                              & ✓ \exref[]{temp-main-neg-advpred-cop-neg-nsubj} &                                                &                                               &                                                  \\
+\gl{loc}~\gl{pred}~ + \gl{cop}-\gl{neg} (+ \gl{... &                                            &                                             &                                              &                                                 & ✓ \exref[]{loc-main-neg-locpred-cop-neg-nsubj} &                                               &                                                  \\
+\gl{np}~\gl{subj}~ + \gl{cop} + \obj{pïnirë} + ... &                                            &                                             &                                              &                                                 & ✓ \exref[]{loc-main-neg-nsubj-cop-pinire-part} &                                               &                                                  \\
+\gl{part}~\gl{pred}~ + \obj{pïnirë} (+\gl{np}~\... &                                            &                                             &                                              &                                                 &     ✓ \exref[]{loc-main-neg-part-pinire-nsubj} &                                               &      ✓ \exref[]{poss-main-neg-part-pinire-nsubj} \\
+\gl{part}~\gl{pred}~ \obj{pïrarë} (+\gl{np}~\gl... &                                            &                                             &                                              &                                                 &                                                &     ✓ \exref[]{ex-main-neg-part-pirare-nsubj} &                                                  \\
+\gl{part}~\gl{pred}~ \obj{pïrarë} + \gl{cop} + ... &                                            &                                             &                                              &                                                 &                                                & ✓ \exref[]{ex-main-neg-part-pirare-cop-nsubj} &                                                  \\
+         \obj{pïrarë} \gl{np}~\gl{subj}~\obj{-jra} &                                            &                                             &                                              &                                                 &                                                &      ✓ \exref[]{ex-main-neg-pirare-nsubj-jra} &                                                  \\
+                                      \obj{pïrarë} &                                            &                                             &                                              &                                                 &                                                &                ✓ \exref[]{ex-main-neg-pirare} &                                                  \\
+          ADVsubj \obj{pïrarë} \gl{loc}~\gl{pred}~ &                                            &                                             &                                              &                                                 &                                                &                                               & ✓ \exref[]{poss-main-neg-advsubj-pirare-locpred} \\
+\bottomrule
+\end{tabular}
+
+\end{table}
+
+\begin{table}
+\caption{Semasiological overview of negated nonverbal predications in subordinate
+clauses}
+\label{tab:nvp_neg_sub}
+\centering
+\begin{tabular}{ll}
+\toprule
+                                                   &                                           loc \\
+\midrule
+\gl{loc}~\gl{pred}~ + \gl{cop}-\gl{neg} (+ \gl{... & ✓ \exref[]{loc-sub-neg-locpred-cop-neg-nsubj} \\
 \bottomrule
 \end{tabular}
 
@@ -1958,20 +2012,20 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 
 \begin{table}
 \caption{Semasiological overview of interrogative nonverbal predications}
-\label{tab:nvp_q}
+\label{tab:nvp_q_main}
 \centering
 \begin{tabular}{lllllll}
 \toprule
-                                                   &                                  id &                           cat &                             perm &                         temp &                              loc &                                 poss \\
+                                                   &                                       id &                                cat &                                  perm &                              temp &                                   loc &                                      poss \\
 \midrule
-         \gl{np}~\gl{pred}~ (+ \gl{np}~\gl{subj}~) &        ✓ \exref[]{id-q-npred-nsubj} & ✓ \exref[]{cat-q-npred-nsubj} &                                  &                              &                                  &                                      \\
-\gl{np}\textsubscript{\gl{pred}} + \gl{np}\text... & ✓ \exref[]{id-q-npred-nsubj-maniki} &                               &                                  &                              &                                  &                                      \\
-          \gl{adv}~\gl{pred}~ (\gl{np}~\gl{subj}~) &                                     &                               & ✓ \exref[]{perm-q-advpred-nsubj} &                              &                                  &                                      \\
-                       \gl{np}~\gl{pred}~ \gl{cop} &                                     &                               &                                  & ✓ \exref[]{temp-q-npred-cop} &                                  &                                      \\
-         \gl{part}~\gl{pred}~ + \gl{np}~\gl{subj}~ &                                     &                               &                                  &                              &     ✓ \exref[]{loc-q-part-nsubj} &                                      \\
-\gl{loc}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{s... &                                     &                               &                                  &                              &                                  & ✓ \exref[]{poss-q-locpred-cop-nsubj} \\
-        \gl{loc}~\gl{pred}~ (+ \gl{np}~\gl{subj}~) &                                     &                               &                                  &                              &  ✓ \exref[]{loc-q-locpred-nsubj} &                                      \\
-\gl{part}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{... &                                     &                               &                                  &                              & ✓ \exref[]{loc-q-part-cop-nsubj} &                                      \\
+         \gl{np}~\gl{pred}~ (+ \gl{np}~\gl{subj}~) &        ✓ \exref[]{id-main-q-npred-nsubj} & ✓ \exref[]{cat-main-q-npred-nsubj} &                                       &                                   &                                       &                                           \\
+\gl{np}\textsubscript{\gl{pred}} + \gl{np}\text... & ✓ \exref[]{id-main-q-npred-nsubj-maniki} &                                    &                                       &                                   &                                       &                                           \\
+          \gl{adv}~\gl{pred}~ (\gl{np}~\gl{subj}~) &                                          &                                    & ✓ \exref[]{perm-main-q-advpred-nsubj} &                                   &                                       &                                           \\
+                       \gl{np}~\gl{pred}~ \gl{cop} &                                          &                                    &                                       & ✓ \exref[]{temp-main-q-npred-cop} &                                       &                                           \\
+         \gl{part}~\gl{pred}~ + \gl{np}~\gl{subj}~ &                                          &                                    &                                       &                                   &     ✓ \exref[]{loc-main-q-part-nsubj} &                                           \\
+\gl{loc}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{s... &                                          &                                    &                                       &                                   &                                       & ✓ \exref[]{poss-main-q-locpred-cop-nsubj} \\
+        \gl{loc}~\gl{pred}~ (+ \gl{np}~\gl{subj}~) &                                          &                                    &                                       &                                   &  ✓ \exref[]{loc-main-q-locpred-nsubj} &                                           \\
+\gl{part}~\gl{pred}~ + \gl{cop} (+ \gl{np}~\gl{... &                                          &                                    &                                       &                                   & ✓ \exref[]{loc-main-q-part-cop-nsubj} &                                           \\
 \bottomrule
 \end{tabular}
 
@@ -1979,7 +2033,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 
 \section{Examples}
 
-\pex\label{id-aff-npred-nsubj}    \a Yawarana\\
+\pex\label{id-main-aff-npred-nsubj}    \a Yawarana\\
     \label{convcosnoind-37}        \begingl
         \glpreamble ejnë okïrï tanapï //
         \gla ejnë okï-rï tanapï//
@@ -2016,7 +2070,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
         \endgl 
 \xe
 
-\pex\label{id-neg-npred-pinire-nsubj}    \a Yawarana\\
+\pex\label{id-main-neg-npred-pinire-nsubj}    \a Yawarana\\
     \label{convamgu-42}        \begingl
         \glpreamble mokontomo nono pïnirë seni //
         \gla mokontomo nono -pïnirë seni//
@@ -2039,7 +2093,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
         \endgl 
 \xe
 
-\pex\label{id-q-npred-nsubj}    \a Yawarana\\
+\pex\label{id-main-q-npred-nsubj}    \a Yawarana\\
     \label{convamgu-94}        \begingl
         \glpreamble ayakono ka Petra? //
         \gla a-y-akono ka petra//
@@ -2056,7 +2110,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{id-q-npred-nsubj-maniki}    \begingl
+\label{id-main-q-npred-nsubj-maniki}    \begingl
     \glpreamble enijpëtërë ma, tëwï maniki //
     \gla enijpëtërë =ma tëwï maniki//
     \glb one =\gl{restr} \gl{3}\gl{sg} \gl{an}.\gl{rel}//
@@ -2064,7 +2118,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
     \endgl 
 \xe
 
-\pex\label{cat-aff-npred-nsubj}    \a Yawarana\\
+\pex\label{cat-main-aff-npred-nsubj}    \a Yawarana\\
     \label{hist2mape-21}        \begingl
         \glpreamble kërë wurijyamo //
         \gla kërë wurijyamo//
@@ -2081,16 +2135,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{cat-aff-npred-nsubj-cop}    \begingl
-    \glpreamble tëwïjpë tëwïsantomo takï, papa pano ma tayakarama wejsapë, mïntë wïrë chi wejsapë, muku marë wïrë chi yawë //
-    \gla tëwï-jpë tëwïsantomo takï papa =pano =ma ta-yakarama-Ø wej-sapë mïntë wïrë chi-Ø wej-sapë muku marë wïrë chi-Ø =yawë//
-    \glb \gl{3}\gl{sg}-\gl{mod} \gl{3}\gl{pl} \gl{cnfrm} father:\gl{voc} =late =\gl{restr} \gl{3}\gl{o}-tell-\gl{ipfv} \gl{cop}-\gl{perf} there \gl{1}\gl{sg} \gl{cop}-\gl{ipfv} \gl{cop}-\gl{perf} child like \gl{1}\gl{sg} \gl{cop}-\gl{ipfv} =\gl{ctmp}//
-        \glft ‘‘eso ellos, lo contaba mi papá, yo estaba allá, cuando yo estaba niña’’//  
-    \endgl 
-\xe
-
-\ex Yawarana \\
-\label{cat-aff-npred-nsubj-maniki}    \begingl
+\label{cat-main-aff-npred-nsubj-maniki}    \begingl
     \glpreamble sorori rë mëkï maniki yenepese ta //
     \gla soro-ri =rë mëkï maniki yenepe-se ta//
     \glb lie-\gl{poss} =\gl{emph} \gl{3}\gl{an}:\gl{rm} \gl{an}.\gl{rel} send.away-\gl{pfv}.\gl{pst} like//
@@ -2099,7 +2144,16 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{cat-neg-npred-pinire-nsubj}    \begingl
+\label{cat-sub-aff-npred-nsubj-cop}    \begingl
+    \glpreamble tëwïjpë tëwïsantomo takï, papa pano ma tayakarama wejsapë, mïntë wïrë chi wejsapë, muku marë wïrë chi yawë //
+    \gla tëwï-jpë tëwïsantomo takï papa =pano =ma ta-yakarama-Ø wej-sapë mïntë wïrë chi-Ø wej-sapë muku marë wïrë chi-Ø =yawë//
+    \glb \gl{3}\gl{sg}-\gl{mod} \gl{3}\gl{pl} \gl{cnfrm} father:\gl{voc} =late =\gl{restr} \gl{3}\gl{o}-tell-\gl{ipfv} \gl{cop}-\gl{perf} there \gl{1}\gl{sg} \gl{cop}-\gl{ipfv} \gl{cop}-\gl{perf} child like \gl{1}\gl{sg} \gl{cop}-\gl{ipfv} =\gl{ctmp}//
+        \glft ‘‘eso ellos, lo contaba mi papá, yo estaba allá, cuando yo estaba niña’’//  
+    \endgl 
+\xe
+
+\ex Yawarana \\
+\label{cat-main-neg-npred-pinire-nsubj}    \begingl
     \glpreamble am, yëye pïnirë, tëpu //
     \gla am yëye -pïnirë tëpu//
     \glb um tree -\gl{neg} rock//
@@ -2107,7 +2161,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
     \endgl 
 \xe
 
-\pex\label{cat-q-npred-nsubj}    \a Yawarana\\
+\pex\label{cat-main-q-npred-nsubj}    \a Yawarana\\
     \label{convfemgrme-315}        \begingl
         \glpreamble wurichi ken ka imukuru //
         \gla wurichi ka i-muku-ru//
@@ -2123,16 +2177,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
         \endgl 
 \xe
 
-\ex Yawarana \\
-\label{perm-aff-advpred-nsubj-cop}    \begingl
-    \glpreamble iyawë takï kamprake ejnë chi yawëno rë taji rë, //
-    \gla i-=yawë takï kampra-ke ejnë chi-Ø =yawë-no =rë taji =rë//
-    \glb \gl{3}-=\gl{ctmp} \gl{cnfrm} big-\gl{prop} \gl{1+2} \gl{cop}-\gl{ipfv} =\gl{loc}-\gl{nzr} =\gl{emph} ? =\gl{emph}//
-        \glft ‘‘en ese momento ya eramos grandes’’//  
-    \endgl 
-\xe
-
-\pex\label{perm-aff-npred-nsubj}    \a Yawarana\\
+\pex\label{perm-main-aff-npred-nsubj}    \a Yawarana\\
     \label{conv1stenc-80}        \begingl
         \glpreamble intompïjkë pïnirë, kamprakemï, kasoremï //
         \gla intompïjkë -pïnirë Ø-kampra-ke-mï kasore-mï//
@@ -2149,7 +2194,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{perm-aff-npred-nsubj-maniki}    \begingl
+\label{perm-main-aff-npred-nsubj-maniki}    \begingl
     \glpreamble sokowa mukujpë manïkï //
     \gla sokowa mukujpë manïkï//
     \glb patawa.palm small \gl{an}.\gl{rel}//
@@ -2157,7 +2202,16 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
     \endgl 
 \xe
 
-\pex\label{perm-neg-npred-pinire-nsubj}    \a Yawarana\\
+\ex Yawarana \\
+\label{perm-sub-aff-advpred-nsubj-cop}    \begingl
+    \glpreamble iyawë takï kamprake ejnë chi yawëno rë taji rë, //
+    \gla i-=yawë takï kampra-ke ejnë chi-Ø =yawë-no =rë taji =rë//
+    \glb \gl{3}-=\gl{ctmp} \gl{cnfrm} big-\gl{prop} \gl{1+2} \gl{cop}-\gl{ipfv} =\gl{loc}-\gl{nzr} =\gl{emph} ? =\gl{emph}//
+        \glft ‘‘en ese momento ya eramos grandes’’//  
+    \endgl 
+\xe
+
+\pex\label{perm-main-neg-npred-pinire-nsubj}    \a Yawarana\\
     \label{descmensgrme-67}        \begingl
         \glpreamble makë neke ne Yawarana na pïnirë //
         \gla makë neke =ne Yawarana na -pïnirë//
@@ -2174,7 +2228,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{perm-q-advpred-nsubj}    \begingl
+\label{perm-main-q-advpred-nsubj}    \begingl
     \glpreamble ¿ tëwï ka mojne? //
     \gla tëwï ka mojne//
     \glb \gl{3}\gl{sg} \gl{qp} salty//
@@ -2183,7 +2237,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{temp-aff-npred-cop}    \begingl
+\label{temp-main-aff-npred-cop}    \begingl
     \glpreamble terepun, terepun wejsapë, nwa ijtëse, Yakucho pana ijtëjpë, irëjpë ta ijtë rë sëmase, tawara taji //
     \gla t-erepun t-erepun wej-sapë nwa ij-të-se Yakucho =pana ij-të-jpë irëjpë ta ijtë =rë sëma-se tawara taji//
     \glb \gl{3}-sick \gl{3}-sick \gl{cop}-\gl{perf} thus \gl{3}-go-\gl{pfv}.\gl{pst} Ayacucho =\gl{all} \gl{3}-go-\gl{pst} then like there =\gl{emph} die-\gl{pfv}.\gl{pst} thus ?//
@@ -2191,7 +2245,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
     \endgl 
 \xe
 
-\pex\label{temp-aff-npred-nsubj}    \a Yawarana\\
+\pex\label{temp-main-aff-npred-nsubj}    \a Yawarana\\
     \label{desccasmaj-85}        \begingl
         \glpreamble irë pana rë warë yapijtom terepun rërë //
         \gla irë pana =rë warë yapijtom t-erepun rërë//
@@ -2208,7 +2262,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{temp-aff-npred-nsubj-cop}    \begingl
+\label{temp-sub-aff-npred-nsubj-cop}    \begingl
     \glpreamble pïrajrarë wïrë chi yawë pïnika, tajne ya wïrë yarëse warë, mïntëno Majawa të wïrë këyëtase //
     \gla pïrajrarë wïrë chi-Ø =yawë pïnika tajne =ya wïrë yarë-se warë mïntë-no Majawa =të wïrë këyëta-se//
     \glb small \gl{1}\gl{sg} \gl{cop}-\gl{ipfv} =\gl{ctmp} \gl{prob} \gl{3}\gl{pl} =\gl{erg} \gl{1}\gl{sg} carry-\gl{pfv}.\gl{pst} thus there-\gl{nzr} Majagua =\gl{loc} \gl{1}\gl{sg} grow.up-\gl{pfv}.\gl{pst}//
@@ -2216,7 +2270,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
     \endgl 
 \xe
 
-\pex\label{temp-neg-advpred-cop-neg-nsubj}    \a Yawarana\\
+\pex\label{temp-main-neg-advpred-cop-neg-nsubj}    \a Yawarana\\
     \label{descmensgrme-43}        \begingl
         \glpreamble tawara uchija //
         \gla tawara u-chi-ja//
@@ -2239,7 +2293,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
         \endgl 
 \xe
 
-\pex\label{temp-neg-nsubj-advpred-jra}    \a Yawarana\\
+\pex\label{temp-main-neg-nsubj-advpred-jra}    \a Yawarana\\
     \label{convestsjm-34}        \begingl
         \glpreamble enirë takï tawarajra //
         \gla enirë takï tawara-jra//
@@ -2256,7 +2310,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{temp-q-npred-cop}    \begingl
+\label{temp-main-q-npred-cop}    \begingl
     \glpreamble ¿ terepun ka wejsapë? //
     \gla t-erepun ka wej-sapë//
     \glb \gl{3}-sick \gl{qp} \gl{cop}-\gl{perf}//
@@ -2264,37 +2318,16 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
     \endgl 
 \xe
 
-\pex\label{loc-aff-advpred-nsubj-cop}    \a Yawarana\\
-    \label{convestsjm-35}        \begingl
-        \glpreamble entë ma teijpojra wejtane //
-        \gla entë =ma tëijpo-jra wej-tane//
-        \glb here =\gl{restr} far-\gl{neg} \gl{cop}-\gl{cncs}//
-            \glft ‘‘aunque está cerca de aquí’’//  
-        \endgl 
-    \a Yawarana\\
-    \label{convfemgrme-106}        \begingl
-        \glpreamble teijpojra ëjtë pëkë teijpojra, yëye chipëkë mïntë //
-        \gla tëijpo-jra ëjtë =pëkë tëijpo-jra yëye chi-Ø=pëkë mïntë//
-        \glb far-\gl{neg} house =about far-\gl{neg} tree \gl{cop}-\gl{ipfv}=because there//
-            \glft ‘‘porque estaba un palo cerca de la casa’’//  
-        \endgl 
+\ex Yawarana \\
+\label{loc-main-aff-advpred-nsubj-cop}    \begingl
+    \glpreamble entë ma teijpojra wejtane //
+    \gla entë =ma tëijpo-jra wej-tane//
+    \glb here =\gl{restr} far-\gl{neg} \gl{cop}-\gl{cncs}//
+        \glft ‘‘aunque está cerca de aquí’’//  
+    \endgl 
 \xe
 
-\pex\label{loc-aff-locpred-cop-nsubj}    \a Yawarana\\
-    \label{convfemgrme-99}        \begingl
-        \glpreamble tawara chijpë ta mïntë sawë të ana chi yawë, mïntë //
-        \gla tawara chi-jpë ta mïntë sawë =të ana chi-Ø =yawë mïntë//
-        \glb thus \gl{cop}-\gl{pst} like there rapid =\gl{loc} \gl{1+3} \gl{cop}-\gl{ipfv} =\gl{ctmp} there//
-            \glft ‘‘así también fue allá cuando estabamos en el raudal, allá’’//  
-        \endgl 
-    \a Yawarana\\
-    \label{convfemgrme-157}        \begingl
-        \glpreamble mïntë, Manapiare ana chi yawë //
-        \gla mïntë Manapiare ana chi-Ø =yawë//
-        \glb there Manapiare \gl{1+3} \gl{cop}-\gl{ipfv} =\gl{ctmp}//
-            \glft ‘‘cuando estuvimos en Manapiare’’//  
-        \endgl 
-    \a Yawarana\\
+\pex\label{loc-main-aff-locpred-cop-nsubj}    \a Yawarana\\
     \label{convfemgrme-292}        \begingl
         \glpreamble ijtë wejsapë, wïrë yakërë wejsapë //
         \gla ijtë wej-sapë wïrë y-akërë wej-sapë//
@@ -2317,7 +2350,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
         \endgl 
 \xe
 
-\pex\label{loc-aff-locpred-nsubj}    \a Yawarana\\
+\pex\label{loc-main-aff-locpred-nsubj}    \a Yawarana\\
     \label{convamgu-80}        \begingl
         \glpreamble Wayawarë të rë pïnika tëwï //
         \gla wayawarë =të =rë pïnika tëwï//
@@ -2333,7 +2366,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
         \endgl 
 \xe
 
-\pex\label{loc-aff-part-cop-nsubj}    \a Yawarana\\
+\pex\label{loc-main-aff-part-cop-nsubj}    \a Yawarana\\
     \label{convfemgrme-292}        \begingl
         \glpreamble ijtë wejsapë, wïrë yakërë wejsapë //
         \gla ijtë wej-sapë wïrë y-akërë wej-sapë//
@@ -2353,13 +2386,6 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
         \gla mïjna wïrë chi-ja chi-poko-no entë =ma wïrë chi-ri//
         \glb there \gl{1}\gl{sg} \gl{cop}-\gl{neg} \gl{cop}-because-\gl{nzr} here =\gl{restr} \gl{1}\gl{sg} \gl{cop}-\gl{ipfv}//
             \glft ‘‘como yo no estaba allá, estoy aquí no más’’//  
-        \endgl 
-    \a Yawarana\\
-    \label{convamgu-101}        \begingl
-        \glpreamble entë ma wïrë chi chipokono //
-        \gla entë =ma wïrë chi-Ø chi-poko-no//
-        \glb here =\gl{restr} \gl{1}\gl{sg} \gl{cop}-\gl{ipfv} \gl{cop}-because-\gl{nzr}//
-            \glft ‘‘por eso yo estoy aquí mismo’’//  
         \endgl 
     \a Yawarana\\
     \label{convamgu-138}        \begingl
@@ -2398,7 +2424,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
         \endgl 
 \xe
 
-\pex\label{loc-aff-part-nsubj}    \a Yawarana\\
+\pex\label{loc-main-aff-part-nsubj}    \a Yawarana\\
     \label{histanfo-1}        \begingl
         \glpreamble wïrë tawara rë entë //
         \gla wïrë tawara =rë entë//
@@ -2448,13 +2474,6 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
             \glft ‘‘ellos sí están ahí’’//  
         \endgl 
     \a Yawarana\\
-    \label{convhistfamsjm-95}        \begingl
-        \glpreamble asanë mëtë chipokono //
-        \gla asanë mëtë chi-poko-no//
-        \glb \gl{2}:mother:\gl{pos} there \gl{cop}-because-\gl{nzr}//
-            \glft ‘‘porque tienen su mamá ahí’’//  
-        \endgl 
-    \a Yawarana\\
     \label{ctorosq-28}        \begingl
         \glpreamble entë wïrë, ta ti ta //
         \gla entë wïrë ta-Ø ti ta//
@@ -2470,14 +2489,50 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
         \endgl 
 \xe
 
-\pex\label{loc-neg-locpred-cop-neg-nsubj}    \a Yawarana\\
-    \label{convamgu-99}        \begingl
-        \glpreamble mïjna wïrë chija chipokono, entë ma wïrë chiri //
-        \gla mïjna wïrë chi-ja chi-poko-no entë =ma wïrë chi-ri//
-        \glb there \gl{1}\gl{sg} \gl{cop}-\gl{neg} \gl{cop}-because-\gl{nzr} here =\gl{restr} \gl{1}\gl{sg} \gl{cop}-\gl{ipfv}//
-            \glft ‘‘como yo no estaba allá, estoy aquí no más’’//  
+\ex Yawarana \\
+\label{loc-sub-aff-advpred-nsubj-cop}    \begingl
+    \glpreamble teijpojra ëjtë pëkë teijpojra, yëye chipëkë mïntë //
+    \gla tëijpo-jra ëjtë =pëkë tëijpo-jra yëye chi-Ø=pëkë mïntë//
+    \glb far-\gl{neg} house =about far-\gl{neg} tree \gl{cop}-\gl{ipfv}=because there//
+        \glft ‘‘porque estaba un palo cerca de la casa’’//  
+    \endgl 
+\xe
+
+\pex\label{loc-sub-aff-locpred-cop-nsubj}    \a Yawarana\\
+    \label{convfemgrme-99}        \begingl
+        \glpreamble tawara chijpë ta mïntë sawë të ana chi yawë, mïntë //
+        \gla tawara chi-jpë ta mïntë sawë =të ana chi-Ø =yawë mïntë//
+        \glb thus \gl{cop}-\gl{pst} like there rapid =\gl{loc} \gl{1+3} \gl{cop}-\gl{ipfv} =\gl{ctmp} there//
+            \glft ‘‘así también fue allá cuando estabamos en el raudal, allá’’//  
         \endgl 
     \a Yawarana\\
+    \label{convfemgrme-157}        \begingl
+        \glpreamble mïntë, Manapiare ana chi yawë //
+        \gla mïntë Manapiare ana chi-Ø =yawë//
+        \glb there Manapiare \gl{1+3} \gl{cop}-\gl{ipfv} =\gl{ctmp}//
+            \glft ‘‘cuando estuvimos en Manapiare’’//  
+        \endgl 
+\xe
+
+\ex Yawarana \\
+\label{loc-sub-aff-part-cop-nsubj}    \begingl
+    \glpreamble entë ma wïrë chi chipokono //
+    \gla entë =ma wïrë chi-Ø chi-poko-no//
+    \glb here =\gl{restr} \gl{1}\gl{sg} \gl{cop}-\gl{ipfv} \gl{cop}-because-\gl{nzr}//
+        \glft ‘‘por eso yo estoy aquí mismo’’//  
+    \endgl 
+\xe
+
+\ex Yawarana \\
+\label{loc-sub-aff-part-nsubj}    \begingl
+    \glpreamble asanë mëtë chipokono //
+    \gla asanë mëtë chi-poko-no//
+    \glb \gl{2}:mother:\gl{pos} there \gl{cop}-because-\gl{nzr}//
+        \glft ‘‘porque tienen su mamá ahí’’//  
+    \endgl 
+\xe
+
+\pex\label{loc-main-neg-locpred-cop-neg-nsubj}    \a Yawarana\\
     \label{ctorosq-8}        \begingl
         \glpreamble tawara tajne yëmpëkapëtïrï, mëwaraijtori yakërë ta wïrë chija, tata wejsaj ta //
         \gla tawara tajne yëmpëka-pëtï-rï më-waraijto-ri y-akërë ta wïrë chi-ja ta-ta-Ø wej-saj ta//
@@ -2494,7 +2549,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{loc-neg-nsubj-cop-pinire-part}    \begingl
+\label{loc-main-neg-nsubj-cop-pinire-part}    \begingl
     \glpreamble kërë chijpë pïnirë entë, pïrarë //
     \gla kërë chi-jpë =pïnirë entë pïrarë//
     \glb \gl{3}\gl{an}:\gl{md} \gl{cop}-\gl{pst} =\gl{neg} here nothing//
@@ -2503,7 +2558,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{loc-neg-part-pinire-nsubj}    \begingl
+\label{loc-main-neg-part-pinire-nsubj}    \begingl
     \glpreamble asanë mëtë pïnirë //
     \gla asanë mëtë =pïnirë//
     \glb \gl{2}:mother:\gl{pos} there =\gl{neg}//
@@ -2512,7 +2567,16 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{loc-q-locpred-nsubj}    \begingl
+\label{loc-sub-neg-locpred-cop-neg-nsubj}    \begingl
+    \glpreamble mïjna wïrë chija chipokono, entë ma wïrë chiri //
+    \gla mïjna wïrë chi-ja chi-poko-no entë =ma wïrë chi-ri//
+    \glb there \gl{1}\gl{sg} \gl{cop}-\gl{neg} \gl{cop}-because-\gl{nzr} here =\gl{restr} \gl{1}\gl{sg} \gl{cop}-\gl{ipfv}//
+        \glft ‘‘como yo no estaba allá, estoy aquí no más’’//  
+    \endgl 
+\xe
+
+\ex Yawarana \\
+\label{loc-main-q-locpred-nsubj}    \begingl
     \glpreamble ¿ ëkë yaye chima? //
     \gla ëkë =yaye chima//
     \glb which =\gl{perl} path//
@@ -2520,7 +2584,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
     \endgl 
 \xe
 
-\pex\label{loc-q-part-cop-nsubj}    \a Yawarana\\
+\pex\label{loc-main-q-part-cop-nsubj}    \a Yawarana\\
     \label{convhistfamsjm-49}        \begingl
         \glpreamble kwajsapene mokontomo wejsapë mëtë //
         \gla kwajsapene mokontomo wej-sapë mëtë//
@@ -2536,7 +2600,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
         \endgl 
 \xe
 
-\pex\label{loc-q-part-nsubj}    \a Yawarana\\
+\pex\label{loc-main-q-part-nsubj}    \a Yawarana\\
     \label{convamgu-77}        \begingl
         \glpreamble ¿ ëmë neke ne mëtë? //
         \gla ëmë neke =ne mëtë//
@@ -2552,7 +2616,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
         \endgl 
 \xe
 
-\pex\label{ex-aff-part-cop-nsubj}    \a Yawarana\\
+\pex\label{ex-main-aff-part-cop-nsubj}    \a Yawarana\\
     \label{convcosnoind-49}        \begingl
         \glpreamble mëtë wejtane, intipijkë ma wejsapë, kamicha waraijne //
         \gla mëtë wej-tane intipijkë =ma wej-sapë kamicha warai-jne//
@@ -2603,7 +2667,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
         \endgl 
 \xe
 
-\pex\label{ex-aff-part-nsubj}    \a Yawarana\\
+\pex\label{ex-main-aff-part-nsubj}    \a Yawarana\\
     \label{convcosnoind-48}        \begingl
         \glpreamble eni takï tajtojpe ne kamicha mëtë //
         \gla eni takï tajtojpe =ne kamicha mëtë//
@@ -2641,7 +2705,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{ex-neg-part-pirare-cop-nsubj}    \begingl
+\label{ex-main-neg-part-pirare-cop-nsubj}    \begingl
     \glpreamble irë wejtane entë pïrarë //
     \gla irë wej-tane entë pïrarë//
     \glb \gl{tmp}:\gl{dem} \gl{cop}-\gl{cncs} here nothing//
@@ -2649,7 +2713,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
     \endgl 
 \xe
 
-\pex\label{ex-neg-part-pirare-nsubj}    \a Yawarana\\
+\pex\label{ex-main-neg-part-pirare-nsubj}    \a Yawarana\\
     \label{convinsectmaj-18}        \begingl
         \glpreamble entë pïrarë, mïjna //
         \gla entë pïrarë mïjna//
@@ -2673,7 +2737,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{ex-neg-pirare}    \begingl
+\label{ex-main-neg-pirare}    \begingl
     \glpreamble kërë chijpë pïnirë entë, pïrarë //
     \gla kërë chi-jpë =pïnirë entë pïrarë//
     \glb \gl{3}\gl{an}:\gl{md} \gl{cop}-\gl{pst} =\gl{neg} here nothing//
@@ -2681,7 +2745,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
     \endgl 
 \xe
 
-\pex\label{ex-neg-pirare-nsubj-jra}    \a Yawarana\\
+\pex\label{ex-main-neg-pirare-nsubj-jra}    \a Yawarana\\
     \label{desccasmaj-64}        \begingl
         \glpreamble serere yawakïja chi yawë, pïrarë serejra //
         \gla serere yawakï-ja chi-Ø =yawë pïrarë sere-jra//
@@ -2698,7 +2762,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{poss-aff-advpred-nsubj-cop}    \begingl
+\label{poss-main-aff-advpred-nsubj-cop}    \begingl
     \glpreamble tajrominke chikontomo //
     \gla t-tajromin-ke chi-Ø-kontomo//
     \glb -\gl{prop}-bad.news-\gl{prop} \gl{cop}-\gl{ipfv}-\gl{pl}//
@@ -2707,7 +2771,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{poss-aff-locpred-cop-nsubj}    \begingl
+\label{poss-main-aff-locpred-cop-nsubj}    \begingl
     \glpreamble warë tëwïsantomo tinawë wejsapë puwakontomojne //
     \gla warë tëwïsantomo t-inawë wej-sapë puwa-kontomo-jne//
     \glb thus \gl{3}\gl{pl} \gl{3}-in.possesion \gl{cop}-\gl{perf} point-\gl{pl}-\gl{pl}//
@@ -2715,7 +2779,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
     \endgl 
 \xe
 
-\pex\label{poss-aff-npred-nsubj}    \a Yawarana\\
+\pex\label{poss-main-aff-npred-nsubj}    \a Yawarana\\
     \label{convinsectmaj-24}        \begingl
         \glpreamble ijtakemï, warë //
         \gla i-jta-ke-mï warë//
@@ -2732,7 +2796,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{poss-neg-advsubj-pirare-locpred}    \begingl
+\label{poss-main-neg-advsubj-pirare-locpred}    \begingl
     \glpreamble uyepematojpe pïrarë wïrë inawë //
     \gla u-yepema-toj=pe pïrarë wïrë inawë//
     \glb \gl{1}\gl{sg}-pay-\gl{circ}=\gl{ess} nothing \gl{1}\gl{sg} in.possesion//
@@ -2741,7 +2805,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
 \xe
 
 \ex Yawarana \\
-\label{poss-neg-part-pinire-nsubj}    \begingl
+\label{poss-main-neg-part-pinire-nsubj}    \begingl
     \glpreamble entë ejnë pata pïnirë, entë //
     \gla entë ejnë pata-Ø -pïnirë entë//
     \glb here \gl{1+2} town-\gl{poss} -\gl{neg} here//
@@ -2749,7 +2813,7 @@ Temporary property & \gl{np}~\gl{pred}~ \gl{cop} \exref[]{temp-aff-n... & (\gl{n
     \endgl 
 \xe
 
-\pex\label{poss-q-locpred-cop-nsubj}    \a Yawarana\\
+\pex\label{poss-main-q-locpred-cop-nsubj}    \a Yawarana\\
     \label{convamgu-325}        \begingl
         \glpreamble ¿ asanë inawë ka wejsapë, tëwï? //
         \gla asanë inawë ka wej-sapë tëwï//

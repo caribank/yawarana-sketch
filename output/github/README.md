@@ -969,56 +969,77 @@ juxtaposition and copular constructions.
 
 ## Overview tables
 
-| Function           | Affirmative                                                                                                                                                                                                                                                                                                                                                                                           | Negative                                                                                                                                                                                                                                                                                  | Interrogative                                                                                                                                                                                                             |
-|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Identification     | NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:id-aff-npred-nsubj\]                                                                                                                                                                                                                                                                                                                                     | NP<sub>PRED</sub> *pïnirë* (+ NP<sub>SUBJ</sub>) \[ex:id-neg-npred-pinire-nsubj\]                                                                                                                                                                                                         | NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:id-q-npred-nsubj\] <br> NP<sub>PRED</sub> + NP<sub>SUBJ</sub> *manïkï* \[ex:id-q-npred-nsubj-maniki\]                                                                        |
-| Categorization     | NP<sub>PRED</sub> + NP<sub>SUBJ</sub> *manïkï* \[ex:cat-aff-npred-nsubj-maniki\] <br> NP<sub>PRED</sub> NP<sub>SUBJ</sub> COP \[ex:cat-aff-npred-nsubj-cop\] <br> NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:cat-aff-npred-nsubj\]                                                                                                                                                                  | NP<sub>PRED</sub> *pïnirë* (+ NP<sub>SUBJ</sub>) \[ex:cat-neg-npred-pinire-nsubj\]                                                                                                                                                                                                        | NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:cat-q-npred-nsubj\]                                                                                                                                                          |
-| Permanent property | NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:perm-aff-npred-nsubj\] <br> NP<sub>PRED</sub> + NP<sub>SUBJ</sub> *manïkï* \[ex:perm-aff-npred-nsubj-maniki\] <br> ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>) COP \[ex:perm-aff-advpred-nsubj-cop\]                                                                                                                                                          | NP<sub>PRED</sub> *pïnirë* (+ NP<sub>SUBJ</sub>) \[ex:perm-neg-npred-pinire-nsubj\]                                                                                                                                                                                                       | ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>) \[ex:perm-q-advpred-nsubj\]                                                                                                                                                        |
-| Temporary property | NP<sub>PRED</sub> COP \[ex:temp-aff-npred-cop\] <br> NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:temp-aff-npred-nsubj\] <br> NP<sub>PRED</sub> NP<sub>SUBJ</sub> COP \[ex:temp-aff-npred-nsubj-cop\]                                                                                                                                                                                                 | (NP<sub>SUBJ</sub>) ADV<sub>PRED</sub>*-jra* \[ex:temp-neg-nsubj-advpred-jra\] <br> ADV<sub>PRED</sub> + COP-NEG (+ NP<sub>SUBJ</sub>) \[ex:temp-neg-advpred-cop-neg-nsubj\]                                                                                                              | NP<sub>PRED</sub> COP \[ex:temp-q-npred-cop\]                                                                                                                                                                             |
-| Location           | LOC<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:loc-aff-locpred-cop-nsubj\] <br> PART<sub>PRED</sub> + NP<sub>SUBJ</sub> \[ex:loc-aff-part-nsubj\] <br> LOC<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:loc-aff-locpred-nsubj\] <br> ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>) COP \[ex:loc-aff-advpred-nsubj-cop\] <br> PART<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:loc-aff-part-cop-nsubj\] | LOC<sub>PRED</sub> + COP-NEG (+ NP<sub>SUBJ</sub>) \[ex:loc-neg-locpred-cop-neg-nsubj\] <br> NP<sub>SUBJ</sub> + COP + *pïnirë* + PART<sub>PRED</sub> \[ex:loc-neg-nsubj-cop-pinire-part\] <br> PART<sub>PRED</sub> + *pïnirë* (+NP<sub>SUBJ</sub>) \[ex:loc-neg-part-pinire-nsubj\]      | PART<sub>PRED</sub> + NP<sub>SUBJ</sub> \[ex:loc-q-part-nsubj\] <br> PART<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:loc-q-part-cop-nsubj\] <br> LOC<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:loc-q-locpred-nsubj\] |
-| Existential        | PART<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:ex-aff-part-cop-nsubj\] <br> PART<sub>PRED</sub> + NP<sub>SUBJ</sub> \[ex:ex-aff-part-nsubj\]                                                                                                                                                                                                                                                    | PART<sub>PRED</sub> *pïrarë* (+NP<sub>SUBJ</sub>) \[ex:ex-neg-part-pirare-nsubj\] <br> PART<sub>PRED</sub> *pïrarë* + COP + NP<sub>SUBJ</sub> \[ex:ex-neg-part-pirare-cop-nsubj\] <br> *pïrarë* NP<sub>SUBJ</sub>*-jra* \[ex:ex-neg-pirare-nsubj-jra\] <br> *pïrarë* \[ex:ex-neg-pirare\] | ?                                                                                                                                                                                                                         |
-| Possession         | NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:poss-aff-npred-nsubj\] <br> ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>) COP \[ex:poss-aff-advpred-nsubj-cop\] <br> LOC<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:poss-aff-locpred-cop-nsubj\]                                                                                                                                                           | ADVsubj *pïrarë* LOC<sub>PRED</sub> \[ex:poss-neg-advsubj-pirare-locpred\] <br> PART<sub>PRED</sub> + *pïnirë* (+NP<sub>SUBJ</sub>) \[ex:poss-neg-part-pinire-nsubj\]                                                                                                                     | LOC<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:poss-q-locpred-cop-nsubj\]                                                                                                                                            |
+| Function           | Affirmative                                                                                                                                                                                                                                                                                                                                                                                                                    | Negative                                                                                                                                                                                                                                                                                                      | Interrogative                                                                                                                                                                                                                            |
+|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Identification     | NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:id-main-aff-npred-nsubj\]                                                                                                                                                                                                                                                                                                                                                         | NP<sub>PRED</sub> *pïnirë* (+ NP<sub>SUBJ</sub>) \[ex:id-main-neg-npred-pinire-nsubj\]                                                                                                                                                                                                                        | NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:id-main-q-npred-nsubj\] <br> NP<sub>PRED</sub> + NP<sub>SUBJ</sub> *manïkï* \[ex:id-main-q-npred-nsubj-maniki\]                                                                             |
+| Categorization     | NP<sub>PRED</sub> + NP<sub>SUBJ</sub> *manïkï* \[ex:cat-main-aff-npred-nsubj-maniki\] <br> NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:cat-main-aff-npred-nsubj\]                                                                                                                                                                                                                                                             | NP<sub>PRED</sub> *pïnirë* (+ NP<sub>SUBJ</sub>) \[ex:cat-main-neg-npred-pinire-nsubj\]                                                                                                                                                                                                                       | NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:cat-main-q-npred-nsubj\]                                                                                                                                                                    |
+| Permanent property | NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:perm-main-aff-npred-nsubj\] <br> NP<sub>PRED</sub> + NP<sub>SUBJ</sub> *manïkï* \[ex:perm-main-aff-npred-nsubj-maniki\]                                                                                                                                                                                                                                                           | NP<sub>PRED</sub> *pïnirë* (+ NP<sub>SUBJ</sub>) \[ex:perm-main-neg-npred-pinire-nsubj\]                                                                                                                                                                                                                      | ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>) \[ex:perm-main-q-advpred-nsubj\]                                                                                                                                                                  |
+| Temporary property | NP<sub>PRED</sub> COP \[ex:temp-main-aff-npred-cop\] <br> NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:temp-main-aff-npred-nsubj\]                                                                                                                                                                                                                                                                                             | (NP<sub>SUBJ</sub>) ADV<sub>PRED</sub>*-jra* \[ex:temp-main-neg-nsubj-advpred-jra\] <br> ADV<sub>PRED</sub> + COP-NEG (+ NP<sub>SUBJ</sub>) \[ex:temp-main-neg-advpred-cop-neg-nsubj\]                                                                                                                        | NP<sub>PRED</sub> COP \[ex:temp-main-q-npred-cop\]                                                                                                                                                                                       |
+| Location           | LOC<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:loc-main-aff-locpred-cop-nsubj\] <br> PART<sub>PRED</sub> + NP<sub>SUBJ</sub> \[ex:loc-main-aff-part-nsubj\] <br> LOC<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:loc-main-aff-locpred-nsubj\] <br> ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>) COP \[ex:loc-main-aff-advpred-nsubj-cop\] <br> PART<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:loc-main-aff-part-cop-nsubj\] | NP<sub>SUBJ</sub> + COP + *pïnirë* + PART<sub>PRED</sub> \[ex:loc-main-neg-nsubj-cop-pinire-part\] <br> LOC<sub>PRED</sub> + COP-NEG (+ NP<sub>SUBJ</sub>) \[ex:loc-main-neg-locpred-cop-neg-nsubj\] <br> PART<sub>PRED</sub> + *pïnirë* (+NP<sub>SUBJ</sub>) \[ex:loc-main-neg-part-pinire-nsubj\]           | PART<sub>PRED</sub> + NP<sub>SUBJ</sub> \[ex:loc-main-q-part-nsubj\] <br> PART<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:loc-main-q-part-cop-nsubj\] <br> LOC<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:loc-main-q-locpred-nsubj\] |
+| Existential        | PART<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:ex-main-aff-part-cop-nsubj\] <br> PART<sub>PRED</sub> + NP<sub>SUBJ</sub> \[ex:ex-main-aff-part-nsubj\]                                                                                                                                                                                                                                                                   | PART<sub>PRED</sub> *pïrarë* (+NP<sub>SUBJ</sub>) \[ex:ex-main-neg-part-pirare-nsubj\] <br> PART<sub>PRED</sub> *pïrarë* + COP + NP<sub>SUBJ</sub> \[ex:ex-main-neg-part-pirare-cop-nsubj\] <br> *pïrarë* NP<sub>SUBJ</sub>*-jra* \[ex:ex-main-neg-pirare-nsubj-jra\] <br> *pïrarë* \[ex:ex-main-neg-pirare\] | ?                                                                                                                                                                                                                                        |
+| Possession         | NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>) \[ex:poss-main-aff-npred-nsubj\] <br> ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>) COP \[ex:poss-main-aff-advpred-nsubj-cop\] <br> LOC<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:poss-main-aff-locpred-cop-nsubj\]                                                                                                                                                                     | ADVsubj *pïrarë* LOC<sub>PRED</sub> \[ex:poss-main-neg-advsubj-pirare-locpred\] <br> PART<sub>PRED</sub> + *pïnirë* (+NP<sub>SUBJ</sub>) \[ex:poss-main-neg-part-pinire-nsubj\]                                                                                                                               | LOC<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:poss-main-q-locpred-cop-nsubj\]                                                                                                                                                      |
 
-|                                                 | id                          | cat                                 | perm                                 | temp                              | loc                                | ex                             | poss                                |
-|:------------------------------------------------|:----------------------------|:------------------------------------|:-------------------------------------|:----------------------------------|:-----------------------------------|:-------------------------------|:------------------------------------|
-| NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>)         | ✓ \[ex:id-aff-npred-nsubj\] | ✓ \[ex:cat-aff-npred-nsubj\]        | ✓ \[ex:perm-aff-npred-nsubj\]        | ✓ \[ex:temp-aff-npred-nsubj\]     |                                    |                                | ✓ \[ex:poss-aff-npred-nsubj\]       |
-| NP<sub>PRED</sub> + NP<sub>SUBJ</sub> *manïkï*  |                             | ✓ \[ex:cat-aff-npred-nsubj-maniki\] | ✓ \[ex:perm-aff-npred-nsubj-maniki\] |                                   |                                    |                                |                                     |
-| NP<sub>PRED</sub> NP<sub>SUBJ</sub> COP         |                             | ✓ \[ex:cat-aff-npred-nsubj-cop\]    |                                      | ✓ \[ex:temp-aff-npred-nsubj-cop\] |                                    |                                |                                     |
-| ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>) COP      |                             |                                     | ✓ \[ex:perm-aff-advpred-nsubj-cop\]  |                                   | ✓ \[ex:loc-aff-advpred-nsubj-cop\] |                                | ✓ \[ex:poss-aff-advpred-nsubj-cop\] |
-| NP<sub>PRED</sub> COP                           |                             |                                     |                                      | ✓ \[ex:temp-aff-npred-cop\]       |                                    |                                |                                     |
-| PART<sub>PRED</sub> + NP<sub>SUBJ</sub>         |                             |                                     |                                      |                                   | ✓ \[ex:loc-aff-part-nsubj\]        | ✓ \[ex:ex-aff-part-nsubj\]     |                                     |
-| LOC<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>)  |                             |                                     |                                      |                                   | ✓ \[ex:loc-aff-locpred-cop-nsubj\] |                                | ✓ \[ex:poss-aff-locpred-cop-nsubj\] |
-| LOC<sub>PRED</sub> (+ NP<sub>SUBJ</sub>)        |                             |                                     |                                      |                                   | ✓ \[ex:loc-aff-locpred-nsubj\]     |                                |                                     |
-| PART<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) |                             |                                     |                                      |                                   | ✓ \[ex:loc-aff-part-cop-nsubj\]    | ✓ \[ex:ex-aff-part-cop-nsubj\] |                                     |
+| Function           | Affirmative                                                                                                                                                                                                                                                                                                                                | Negative                                                                                    |
+|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
+| Identification     | ?                                                                                                                                                                                                                                                                                                                                          | ?                                                                                           |
+| Categorization     | NP<sub>PRED</sub> NP<sub>SUBJ</sub> COP \[ex:cat-sub-aff-npred-nsubj-cop\]                                                                                                                                                                                                                                                                 | ?                                                                                           |
+| Permanent property | ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>) COP \[ex:perm-sub-aff-advpred-nsubj-cop\]                                                                                                                                                                                                                                                           | ?                                                                                           |
+| Temporary property | NP<sub>PRED</sub> NP<sub>SUBJ</sub> COP \[ex:temp-sub-aff-npred-nsubj-cop\]                                                                                                                                                                                                                                                                | ?                                                                                           |
+| Location           | PART<sub>PRED</sub> + NP<sub>SUBJ</sub> \[ex:loc-sub-aff-part-nsubj\] <br> PART<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:loc-sub-aff-part-cop-nsubj\] <br> ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>) COP \[ex:loc-sub-aff-advpred-nsubj-cop\] <br> LOC<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) \[ex:loc-sub-aff-locpred-cop-nsubj\] | LOC<sub>PRED</sub> + COP-NEG (+ NP<sub>SUBJ</sub>) \[ex:loc-sub-neg-locpred-cop-neg-nsubj\] |
+| Existential        | ?                                                                                                                                                                                                                                                                                                                                          | ?                                                                                           |
+| Possession         | ?                                                                                                                                                                                                                                                                                                                                          | ?                                                                                           |
 
-|                                                          | id                                 | cat                                 | perm                                 | temp                                    | loc                                    | ex                                    | poss                                     |
-|:---------------------------------------------------------|:-----------------------------------|:------------------------------------|:-------------------------------------|:----------------------------------------|:---------------------------------------|:--------------------------------------|:-----------------------------------------|
-| NP<sub>PRED</sub> *pïnirë* (+ NP<sub>SUBJ</sub>)         | ✓ \[ex:id-neg-npred-pinire-nsubj\] | ✓ \[ex:cat-neg-npred-pinire-nsubj\] | ✓ \[ex:perm-neg-npred-pinire-nsubj\] |                                         |                                        |                                       |                                          |
-| (NP<sub>SUBJ</sub>) ADV<sub>PRED</sub>*-jra*             |                                    |                                     |                                      | ✓ \[ex:temp-neg-nsubj-advpred-jra\]     |                                        |                                       |                                          |
-| ADV<sub>PRED</sub> + COP-NEG (+ NP<sub>SUBJ</sub>)       |                                    |                                     |                                      | ✓ \[ex:temp-neg-advpred-cop-neg-nsubj\] |                                        |                                       |                                          |
-| LOC<sub>PRED</sub> + COP-NEG (+ NP<sub>SUBJ</sub>)       |                                    |                                     |                                      |                                         | ✓ \[ex:loc-neg-locpred-cop-neg-nsubj\] |                                       |                                          |
-| NP<sub>SUBJ</sub> + COP + *pïnirë* + PART<sub>PRED</sub> |                                    |                                     |                                      |                                         | ✓ \[ex:loc-neg-nsubj-cop-pinire-part\] |                                       |                                          |
-| PART<sub>PRED</sub> + *pïnirë* (+NP<sub>SUBJ</sub>)      |                                    |                                     |                                      |                                         | ✓ \[ex:loc-neg-part-pinire-nsubj\]     |                                       | ✓ \[ex:poss-neg-part-pinire-nsubj\]      |
-| PART<sub>PRED</sub> *pïrarë* (+NP<sub>SUBJ</sub>)        |                                    |                                     |                                      |                                         |                                        | ✓ \[ex:ex-neg-part-pirare-nsubj\]     |                                          |
-| PART<sub>PRED</sub> *pïrarë* + COP + NP<sub>SUBJ</sub>   |                                    |                                     |                                      |                                         |                                        | ✓ \[ex:ex-neg-part-pirare-cop-nsubj\] |                                          |
-| *pïrarë* NP<sub>SUBJ</sub>*-jra*                         |                                    |                                     |                                      |                                         |                                        | ✓ \[ex:ex-neg-pirare-nsubj-jra\]      |                                          |
-| *pïrarë*                                                 |                                    |                                     |                                      |                                         |                                        | ✓ \[ex:ex-neg-pirare\]                |                                          |
-| ADVsubj *pïrarë* LOC<sub>PRED</sub>                      |                                    |                                     |                                      |                                         |                                        |                                       | ✓ \[ex:poss-neg-advsubj-pirare-locpred\] |
+|                                                 | id                               | cat                                      | perm                                      | temp                               | loc                                     | ex                                  | poss                                     |
+|:------------------------------------------------|:---------------------------------|:-----------------------------------------|:------------------------------------------|:-----------------------------------|:----------------------------------------|:------------------------------------|:-----------------------------------------|
+| NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>)         | ✓ \[ex:id-main-aff-npred-nsubj\] | ✓ \[ex:cat-main-aff-npred-nsubj\]        | ✓ \[ex:perm-main-aff-npred-nsubj\]        | ✓ \[ex:temp-main-aff-npred-nsubj\] |                                         |                                     | ✓ \[ex:poss-main-aff-npred-nsubj\]       |
+| NP<sub>PRED</sub> + NP<sub>SUBJ</sub> *manïkï*  |                                  | ✓ \[ex:cat-main-aff-npred-nsubj-maniki\] | ✓ \[ex:perm-main-aff-npred-nsubj-maniki\] |                                    |                                         |                                     |                                          |
+| ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>) COP      |                                  |                                          |                                           |                                    | ✓ \[ex:loc-main-aff-advpred-nsubj-cop\] |                                     | ✓ \[ex:poss-main-aff-advpred-nsubj-cop\] |
+| NP<sub>PRED</sub> COP                           |                                  |                                          |                                           | ✓ \[ex:temp-main-aff-npred-cop\]   |                                         |                                     |                                          |
+| PART<sub>PRED</sub> + NP<sub>SUBJ</sub>         |                                  |                                          |                                           |                                    | ✓ \[ex:loc-main-aff-part-nsubj\]        | ✓ \[ex:ex-main-aff-part-nsubj\]     |                                          |
+| LOC<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>)  |                                  |                                          |                                           |                                    | ✓ \[ex:loc-main-aff-locpred-cop-nsubj\] |                                     | ✓ \[ex:poss-main-aff-locpred-cop-nsubj\] |
+| LOC<sub>PRED</sub> (+ NP<sub>SUBJ</sub>)        |                                  |                                          |                                           |                                    | ✓ \[ex:loc-main-aff-locpred-nsubj\]     |                                     |                                          |
+| PART<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) |                                  |                                          |                                           |                                    | ✓ \[ex:loc-main-aff-part-cop-nsubj\]    | ✓ \[ex:ex-main-aff-part-cop-nsubj\] |                                          |
 
-|                                                 | id                               | cat                        | perm                          | temp                      | loc                           | poss                              |
-|:------------------------------------------------|:---------------------------------|:---------------------------|:------------------------------|:--------------------------|:------------------------------|:----------------------------------|
-| NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>)         | ✓ \[ex:id-q-npred-nsubj\]        | ✓ \[ex:cat-q-npred-nsubj\] |                               |                           |                               |                                   |
-| NP<sub>PRED</sub> + NP<sub>SUBJ</sub> *manïkï*  | ✓ \[ex:id-q-npred-nsubj-maniki\] |                            |                               |                           |                               |                                   |
-| ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>)          |                                  |                            | ✓ \[ex:perm-q-advpred-nsubj\] |                           |                               |                                   |
-| NP<sub>PRED</sub> COP                           |                                  |                            |                               | ✓ \[ex:temp-q-npred-cop\] |                               |                                   |
-| PART<sub>PRED</sub> + NP<sub>SUBJ</sub>         |                                  |                            |                               |                           | ✓ \[ex:loc-q-part-nsubj\]     |                                   |
-| LOC<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>)  |                                  |                            |                               |                           |                               | ✓ \[ex:poss-q-locpred-cop-nsubj\] |
-| LOC<sub>PRED</sub> (+ NP<sub>SUBJ</sub>)        |                                  |                            |                               |                           | ✓ \[ex:loc-q-locpred-nsubj\]  |                                   |
-| PART<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) |                                  |                            |                               |                           | ✓ \[ex:loc-q-part-cop-nsubj\] |                                   |
+|                                                 | cat                                  | perm                                    | temp                                  | loc                                    |
+|:------------------------------------------------|:-------------------------------------|:----------------------------------------|:--------------------------------------|:---------------------------------------|
+| NP<sub>PRED</sub> NP<sub>SUBJ</sub> COP         | ✓ \[ex:cat-sub-aff-npred-nsubj-cop\] |                                         | ✓ \[ex:temp-sub-aff-npred-nsubj-cop\] |                                        |
+| ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>) COP      |                                      | ✓ \[ex:perm-sub-aff-advpred-nsubj-cop\] |                                       | ✓ \[ex:loc-sub-aff-advpred-nsubj-cop\] |
+| PART<sub>PRED</sub> + NP<sub>SUBJ</sub>         |                                      |                                         |                                       | ✓ \[ex:loc-sub-aff-part-nsubj\]        |
+| LOC<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>)  |                                      |                                         |                                       | ✓ \[ex:loc-sub-aff-locpred-cop-nsubj\] |
+| PART<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) |                                      |                                         |                                       | ✓ \[ex:loc-sub-aff-part-cop-nsubj\]    |
+
+|                                                          | id                                      | cat                                      | perm                                      | temp                                         | loc                                         | ex                                         | poss                                          |
+|:---------------------------------------------------------|:----------------------------------------|:-----------------------------------------|:------------------------------------------|:---------------------------------------------|:--------------------------------------------|:-------------------------------------------|:----------------------------------------------|
+| NP<sub>PRED</sub> *pïnirë* (+ NP<sub>SUBJ</sub>)         | ✓ \[ex:id-main-neg-npred-pinire-nsubj\] | ✓ \[ex:cat-main-neg-npred-pinire-nsubj\] | ✓ \[ex:perm-main-neg-npred-pinire-nsubj\] |                                              |                                             |                                            |                                               |
+| (NP<sub>SUBJ</sub>) ADV<sub>PRED</sub>*-jra*             |                                         |                                          |                                           | ✓ \[ex:temp-main-neg-nsubj-advpred-jra\]     |                                             |                                            |                                               |
+| ADV<sub>PRED</sub> + COP-NEG (+ NP<sub>SUBJ</sub>)       |                                         |                                          |                                           | ✓ \[ex:temp-main-neg-advpred-cop-neg-nsubj\] |                                             |                                            |                                               |
+| LOC<sub>PRED</sub> + COP-NEG (+ NP<sub>SUBJ</sub>)       |                                         |                                          |                                           |                                              | ✓ \[ex:loc-main-neg-locpred-cop-neg-nsubj\] |                                            |                                               |
+| NP<sub>SUBJ</sub> + COP + *pïnirë* + PART<sub>PRED</sub> |                                         |                                          |                                           |                                              | ✓ \[ex:loc-main-neg-nsubj-cop-pinire-part\] |                                            |                                               |
+| PART<sub>PRED</sub> + *pïnirë* (+NP<sub>SUBJ</sub>)      |                                         |                                          |                                           |                                              | ✓ \[ex:loc-main-neg-part-pinire-nsubj\]     |                                            | ✓ \[ex:poss-main-neg-part-pinire-nsubj\]      |
+| PART<sub>PRED</sub> *pïrarë* (+NP<sub>SUBJ</sub>)        |                                         |                                          |                                           |                                              |                                             | ✓ \[ex:ex-main-neg-part-pirare-nsubj\]     |                                               |
+| PART<sub>PRED</sub> *pïrarë* + COP + NP<sub>SUBJ</sub>   |                                         |                                          |                                           |                                              |                                             | ✓ \[ex:ex-main-neg-part-pirare-cop-nsubj\] |                                               |
+| *pïrarë* NP<sub>SUBJ</sub>*-jra*                         |                                         |                                          |                                           |                                              |                                             | ✓ \[ex:ex-main-neg-pirare-nsubj-jra\]      |                                               |
+| *pïrarë*                                                 |                                         |                                          |                                           |                                              |                                             | ✓ \[ex:ex-main-neg-pirare\]                |                                               |
+| ADVsubj *pïrarë* LOC<sub>PRED</sub>                      |                                         |                                          |                                           |                                              |                                             |                                            | ✓ \[ex:poss-main-neg-advsubj-pirare-locpred\] |
+
+|                                                    | loc                                        |
+|:---------------------------------------------------|:-------------------------------------------|
+| LOC<sub>PRED</sub> + COP-NEG (+ NP<sub>SUBJ</sub>) | ✓ \[ex:loc-sub-neg-locpred-cop-neg-nsubj\] |
+
+|                                                 | id                                    | cat                             | perm                               | temp                           | loc                                | poss                                   |
+|:------------------------------------------------|:--------------------------------------|:--------------------------------|:-----------------------------------|:-------------------------------|:-----------------------------------|:---------------------------------------|
+| NP<sub>PRED</sub> (+ NP<sub>SUBJ</sub>)         | ✓ \[ex:id-main-q-npred-nsubj\]        | ✓ \[ex:cat-main-q-npred-nsubj\] |                                    |                                |                                    |                                        |
+| NP<sub>PRED</sub> + NP<sub>SUBJ</sub> *manïkï*  | ✓ \[ex:id-main-q-npred-nsubj-maniki\] |                                 |                                    |                                |                                    |                                        |
+| ADV<sub>PRED</sub> (NP<sub>SUBJ</sub>)          |                                       |                                 | ✓ \[ex:perm-main-q-advpred-nsubj\] |                                |                                    |                                        |
+| NP<sub>PRED</sub> COP                           |                                       |                                 |                                    | ✓ \[ex:temp-main-q-npred-cop\] |                                    |                                        |
+| PART<sub>PRED</sub> + NP<sub>SUBJ</sub>         |                                       |                                 |                                    |                                | ✓ \[ex:loc-main-q-part-nsubj\]     |                                        |
+| LOC<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>)  |                                       |                                 |                                    |                                |                                    | ✓ \[ex:poss-main-q-locpred-cop-nsubj\] |
+| LOC<sub>PRED</sub> (+ NP<sub>SUBJ</sub>)        |                                       |                                 |                                    |                                | ✓ \[ex:loc-main-q-locpred-nsubj\]  |                                        |
+| PART<sub>PRED</sub> + COP (+ NP<sub>SUBJ</sub>) |                                       |                                 |                                    |                                | ✓ \[ex:loc-main-q-part-cop-nsubj\] |                                        |
 
 ## Examples
 
-(id-aff-npred-nsubj)
+(id-main-aff-npred-nsubj)
 
 1)  Yawarana (convcosnoind-37)  
     ejnë  okï-rï      tanapï  
@@ -1045,7 +1066,7 @@ juxtaposition and copular constructions.
     1+2   soil-POSS  3SG  
     ‘‘esa es la tierra de nosotros’’
 
-(id-neg-npred-pinire-nsubj)
+(id-main-neg-npred-pinire-nsubj)
 
 1)  Yawarana (convamgu-42)  
     mokontomo  nono  -pïnirë  seni  
@@ -1062,7 +1083,7 @@ juxtaposition and copular constructions.
     1+2   REL-relative  -NEG  
     ‘‘no es nuestra familia’’
 
-(id-q-npred-nsubj)
+(id-main-q-npred-nsubj)
 
 1)  Yawarana (convamgu-94)  
     a-y-akono          ka  petra  
@@ -1074,13 +1095,13 @@ juxtaposition and copular constructions.
     2-REL-ygr.brother  QP  older.bro.M-POSS  2SG  
     ‘¿tu menor, tú eres el mayor?’
 
-> (id-q-npred-nsubj-maniki) Yawarana
+> (id-main-q-npred-nsubj-maniki) Yawarana
 > <pre>
 > enijpëtërë  =ma     tëwï  maniki  
 > one         =RESTR  3SG   AN.REL  
 > ‘‘el es el único?’</pre>
 
-(cat-aff-npred-nsubj)
+(cat-main-aff-npred-nsubj)
 
 1)  Yawarana (hist2mape-21)  
     kërë    wurijyamo  
@@ -1092,25 +1113,25 @@ juxtaposition and copular constructions.
     um  tree  -NEG     rock  
     ‘‘no es palo, es piedra’’
 
-> (cat-aff-npred-nsubj-cop) Yawarana
-> <pre>
-> tëwï-jpë  tëwïsantomo  takï   papa        =pano  =ma     ta-yakarama-Ø  wej-sapë  mïntë  wïrë  chi-Ø     wej-sapë  muku   marë  wïrë  chi-Ø     =yawë  
-> 3SG-MOD   3PL          CNFRM  father:VOC  =late  =RESTR  3O-tell-IPFV   COP-PERF  there  1SG   COP-IPFV  COP-PERF  child  like  1SG   COP-IPFV  =CTMP  
-> ‘‘eso ellos, lo contaba mi papá, yo estaba allá, cuando yo estaba niña’’</pre>
-
-> (cat-aff-npred-nsubj-maniki) Yawarana
+> (cat-main-aff-npred-nsubj-maniki) Yawarana
 > <pre>
 > soro-ri   =rë    mëkï    maniki  yenepe-se          ta  
 > lie-POSS  =EMPH  3AN:RM  AN.REL  send.away-PFV.PST  like  
 > ‘‘eso es un engaño, para espantar’’</pre>
 
-> (cat-neg-npred-pinire-nsubj) Yawarana
+> (cat-sub-aff-npred-nsubj-cop) Yawarana
+> <pre>
+> tëwï-jpë  tëwïsantomo  takï   papa        =pano  =ma     ta-yakarama-Ø  wej-sapë  mïntë  wïrë  chi-Ø     wej-sapë  muku   marë  wïrë  chi-Ø     =yawë  
+> 3SG-MOD   3PL          CNFRM  father:VOC  =late  =RESTR  3O-tell-IPFV   COP-PERF  there  1SG   COP-IPFV  COP-PERF  child  like  1SG   COP-IPFV  =CTMP  
+> ‘‘eso ellos, lo contaba mi papá, yo estaba allá, cuando yo estaba niña’’</pre>
+
+> (cat-main-neg-npred-pinire-nsubj) Yawarana
 > <pre>
 > am  yëye  -pïnirë  tëpu  
 > um  tree  -NEG     rock  
 > ‘‘no es palo, es piedra’’</pre>
 
-(cat-q-npred-nsubj)
+(cat-main-q-npred-nsubj)
 
 1)  Yawarana (convfemgrme-315)  
     wurichi  ka  i-muku-ru  
@@ -1122,13 +1143,7 @@ juxtaposition and copular constructions.
     3SG   =INTS  2-REL-relative  QP  
     ‘‘el es tu familia?’’
 
-> (perm-aff-advpred-nsubj-cop) Yawarana
-> <pre>
-> i-=yawë  takï   kampra-ke  ejnë  chi-Ø     =yawë-no  =rë    taji  =rë  
-> 3-=CTMP  CNFRM  big-PROP   1+2   COP-IPFV  =LOC-NZR  =EMPH  ?     =EMPH  
-> ‘‘en ese momento ya eramos grandes’’</pre>
-
-(perm-aff-npred-nsubj)
+(perm-main-aff-npred-nsubj)
 
 1)  Yawarana (conv1stenc-80)  
     intompïjkë  -pïnirë  Ø-kampra-ke-mï      kasore-mï  
@@ -1140,13 +1155,19 @@ juxtaposition and copular constructions.
     yes  patawa.palm  small    small  
     ‘sí, sókowa es el pequeñito’’
 
-> (perm-aff-npred-nsubj-maniki) Yawarana
+> (perm-main-aff-npred-nsubj-maniki) Yawarana
 > <pre>
 > sokowa       mukujpë  manïkï  
 > patawa.palm  small    AN.REL  
 > ‘‘sokowa es el pequeño’’</pre>
 
-(perm-neg-npred-pinire-nsubj)
+> (perm-sub-aff-advpred-nsubj-cop) Yawarana
+> <pre>
+> i-=yawë  takï   kampra-ke  ejnë  chi-Ø     =yawë-no  =rë    taji  =rë  
+> 3-=CTMP  CNFRM  big-PROP   1+2   COP-IPFV  =LOC-NZR  =EMPH  ?     =EMPH  
+> ‘‘en ese momento ya eramos grandes’’</pre>
+
+(perm-main-neg-npred-pinire-nsubj)
 
 1)  Yawarana (descmensgrme-67)  
     makë        neke      =ne    Yawarana  na    -pïnirë  
@@ -1158,19 +1179,19 @@ juxtaposition and copular constructions.
     white-NZR   -NEG     3AN:RM  
     ‘‘ese no es blanco’’
 
-> (perm-q-advpred-nsubj) Yawarana
+> (perm-main-q-advpred-nsubj) Yawarana
 > <pre>
 > tëwï  ka  mojne  
 > 3SG   QP  salty  
 > ‘‘¿esos son salados?’’</pre>
 
-> (temp-aff-npred-cop) Yawarana
+> (temp-main-aff-npred-cop) Yawarana
 > <pre>
 > t-erepun  t-erepun  wej-sapë  nwa   ij-të-se      Yakucho   =pana  ij-të-jpë  irëjpë  ta    ijtë   =rë    sëma-se      tawara  taji  
 > 3-sick    3-sick    COP-PERF  thus  3-go-PFV.PST  Ayacucho  =ALL   3-go-PST   then    like  there  =EMPH  die-PFV.PST  thus    ?  
 > ‘‘estaba enfermo, así se fue, se fue a Ayacucho y allá mismo murió’’</pre>
 
-(temp-aff-npred-nsubj)
+(temp-main-aff-npred-nsubj)
 
 1)  Yawarana (desccasmaj-85)  
     irë pana  =rë    warë  yapijtom  t-erepun  rërë  
@@ -1182,13 +1203,13 @@ juxtaposition and copular constructions.
     3-sick    3-sick    COP-PERF  thus  3-go-PFV.PST  Ayacucho  =ALL   3-go-PST   then    like  there  =EMPH  die-PFV.PST  thus    ?  
     ‘‘estaba enfermo, así se fue, se fue a Ayacucho y allá mismo murió’’
 
-> (temp-aff-npred-nsubj-cop) Yawarana
+> (temp-sub-aff-npred-nsubj-cop) Yawarana
 > <pre>
 > pïrajrarë  wïrë  chi-Ø     =yawë  pïnika  tajne  =ya   wïrë  yarë-se        warë  mïntë-no   Majawa   =të   wïrë  këyëta-se  
 > small      1SG   COP-IPFV  =CTMP  PROB    3PL    =ERG  1SG   carry-PFV.PST  thus  there-NZR  Majagua  =LOC  1SG   grow.up-PFV.PST  
 > ‘‘tal vez cuando yo estaba pequeña, ellos me llevaron, allá en Majagua crecí’’</pre>
 
-(temp-neg-advpred-cop-neg-nsubj)
+(temp-main-neg-advpred-cop-neg-nsubj)
 
 1)  Yawarana (descmensgrme-43)  
     tawara  u-chi-ja  
@@ -1205,7 +1226,7 @@ juxtaposition and copular constructions.
     COP-NEG  thus    before  
     ‘‘así no era antes’’
 
-(temp-neg-nsubj-advpred-jra)
+(temp-main-neg-nsubj-advpred-jra)
 
 1)  Yawarana (convestsjm-34)  
     enirë  takï   tawara-jra  
@@ -1217,52 +1238,36 @@ juxtaposition and copular constructions.
     1SG   foot-POSS  good-NEG  
     ‘‘mi pie está malo’’
 
-> (temp-q-npred-cop) Yawarana
+> (temp-main-q-npred-cop) Yawarana
 > <pre>
 > t-erepun  ka  wej-sapë  
 > 3-sick    QP  COP-PERF  
 > ‘¿estaba enfermo?’</pre>
 
-(loc-aff-advpred-nsubj-cop)
+> (loc-main-aff-advpred-nsubj-cop) Yawarana
+> <pre>
+> entë  =ma     tëijpo-jra  wej-tane  
+> here  =RESTR  far-NEG     COP-CNCS  
+> ‘‘aunque está cerca de aquí’’</pre>
 
-1)  Yawarana (convestsjm-35)  
-    entë  =ma     tëijpo-jra  wej-tane  
-    here  =RESTR  far-NEG     COP-CNCS  
-    ‘‘aunque está cerca de aquí’’
+(loc-main-aff-locpred-cop-nsubj)
 
-2)  Yawarana (convfemgrme-106)  
-    tëijpo-jra  ëjtë   =pëkë   tëijpo-jra  yëye  chi-Ø=pëkë        mïntë  
-    far-NEG     house  =about  far-NEG     tree  COP-IPFV=because  there  
-    ‘‘porque estaba un palo cerca de la casa’’
-
-(loc-aff-locpred-cop-nsubj)
-
-1)  Yawarana (convfemgrme-99)  
-    tawara  chi-jpë  ta    mïntë  sawë   =të   ana  chi-Ø     =yawë  mïntë  
-    thus    COP-PST  like  there  rapid  =LOC  1+3  COP-IPFV  =CTMP  there  
-    ‘‘así también fue allá cuando estabamos en el raudal, allá’’
-
-2)  Yawarana (convfemgrme-157)  
-    mïntë  Manapiare  ana  chi-Ø     =yawë  
-    there  Manapiare  1+3  COP-IPFV  =CTMP  
-    ‘‘cuando estuvimos en Manapiare’’
-
-3)  Yawarana (convfemgrme-292)  
+1)  Yawarana (convfemgrme-292)  
     ijtë   wej-sapë  wïrë  y-akërë  wej-sapë  
     there  COP-PERF  1SG   REL-COM  COP-PERF  
     ‘‘ahí estaba, estaba conmigo’’
 
-4)  Yawarana (histgrme-107)  
+2)  Yawarana (histgrme-107)  
     ana  chi-Ø     wej-sapë  mëtë   sawë   =të  
     1+3  COP-IPFV  COP-PERF  there  rapid  =LOC  
     ‘‘nosotros estuvimos allí en el raudal’’
 
-5)  Yawarana (convamgu-127)  
+3)  Yawarana (convamgu-127)  
     mïntë  La Esperanza  =të   ana  chi-Ø     =yawë  
     there  La Esperanza  =LOC  1+3  COP-IPFV  =CTMP  
     ‘‘allá cuando estabamos en la Esperanza’’
 
-(loc-aff-locpred-nsubj)
+(loc-main-aff-locpred-nsubj)
 
 1)  Yawarana (convamgu-80)  
     wayawarë  =të   =rë    pïnika  tëwï  
@@ -1274,7 +1279,7 @@ juxtaposition and copular constructions.
     1SG   in.mouth  all  
     ‘‘todo está en mi boca’’
 
-(loc-aff-part-cop-nsubj)
+(loc-main-aff-part-cop-nsubj)
 
 1)  Yawarana (convfemgrme-292)  
     ijtë   wej-sapë  wïrë  y-akërë  wej-sapë  
@@ -1291,38 +1296,33 @@ juxtaposition and copular constructions.
     there  1SG   COP-NEG  COP-because-NZR  here  =RESTR  1SG   COP-IPFV  
     ‘‘como yo no estaba allá, estoy aquí no más’’
 
-4)  Yawarana (convamgu-101)  
-    entë  =ma     wïrë  chi-Ø     chi-poko-no  
-    here  =RESTR  1SG   COP-IPFV  COP-because-NZR  
-    ‘‘por eso yo estoy aquí mismo’’
-
-5)  Yawarana (convamgu-138)  
+4)  Yawarana (convamgu-138)  
     entë  =ma     ejnë  chi-Ø     =rë  
     here  =RESTR  1+2   COP-IPFV  =EMPH  
     ‘‘vamos a estar aquí’’
 
-6)  Yawarana (convhistfamsjm-92)  
+5)  Yawarana (convhistfamsjm-92)  
     tëwï-jpë  tëwïsantomo  takï   papa        =pano  =ma     ta-yakarama-Ø  wej-sapë  mïntë  wïrë  chi-Ø     wej-sapë  muku   marë  wïrë  chi-Ø     =yawë  
     3SG-MOD   3PL          CNFRM  father:VOC  =late  =RESTR  3O-tell-IPFV   COP-PERF  there  1SG   COP-IPFV  COP-PERF  child  like  1SG   COP-IPFV  =CTMP  
     ‘‘eso ellos, lo contaba mi papá, yo estaba allá, cuando yo estaba
     niña’’
 
-7)  Yawarana (ctorosq-17)  
+6)  Yawarana (ctorosq-17)  
     tëwï  toto=pe         wej-sapë  mïntë  pare  
     3SG   non.indian=ESS  COP-PERF  there  and  
     ‘‘él estaba allá como persona’’
 
-8)  Yawarana (ctovarmafl-40)  
+7)  Yawarana (ctovarmafl-40)  
     entë  ana  chi-ri    petomyakërë  yatunu  
     here  1+3  COP-IPFV  three        sun  
     ‘‘aquí vamos a estar 3 días’’
 
-9)  Yawarana (histyarirdi-674)  
+8)  Yawarana (histyarirdi-674)  
     entë  =ma     ta    ejnë  chi-ri    mïntë  ti    toto        yamï-jpë     sukase  
     here  =RESTR  like  1+2   COP-IPFV  there  like  non.indian  pick.up-PST  all  
     ‘‘aquí no más vamos a estar, allá todo lo agarraron los criollos’’
 
-(loc-aff-part-nsubj)
+(loc-main-aff-part-nsubj)
 
 1)  Yawarana (histanfo-1)  
     wïrë  tawara  =rë    entë  
@@ -1360,57 +1360,83 @@ juxtaposition and copular constructions.
     3PL          CONTRAST  =INTS  there  
     ‘‘ellos sí están ahí’’
 
-8)  Yawarana (convhistfamsjm-95)  
-    asanë         mëtë   chi-poko-no  
-    2:mother:POS  there  COP-because-NZR  
-    ‘‘porque tienen su mamá ahí’’
-
-9)  Yawarana (ctorosq-28)  
+8)  Yawarana (ctorosq-28)  
     entë  wïrë  ta-Ø      ti    ta  
     here  1SG   say-IPFV  like  like  
     ‘‘aquí estoy, dijo’’
 
-10) Yawarana (ctovarmafl-366)  
+9)  Yawarana (ctovarmafl-366)  
     mëkï    takï   mïntë  kawë  ti  
     3AN:RM  CNFRM  there  high  like  
     ‘‘aquel estaba allá arriba’’
 
-(loc-neg-locpred-cop-neg-nsubj)
+> (loc-sub-aff-advpred-nsubj-cop) Yawarana
+> <pre>
+> tëijpo-jra  ëjtë   =pëkë   tëijpo-jra  yëye  chi-Ø=pëkë        mïntë  
+> far-NEG     house  =about  far-NEG     tree  COP-IPFV=because  there  
+> ‘‘porque estaba un palo cerca de la casa’’</pre>
 
-1)  Yawarana (convamgu-99)  
-    mïjna  wïrë  chi-ja   chi-poko-no      entë  =ma     wïrë  chi-ri  
-    there  1SG   COP-NEG  COP-because-NZR  here  =RESTR  1SG   COP-IPFV  
-    ‘‘como yo no estaba allá, estoy aquí no más’’
+(loc-sub-aff-locpred-cop-nsubj)
 
-2)  Yawarana (ctorosq-8)  
+1)  Yawarana (convfemgrme-99)  
+    tawara  chi-jpë  ta    mïntë  sawë   =të   ana  chi-Ø     =yawë  mïntë  
+    thus    COP-PST  like  there  rapid  =LOC  1+3  COP-IPFV  =CTMP  there  
+    ‘‘así también fue allá cuando estabamos en el raudal, allá’’
+
+2)  Yawarana (convfemgrme-157)  
+    mïntë  Manapiare  ana  chi-Ø     =yawë  
+    there  Manapiare  1+3  COP-IPFV  =CTMP  
+    ‘‘cuando estuvimos en Manapiare’’
+
+> (loc-sub-aff-part-cop-nsubj) Yawarana
+> <pre>
+> entë  =ma     wïrë  chi-Ø     chi-poko-no  
+> here  =RESTR  1SG   COP-IPFV  COP-because-NZR  
+> ‘‘por eso yo estoy aquí mismo’’</pre>
+
+> (loc-sub-aff-part-nsubj) Yawarana
+> <pre>
+> asanë         mëtë   chi-poko-no  
+> 2:mother:POS  there  COP-because-NZR  
+> ‘‘porque tienen su mamá ahí’’</pre>
+
+(loc-main-neg-locpred-cop-neg-nsubj)
+
+1)  Yawarana (ctorosq-8)  
     tawara  tajne  yëmpëka-pëtï-rï   më-waraijto-ri  y-akërë  ta    wïrë  chi-ja   ta-ta-Ø      wej-saj   ta  
     too     3PL    offend-PLAC-IPFV  2-husband-POSS  REL-COM  like  1SG   COP-NEG  3O-say-IPFV  COP-PERF  like  
     ‘‘así la insultaban, con tu esposo no estuve, decía’’
 
-3)  Yawarana (histpajirdi-81)  
+2)  Yawarana (histpajirdi-81)  
     wïrë  y-akërë  wï-chi-ri-jnari   wïrë-jpë  waraijto-ri  
     1SG   REL-COM  1SG-COP-IPFV-NEG  1SG-MOD   husband-POSS  
     ‘‘conmigo no está mi marido’’
 
-> (loc-neg-nsubj-cop-pinire-part) Yawarana
+> (loc-main-neg-nsubj-cop-pinire-part) Yawarana
 > <pre>
 > kërë    chi-jpë  =pïnirë  entë  pïrarë  
 > 3AN:MD  COP-PST  =NEG     here  nothing  
 > ‘‘ese no estaba aquí, no había’’</pre>
 
-> (loc-neg-part-pinire-nsubj) Yawarana
+> (loc-main-neg-part-pinire-nsubj) Yawarana
 > <pre>
 > asanë         mëtë   =pïnirë  
 > 2:mother:POS  there  =NEG  
 > ‘‘¿tu mamá no está ahí?’’</pre>
 
-> (loc-q-locpred-nsubj) Yawarana
+> (loc-sub-neg-locpred-cop-neg-nsubj) Yawarana
+> <pre>
+> mïjna  wïrë  chi-ja   chi-poko-no      entë  =ma     wïrë  chi-ri  
+> there  1SG   COP-NEG  COP-because-NZR  here  =RESTR  1SG   COP-IPFV  
+> ‘‘como yo no estaba allá, estoy aquí no más’’</pre>
+
+> (loc-main-q-locpred-nsubj) Yawarana
 > <pre>
 > ëkë    =yaye  chima  
 > which  =PERL  path  
 > ‘¿por donde es ese camino?’</pre>
 
-(loc-q-part-cop-nsubj)
+(loc-main-q-part-cop-nsubj)
 
 1)  Yawarana (convhistfamsjm-49)  
     kwajsapene     mokontomo  wej-sapë  mëtë  
@@ -1422,7 +1448,7 @@ juxtaposition and copular constructions.
     three        sun     1+3  COP-IPFV  COP-PERF  there  aunt:VOC  =late  REL-COM  
     ‘‘estabamos ahí tres días, con mi tía’’
 
-(loc-q-part-nsubj)
+(loc-main-q-part-nsubj)
 
 1)  Yawarana (convamgu-77)  
     ëmë           neke      =ne    mëtë  
@@ -1434,7 +1460,7 @@ juxtaposition and copular constructions.
     there  QP  2PL        like  
     ‘‘¿ahí están ustedes?’’
 
-(ex-aff-part-cop-nsubj)
+(ex-main-aff-part-cop-nsubj)
 
 1)  Yawarana (convcosnoind-49)  
     mëtë   wej-tane  intipijkë  =ma     wej-sapë  kamicha   warai-jne  
@@ -1471,7 +1497,7 @@ juxtaposition and copular constructions.
     crack  there  rock  PROB    COP-PERF  thus  
     ‘‘ta! allá será que había una piedra’’
 
-(ex-aff-part-nsubj)
+(ex-main-aff-part-nsubj)
 
 1)  Yawarana (convcosnoind-48)  
     eni     takï   tajtojpe  =ne    kamicha   mëtë  
@@ -1498,13 +1524,13 @@ juxtaposition and copular constructions.
     there  CNFRM  palm.sp  meaty-NZR  
     ‘ahí hay un cucurito que tiene carne (fruta)’
 
-> (ex-neg-part-pirare-cop-nsubj) Yawarana
+> (ex-main-neg-part-pirare-cop-nsubj) Yawarana
 > <pre>
 > irë      wej-tane  entë  pïrarë  
 > TMP:DEM  COP-CNCS  here  nothing  
 > ‘‘sin embargo aquí no hay’’</pre>
 
-(ex-neg-part-pirare-nsubj)
+(ex-main-neg-part-pirare-nsubj)
 
 1)  Yawarana (convinsectmaj-18)  
     entë  pïrarë   mïjna  
@@ -1521,13 +1547,13 @@ juxtaposition and copular constructions.
     here  nothing  like  1SG   =ERG  
     ‘‘aquí no hay digo yo’’
 
-> (ex-neg-pirare) Yawarana
+> (ex-main-neg-pirare) Yawarana
 > <pre>
 > kërë    chi-jpë  =pïnirë  entë  pïrarë  
 > 3AN:MD  COP-PST  =NEG     here  nothing  
 > ‘‘ese no estaba aquí, no había’’</pre>
 
-(ex-neg-pirare-nsubj-jra)
+(ex-main-neg-pirare-nsubj-jra)
 
 1)  Yawarana (desccasmaj-64)  
     serere  yawakï-ja  chi-Ø     =yawë  pïrarë   sere-jra  
@@ -1539,19 +1565,19 @@ juxtaposition and copular constructions.
     manioc.meal  make-NEG   COP-IPFV  =COND  nothing  manioc.meal-PRIV  
     ‘‘si no hace mañoco, no hay mañoco’’
 
-> (poss-aff-advpred-nsubj-cop) Yawarana
+> (poss-main-aff-advpred-nsubj-cop) Yawarana
 > <pre>
 > t-tajromin-ke        chi-Ø-kontomo  
 > -PROP-bad.news-PROP  COP-IPFV-PL  
 > ‘‘esos tienen mala seña’’</pre>
 
-> (poss-aff-locpred-cop-nsubj) Yawarana
+> (poss-main-aff-locpred-cop-nsubj) Yawarana
 > <pre>
 > warë  tëwïsantomo  t-inawë         wej-sapë  puwa-kontomo-jne  
 > thus  3PL          3-in.possesion  COP-PERF  point-PL-PL  
 > ‘‘así ellos tenía púas’’</pre>
 
-(poss-aff-npred-nsubj)
+(poss-main-aff-npred-nsubj)
 
 1)  Yawarana (convinsectmaj-24)  
     i-jta-ke-mï      warë  
@@ -1563,19 +1589,19 @@ juxtaposition and copular constructions.
     -PROP-name-PROP-NZR  3SG  
     ‘tiene nombre’
 
-> (poss-neg-advsubj-pirare-locpred) Yawarana
+> (poss-main-neg-advsubj-pirare-locpred) Yawarana
 > <pre>
 > u-yepema-toj=pe   pïrarë   wïrë  inawë  
 > 1SG-pay-CIRC=ESS  nothing  1SG   in.possesion  
 > ‘‘yo no tengo para pagar’’</pre>
 
-> (poss-neg-part-pinire-nsubj) Yawarana
+> (poss-main-neg-part-pinire-nsubj) Yawarana
 > <pre>
 > entë  ejnë  pata-Ø     -pïnirë  entë  
 > here  1+2   town-POSS  -NEG     here  
 > ‘‘aqui no es nuestra tierra, aquí’’</pre>
 
-(poss-q-locpred-cop-nsubj)
+(poss-main-q-locpred-cop-nsubj)
 
 1)  Yawarana (convamgu-325)  
     asanë         inawë         ka  wej-sapë  tëwï  

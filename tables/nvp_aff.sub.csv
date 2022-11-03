@@ -1,0 +1,7 @@
+,cat,perm,temp,loc
+[gl](np)~[gl](pred)~ [gl](np)~[gl](subj)~ [gl](cop),✓ [exref](cat-sub-aff-npred-nsubj-cop),,✓ [exref](temp-sub-aff-npred-nsubj-cop),
+N[mp](keprop?nt) [gl](np)~[gl](subj)~ [gl](cop),,✓ [exref](perm-sub-aff-n-mp-keprop-nt-nsubj-cop),,
+[gl](np)~[gl](subj)~ *mëtë*,,,,✓ [exref](loc-sub-aff-nsubj-mete)
+*entë* NSubj [gl](cop),,,,✓ [exref](loc-sub-aff-ente-nsubj-cop)
+[gl](adv)~[gl](pred)~ [gl](np)~[gl](subj)~ [gl](cop),,,,✓ [exref](loc-sub-aff-advpred-nsubj-cop)
+[gl](loc)~[gl](pred)~ [gl](np)~[gl](subj)~ [gl](cop),,,,✓ [exref](loc-sub-aff-locpred-nsubj-cop)

@@ -1087,180 +1087,237 @@ Categorization issues
 
 Overview tables
 
-An overview of nonverbal predication: [lbl:nvpoverview]
+An overview of nonverbal predication in main clauses:
+[lbl:nvpoverview_main]
 
-  --------------------------------------------------------------------------------------------------------------------------
-  Function         Affirmative                        Negative                               Interrogative
-  ---------------- ---------------------------------- -------------------------------------- -------------------------------
-  Identification   NP_(PRED) (+ NP_(SUBJ))            NP_(PRED) pïnirë (+ NP_(SUBJ))         NP_(PRED) (+ NP_(SUBJ))
-                   [ex:id-aff-npred-nsubj]            [ex:id-neg-npred-pinire-nsubj]         [ex:id-q-npred-nsubj]
-                                                                                             NP_(PRED) + NP_(SUBJ) manïkï
-                                                                                             [ex:id-q-npred-nsubj-maniki]
+  -----------------------------------------------------------------------------------------------------------------------------------------
+  Function         Affirmative                             Negative                                    Interrogative
+  ---------------- --------------------------------------- ------------------------------------------- ------------------------------------
+  Identification   NP_(PRED) (+ NP_(SUBJ))                 NP_(PRED) pïnirë (+ NP_(SUBJ))              NP_(PRED) (+ NP_(SUBJ))
+                   [ex:id-main-aff-npred-nsubj]            [ex:id-main-neg-npred-pinire-nsubj]         [ex:id-main-q-npred-nsubj]
+                                                                                                       NP_(PRED) + NP_(SUBJ) manïkï
+                                                                                                       [ex:id-main-q-npred-nsubj-maniki]
 
-  Categorization   NP_(PRED) + NP_(SUBJ) manïkï       NP_(PRED) pïnirë (+ NP_(SUBJ))         NP_(PRED) (+ NP_(SUBJ))
-                   [ex:cat-aff-npred-nsubj-maniki]    [ex:cat-neg-npred-pinire-nsubj]        [ex:cat-q-npred-nsubj]
-                   NP_(PRED) NP_(SUBJ) COP                                                   
-                   [ex:cat-aff-npred-nsubj-cop]                                              
-                   NP_(PRED) (+ NP_(SUBJ))                                                   
-                   [ex:cat-aff-npred-nsubj]                                                  
+  Categorization   NP_(PRED) + NP_(SUBJ) manïkï            NP_(PRED) pïnirë (+ NP_(SUBJ))              NP_(PRED) (+ NP_(SUBJ))
+                   [ex:cat-main-aff-npred-nsubj-maniki]    [ex:cat-main-neg-npred-pinire-nsubj]        [ex:cat-main-q-npred-nsubj]
+                   NP_(PRED) (+ NP_(SUBJ))                                                             
+                   [ex:cat-main-aff-npred-nsubj]                                                       
 
-  Permanent        NP_(PRED) (+ NP_(SUBJ))            NP_(PRED) pïnirë (+ NP_(SUBJ))         ADV_(PRED) (NP_(SUBJ))
-  property         [ex:perm-aff-npred-nsubj]          [ex:perm-neg-npred-pinire-nsubj]       [ex:perm-q-advpred-nsubj]
-                   NP_(PRED) + NP_(SUBJ) manïkï                                              
-                   [ex:perm-aff-npred-nsubj-maniki]                                          
-                   ADV_(PRED) (NP_(SUBJ)) COP                                                
-                   [ex:perm-aff-advpred-nsubj-cop]                                           
+  Permanent        NP_(PRED) (+ NP_(SUBJ))                 NP_(PRED) pïnirë (+ NP_(SUBJ))              ADV_(PRED) (NP_(SUBJ))
+  property         [ex:perm-main-aff-npred-nsubj]          [ex:perm-main-neg-npred-pinire-nsubj]       [ex:perm-main-q-advpred-nsubj]
+                   NP_(PRED) + NP_(SUBJ) manïkï                                                        
+                   [ex:perm-main-aff-npred-nsubj-maniki]                                               
 
-  Temporary        NP_(PRED) COP                      (NP_(SUBJ)) ADV_(PRED)-jra             NP_(PRED) COP
-  property         [ex:temp-aff-npred-cop] NP_(PRED)  [ex:temp-neg-nsubj-advpred-jra]        [ex:temp-q-npred-cop]
-                   (+ NP_(SUBJ))                      ADV_(PRED) + COP-NEG (+ NP_(SUBJ))     
-                   [ex:temp-aff-npred-nsubj]          [ex:temp-neg-advpred-cop-neg-nsubj]    
-                   NP_(PRED) NP_(SUBJ) COP                                                   
-                   [ex:temp-aff-npred-nsubj-cop]                                             
+  Temporary        NP_(PRED) COP                           (NP_(SUBJ)) ADV_(PRED)-jra                  NP_(PRED) COP
+  property         [ex:temp-main-aff-npred-cop] NP_(PRED)  [ex:temp-main-neg-nsubj-advpred-jra]        [ex:temp-main-q-npred-cop]
+                   (+ NP_(SUBJ))                           ADV_(PRED) + COP-NEG (+ NP_(SUBJ))          
+                   [ex:temp-main-aff-npred-nsubj]          [ex:temp-main-neg-advpred-cop-neg-nsubj]    
 
-  Location         LOC_(PRED) + COP (+ NP_(SUBJ))     LOC_(PRED) + COP-NEG (+ NP_(SUBJ))     PART_(PRED) + NP_(SUBJ)
-                   [ex:loc-aff-locpred-cop-nsubj]     [ex:loc-neg-locpred-cop-neg-nsubj]     [ex:loc-q-part-nsubj]
-                   PART_(PRED) + NP_(SUBJ)            NP_(SUBJ) + COP + pïnirë + PART_(PRED) PART_(PRED) + COP (+ NP_(SUBJ))
-                   [ex:loc-aff-part-nsubj] LOC_(PRED) [ex:loc-neg-nsubj-cop-pinire-part]     [ex:loc-q-part-cop-nsubj]
-                   (+ NP_(SUBJ))                      PART_(PRED) + pïnirë (+NP_(SUBJ))      LOC_(PRED) (+ NP_(SUBJ))
-                   [ex:loc-aff-locpred-nsubj]         [ex:loc-neg-part-pinire-nsubj]         [ex:loc-q-locpred-nsubj]
-                   ADV_(PRED) (NP_(SUBJ)) COP                                                
-                   [ex:loc-aff-advpred-nsubj-cop]                                            
-                   PART_(PRED) + COP (+ NP_(SUBJ))                                           
-                   [ex:loc-aff-part-cop-nsubj]                                               
+  Location         LOC_(PRED) + COP (+ NP_(SUBJ))          NP_(SUBJ) + COP + pïnirë + PART_(PRED)      PART_(PRED) + NP_(SUBJ)
+                   [ex:loc-main-aff-locpred-cop-nsubj]     [ex:loc-main-neg-nsubj-cop-pinire-part]     [ex:loc-main-q-part-nsubj]
+                   PART_(PRED) + NP_(SUBJ)                 LOC_(PRED) + COP-NEG (+ NP_(SUBJ))          PART_(PRED) + COP (+ NP_(SUBJ))
+                   [ex:loc-main-aff-part-nsubj] LOC_(PRED) [ex:loc-main-neg-locpred-cop-neg-nsubj]     [ex:loc-main-q-part-cop-nsubj]
+                   (+ NP_(SUBJ))                           PART_(PRED) + pïnirë (+NP_(SUBJ))           LOC_(PRED) (+ NP_(SUBJ))
+                   [ex:loc-main-aff-locpred-nsubj]         [ex:loc-main-neg-part-pinire-nsubj]         [ex:loc-main-q-locpred-nsubj]
+                   ADV_(PRED) (NP_(SUBJ)) COP                                                          
+                   [ex:loc-main-aff-advpred-nsubj-cop]                                                 
+                   PART_(PRED) + COP (+ NP_(SUBJ))                                                     
+                   [ex:loc-main-aff-part-cop-nsubj]                                                    
 
-  Existential      PART_(PRED) + COP (+ NP_(SUBJ))    PART_(PRED) pïrarë (+NP_(SUBJ))        ?
-                   [ex:ex-aff-part-cop-nsubj]         [ex:ex-neg-part-pirare-nsubj]          
-                   PART_(PRED) + NP_(SUBJ)            PART_(PRED) pïrarë + COP + NP_(SUBJ)   
-                   [ex:ex-aff-part-nsubj]             [ex:ex-neg-part-pirare-cop-nsubj]      
-                                                      pïrarë NP_(SUBJ)-jra                   
-                                                      [ex:ex-neg-pirare-nsubj-jra] pïrarë    
-                                                      [ex:ex-neg-pirare]                     
+  Existential      PART_(PRED) + COP (+ NP_(SUBJ))         PART_(PRED) pïrarë (+NP_(SUBJ))             ?
+                   [ex:ex-main-aff-part-cop-nsubj]         [ex:ex-main-neg-part-pirare-nsubj]          
+                   PART_(PRED) + NP_(SUBJ)                 PART_(PRED) pïrarë + COP + NP_(SUBJ)        
+                   [ex:ex-main-aff-part-nsubj]             [ex:ex-main-neg-part-pirare-cop-nsubj]      
+                                                           pïrarë NP_(SUBJ)-jra                        
+                                                           [ex:ex-main-neg-pirare-nsubj-jra] pïrarë    
+                                                           [ex:ex-main-neg-pirare]                     
 
-  Possession       NP_(PRED) (+ NP_(SUBJ))            ADVsubj pïrarë LOC_(PRED)              LOC_(PRED) + COP (+ NP_(SUBJ))
-                   [ex:poss-aff-npred-nsubj]          [ex:poss-neg-advsubj-pirare-locpred]   [ex:poss-q-locpred-cop-nsubj]
-                   ADV_(PRED) (NP_(SUBJ)) COP         PART_(PRED) + pïnirë (+NP_(SUBJ))      
-                   [ex:poss-aff-advpred-nsubj-cop]    [ex:poss-neg-part-pinire-nsubj]        
-                   LOC_(PRED) + COP (+ NP_(SUBJ))                                            
-                   [ex:poss-aff-locpred-cop-nsubj]                                           
-  --------------------------------------------------------------------------------------------------------------------------
+  Possession       NP_(PRED) (+ NP_(SUBJ))                 ADVsubj pïrarë LOC_(PRED)                   LOC_(PRED) + COP (+ NP_(SUBJ))
+                   [ex:poss-main-aff-npred-nsubj]          [ex:poss-main-neg-advsubj-pirare-locpred]   [ex:poss-main-q-locpred-cop-nsubj]
+                   ADV_(PRED) (NP_(SUBJ)) COP              PART_(PRED) + pïnirë (+NP_(SUBJ))           
+                   [ex:poss-main-aff-advpred-nsubj-cop]    [ex:poss-main-neg-part-pinire-nsubj]        
+                   LOC_(PRED) + COP (+ NP_(SUBJ))                                                      
+                   [ex:poss-main-aff-locpred-cop-nsubj]                                                
+  -----------------------------------------------------------------------------------------------------------------------------------------
+
+An overview of nonverbal predication in subordinate clauses:
+[lbl:nvpoverview_sub]
+
+  -------------------------------------------------------------------------------------------------------------
+  Function         Affirmative                                         Negative
+  ---------------- --------------------------------------------------- ----------------------------------------
+  Identification   ?                                                   ?
+
+  Categorization   NP_(PRED) NP_(SUBJ) COP                             ?
+                   [ex:cat-sub-aff-npred-nsubj-cop]                    
+
+  Permanent        ADV_(PRED) (NP_(SUBJ)) COP                          ?
+  property         [ex:perm-sub-aff-advpred-nsubj-cop]                 
+
+  Temporary        NP_(PRED) NP_(SUBJ) COP                             ?
+  property         [ex:temp-sub-aff-npred-nsubj-cop]                   
+
+  Location         PART_(PRED) + NP_(SUBJ) [ex:loc-sub-aff-part-nsubj] LOC_(PRED) + COP-NEG (+ NP_(SUBJ))
+                   PART_(PRED) + COP (+ NP_(SUBJ))                     [ex:loc-sub-neg-locpred-cop-neg-nsubj]
+                   [ex:loc-sub-aff-part-cop-nsubj] ADV_(PRED)          
+                   (NP_(SUBJ)) COP [ex:loc-sub-aff-advpred-nsubj-cop]  
+                   LOC_(PRED) + COP (+ NP_(SUBJ))                      
+                   [ex:loc-sub-aff-locpred-cop-nsubj]                  
+
+  Existential      ?                                                   ?
+
+  Possession       ?                                                   ?
+  -------------------------------------------------------------------------------------------------------------
 
 Semasiological overview of affirmative nonverbal predications:
-[lbl:nvp_aff]
+[lbl:nvp_aff_main]
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                  id                        cat                               perm                               temp                            loc                              ex                           poss
-  --------------- ------------------------- --------------------------------- ---------------------------------- ------------------------------- -------------------------------- ---------------------------- ---------------------------------
-  NP_(PRED) (+    ✓ [ex:id-aff-npred-nsubj] ✓ [ex:cat-aff-npred-nsubj]        ✓ [ex:perm-aff-npred-nsubj]        ✓ [ex:temp-aff-npred-nsubj]                                                                   ✓ [ex:poss-aff-npred-nsubj]
-  NP_(SUBJ))                                                                                                                                                                                                   
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                  id                             cat                                    perm                                    temp                             loc                                   ex                                poss
+  --------------- ------------------------------ -------------------------------------- --------------------------------------- -------------------------------- ------------------------------------- --------------------------------- --------------------------------------
+  NP_(PRED) (+    ✓ [ex:id-main-aff-npred-nsubj] ✓ [ex:cat-main-aff-npred-nsubj]        ✓ [ex:perm-main-aff-npred-nsubj]        ✓ [ex:temp-main-aff-npred-nsubj]                                                                         ✓ [ex:poss-main-aff-npred-nsubj]
+  NP_(SUBJ))                                                                                                                                                                                                                             
 
-  NP_(PRED) +                               ✓ [ex:cat-aff-npred-nsubj-maniki] ✓ [ex:perm-aff-npred-nsubj-maniki]                                                                                               
-  NP_(SUBJ)                                                                                                                                                                                                    
-  manïkï                                                                                                                                                                                                       
+  NP_(PRED) +                                    ✓ [ex:cat-main-aff-npred-nsubj-maniki] ✓ [ex:perm-main-aff-npred-nsubj-maniki]                                                                                                          
+  NP_(SUBJ)                                                                                                                                                                                                                              
+  manïkï                                                                                                                                                                                                                                 
 
-  NP_(PRED)                                 ✓ [ex:cat-aff-npred-nsubj-cop]                                       ✓ [ex:temp-aff-npred-nsubj-cop]                                                               
-  NP_(SUBJ) COP                                                                                                                                                                                                
+  ADV_(PRED)                                                                                                                                                     ✓ [ex:loc-main-aff-advpred-nsubj-cop]                                   ✓ [ex:poss-main-aff-advpred-nsubj-cop]
+  (NP_(SUBJ)) COP                                                                                                                                                                                                                        
 
-  ADV_(PRED)                                                                  ✓ [ex:perm-aff-advpred-nsubj-cop]                                  ✓ [ex:loc-aff-advpred-nsubj-cop]                              ✓ [ex:poss-aff-advpred-nsubj-cop]
-  (NP_(SUBJ)) COP                                                                                                                                                                                              
+  NP_(PRED) COP                                                                                                                 ✓ [ex:temp-main-aff-npred-cop]                                                                           
 
-  NP_(PRED) COP                                                                                                  ✓ [ex:temp-aff-npred-cop]                                                                     
+  PART_(PRED) +                                                                                                                                                  ✓ [ex:loc-main-aff-part-nsubj]        ✓ [ex:ex-main-aff-part-nsubj]     
+  NP_(SUBJ)                                                                                                                                                                                                                              
 
-  PART_(PRED) +                                                                                                                                  ✓ [ex:loc-aff-part-nsubj]        ✓ [ex:ex-aff-part-nsubj]     
-  NP_(SUBJ)                                                                                                                                                                                                    
+  LOC_(PRED) +                                                                                                                                                   ✓ [ex:loc-main-aff-locpred-cop-nsubj]                                   ✓ [ex:poss-main-aff-locpred-cop-nsubj]
+  COP (+                                                                                                                                                                                                                                 
+  NP_(SUBJ))                                                                                                                                                                                                                             
 
-  LOC_(PRED) +                                                                                                                                   ✓ [ex:loc-aff-locpred-cop-nsubj]                              ✓ [ex:poss-aff-locpred-cop-nsubj]
-  COP (+                                                                                                                                                                                                       
-  NP_(SUBJ))                                                                                                                                                                                                   
+  LOC_(PRED) (+                                                                                                                                                  ✓ [ex:loc-main-aff-locpred-nsubj]                                       
+  NP_(SUBJ))                                                                                                                                                                                                                             
 
-  LOC_(PRED) (+                                                                                                                                  ✓ [ex:loc-aff-locpred-nsubj]                                  
-  NP_(SUBJ))                                                                                                                                                                                                   
+  PART_(PRED) +                                                                                                                                                  ✓ [ex:loc-main-aff-part-cop-nsubj]    ✓ [ex:ex-main-aff-part-cop-nsubj] 
+  COP (+                                                                                                                                                                                                                                 
+  NP_(SUBJ))                                                                                                                                                                                                                             
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  PART_(PRED) +                                                                                                                                  ✓ [ex:loc-aff-part-cop-nsubj]    ✓ [ex:ex-aff-part-cop-nsubj] 
-  COP (+                                                                                                                                                                                                       
-  NP_(SUBJ))                                                                                                                                                                                                   
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Semasiological overview of affirmative nonverbal predications in
+subordinate clauses: [lbl:nvp_aff_sub]
 
-Semasiological overview of negated nonverbal predications: [lbl:nvp_neg]
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                  cat                                perm                                  temp                                loc
+  --------------- ---------------------------------- ------------------------------------- ----------------------------------- ------------------------------------
+  NP_(PRED)       ✓ [ex:cat-sub-aff-npred-nsubj-cop]                                       ✓ [ex:temp-sub-aff-npred-nsubj-cop] 
+  NP_(SUBJ) COP                                                                                                                
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                   id                               cat                               perm                               temp                                  loc                                  ex                                  poss
-  ---------------- -------------------------------- --------------------------------- ---------------------------------- ------------------------------------- ------------------------------------ ----------------------------------- --------------------------------------
-  NP_(PRED) pïnirë ✓ [ex:id-neg-npred-pinire-nsubj] ✓ [ex:cat-neg-npred-pinire-nsubj] ✓ [ex:perm-neg-npred-pinire-nsubj]                                                                                                                
-  (+ NP_(SUBJ))                                                                                                                                                                                                                         
+  ADV_(PRED)                                         ✓ [ex:perm-sub-aff-advpred-nsubj-cop]                                     ✓ [ex:loc-sub-aff-advpred-nsubj-cop]
+  (NP_(SUBJ)) COP                                                                                                              
 
-  (NP_(SUBJ))                                                                                                            ✓ [ex:temp-neg-nsubj-advpred-jra]                                                                              
-  ADV_(PRED)-jra                                                                                                                                                                                                                        
+  PART_(PRED) +                                                                                                                ✓ [ex:loc-sub-aff-part-nsubj]
+  NP_(SUBJ)                                                                                                                    
 
-  ADV_(PRED) +                                                                                                           ✓ [ex:temp-neg-advpred-cop-neg-nsubj]                                                                          
-  COP-NEG (+                                                                                                                                                                                                                            
-  NP_(SUBJ))                                                                                                                                                                                                                            
+  LOC_(PRED) +                                                                                                                 ✓ [ex:loc-sub-aff-locpred-cop-nsubj]
+  COP (+                                                                                                                       
+  NP_(SUBJ))                                                                                                                   
 
-  LOC_(PRED) +                                                                                                                                                 ✓ [ex:loc-neg-locpred-cop-neg-nsubj]                                     
-  COP-NEG (+                                                                                                                                                                                                                            
-  NP_(SUBJ))                                                                                                                                                                                                                            
+  PART_(PRED) +                                                                                                                ✓ [ex:loc-sub-aff-part-cop-nsubj]
+  COP (+                                                                                                                       
+  NP_(SUBJ))                                                                                                                   
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  NP_(SUBJ) +                                                                                                                                                  ✓ [ex:loc-neg-nsubj-cop-pinire-part]                                     
-  COP + pïnirë +                                                                                                                                                                                                                        
-  PART_(PRED)                                                                                                                                                                                                                           
+Semasiological overview of negated nonverbal predications:
+[lbl:nvp_neg_main]
 
-  PART_(PRED) +                                                                                                                                                ✓ [ex:loc-neg-part-pinire-nsubj]                                         ✓ [ex:poss-neg-part-pinire-nsubj]
-  pïnirë                                                                                                                                                                                                                                
-  (+NP_(SUBJ))                                                                                                                                                                                                                          
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                   id                                    cat                                    perm                                    temp                                       loc                                       ex                                       poss
+  ---------------- ------------------------------------- -------------------------------------- --------------------------------------- ------------------------------------------ ----------------------------------------- ---------------------------------------- -------------------------------------------
+  NP_(PRED) pïnirë ✓ [ex:id-main-neg-npred-pinire-nsubj] ✓ [ex:cat-main-neg-npred-pinire-nsubj] ✓ [ex:perm-main-neg-npred-pinire-nsubj]                                                                                                                               
+  (+ NP_(SUBJ))                                                                                                                                                                                                                                                       
 
-  PART_(PRED)                                                                                                                                                                                       ✓ [ex:ex-neg-part-pirare-nsubj]     
-  pïrarë                                                                                                                                                                                                                                
-  (+NP_(SUBJ))                                                                                                                                                                                                                          
+  (NP_(SUBJ))                                                                                                                           ✓ [ex:temp-main-neg-nsubj-advpred-jra]                                                                                        
+  ADV_(PRED)-jra                                                                                                                                                                                                                                                      
 
-  PART_(PRED)                                                                                                                                                                                       ✓ [ex:ex-neg-part-pirare-cop-nsubj] 
-  pïrarë + COP +                                                                                                                                                                                                                        
-  NP_(SUBJ)                                                                                                                                                                                                                             
+  ADV_(PRED) +                                                                                                                          ✓ [ex:temp-main-neg-advpred-cop-neg-nsubj]                                                                                    
+  COP-NEG (+                                                                                                                                                                                                                                                          
+  NP_(SUBJ))                                                                                                                                                                                                                                                          
 
-  pïrarë                                                                                                                                                                                            ✓ [ex:ex-neg-pirare-nsubj-jra]      
-  NP_(SUBJ)-jra                                                                                                                                                                                                                         
+  LOC_(PRED) +                                                                                                                                                                     ✓ [ex:loc-main-neg-locpred-cop-neg-nsubj]                                          
+  COP-NEG (+                                                                                                                                                                                                                                                          
+  NP_(SUBJ))                                                                                                                                                                                                                                                          
 
-  pïrarë                                                                                                                                                                                            ✓ [ex:ex-neg-pirare]                
+  NP_(SUBJ) +                                                                                                                                                                      ✓ [ex:loc-main-neg-nsubj-cop-pinire-part]                                          
+  COP + pïnirë +                                                                                                                                                                                                                                                      
+  PART_(PRED)                                                                                                                                                                                                                                                         
 
-  ADVsubj pïrarë                                                                                                                                                                                                                        ✓ [ex:poss-neg-advsubj-pirare-locpred]
-  LOC_(PRED)                                                                                                                                                                                                                            
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  PART_(PRED) +                                                                                                                                                                    ✓ [ex:loc-main-neg-part-pinire-nsubj]                                              ✓ [ex:poss-main-neg-part-pinire-nsubj]
+  pïnirë                                                                                                                                                                                                                                                              
+  (+NP_(SUBJ))                                                                                                                                                                                                                                                        
+
+  PART_(PRED)                                                                                                                                                                                                                ✓ [ex:ex-main-neg-part-pirare-nsubj]     
+  pïrarë                                                                                                                                                                                                                                                              
+  (+NP_(SUBJ))                                                                                                                                                                                                                                                        
+
+  PART_(PRED)                                                                                                                                                                                                                ✓ [ex:ex-main-neg-part-pirare-cop-nsubj] 
+  pïrarë + COP +                                                                                                                                                                                                                                                      
+  NP_(SUBJ)                                                                                                                                                                                                                                                           
+
+  pïrarë                                                                                                                                                                                                                     ✓ [ex:ex-main-neg-pirare-nsubj-jra]      
+  NP_(SUBJ)-jra                                                                                                                                                                                                                                                       
+
+  pïrarë                                                                                                                                                                                                                     ✓ [ex:ex-main-neg-pirare]                
+
+  ADVsubj pïrarë                                                                                                                                                                                                                                                      ✓ [ex:poss-main-neg-advsubj-pirare-locpred]
+  LOC_(PRED)                                                                                                                                                                                                                                                          
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Semasiological overview of negated nonverbal predications in subordinate
+clauses: [lbl:nvp_neg_sub]
+
+  ------------------------------------------------------------------------
+                                  loc
+  ------------------------------- ----------------------------------------
+  LOC_(PRED) + COP-NEG (+         ✓ [ex:loc-sub-neg-locpred-cop-neg-nsubj]
+  NP_(SUBJ))                      
+
+  ------------------------------------------------------------------------
 
 Semasiological overview of interrogative nonverbal predications:
-[lbl:nvp_q]
+[lbl:nvp_q_main]
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                  id                             cat                      perm                        temp                    loc                         poss
-  --------------- ------------------------------ ------------------------ --------------------------- ----------------------- --------------------------- -------------------------------
-  NP_(PRED) (+    ✓ [ex:id-q-npred-nsubj]        ✓ [ex:cat-q-npred-nsubj]                                                                                 
-  NP_(SUBJ))                                                                                                                                              
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                  id                                  cat                           perm                             temp                         loc                              poss
+  --------------- ----------------------------------- ----------------------------- -------------------------------- ---------------------------- -------------------------------- ------------------------------------
+  NP_(PRED) (+    ✓ [ex:id-main-q-npred-nsubj]        ✓ [ex:cat-main-q-npred-nsubj]                                                                                                
+  NP_(SUBJ))                                                                                                                                                                       
 
-  NP_(PRED) +     ✓ [ex:id-q-npred-nsubj-maniki]                                                                                                          
-  NP_(SUBJ)                                                                                                                                               
-  manïkï                                                                                                                                                  
+  NP_(PRED) +     ✓ [ex:id-main-q-npred-nsubj-maniki]                                                                                                                              
+  NP_(SUBJ)                                                                                                                                                                        
+  manïkï                                                                                                                                                                           
 
-  ADV_(PRED)                                                              ✓ [ex:perm-q-advpred-nsubj]                                                     
-  (NP_(SUBJ))                                                                                                                                             
+  ADV_(PRED)                                                                        ✓ [ex:perm-main-q-advpred-nsubj]                                                               
+  (NP_(SUBJ))                                                                                                                                                                      
 
-  NP_(PRED) COP                                                                                       ✓ [ex:temp-q-npred-cop]                             
+  NP_(PRED) COP                                                                                                      ✓ [ex:temp-main-q-npred-cop]                                  
 
-  PART_(PRED) +                                                                                                               ✓ [ex:loc-q-part-nsubj]     
-  NP_(SUBJ)                                                                                                                                               
+  PART_(PRED) +                                                                                                                                   ✓ [ex:loc-main-q-part-nsubj]     
+  NP_(SUBJ)                                                                                                                                                                        
 
-  LOC_(PRED) +                                                                                                                                            ✓ [ex:poss-q-locpred-cop-nsubj]
-  COP (+                                                                                                                                                  
-  NP_(SUBJ))                                                                                                                                              
+  LOC_(PRED) +                                                                                                                                                                     ✓ [ex:poss-main-q-locpred-cop-nsubj]
+  COP (+                                                                                                                                                                           
+  NP_(SUBJ))                                                                                                                                                                       
 
-  LOC_(PRED) (+                                                                                                               ✓ [ex:loc-q-locpred-nsubj]  
-  NP_(SUBJ))                                                                                                                                              
+  LOC_(PRED) (+                                                                                                                                   ✓ [ex:loc-main-q-locpred-nsubj]  
+  NP_(SUBJ))                                                                                                                                                                       
 
-  PART_(PRED) +                                                                                                               ✓ [ex:loc-q-part-cop-nsubj] 
-  COP (+                                                                                                                                                  
-  NP_(SUBJ))                                                                                                                                              
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  PART_(PRED) +                                                                                                                                   ✓ [ex:loc-main-q-part-cop-nsubj] 
+  COP (+                                                                                                                                                                           
+  NP_(SUBJ))                                                                                                                                                                       
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Examples
 
-(id-aff-npred-nsubj)
+(id-main-aff-npred-nsubj)
 
 (a) Yawarana (convcosnoind-37)
     ejnë  okï-rï      tanapï
@@ -1287,7 +1344,7 @@ Examples
     1+2   soil-POSS  3SG
     ‘‘esa es la tierra de nosotros’’
 
-(id-neg-npred-pinire-nsubj)
+(id-main-neg-npred-pinire-nsubj)
 
 (a) Yawarana (convamgu-42)
     mokontomo  nono  -pïnirë  seni
@@ -1304,7 +1361,7 @@ Examples
     1+2   REL-relative  -NEG
     ‘‘no es nuestra familia’’
 
-(id-q-npred-nsubj)
+(id-main-q-npred-nsubj)
 
 (a) Yawarana (convamgu-94)
     a-y-akono          ka  petra
@@ -1316,10 +1373,10 @@ Examples
     2-REL-ygr.brother  QP  older.bro.M-POSS  2SG
     ‘¿tu menor, tú eres el mayor?’
 
-(id-q-npred-nsubj-maniki) Yawarana (histpajirdi-271)
+(id-main-q-npred-nsubj-maniki) Yawarana (histpajirdi-271)
 enijpëtërë  =ma     tëwï  maniki
 one         =RESTR  3SG   AN.REL
-‘‘el es el único?’ (cat-aff-npred-nsubj)
+‘‘el es el único?’ (cat-main-aff-npred-nsubj)
 
 (a) Yawarana (hist2mape-21)
     kërë    wurijyamo
@@ -1331,20 +1388,20 @@ one         =RESTR  3SG   AN.REL
     um  tree  -NEG     rock
     ‘‘no es palo, es piedra’’
 
-(cat-aff-npred-nsubj-cop) Yawarana (convhistfamsjm-92)
-tëwï-jpë  tëwïsantomo  takï   papa        =pano  =ma     ta-yakarama-Ø  wej-sapë  mïntë  wïrë  chi-Ø     wej-sapë  muku   marë  wïrë  chi-Ø     =yawë
-3SG-MOD   3PL          CNFRM  father:VOC  =late  =RESTR  3O-tell-IPFV   COP-PERF  there  1SG   COP-IPFV  COP-PERF  child  like  1SG   COP-IPFV  =CTMP
-‘‘eso ellos, lo contaba mi papá, yo estaba allá, cuando yo estaba niña’’
-
-(cat-aff-npred-nsubj-maniki) Yawarana (ctovarmafl-315)
+(cat-main-aff-npred-nsubj-maniki) Yawarana (ctovarmafl-315)
 soro-ri   =rë    mëkï    maniki  yenepe-se          ta
 lie-POSS  =EMPH  3AN:RM  AN.REL  send.away-PFV.PST  like
 ‘‘eso es un engaño, para espantar’’
 
-(cat-neg-npred-pinire-nsubj) Yawarana (histyarirdi-623)
+(cat-sub-aff-npred-nsubj-cop) Yawarana (convhistfamsjm-92)
+tëwï-jpë  tëwïsantomo  takï   papa        =pano  =ma     ta-yakarama-Ø  wej-sapë  mïntë  wïrë  chi-Ø     wej-sapë  muku   marë  wïrë  chi-Ø     =yawë
+3SG-MOD   3PL          CNFRM  father:VOC  =late  =RESTR  3O-tell-IPFV   COP-PERF  there  1SG   COP-IPFV  COP-PERF  child  like  1SG   COP-IPFV  =CTMP
+‘‘eso ellos, lo contaba mi papá, yo estaba allá, cuando yo estaba niña’’
+
+(cat-main-neg-npred-pinire-nsubj) Yawarana (histyarirdi-623)
 am  yëye  -pïnirë  tëpu
 um  tree  -NEG     rock
-‘‘no es palo, es piedra’’ (cat-q-npred-nsubj)
+‘‘no es palo, es piedra’’ (cat-main-q-npred-nsubj)
 
 (a) Yawarana (convfemgrme-315)
     wurichi  ka  i-muku-ru
@@ -1356,10 +1413,7 @@ um  tree  -NEG     rock
     3SG   =INTS  2-REL-relative  QP
     ‘‘el es tu familia?’’
 
-(perm-aff-advpred-nsubj-cop) Yawarana (convcosnoind-116)
-i-=yawë  takï   kampra-ke  ejnë  chi-Ø     =yawë-no  =rë    taji  =rë
-3-=CTMP  CNFRM  big-PROP   1+2   COP-IPFV  =LOC-NZR  =EMPH  ?     =EMPH
-‘‘en ese momento ya eramos grandes’’ (perm-aff-npred-nsubj)
+(perm-main-aff-npred-nsubj)
 
 (a) Yawarana (conv1stenc-80)
     intompïjkë  -pïnirë  Ø-kampra-ke-mï      kasore-mï
@@ -1371,10 +1425,15 @@ i-=yawë  takï   kampra-ke  ejnë  chi-Ø     =yawë-no  =rë    taji  =rë
     yes  patawa.palm  small    small
     ‘sí, sókowa es el pequeñito’’
 
-(perm-aff-npred-nsubj-maniki) Yawarana (convinsectmaj-108)
+(perm-main-aff-npred-nsubj-maniki) Yawarana (convinsectmaj-108)
 sokowa       mukujpë  manïkï
 patawa.palm  small    AN.REL
-‘‘sokowa es el pequeño’’ (perm-neg-npred-pinire-nsubj)
+‘‘sokowa es el pequeño’’
+
+(perm-sub-aff-advpred-nsubj-cop) Yawarana (convcosnoind-116)
+i-=yawë  takï   kampra-ke  ejnë  chi-Ø     =yawë-no  =rë    taji  =rë
+3-=CTMP  CNFRM  big-PROP   1+2   COP-IPFV  =LOC-NZR  =EMPH  ?     =EMPH
+‘‘en ese momento ya eramos grandes’’ (perm-main-neg-npred-pinire-nsubj)
 
 (a) Yawarana (descmensgrme-67)
     makë        neke      =ne    Yawarana  na    -pïnirë
@@ -1386,16 +1445,16 @@ patawa.palm  small    AN.REL
     white-NZR   -NEG     3AN:RM
     ‘‘ese no es blanco’’
 
-(perm-q-advpred-nsubj) Yawarana (ctoyucairdi-62)
+(perm-main-q-advpred-nsubj) Yawarana (ctoyucairdi-62)
 tëwï  ka  mojne
 3SG   QP  salty
 ‘‘¿esos son salados?’’
 
-(temp-aff-npred-cop) Yawarana (conv1stenc-99)
+(temp-main-aff-npred-cop) Yawarana (conv1stenc-99)
 t-erepun  t-erepun  wej-sapë  nwa   ij-të-se      Yakucho   =pana  ij-të-jpë  irëjpë  ta    ijtë   =rë    sëma-se      tawara  taji
 3-sick    3-sick    COP-PERF  thus  3-go-PFV.PST  Ayacucho  =ALL   3-go-PST   then    like  there  =EMPH  die-PFV.PST  thus    ?
 ‘‘estaba enfermo, así se fue, se fue a Ayacucho y allá mismo murió’’
-(temp-aff-npred-nsubj)
+(temp-main-aff-npred-nsubj)
 
 (a) Yawarana (desccasmaj-85)
     irë pana  =rë    warë  yapijtom  t-erepun  rërë
@@ -1407,11 +1466,11 @@ t-erepun  t-erepun  wej-sapë  nwa   ij-të-se      Yakucho   =pana  ij-të-jpë
     3-sick    3-sick    COP-PERF  thus  3-go-PFV.PST  Ayacucho  =ALL   3-go-PST   then    like  there  =EMPH  die-PFV.PST  thus    ?
     ‘‘estaba enfermo, así se fue, se fue a Ayacucho y allá mismo murió’’
 
-(temp-aff-npred-nsubj-cop) Yawarana (convhistfamsjm-80)
+(temp-sub-aff-npred-nsubj-cop) Yawarana (convhistfamsjm-80)
 pïrajrarë  wïrë  chi-Ø     =yawë  pïnika  tajne  =ya   wïrë  yarë-se        warë  mïntë-no   Majawa   =të   wïrë  këyëta-se
 small      1SG   COP-IPFV  =CTMP  PROB    3PL    =ERG  1SG   carry-PFV.PST  thus  there-NZR  Majagua  =LOC  1SG   grow.up-PFV.PST
 ‘‘tal vez cuando yo estaba pequeña, ellos me llevaron, allá en Majagua
-crecí’’ (temp-neg-advpred-cop-neg-nsubj)
+crecí’’ (temp-main-neg-advpred-cop-neg-nsubj)
 
 (a) Yawarana (descmensgrme-43)
     tawara  u-chi-ja
@@ -1428,7 +1487,7 @@ crecí’’ (temp-neg-advpred-cop-neg-nsubj)
     COP-NEG  thus    before
     ‘‘así no era antes’’
 
-(temp-neg-nsubj-advpred-jra)
+(temp-main-neg-nsubj-advpred-jra)
 
 (a) Yawarana (convestsjm-34)
     enirë  takï   tawara-jra
@@ -1440,49 +1499,32 @@ crecí’’ (temp-neg-advpred-cop-neg-nsubj)
     1SG   foot-POSS  good-NEG
     ‘‘mi pie está malo’’
 
-(temp-q-npred-cop) Yawarana (convamgu-165)
+(temp-main-q-npred-cop) Yawarana (convamgu-165)
 t-erepun  ka  wej-sapë
 3-sick    QP  COP-PERF
-‘¿estaba enfermo?’ (loc-aff-advpred-nsubj-cop)
+‘¿estaba enfermo?’
 
-(a) Yawarana (convestsjm-35)
-    entë  =ma     tëijpo-jra  wej-tane
-    here  =RESTR  far-NEG     COP-CNCS
-    ‘‘aunque está cerca de aquí’’
+(loc-main-aff-advpred-nsubj-cop) Yawarana (convestsjm-35)
+entë  =ma     tëijpo-jra  wej-tane
+here  =RESTR  far-NEG     COP-CNCS
+‘‘aunque está cerca de aquí’’ (loc-main-aff-locpred-cop-nsubj)
 
-(b) Yawarana (convfemgrme-106)
-    tëijpo-jra  ëjtë   =pëkë   tëijpo-jra  yëye  chi-Ø=pëkë        mïntë
-    far-NEG     house  =about  far-NEG     tree  COP-IPFV=because  there
-    ‘‘porque estaba un palo cerca de la casa’’
-
-(loc-aff-locpred-cop-nsubj)
-
-(a) Yawarana (convfemgrme-99)
-    tawara  chi-jpë  ta    mïntë  sawë   =të   ana  chi-Ø     =yawë  mïntë
-    thus    COP-PST  like  there  rapid  =LOC  1+3  COP-IPFV  =CTMP  there
-    ‘‘así también fue allá cuando estabamos en el raudal, allá’’
-
-(b) Yawarana (convfemgrme-157)
-    mïntë  Manapiare  ana  chi-Ø     =yawë
-    there  Manapiare  1+3  COP-IPFV  =CTMP
-    ‘‘cuando estuvimos en Manapiare’’
-
-(c) Yawarana (convfemgrme-292)
+(a) Yawarana (convfemgrme-292)
     ijtë   wej-sapë  wïrë  y-akërë  wej-sapë
     there  COP-PERF  1SG   REL-COM  COP-PERF
     ‘‘ahí estaba, estaba conmigo’’
 
-(d) Yawarana (histgrme-107)
+(b) Yawarana (histgrme-107)
     ana  chi-Ø     wej-sapë  mëtë   sawë   =të
     1+3  COP-IPFV  COP-PERF  there  rapid  =LOC
     ‘‘nosotros estuvimos allí en el raudal’’
 
-(e) Yawarana (convamgu-127)
+(c) Yawarana (convamgu-127)
     mïntë  La Esperanza  =të   ana  chi-Ø     =yawë
     there  La Esperanza  =LOC  1+3  COP-IPFV  =CTMP
     ‘‘allá cuando estabamos en la Esperanza’’
 
-(loc-aff-locpred-nsubj)
+(loc-main-aff-locpred-nsubj)
 
 (a) Yawarana (convamgu-80)
     wayawarë  =të   =rë    pïnika  tëwï
@@ -1494,7 +1536,7 @@ t-erepun  ka  wej-sapë
     1SG   in.mouth  all
     ‘‘todo está en mi boca’’
 
-(loc-aff-part-cop-nsubj)
+(loc-main-aff-part-cop-nsubj)
 
 (a) Yawarana (convfemgrme-292)
     ijtë   wej-sapë  wïrë  y-akërë  wej-sapë
@@ -1511,38 +1553,33 @@ t-erepun  ka  wej-sapë
     there  1SG   COP-NEG  COP-because-NZR  here  =RESTR  1SG   COP-IPFV
     ‘‘como yo no estaba allá, estoy aquí no más’’
 
-(d) Yawarana (convamgu-101)
-    entë  =ma     wïrë  chi-Ø     chi-poko-no
-    here  =RESTR  1SG   COP-IPFV  COP-because-NZR
-    ‘‘por eso yo estoy aquí mismo’’
-
-(e) Yawarana (convamgu-138)
+(d) Yawarana (convamgu-138)
     entë  =ma     ejnë  chi-Ø     =rë
     here  =RESTR  1+2   COP-IPFV  =EMPH
     ‘‘vamos a estar aquí’’
 
-(f) Yawarana (convhistfamsjm-92)
+(e) Yawarana (convhistfamsjm-92)
     tëwï-jpë  tëwïsantomo  takï   papa        =pano  =ma     ta-yakarama-Ø  wej-sapë  mïntë  wïrë  chi-Ø     wej-sapë  muku   marë  wïrë  chi-Ø     =yawë
     3SG-MOD   3PL          CNFRM  father:VOC  =late  =RESTR  3O-tell-IPFV   COP-PERF  there  1SG   COP-IPFV  COP-PERF  child  like  1SG   COP-IPFV  =CTMP
     ‘‘eso ellos, lo contaba mi papá, yo estaba allá, cuando yo estaba
     niña’’
 
-(g) Yawarana (ctorosq-17)
+(f) Yawarana (ctorosq-17)
     tëwï  toto=pe         wej-sapë  mïntë  pare
     3SG   non.indian=ESS  COP-PERF  there  and
     ‘‘él estaba allá como persona’’
 
-(h) Yawarana (ctovarmafl-40)
+(g) Yawarana (ctovarmafl-40)
     entë  ana  chi-ri    petomyakërë  yatunu
     here  1+3  COP-IPFV  three        sun
     ‘‘aquí vamos a estar 3 días’’
 
-(i) Yawarana (histyarirdi-674)
+(h) Yawarana (histyarirdi-674)
     entë  =ma     ta    ejnë  chi-ri    mïntë  ti    toto        yamï-jpë     sukase
     here  =RESTR  like  1+2   COP-IPFV  there  like  non.indian  pick.up-PST  all
     ‘‘aquí no más vamos a estar, allá todo lo agarraron los criollos’’
 
-(loc-aff-part-nsubj)
+(loc-main-aff-part-nsubj)
 
 (a) Yawarana (histanfo-1)
     wïrë  tawara  =rë    entë
@@ -1580,52 +1617,71 @@ t-erepun  ka  wej-sapë
     3PL          CONTRAST  =INTS  there
     ‘‘ellos sí están ahí’’
 
-(h) Yawarana (convhistfamsjm-95)
-    asanë         mëtë   chi-poko-no
-    2:mother:POS  there  COP-because-NZR
-    ‘‘porque tienen su mamá ahí’’
-
-(i) Yawarana (ctorosq-28)
+(h) Yawarana (ctorosq-28)
     entë  wïrë  ta-Ø      ti    ta
     here  1SG   say-IPFV  like  like
     ‘‘aquí estoy, dijo’’
 
-(j) Yawarana (ctovarmafl-366)
+(i) Yawarana (ctovarmafl-366)
     mëkï    takï   mïntë  kawë  ti
     3AN:RM  CNFRM  there  high  like
     ‘‘aquel estaba allá arriba’’
 
-(loc-neg-locpred-cop-neg-nsubj)
+(loc-sub-aff-advpred-nsubj-cop) Yawarana (convfemgrme-106)
+tëijpo-jra  ëjtë   =pëkë   tëijpo-jra  yëye  chi-Ø=pëkë        mïntë
+far-NEG     house  =about  far-NEG     tree  COP-IPFV=because  there
+‘‘porque estaba un palo cerca de la casa’’
+(loc-sub-aff-locpred-cop-nsubj)
 
-(a) Yawarana (convamgu-99)
-    mïjna  wïrë  chi-ja   chi-poko-no      entë  =ma     wïrë  chi-ri
-    there  1SG   COP-NEG  COP-because-NZR  here  =RESTR  1SG   COP-IPFV
-    ‘‘como yo no estaba allá, estoy aquí no más’’
+(a) Yawarana (convfemgrme-99)
+    tawara  chi-jpë  ta    mïntë  sawë   =të   ana  chi-Ø     =yawë  mïntë
+    thus    COP-PST  like  there  rapid  =LOC  1+3  COP-IPFV  =CTMP  there
+    ‘‘así también fue allá cuando estabamos en el raudal, allá’’
 
-(b) Yawarana (ctorosq-8)
+(b) Yawarana (convfemgrme-157)
+    mïntë  Manapiare  ana  chi-Ø     =yawë
+    there  Manapiare  1+3  COP-IPFV  =CTMP
+    ‘‘cuando estuvimos en Manapiare’’
+
+(loc-sub-aff-part-cop-nsubj) Yawarana (convamgu-101)
+entë  =ma     wïrë  chi-Ø     chi-poko-no
+here  =RESTR  1SG   COP-IPFV  COP-because-NZR
+‘‘por eso yo estoy aquí mismo’’
+
+(loc-sub-aff-part-nsubj) Yawarana (convhistfamsjm-95)
+asanë         mëtë   chi-poko-no
+2:mother:POS  there  COP-because-NZR
+‘‘porque tienen su mamá ahí’’ (loc-main-neg-locpred-cop-neg-nsubj)
+
+(a) Yawarana (ctorosq-8)
     tawara  tajne  yëmpëka-pëtï-rï   më-waraijto-ri  y-akërë  ta    wïrë  chi-ja   ta-ta-Ø      wej-saj   ta
     too     3PL    offend-PLAC-IPFV  2-husband-POSS  REL-COM  like  1SG   COP-NEG  3O-say-IPFV  COP-PERF  like
     ‘‘así la insultaban, con tu esposo no estuve, decía’’
 
-(c) Yawarana (histpajirdi-81)
+(b) Yawarana (histpajirdi-81)
     wïrë  y-akërë  wï-chi-ri-jnari   wïrë-jpë  waraijto-ri
     1SG   REL-COM  1SG-COP-IPFV-NEG  1SG-MOD   husband-POSS
     ‘‘conmigo no está mi marido’’
 
-(loc-neg-nsubj-cop-pinire-part) Yawarana (histyarirdi-489)
+(loc-main-neg-nsubj-cop-pinire-part) Yawarana (histyarirdi-489)
 kërë    chi-jpë  =pïnirë  entë  pïrarë
 3AN:MD  COP-PST  =NEG     here  nothing
 ‘‘ese no estaba aquí, no había’’
 
-(loc-neg-part-pinire-nsubj) Yawarana (convamgu-78)
+(loc-main-neg-part-pinire-nsubj) Yawarana (convamgu-78)
 asanë         mëtë   =pïnirë
 2:mother:POS  there  =NEG
 ‘‘¿tu mamá no está ahí?’’
 
-(loc-q-locpred-nsubj) Yawarana (histyarirdi-513)
+(loc-sub-neg-locpred-cop-neg-nsubj) Yawarana (convamgu-99)
+mïjna  wïrë  chi-ja   chi-poko-no      entë  =ma     wïrë  chi-ri
+there  1SG   COP-NEG  COP-because-NZR  here  =RESTR  1SG   COP-IPFV
+‘‘como yo no estaba allá, estoy aquí no más’’
+
+(loc-main-q-locpred-nsubj) Yawarana (histyarirdi-513)
 ëkë    =yaye  chima
 which  =PERL  path
-‘¿por donde es ese camino?’ (loc-q-part-cop-nsubj)
+‘¿por donde es ese camino?’ (loc-main-q-part-cop-nsubj)
 
 (a) Yawarana (convhistfamsjm-49)
     kwajsapene     mokontomo  wej-sapë  mëtë
@@ -1637,7 +1693,7 @@ which  =PERL  path
     three        sun     1+3  COP-IPFV  COP-PERF  there  aunt:VOC  =late  REL-COM
     ‘‘estabamos ahí tres días, con mi tía’’
 
-(loc-q-part-nsubj)
+(loc-main-q-part-nsubj)
 
 (a) Yawarana (convamgu-77)
     ëmë           neke      =ne    mëtë
@@ -1649,7 +1705,7 @@ which  =PERL  path
     there  QP  2PL        like
     ‘‘¿ahí están ustedes?’’
 
-(ex-aff-part-cop-nsubj)
+(ex-main-aff-part-cop-nsubj)
 
 (a) Yawarana (convcosnoind-49)
     mëtë   wej-tane  intipijkë  =ma     wej-sapë  kamicha   warai-jne
@@ -1686,7 +1742,7 @@ which  =PERL  path
     crack  there  rock  PROB    COP-PERF  thus
     ‘‘ta! allá será que había una piedra’’
 
-(ex-aff-part-nsubj)
+(ex-main-aff-part-nsubj)
 
 (a) Yawarana (convcosnoind-48)
     eni     takï   tajtojpe  =ne    kamicha   mëtë
@@ -1713,10 +1769,10 @@ which  =PERL  path
     there  CNFRM  palm.sp  meaty-NZR
     ‘ahí hay un cucurito que tiene carne (fruta)’
 
-(ex-neg-part-pirare-cop-nsubj) Yawarana (histyarirdi-819)
+(ex-main-neg-part-pirare-cop-nsubj) Yawarana (histyarirdi-819)
 irë      wej-tane  entë  pïrarë
 TMP:DEM  COP-CNCS  here  nothing
-‘‘sin embargo aquí no hay’’ (ex-neg-part-pirare-nsubj)
+‘‘sin embargo aquí no hay’’ (ex-main-neg-part-pirare-nsubj)
 
 (a) Yawarana (convinsectmaj-18)
     entë  pïrarë   mïjna
@@ -1733,10 +1789,10 @@ TMP:DEM  COP-CNCS  here  nothing
     here  nothing  like  1SG   =ERG
     ‘‘aquí no hay digo yo’’
 
-(ex-neg-pirare) Yawarana (histyarirdi-489)
+(ex-main-neg-pirare) Yawarana (histyarirdi-489)
 kërë    chi-jpë  =pïnirë  entë  pïrarë
 3AN:MD  COP-PST  =NEG     here  nothing
-‘‘ese no estaba aquí, no había’’ (ex-neg-pirare-nsubj-jra)
+‘‘ese no estaba aquí, no había’’ (ex-main-neg-pirare-nsubj-jra)
 
 (a) Yawarana (desccasmaj-64)
     serere  yawakï-ja  chi-Ø     =yawë  pïrarë   sere-jra
@@ -1748,15 +1804,15 @@ kërë    chi-jpë  =pïnirë  entë  pïrarë
     manioc.meal  make-NEG   COP-IPFV  =COND  nothing  manioc.meal-PRIV
     ‘‘si no hace mañoco, no hay mañoco’’
 
-(poss-aff-advpred-nsubj-cop) Yawarana (convfemgrme-146)
+(poss-main-aff-advpred-nsubj-cop) Yawarana (convfemgrme-146)
 t-tajromin-ke        chi-Ø-kontomo
 -PROP-bad.news-PROP  COP-IPFV-PL
 ‘‘esos tienen mala seña’’
 
-(poss-aff-locpred-cop-nsubj) Yawarana (ctowaru-32)
+(poss-main-aff-locpred-cop-nsubj) Yawarana (ctowaru-32)
 warë  tëwïsantomo  t-inawë         wej-sapë  puwa-kontomo-jne
 thus  3PL          3-in.possesion  COP-PERF  point-PL-PL
-‘‘así ellos tenía púas’’ (poss-aff-npred-nsubj)
+‘‘así ellos tenía púas’’ (poss-main-aff-npred-nsubj)
 
 (a) Yawarana (convinsectmaj-24)
     i-jta-ke-mï      warë
@@ -1768,15 +1824,15 @@ thus  3PL          3-in.possesion  COP-PERF  point-PL-PL
     -PROP-name-PROP-NZR  3SG
     ‘tiene nombre’
 
-(poss-neg-advsubj-pirare-locpred) Yawarana (histyarirdi-875)
+(poss-main-neg-advsubj-pirare-locpred) Yawarana (histyarirdi-875)
 u-yepema-toj=pe   pïrarë   wïrë  inawë
 1SG-pay-CIRC=ESS  nothing  1SG   in.possesion
 ‘‘yo no tengo para pagar’’
 
-(poss-neg-part-pinire-nsubj) Yawarana (convfemgrme-229)
+(poss-main-neg-part-pinire-nsubj) Yawarana (convfemgrme-229)
 entë  ejnë  pata-Ø     -pïnirë  entë
 here  1+2   town-POSS  -NEG     here
-‘‘aqui no es nuestra tierra, aquí’’ (poss-q-locpred-cop-nsubj)
+‘‘aqui no es nuestra tierra, aquí’’ (poss-main-q-locpred-cop-nsubj)
 
 (a) Yawarana (convamgu-325)
     asanë         inawë         ka  wej-sapë  tëwï

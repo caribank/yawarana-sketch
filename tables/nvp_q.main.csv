@@ -1,0 +1,12 @@
+,id,cat,perm,temp,loc,poss
+[gl](np)~[gl](subj)~ [gl](np)~[gl](pred)~,✓ [exref](id-main-q-nsubj-npred),✓ [exref](cat-main-q-nsubj-npred),,,,
+[gl](np)~[gl](pred)~ [gl](np)~[gl](subj)~,✓ [exref](id-main-q-npred-nsubj),✓ [exref](cat-main-q-npred-nsubj),,,,
+[gl](np)~[gl](pred)~ [gl](np)~[gl](subj)~ *manïkï*,✓ [exref](id-main-q-npred-nsubj-maniki),,,,,
+[gl](np)~[gl](subj)~ ADV,,,✓ [exref](perm-main-q-nsubj-adv),,,
+[gl](np)~[gl](pred)~ [gl](cop),,,,✓ [exref](temp-main-q-npred-cop),,
+*mëtë* [gl](np)~[gl](subj)~,,,,,✓ [exref](loc-main-q-mete-nsubj),
+[gl](loc)~[gl](pred)~ [gl](np)~[gl](subj)~,,,,,✓ [exref](loc-main-q-locpred-nsubj),
+[gl](np)~[gl](subj)~ [gl](cop) *mëtë*,,,,,✓ [exref](loc-main-q-nsubj-cop-mete),
+[gl](np)~[gl](subj)~ *mëtë*,,,,,✓ [exref](loc-main-q-nsubj-mete),
+N *inawë* [gl](cop) [gl](np)~[gl](subj)~,,,,,,✓ [exref](poss-main-q-n-inawe-cop-nsubj)
+N *inawë* [gl](cop),,,,,,✓ [exref](poss-main-q-n-inawe-cop)
