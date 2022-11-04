@@ -28,7 +28,7 @@
         * only counterexample: [gl](np)<sub>[gl](pred)</sub> [gl](cop) with 'sick' [exref](temp-main-q-npred-cop); can occur without [gl](cop), too [exref](temp-main-aff-npred-cop)
     * does not combine with [mp](pirare-nothing)
         * one counterexample with [gl](part)<sub>[gl](pred)</sub> + [mp](pirare-nothing?nt) + [gl](cop) + [gl](np)<sub>[gl](subj)</sub> is with a concessive [exref](ex-main-neg-part-pirare-cop-nsubj) [todo](@spike: I forgot, what was your analysis for this particular example?)
-        * it does occur with [mp](pinire-nothing), though [exref](loc-main-neg-nsubj-cop-pinire-part) [todo](@spike: could it be that the copular form is deverbal in both of these examples?)
+        * it does occur with [mp](pinire-nothing), though [exref](loc-main-neg-nsubj-cop-pinire-part), [exref](temp-main-neg-advpred-cop-pinire-nsubj) [todo](@spike: what do you think of the analysis that the copular form is synchronically deverbal in all of these examples, licensing the nominal negator?)
     * is always present in subordinate clauses (*chi-yawë* 'when', *chi-pëke* 'because') [todo](@spike: would you analyze these subordinate clauses as having a copula? if  yes, that would constitute a small but solid difference between main and subordinate clauses, right?)
         * even with nominal predicates: [exref](cat-sub-aff-npred-nsubj-cop), [exref](temp-sub-aff-npred-nsubj-cop)
         * one example of negation, occurs on additional copula [exref](loc-sub-neg-locpred-cop-neg-nsubj)
@@ -37,23 +37,13 @@
     * [mp](jraneg) for adverbs and on nouns in the existential [mp](pirare-nothing?nt) [gl](np~subj~)[mp](jraneg?nt) construction [exref](ex-main-neg-pirare-nsubj-jra)
     * [mp](pinire-nothing) for nominal predicates and ones with locative particles
     * [mp](pirare-nothing) for existential predicates
-        * also for identification [exref](id-main-neg-npred-pirare)
+        * also for identification? [exref](id-main-neg-npred-pirare)
     * [mp](janeg?nt) or [mp](jnarineg?nt) on the copula 
-* order is fairly flexible; potentially rigid [gl](adv)~[gl](pred)~ [gl](n~subj~) [gl](cop), though negated counterexample [exref](histyarirdi-249)
-
-### Open questions
+* order is fairly flexible; potentially rigid [gl](adv)~[gl](pred)~ [gl](np~subj~) [gl](cop), though negated counterexample [exref](histyarirdi-249)
 * unclear role of [mp](maniki-rel-anim) in [gl](np)<sub>[gl](pred)</sub> + [gl](np)<sub>[gl](subj)</sub> construction
-
-* [todo](@spike: how would you classify ‘yo estaba sola’ here? adverbial?)
-
-[ex](descmensgrme-41)
-
-[todo](can’t interpret this, even with context)
-
-[ex](convamgu-297)
+* construction with two copulas *chi wejsapë*? [exref](convhistfamsjm-92), [exref](convhistfamsjm-59), [exref](histgrme-17), [exref](histgrme-107) [todo](ask natalia)
 
 ### Categorization issues
 * possessives vs properties can be hard to distinguish ('footed', etc.)
 * locative predicates are teeming with "existential" particles: largely went by 'estar' vs 'haber' in translation, with the exception of [exref](convcosnoind-48)
 * [exref](poss-main-neg-locpred-nsubj) [todo](@spike: was this the analysis you suggested?)
-* construction with two copulas *chi wejsapë*? [exref](convhistfamsjm-92), [exref](convhistfamsjm-59), [exref](histgrme-17), [exref](histgrme-107)
