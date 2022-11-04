@@ -4,5 +4,5 @@ Categorization,[gl](np)~[gl](pred)~ [gl](np)~[gl](subj)~ [gl](cop) [exref](cat-s
 Permanent property,[gl](adv)~[gl](pred)~ ([gl](np)~[gl](subj)~) [gl](cop) [exref](perm-sub-aff-advpred-nsubj-cop),?
 Temporary property,[gl](np)~[gl](pred)~ [gl](np)~[gl](subj)~ [gl](cop) [exref](temp-sub-aff-npred-nsubj-cop),?
 Location,[gl](part)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~) [exref](loc-sub-aff-part-cop-nsubj) <br> [gl](adv)~[gl](pred)~ ([gl](np)~[gl](subj)~) [gl](cop) [exref](loc-sub-aff-advpred-nsubj-cop) <br> [gl](loc)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~) [exref](loc-sub-aff-locpred-cop-nsubj),[gl](loc)~[gl](pred)~ + [gl](cop)-[gl](neg) (+ [gl](np)~[gl](subj)~) [exref](loc-sub-neg-locpred-cop-neg-nsubj)
-Existential,?,[gl](np)~[gl](subj)~-jra [gl](cop) [exref](ex-sub-neg-nsubj-jra-cop)
-Possession,?,pïrarë + [gl](cop) (+ [gl](np)~[gl](subj)~) [exref](poss-sub-neg-pirare-cop-nsubj)
+Existential,?,[gl](np)~[gl](subj)~[mp](jraneg?nt) [gl](cop) [exref](ex-sub-neg-nsubj-jra-cop)
+Possession,?,[mp](pirare-nothing?nt) + [gl](cop) (+ [gl](np)~[gl](subj)~) [exref](poss-sub-neg-pirare-cop-nsubj)

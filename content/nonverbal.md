@@ -14,47 +14,46 @@
 
 ### Patterns
 * "existential particles" (*mëtë*, *mïntë*, *entë*, *ijtë*)
-    * appear to be obligatory in the affirmative existential function, optional when negated
-    * also occur in locative function [exref](loc-main-aff-part-nsubj)
-    * also combine with postpositional locatives [exref](convfemgrme-99)
+    * etymologically locatives, used for existential function. they **can** co-occur with the existential negative [mp](pirare-nothing?nt) [exref](ex-main-neg-part-pirare-cop-nsubj), [exref](ex-main-neg-part-pirare-nsubj)
+    * also occur in locative function [exref](loc-main-aff-part-cop-nsubj), [exref](loc-main-aff-part-nsubj)
+    * also combine with postpositional locatives [exref](histgrme-107), though more often not part of the clause? [exref](loc-sub-aff-advpred-nsubj-cop), [exref](convfemgrme-157), [exref](convfemgrme-99)
 * the copula...
-    * almost always occurs with adverbs (counterexample: [exref](perm-main-q-advpred-nsubj))
+    * almost always occurs with adverbs
+        * counterexample: [exref](perm-main-q-advpred-nsubj)
         * not when negated [exref](temp-main-neg-nsubj-advpred-jra)
     * can occur with locatives and existential particles
-        * fairly solid pattern of copula serving as a location for past marking existential function: [exref](ex-main-aff-part-cop-nsubj), compare to [exref](ex-main-aff-part-nsubj)
+        * fairly solid pattern of copula serving as a location for past marking existential function: compare mostly past [exref](ex-main-aff-part-cop-nsubj) with nonpast [exref](ex-main-aff-part-nsubj)
         * however, no such pattern with locatives: copula [exref](loc-main-aff-part-cop-nsubj) and no copula [exref](loc-main-aff-part-nsubj) show no salient distribution
     * almost never occurs with nouns
         * only counterexample: [gl](np)<sub>[gl](pred)</sub> [gl](cop) with 'sick' [exref](temp-main-q-npred-cop); can occur without [gl](cop), too [exref](temp-main-aff-npred-cop)
     * does not combine with [mp](pirare-nothing)
         * one counterexample with [gl](part)<sub>[gl](pred)</sub> + [mp](pirare-nothing?nt) + [gl](cop) + [gl](np)<sub>[gl](subj)</sub> is with a concessive [exref](ex-main-neg-part-pirare-cop-nsubj) [todo](@spike: I forgot, what was your analysis for this particular example?)
-        * it does occur with [mp](pinire-nothing), though [exref](loc-main-neg-nsubj-cop-pinire-part)
+        * it does occur with [mp](pinire-nothing), though [exref](loc-main-neg-nsubj-cop-pinire-part) [todo](@spike: could it be that the copular form is deverbal in both of these examples?)
     * is always present in subordinate clauses (*chi-yawë* 'when', *chi-pëke* 'because') [todo](@spike: would you analyze these subordinate clauses as having a copula? if  yes, that would constitute a small but solid difference between main and subordinate clauses, right?)
         * even with nominal predicates: [exref](cat-sub-aff-npred-nsubj-cop), [exref](temp-sub-aff-npred-nsubj-cop)
         * one example of negation, occurs on additional copula [exref](loc-sub-neg-locpred-cop-neg-nsubj)
         * one example of *chi chipokono* [exref](convamgu-101)
 * several negation strategies:
-    * [mp](jraneg) for adverbs and on nouns in the existential *pïrarë* [gl](np~subj~)*-jra* construction [exref](ex-main-neg-pirare-nsubj-jra)
+    * [mp](jraneg) for adverbs and on nouns in the existential [mp](pirare-nothing?nt) [gl](np~subj~)[mp](jraneg?nt) construction [exref](ex-main-neg-pirare-nsubj-jra)
     * [mp](pinire-nothing) for nominal predicates and ones with locative particles
     * [mp](pirare-nothing) for existential predicates
         * also for identification [exref](id-main-neg-npred-pirare)
-    * *-ja* or *-jnari* on the copula
-* order is fairly flexible; potentially rigid \[ADVpred (Nsubj) COP\] 
-[todo](continue here)
+    * [mp](janeg?nt) or [mp](jnarineg?nt) on the copula 
+* order is fairly flexible; potentially rigid [gl](adv)~[gl](pred)~ [gl](n~subj~) [gl](cop), though negated counterexample [exref](histyarirdi-249)
 
 ### Open questions
 * unclear role of [mp](maniki-rel-anim) in [gl](np)<sub>[gl](pred)</sub> + [gl](np)<sub>[gl](subj)</sub> construction
-* is there a pattern as to whether existential/locative particles combine with the copula?
 
-* [todo](@spike: how would you classify 'yo estaba sola'?)
+* [todo](@spike: how would you classify ‘yo estaba sola’ here? adverbial?)
 
 [ex](descmensgrme-41)
 
-[todo](can't interpret this even with context)
+[todo](can’t interpret this, even with context)
 
 [ex](convamgu-297)
 
 ### Categorization issues
 * possessives vs properties can be hard to distinguish ('footed', etc.)
-* existential particles in existentials and locatives: largely went by 'estar' vs 'haber' in translation, with the exception of [exref](convcosnoind-48)
-* weird "adverbial subject"? [exref](poss-main-neg-advsubj-pirare-locpred)
+* locative predicates are teeming with "existential" particles: largely went by 'estar' vs 'haber' in translation, with the exception of [exref](convcosnoind-48)
+* [exref](poss-main-neg-locpred-nsubj) [todo](@spike: was this the analysis you suggested?)
 * construction with two copulas *chi wejsapë*? [exref](convhistfamsjm-92), [exref](convhistfamsjm-59), [exref](histgrme-17), [exref](histgrme-107)
