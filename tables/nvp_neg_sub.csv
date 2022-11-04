@@ -1,4 +1,4 @@
 ,loc,ex,poss
 [gl](loc)~[gl](pred)~ + [gl](cop)-[gl](neg) (+ [gl](np)~[gl](subj)~),✓ [exref](loc-sub-neg-locpred-cop-neg-nsubj),,
+pïrarë + [gl](cop) (+ [gl](np)~[gl](subj)~),,,✓ [exref](poss-sub-neg-pirare-cop-nsubj)
 [gl](np)~[gl](subj)~-jra [gl](cop),,✓ [exref](ex-sub-neg-nsubj-jra-cop),
-[gl](np)~[gl](subj)~ pïrarë [gl](cop),,,✓ [exref](poss-sub-neg-nsubj-pirare-cop)

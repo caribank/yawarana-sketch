@@ -5,5 +5,5 @@
 [gl](np)~[gl](pred)~ [gl](cop),,,,✓ [exref](temp-main-aff-npred-cop),,,
 [gl](loc)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~),,,,,✓ [exref](loc-main-aff-locpred-cop-nsubj),,✓ [exref](poss-main-aff-locpred-cop-nsubj)
 [gl](part)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~),,,,,✓ [exref](loc-main-aff-part-cop-nsubj),✓ [exref](ex-main-aff-part-cop-nsubj),
-[gl](part)~[gl](pred)~ + [gl](np)~[gl](subj)~,,,,,✓ [exref](loc-main-aff-part-nsubj),✓ [exref](ex-main-aff-part-nsubj),
+[gl](part)~[gl](pred)~ (+ [gl](np)~[gl](subj)~),,,,,✓ [exref](loc-main-aff-part-nsubj),✓ [exref](ex-main-aff-part-nsubj),
 [gl](loc)~[gl](pred)~ (+ [gl](np)~[gl](subj)~),,,,,✓ [exref](loc-main-aff-locpred-nsubj),,
