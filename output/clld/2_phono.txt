@@ -1,6 +1,6 @@
 <a id='phono'></a>
 ## Segmental phonetics and phonemes {#sec:segmental}
-The consonant phonemes of Yawarana are shown in <a href='#tab:consonants' class='crossref' name='tab:consonants' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>, vowel phonemes in <a href='#tab:vowels' class='crossref' name='tab:vowels' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>.
+The consonant phonemes of Yawarana are shown in <a href='#tab:consonants' class='crossref' name='tab:consonants' >ref</a>, vowel phonemes in <a href='#tab:vowels' class='crossref' name='tab:vowels' >ref</a>.
 
 
 
@@ -8,20 +8,20 @@ The consonant phonemes of Yawarana are shown in <a href='#tab:consonants' class=
 
 |           | bilabial                          | alveolar                          | palatal                             | velar                             | glottal                           |
 |:----------|:----------------------------------|:----------------------------------|:------------------------------------|:----------------------------------|:----------------------------------|
-| occlusive | [Phoneme p](PhonemeTable?#cldf:p) | [Phoneme t](PhonemeTable?#cldf:t) | [Phoneme ch](PhonemeTable?#cldf:ch) | [Phoneme k](PhonemeTable?#cldf:k) |                                   |
-| nasal     | [Phoneme m](PhonemeTable?#cldf:m) | [Phoneme n](PhonemeTable?#cldf:n) | [Phoneme J](PhonemeTable?#cldf:J)   |                                   |                                   |
-| fricative |                                   | [Phoneme s](PhonemeTable?#cldf:s) |                                     |                                   | [Phoneme j](PhonemeTable?#cldf:j) |
-| liquid    |                                   | [Phoneme r](PhonemeTable?#cldf:r) |                                     |                                   |                                   |
-| glide     | [Phoneme w](PhonemeTable?#cldf:w) |                                   | [Phoneme y](PhonemeTable?#cldf:y)   |                                   |                                   |
+| occlusive | [Phoneme p](phonemes.csv?#cldf:p) | [Phoneme t](phonemes.csv?#cldf:t) | [Phoneme ch](phonemes.csv?#cldf:ch) | [Phoneme k](phonemes.csv?#cldf:k) |                                   |
+| nasal     | [Phoneme m](phonemes.csv?#cldf:m) | [Phoneme n](phonemes.csv?#cldf:n) | [Phoneme J](phonemes.csv?#cldf:J)   |                                   |                                   |
+| fricative |                                   | [Phoneme s](phonemes.csv?#cldf:s) |                                     |                                   | [Phoneme j](phonemes.csv?#cldf:j) |
+| liquid    |                                   | [Phoneme r](phonemes.csv?#cldf:r) |                                     |                                   |                                   |
+| glide     | [Phoneme w](phonemes.csv?#cldf:w) |                                   | [Phoneme y](phonemes.csv?#cldf:y)   |                                   |                                   |
 
 
 <a id='tab:vowels'></a><div class='caption table' id='tab:vowels'>Vowel phonemes</div>
 
 |       | front                             | central                                   | back                              |
 |:------|:----------------------------------|:------------------------------------------|:----------------------------------|
-| close | [Phoneme i](PhonemeTable?#cldf:i) | [Phoneme 1](PhonemeTable?#cldf:1)         | [Phoneme u](PhonemeTable?#cldf:u) |
-| mid   | [Phoneme e](PhonemeTable?#cldf:e) | [Phoneme schwa](PhonemeTable?#cldf:schwa) | [Phoneme o](PhonemeTable?#cldf:o) |
-| open  |                                   | [Phoneme a](PhonemeTable?#cldf:a)         |                                   |
+| close | [Phoneme i](phonemes.csv?#cldf:i) | [Phoneme 1](phonemes.csv?#cldf:1)         | [Phoneme u](phonemes.csv?#cldf:u) |
+| mid   | [Phoneme e](phonemes.csv?#cldf:e) | [Phoneme schwa](phonemes.csv?#cldf:schwa) | [Phoneme o](phonemes.csv?#cldf:o) |
+| open  |                                   | [Phoneme a](phonemes.csv?#cldf:a)         |                                   |
 
 ### Consonants {#sec:consonants}
 
@@ -61,18 +61,18 @@ The consonant phonemes of Yawarana are shown in <a href='#tab:consonants' class=
 
 #### Non-alternating reduced syllables
 
-e.g. [Morpheme wajto-fire](MorphsetTable?#cldf:wajto-fire)
+e.g. [Morpheme wajto-fire](morphemes.csv?#cldf:wajto-fire)
 
 
 ### Vowel harmony {#sec:vowelharm}
 
-* progressive [Morpheme rupert](MorphsetTable?#cldf:rupert)
+* progressive [Morpheme rupert](morphemes.csv?#cldf:rupert)
 * regressive /ë/ > /o/ 
 
 ### Palatalization {#sec:palatalization}
 
-* [Morpheme sapepfv](MorphsetTable?#cldf:sapepfv)
-* [Morpheme sepst](MorphsetTable?#cldf:sepst)
+* [Morpheme sapepfv](morphemes.csv?#cldf:sapepfv)
+* [Morpheme sepst](morphemes.csv?#cldf:sepst)
 
 ## Prosody {#sec:prosody}
 

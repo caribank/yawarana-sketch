@@ -10,8 +10,6 @@ verbderiv:
   title: Verbal roots and stems
 verbinfl:
   title: Verbal inflection
-adverbs:
-  title: Adverbs
 postp:
   title: Postpositions
 partideo:
@@ -24,8 +22,6 @@ phrases:
   title: Phrases
 nonverbal:
   title: Nonverbal predications
-nonverbaloverview:
-  title: Overview for Spike
 simpleverb:
   title: Simple verbal clauses
 questions:

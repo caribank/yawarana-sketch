@@ -14,7 +14,7 @@ Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssu
 Also:
 
 * [mp](kontomopl)
-* _ësë-_
+* [m](dt7)
 
 ## Locative Postpositions
 * clear bipartite Ground+Path
@@ -35,12 +35,12 @@ Also:
 [ex](histpajirdi-186)
 
 ## Nonlocative Oblique Postpositions 
-* [mp](panadat)
+* [mp](pana-dat)
 * [mp](ke-ins)
 * _wanai_
 
 ## Misc
 
-* [mp](chi-cop) combines with [mp](yaweloc), sometimes spelled *chi yawë*, sometimes *chawë*.
+* [mp](chi-cop) combines with [mp](yawe-loc), sometimes spelled *chi yawë*, sometimes *chawë*.
 * syllable reduction
 * postpositions on bare verbs? (e.g. _wejtawë_)

@@ -5,14 +5,14 @@
 ## Person prefixes [label](sec:verbperson)
 Verbs are inflected for person with a set of prefixes, shown in [ref](tab:verbprefixes).
 First and second person prefixes show ergative alignment, expressing [gl](s) and [gl](p). [todo](count cases of expressing A)
-Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [mp](t3?nt) in [gl](3)>[gl](3) scenarios.[todo](mentionworthy that this is not in alternation with preceding NPs)
+Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [mp](ta-3?nt) in [gl](3)>[gl](3) scenarios.[todo](mentionworthy that this is not in alternation with preceding NPs)
 
 [table](verbprefixes)
 
-* one attested case of [mp](t3?translation=3>3) on the lexical verb of a _-pëkë_ construction w/ 2nd person [gl](a) on [gl](aux) [todo](which one?)
+* one attested case of [mp](ta-3?translation=3>3) on the lexical verb of a _-pëkë_ construction w/ 2nd person [gl](a) on [gl](aux) [todo](which one?)
     * Ø‑ ‘[gl](3p)’ with transitive verbs with [gl](1a) or [gl](2a)
 * one example of [mp](me2) ‘[gl](2A)’ on imperative verb [todo](GrMePers.029)
-[todo](FM: u- is sometimes wï-, but usually not transcribed & distribution unclear)
+[todo](FM: u- is sometimes wï-, but usually not transcribed, and distribution unclear)
 
 
 [todo](Check: appears that first and second person are reduced forms, with long vowel? wait for leila)
@@ -32,9 +32,9 @@ They are discussed in [ref](sec:riipfv?end=sec:sareimn).
 
 Misc:
 
-* [mp](septcp?nt)=[mp](pano?nt) ‘[gl](pst)=[gl](concl)’
-* [m](sajpfv?nt)=[mp](pano?nt) ‘[gl](pfv)=[gl](concl)’
-* [mp](sareimn?nt)=[mp](pano?nt) ‘[gl](imn)=[gl](concl)’
+* [mp](septcp?nt)=[mp](pano-fmr?nt) ‘[gl](pst)=[gl](concl)’
+* [m](sajpfv?nt)=[mp](pano-fmr?nt) ‘[gl](pfv)=[gl](concl)’
+* [mp](sareimn?nt)=[mp](pano-fmr?nt) ‘[gl](imn)=[gl](concl)’
 
 
 ### [mp](riipfv?nt) [label](sec:riipfv)
@@ -69,7 +69,10 @@ Misc:
 
 * allomorphy: [m](septcp?nt)/[m](cheptcp)
 * diachrony: from [mp](septcp)
-[todo](negation?)
+* negation: replaced with [mp](janeg) [exref](conv1stenc-28)
+
+[ex](conv1stenc-28)
+
 [todo](semantics?)
 
 ### [mp](sapepfv?nt)
@@ -112,12 +115,12 @@ Misc:
     * *‑yapo* ‘neg.purp’
     * others?
 * Nominalization + postposition (S/P)
-    * [m](ri-zero)[mp](yaweloc?translation=simult)
-    * [m](ri-zero) [mp](esspe) ‘when’
-    * [m](sajnmlz)[mp](yaweloc?translation=simult)
+    * [m](ri-zero)[mp](yawe-loc?translation=simult)
+    * [m](ri-zero) [mp](pe-ess) ‘when’
+    * [m](sajnmlz)[mp](yawe-loc?translation=simult)
     * [mp](tojpepurp?translation=purpose) 
     * (‑jpë)=tërë ‘after’
-    * on auxiliary: [mp](rinmlz?nt) + [mp](po-loc?nt) '[gl](ctrf)'
+    * on auxiliary: [mp](rinmlz?nt) + *po* '[gl](ctrf)'
 * not attested:
     * _se_ '[gl](des)'
     * _-ajtawï_ 'if when'
@@ -139,5 +142,5 @@ Misc:
 [todo](are there irregular pat/perfect participles? nahkë, etc)
 [todo](ejnë may come from an inflected form of the copula)
 
-* there is stem allomorphy: [mp](chi-cop?nt), [mp](wej-cop?nt) [todo](should these be the same morpheme?)
+* there is (synchronically suppletive) stem allomorphy: *chi* and *wej*
 * [mp](mare-rel-inan) and [mp](maniki-rel-anim)

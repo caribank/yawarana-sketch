@@ -7,7 +7,8 @@
     * [mp](jnarineg)
     * [mp](jramaproh)
     * [mp](kempinire)
-    * [mp](pinire-nothing)
-    * [mp](pirare-nothing)
+    * [mp](pinire-neg)
+    * [mp](pirare-neg-exist)
+    * [mp](pini-neg)
     * *‑yapo* ‘neg.purp’
 

@@ -16,7 +16,7 @@ Three kinds of particles elsewhere in the family:
 
 ## Ideophones
 
-* constructions with [mp](ware-thus) (example with _pïtï_ 'paint')
+* constructions with [mp](nwa-thus)? (example with _pïtï_ 'paint')
 
 ## Interjections
 * kind of particle?

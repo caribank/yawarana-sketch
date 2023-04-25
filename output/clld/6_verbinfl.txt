@@ -2,24 +2,24 @@
 <span title='write an introduction'>❗️</span>
 
 ## Person prefixes {#sec:verbperson}
-Verbs are inflected for person with a set of prefixes, shown in <a href='#tab:verbprefixes' class='crossref' name='tab:verbprefixes' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>.
+Verbs are inflected for person with a set of prefixes, shown in <a href='#tab:verbprefixes' class='crossref' name='tab:verbprefixes' >ref</a>.
 First and second person prefixes show ergative alignment, expressing <span class='smallcaps'>s</span> and <span class='smallcaps'>p</span>. <span title='count cases of expressing A'>❗️</span>
-Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [Morpheme t3](MorphsetTable?no_translation#cldf:t3) in <span class='smallcaps'>3</span>><span class='smallcaps'>3</span> scenarios.<span title='mentionworthy that this is not in alternation with preceding NPs'>❗️</span>
+Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [Morpheme ta-3](morphemes.csv?no_translation#cldf:ta-3) in <span class='smallcaps'>3</span>><span class='smallcaps'>3</span> scenarios.<span title='mentionworthy that this is not in alternation with preceding NPs'>❗️</span>
 
 
 <a id='tab:verbprefixes'></a><div class='caption table' id='tab:verbprefixes'>Person marking prefixes on verbs</div>
 
-|                                    | <span class='smallcaps'>intr</span>                   | <span class='smallcaps'>tr</span>                     |
-|:-----------------------------------|:------------------------------------------------------|:------------------------------------------------------|
-| <span class='smallcaps'>1</span>   | [Morpheme u1](MorphsetTable?no_translation#cldf:u1)   | [Morpheme u1](MorphsetTable?no_translation#cldf:u1)   |
-| <span class='smallcaps'>2</span>   | [Morpheme me2](MorphsetTable?no_translation#cldf:me2) | [Morpheme me2](MorphsetTable?no_translation#cldf:me2) |
-| <span class='smallcaps'>1+2</span> | _ej(n)-_                                              | _ej(n)-_                                              |
-| <span class='smallcaps'>3</span>   | ∅                                                     | [Morpheme t3](MorphsetTable?no_translation#cldf:t3)   |
+|                                    | <span class='smallcaps'>intr</span>                   | <span class='smallcaps'>tr</span>                       |
+|:-----------------------------------|:------------------------------------------------------|:--------------------------------------------------------|
+| <span class='smallcaps'>1</span>   | [Morpheme u1](morphemes.csv?no_translation#cldf:u1)   | [Morpheme u1](morphemes.csv?no_translation#cldf:u1)     |
+| <span class='smallcaps'>2</span>   | [Morpheme me2](morphemes.csv?no_translation#cldf:me2) | [Morpheme me2](morphemes.csv?no_translation#cldf:me2)   |
+| <span class='smallcaps'>1+2</span> | _ej(n)-_                                              | _ej(n)-_                                                |
+| <span class='smallcaps'>3</span>   | ∅                                                     | [Morpheme ta-3](morphemes.csv?no_translation#cldf:ta-3) |
 
-* one attested case of [Morpheme t3](MorphsetTable?translation=3>3#cldf:t3) on the lexical verb of a _-pëkë_ construction w/ 2nd person <span class='smallcaps'>a</span> on <span class='smallcaps'>aux</span> <span title='which one?'>❓</span>
+* one attested case of [Morpheme ta-3](morphemes.csv?translation=3>3#cldf:ta-3) on the lexical verb of a _-pëkë_ construction w/ 2nd person <span class='smallcaps'>a</span> on <span class='smallcaps'>aux</span> <span title='which one?'>❓</span>
     * Ø‑ ‘<span class='smallcaps'>3p</span>’ with transitive verbs with <span class='smallcaps'>1a</span> or <span class='smallcaps'>2a</span>
-* one example of [Morpheme me2](MorphsetTable?#cldf:me2) ‘<span class='smallcaps'>2A</span>’ on imperative verb <span title='GrMePers.029'>❗️</span>
-<span title='FM: u- is sometimes wï-, but usually not transcribed & distribution unclear'>❗️</span>
+* one example of [Morpheme me2](morphemes.csv?#cldf:me2) ‘<span class='smallcaps'>2A</span>’ on imperative verb <span title='GrMePers.029'>❗️</span>
+<span title='FM: u- is sometimes wï-, but usually not transcribed, and distribution unclear'>❗️</span>
 
 
 <span title='Check: appears that first and second person are reduced forms, with long vowel? wait for leila'>❓</span>
@@ -28,27 +28,27 @@ Intransitive verbs are not overtly inflected for third person, while transitive 
 
 
 ## Main clause tense‑aspect‑mood‑polarity suffixes {#sec:tam}
-Verbs in main clauses are inflected for TAMP with a set of suffixes, shown in <a href='#tab:verbtam' class='crossref' name='tab:verbtam' cldf="../yawarana-sketch-cldf/cldf/metadata.json" >ref</a>.
-They are discussed in <a href='#sec:riipfv' class='crossref' name='sec:riipfv' cldf="../yawarana-sketch-cldf/cldf/metadata.json"  end="sec:sareimn" >ref</a>.
+Verbs in main clauses are inflected for TAMP with a set of suffixes, shown in <a href='#tab:verbtam' class='crossref' name='tab:verbtam' >ref</a>.
+They are discussed in <a href='#sec:riipfv' class='crossref' name='sec:riipfv' end="sec:sareimn" >ref</a>.
 
 
 <a id='tab:verbtam'></a><div class='caption table' id='tab:verbtam'>Verbal TAM suffixes</div>
 
 | Suffix                                                                                                                 | Function                                 |
 |:-----------------------------------------------------------------------------------------------------------------------|:-----------------------------------------|
-| [Morpheme riipfv](MorphsetTable?no_translation#cldf:riipfv)                                                            | imperfective                             |
-| [Morpheme jpepst](MorphsetTable?no_translation#cldf:jpepst)                                                            | past                                     |
-| [Morpheme sepst](MorphsetTable?no_translation#cldf:sepst)                                                              | past perfective                          |
-| [Morpheme sapepfv](MorphsetTable?no_translation#cldf:sapepfv)                                                          | perfect                                  |
-| [Morpheme sareimn](MorphsetTable?no_translation#cldf:sareimn)                                                          | imminent future                          |
-| [Morpheme nepeke](MorphsetTable?no_translation#cldf:nepeke)                                                            | <span class='smallcaps'>prog.intr</span> |
-| [Morpheme pekeon](MorphsetTable?no_translation#cldf:pekeon)                                                            | <span class='smallcaps'>prog.tr</span>   |
+| [Morpheme riipfv](morphemes.csv?no_translation#cldf:riipfv)                                                            | imperfective                             |
+| [Morpheme jpepst](morphemes.csv?no_translation#cldf:jpepst)                                                            | past                                     |
+| [Morpheme sepst](morphemes.csv?no_translation#cldf:sepst)                                                              | past perfective                          |
+| [Morpheme sapepfv](morphemes.csv?no_translation#cldf:sapepfv)                                                          | perfect                                  |
+| [Morpheme sareimn](morphemes.csv?no_translation#cldf:sareimn)                                                          | imminent future                          |
+| [Morpheme nepeke](morphemes.csv?no_translation#cldf:nepeke)                                                            | <span class='smallcaps'>prog.intr</span> |
+| [Morpheme peke-about](morphemes.csv?no_translation#cldf:peke-about)                                                    | <span class='smallcaps'>prog.tr</span>   |
 | *‑tojpano*                                                                                                             | <span class='smallcaps'>fut</span>       |
-| ([Morpheme tojpefut](MorphsetTable?no_translation#cldf:tojpefut))                                                      | <span class='smallcaps'>fut</span>       |
-| [Morpheme janeg](MorphsetTable?no_translation#cldf:janeg)                                                              | <span class='smallcaps'>neg</span>       |
-| [Morpheme septcp](MorphsetTable?no_translation#cldf:septcp)[Morpheme minmlz](MorphsetTable?no_translation#cldf:minmlz) | ‘obligation’                             |
-| [Morpheme neinf](MorphsetTable?no_translation#cldf:neinf)                                                              | impersonal S                             |
-| [Morpheme toponmlz](MorphsetTable?no_translation#cldf:toponmlz)                                                        |                                          |
+| ([Morpheme tojpefut](morphemes.csv?no_translation#cldf:tojpefut))                                                      | <span class='smallcaps'>fut</span>       |
+| [Morpheme janeg](morphemes.csv?no_translation#cldf:janeg)                                                              | <span class='smallcaps'>neg</span>       |
+| [Morpheme septcp](morphemes.csv?no_translation#cldf:septcp)[Morpheme minmlz](morphemes.csv?no_translation#cldf:minmlz) | ‘obligation’                             |
+| [Morpheme neinf](morphemes.csv?no_translation#cldf:neinf)                                                              | impersonal S                             |
+| [Morpheme toponmlz](morphemes.csv?no_translation#cldf:toponmlz)                                                        |                                          |
 
 
 
@@ -58,74 +58,74 @@ They are discussed in <a href='#sec:riipfv' class='crossref' name='sec:riipfv' c
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|
 | *‑jrama*                                                                                                                                                                                        | <span class='smallcaps'>proh</span>                                                                                                              |
 | _-i_                                                                                                                                                                                            | <span class='smallcaps'>juss</span>                                                                                                              |
-| [Morpheme keimp](MorphsetTable?no_translation#cldf:keimp) / ‑*të*[Morpheme keimp](MorphsetTable?no_translation#cldf:keimp)                                                                      | <span class='smallcaps'>imp</span> / <span class='smallcaps'>imp.pl</span>                                                                       |
-| [Morpheme tamotimp](MorphsetTable?no_translation#cldf:tamotimp) / [Morpheme tamotimp](MorphsetTable?no_translation#cldf:tamotimp)*ntë*[Morpheme keimp](MorphsetTable?no_translation#cldf:keimp) | <span class='smallcaps'>imp</span>.<span class='smallcaps'>mot</span> / <span class='smallcaps'>imp</span>.<span class='smallcaps'>mot.pl</span> |
+| [Morpheme keimp](morphemes.csv?no_translation#cldf:keimp) / ‑*të*[Morpheme keimp](morphemes.csv?no_translation#cldf:keimp)                                                                      | <span class='smallcaps'>imp</span> / <span class='smallcaps'>imp.pl</span>                                                                       |
+| [Morpheme tamotimp](morphemes.csv?no_translation#cldf:tamotimp) / [Morpheme tamotimp](morphemes.csv?no_translation#cldf:tamotimp)*ntë*[Morpheme keimp](morphemes.csv?no_translation#cldf:keimp) | <span class='smallcaps'>imp</span>.<span class='smallcaps'>mot</span> / <span class='smallcaps'>imp</span>.<span class='smallcaps'>mot.pl</span> |
 
 
 Misc:
 
-* [Morpheme septcp](MorphsetTable?no_translation#cldf:septcp)=[Morpheme pano](MorphsetTable?no_translation#cldf:pano) ‘<span class='smallcaps'>pst</span>=<span class='smallcaps'>concl</span>’
-* [Morph sajpfv](MorphTable?no_translation#cldf:sajpfv)=[Morpheme pano](MorphsetTable?no_translation#cldf:pano) ‘<span class='smallcaps'>pfv</span>=<span class='smallcaps'>concl</span>’
-* [Morpheme sareimn](MorphsetTable?no_translation#cldf:sareimn)=[Morpheme pano](MorphsetTable?no_translation#cldf:pano) ‘<span class='smallcaps'>imn</span>=<span class='smallcaps'>concl</span>’
+* [Morpheme septcp](morphemes.csv?no_translation#cldf:septcp)=[Morpheme pano-fmr](morphemes.csv?no_translation#cldf:pano-fmr) ‘<span class='smallcaps'>pst</span>=<span class='smallcaps'>concl</span>’
+* [Morph sajpfv](morphs.csv?no_translation#cldf:sajpfv)=[Morpheme pano-fmr](morphemes.csv?no_translation#cldf:pano-fmr) ‘<span class='smallcaps'>pfv</span>=<span class='smallcaps'>concl</span>’
+* [Morpheme sareimn](morphemes.csv?no_translation#cldf:sareimn)=[Morpheme pano-fmr](morphemes.csv?no_translation#cldf:pano-fmr) ‘<span class='smallcaps'>imn</span>=<span class='smallcaps'>concl</span>’
 
 
-### [Morpheme riipfv](MorphsetTable?no_translation#cldf:riipfv) {#sec:riipfv}
+### [Morpheme riipfv](morphemes.csv?no_translation#cldf:riipfv) {#sec:riipfv}
 
 * allomorphy:
-    * [Morph ri-zero](MorphTable?#cldf:ri-zero), phonetic loss
-    * [Morph ri-ru](MorphTable?#cldf:ri-ru), assimilation
-    * what about [Morph ri-ri](MorphTable?#cldf:ri-ri)? looks like the most conservative form
-* diachrony: [Morpheme rinmlz](MorphsetTable?#cldf:rinmlz)
+    * [Morph ri-zero](morphs.csv?#cldf:ri-zero), phonetic loss
+    * [Morph ri-ru](morphs.csv?#cldf:ri-ru), assimilation
+    * what about [Morph ri-ri](morphs.csv?#cldf:ri-ri)? looks like the most conservative form
+* diachrony: [Morpheme rinmlz](morphemes.csv?#cldf:rinmlz)
 * pluralization?
-* combines with [Morpheme jraneg](MorphsetTable?#cldf:jraneg):
+* combines with [Morpheme jraneg](morphemes.csv?#cldf:jraneg):
 
-[Example convrisamaj-4](ExampleTable?example_counter=15#cldf:convrisamaj-4)
+[Example convrisamaj-4](ExampleTable?example_counter=13#cldf:convrisamaj-4)
 
 #### Semantics
 * not specified for tense, just imperfective aspect:
-    * past <a class="exref" example_id="ctorat-16"cldf="../yawarana-sketch-cldf/cldf/metadata.json" ></a>
-    * future <a class="exref" example_id="convrisamaj-6"cldf="../yawarana-sketch-cldf/cldf/metadata.json" ></a>
-    * gnomic/present? <a class="exref" example_id="gnomicri"cldf="../yawarana-sketch-cldf/cldf/metadata.json" ></a>
+    * past <a class="exref" example_id="ctorat-16"></a>
+    * future <a class="exref" example_id="convrisamaj-6"></a>
+    * gnomic/present? <a class="exref" example_id="gnomicri"></a>
 
-[Example ctorat-16](ExampleTable?example_counter=16#cldf:ctorat-16)
-[Example convrisamaj-6](ExampleTable?example_counter=17#cldf:convrisamaj-6)
-[Example convrisamaj-4,convrisamaj-28](ExampleTable?example_id=gnomicri&ids=convrisamaj-4,convrisamaj-28&example_counter=18#cldf:__all__)
+[Example ctorat-16](ExampleTable?example_counter=14#cldf:ctorat-16)
+[Example convrisamaj-6](ExampleTable?example_counter=15#cldf:convrisamaj-6)
+[Example convrisamaj-4,convrisamaj-28](ExampleTable?example_id=gnomicri&ids=convrisamaj-4,convrisamaj-28&example_counter=16#cldf:__all__)
 
-### [Morpheme jpepst](MorphsetTable?no_translation#cldf:jpepst)
+### [Morpheme jpepst](morphemes.csv?no_translation#cldf:jpepst)
 
 * allomorphy: none?
-* diachrony: from [Morpheme jpenmlz](MorphsetTable?#cldf:jpenmlz)
+* diachrony: from [Morpheme jpenmlz](morphemes.csv?#cldf:jpenmlz)
 <span title='negation?'>❓</span> <span title='semantics?'>❓</span>
 
-### [Morpheme sepst](MorphsetTable?no_translation#cldf:sepst)
+### [Morpheme sepst](morphemes.csv?no_translation#cldf:sepst)
 
-* allomorphy: [Morph septcp](MorphTable?no_translation#cldf:septcp)/[Morph cheptcp](MorphTable?#cldf:cheptcp)
-* diachrony: from [Morpheme septcp](MorphsetTable?#cldf:septcp)
+* allomorphy: [Morph septcp](morphs.csv?no_translation#cldf:septcp)/[Morph cheptcp](morphs.csv?#cldf:cheptcp)
+* diachrony: from [Morpheme septcp](morphemes.csv?#cldf:septcp)
 <span title='negation?'>❓</span>
 <span title='semantics?'>❓</span>
 
-### [Morpheme sapepfv](MorphsetTable?no_translation#cldf:sapepfv)
+### [Morpheme sapepfv](morphemes.csv?no_translation#cldf:sapepfv)
 
-* diachrony: from [Morpheme sapenmlz](MorphsetTable?#cldf:sapenmlz)
+* diachrony: from [Morpheme sapenmlz](morphemes.csv?#cldf:sapenmlz)
 * distribution: only occurs on the copula?
-* allomorphy: [Morph sapepfv](MorphTable?no_translation#cldf:sapepfv) and [Morph sajpfv](MorphTable?no_translation#cldf:sajpfv)
-* negation: with [Morpheme janeg](MorphsetTable?#cldf:janeg) on lexical verb <a class="exref" example_id="ctoaragrme-38"cldf="../yawarana-sketch-cldf/cldf/metadata.json"  end="ctoaragrme-40" ></a>
+* allomorphy: [Morph sapepfv](morphs.csv?no_translation#cldf:sapepfv) and [Morph sajpfv](morphs.csv?no_translation#cldf:sajpfv)
+* negation: with [Morpheme janeg](morphemes.csv?#cldf:janeg) on lexical verb <a class="exref" example_id="ctoaragrme-38"end="ctoaragrme-40" ></a>
 <span title='semantics?'>❓</span>
 
-[Example ctoaragrme-38](ExampleTable?example_counter=19#cldf:ctoaragrme-38)
-[Example ctoaragrme-39](ExampleTable?example_counter=20#cldf:ctoaragrme-39)
-[Example ctoaragrme-40](ExampleTable?example_counter=21#cldf:ctoaragrme-40)
+[Example ctoaragrme-38](ExampleTable?example_counter=17#cldf:ctoaragrme-38)
+[Example ctoaragrme-39](ExampleTable?example_counter=18#cldf:ctoaragrme-39)
+[Example ctoaragrme-40](ExampleTable?example_counter=19#cldf:ctoaragrme-40)
 
-* what about <a class="exref" example_id="ctorat-19"cldf="../yawarana-sketch-cldf/cldf/metadata.json" ></a>? is that existential negation?
+* what about <a class="exref" example_id="ctorat-19"></a>? is that existential negation?
 
-[Example ctorat-19](ExampleTable?example_counter=22#cldf:ctorat-19)
+[Example ctorat-19](ExampleTable?example_counter=20#cldf:ctorat-19)
 
-### [Morpheme sareimn](MorphsetTable?no_translation#cldf:sareimn) {#sec:sareimn}
+### [Morpheme sareimn](morphemes.csv?no_translation#cldf:sareimn) {#sec:sareimn}
 
 * once a converb, now 'imminent future'
 
-[Example ctorat-25](ExampleTable?example_counter=23#cldf:ctorat-25)
-[Example ctoaragrme-25](ExampleTable?example_counter=24#cldf:ctoaragrme-25)
+[Example ctorat-25](ExampleTable?example_counter=21#cldf:ctorat-25)
+[Example ctoaragrme-25](ExampleTable?example_counter=22#cldf:ctoaragrme-25)
 
 
 
@@ -134,22 +134,22 @@ Misc:
 
 <!-- probably all productive, right? -->
 * Nominalizations
-    * [Morpheme rinmlz](MorphsetTable?#cldf:rinmlz)
-    * [Morpheme jpenmlz](MorphsetTable?#cldf:jpenmlz)
-    * [Morpheme toponmlz](MorphsetTable?#cldf:toponmlz)
+    * [Morpheme rinmlz](morphemes.csv?#cldf:rinmlz)
+    * [Morpheme jpenmlz](morphemes.csv?#cldf:jpenmlz)
+    * [Morpheme toponmlz](morphemes.csv?#cldf:toponmlz)
 * Adverbial Clauses (S/A)
-    * [Morpheme septcp](MorphsetTable?translation=supine#cldf:septcp)
-    * [Morpheme tanecncs](MorphsetTable?translation=concessive#cldf:tanecncs)
-    * [Morpheme sarecvb](MorphsetTable?translation=converb#cldf:sarecvb)
+    * [Morpheme septcp](morphemes.csv?translation=supine#cldf:septcp)
+    * [Morpheme tanecncs](morphemes.csv?translation=concessive#cldf:tanecncs)
+    * [Morpheme sarecvb](morphemes.csv?translation=converb#cldf:sarecvb)
     * *‑yapo* ‘neg.purp’
     * others?
 * Nominalization + postposition (S/P)
-    * [Morph ri-zero](MorphTable?#cldf:ri-zero)[Morpheme yaweloc](MorphsetTable?translation=simult#cldf:yaweloc)
-    * [Morph ri-zero](MorphTable?#cldf:ri-zero) [Morpheme esspe](MorphsetTable?#cldf:esspe) ‘when’
-    * [Morph sajnmlz](MorphTable?#cldf:sajnmlz)[Morpheme yaweloc](MorphsetTable?translation=simult#cldf:yaweloc)
-    * [Morpheme tojpepurp](MorphsetTable?translation=purpose#cldf:tojpepurp) 
+    * [Morph ri-zero](morphs.csv?#cldf:ri-zero)[Morpheme yawe-ctmp](morphemes.csv?translation=simult#cldf:yawe-ctmp)
+    * [Morph ri-zero](morphs.csv?#cldf:ri-zero) [Morpheme peess](morphemes.csv?#cldf:peess) ‘when’
+    * [Morph sajnmlz](morphs.csv?#cldf:sajnmlz)[Morpheme yawe-ctmp](morphemes.csv?translation=simult#cldf:yawe-ctmp)
+    * [Morpheme tojpepurp](morphemes.csv?translation=purpose#cldf:tojpepurp) 
     * (‑jpë)=tërë ‘after’
-    * on auxiliary: [Morpheme rinmlz](MorphsetTable?no_translation#cldf:rinmlz) + [Morpheme po-loc](MorphsetTable?no_translation#cldf:po-loc) '<span class='smallcaps'>ctrf</span>'
+    * on auxiliary: [Morpheme rinmlz](morphemes.csv?no_translation#cldf:rinmlz) + *po* '<span class='smallcaps'>ctrf</span>'
 * not attested:
     * _se_ '<span class='smallcaps'>des</span>'
     * _-ajtawï_ 'if when'
@@ -171,5 +171,5 @@ Misc:
 <span title='are there irregular pat/perfect participles? nahkë, etc'>❓</span>
 <span title='ejnë may come from an inflected form of the copula'>❗️</span>
 
-* there is stem allomorphy: [Morpheme chi-cop](MorphsetTable?no_translation#cldf:chi-cop), [Morpheme wej-cop](MorphsetTable?no_translation#cldf:wej-cop) <span title='should these be the same morpheme?'>❓</span>
-* [Morpheme mare-rel-inan](MorphsetTable?#cldf:mare-rel-inan) and [Morpheme maniki-rel-anim](MorphsetTable?#cldf:maniki-rel-anim)
+* there is (synchronically suppletive) stem allomorphy: *chi* and *wej*
+* [Morpheme mare-rel-inan](morphemes.csv?#cldf:mare-rel-inan) and [Morpheme maniki-rel-anim](morphemes.csv?#cldf:maniki-rel-anim)

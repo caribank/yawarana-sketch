@@ -3,10 +3,12 @@
 ## Distinguishing parts of speech
 
 
+* [src](koehn1986apalai[111]): "Particles follow words of any class other than the ideophone, and never occur as free forms or in isolation."
+
 ### Adverbs
 * copredicative function
 * no person inflection
-
+* deriving aderbs: [mp](keprop) [todo](-ke is negated with -jra only when on noun roots?)
 ## Shared morphology
 
 ## Derivation and productivity

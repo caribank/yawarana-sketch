@@ -14,7 +14,7 @@
 
 ### Patterns
 * "existential particles" (*mëtë*, *mïntë*, *entë*, *ijtë*)
-    * etymologically locatives, used for existential function. they **can** co-occur with the existential negative [mp](pirare-nothing?nt) [exref](ex-main-neg-part-pirare-cop-nsubj), [exref](ex-main-neg-part-pirare-nsubj)
+    * etymologically locatives, used for existential function. they **can** co-occur with the existential negative [mp](pirare-neg-exist?nt) [exref](ex-main-neg-part-pirare-cop-nsubj), [exref](ex-main-neg-part-pirare-nsubj)
     * also occur in locative function [exref](loc-main-aff-part-cop-nsubj), [exref](loc-main-aff-part-nsubj)
     * also combine with postpositional locatives [exref](histgrme-107), though more often not part of the clause? [exref](loc-sub-aff-advpred-nsubj-cop), [exref](convfemgrme-157), [exref](convfemgrme-99)
 * the copula...
@@ -26,17 +26,17 @@
         * however, no such pattern with locatives: copula [exref](loc-main-aff-part-cop-nsubj) and no copula [exref](loc-main-aff-part-nsubj) show no salient distribution
     * almost never occurs with nouns
         * only counterexample: [gl](np)<sub>[gl](pred)</sub> [gl](cop) with 'sick' [exref](temp-main-q-npred-cop); can occur without [gl](cop), too [exref](temp-main-aff-npred-cop)
-    * does not combine with [mp](pirare-nothing)
-        * one counterexample with [gl](part)<sub>[gl](pred)</sub> + [mp](pirare-nothing?nt) + [gl](cop) + [gl](np)<sub>[gl](subj)</sub> is with a concessive [exref](ex-main-neg-part-pirare-cop-nsubj) [todo](@spike: I forgot, what was your analysis for this particular example?)
-        * it does occur with [mp](pinire-nothing), though [exref](loc-main-neg-nsubj-cop-pinire-part), [exref](temp-main-neg-advpred-cop-pinire-nsubj) [todo](@spike: what do you think of the analysis that the copular form is synchronically deverbal in all of these examples, licensing the nominal negator?)
+    * does not combine with [mp](pirare-neg-exist)
+        * one counterexample with [gl](part)<sub>[gl](pred)</sub> + [mp](pirare-neg-exist?nt) + [gl](cop) + [gl](np)<sub>[gl](subj)</sub> is with a concessive [exref](ex-main-neg-part-pirare-cop-nsubj) [todo](@spike: I forgot, what was your analysis for this particular example?)
+        * it does occur with [mp](pinire-neg), though [exref](loc-main-neg-nsubj-cop-pinire-part), [exref](temp-main-neg-advpred-cop-pinire-nsubj) [todo](@spike: what do you think of the analysis that the copular form is synchronically deverbal in all of these examples, licensing the nominal negator?)
     * is always present in subordinate clauses (*chi-yawë* 'when', *chi-pëke* 'because') [todo](@spike: would you analyze these subordinate clauses as having a copula? if  yes, that would constitute a small but solid difference between main and subordinate clauses, right?)
         * even with nominal predicates: [exref](cat-sub-aff-npred-nsubj-cop), [exref](temp-sub-aff-npred-nsubj-cop)
         * one example of negation, occurs on additional copula [exref](loc-sub-neg-locpred-cop-neg-nsubj)
         * one example of *chi chipokono* [exref](convamgu-101)
 * several negation strategies:
-    * [mp](jraneg) for adverbs and on nouns in the existential [mp](pirare-nothing?nt) [gl](np~subj~)[mp](jraneg?nt) construction [exref](ex-main-neg-pirare-nsubj-jra)
-    * [mp](pinire-nothing) for nominal predicates and ones with locative particles
-    * [mp](pirare-nothing) for existential predicates
+    * [mp](jraneg) for adverbs and on nouns in the existential [mp](pirare-neg-exist?nt) [gl](np~subj~)[mp](jraneg?nt) construction [exref](ex-main-neg-pirare-nsubj-jra)
+    * [mp](pinire-neg) for nominal predicates and ones with locative particles
+    * [mp](pirare-neg-exist) for existential predicates
         * also for identification? [exref](id-main-neg-npred-pirare)
     * [mp](janeg?nt) or [mp](jnarineg?nt) on the copula 
 * order is fairly flexible; potentially rigid [gl](adv)~[gl](pred)~ [gl](np~subj~) [gl](cop), though negated counterexample [exref](histyarirdi-249)

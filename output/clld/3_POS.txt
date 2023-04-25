@@ -2,6 +2,8 @@
 ## Distinguishing parts of speech
 
 
+* [koehn1986apalai](sources.bib?with_internal_ref_link&ref#cldf:koehn1986apalai): 111: "Particles follow words of any class other than the ideophone, and never occur as free forms or in isolation."
+
 ### Adverbs
 * copredicative function
 * no person inflection

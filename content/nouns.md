@@ -81,21 +81,16 @@ What conditions the choice of suffix is not clear as of yet.
 ### Argument prefixes [label](sec:nominalperson)
 Person prefixes on nouns are conditioned by the initial segment ([ref](tab:possprefixes)).
 C-initial nouns take [m](i31), and first and second person are bare [m](u1) and [m](me2).
-On V-initial nouns, third person is marked with [m](it3), and the first and second person prefixes combine with the linker [mp](ylk).
-Some examples are shown in [exref](ctorat-23?end=lastex).
+On V-initial nouns, third person is marked with [m](it3), and the first and second person prefixes combine with the linker [mp](ylk?nt).
+Some examples are shown in [exref](convrisamaj-28?end=lastex).
 
 [table](possprefixes)
 
-[ex](ctorat-23)
-
 [ex](convrisamaj-28)
-
-[ex](desccasmaj-25)
 
 [ex](ctorat-46)
 
 [ex](ctorat-19?example_id=lastex)
-
 
 The linker also occurs with (pro-)nominal possessors:
 
@@ -105,7 +100,7 @@ There are some nouns [todo](presumably kinship terms) that take an apparently ol
 
 [table](oldpossprefixes)
 
-[todo](find examples for these)
+[todo](find more examples of these)
 
 ### Root suppletion in nominal possession [label](sec:irregnouns)
 
@@ -135,7 +130,7 @@ candidates:
     * [mp](ninmlz) [todo](ctoyucairdi-4, descokigrme-53 for predicative use)
     * [mp](nnmlzpre?nt)V[mp](rinmlz?nt) only with [mp](yeme-eat-fruits-eggs-soup)
     * [mp](sapenmlz) (contrast with [mp](jpenmlz)) 
-    * [mp](toponmlz) 
+    * [mp](toponmlz)
     * [mp](pininmlz) [todo](only found with -se-mï, not attested as nominalizer)
 * Adv → N 
     * [mp](minmlz)

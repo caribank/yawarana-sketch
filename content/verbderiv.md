@@ -4,8 +4,8 @@
 ## Classes of verbs
 
 [lg](yab) verb roots can be divided into those yielding an intransitive stem, and those yielding a transitive stem.
-The only inflectional criterion distinguishing the two classes is the third person prefix [mp](t3?nt), which can only occur on transitive stems.
-Thus, transitive [mp](yawanka-kill) can take [mp](t3?nt) [exref](convfemgrme-217), but intransitive [mp](yaruwa-laugh) does not [exref](convrisamaj-42).
+The only inflectional criterion distinguishing the two classes is the third person prefix [mp](ta-3?nt), which can only occur on transitive stems.
+Thus, transitive [mp](yawanka-kill) can take [mp](ta-3?nt) [exref](convfemgrme-217), but intransitive [mp](yaruwa-laugh) does not [exref](convrisamaj-42).
 
 [ex](convfemgrme-217,convrisamaj-42)
 
@@ -68,7 +68,7 @@ None of these are productive, although there are many lexemes derived with them.
 
 ## Meaning-changing suffixes
 
-* [gl](DES) [todo](only occurs with -ri and -jra)
+* [mp](podes) (only occurs with [mp](riipfv) and [mp](jraneg))
 * [gl](PLUR)
 * [gl](CESS)
 
