@@ -480,7 +480,7 @@ with them.
 
 Intransitive
 
--ta / -na
+-ta / -na [sec:tavbz]
 
 -ta ‘VBZ.INTR’ derives intransitive verbs.
 
@@ -548,17 +548,17 @@ Lexemes derived with -ta: [tavbz]
 
 Transitive
 
--ka
+-ka [sec:kavbz]
 
 -ka ‘VBZ.TR’ derives transitive verbs.
 
--jtë / -të
+-jtë / -të [sec:jtevbz]
 
--   benefactive
+-   -jtë ‘VBZ.TR’
 
--ma / -pa
+-ma / -pa [sec:macaus]
 
--   causative
+-   -ma ‘CAUS’
 
 Valency-changing affixes
 
@@ -572,15 +572,15 @@ Detransitivizing prefixes [sec:detrz]
 
 Transitivizing suffixes
 
--   -ma [todo: from verbs or only nouns?]
+-   -ma ‘CAUS’ [todo: from verbs or only nouns?]
 -   [todo: -nïkï / -nïpï / -nëpï]
 -   does -ka ‘VBZ.TR’ go on intransitive verb stems?
 
-Ditransitivizing suffixes
+Ditransitivizing suffixes [sec:ditrz]
 
--   -po
+-   -po ‘CAUS’
 
-Meaning-changing suffixes
+Meaning-changing suffixes [sec:meaningderiv]
 
 -   -po ‘DES’ (only occurs with -ri ‘IPFV’ and -jra ‘NEG’ )
 -   PLUR

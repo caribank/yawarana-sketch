@@ -73,18 +73,23 @@
     2.  [Verbalizing suffixes
         <a id>=‘sec:vbz’\><a/>](#verbalizing-suffixes-a-id-sec-vbz-a)
         1.  [Intransitive](#intransitive)
-            1.  [-ta / -na](#ta-na)
+            1.  [-ta / -na
+                <a id>=‘sec:tavbz’\><a/>](#ta-na-a-id-sec-tavbz-a)
             2.  [*-pamï* / *-mamï*](#pamï-mamï)
         2.  [Transitive](#transitive)
-            1.  [-ka](#ka)
-            2.  [*-jtë* / *-të*](#jtë-të)
-            3.  [*-ma* / *-pa*](#ma-pa)
+            1.  [-ka <a id>=‘sec:kavbz’\><a/>](#ka-a-id-sec-kavbz-a)
+            2.  [*-jtë* / *-të*
+                <a id>=‘sec:jtevbz’\><a/>](#jtë-të-a-id-sec-jtevbz-a)
+            3.  [*-ma* / *-pa*
+                <a id>=‘sec:macaus’\><a/>](#ma-pa-a-id-sec-macaus-a)
     3.  [Valency-changing affixes](#valency-changing-affixes)
         1.  [Detransitivizing prefixes
             <a id>=‘sec:detrz’\><a/>](#detransitivizing-prefixes-a-id-sec-detrz-a)
         2.  [Transitivizing suffixes](#transitivizing-suffixes)
-        3.  [Ditransitivizing suffixes](#ditransitivizing-suffixes)
-    4.  [Meaning-changing suffixes](#meaning-changing-suffixes)
+        3.  [Ditransitivizing suffixes
+            <a id>=‘sec:ditrz’\><a/>](#ditransitivizing-suffixes-a-id-sec-ditrz-a)
+    4.  [Meaning-changing suffixes
+        <a id>=‘sec:meaningderiv’\><a/>](#meaning-changing-suffixes-a-id-sec-meaningderiv-a)
 6.  [Verbal inflection
     <a id>=‘verbinfl’\><a/>](#verbal-inflection-a-id-verbinfl-a)
     1.  [Person prefixes
@@ -587,7 +592,7 @@ with them.
 
 ### Intransitive
 
-#### -ta / -na
+#### -ta / -na <a id>=‘sec:tavbz’\><a/>
 
 *-ta* ‘VBZ.INTR’ \parencites derives intransitive verbs.
 
@@ -626,17 +631,17 @@ with them.
 
 ### Transitive
 
-#### -ka
+#### -ka <a id>=‘sec:kavbz’\><a/>
 
 *-ka* ‘VBZ.TR’ \parencites derives transitive verbs.
 
-#### *-jtë* / *-të*
+#### *-jtë* / *-të* <a id>=‘sec:jtevbz’\><a/>
 
--   benefactive
+-   *-jtë* ‘VBZ.TR’ \parencites
 
-#### *-ma* / *-pa*
+#### *-ma* / *-pa* <a id>=‘sec:macaus’\><a/>
 
--   causative
+-   *-ma* ‘CAUS’ \parencites
 
 ## Valency-changing affixes
 
@@ -650,15 +655,15 @@ with them.
 
 ### Transitivizing suffixes
 
--   *-ma* \[todo: from verbs or only nouns?\]
+-   *-ma* ‘CAUS’ \parencites \[todo: from verbs or only nouns?\]
 -   \[todo: -nïkï / -nïpï / -nëpï\]
 -   does *-ka* ‘VBZ.TR’ \parencites go on intransitive verb stems?
 
-### Ditransitivizing suffixes
+### Ditransitivizing suffixes <a id>=‘sec:ditrz’\><a/>
 
--   *-po*
+-   *-po* ‘CAUS’ \parencites
 
-## Meaning-changing suffixes
+## Meaning-changing suffixes <a id>=‘sec:meaningderiv’\><a/>
 
 -   *-po* ‘DES’ \parencites (only occurs with *-ri* ‘IPFV’ \parencites
     and *-jra* ‘NEG’ \parencites)

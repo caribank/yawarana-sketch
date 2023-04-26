@@ -25,7 +25,7 @@ None of these are productive, although there are many lexemes derived with them.
 
 ### Intransitive
 
-#### -ta / -na
+#### -ta / -na [label](sec:tavbz)
 [mp](tavbz) derives intransitive verbs.
 
 [table](tavbz)
@@ -36,16 +36,14 @@ None of these are productive, although there are many lexemes derived with them.
 
 ### Transitive
 
-#### -ka
+#### -ka [label](sec:kavbz)
 [mp](kavbz) derives transitive verbs.
 
-#### _-jtë_ / _-të_
-* benefactive
+#### _-jtë_ / _-të_ [label](sec:jtevbz)
+* [mp](jtevbz)
 
-#### _-ma_ / _-pa_ 
-* causative
-
-
+#### _-ma_ / _-pa_  [label](sec:macaus)
+* [mp](macaus)
 
 ## Valency-changing affixes
 
@@ -59,14 +57,14 @@ None of these are productive, although there are many lexemes derived with them.
 
 
 ### Transitivizing suffixes
-* _-ma_ [todo](from verbs or only nouns?)
+* [mp](macaus) [todo](from verbs or only nouns?)
 * [todo](-nïkï / -nïpï / -nëpï)
 * does [mp](kavbz) go on intransitive verb stems?
 
-### Ditransitivizing suffixes
-* _-po_
+### Ditransitivizing suffixes [label](sec:ditrz)
+* [mp](pocaus)
 
-## Meaning-changing suffixes
+## Meaning-changing suffixes [label](sec:meaningderiv)
 
 * [mp](podes) (only occurs with [mp](riipfv) and [mp](jraneg))
 * [gl](PLUR)

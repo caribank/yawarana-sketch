@@ -22,3 +22,12 @@ morphemes.csv:
   toponmlz: sec:nounderiv
   minmlz: sec:nounderiv
   anonmlz: sec:nounderiv
+  tavbz: sec:tavbz
+  kavbz: sec:kavbz
+  jtevbz: sec:jtevbz
+  macaus: sec:macaus
+  dt1: sec:detrz
+  dt2: sec:detrz
+  dt3: sec:detrz
+  pocaus: sec:ditrz
+  podes: sec:meaningderiv
