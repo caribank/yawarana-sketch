@@ -9,6 +9,7 @@
 * copredicative function
 * no person inflection
 * deriving aderbs: [mp](keprop) [todo](-ke is negated with -jra only when on noun roots?)
+
 ## Shared morphology
 
 ## Derivation and productivity

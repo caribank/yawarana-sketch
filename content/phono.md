@@ -15,7 +15,7 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 
 #### /h/
 
-* glottal fricative insertion after dipththongs
+* glottal fricative insertion after diphthongs
 * glottal fricative insertion before occlusives
 
 
@@ -28,6 +28,7 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 
 * dipththongs
     * /ai/, /aw/, /ei/... test combinations
+    * [todo](au or aw? ai or ay?)
 
 ## Morphophonological Processes [label](sec:morphophono)
 
