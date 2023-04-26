@@ -815,14 +815,14 @@ Subordinate Clause markers
     -   se ‘DES’
     -   -ajtawï ‘if when’
 
-Number
+Number [sec:verbalnumber]
 
--   ‑ri=kontomo
--   saj=kontomo
--   -pëj‑se=jne
--   ‑se=jne=kontomo
--   ‑se=jne=pano (‑se=jne=kontom=pano?)
--   -të-kë for the imperative
+-   -ri =-kontomo
+-   -sapë =-kontomo
+-   -saj -se =-jnë
+-   -se =-jnë =-kontomo
+-   -se =-jnë =pano (-se =-jnë =kontom=pano?)
+-   -të -kë for the imperative
 -   what about -i ‘JUSS’?
 
 Copula / Auxiliary
@@ -1074,6 +1074,8 @@ Simple verbal clauses [simpleverb]
 -   clausal particles
 
 Questions [questions]
+
+TBD
 
 Multiclausal [multiclausal]
 

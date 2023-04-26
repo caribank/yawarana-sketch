@@ -9,10 +9,11 @@ morphemes.csv:
   sepst: sec:palatalization
   sapenmlz: sec:palatalization
   i3: sec:nominalperson
-  u1: sec:nominalperson
-  me2: sec:nominalperson
+  u1: sec:nominalperson,sec:verbperson,sec:postinfl
+  me2: sec:nominalperson,sec:verbperson,sec:postinfl
   a2: sec:nominalperson
-  ylk: sec:nominalperson
+  ylk: sec:nominalperson,sec:verbperson
+  ta-3: sec:verbperson
   rinmlz: sec:nounderiv
   jpenmlz: sec:nounderiv
   neinf: sec:nounderiv
@@ -31,3 +32,29 @@ morphemes.csv:
   dt3: sec:detrz
   pocaus: sec:ditrz
   podes: sec:meaningderiv
+  riipfv: sec:tam
+  jpepst: sec:tam
+  sepst: sec:tam
+  sapepfv: sec:tam
+  sareimn: sec:tam
+  nepeke: sec:tam
+  pekeprog: sec:tam
+  tojpefut: sec:tam
+  janeg: sec:tam
+  neinf: sec:tam
+  keimp: sec:tam
+  tamotimp: sec:tam
+  janeg: negation
+  jraneg: negation
+  jnarineg: negation
+  jramaproh: negation
+  kempinire: negation
+  pinire-neg: negation
+  pirare-neg-exist: negation
+  pini-neg: negation
+  jnepl: sec:verbalnumber
+  kontomopl: sec:verbalnumber
+  tepl: sec:verbalnumber
+  tenpert: sec:nounposssuf
+  tipert: sec:nounposssuf
+  rupert: sec:nounposssuf

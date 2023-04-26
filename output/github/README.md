@@ -105,7 +105,8 @@
         5.  [*-sarë* \parencites
             <a id>=‘sec:sareimn’\><a/>](#sarë-parencites-a-id-sec-sareimn-a)
     3.  [Subordinate Clause markers](#subordinate-clause-markers)
-    4.  [Number](#number)
+    4.  [Number
+        <a id>=‘sec:verbalnumber’\><a/>](#number-a-id-sec-verbalnumber-a)
     5.  [Copula / Auxiliary](#copula-auxiliary)
 7.  [Postpositions <a id>=‘postp’\><a/>](#postpositions-a-id-postp-a)
     1.  [Defining the category](#defining-the-category)
@@ -883,14 +884,15 @@ Misc:
     -   *se* ‘DES’
     -   *-ajtawï* ‘if when’
 
-## Number
+## Number <a id>=‘sec:verbalnumber’\><a/>
 
--   *‑ri=kontomo*
--   *saj=kontomo*
--   *-pëj‑se=jne*
--   *‑se=jne=kontomo*
--   *‑se=jne=pano* (*‑se=jne=kontom=pano*?)
--   *-të-kë* for the imperative
+-   *-ri* \parencites=*-kontomo* \parencites
+-   *-sapë* \parencites=*-kontomo* \parencites
+-   *-saj* \parencites\_-se\_ \parencites=*-jnë* \parencites
+-   *-se* \parencites=*-jnë* \parencites=*-kontomo* \parencites
+-   *-se* \parencites=*-jnë* \parencites=*pano* (*-se*
+    \parencites=*-jnë* \parencites=kontom=*pano*?)
+-   *-të* \parencites\_-kë\_ \parencites for the imperative
 -   what about *-i* ‘JUSS’?
 
 ## Copula / Auxiliary
@@ -1141,6 +1143,8 @@ juxtaposition and copular constructions.
 -   clausal particles
 
 # Questions <a id>=‘questions’\><a/>
+
+TBD
 
 # Multiclausal <a id>=‘multiclausal’\><a/>
 

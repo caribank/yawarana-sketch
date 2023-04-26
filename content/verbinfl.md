@@ -125,14 +125,14 @@ Misc:
     * _se_ '[gl](des)'
     * _-ajtawï_ 'if when'
 
-## Number
+## Number [label](sec:verbalnumber)
 
-* _‑ri=kontomo_
-* _saj=kontomo_
-* _-pëj‑se=jne_
-* _‑se=jne=kontomo_
-* _‑se=jne=pano_ (_‑se=jne=kontom=pano_?)
-* _-të-kë_ for the imperative
+* [mp](riipfv?nt)=[mp](kontomopl?nt)
+* [mp](sapepfv?nt)=[mp](kontomopl?nt)
+* [m](sajpfv?nt)[mp](sepst?nt)=[mp](jnepl?nt) 
+* [mp](sepst?nt)=[mp](jnepl?nt)=[mp](kontomopl?nt)
+* [mp](sepst?nt)=[mp](jnepl?nt)=_pano_ ([mp](sepst?nt)=[mp](jnepl?nt)=kontom=_pano_?)
+* [mp](tepl?nt)[mp](keimp?nt) for the imperative
 * what about _-i_ ‘[gl](juss)’?
 
 
