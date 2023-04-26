@@ -8,3 +8,17 @@ morphemes.csv:
   sapepfv: sec:palatalization
   sepst: sec:palatalization
   sapenmlz: sec:palatalization
+  i3: sec:nominalperson
+  u1: sec:nominalperson
+  me2: sec:nominalperson
+  a2: sec:nominalperson
+  ylk: sec:nominalperson
+  rinmlz: sec:nounderiv
+  jpenmlz: sec:nounderiv
+  neinf: sec:nounderiv
+  ninmlz: sec:nounderiv
+  nnmlzpre: sec:nounderiv
+  sapenmlz: sec:nounderiv
+  toponmlz: sec:nounderiv
+  minmlz: sec:nounderiv
+  anonmlz: sec:nounderiv

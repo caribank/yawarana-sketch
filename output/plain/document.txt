@@ -53,7 +53,7 @@ Consonants [sec:consonants]
 
 /h/
 
--   glottal fricative insertion after dipththongs
+-   glottal fricative insertion after diphthongs
 -   glottal fricative insertion before occlusives
 
 Vowels [sec:vowels]
@@ -69,6 +69,7 @@ Vowels [sec:vowels]
 -   dipththongs
 
     -   /ai/, /aw/, /ei/… test combinations
+    -   [todo: au or aw? ai or ay?]
 
 Morphophonological Processes [sec:morphophono]
 
@@ -120,9 +121,11 @@ Distinguishing parts of speech
 Adverbs
 
 -   copredicative function
--   no person inflection
+-   no person inflection [todo: except some deverbalized ones?]
 -   deriving aderbs: -ke ‘PROP’ [todo: -ke is negated with -jra only
-    when on noun roots?] ## Shared morphology
+    when on noun roots?]
+
+Shared morphology
 
 Derivation and productivity
 
@@ -139,9 +142,11 @@ Pronouns [sec:pronouns]
 The personal pronouns of Yawarana are shown in [ref/tab:pronouns]. The
 system shows the usual Cariban inclusive/exclusive (1+2 and 1+3)
 distinction, although ejnë ‘1+2PRO’ does not have the /k/ found
-elsewhere in the family. Note that -kontomo ‘PL’ appears to usually be
-restricted to verbs, while -santomo is found with third person pronouns
-and demonstratives.
+elsewhere in the family. It is like a reflex of an old copula +
+infinitive *eti-në. [todo: do we have parallel cases elsewhere?]
+Regarding plural marking, it should be noted that -kontomo ‘PL’ appears
+to usually be restricted to verbs, while -santomo is found with third
+person pronouns and demonstratives.
 
 Pronouns: [pronouns]
 
@@ -196,15 +201,15 @@ counterparts.
 Demonstrative pronouns / articles: [pronouns3]
 
   -------------------------------------------------------------------------
-                 ANIM                                   INAN     
-  -------------- ------------- ------------------------ -------- ----------
-                 SG            PL                       SG       PL
+                 ANIM                                    INAN    
+  -------------- -------------- ------------------------ ------- ----------
+                 SG             PL                       SG      PL
 
-  PROX           kërë          kërësantomo              eni      enijne
+  PROX           kërë           kërësantomo              eni     enijne
 
-  medial? near?  michi / misi  michisantomo / michitomo mërë     
+  medial? near?  michi / misi   michisantomo / michitomo mërë    
 
-  DIST           mëjkï         mëkïsantomo              mëjnï    mëjnijne
+  DIST           mëjkï          mëkïsantomo              mëjnï   mëjnijne
   -------------------------------------------------------------------------
 
 -   nominal interrogative pronouns:
@@ -233,7 +238,7 @@ possessor noun is never marked (for instance, with genitive case), but
 the possessed noun (the head) is often marked for being possessed by a
 suffix; an unambiguous label for this counterpart of the genitive is
 pertensive (Dixon 2010). The choice of suffix is lexically conditioned;
-while most nouns take -ri ‘PERT’, some take -ti. Unpossessed nouns
+while most nouns take -ri ‘PERT’ , some take -ti . Unpossessed nouns
 generally are unmarked, but some 15 nouns [todo: which? list nouns] bear
 the suffix -të ‘NPERT’ when they appear without a possessor.
 
@@ -241,7 +246,7 @@ Examples [ex:onlypossessed–unsuffixednouns] illustrate the possible
 patterns of markedness for nouns when possessed and unpossessed. The
 vast majority of nouns in our corpus are unmarked when unpossessed, but
 when possessed the suffix -ri ‘PERT’ occurs [ex:onlypossessed]. A
-handful of nouns [todo: i.e., the 15?] is marked with -ri/-ti ‘PERT’
+handful of nouns [todo: i.e., the 15?] is marked with -ri /-ti ‘PERT’
 when possessed and with -të ‘NPERT’ when not possessed
 [ex:diffpossessed]. Another handful is unmarked when possessed and
 marked with -të ‘NPERT’ when not possessed [ex:suffunpossessed]. The
@@ -323,23 +328,23 @@ Nominal tense [sec:nominaltense]
 Argument prefixes [sec:nominalperson]
 
 Person prefixes on nouns are conditioned by the initial segment
-([ref/tab:possprefixes]). C-initial nouns take i- ‘3’, and first and
-second person are bare u- ‘1’ and më- ‘2’. On V-initial nouns, third
-person is marked with t- ‘3’, and the first and second person prefixes
-combine with the linker y-. Some examples are shown in
+([ref/tab:possprefixes]). C-initial nouns take i- ‘3’ , and first and
+second person are bare u- ‘1’ and më- ‘2’ . On V-initial nouns, third
+person is marked with t- ‘3’ , and the first and second person prefixes
+combine with the linker y- . Some examples are shown in
 [ex:convrisamaj-28–lastex].
 
 Possessive prefixes on nouns: [possprefixes]
 
-  -------------------
+  --------------------
        _C     _V
-  ---- ------ -------
-  1    u-     u-y-
+  ---- ------ --------
+  1    u-     u- y-
 
-  2    më-    më-y-
+  2    më-    më- y-
 
   3    i-     t-
-  -------------------
+  --------------------
 
 (convrisamaj-28)
 u-y-ïwïj-∅       yawë  u-senejka-ri  sukuri    jwama
@@ -367,15 +372,15 @@ apparently older old second person a- ‘2’ ([ref/tab:oldpossprefixes]).
 
 Archaic possessive prefixes on nouns: [oldpossprefixes]
 
-  ------------------
+  -------------------
        _C     _V
-  ---- ------ ------
-  1    u-     u-y-
+  ---- ------ -------
+  1    u-     u- y-
 
-  2    a-     a-y-
+  2    a-     a- y-
 
   3    i-     t-
-  ------------------
+  -------------------
 
 [todo: find more examples of these]
 
@@ -406,8 +411,8 @@ Nominal Derivational Morphology [sec:nounderiv]
         -   wënkej-në from transitive wënkepï ‘forget’
     -   -ni ‘AGTNMLZ’ [todo: ctoyucairdi-4, descokigrme-53 for
         predicative use]
-    -   n-V-ri only with yeme ’eat(fruits,_eggs,_soup)’
-    -   -sapë ‘ABS.NMLZ’ (contrast with -jpë ‘PST.ACNNMLZ’)
+    -   n- V-ri only with yeme ’eat(fruits,_eggs,_soup)’
+    -   -sapë ‘ABS.NMLZ’ (contrast with -jpë ‘PST.ACNNMLZ’ )
     -   -topo ‘CIRC.NMLZ’
     -   ‑pïnï ‘PRIV.NMLZ’ [todo: only found with -se-mï, not attested as
         nominalizer]
@@ -433,8 +438,8 @@ Classes of verbs
 
 Yawarana verb roots can be divided into those yielding an intransitive
 stem, and those yielding a transitive stem. The only inflectional
-criterion distinguishing the two classes is the third person prefix ta-,
-which can only occur on transitive stems. Thus, transitive yawanka
+criterion distinguishing the two classes is the third person prefix ta-
+, which can only occur on transitive stems. Thus, transitive yawanka
 ‘kill’ can take ta- [ex:convfemgrme-217], but intransitive yaruwa
 ‘laugh’ does not [ex:convrisamaj-42].
 
@@ -577,7 +582,7 @@ Ditransitivizing suffixes
 
 Meaning-changing suffixes
 
--   -po ‘DES’ (only occurs with -ri ‘IPFV’ and -jra ‘NEG’)
+-   -po ‘DES’ (only occurs with -ri ‘IPFV’ and -jra ‘NEG’ )
 -   PLUR
 -   CESS
 
@@ -647,11 +652,11 @@ Verbal TAM suffixes: [verbtam]
 
   ‑tojpano     FUT
 
-  (-tojpe)     FUT
+  (-tojpe )    FUT
 
   -ja          NEG
 
-  -se-mï       ‘obligation’
+  -se -mï      ‘obligation’
 
   -në          impersonal S
 
@@ -660,33 +665,33 @@ Verbal TAM suffixes: [verbtam]
 
 Non-declarative suffixes: [nondecltam]
 
-  ------------------------------------------
-  Suffix              Function
-  ------------------- ----------------------
-  ‑jrama              PROH
+  --------------------------------------------
+  Suffix                Function
+  --------------------- ----------------------
+  ‑jrama                PROH
 
-  -i                  JUSS
+  -i                    JUSS
 
-  -kë / ‑të-kë        IMP / IMP.PL
+  -kë / ‑të-kë          IMP / IMP.PL
 
-  -ta / -tantë-kë     IMP.MOT / IMP.MOT.PL
-  ------------------------------------------
+  -ta / -ta ntë-kë      IMP.MOT / IMP.MOT.PL
+  --------------------------------------------
 
 Misc:
 
--   -se=pano ‘PST=CONCL’
--   -saj=pano ‘PFV=CONCL’
--   -sarë=pano ‘IMN=CONCL’
+-   -se =pano ‘PST=CONCL’
+-   -saj =pano ‘PFV=CONCL’
+-   -sarë =pano ‘IMN=CONCL’
 
 -ri [sec:riipfv]
 
 -   allomorphy:
-    -   -∅ ‘IPFV’, phonetic loss
-    -   -ru ‘IPFV’, assimilation
-    -   what about -rï ‘IPFV’? looks like the most conservative form
+    -   -∅ ‘IPFV’ , phonetic loss
+    -   -ru ‘IPFV’ , assimilation
+    -   what about -rï ‘IPFV’ ? looks like the most conservative form
 -   diachrony: -ri ‘ACNNMLZ’
 -   pluralization?
--   combines with -jra ‘NEG’:
+-   combines with -jra ‘NEG’ :
 
 (convrisamaj-4)
 wïrë  yaruwa-ri-jra
@@ -730,7 +735,7 @@ how    1+2PRO  laugh-IPFV
 
 -se
 
--   allomorphy: -se/-che ‘PTCP / SUP’
+-   allomorphy: -se /-che ‘PTCP / SUP’
 -   diachrony: from -se ‘PTCP / SUP’
 -   negation: replaced with -ja ‘NEG’ [ex:conv1stenc-28]
 
@@ -800,9 +805,9 @@ Subordinate Clause markers
     -   ‑yapo ‘neg.purp’
     -   others?
 -   Nominalization + postposition (S/P)
-    -   -∅ ‘IPFV’yawë ‘simult’
+    -   -∅ ‘IPFV’ yawë ‘simult’
     -   -∅ ‘IPFV’ pe ‘ESS’ ‘when’
-    -   -saj ‘ABS.NMLZ’yawë ‘simult’
+    -   -saj ‘ABS.NMLZ’ yawë ‘simult’
     -   -tojpe ‘purpose’
     -   (‑jpë)=tërë ‘after’
     -   on auxiliary: -ri + po ‘CTRF’
@@ -898,7 +903,7 @@ Nonlocative Oblique Postpositions
 
 Misc
 
--   chi ‘COP’ combines with yawë ‘LOC’, sometimes spelled chi yawë,
+-   chi ‘COP’ combines with yawë ‘LOC’ , sometimes spelled chi yawë,
     sometimes chawë.
 -   syllable reduction
 -   postpositions on bare verbs? (e.g. wejtawë)
@@ -917,7 +922,7 @@ Three kinds of particles elsewhere in the family:
 
 Ideophones
 
--   constructions with nwa ‘thus’? (example with pïtï ‘paint’)
+-   constructions with nwa ‘thus’ ? (example with pïtï ‘paint’)
 
 Interjections
 
@@ -1017,7 +1022,7 @@ Patterns
             with a concessive [ex:ex-main-neg-part-pirare-cop-nsubj]
             [todo: @spike: I forgot, what was your analysis for this
             particular example?]
-        -   it does occur with pïnirë ‘NEG’, though
+        -   it does occur with pïnirë ‘NEG’ , though
             [ex:loc-main-neg-nsubj-cop-pinire-part],
             [ex:temp-main-neg-advpred-cop-pinire-nsubj] [todo: @spike:
             what do you think of the analysis that the copular form is

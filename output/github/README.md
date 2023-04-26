@@ -91,13 +91,14 @@
         <a id>=‘sec:verbperson’\><a/>](#person-prefixes-a-id-sec-verbperson-a)
     2.  [Main clause tense‑aspect‑mood‑polarity suffixes
         <a id>=‘sec:tam’\><a/>](#main-clause-tense-aspect-mood-polarity-suffixes-a-id-sec-tam-a)
-        1.  [*-ri* <a id>=‘sec:riipfv’\><a/>](#ri-a-id-sec-riipfv-a)
+        1.  [*-ri* \parencites
+            <a id>=‘sec:riipfv’\><a/>](#ri-parencites-a-id-sec-riipfv-a)
             1.  [Semantics](#semantics)
-        2.  [*-jpë*](#jpë)
-        3.  [*-se*](#se)
-        4.  [*-sapë*](#sapë)
-        5.  [*-sarë*
-            <a id>=‘sec:sareimn’\><a/>](#sarë-a-id-sec-sareimn-a)
+        2.  [*-jpë* \parencites](#jpë-parencites)
+        3.  [*-se* \parencites](#se-parencites)
+        4.  [*-sapë* \parencites](#sapë-parencites)
+        5.  [*-sarë* \parencites
+            <a id>=‘sec:sareimn’\><a/>](#sarë-parencites-a-id-sec-sareimn-a)
     3.  [Subordinate Clause markers](#subordinate-clause-markers)
     4.  [Number](#number)
     5.  [Copula / Auxiliary](#copula-auxiliary)
@@ -165,17 +166,17 @@ phonemes in \[Table\].
 
 |           | bilabial | alveolar | palatal | velar | glottal |
 |:----------|:---------|:---------|:--------|:------|:--------|
-| occlusive |          |          |         |       |         |
-| nasal     |          |          |         |       |         |
-| fricative |          |          |         |       |         |
-| liquid    |          |          |         |       |         |
-| glide     |          |          |         |       |         |
+| occlusive | /p/      | /t/      | /t͡ʃ/    | /k/   |         |
+| nasal     | /m/      | /n/      | /ɲ/     |       |         |
+| fricative |          | /s/      |         |       | /h/     |
+| liquid    |          | /r/      |         |       |         |
+| glide     | /w/      |          | /j/     |       |         |
 
 |       | front | central | back |
 |:------|:------|:--------|:-----|
-| close |       |         |      |
-| mid   |       |         |      |
-| open  |       |         |      |
+| close | /i/   | /ɨ/     | /u/  |
+| mid   | /e/   | /ə/     | /o/  |
+| open  |       | /a/     |      |
 
 ### Consonants <a id>=‘sec:consonants’\><a/>
 
@@ -183,7 +184,7 @@ phonemes in \[Table\].
 
 #### /h/
 
--   glottal fricative insertion after dipththongs
+-   glottal fricative insertion after diphthongs
 -   glottal fricative insertion before occlusives
 
 ### Vowels <a id>=‘sec:vowels’\><a/>
@@ -199,6 +200,7 @@ phonemes in \[Table\].
 -   dipththongs
 
     -   /ai/, /aw/, /ei/… test combinations
+    -   \[todo: au or aw? ai or ay?\]
 
 ## Morphophonological Processes <a id>=‘sec:morphophono’\><a/>
 
@@ -215,17 +217,17 @@ phonemes in \[Table\].
 
 #### Non-alternating reduced syllables
 
-e.g. *wajto* ‘fire’
+e.g. *wajto* ‘fire’ \parencites
 
 ### Vowel harmony <a id>=‘sec:vowelharm’\><a/>
 
--   progressive *-ri* ‘PERT’
+-   progressive *-ri* ‘PERT’ \parencites
 -   regressive /ë/ \> /o/
 
 ### Palatalization <a id>=‘sec:palatalization’\><a/>
 
--   *-sapë* ‘PFV’
--   *-se* ‘PST’
+-   *-sapë* ‘PFV’ \parencites
+-   *-se* ‘PST’ \parencites
 
 ## Prosody <a id>=‘sec:prosody’\><a/>
 
@@ -250,9 +252,11 @@ e.g. *wajto* ‘fire’
 ### Adverbs
 
 -   copredicative function
--   no person inflection
--   deriving aderbs: *-ke* ‘PROP’ \[todo: -ke is negated with -jra only
-    when on noun roots?\] \## Shared morphology
+-   no person inflection \[todo: except some deverbalized ones?\]
+-   deriving aderbs: *-ke* ‘PROP’ \parencites \[todo: -ke is negated
+    with -jra only when on noun roots?\]
+
+## Shared morphology
 
 ## Derivation and productivity
 
@@ -268,18 +272,20 @@ e.g. *wajto* ‘fire’
 
 The personal pronouns of Yawarana are shown in \[Table\]. The system
 shows the usual Cariban inclusive/exclusive (1+2 and 1+3) distinction,
-although *ejnë* ‘1+2PRO’ does not have the /k/ found elsewhere in the
-family. Note that *-kontomo* ‘PL’ appears to usually be restricted to
-verbs, while *-santomo* is found with third person pronouns and
-demonstratives.
+although *ejnë* ‘1+2PRO’ \parencites does not have the /k/ found
+elsewhere in the family. It is like a reflex of an old copula +
+infinitive *\*eti-në*. \[todo: do we have parallel cases elsewhere?\]
+Regarding plural marking, it should be noted that *-kontomo* ‘PL’
+\parencites appears to usually be restricted to verbs, while *-santomo*
+is found with third person pronouns and demonstratives.
 
-|     | SG     | PL            |
-|:----|:-------|:--------------|
-| 1   | *wïrë* |               |
-| 1+2 |        | *ejnë*        |
-| 1+3 |        | *ana*         |
-| 2   | *mërë* | *monkontomo*  |
-| 3   | *tëwï* | *tëwïsantomo* |
+|     | SG                 | PL                        |
+|:----|:-------------------|:--------------------------|
+| 1   | *wïrë* \parencites |                           |
+| 1+2 |                    | *ejnë* \parencites        |
+| 1+3 |                    | *ana* \parencites         |
+| 2   | *mërë* \parencites | *monkontomo* \parencites  |
+| 3   | *tëwï* \parencites | *tëwïsantomo* \parencites |
 
 \[todo: tajne, but not attested as an article\]
 
@@ -319,16 +325,16 @@ The third person demonstrative pronouns or articles are shown in
 \[Table\]. \[todo: is there a 4‑way distinction? \[cf. Ye’kwana?\]\]
 None of them have shortened, phonologically bound counterparts.
 
-|               | ANIM             |                              | INAN    |            |
-|:--------------|:-----------------|:-----------------------------|:--------|:-----------|
-|               | SG               | PL                           | SG      | PL         |
-| PROX          | *kërë*           | *kërësantomo*                | *eni*   | *enijne*   |
-| medial? near? | *michi* / *misi* | *michisantomo* / *michitomo* | *mërë*  |            |
-| DIST          | *mëjkï*          | *mëkïsantomo*                | *mëjnï* | *mëjnijne* |
+|               | ANIM                                     |                                                      | INAN                |                        |
+|:--------------|:-----------------------------------------|:-----------------------------------------------------|:--------------------|:-----------------------|
+|               | SG                                       | PL                                                   | SG                  | PL                     |
+| PROX          | *kërë* \parencites                       | *kërësantomo* \parencites                            | *eni* \parencites   | *enijne* \parencites   |
+| medial? near? | *michi* \parencites / *misi* \parencites | *michisantomo* \parencites / *michitomo* \parencites | *mërë* \parencites  |                        |
+| DIST          | *mëjkï* \parencites                      | *mëkïsantomo* \parencites                            | *mëjnï* \parencites | *mëjnijne* \parencites |
 
 -   nominal interrogative pronouns:
-    -   *anïkï* ‘who’ (with *-santomo*)
-    -   *ati* ‘what’ (no plural)
+    -   *anïkï* ‘who’ \parencites (with *-santomo*)
+    -   *ati* ‘what’ \parencites (no plural)
     -   *ëjkë* ‘which? (INAN)’
 
 \[todo: Are there plural forms of any of these?\]
@@ -339,7 +345,7 @@ Nouns in Yawarana may bear suffixes marking their possession status
 (<a href='#sec:nounposssuf'>click</a>), number
 (<a href='#sec:nominalnumber'>click</a>), and nominal past tense
 (<a href='#sec:nominaltense'>click</a>). Possessed nouns may bear a
-person prefix, or the linker *y-*
+person prefix, or the linker *y-* \parencites
 (<a href='#sec:nominalperson'>click</a>).
 
 \[todo: noun classes re: possession\]
@@ -354,23 +360,25 @@ possessor noun is never marked (for instance, with genitive case), but
 the possessed noun (the head) is often marked for being possessed by a
 suffix; an unambiguous label for this counterpart of the genitive is
 pertensive ([Dixon 2010](#source-dixon2010basic)). The choice of suffix
-is lexically conditioned; while most nouns take *-ri* ‘PERT’, some take
-*-ti*. Unpossessed nouns generally are unmarked, but some 15 nouns
-\[todo: which? list nouns\] bear the suffix *-të* ‘NPERT’ when they
-appear without a possessor.
+is lexically conditioned; while most nouns take *-ri* ‘PERT’
+\parencites, some take *-ti* \parencites. Unpossessed nouns generally
+are unmarked, but some 15 nouns \[todo: which? list nouns\] bear the
+suffix *-të* ‘NPERT’ \parencites when they appear without a possessor.
 
 Examples \[ex:onlypossessed–unsuffixednouns\] illustrate the possible
 patterns of markedness for nouns when possessed and unpossessed. The
 vast majority of nouns in our corpus are unmarked when unpossessed, but
-when possessed the suffix *-ri* ‘PERT’ occurs \[ex:onlypossessed\]. A
-handful of nouns \[todo: i.e., the 15?\] is marked with *-ri*/*-ti*
-‘PERT’ when possessed and with *-të* ‘NPERT’ when not possessed
+when possessed the suffix *-ri* ‘PERT’ \parencites occurs
+\[ex:onlypossessed\]. A handful of nouns \[todo: i.e., the 15?\] is
+marked with *-ri* \parencites/*-ti* ‘PERT’ \parencites when possessed
+and with *-të* ‘NPERT’ \parencites when not possessed
 \[ex:diffpossessed\]. Another handful is unmarked when possessed and
-marked with *-të* ‘NPERT’ when not possessed \[ex:suffunpossessed\]. The
-fourth logical category, where neither possession or non-possession is
-marked, contains very few members (only one attested so far). For these
-nouns, the difference is marked only by the presence or absence of a
-possessive prefix or free-form possessor \[ex:unsuffixednouns\].
+marked with *-të* ‘NPERT’ \parencites when not possessed
+\[ex:suffunpossessed\]. The fourth logical category, where neither
+possession or non-possession is marked, contains very few members (only
+one attested so far). For these nouns, the difference is marked only by
+the presence or absence of a possessive prefix or free-form possessor
+\[ex:unsuffixednouns\].
 
 Nouns that take a suffix only when possessed:
 
@@ -424,22 +432,22 @@ clear as of yet.
 
 ### Nominal tense <a id>=‘sec:nominaltense’\><a/>
 
--   *-jpë* ‘PST’
+-   *-jpë* ‘PST’ \parencites
 
 ### Argument prefixes <a id>=‘sec:nominalperson’\><a/>
 
 Person prefixes on nouns are conditioned by the initial segment
-(\[Table\]). C-initial nouns take *i-* ‘3’, and first and second person
-are bare *u-* ‘1’ and *më-* ‘2’. On V-initial nouns, third person is
-marked with *t-* ‘3’, and the first and second person prefixes combine
-with the linker *y-*. Some examples are shown in
-\[ex:convrisamaj-28–lastex\].
+(\[Table\]). C-initial nouns take *i-* ‘3’ \parencites, and first and
+second person are bare *u-* ‘1’ \parencites and *më-* ‘2’ \parencites.
+On V-initial nouns, third person is marked with *t-* ‘3’ \parencites,
+and the first and second person prefixes combine with the linker *y-*
+\parencites. Some examples are shown in \[ex:convrisamaj-28–lastex\].
 
-|     | \_C   | \_V           |
-|----:|:------|:--------------|
-|   1 | *u-*  | \_u-\_\_y-\_  |
-|   2 | *më-* | \_më-\_\_y-\_ |
-|   3 | *i-*  | *t-*          |
+|     | \_C               | \_V                                |
+|----:|:------------------|:-----------------------------------|
+|   1 | *u-* \parencites  | *u-* \parencites_y-\_ \parencites  |
+|   2 | *më-* \parencites | *më-* \parencites_y-\_ \parencites |
+|   3 | *i-* \parencites  | *t-* \parencites                   |
 
 > (convrisamaj-28) Yawarana
 > <pre>
@@ -468,13 +476,13 @@ The linker also occurs with (pro-)nominal possessors:
 > </pre>
 
 There are some nouns \[todo: presumably kinship terms\] that take an
-apparently older old second person *a-* ‘2’ (\[Table\]).
+apparently older old second person *a-* ‘2’ \parencites (\[Table\]).
 
-|     | \_C  | \_V          |
-|----:|:-----|:-------------|
-|   1 | *u-* | \_u-\_\_y-\_ |
-|   2 | *a-* | \_a-\_\_y-\_ |
-|   3 | *i-* | *t-*         |
+|     | \_C              | \_V                               |
+|----:|:-----------------|:----------------------------------|
+|   1 | *u-* \parencites | *u-* \parencites_y-\_ \parencites |
+|   2 | *a-* \parencites | *a-* \parencites_y-\_ \parencites |
+|   3 | *i-* \parencites | *t-* \parencites                  |
 
 \[todo: find more examples of these\]
 
@@ -497,30 +505,33 @@ candidates:
 ## Nominal Derivational Morphology <a id>=‘sec:nounderiv’\><a/>
 
 -   V → N
-    -   *-ri* ‘action NMLZ’ \[todo: potentially A.NMLZ\]
-    -   *-jpë* ‘PST.ACNNMLZ’
+    -   *-ri* ‘action NMLZ’ \parencites \[todo: potentially A.NMLZ\]
+    -   *-jpë* ‘PST.ACNNMLZ’ \parencites
         -   also ‘PST.ABS.NMLZ’ \[todo: convsuenmaj-47\]
-    -   *-në* ‘INF’ or ‘generic action nominalizer’ \[todo: this
-        probably only occurs on intransitive verbs\]
+    -   *-në* ‘INF’ \parencites or ‘generic action nominalizer’ \[todo:
+        this probably only occurs on intransitive verbs\]
         -   *wënkej-në* from transitive *wënkepï* ‘forget’
-    -   *-ni* ‘AGTNMLZ’ \[todo: ctoyucairdi-4, descokigrme-53 for
-        predicative use\]
-    -   *n-*V*-ri* only with *yeme* ’eat(fruits,\_eggs,\_soup)’
-    -   *-sapë* ‘ABS.NMLZ’ (contrast with *-jpë* ‘PST.ACNNMLZ’)
-    -   *-topo* ‘CIRC.NMLZ’
-    -   *‑pïnï* ‘PRIV.NMLZ’ \[todo: only found with -se-mï, not attested
-        as nominalizer\]
+    -   *-ni* ‘AGTNMLZ’ \parencites \[todo: ctoyucairdi-4,
+        descokigrme-53 for predicative use\]
+    -   *n-* *-ri* \parencites only with *yeme*
+        ’eat(fruits,\_eggs,\_soup)’ \parencites
+    -   *-sapë* ‘ABS.NMLZ’ \parencites (contrast with *-jpë*
+        ‘PST.ACNNMLZ’ \parencites)
+    -   *-topo* ‘CIRC.NMLZ’ \parencites
+    -   *‑pïnï* ‘PRIV.NMLZ’ \parencites \[todo: only found with -se-mï,
+        not attested as nominalizer\]
 -   Adv → N
-    -   *-mï* ‘NMLZ’
-    -   *-ano* ‘NMLZ’
+    -   *-mï* ‘NMLZ’ \parencites
+    -   *-ano* ‘NMLZ’ \parencites
     -   absence of *-ato* ‘NMLZ’
 -   Postp → N
-    -   *-ano* ‘NMLZ’
+    -   *-ano* ‘NMLZ’ \parencites
 -   N → N
     -   discuss *pïjkë* and *sere-kë* ‘manioc-DIM’ , reference sections
     -   *-imë*: e.g., *wara* ‘woman’ *waraimë* ‘married woman’
         (dictionary)
--   What about *-jpë* ‘PST.ACNNMLZ’ on AD forms? Does it derive a noun?
+-   What about *-jpë* ‘PST.ACNNMLZ’ \parencites on AD forms? Does it
+    derive a noun?
     -   (histyarirdi-592) Yawarana
         > <pre>
         > pata-Ø     penarë-jpë      mëtë   ta    mërë  Cerro Muñeca  taj-toj   mare    toto        ya  
@@ -534,9 +545,10 @@ candidates:
 Yawarana verb roots can be divided into those yielding an intransitive
 stem, and those yielding a transitive stem. The only inflectional
 criterion distinguishing the two classes is the third person prefix
-*ta-*, which can only occur on transitive stems. Thus, transitive
-*yawanka* ‘kill’ can take *ta-* \[ex:convfemgrme-217\], but intransitive
-*yaruwa* ‘laugh’ does not \[ex:convrisamaj-42\].
+*ta-* \parencites, which can only occur on transitive stems. Thus,
+transitive *yawanka* ‘kill’ \parencites can take *ta-* \parencites
+\[ex:convfemgrme-217\], but intransitive *yaruwa* ‘laugh’ \parencites
+does not \[ex:convrisamaj-42\].
 
 ()
 
@@ -561,7 +573,7 @@ criterion distinguishing the two classes is the third person prefix
 -   ijtëri
 
 -   Note that all transitive verbs are consonant‑initial, whether
-    etymologically or not because *y-* ‘LK’ is added to all
+    etymologically or not because *y-* ‘LK’ \parencites is added to all
     vowel‑initial roots
 
 -   the *y‑* disappears when preceded by the detransitivizer \[todo:
@@ -577,7 +589,7 @@ with them.
 
 #### -ta / -na
 
-*-ta* ‘VBZ.INTR’ derives intransitive verbs.
+*-ta* ‘VBZ.INTR’ \parencites derives intransitive verbs.
 
 | Base | Derivation |
 |:-----|:-----------|
@@ -616,7 +628,7 @@ with them.
 
 #### -ka
 
-*-ka* ‘VBZ.TR’ derives transitive verbs.
+*-ka* ‘VBZ.TR’ \parencites derives transitive verbs.
 
 #### *-jtë* / *-të*
 
@@ -632,15 +644,15 @@ with them.
 
 \[todo: distribution? morphemic analysis?\]
 
-1.  *s-*
-2.  *ëj-*
-3.  *at-*
+1.  *s-* \parencites
+2.  *ëj-* \parencites
+3.  *at-* \parencites
 
 ### Transitivizing suffixes
 
 -   *-ma* \[todo: from verbs or only nouns?\]
 -   \[todo: -nïkï / -nïpï / -nëpï\]
--   does *-ka* ‘VBZ.TR’ go on intransitive verb stems?
+-   does *-ka* ‘VBZ.TR’ \parencites go on intransitive verb stems?
 
 ### Ditransitivizing suffixes
 
@@ -648,7 +660,8 @@ with them.
 
 ## Meaning-changing suffixes
 
--   *-po* ‘DES’ (only occurs with *-ri* ‘IPFV’ and *-jra* ‘NEG’)
+-   *-po* ‘DES’ \parencites (only occurs with *-ri* ‘IPFV’ \parencites
+    and *-jra* ‘NEG’ \parencites)
 -   PLUR
 -   CESS
 
@@ -662,20 +675,20 @@ Verbs are inflected for person with a set of prefixes, shown in
 \[Table\]. First and second person prefixes show ergative alignment,
 expressing S and P. \[todo: count cases of expressing A\] Intransitive
 verbs are not overtly inflected for third person, while transitive verbs
-show an optional *ta-* in 3\>3 scenarios.\[todo: mentionworthy that this
-is not in alternation with preceding NPs\]
+show an optional *ta-* \parencites in 3\>3 scenarios.\[todo:
+mentionworthy that this is not in alternation with preceding NPs\]
 
-|     | INTR     | TR       |
-|:----|:---------|:---------|
-| 1   | *u-*     | *u-*     |
-| 2   | *më-*    | *më-*    |
-| 1+2 | *ej(n)-* | *ej(n)-* |
-| 3   | ∅        | *ta-*    |
+|     | INTR              | TR                |
+|:----|:------------------|:------------------|
+| 1   | *u-* \parencites  | *u-* \parencites  |
+| 2   | *më-* \parencites | *më-* \parencites |
+| 1+2 | *ej(n)-*          | *ej(n)-*          |
+| 3   | ∅                 | *ta-* \parencites |
 
--   one attested case of *ta-* ‘3\>3’ on the lexical verb of a *-pëkë*
-    construction w/ 2nd person A on AUX \[todo: which one?\]
+-   one attested case of *ta-* ‘3\>3’ \parencites on the lexical verb of
+    a *-pëkë* construction w/ 2nd person A on AUX \[todo: which one?\]
     -   Ø‑ ‘3P’ with transitive verbs with 1A or 2A
--   one example of *më-* ‘2’ ‘2A’ on imperative verb \[todo:
+-   one example of *më-* ‘2’ \parencites ‘2A’ on imperative verb \[todo:
     GrMePers.029\] \[todo: FM: u- is sometimes wï-, but usually not
     transcribed, and distribution unclear\]
 
@@ -691,44 +704,45 @@ Verbs in main clauses are inflected for TAMP with a set of suffixes,
 shown in \[Table\]. They are discussed in
 <a href='#sec:riipfv'>click</a>.
 
-| Suffix         | Function        |
-|:---------------|:----------------|
-| *-ri*          | imperfective    |
-| *-jpë*         | past            |
-| *-se*          | past perfective |
-| *-sapë*        | perfect         |
-| *-sarë*        | imminent future |
-| *-nëpëkë*      | PROG.INTR       |
-| *pëkë*         | PROG.TR         |
-| *‑tojpano*     | FUT             |
-| (*-tojpe*)     | FUT             |
-| *-ja*          | NEG             |
-| \_-se\_\_-mï\_ | ‘obligation’    |
-| *-në*          | impersonal S    |
-| *-topo*        |                 |
+| Suffix                               | Function        |
+|:-------------------------------------|:----------------|
+| *-ri* \parencites                    | imperfective    |
+| *-jpë* \parencites                   | past            |
+| *-se* \parencites                    | past perfective |
+| *-sapë* \parencites                  | perfect         |
+| *-sarë* \parencites                  | imminent future |
+| *-nëpëkë* \parencites                | PROG.INTR       |
+| *pëkë* \parencites                   | PROG.TR         |
+| *‑tojpano*                           | FUT             |
+| (*-tojpe* \parencites)               | FUT             |
+| *-ja* \parencites                    | NEG             |
+| *-se* \parencites\_-mï\_ \parencites | ‘obligation’    |
+| *-në* \parencites                    | impersonal S    |
+| *-topo* \parencites                  |                 |
 
-| Suffix                  | Function             |
-|:------------------------|:---------------------|
-| *‑jrama*                | PROH                 |
-| *-i*                    | JUSS                 |
-| *-kë* / ‑*të*\_-kë\_    | IMP / IMP.PL         |
-| *-ta* / *-tantë*\_-kë\_ | IMP.MOT / IMP.MOT.PL |
+| Suffix                                                        | Function             |
+|:--------------------------------------------------------------|:---------------------|
+| *‑jrama*                                                      | PROH                 |
+| *-i*                                                          | JUSS                 |
+| *-kë* \parencites / ‑*të*\_-kë\_ \parencites                  | IMP / IMP.PL         |
+| *-ta* \parencites / *-ta* \parencites*ntë*\_-kë\_ \parencites | IMP.MOT / IMP.MOT.PL |
 
 Misc:
 
--   *-se*=*pano* ‘PST=CONCL’
--   *-saj*=*pano* ‘PFV=CONCL’
--   *-sarë*=*pano* ‘IMN=CONCL’
+-   *-se* \parencites=*pano* \parencites ‘PST=CONCL’
+-   *-saj* \parencites=*pano* \parencites ‘PFV=CONCL’
+-   *-sarë* \parencites=*pano* \parencites ‘IMN=CONCL’
 
-### *-ri* <a id>=‘sec:riipfv’\><a/>
+### *-ri* \parencites <a id>=‘sec:riipfv’\><a/>
 
 -   allomorphy:
-    -   *-∅* ‘IPFV’, phonetic loss
-    -   *-ru* ‘IPFV’, assimilation
-    -   what about *-rï* ‘IPFV’? looks like the most conservative form
--   diachrony: *-ri* ‘ACNNMLZ’
+    -   *-∅* ‘IPFV’ \parencites, phonetic loss
+    -   *-ru* ‘IPFV’ \parencites, assimilation
+    -   what about *-rï* ‘IPFV’ \parencites? looks like the most
+        conservative form
+-   diachrony: *-ri* ‘ACNNMLZ’ \parencites
 -   pluralization?
--   combines with *-jra* ‘NEG’:
+-   combines with *-jra* ‘NEG’ \parencites:
 
 > (convrisamaj-4) Yawarana
 > <pre>
@@ -767,17 +781,17 @@ Misc:
     1-LK-house-PERT  LOC   1-stay-IPFV   silently  \*\*\*  
     ‘I silently stay in my house.’
 
-### *-jpë*
+### *-jpë* \parencites
 
 -   allomorphy: none?
--   diachrony: from *-jpë* ‘PST.ACNNMLZ’ \[todo: negation?\] \[todo:
-    semantics?\]
+-   diachrony: from *-jpë* ‘PST.ACNNMLZ’ \parencites \[todo: negation?\]
+    \[todo: semantics?\]
 
-### *-se*
+### *-se* \parencites
 
--   allomorphy: *-se*/*-che* ‘PTCP / SUP’
--   diachrony: from *-se* ‘PTCP / SUP’
--   negation: replaced with *-ja* ‘NEG’ \[ex:conv1stenc-28\]
+-   allomorphy: *-se* \parencites/*-che* ‘PTCP / SUP’ \parencites
+-   diachrony: from *-se* ‘PTCP / SUP’ \parencites
+-   negation: replaced with *-ja* ‘NEG’ \parencites \[ex:conv1stenc-28\]
 
 > (conv1stenc-28) Yawarana
 > <pre>
@@ -787,12 +801,12 @@ Misc:
 
 \[todo: semantics?\]
 
-### *-sapë*
+### *-sapë* \parencites
 
--   diachrony: from *-sapë* ‘ABS.NMLZ’
+-   diachrony: from *-sapë* ‘ABS.NMLZ’ \parencites
 -   distribution: only occurs on the copula?
--   allomorphy: *-sapë* and *-saj*
--   negation: with *-ja* ‘NEG’ on lexical verb
+-   allomorphy: *-sapë* \parencites and *-saj* \parencites
+-   negation: with *-ja* ‘NEG’ \parencites on lexical verb
     \[ex:ctoaragrme-38–ctoaragrme-40\] \[todo: semantics?\]
 
 > (ctoaragrme-38) Yawarana
@@ -821,7 +835,7 @@ Misc:
 > NEG.EXIST  HSY  3-vomit-PERT  COP-PFV  
 > ‘Their vomit was not there.’</pre>
 
-### *-sarë* <a id>=‘sec:sareimn’\><a/>
+### *-sarë* \parencites <a id>=‘sec:sareimn’\><a/>
 
 -   once a converb, now ‘imminent future’
 
@@ -844,22 +858,22 @@ Misc:
 <!-- probably all productive, right? -->
 
 -   Nominalizations
-    -   *-ri* ‘ACNNMLZ’
-    -   *-jpë* ‘PST.ACNNMLZ’
-    -   *-topo* ‘CIRC.NMLZ’
+    -   *-ri* ‘ACNNMLZ’ \parencites
+    -   *-jpë* ‘PST.ACNNMLZ’ \parencites
+    -   *-topo* ‘CIRC.NMLZ’ \parencites
 -   Adverbial Clauses (S/A)
-    -   *-se* ‘supine’
-    -   *-tane* ‘concessive’
-    -   *-sarë* ‘converb’
+    -   *-se* ‘supine’ \parencites
+    -   *-tane* ‘concessive’ \parencites
+    -   *-sarë* ‘converb’ \parencites
     -   *‑yapo* ‘neg.purp’
     -   others?
 -   Nominalization + postposition (S/P)
-    -   *-∅* ‘IPFV’*yawë* ‘simult’
-    -   *-∅* ‘IPFV’ *pe* ‘ESS’ ‘when’
-    -   *-saj* ‘ABS.NMLZ’*yawë* ‘simult’
-    -   *-tojpe* ‘purpose’
+    -   *-∅* ‘IPFV’ \parencites_yawë\_ ‘simult’ \parencites
+    -   *-∅* ‘IPFV’ \parencites *pe* ‘ESS’ \parencites ‘when’
+    -   *-saj* ‘ABS.NMLZ’ \parencites_yawë\_ ‘simult’ \parencites
+    -   *-tojpe* ‘purpose’ \parencites
     -   (‑jpë)=tërë ‘after’
-    -   on auxiliary: *-ri* + *po* ‘CTRF’
+    -   on auxiliary: *-ri* \parencites + *po* ‘CTRF’
 -   not attested:
     -   *se* ‘DES’
     -   *-ajtawï* ‘if when’
@@ -883,7 +897,7 @@ of the copula\]
 
 -   there is (synchronically suppletive) stem allomorphy: *chi* and
     *wej*
--   *marë* ‘REL.INAN’ and *manïkï* ‘REL.ANIM’
+-   *marë* ‘REL.INAN’ \parencites and *manïkï* ‘REL.ANIM’ \parencites
 
 # Postpositions <a id>=‘postp’\><a/>
 
@@ -897,16 +911,16 @@ Postpositions take the same inflectional prefixes as nouns
 (<a href='#sec:nounposssuf'>click</a>). \[todo: are there postpositions
 with third person i-?\]
 
-|     |         |
-|----:|:--------|
-|   1 | *u-*    |
-|   2 | *më-*   |
-|   3 | *i-/t-* |
+|     |                     |
+|----:|:--------------------|
+|   1 | *u-* \parencites    |
+|   2 | *më-* \parencites   |
+|   3 | *i-/t-* \parencites |
 
 Also:
 
--   *-kontomo* ‘PL’
--   *ësë-* ‘DETRZ’
+-   *-kontomo* ‘PL’ \parencites
+-   *ësë-* ‘DETRZ’ \parencites
 
 ## Locative Postpositions
 
@@ -914,10 +928,10 @@ Also:
 -   unproductive Bipartite X+Path?
 -   other forms
 
-|         | ALL    | LOC    |
-|:--------|:-------|:-------|
-| inside  | *yaka* | *yawë* |
-| aquatic | ?      | ?      |
+|         | ALL                | LOC                |
+|:--------|:-------------------|:-------------------|
+| inside  | *yaka* \parencites | *yawë* \parencites |
+| aquatic | ?                  | ?                  |
 
 \[todo: how do these fit in?\]
 
@@ -939,14 +953,14 @@ Also:
 
 ## Nonlocative Oblique Postpositions
 
--   *pana* ‘DAT’
--   *ke* ‘INS’
+-   *pana* ‘DAT’ \parencites
+-   *ke* ‘INS’ \parencites
 -   *wanai*
 
 ## Misc
 
--   *chi* ‘COP’ combines with *yawë* ‘LOC’, sometimes spelled *chi
-    yawë*, sometimes *chawë*.
+-   *chi* ‘COP’ \parencites combines with *yawë* ‘LOC’ \parencites,
+    sometimes spelled *chi yawë*, sometimes *chawë*.
 -   syllable reduction
 -   postpositions on bare verbs? (e.g. *wejtawë*)
 
@@ -964,7 +978,8 @@ Three kinds of particles elsewhere in the family:
 
 ## Ideophones
 
--   constructions with *nwa* ‘thus’? (example with *pïtï* ‘paint’)
+-   constructions with *nwa* ‘thus’ \parencites? (example with *pïtï*
+    ‘paint’)
 
 ## Interjections
 
@@ -973,19 +988,19 @@ Three kinds of particles elsewhere in the family:
 # Negation <a id>=‘negation’\><a/>
 
 -   probably relevant morphemes:
-    -   *-ja* ‘NEG’
-    -   *-jra* ‘NEG’
-    -   *-jnari* ‘NEG’
-    -   *-jrama* ‘PROH’
-    -   *-kempïnirë* ‘PTCP.NZR.GNO:NEG’
-    -   *pïnirë* ‘NEG’
-    -   *pïrarë* ‘NEG.EXIST’
-    -   *pïni* ‘NEG’
+    -   *-ja* ‘NEG’ \parencites
+    -   *-jra* ‘NEG’ \parencites
+    -   *-jnari* ‘NEG’ \parencites
+    -   *-jrama* ‘PROH’ \parencites
+    -   *-kempïnirë* ‘PTCP.NZR.GNO:NEG’ \parencites
+    -   *pïnirë* ‘NEG’ \parencites
+    -   *pïrarë* ‘NEG.EXIST’ \parencites
+    -   *pïni* ‘NEG’ \parencites
     -   *‑yapo* ‘neg.purp’
 
 # Auxiliarized constructions
 
-claim: everything can take an auxiliary, except *-kë* ‘IMP’
+claim: everything can take an auxiliary, except *-kë* ‘IMP’ \parencites
 
 \[todo: look at frequency and distributional possibilities for various
 forms with auxiliaries\] \[todo: are there limits on what form of AUX
@@ -1035,7 +1050,7 @@ juxtaposition and copular constructions.
 -   “existential particles” (*mëtë*, *mïntë*, *entë*, *ijtë*)
     -   etymologically locatives, used for existential function. they
         **can** co-occur with the existential negative *pïrarë*
-        \[ex:ex-main-neg-part-pirare-cop-nsubj\],
+        \parencites \[ex:ex-main-neg-part-pirare-cop-nsubj\],
         \[ex:ex-main-neg-part-pirare-nsubj\]
     -   also occur in locative function
         \[ex:loc-main-aff-part-cop-nsubj\],
@@ -1060,13 +1075,13 @@ juxtaposition and copular constructions.
         -   only counterexample: NP<sub>PRED</sub> COP with ‘sick’
             \[ex:temp-main-q-npred-cop\]; can occur without COP, too
             \[ex:temp-main-aff-npred-cop\]
-    -   does not combine with *pïrarë* ‘NEG.EXIST’
-        -   one counterexample with PART<sub>PRED</sub> + *pïrarë* +
-            COP + NP<sub>SUBJ</sub> is with a concessive
+    -   does not combine with *pïrarë* ‘NEG.EXIST’ \parencites
+        -   one counterexample with PART<sub>PRED</sub> + *pïrarë*
+            \parencites + COP + NP<sub>SUBJ</sub> is with a concessive
             \[ex:ex-main-neg-part-pirare-cop-nsubj\] \[todo: @spike: I
             forgot, what was your analysis for this particular
             example?\]
-        -   it does occur with *pïnirë* ‘NEG’, though
+        -   it does occur with *pïnirë* ‘NEG’ \parencites, though
             \[ex:loc-main-neg-nsubj-cop-pinire-part\],
             \[ex:temp-main-neg-advpred-cop-pinire-nsubj\] \[todo:
             @spike: what do you think of the analysis that the copular
@@ -1084,19 +1099,19 @@ juxtaposition and copular constructions.
             \[ex:loc-sub-neg-locpred-cop-neg-nsubj\]
         -   one example of *chi chipokono* \[ex:convamgu-101\]
 -   several negation strategies:
-    -   *-jra* ‘NEG’ for adverbs and on nouns in the existential
-        *pïrarë* NP<sub>SUBJ</sub>*-jra* construction
-        \[ex:ex-main-neg-pirare-nsubj-jra\]
-    -   *pïnirë* ‘NEG’ for nominal predicates and ones with locative
-        particles
-    -   *pïrarë* ‘NEG.EXIST’ for existential predicates
+    -   *-jra* ‘NEG’ \parencites for adverbs and on nouns in the
+        existential *pïrarë* \parencites NP<sub>SUBJ</sub>*-jra*
+        \parencites construction \[ex:ex-main-neg-pirare-nsubj-jra\]
+    -   *pïnirë* ‘NEG’ \parencites for nominal predicates and ones with
+        locative particles
+    -   *pïrarë* ‘NEG.EXIST’ \parencites for existential predicates
         -   also for identification? \[ex:id-main-neg-npred-pirare\]
-    -   *-ja* or *-jnari* on the copula
+    -   *-ja* \parencites or *-jnari* \parencites on the copula
 -   order is fairly flexible; potentially rigid ADV<sub>PRED</sub>
     NP<sub>SUBJ</sub> COP, though negated counterexample
     \[ex:histyarirdi-249\]
--   unclear role of *manïkï* ‘REL.ANIM’ in NP<sub>PRED</sub> +
-    NP<sub>SUBJ</sub> construction
+-   unclear role of *manïkï* ‘REL.ANIM’ \parencites in
+    NP<sub>PRED</sub> + NP<sub>SUBJ</sub> construction
 -   construction with two copulas *chi wejsapë*?
     \[ex:convhistfamsjm-92\], \[ex:convhistfamsjm-59\],
     \[ex:histgrme-17\], \[ex:histgrme-107\] \[todo: ask natalia\]
@@ -1160,7 +1175,7 @@ juxtaposition and copular constructions.
     -   anticausative
 -   other strategies for removing participant:
     -   *-se-mï* ‘gnomic’
-    -   *-në* ‘INF’
+    -   *-në* ‘INF’ \parencites
 -   what is not used for voice?
     -   *-sapë*
     -   participle

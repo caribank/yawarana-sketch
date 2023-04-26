@@ -3,7 +3,8 @@
 ## Pronouns [label](sec:pronouns)
 The personal pronouns of [lg](yab) are shown in [ref](tab:pronouns).
 The system shows the usual Cariban inclusive/exclusive ([gl](1+2) and [gl](1+3)) distinction, although [mp](ejne-1-2pro) does not have the /k/ found elsewhere in the family.
-Note that [mp](kontomopl) appears to usually be restricted to verbs, while *-santomo* is found with third person pronouns and demonstratives.
+It is like a reflex of an old copula + infinitive *\*eti-në*. [todo](do we have parallel cases elsewhere?)
+Regarding plural marking, it should be noted that [mp](kontomopl) appears to usually be restricted to verbs, while *-santomo* is found with third person pronouns and demonstratives.
 
 [table](pronouns)
 
