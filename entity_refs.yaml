@@ -1,0 +1,10 @@
+morphs.csv:
+  ri: sec:nounposssuf
+  chepst: sec:palatalization
+  cheptcp: sec:palatalization
+  chajnmlz: sec:palatalization
+morphemes.csv:
+  septcp: sec:palatalization
+  sapepfv: sec:palatalization
+  sepst: sec:palatalization
+  sapenmlz: sec:palatalization
