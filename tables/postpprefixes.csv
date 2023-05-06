@@ -1,4 +1,6 @@
-,
-"[gl](1)","[mp](u1?no_translation)"
-"[gl](2)","[mp](me2?no_translation)"
-"[gl](3)","[mp](i3?no_translation)"
+,\_V,\_C
+[gl](1),[mp](u1?nt) [m](ylk?nt),[mp](u1?nt)
+[gl](2),[mp](me2?nt) [m](ylk?nt),[mp](me2?nt)
+[gl](1+2),[mp](ejne-1-2pro?nt) [m](ylk?nt),[mp](ejne-1-2pro?nt) [m](ylk?nt)
+[gl](3),[m](i3?nt),[m](it3?nt)
+NP,[mp](ylk?nt),[mp](ylk?nt)
