@@ -150,19 +150,19 @@ person pronouns and demonstratives.
 
 Pronouns: [pronouns]
 
-  --------------------------
-        SG     PL
-  ----- ------ -------------
-  1     wïrë   
+  -------------------------------------------
+        SG            PL
+  ----- ------------- -----------------------
+  1     wïrë ‘1PRO’   
 
-  1+2          ejnë
+  1+2                 ejnë ‘1+2PRO’
 
-  1+3          ana
+  1+3                 ana ‘1+3PRO’
 
-  2     mërë   monkontomo
+  2     mërë ‘2PRO’   monkontomo ‘2PL.PRO’
 
-  3     tëwï   tëwïsantomo
-  --------------------------
+  3     tëwï ‘3PRO’   tëwïsantomo ‘3PRO.PL’
+  -------------------------------------------
 
 [todo: tajne, but not attested as an article]
 
@@ -200,17 +200,21 @@ counterparts.
 
 Demonstrative pronouns / articles: [pronouns3]
 
-  -------------------------------------------------------------------------
-                 ANIM                                    INAN    
-  -------------- -------------- ------------------------ ------- ----------
-                 SG             PL                       SG      PL
+  ------------------------------------------------------------------------------------
+            ANIM                                        INAN          
+  --------- ----------------- ------------------------- ------------- ----------------
+            SG                PL                        SG            PL
 
-  PROX           kërë           kërësantomo              eni     enijne
+  PROX      kërë ‘PROX.ANIM’  kërësantomo               eni           enijne
+                              ‘PROX.ANIM.PL’            ‘PROX.INAN’   ‘PROX.INAN.PL’
 
-  medial? near?  michi / misi   michisantomo / michitomo mërë    
+  medial?   michi ‘MED.ANIM’  michisantomo              mërë          
+  near?     / misi ‘MED.INAN’ ‘MED.INAN.PL’ / michitomo ‘MED.INAN’    
+                              ‘MED.INAN.PL’                           
 
-  DIST           mëjkï          mëkïsantomo              mëjnï   mëjnijne
-  -------------------------------------------------------------------------
+  DIST      mëjkï ‘DIST.ANIM’ mëkïsantomo               mëjnï         mëjnijne
+                              ‘DIST.ANIM.PL’            ‘DIST.INAN’   ‘DIST.INAN.PL’
+  ------------------------------------------------------------------------------------
 
 -   nominal interrogative pronouns:
     -   anïkï ‘who’ (with -santomo)
@@ -336,15 +340,15 @@ combine with the linker y- . Some examples are shown in
 
 Possessive prefixes on nouns: [possprefixes]
 
-  --------------------
-       _C     _V
-  ---- ------ --------
-  1    u-     u- y-
+  --------------------------------
+       _C        _V
+  ---- --------- -----------------
+  1    u- ‘1’    u- ‘1’ y- ‘LK’
 
-  2    më-    më- y-
+  2    më- ‘2’   më- ‘2’ y- ‘LK’
 
-  3    i-     t-
-  --------------------
+  3    i- ‘3’    t-
+  --------------------------------
 
 (convrisamaj-28)
 u-y-ïwïj-∅       yawë  u-senejka-ri  sukuri    jwama
@@ -372,15 +376,15 @@ apparently older old second person a- ‘2’ ([ref/tab:oldpossprefixes]).
 
 Archaic possessive prefixes on nouns: [oldpossprefixes]
 
-  -------------------
-       _C     _V
-  ---- ------ -------
-  1    u-     u- y-
+  ------------------------------
+       _C       _V
+  ---- -------- ----------------
+  1    u- ‘1’   u- ‘1’ y- ‘LK’
 
-  2    a-     a- y-
+  2    a- ‘2’   a- ‘2’ y- ‘LK’
 
-  3    i-     t-
-  -------------------
+  3    i- ‘3’   t- ‘3’
+  ------------------------------
 
 [todo: find more examples of these]
 
@@ -601,17 +605,17 @@ mentionworthy that this is not in alternation with preceding NPs]
 
 Person marking prefixes on verbs: [verbprefixes]
 
-  ---------------------------
+  -------------------------------
         INTR       TR
-  ----- ---------- ----------
-  1     u-         u-
+  ----- ---------- --------------
+  1     u- ‘1’     u- ‘1’
 
-  2     më-        më-
+  2     më- ‘2’    më- ‘2’
 
   1+2   ej(n)-     ej(n)-
 
-  3     ∅          ta-
-  ---------------------------
+  3     ∅          ta- ‘3P / 3’
+  -------------------------------
 
 -   one attested case of ta- ‘3>3’ on the lexical verb of a -pëkë
     construction w/ 2nd person A on AUX [todo: which one?]
@@ -633,35 +637,35 @@ shown in [ref/tab:verbtam]. They are discussed in
 
 Verbal TAM suffixes: [verbtam]
 
-  ------------------------------
-  Suffix       Function
-  ------------ -----------------
-  -ri          imperfective
+  ---------------------------------------
+  Suffix                Function
+  --------------------- -----------------
+  -ri ‘IPFV’            imperfective
 
-  -jpë         past
+  -jpë ‘PST’            past
 
-  -se          past perfective
+  -se ‘PST’             past perfective
 
-  -sapë        perfect
+  -sapë ‘PFV’           perfect
 
-  -sarë        imminent future
+  -sarë ‘IMN’           imminent future
 
-  -nëpëkë      PROG.INTR
+  -nëpëkë ‘PROG.INTR’   PROG.INTR
 
-  pëkë         PROG.TR
+  pëkë ‘about’          PROG.TR
 
-  ‑tojpano     FUT
+  ‑tojpano              FUT
 
-  (-tojpe )    FUT
+  (-tojpe )             FUT
 
-  -ja          NEG
+  -ja                   NEG
 
-  -se -mï      ‘obligation’
+  -se -mï               ‘obligation’
 
-  -në          impersonal S
+  -në                   impersonal S
 
-  -topo        
-  ------------------------------
+  -topo                 
+  ---------------------------------------
 
 Non-declarative suffixes: [nondecltam]
 
@@ -849,13 +853,19 @@ person i-?]
 
 Person marking prefixes on postpositions: [postpprefixes]
 
-  ---- -------
-  1    u-
+  ---------------------------
+        _V         _C
+  ----- ---------- ----------
+  1     u- y-      u-
 
-  2    më-
+  2     më- y-     më-
 
-  3    i-/t-
-  ---- -------
+  1+2   ejnë y-    ejnë y-
+
+  3     i-         t-
+
+  NP    y-         y-
+  ---------------------------
 
 Also:
 
@@ -870,13 +880,13 @@ Locative Postpositions
 
 Locative postpositions: [locpost]
 
-  -------------------------
-            ALL     LOC
-  --------- ------- -------
-  inside    yaka    yawë
+  -----------------------------------
+            ALL          LOC
+  --------- ------------ ------------
+  inside    yaka ‘ALL’   yawë ‘LOC’
 
-  aquatic   ?       ?
-  -------------------------
+  aquatic   ?            ?
+  -----------------------------------
 
 [todo: how do these fit in?]
 
