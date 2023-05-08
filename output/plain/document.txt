@@ -12,6 +12,19 @@ Previous studies on the Yawarana language [sec:previous]
 
 This project [sec:thisproject]
 
+Variation [sec:variation]
+
+There are a number of corners of Yawarana grammar that are subject to
+variation:
+
+-   plural marking ([ref/sec:nominalnumber], [ref/sec:verbalnumber],
+    [ref/postp])
+-   constituent order ([ref/wordorder])
+-   expression of verbal arguments ([ref/simpleverb],
+    [ref/sec:nominalperson], [ref/sec:verbperson])
+-   presence or absence of the ergative marker ya ‘ERG’
+    ([ref/simpleverb])
+
 Phonetics and phonology [phono]
 
 Segmental phonetics and phonemes [sec:segmental]

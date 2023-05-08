@@ -13,6 +13,8 @@
         <a id>=‘sec:previous’\><a/>](#previous-studies-on-the-yawarana-language-a-id-sec-previous-a)
     6.  [This project
         <a id>=‘sec:thisproject’\><a/>](#this-project-a-id-sec-thisproject-a)
+    7.  [Variation
+        <a id>=‘sec:variation’\><a/>](#variation-a-id-sec-variation-a)
 2.  [Phonetics and phonology
     <a id>=‘phono’\><a/>](#phonetics-and-phonology-a-id-phono-a)
     1.  [Segmental phonetics and phonemes
@@ -161,6 +163,20 @@
 ## Previous studies on the Yawarana language <a id>=‘sec:previous’\><a/>
 
 ## This project <a id>=‘sec:thisproject’\><a/>
+
+## Variation <a id>=‘sec:variation’\><a/>
+
+There are a number of corners of Yawarana grammar that are subject to
+variation:
+
+-   plural marking (<a href='#sec:nominalnumber'>click</a>,
+    <a href='#sec:verbalnumber'>click</a>, <a href='#postp'>click</a>)
+-   constituent order (<a href='#wordorder'>click</a>)
+-   expression of verbal arguments (<a href='#simpleverb'>click</a>,
+    <a href='#sec:nominalperson'>click</a>,
+    <a href='#sec:verbperson'>click</a>)
+-   presence or absence of the ergative marker *ya* ‘ERG’
+    (<a href='#simpleverb'>click</a>)
 
 # Phonetics and phonology <a id>=‘phono’\><a/>
 
