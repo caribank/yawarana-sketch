@@ -137,12 +137,19 @@
         2.  [Categorization issues](#categorization-issues)
 13. [Simple verbal clauses
     <a id>=‘simpleverb’\><a/>](#simple-verbal-clauses-a-id-simpleverb-a)
+    1.  [Intransitive clauses](#intransitive-clauses)
+        1.  [First person](#first-person)
+        2.  [Second person](#second-person)
+        3.  [Third person](#third-person)
+    2.  [Transitive clauses](#transitive-clauses)
+        1.  [Third on third](#third-on-third)
 14. [Questions <a id>=‘questions’\><a/>](#questions-a-id-questions-a)
 15. [Multiclausal
     <a id>=‘multiclausal’\><a/>](#multiclausal-a-id-multiclausal-a)
 16. [Word order variation
     <a id>=‘wordorder’\><a/>](#word-order-variation-a-id-wordorder-a)
-    1.  [Nonverbal predication
+    1.  [Transitive clauses](#transitive-clauses)
+    2.  [Nonverbal predication
         <a id>=‘nvp-order’\><a/>](#nonverbal-predication-a-id-nvp-order-a)
 17. [Pragmatically marked constructions
     <a id>=‘pragmarked’\><a/>](#pragmatically-marked-constructions-a-id-pragmarked-a)
@@ -381,8 +388,8 @@ possessor noun is never marked (for instance, with genitive case), but
 the possessed noun (the head) is often marked for being possessed by a
 suffix; an unambiguous label for this counterpart of the genitive is
 pertensive ([Dixon 2010](#source-dixon2010basic)). The choice of suffix
-is lexically conditioned; while most nouns take *-ri* ‘PERT’ , some take
-*-ti* . Unpossessed nouns generally are unmarked, but some 15 nouns
+is lexically conditioned; while most nouns take *-ri* ‘PERT’, some take
+*-ti*. Unpossessed nouns generally are unmarked, but some 15 nouns
 \[todo: which? list nouns\] bear the suffix *-të* ‘NPERT’ when they
 appear without a possessor.
 
@@ -390,7 +397,7 @@ Examples \[ex:onlypossessed–unsuffixednouns\] illustrate the possible
 patterns of markedness for nouns when possessed and unpossessed. The
 vast majority of nouns in our corpus are unmarked when unpossessed, but
 when possessed the suffix *-ri* ‘PERT’ occurs \[ex:onlypossessed\]. A
-handful of nouns \[todo: i.e., the 15?\] is marked with *-ri* /*-ti*
+handful of nouns \[todo: i.e., the 15?\] is marked with *-ri*/*-ti*
 ‘PERT’ when possessed and with *-të* ‘NPERT’ when not possessed
 \[ex:diffpossessed\]. Another handful is unmarked when possessed and
 marked with *-të* ‘NPERT’ when not possessed \[ex:suffunpossessed\]. The
@@ -456,17 +463,17 @@ clear as of yet.
 ### Argument prefixes <a id>=‘sec:nominalperson’\><a/>
 
 Person prefixes on nouns are conditioned by the initial segment
-(\[Table\]). C-initial nouns take *i-* ‘3’ , and first and second person
-are bare *u-* ‘1’ and *më-* ‘2’ . On V-initial nouns, third person is
-marked with *t-* ‘3’ , and the first and second person prefixes combine
-with the linker *y-* . Some examples are shown in
+(\[Table\]). C-initial nouns take *i-* ‘3’, and first and second person
+are bare *u-* ‘1’ and *më-* ‘2’. On V-initial nouns, third person is
+marked with *t-* ‘3’, and the first and second person prefixes combine
+with the linker *y-*. Some examples are shown in
 \[ex:convrisamaj-28–lastex\].
 
-|     | \_C       | \_V                 |
-|----:|:----------|:--------------------|
-|   1 | *u-* ‘1’  | *u-* ‘1’ *y-* ‘LK’  |
-|   2 | *më-* ‘2’ | *më-* ‘2’ *y-* ‘LK’ |
-|   3 | *i-* ‘3’  | *t-*                |
+|     | \_C       | \_V                |
+|----:|:----------|:-------------------|
+|   1 | *u-* ‘1’  | *u-* ‘1’*y-* ‘LK’  |
+|   2 | *më-* ‘2’ | *më-* ‘2’*y-* ‘LK’ |
+|   3 | *i-* ‘3’  | *t-*               |
 
 > (convrisamaj-28) Yawarana
 > <pre>
@@ -484,7 +491,7 @@ with the linker *y-* . Some examples are shown in
 > <pre>
 > pïrarë     ti   i-wena-ru     wej-sapë  
 > NEG.EXIST  HSY  3-vomit-PERT  COP-PFV  
-> ‘Their vomit was not there.’</pre>
+> ‘their vomit was not there.’</pre>
 
 The linker also occurs with (pro-)nominal possessors:
 
@@ -497,11 +504,11 @@ The linker also occurs with (pro-)nominal possessors:
 There are some nouns \[todo: presumably kinship terms\] that take an
 apparently older old second person *a-* ‘2’ (\[Table\]).
 
-|     | \_C      | \_V                |
-|----:|:---------|:-------------------|
-|   1 | *u-* ‘1’ | *u-* ‘1’ *y-* ‘LK’ |
-|   2 | *a-* ‘2’ | *a-* ‘2’ *y-* ‘LK’ |
-|   3 | *i-* ‘3’ | *t-* ‘3’           |
+|     | \_C      | \_V               |
+|----:|:---------|:------------------|
+|   1 | *u-* ‘1’ | *u-* ‘1’*y-* ‘LK’ |
+|   2 | *a-* ‘2’ | *a-* ‘2’*y-* ‘LK’ |
+|   3 | *i-* ‘3’ | *t-* ‘3’          |
 
 \[todo: find more examples of these\]
 
@@ -532,8 +539,8 @@ candidates:
         -   *wënkej-në* from transitive *wënkepï* ‘forget’
     -   *-ni* ‘AGTNMLZ’ \[todo: ctoyucairdi-4, descokigrme-53 for
         predicative use\]
-    -   *n-* V\_-ri\_ only with *yeme* ’eat(fruits,\_eggs,\_soup)’
-    -   *-sapë* ‘ABS.NMLZ’ (contrast with *-jpë* ‘PST.ACNNMLZ’ )
+    -   *n-*V*-ri* only with *yeme* ’eat(fruits,\_eggs,\_soup)’
+    -   *-sapë* ‘ABS.NMLZ’ (contrast with *-jpë* ‘PST.ACNNMLZ’)
     -   *-topo* ‘CIRC.NMLZ’
     -   *‑pïnï* ‘PRIV.NMLZ’ \[todo: only found with -se-mï, not attested
         as nominalizer\]
@@ -561,7 +568,7 @@ candidates:
 Yawarana verb roots can be divided into those yielding an intransitive
 stem, and those yielding a transitive stem. The only inflectional
 criterion distinguishing the two classes is the third person prefix
-*ta-* , which can only occur on transitive stems. Thus, transitive
+*ta-*, which can only occur on transitive stems. Thus, transitive
 *yawanka* ‘kill’ can take *ta-* \[ex:convfemgrme-217\], but intransitive
 *yaruwa* ‘laugh’ does not \[ex:convrisamaj-42\].
 
@@ -675,7 +682,7 @@ with them.
 
 ## Meaning-changing suffixes <a id>=‘sec:meaningderiv’\><a/>
 
--   *-po* ‘DES’ (only occurs with *-ri* ‘IPFV’ and *-jra* ‘NEG’ )
+-   *-po* ‘DES’ (only occurs with *-ri* ‘IPFV’ and *-jra* ‘NEG’)
 -   PLUR
 -   CESS
 
@@ -687,10 +694,10 @@ with them.
 
 Verbs are inflected for person with a set of prefixes, shown in
 \[Table\]. First and second person prefixes show ergative alignment,
-expressing S and P. \[todo: count cases of expressing A\] Intransitive
-verbs are not overtly inflected for third person, while transitive verbs
-show an optional *ta-* in 3\>3 scenarios.\[todo: mentionworthy that this
-is not in alternation with preceding NPs\]
+expressing S and P. Intransitive verbs are not overtly inflected for
+third person, while transitive verbs show an optional *ta-* in 3\>3
+scenarios.\[todo: mentionworthy that this is not in alternation with
+preceding NPs\]
 
 |     | INTR      | TR             |
 |:----|:----------|:---------------|
@@ -698,6 +705,76 @@ is not in alternation with preceding NPs\]
 | 2   | *më-* ‘2’ | *më-* ‘2’      |
 | 1+2 | *ej(n)-*  | *ej(n)-*       |
 | 3   | ∅         | *ta-* ‘3P / 3’ |
+
+-   *më-* ‘2’ marking A in \[ex:2a\]
+-   is the verb in \[ex:learn\] transitive?
+-   those in \[ex:2sub\] and \[ex:1sub\] are subordinate
+
+(2a)
+
+1)  Yawarana (convhistfamsjm-13)  
+    tëwï  ma     takï   më-yakarama-Ø  chi-jpëwara  rë    kwa ta  sënka-toj          mëtë  
+    3SG   RESTR  CNFRM  2-tell-IPFV    COP-NZRlike  EMPH  thus    get.finished-CIRC  there  
+    ‘‘cuenta otra vez como terminaron ahí’’
+
+2)  Yawarana (ctovarmafl-324)  
+    michi   ma     më-yapëj-jrama  
+    3AN:PX  RESTR  2-seize-PROH  
+    ‘‘esto no lo toques’’
+
+3)  Yawarana (histyarirdi-633)  
+    më-ini-ja  ka  anikipinchi  tënësem  warai  yi-chapë     okono-tojpe  
+    2-see-NEG  QP  whoblank     fish     like   put-ABS.NZR  get.dry-PURP  
+    ‘‘usted no ha visto un pescado que se pone, para que se seque’’
+
+(learn)
+
+1)  Yawarana (convhistfamsjm-15)  
+    kwase  më-ëmpamï-jpë  ejnë  waimu-Ø     yaye  
+    how    2-learn-PST    1+2   speak-NMLZ  PERL  
+    ‘‘como aprendiste nuestro idioma’
+
+2)  Yawarana (convhistfamsjm-238)  
+    irëjpë  kwaraijyawë  rë    më-ëmpamï-jpë  tajto  marë         ti  
+    then    when         EMPH  2-learn-PST           keeps.going  like  
+    ‘‘después, cuando aprediste lo que dices?’’
+
+(2sub)
+
+1)  Yawarana (convfemgrme-43)  
+    mërë  warë  më-yënë-tojpano       ka  u-y-akërë    mërë  wepï-rï  
+    2SG   thus  2-eat.meat-FIN:CONCL  QP  1SG-REL-COM  2SG   come-IPFV  
+    ‘‘así para tú comer tu viniste conmigo?’’
+
+2)  Yawarana (ctoaragrme-5)  
+    më-yakarama-Ø  mare  
+    2-tell-IPFV    IN.REL  
+    ‘ese que tu estás diciendo’
+
+> (1sub) Yawarana
+> <pre>
+> u-yepema-toj  pe   pïrarë   wïrë  inawë  
+> 1SG-pay-CIRC  ESS  nothing  1SG   in.possesion  
+> ‘‘yo no tengo para pagar’’</pre>
+
+-   1\>2:
+
+()
+
+1)  Yawarana (convfemgrme-231)  
+    entë  më-in-pojra    wïrë  ya  
+    here  2-see-NEG.DES  1SG   ERG  
+    ‘‘yo no los quiero ver aquí’’
+
+2)  Yawarana (convfemgrme-232)  
+    më-ini-Ø    wïrë  ya  
+    2-see-IPFV  1SG   ERG  
+    ‘‘te voy a ver’’
+
+3)  Yawarana (ctovarmafl-283)  
+    tëwï  ke     ma     më-yepema-Ø  wïrë  ya   ta-Ø      ti    ta  
+    3SG   INSTR  RESTR  2-pay-IPFV   1SG   ERG  say-IPFV  like  like  
+    ‘‘te pago con esto no más, dijo’’
 
 -   one attested case of *ta-* ‘3\>3’ on the lexical verb of a *-pëkë*
     construction w/ 2nd person A on AUX \[todo: which one?\]
@@ -728,34 +805,34 @@ shown in \[Table\]. They are discussed in
 | *-nëpëkë* ‘PROG.INTR’ | PROG.INTR       |
 | *pëkë* ‘about’        | PROG.TR         |
 | *‑tojpano*            | FUT             |
-| (*-tojpe* )           | FUT             |
+| (*-tojpe*)            | FUT             |
 | *-ja*                 | NEG             |
-| *-se* *-mï*           | ‘obligation’    |
+| \_-se\_\_-mï\_        | ‘obligation’    |
 | *-në*                 | impersonal S    |
 | *-topo*               |                 |
 
-| Suffix                     | Function             |
-|:---------------------------|:---------------------|
-| *‑jrama*                   | PROH                 |
-| *-i*                       | JUSS                 |
-| *-kë* / ‑*të*\_-kë\_       | IMP / IMP.PL         |
-| *-ta* / *-ta* *ntë*\_-kë\_ | IMP.MOT / IMP.MOT.PL |
+| Suffix                  | Function             |
+|:------------------------|:---------------------|
+| *‑jrama*                | PROH                 |
+| *-i*                    | JUSS                 |
+| *-kë* / ‑*të*\_-kë\_    | IMP / IMP.PL         |
+| *-ta* / *-tantë*\_-kë\_ | IMP.MOT / IMP.MOT.PL |
 
 Misc:
 
--   *-se* =*pano* ‘PST=CONCL’
--   *-saj* =*pano* ‘PFV=CONCL’
--   *-sarë* =*pano* ‘IMN=CONCL’
+-   *-se*=*pano* ‘PST=CONCL’
+-   *-saj*=*pano* ‘PFV=CONCL’
+-   *-sarë*=*pano* ‘IMN=CONCL’
 
 ### *-ri* <a id>=‘sec:riipfv’\><a/>
 
 -   allomorphy:
-    -   *-∅* ‘IPFV’ , phonetic loss
-    -   *-ru* ‘IPFV’ , assimilation
-    -   what about *-rï* ‘IPFV’ ? looks like the most conservative form
+    -   *-∅* ‘IPFV’, phonetic loss
+    -   *-ru* ‘IPFV’, assimilation
+    -   what about *-rï* ‘IPFV’? looks like the most conservative form
 -   diachrony: *-ri* ‘ACNNMLZ’
 -   pluralization?
--   combines with *-jra* ‘NEG’ :
+-   combines with *-jra* ‘NEG’:
 
 > (convrisamaj-4) Yawarana
 > <pre>
@@ -802,7 +879,7 @@ Misc:
 
 ### *-se*
 
--   allomorphy: *-se* /*-che* ‘PTCP / SUP’
+-   allomorphy: *-se*/*-che* ‘PTCP / SUP’
 -   diachrony: from *-se* ‘PTCP / SUP’
 -   negation: replaced with *-ja* ‘NEG’ \[ex:conv1stenc-28\]
 
@@ -846,7 +923,7 @@ Misc:
 > <pre>
 > pïrarë     ti   i-wena-ru     wej-sapë  
 > NEG.EXIST  HSY  3-vomit-PERT  COP-PFV  
-> ‘Their vomit was not there.’</pre>
+> ‘their vomit was not there.’</pre>
 
 ### *-sarë* <a id>=‘sec:sareimn’\><a/>
 
@@ -881,10 +958,10 @@ Misc:
     -   *‑yapo* ‘neg.purp’
     -   others?
 -   Nominalization + postposition (S/P)
-    -   *-∅* ‘IPFV’ *yawë* ‘simult’
+    -   *-∅* ‘IPFV’*yawë* ‘simult’
     -   *-∅* ‘IPFV’ *pe* ‘ESS’ ‘when’
-    -   *-saj* ‘ABS.NMLZ’ *yawë* ‘simult’
-    -   *-tojpe* ‘purpose’  
+    -   *-saj* ‘ABS.NMLZ’*yawë* ‘simult’
+    -   *-tojpe* ‘purpose’
     -   (‑jpë)=tërë ‘after’
     -   on auxiliary: *-ri* + *po* ‘CTRF’
 -   not attested:
@@ -893,12 +970,12 @@ Misc:
 
 ## Number <a id>=‘sec:verbalnumber’\><a/>
 
--   *-ri* =*-kontomo*
--   *-sapë* =*-kontomo*
--   *-saj* *-se* =*-jnë*  
--   *-se* =*-jnë* =*-kontomo*
--   *-se* =*-jnë* =*pano* (*-se* =*-jnë* =kontom=*pano*?)
--   *-të* *-kë* for the imperative
+-   *-ri*=*-kontomo*
+-   *-sapë*=*-kontomo*
+-   \_-saj\_\_-se\_=*-jnë*
+-   *-se*=*-jnë*=*-kontomo*
+-   *-se*=*-jnë*=*pano* (*-se*=*-jnë*=kontom=*pano*?)
+-   \_-të\_\_-kë\_ for the imperative
 -   what about *-i* ‘JUSS’?
 
 ## Copula / Auxiliary
@@ -974,7 +1051,7 @@ Also:
 
 ## Misc
 
--   *chi* ‘COP’ combines with *yawë* ‘LOC’ , sometimes spelled *chi
+-   *chi* ‘COP’ combines with *yawë* ‘LOC’, sometimes spelled *chi
     yawë*, sometimes *chawë*.
 -   syllable reduction
 -   postpositions on bare verbs? (e.g. *wejtawë*)
@@ -993,7 +1070,7 @@ Three kinds of particles elsewhere in the family:
 
 ## Ideophones
 
--   constructions with *nwa* ‘thus’ ? (example with *pïtï* ‘paint’)
+-   constructions with *nwa* ‘thus’? (example with *pïtï* ‘paint’)
 
 ## Interjections
 
@@ -1095,7 +1172,7 @@ juxtaposition and copular constructions.
             \[ex:ex-main-neg-part-pirare-cop-nsubj\] \[todo: @spike: I
             forgot, what was your analysis for this particular
             example?\]
-        -   it does occur with *pïnirë* ‘NEG’ , though
+        -   it does occur with *pïnirë* ‘NEG’, though
             \[ex:loc-main-neg-nsubj-cop-pinire-part\],
             \[ex:temp-main-neg-advpred-cop-pinire-nsubj\] \[todo:
             @spike: what do you think of the analysis that the copular
@@ -1149,6 +1226,103 @@ juxtaposition and copular constructions.
 -   indexation
 -   clausal particles
 
+## Intransitive clauses
+
+### First person
+
+> (convrisamaj-4) Yawarana
+> <pre>
+> wïrë  yaruwa-ri-jra  
+> 1PRO  laugh-IPFV-NEG  
+> ‘I don’t laugh.’</pre>
+
+> (convfemgrme-298) Yawarana
+> <pre>
+> këya-ja            wïrë  
+> be.interested-NEG  1SG  
+> ‘‘no sé’’</pre>
+
+> (convrisamaj-28) Yawarana
+> <pre>
+> u-y-ïwïj-∅       yawë  u-senejka-ri  sukuri    jwama  
+> 1-LK-house-PERT  LOC   1-stay-IPFV   silently  ***  
+> ‘I silently stay in my house.’</pre>
+
+> (ctorat-23) Yawarana
+> <pre>
+> aaa  u-suku-ru     morone   ta    wïrë  u-sujta-∅       ta    ne  
+> ah   1-urine-PERT  hurting  like  1PRO  1-urinate-IPFV  like  INTS  
+> ‘My urine hurts, I will urinate.’</pre>
+
+-   not attested: prefixed verb followed by pronoun
+
+### Second person
+
+> (convamgu-7) Yawarana
+> <pre>
+> toto-tomo      pata-Ø     yaka  më-të-ja  
+> non.indian-PL  town-POSS  into  2-go-NEG  
+> ‘tu no (puedes) ir al pueblo de los criollos’</pre>
+
+-   not attested: pronoun
+
+### Third person
+
+> (ctorat-6) Yawarana
+> <pre>
+> wïnïj-se  
+> sleep-PST  
+> ‘He slept.’</pre>
+
+> (ctorat-16) Yawarana
+> <pre>
+> irëjpë  tëwï  waijta-tomo  nwajtë-ri  
+> then    3PRO  mouse-PL     dance-IPFV  
+> ‘Then the mice were dancing.’</pre>
+
+> (histgrme-83) Yawarana
+> <pre>
+> wepï-rï    makë  
+> come-IPFV  mother:VOC  
+> ‘‘viene mi mamá’’</pre>
+
+> (desccasagrme-28) Yawarana
+> <pre>
+> tëwï  nwajtë-nëpëkë  
+> 3SG   dance-INTR.PROG  
+> ‘‘él... se la pasaba bailando’’</pre>
+
+> (convfemgrme-113) Yawarana
+> <pre>
+> ë'ë  tawara  takï   chapëti-ri   tëwï  
+> yes  thus    CNFRM  scream-IPFV  3SG  
+> ‘‘sí, también grita ese’’</pre>
+
+-   *të* ‘go’ has an irregular third person marker *ij-* ‘3’
+
+> (ctorat-45) Yawarana
+> <pre>
+> waraijtokon  maniki    irëjpë  ij-të-se  
+> man          REL.ANIM  then    3-go-PST  
+> ‘Then the man went.’</pre>
+
+## Transitive clauses
+
+There are several factors that play a role here:
+
+1.  presence or absence of prefix
+2.  presence or absence of pronouns and NPs
+3.  order of free arguments
+4.  presence or absence of *ya* ‘ERG’
+
+### Third on third
+
+> (convcosnoind-132) Yawarana
+> <pre>
+> tëwï  ya   nepï-jpë   wej-sapë  
+> 3SG   ERG  bring-PST  COP-PERF  
+> ‘‘él lo trajo’’</pre>
+
 # Questions <a id>=‘questions’\><a/>
 
 TBD
@@ -1174,6 +1348,14 @@ TBD
 -   +mapping between matrix and subordinate
 
 # Word order variation <a id>=‘wordorder’\><a/>
+
+## Transitive clauses
+
+> (histyarirdi-615) Yawarana
+> <pre>
+> wïrë  ini-ja   tëwï  
+> 1SG   see-NEG  3SG  
+> ‘‘yo no ví eso’’</pre>
 
 ## Nonverbal predication <a id>=‘nvp-order’\><a/>
 

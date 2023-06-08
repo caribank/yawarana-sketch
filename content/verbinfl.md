@@ -4,10 +4,26 @@
 
 ## Person prefixes [label](sec:verbperson)
 Verbs are inflected for person with a set of prefixes, shown in [ref](tab:verbprefixes).
-First and second person prefixes show ergative alignment, expressing [gl](s) and [gl](p). [todo](count cases of expressing A)
+First and second person prefixes show ergative alignment, expressing [gl](s) and [gl](p).
 Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [mp](ta-3?nt) in [gl](3)>[gl](3) scenarios.[todo](mentionworthy that this is not in alternation with preceding NPs)
 
 [table](verbprefixes)
+
+* [mp](me2) marking A in [exref](2a)
+* is the verb in [exref](learn) transitive?
+* those in [exref](2sub) and [exref](1sub) are subordinate
+
+[ex](ctovarmafl-324,histyarirdi-633,convhistfamsjm-13?example_id=2a)
+
+[ex](convhistfamsjm-15,convhistfamsjm-238?example_id=learn)
+
+[ex](convfemgrme-43,ctoaragrme-5?example_id=2sub)
+
+[ex](histyarirdi-875?example_id=1sub)
+
+* 1>2:
+
+ [ex](convfemgrme-231,convfemgrme-232,ctovarmafl-283)
 
 * one attested case of [mp](ta-3?translation=3>3) on the lexical verb of a _-pëkë_ construction w/ 2nd person [gl](a) on [gl](aux) [todo](which one?)
     * Ø‑ ‘[gl](3p)’ with transitive verbs with [gl](1a) or [gl](2a)

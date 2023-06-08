@@ -6,6 +6,7 @@ The system shows the usual Cariban inclusive/exclusive ([gl](1+2) and [gl](1+3))
 It is like a reflex of an old copula + infinitive *\*eti-në*. [todo](do we have parallel cases elsewhere?)
 Regarding plural marking, it should be noted that [mp](kontomopl) appears to usually be restricted to verbs, while *-santomo* is found with third person pronouns and demonstratives.
 
+
 [table](pronouns)
 
 [todo](tajne, but not attested as an article)
