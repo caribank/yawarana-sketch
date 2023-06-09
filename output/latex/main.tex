@@ -132,18 +132,29 @@ contents={\begin{tikzpicture}[remember picture,overlay]
 \newGlossingAbbrev{psn}{person?}
 \newGlossingAbbrev{caus}{causative}
 \newGlossingAbbrev{cntr}{unknown abbreviation}
-\newGlossingAbbrev{q}{question particle/marker}
+\newGlossingAbbrev{surp}{unknown abbreviation}
 \newGlossingAbbrev{exist}{unknown abbreviation}
 \newGlossingAbbrev{eval}{unknown abbreviation}
-\newGlossingAbbrev{obl}{oblique}
-\newGlossingAbbrev{fmr}{unknown abbreviation}
-\newGlossingAbbrev{post}{unknown abbreviation}
-\newGlossingAbbrev{pol}{unknown abbreviation}
 \newGlossingAbbrev{foc}{focus}
+\newGlossingAbbrev{fmr}{unknown abbreviation}
+\newGlossingAbbrev{m}{masculine}
+\newGlossingAbbrev{q}{question particle/marker}
+\newGlossingAbbrev{k}{unknown abbreviation}
+\newGlossingAbbrev{hes}{unknown abbreviation}
+\newGlossingAbbrev{e}{unknown abbreviation}
+\newGlossingAbbrev{hort}{unknown abbreviation}
+\newGlossingAbbrev{pol}{unknown abbreviation}
+\newGlossingAbbrev{c}{unknown abbreviation}
+\newGlossingAbbrev{j}{unknown abbreviation}
+\newGlossingAbbrev{obl}{oblique}
+\newGlossingAbbrev{post}{unknown abbreviation}
+\newGlossingAbbrev{ill}{unknown abbreviation}
+\newGlossingAbbrev{aq}{unknown abbreviation}
+\newGlossingAbbrev{y}{unknown abbreviation}
+\newGlossingAbbrev{_a}{unknown abbreviation}
 \newGlossingAbbrev{n}{neuter}
-\newGlossingAbbrev{fin}{unknown abbreviation}
-\newGlossingAbbrev{qp}{unknown abbreviation}
-\newGlossingAbbrev{instr}{unknown abbreviation}
+\newGlossingAbbrev{h}{unknown abbreviation}
+\newGlossingAbbrev{t}{unknown abbreviation}
 \newGlossingAbbrev{pst.abs.nmlz}{unknown abbreviation}
 \newGlossingAbbrev{3p}{unknown abbreviation}
 \newGlossingAbbrev{1a}{unknown abbreviation}
@@ -205,7 +216,7 @@ variation:
 The consonant phonemes of Yawarana are shown in \cref{tab:consonants},
 vowel phonemes in \cref{tab:vowels}.
 
-\begin{table}
+\begin{table}[h]
 \caption{Consonant phonemes}
 \label{tab:consonants}
 \centering
@@ -223,7 +234,7 @@ fricative &          &     /s/  &         &       &    /h/  \\
 
 \end{table}
 
-\begin{table}
+\begin{table}[h]
 \caption{Vowel phonemes}
 \label{tab:vowels}
 \centering
@@ -277,7 +288,6 @@ close &  /i/  &    /ɨ/  & /u/  \\
   \item
     /ai/, /aw/, /ei/\ldots{} test combinations
   \item
-    {[}todo: au or aw? ai or ay?{]}
   \end{itemize}
 \end{itemize}
 
@@ -340,8 +350,6 @@ e.g.~\obj{wajto} `fire'
 \subsection{\texorpdfstring{Intonational Phrases
 \label{sec:intphrases}}{Intonational Phrases }}
 
-{[}todo: f0 increase associated w/ pitch reset, clause boundaries?{]}
-
 \subsection{\texorpdfstring{Intonational Melodies
 \label{sec:intmelodies}}{Intonational Melodies }}
 
@@ -368,10 +376,9 @@ e.g.~\obj{wajto} `fire'
 \item
   copredicative function
 \item
-  no person inflection {[}todo: except some deverbalized ones?{]}
+  no person inflection
 \item
-  deriving aderbs: \obj{-ke} `\gl{prop}' {[}todo: -ke is negated with
-  -jra only when on noun roots?{]}
+  deriving aderbs: \obj{-ke} `\gl{prop}'
 \end{itemize}
 
 \section{Shared morphology}
@@ -397,94 +404,90 @@ e.g.~\obj{wajto} `fire'
 
 The personal pronouns of Yawarana are shown in \cref{tab:pronouns}. The
 system shows the usual Cariban inclusive/exclusive (\gl{1+2} and
-\gl{1+3}) distinction, although \obj{ejnë} `\gl{1+2}\gl{pro}' does not
-have the /k/ found elsewhere in the family. It is like a reflex of an
-old copula + infinitive \emph{*eti-në}. {[}todo: do we have parallel
-cases elsewhere?{]} Regarding plural marking, it should be noted that
-\obj{-kontomo} `\gl{pl}' appears to usually be restricted to verbs,
-while \emph{-santomo} is found with third person pronouns and
-demonstratives.
+\gl{1+3}) distinction, though the 1+2 pronoun \obj{ejnë} does not have
+the /k/ found elsewhere in the family. It is likely a reflex of an old
+copula + infinitive \emph{*eti-në}. Regarding plural marking, it should
+be noted that \obj{-kontomo}, which appears on the second person plural
+pronoun, is usually restricted to verbs, while \emph{-santomo} is only
+found with third person pronouns and demonstratives.
 
-\begin{table}
+\begin{table}[h]
 \caption{Pronouns}
 \label{tab:pronouns}
 \centering
 \begin{tabular}{lll}
 \toprule
-         &                     \gl{sg} &                                    \gl{pl} \\
+         &    \gl{sg} &           \gl{pl} \\
 \midrule
-  \gl{1} & \obj{wïrë} ‘\gl{1}\gl{pro}’ &                                            \\
-\gl{1+2} &                             &              \obj{ejnë} ‘\gl{1+2}\gl{pro}’ \\
-\gl{1+3} &                             &               \obj{ana} ‘\gl{1+3}\gl{pro}’ \\
-  \gl{2} & \obj{mërë} ‘\gl{2}\gl{pro}’ &  \obj{monkontomo} ‘\gl{2}\gl{pl}.\gl{pro}’ \\
-  \gl{3} & \obj{tëwï} ‘\gl{3}\gl{pro}’ & \obj{tëwïsantomo} ‘\gl{3}\gl{pro}.\gl{pl}’ \\
+  \gl{1} & \obj{wïrë} &                   \\
+\gl{1+2} & \obj{ejnë} &                   \\
+\gl{1+3} &  \obj{ana} &                   \\
+  \gl{2} & \obj{mërë} &  \obj{monkontomo} \\
+  \gl{3} & \obj{tëwï} & \obj{tëwïsantomo} \\
 \bottomrule
 \end{tabular}
 
 \end{table}
 
-{[}todo: tajne, but not attested as an article{]}
-
 Reduced forms of the first and second person pronouns occur as
-proclitics {[}todo: proclitics or prefixes?{]} attaching to nouns to
-indicate possessor (\cref{sec:nominalperson}), attached to verbs to
-indicate subject or object (described in \cref{verbinfl}), or attached
-to postpositions to indicate the object of the postposition (described
-in \cref{sec:postinfl}):
+proclitics/prefixes attaching to nouns to indicate possessor (see
+\cref{sec:nominalperson}), attached to verbs to indicate the A or P
+argument (see \cref{verbinfl}), or attached to postpositions to indicate
+the argument of the postposition (see \cref{sec:postinfl}). The
+occurrence of bound \obj{u-} `\gl{1}' on members of all three parts of
+speech is illustrated in \exref[]{1marking}; \exref[]{2marking}
+illustrates the same distribution for \obj{më-} `\gl{2}'.
 
-\ex \label{convrisamaj-28}
-\begingl \glpreamble uyïwïj yawë usenejkari sukuri jwama //
-\gla u-y-ïwïj-∅ yawë u-senejka-ri sukuri jwama//
-\glb \gl{1}-\gl{lk}-house-\gl{pert} \gl{loc} \gl{1}-stay-\gl{ipfv} silently ***//
-\glft ‘I silently stay in my house.’ (personal knowledge
-)//
-\endgl
+\pex\label{1marking}    \a     \label{convrisamaj-46}        \begingl
+        \glpreamble uyarë wïrë përemekïrï //
+        \gla u-yarë wïrë përemekï-rï//
+        \glb \gl{1}-alone \gl{1}\gl{pro} talk-\gl{ipfv}//
+            \glft ‘I just talk.’//  
+        \endgl 
+    \a     \label{histyarirdi-723}        \begingl
+        \glpreamble irë nwa chipëkë usamori uyïpï incharë //
+        \gla irë nwa chipëkë u-samo-ri u-yïpï-∅ in-charë//
+        \glb \gl{3}\gl{ana}.\gl{inan} thus *** \gl{1}-cry-\gl{ipfv} \gl{1}-mountain-\gl{pert} see-\gl{imn}//
+            \glft ‘that's why I'm crying seeing my hills (auto)’//  
+        \endgl 
 \xe
 
-\ex \label{desccasmaj-25}
-\begingl \glpreamble mënai wëjkase chijpë wararë //
-\gla më-nai-Ø wëjka-se chi-jpëwara rë//
-\glb \gl{2}-thing-\gl{poss} fall-\gl{pfv}.\gl{pst} \gl{cop}-NZRlike \gl{emph}//
-\glft ‘‘se cayó tu cosa’’ (personal knowledge
-)//
-\endgl
-\xe
-
-\ex \label{convrisamaj-2}
-\begingl \glpreamble mëyaruwari, mëpëkëpene //
-\gla më-yaruwa-ri më-pëkëpene//
-\glb \gl{2}-laugh-\gl{ipfv} \gl{2}-alone//
-\glft ‘You just laugh.’ (personal knowledge
-)//
-\endgl
-\xe
-
-\ex \label{ctoaragrme-7}
-\begingl \glpreamble moyochi //
-\gla moyochi//
-\glb spider//
-\glft ‘la araña’ (personal knowledge
-)//
-\endgl
+\pex\label{2marking}    \a     \label{ctovarmafl-443}        \begingl
+        \glpreamble ¿ mëpana ma tataja wejsapë? //
+        \gla më-pana ma ta-ta-ja wejsapë//
+        \glb \gl{2}-\gl{dat} \gl{rst} \gl{3}\gl{p}-say-\gl{neg} ?//
+            \glft ‘didn't he say it directly to you? (auto)’//  
+        \endgl 
+    \a     \label{histpajirdi-114}        \begingl
+        \glpreamble mëtojpa wïrë //
+        \gla më-tojpa-∅ wïrë//
+        \glb \gl{2}-hit-\gl{ipfv} \gl{1}\gl{pro}//
+            \glft ‘I will beat you to death (auto)’//  
+        \endgl 
+    \a     \label{histyarirdi-160}        \begingl
+        \glpreamble weroro wëra këyetari mëmukuru //
+        \gla weroro wëra këyetari më-muku-ru//
+        \glb dog like ? \gl{2}-child-\gl{pert}//
+            \glft ‘your children grow up like dogs (auto)’//  
+        \endgl 
 \xe
 
 The third person demonstrative pronouns or articles are shown in
-\cref{tab:pronouns3}. {[}todo: is there a 4‑way distinction?
-{[}cf.~Ye'kwana?{]}{]} None of them have shortened, phonologically bound
-counterparts.
+\cref{tab:pronouns3}. None of them have shortened and phonologically
+bound counterparts.
 
-\begin{table}
+\begin{table}[h]
 \caption{Demonstrative pronouns / articles}
 \label{tab:pronouns3}
 \centering
 \begin{tabular}{lllll}
 \toprule
-              & \multicolumn{2}{l}{\gl{anim}} & \multicolumn{2}{l}{\gl{inan}} \\
+             & \multicolumn{2}{l}{\gl{anim}} & \multicolumn{2}{l}{\gl{inan}} \\
 \midrule
-              &                                            \gl{sg} &                                            \gl{pl} &                           \gl{sg} &                                      \gl{pl} \\
-    \gl{prox} &                   \obj{kërë} ‘\gl{prox}.\gl{anim}’ &    \obj{kërësantomo} ‘\gl{prox}.\gl{anim}.\gl{pl}’ &   \obj{eni} ‘\gl{prox}.\gl{inan}’ &   \obj{enijne} ‘\gl{prox}.\gl{inan}.\gl{pl}’ \\
-medial? near? & \obj{michi} ‘\gl{med}.\gl{anim}’ / \obj{misi} ‘... & \obj{michisantomo} ‘\gl{med}.\gl{inan}.\gl{pl}’... &   \obj{mërë} ‘\gl{med}.\gl{inan}’ &                                              \\
-    \gl{dist} &                  \obj{mëjkï} ‘\gl{dist}.\gl{anim}’ &    \obj{mëkïsantomo} ‘\gl{dist}.\gl{anim}.\gl{pl}’ & \obj{mëjnï} ‘\gl{dist}.\gl{inan}’ & \obj{mëjnijne} ‘\gl{dist}.\gl{inan}.\gl{pl}’ \\
+             &                   \gl{sg} &                              \gl{pl} &     \gl{sg} &        \gl{pl} \\
+   \gl{prox} &                \obj{kërë} &                    \obj{kërësantomo} &   \obj{eni} &   \obj{enijne} \\
+medial/near? & \obj{michi} / \obj{misi}  & \obj{michisantomo} / \obj{michitomo} &  \obj{mërë} &                \\
+   \gl{dist} &               \obj{mëjkï} &                    \obj{mëkïsantomo} & \obj{mëjnï} & \obj{mëjnijne} \\
 \bottomrule
 \end{tabular}
 
@@ -501,12 +504,8 @@ medial? near? & \obj{michi} ‘\gl{med}.\gl{anim}’ / \obj{misi} ‘... & \obj{
     \obj{anïkï} `who' (with \emph{-santomo})
   \item
     \obj{ati} `what' (no plural)
-  \item
-    \emph{ëjkë} `which? (\gl{inan})'
   \end{itemize}
 \end{itemize}
-
-{[}todo: Are there plural forms of any of these?{]}
 
 \section{\texorpdfstring{Nominal inflection
 \label{sec:nouninfl}}{Nominal inflection }}
@@ -516,38 +515,35 @@ Nouns in Yawarana may bear suffixes marking their possession status
 past tense (\cref{sec:nominaltense}). Possessed nouns may bear a person
 prefix, or the linker \obj{y-} (\cref{sec:nominalperson}).
 
-{[}todo: noun classes re: possession{]}
-
 \subsection{\texorpdfstring{Suffixes for possessed and non-possessed
 nouns
 \label{sec:nounposssuf}}{Suffixes for possessed and non-possessed nouns }}
 
 In the possession construction in Yawarana, the possessor noun occurs
 immediately preceding the possessed noun, which is the head of the
-possession phrase. {[}todo: crossref to phrase structure{]}
-Alternatively, the possessor can appear as a prefix on the possessed
-noun. The possessor noun is never marked (for instance, with genitive
-case), but the possessed noun (the head) is often marked for being
-possessed by a suffix; an unambiguous label for this counterpart of the
-genitive is pertensive \parencites{dixon2010basic}. The choice of suffix
-is lexically conditioned; while most nouns take \obj{-ri} `\gl{pert}',
-some take \obj{-ti}. Unpossessed nouns generally are unmarked, but some
-15 nouns {[}todo: which? list nouns{]} bear the suffix \obj{-të}
-`\gl{npert}' when they appear without a possessor.
+possession phrase. Alternatively, the possessor can appear as a prefix
+on the possessed noun. The possessor noun is never marked (for instance,
+with genitive case), but the possessed noun (the head) is often marked
+for being possessed by a suffix; an unambiguous label for this
+counterpart of the genitive is pertensive \parencites{dixon2010basic}.
+The choice of suffix is lexically conditioned; while most nouns take
+\obj{-ri} `\gl{pert}', some take \obj{-ti}. Unpossessed nouns generally
+are unmarked, but some 15 nouns bear the suffix \obj{-të} `\gl{npert}'
+when they appear without a possessor.
 
 Examples \exref[][unsuffixednouns]{onlypossessed} illustrate the
 possible patterns of markedness for nouns when possessed and
 unpossessed. The vast majority of nouns in our corpus are unmarked when
 unpossessed, but when possessed the suffix \obj{-ri} `\gl{pert}' occurs
-\exref[]{onlypossessed}. A handful of nouns {[}todo: i.e., the 15?{]} is
-marked with \obj{-ri}/\obj{-ti} `\gl{pert}' when possessed and with
-\obj{-të} `\gl{npert}' when not possessed \exref[]{diffpossessed}.
-Another handful is unmarked when possessed and marked with \obj{-të}
-`\gl{npert}' when not possessed \exref[]{suffunpossessed}. The fourth
-logical category, where neither possession or non-possession is marked,
-contains very few members (only one attested so far). For these nouns,
-the difference is marked only by the presence or absence of a possessive
-prefix or free-form possessor \exref[]{unsuffixednouns}.
+\exref[]{onlypossessed}. A handful of nouns is marked with
+\obj{-ri}/\obj{-ti} `\gl{pert}' when possessed and with \obj{-të}
+`\gl{npert}' when not possessed \exref[]{diffpossessed}. Another handful
+is unmarked when possessed and marked with \obj{-të} `\gl{npert}' when
+not possessed \exref[]{suffunpossessed}. The fourth logical category,
+where neither possession or non-possession is marked, contains very few
+members (only one attested so far). For these nouns, the difference is
+marked only by the presence or absence of a possessive prefix or
+free-form possessor \exref[]{unsuffixednouns}.
 
 \ex\label{onlypossessed} Nouns that take a suffix only when possessed:
 
@@ -652,17 +648,17 @@ first and second person are bare \obj{u-} `\gl{1}' and \obj{më-}
 linker \obj{y-}. Some examples are shown in
 \exref[][lastex]{convrisamaj-28}.
 
-\begin{table}
+\begin{table}[h]
 \caption{Possessive prefixes on nouns}
 \label{tab:possprefixes}
 \centering
 \begin{tabular}{lll}
 \toprule
-       &                \_C &                                  \_V \\
+       &       \_C &               \_V \\
 \midrule
-\gl{1} &  \obj{u-} ‘\gl{1}’ &  \obj{u-} ‘\gl{1}’\obj{y-} ‘\gl{lk}’ \\
-\gl{2} & \obj{më-} ‘\gl{2}’ & \obj{më-} ‘\gl{2}’\obj{y-} ‘\gl{lk}’ \\
-\gl{3} &  \obj{i-} ‘\gl{3}’ &                             \obj{t-} \\
+\gl{1} &  \obj{u-} &  \obj{u-}\obj{y-} \\
+\gl{2} & \obj{më-} & \obj{më-}\obj{y-} \\
+\gl{3} &  \obj{i-} &          \obj{t-} \\
 \bottomrule
 \end{tabular}
 
@@ -700,33 +696,30 @@ The linker also occurs with (pro-)nominal possessors:
 \ex \label{desccasmaj-131}
 \begingl \glpreamble tarine ma //
 \gla tarine ma//
-\glb fast \gl{restr}//
+\glb fast \gl{rst}//
 \glft ‘None’ (personal knowledge
 )//
 \endgl
 \xe
 
-There are some nouns {[}todo: presumably kinship terms{]} that take an
-apparently older old second person \obj{a-} `\gl{2}'
-(\cref{tab:oldpossprefixes}).
+There are some nouns that take an apparently older old second person
+\obj{a-} `\gl{2}' (\cref{tab:oldpossprefixes}).
 
-\begin{table}
+\begin{table}[h]
 \caption{Archaic possessive prefixes on nouns}
 \label{tab:oldpossprefixes}
 \centering
 \begin{tabular}{lll}
 \toprule
-       &               \_C &                                 \_V \\
+       &      \_C &              \_V \\
 \midrule
-\gl{1} & \obj{u-} ‘\gl{1}’ & \obj{u-} ‘\gl{1}’\obj{y-} ‘\gl{lk}’ \\
-\gl{2} & \obj{a-} ‘\gl{2}’ & \obj{a-} ‘\gl{2}’\obj{y-} ‘\gl{lk}’ \\
-\gl{3} & \obj{i-} ‘\gl{3}’ &                   \obj{t-} ‘\gl{3}’ \\
+\gl{1} & \obj{u-} & \obj{u-}\obj{y-} \\
+\gl{2} & \obj{a-} & \obj{a-}\obj{y-} \\
+\gl{3} & \obj{i-} &         \obj{t-} \\
 \bottomrule
 \end{tabular}
 
 \end{table}
-
-{[}todo: find more examples of these{]}
 
 \subsection{\texorpdfstring{Root suppletion in nominal possession
 \label{sec:irregnouns}}{Root suppletion in nominal possession }}
@@ -776,18 +769,17 @@ candidates:
   \begin{itemize}
   \tightlist
   \item
-    \obj{-ri} `action \gl{nmlz}' {[}todo: potentially A.NMLZ{]}
+    \obj{-ri} `action \gl{nmlz}'
   \item
     \obj{-jpë} `\gl{pst}.\gl{acnnmlz}'
 
     \begin{itemize}
     \tightlist
     \item
-      also `\gl{pst}.\gl{abs}.\gl{nmlz}' {[}todo: convsuenmaj-47{]}
+      also `\gl{pst}.\gl{abs}.\gl{nmlz}'
     \end{itemize}
   \item
-    \obj{-në} `\gl{inf}' or `generic action nominalizer' {[}todo: this
-    probably only occurs on intransitive verbs{]}
+    \obj{-në} `\gl{inf}' or `generic action nominalizer'
 
     \begin{itemize}
     \tightlist
@@ -795,8 +787,7 @@ candidates:
       \emph{wënkej-në} from transitive \emph{wënkepï} `forget'
     \end{itemize}
   \item
-    \obj{-ni} `\gl{agtnmlz}' {[}todo: ctoyucairdi-4, descokigrme-53 for
-    predicative use{]}
+    \obj{-ni} `\gl{agtnmlz}'
   \item
     \obj{n-}V\obj{-ri} only with \obj{yeme} 'eat(fruits,\_eggs,\_soup)'
   \item
@@ -805,8 +796,7 @@ candidates:
   \item
     \obj{-topo} `\gl{circ}.\gl{nmlz}'
   \item
-    \obj{‑pïnï} `\gl{priv}.\gl{nmlz}' {[}todo: only found with -se-mï,
-    not attested as nominalizer{]}
+    \obj{‑pïnï} `\gl{priv}.\gl{nmlz}'
   \end{itemize}
 \item
   Adv → N
@@ -848,9 +838,9 @@ candidates:
   \item
     \ex \label{histyarirdi-592}
     \begingl \glpreamble pata penarëjpë mëtë ta, mërë Cerro Muñeca tajtoj mare toto ya //
-    \gla pata-Ø penarë-jpë mëtë ta mërë Cerro Muñeca taj-toj mare toto ya//
-    \glb town-\gl{poss} before-\gl{pst}.\gl{psn} there like \gl{2}\gl{sg}  say-\gl{circ} \gl{in}.\gl{rel} non.indian \gl{erg}//
-    \glft ‘‘ahí se ve el sitio donde vivian, donde los criollos llama Cerro Muñeca’’ (personal knowledge
+    \gla pata penarëjpë mëtë ta mërë cerro muñeca taj-toj mare toto ya//
+    \glb ? *** ? ? ? *** *** say-\gl{circ}.\gl{nmlz} ? non\_Indian ?//
+    \glft ‘here you can see the place where they lived, where the criollos call Cerro Muñeca (auto)’ (personal knowledge
     )//
     \endgl
     \xe
@@ -869,21 +859,21 @@ criterion distinguishing the two classes is the third person prefix
 \obj{yawanka} `kill' can take \obj{ta-} \exref[]{convfemgrme-217}, but
 intransitive \obj{yaruwa} `laugh' does not \exref[]{convrisamaj-42}.
 
-\pex\label{}    \a Yawarana\\
-    \label{convrisamaj-42}        \begingl
+\pex\label{}    \a     \label{convrisamaj-42}        \begingl
         \glpreamble yaruwakontomo yatum ponoko //
         \gla yaruwa-∅-kontomo yatum ponoko//
         \glb laugh-\gl{ipfv}-\gl{pl} day ***//
             \glft ‘They laugh every day.’//  
         \endgl 
-    \a Yawarana\\
-    \label{convfemgrme-217}        \begingl
+    \a     \label{convfemgrme-217}        \begingl
         \glpreamble iyawë chipëkë, tayawankase //
-        \gla i- yawë chi-Ø pëkë ta-yawanka-se//
-        \glb \gl{3}- \gl{ctmp} \gl{cop}-\gl{ipfv} because \gl{3}\gl{o}-destroy-\gl{pfv}.\gl{pst}//
-            \glft ‘‘por eso, la mató’’//  
+        \gla i-yawë chipëkë ta-yawanka-se//
+        \glb \gl{3}-\gl{loc} *** \gl{3}\gl{p}-kill-\gl{pst}//
+            \glft ‘therefore, he killed her (auto)’//  
         \endgl 
 \xe
+
+: -nëpëkë and -tëpëkë)
 
 \begin{itemize}
 \item
@@ -901,9 +891,7 @@ intransitive \obj{yaruwa} `laugh' does not \exref[]{convrisamaj-42}.
   etymologically or not because \obj{y-} `\gl{lk}' is added to all
   vowel‑initial roots
 \item
-  the \emph{y‑} disappears when preceded by the detransitivizer {[}todo:
-  examples for detransitivized verbs{]} {[}todo: what about V-initial
-  intransitive verbs? how are they inflected?{]}
+  the \emph{y‑} disappears when preceded by the detransitivizer
 \end{itemize}
 
 \section{\texorpdfstring{Verbalizing suffixes
@@ -918,7 +906,7 @@ with them.
 
 \obj{-ta} `\gl{vbz}.\gl{intr}' derives intransitive verbs.
 
-\begin{table}
+\begin{table}[h]
 \caption{Lexemes derived with \emph{-ta}}
 \label{tab:tavbz}
 \centering
@@ -960,8 +948,6 @@ Base & Derivation \\
 \subsubsection{\texorpdfstring{\emph{-pamï} /
 \emph{-mamï}}{-pamï / -mamï}}
 
-{[}todo: check for -pantari{]} {[}todo: check tri and way{]}
-
 \subsection{Transitive}
 
 \subsubsection{\texorpdfstring{-ka \label{sec:kavbz}}{-ka }}
@@ -991,8 +977,6 @@ Base & Derivation \\
 \subsection{\texorpdfstring{Detransitivizing prefixes
 \label{sec:detrz}}{Detransitivizing prefixes }}
 
-{[}todo: distribution? morphemic analysis?{]}
-
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
@@ -1008,9 +992,8 @@ Base & Derivation \\
 \begin{itemize}
 \tightlist
 \item
-  \obj{-ma} `\gl{caus}' {[}todo: from verbs or only nouns?{]}
+  \obj{-ma} `\gl{caus}'
 \item
-  {[}todo: -nïkï / -nïpï / -nëpï{]}
 \item
   does \obj{-ka} `\gl{vbz}.\gl{tr}' go on intransitive verb stems?
 \end{itemize}
@@ -1040,8 +1023,6 @@ Base & Derivation \\
 \chapter{\texorpdfstring{Verbal inflection
 \label{verbinfl}}{Verbal inflection }}
 
-{[}todo: write an introduction{]}
-
 \section{\texorpdfstring{Person prefixes
 \label{sec:verbperson}}{Person prefixes }}
 
@@ -1049,21 +1030,20 @@ Verbs are inflected for person with a set of prefixes, shown in
 \cref{tab:verbprefixes}. First and second person prefixes show ergative
 alignment, expressing \gl{s} and \gl{p}. Intransitive verbs are not
 overtly inflected for third person, while transitive verbs show an
-optional \obj{ta-} in \gl{3}\textgreater{}\gl{3} scenarios.{[}todo:
-mentionworthy that this is not in alternation with preceding NPs{]}
+optional \obj{ta-} in \gl{3}\textgreater{}\gl{3} scenarios.
 
-\begin{table}
+\begin{table}[h]
 \caption{Person marking prefixes on verbs}
 \label{tab:verbprefixes}
 \centering
 \begin{tabular}{lll}
 \toprule
-         &          \gl{intr} &                           \gl{tr} \\
+         & \gl{intr} &   \gl{tr} \\
 \midrule
-  \gl{1} &  \obj{u-} ‘\gl{1}’ &                 \obj{u-} ‘\gl{1}’ \\
-  \gl{2} & \obj{më-} ‘\gl{2}’ &                \obj{më-} ‘\gl{2}’ \\
-\gl{1+2} &      \emph{ej(n)-} &                     \emph{ej(n)-} \\
-  \gl{3} &                  ∅ & \obj{ta-} ‘\gl{3}\gl{p} / \gl{3}’ \\
+  \gl{1} &  \obj{u-} &  \obj{u-} \\
+  \gl{2} & \obj{më-} & \obj{më-} \\
+\gl{1+2} & \obj{ej-} & \obj{ej-} \\
+  \gl{3} &         ∅ & \obj{ta-} \\
 \bottomrule
 \end{tabular}
 
@@ -1079,66 +1059,59 @@ mentionworthy that this is not in alternation with preceding NPs{]}
   those in \exref[]{2sub} and \exref[]{1sub} are subordinate
 \end{itemize}
 
-\pex\label{2a}    \a Yawarana\\
-    \label{convhistfamsjm-13}        \begingl
+\pex\label{2a}    \a     \label{convhistfamsjm-13}        \begingl
         \glpreamble tëwï ma takï mëyakarama chijpë wararë kwa ta sënkatoj mëtë //
-        \gla tëwï ma takï më-yakarama-Ø chi-jpëwara rë kwa ta sënka-toj mëtë//
-        \glb \gl{3}\gl{sg} \gl{restr} \gl{cnfrm} \gl{2}-tell-\gl{ipfv} \gl{cop}-NZRlike \gl{emph} thus get.finished-\gl{circ} there//
-            \glft ‘‘cuenta otra vez como terminaron ahí’’//  
+        \gla tëwï ma takï mëyakarama chi-jpë wararë kwa ta sënka-toj mëtë//
+        \glb \gl{3}\gl{pro} \gl{rst} \gl{cnfrm} ? \gl{cop}-\gl{pst}.\gl{acnnmlz} ? how ? finish-\gl{circ}.\gl{nmlz} ?//
+            \glft ‘tell us again how they ended up there (auto)’//  
         \endgl 
-    \a Yawarana\\
-    \label{ctovarmafl-324}        \begingl
+    \a     \label{ctovarmafl-324}        \begingl
         \glpreamble michi ma mëyapëjjrama //
-        \gla michi ma më-yapëj-jrama//
-        \glb \gl{3}\gl{an}:\gl{px} \gl{restr} \gl{2}-seize-\gl{proh}//
-            \glft ‘‘esto no lo toques’’//  
+        \gla michi ma mëyapëjjrama//
+        \glb \gl{med}.\gl{anim} \gl{rst} ?//
+            \glft ‘do not touch this (auto)’//  
         \endgl 
-    \a Yawarana\\
-    \label{histyarirdi-633}        \begingl
+    \a     \label{histyarirdi-633}        \begingl
         \glpreamble mëinija ka, aniki pinchi, tënësem warai yichapë, okonotojpe //
-        \gla më-ini-ja ka anikipinchi tënësem warai yi-chapë okono-tojpe//
-        \glb \gl{2}-see-\gl{neg} \gl{qp} whoblank fish like put-\gl{abs}.\gl{nzr} get.dry-\gl{purp}//
-            \glft ‘‘usted no ha visto un pescado que se pone, para que se seque’’//  
+        \gla më-ini-ja ka aniki pinchi tënësem warai yichapë okonotojpe//
+        \glb \gl{2}-see-\gl{neg} ? who \gl{hes} *** like *** ***//
+            \glft ‘you have not seen a fish that is put on to dry (auto)’//  
         \endgl 
 \xe
 
-\pex\label{learn}    \a Yawarana\\
-    \label{convhistfamsjm-15}        \begingl
+\pex\label{learn}    \a     \label{convhistfamsjm-15}        \begingl
         \glpreamble kwase mëëmpamïjpë ejnë waimu yaye //
-        \gla kwase më-ëmpamï-jpë ejnë waimu-Ø yaye//
-        \glb how \gl{2}-learn-\gl{pst} \gl{1+2} speak-\gl{nmlz} \gl{perl}//
-            \glft ‘‘como aprendiste nuestro idioma’//  
+        \gla kwase më-ëmpamï-jpë ejnë waimu yaye//
+        \glb how \gl{2}-learn-\gl{pst} \gl{1+2}\gl{pro} ? \gl{loc}//
+            \glft ‘how you learned our language (auto)’//  
         \endgl 
-    \a Yawarana\\
-    \label{convhistfamsjm-238}        \begingl
+    \a     \label{convhistfamsjm-238}        \begingl
         \glpreamble irëjpë, kwaraijyawë rë mëëmpamïjpë tajto marë ti? //
         \gla irëjpë kwaraijyawë rë më-ëmpamï-jpë tajto marë ti//
-        \glb then when \gl{emph} \gl{2}-learn-\gl{pst}  keeps.going like//
-            \glft ‘‘después, cuando aprediste lo que dices?’’//  
+        \glb then *** \gl{emp} \gl{2}-learn-\gl{pst} *** ? \gl{hsy}//
+            \glft ‘Afterwards, when did you learn what you say? (auto)’//  
         \endgl 
 \xe
 
-\pex\label{2sub}    \a Yawarana\\
-    \label{convfemgrme-43}        \begingl
+\pex\label{2sub}    \a     \label{convfemgrme-43}        \begingl
         \glpreamble mërë warë mëyënëtojpano ka uyakërë mërë wepïrï //
-        \gla mërë warë më-yënë-tojpano ka u-y-akërë mërë wepï-rï//
-        \glb \gl{2}\gl{sg} thus \gl{2}-eat.meat-\gl{fin}:\gl{concl} \gl{qp} \gl{1}\gl{sg}-\gl{rel}-\gl{com} \gl{2}\gl{sg} come-\gl{ipfv}//
-            \glft ‘‘así para tú comer tu viniste conmigo?’’//  
+        \gla mërë wa=rë më-yënë-tojpano ka u-y-akërë mërë wepï-rï//
+        \glb ? thus=\gl{emp} \gl{2}-eat(meat)-\gl{fut}.\gl{concl} ? \gl{1}-\gl{lk}-with ? come-\gl{ipfv}//
+            \glft ‘so for you to eat you came with me? (auto)’//  
         \endgl 
-    \a Yawarana\\
-    \label{ctoaragrme-5}        \begingl
+    \a     \label{ctoaragrme-5}        \begingl
         \glpreamble mëyakarama mare //
-        \gla më-yakarama-Ø mare//
-        \glb \gl{2}-tell-\gl{ipfv} \gl{in}.\gl{rel}//
-            \glft ‘ese que tu estás diciendo’//  
+        \gla mëyakarama mare//
+        \glb ? ?//
+            \glft ‘the one you are saying (auto)’//  
         \endgl 
 \xe
 
 \ex \label{1sub}
 \begingl \glpreamble uyepematojpe pïrarë wïrë inawë //
-\gla u-yepema-toj pe pïrarë wïrë inawë//
-\glb \gl{1}\gl{sg}-pay-\gl{circ} \gl{ess} nothing \gl{1}\gl{sg} in.possesion//
-\glft ‘‘yo no tengo para pagar’’ (personal knowledge
+\gla u-yepema-tojpe pïrarë wïrë inawë//
+\glb \gl{1}-pay-\gl{fut} \gl{neg}.\gl{exist} \gl{1}\gl{pro} have//
+\glft ‘I can't afford to pay (auto)’ (personal knowledge
 )//
 \endgl
 \xe
@@ -1149,35 +1122,31 @@ mentionworthy that this is not in alternation with preceding NPs{]}
   1\textgreater2:
 \end{itemize}
 
-\pex\label{}    \a Yawarana\\
-   \label{convfemgrme-231}        \begingl
+\pex\label{}    \a     \label{convfemgrme-231}        \begingl
        \glpreamble entë mëinpojra wïrë ya //
-       \gla entë më-in-pojra wïrë ya//
-       \glb here \gl{2}-see-\gl{neg}.\gl{des} \gl{1}\gl{sg} \gl{erg}//
-           \glft ‘‘yo no los quiero ver aquí’’//  
+       \gla entë më-in-po-∅-jra wïrë ya//
+       \glb here.\gl{loc} \gl{2}-see-\gl{des}-\gl{ipfv}-\gl{neg} \gl{1}\gl{pro} \gl{erg}//
+           \glft ‘I don't want to see them here (auto)’//  
        \endgl 
-   \a Yawarana\\
-   \label{convfemgrme-232}        \begingl
+   \a     \label{convfemgrme-232}        \begingl
        \glpreamble mëini wïrë ya //
-       \gla më-ini-Ø wïrë ya//
-       \glb \gl{2}-see-\gl{ipfv} \gl{1}\gl{sg} \gl{erg}//
-           \glft ‘‘te voy a ver’’//  
+       \gla më-ini-∅ wïrë ya//
+       \glb \gl{2}-see-\gl{ipfv} \gl{1}\gl{pro} \gl{erg}//
+           \glft ‘te voy a ver (auto)’//  
        \endgl 
-   \a Yawarana\\
-   \label{ctovarmafl-283}        \begingl
+   \a     \label{ctovarmafl-283}        \begingl
        \glpreamble tëwï ke ma mëyepema wïrë ya, ta ti ta //
-       \gla tëwï ke ma më-yepema-Ø wïrë ya ta-Ø ti ta//
-       \glb \gl{3}\gl{sg} \gl{instr} \gl{restr} \gl{2}-pay-\gl{ipfv} \gl{1}\gl{sg} \gl{erg} say-\gl{ipfv} like like//
-           \glft ‘‘te pago con esto no más, dijo’’//  
+       \gla tëwï ke ma mëyepema wïrë ya ta-∅ ti ta//
+       \glb \gl{3}\gl{pro} \gl{ins} \gl{rst} ? \gl{1}\gl{pro} \gl{erg} say-\gl{ipfv} \gl{hsy} like//
+           \glft ‘I'll pay you with this," he said (auto)’//  
        \endgl 
 \xe
 
 \begin{itemize}
-\tightlist
 \item
   one attested case of \obj{ta-} `\gl{3}\textgreater{}\gl{3}' on the
   lexical verb of a \emph{-pëkë} construction w/ 2nd person \gl{a} on
-  \gl{aux} {[}todo: which one?{]}
+  \gl{aux}
 
   \begin{itemize}
   \tightlist
@@ -1187,15 +1156,6 @@ mentionworthy that this is not in alternation with preceding NPs{]}
   \end{itemize}
 \item
   one example of \obj{më-} `\gl{2}' `\gl{2}\gl{a}' on imperative verb
-  {[}todo: GrMePers.029{]} {[}todo: FM: u- is sometimes wï-, but usually
-  not transcribed, and distribution unclear{]}
-\end{itemize}
-
-{[}todo: Check: appears that first and second person are reduced forms,
-with long vowel? wait for leila{]}
-
-\begin{itemize}
-\tightlist
 \item
   *\emph{t‑V‑se} is no more --- the \emph{t‑} is gone, except in
   lexicalized items
@@ -1208,33 +1168,33 @@ Verbs in main clauses are inflected for TAMP with a set of suffixes,
 shown in \cref{tab:verbtam}. They are discussed in
 \crefrange{sec:riipfv}{sec:sareimn}.
 
-\begin{table}
+\begin{table}[h]
 \caption{Verbal TAM suffixes}
 \label{tab:verbtam}
 \centering
 \begin{tabular}{ll}
 \toprule
-                             Suffix &            Function \\
+             Suffix &            Function \\
 \midrule
-              \obj{-ri} ‘\gl{ipfv}’ &        imperfective \\
-              \obj{-jpë} ‘\gl{pst}’ &                past \\
-               \obj{-se} ‘\gl{pst}’ &     past perfective \\
-             \obj{-sapë} ‘\gl{pfv}’ &             perfect \\
-             \obj{-sarë} ‘\gl{imn}’ &     imminent future \\
-\obj{-nëpëkë} ‘\gl{prog}.\gl{intr}’ & \gl{prog}.\gl{intr} \\
-                 \obj{pëkë} ‘about’ &   \gl{prog}.\gl{tr} \\
-                    \emph{‑tojpano} &            \gl{fut} \\
-                     (\obj{-tojpe}) &            \gl{fut} \\
-                          \obj{-ja} &            \gl{neg} \\
-                \obj{-se}\obj{-mï}  &        ‘obligation’ \\
-                          \obj{-në} &        impersonal S \\
-                        \obj{-topo} &                     \\
+          \obj{-ri} &        imperfective \\
+         \obj{-jpë} &                past \\
+          \obj{-se} &     past perfective \\
+        \obj{-sapë} &             perfect \\
+        \obj{-sarë} &     imminent future \\
+      \obj{-nëpëkë} & \gl{prog}.\gl{intr} \\
+         \obj{pëkë} &   \gl{prog}.\gl{tr} \\
+    \emph{‑tojpano} &            \gl{fut} \\
+     (\obj{-tojpe}) &            \gl{fut} \\
+          \obj{-ja} &            \gl{neg} \\
+\obj{-se}\obj{-mï}  &        ‘obligation’ \\
+          \obj{-në} &        impersonal S \\
+        \obj{-topo} &                     \\
 \bottomrule
 \end{tabular}
 
 \end{table}
 
-\begin{table}
+\begin{table}[h]
 \caption{Non-declarative suffixes}
 \label{tab:nondecltam}
 \centering
@@ -1333,15 +1293,13 @@ Misc:
 \endgl
 \xe
 
-\pex\label{gnomicri}    \a Yawarana\\
-    \label{convrisamaj-4}        \begingl
+\pex\label{gnomicri}    \a     \label{convrisamaj-4}        \begingl
         \glpreamble wïrë yaruwarijra //
         \gla wïrë yaruwa-ri-jra//
         \glb \gl{1}\gl{pro} laugh-\gl{ipfv}-\gl{neg}//
             \glft ‘I don’t laugh.’//  
         \endgl 
-    \a Yawarana\\
-    \label{convrisamaj-28}        \begingl
+    \a     \label{convrisamaj-28}        \begingl
         \glpreamble uyïwïj yawë usenejkari sukuri jwama //
         \gla u-y-ïwïj-∅ yawë u-senejka-ri sukuri jwama//
         \glb \gl{1}-\gl{lk}-house-\gl{pert} \gl{loc} \gl{1}-stay-\gl{ipfv} silently ***//
@@ -1356,8 +1314,7 @@ Misc:
 \item
   allomorphy: none?
 \item
-  diachrony: from \obj{-jpë} `\gl{pst}.\gl{acnnmlz}' {[}todo:
-  negation?{]} {[}todo: semantics?{]}
+  diachrony: from \obj{-jpë} `\gl{pst}.\gl{acnnmlz}'
 \end{itemize}
 
 \subsection{\texorpdfstring{\obj{-se}}{}}
@@ -1374,14 +1331,12 @@ Misc:
 
 \ex \label{conv1stenc-28}
 \begingl \glpreamble wëjkaja, ana tëse neke ne //
-\gla wëjka-ja ana të-se neke ne//
-\glb fall-\gl{neg} \gl{1+3} go-\gl{pfv}.\gl{pst} \gl{contrast} \gl{ints}//
-\glft ‘‘no nos caimos, nosotros nos fuimos’’ (personal knowledge
+\gla wëjka-ja ana tëse neke ne//
+\glb fall-\gl{neg} \gl{1+3}\gl{pro} ? \gl{cntr} \gl{ints}//
+\glft ‘no nos caimos, nosotros nos fuimos (auto)’ (personal knowledge
 )//
 \endgl
 \xe
-
-{[}todo: semantics?{]}
 
 \subsection{\texorpdfstring{\obj{-sapë}}{}}
 
@@ -1395,32 +1350,32 @@ Misc:
   allomorphy: \obj{-sapë} and \obj{-saj}
 \item
   negation: with \obj{-ja} `\gl{neg}' on lexical verb
-  \exref[][ctoaragrme-40]{ctoaragrme-38} {[}todo: semantics?{]}
+  \exref[][ctoaragrme-40]{ctoaragrme-38}
 \end{itemize}
 
 \ex \label{ctoaragrme-38}
 \begingl \glpreamble irë wejtane mujyampe patakaja wejsapë //
-\gla irë wejtane mujyam pe pataka-ja wej-sapë//
-\glb \gl{sit}:\gl{dem} though pregnant \gl{ess} exit-\gl{neg} \gl{cop}-\gl{perf}//
-\glft ‘‘a pesar de eso no salió embarazada’’ (personal knowledge
+\gla irë wejtane mujyam=pe pataka-ja wejsapë//
+\glb \gl{3}\gl{ana}.\gl{inan} ? pregnancy=\gl{ess} take\_out-\gl{neg} ?//
+\glft ‘despite this, she did not get pregnant (auto)’ (personal knowledge
 )//
 \endgl
 \xe
 
 \ex \label{ctoaragrme-39}
 \begingl \glpreamble apatakaja pïnïka wejsapë //
-\gla apataka-ja pïnïka wej-sapë//
-\glb exit-\gl{neg} \gl{prob} \gl{cop}-\gl{perf}//
-\glft ‘tal vez no salió (embarazada)’ (personal knowledge
+\gla apataka-ja pïnïka wejsapë//
+\glb come\_out-\gl{neg} *** ?//
+\glft ‘maybe she did not come out (pregnant) (auto)’ (personal knowledge
 )//
 \endgl
 \xe
 
 \ex \label{ctoaragrme-40}
 \begingl \glpreamble tayakïjtëja pïnika wejsapë //
-\gla ta-yakïjtë-ja pïnika wej-sapë//
-\glb \gl{3}\gl{o}-impregnate-\gl{neg} \gl{prob} \gl{cop}-\gl{perf}//
-\glft ‘‘tal vez no se acostó con ella’’ (personal knowledge
+\gla tayakïjtëja pïnika wejsapë//
+\glb *** ? ?//
+\glft ‘maybe he didn't sleep with her (auto)’ (personal knowledge
 )//
 \endgl
 \xe
@@ -1459,16 +1414,14 @@ Misc:
 
 \ex \label{ctoaragrme-25}
 \begingl \glpreamble moyochi tasarë, moyochi chipokono kojpaye pïnika warotari //
-\gla moyochi ta-sarë moyochi chi-poko-no kojpaye pïnika warota-ri//
-\glb spider say-\gl{inm} spider \gl{cop}-because-\gl{nzr} night:\gl{perl} \gl{prob} work-\gl{ipfv}//
-\glft ‘le dicen araña, tal vez porque la araña trabaja de noche’ (personal knowledge
+\gla moyochi ta-sarë moyochi chipokono kojpaye pïnika warotari//
+\glb spider(sp.) say-\gl{imn} spider(sp.) *** at\_night ? ?//
+\glft ‘called a spider, perhaps because the spider works at night. (auto)’ (personal knowledge
 )//
 \endgl
 \xe
 
 \section{Subordinate Clause markers}
-
-{[}todo: these should maybe go to another section{]}
 
 \begin{itemize}
 \tightlist
@@ -1553,11 +1506,6 @@ Misc:
 
 \section{Copula / Auxiliary}
 
-{[}todo: paradigm{]} {[}todo: did any particles develop from inflected
-forms? Man, wai, manai, etc{]} {[}todo: are there irregular pat/perfect
-participles? nahkë, etc{]} {[}todo: ejnë may come from an inflected form
-of the copula{]}
-
 \begin{itemize}
 \tightlist
 \item
@@ -1581,22 +1529,21 @@ of the copula{]}
 \label{sec:postinfl}}{Inflectional morphology }}
 
 Postpositions take the same inflectional prefixes as nouns
-(\cref{sec:nounposssuf}). {[}todo: are there postpositions with third
-person i-?{]}
+(\cref{sec:nounposssuf}).
 
-\begin{table}
+\begin{table}[h]
 \caption{Person marking prefixes on postpositions}
 \label{tab:postpprefixes}
 \centering
 \begin{tabular}{lll}
 \toprule
-         &                 \_V &                 \_C \\
+         &                 \_V &        \_C \\
 \midrule
-  \gl{1} &   \obj{u-} \obj{y-} &            \obj{u-} \\
-  \gl{2} &  \obj{më-} \obj{y-} &           \obj{më-} \\
-\gl{1+2} & \obj{ejnë} \obj{y-} & \obj{ejnë} \obj{y-} \\
-  \gl{3} &            \obj{i-} &            \obj{t-} \\
-      NP &            \obj{y-} &            \obj{y-} \\
+  \gl{1} &    \obj{u-}\obj{y-} &   \obj{u-} \\
+  \gl{2} &   \obj{më-}\obj{y-} &  \obj{më-} \\
+\gl{1+2} & \obj{ejnë} \obj{y-} & \obj{ejnë} \\
+  \gl{3} &            \obj{i-} &   \obj{t-} \\
+      NP &            \obj{y-} &          ∅ \\
 \bottomrule
 \end{tabular}
 
@@ -1624,22 +1571,20 @@ Also:
   other forms
 \end{itemize}
 
-\begin{table}
+\begin{table}[h]
 \caption{Locative postpositions}
 \label{tab:locpost}
 \centering
 \begin{tabular}{lll}
 \toprule
-        &              \gl{all} &              \gl{loc} \\
+        &   \gl{all} &   \gl{loc} \\
 \midrule
- inside & \obj{yaka} ‘\gl{all}’ & \obj{yawë} ‘\gl{loc}’ \\
-aquatic &                     ? &                     ? \\
+ inside & \obj{yaka} & \obj{yawë} \\
+aquatic &          ? &          ? \\
 \bottomrule
 \end{tabular}
 
 \end{table}
-
-{[}todo: how do these fit in?{]}
 
 \begin{itemize}
 \item
@@ -1656,9 +1601,9 @@ aquatic &                     ? &                     ? \\
 
 \ex \label{histpajirdi-186}
 \begingl \glpreamble tichikimuru, peti warë patakasapë Yakucho pana //
-\gla ti-chikimu-ru peti warë pataka-sapë Yakucho pana//
-\glb \gl{3}-knee-\gl{poss} leg thus exit-\gl{perf}  \gl{all}//
-\glft ‘‘su rodilla, su pierna, salió (llaga) hacia Ayacucho’ (personal knowledge
+\gla tichikimuru peti wa=rë patakasapë yakucho pana//
+\glb *** leg thus=\gl{emp} ? ? ?//
+\glft ‘his knee, his leg, went out (sore) towards Ayacucho (auto)’ (personal knowledge
 )//
 \endgl
 \xe
@@ -1762,11 +1707,6 @@ Three kinds of particles elsewhere in the family:
 \chapter{Auxiliarized constructions}
 
 claim: everything can take an auxiliary, except \obj{-kë} `\gl{imp}'
-
-{[}todo: look at frequency and distributional possibilities for various
-forms with auxiliaries{]} {[}todo: are there limits on what form of AUX
-can occur?{]} {[}todo: conventionalized meanings of combinations?{]}
-{[}todo: where is person marking? also alignment{]}
 
 \section{Defining auxiliaries}
 
@@ -1910,22 +1850,15 @@ copular constructions.
     \item
       one counterexample with \gl{part}\gl{pred} + \obj{pïrarë} +
       \gl{cop} + \gl{np}\gl{subj} is with a concessive
-      \exref[]{ex-main-neg-part-pirare-cop-nsubj} {[}todo: @spike: I
-      forgot, what was your analysis for this particular example?{]}
+      \exref[]{ex-main-neg-part-pirare-cop-nsubj}
     \item
       it does occur with \obj{pïnirë} `\gl{neg}', though
       \exref[]{loc-main-neg-nsubj-cop-pinire-part},
-      \exref[]{temp-main-neg-advpred-cop-pinire-nsubj} {[}todo: @spike:
-      what do you think of the analysis that the copular form is
-      synchronically deverbal in all of these examples, licensing the
-      nominal negator?{]}
+      \exref[]{temp-main-neg-advpred-cop-pinire-nsubj}
     \end{itemize}
   \item
     is always present in subordinate clauses (\emph{chi-yawë} `when',
-    \emph{chi-pëke} `because') {[}todo: @spike: would you analyze these
-    subordinate clauses as having a copula? if yes, that would
-    constitute a small but solid difference between main and subordinate
-    clauses, right?{]}
+    \emph{chi-pëke} `because')
 
     \begin{itemize}
     \tightlist
@@ -1973,13 +1906,12 @@ copular constructions.
 \item
   construction with two copulas \emph{chi wejsapë}?
   \exref[]{convhistfamsjm-92}, \exref[]{convhistfamsjm-59},
-  \exref[]{histgrme-17}, \exref[]{histgrme-107} {[}todo: ask natalia{]}
+  \exref[]{histgrme-17}, \exref[]{histgrme-107}
 \end{itemize}
 
 \subsection{Categorization issues}
 
 \begin{itemize}
-\tightlist
 \item
   possessives vs properties can be hard to distinguish (`footed', etc.)
 \item
@@ -1987,14 +1919,11 @@ copular constructions.
   largely went by `estar' vs `haber' in translation, with the exception
   of \exref[]{convcosnoind-48}
 \item
-  \exref[]{poss-main-neg-locpred-nsubj} {[}todo: @spike: was this the
-  analysis you suggested?{]}
+  \exref[]{poss-main-neg-locpred-nsubj}
 \end{itemize}
 
 \chapter{\texorpdfstring{Simple verbal clauses
 \label{simpleverb}}{Simple verbal clauses }}
-
-{[}todo: examples of {[}non{]}declarative w/ {[}in{]}transitive verbs{]}
 
 \begin{itemize}
 \tightlist
@@ -2024,8 +1953,8 @@ copular constructions.
 \ex  Postverbal pronoun  \\\label{convfemgrme-298}
 \begingl \glpreamble këyaja wïrë //
 \gla këya-ja wïrë//
-\glb be.interested-\gl{neg} \gl{1}\gl{sg}//
-\glft ‘‘no sé’’ (personal knowledge
+\glb think-\gl{neg} \gl{1}\gl{pro}//
+\glft ‘no sé (auto)’ (personal knowledge
 )//
 \endgl
 \xe
@@ -2040,9 +1969,9 @@ copular constructions.
 \xe
 
 \ex  Preverbal pronoun and prefix  \\\label{ctorat-23}
-\begingl \glpreamble aaa usukuru morone ta, wïrë usujta ta ne //
-\gla aaa u-suku-ru morone ta wïrë u-sujta-∅ ta ne//
-\glb ah \gl{1}-urine-\gl{pert} hurting like \gl{1}\gl{pro} \gl{1}-urinate-\gl{ipfv} like \gl{ints}//
+\begingl \glpreamble aaa usukuru morone ta wïrë usujta ta ne //
+\gla aaa u-suku-ru morone ta-∅ wïrë u-sujta-∅ ta ne//
+\glb ah \gl{1}-urine-\gl{pert} hurting say-\gl{ipfv} \gl{1}\gl{pro} \gl{1}-urinate-\gl{ipfv} like \gl{ints}//
 \glft ‘My urine hurts, I will urinate.’ (personal knowledge
 )//
 \endgl
@@ -2058,9 +1987,9 @@ copular constructions.
 
 \ex  Prefix  \\\label{convamgu-7}
 \begingl \glpreamble tototomo pata yaka mëtëja //
-\gla toto-tomo pata-Ø yaka më-të-ja//
-\glb non.indian-\gl{pl} town-\gl{poss} into \gl{2}-go-\gl{neg}//
-\glft ‘tu no (puedes) ir al pueblo de los criollos’ (personal knowledge
+\gla toto-tomo pata yaka më-të-ja//
+\glb non\_Indian-\gl{pl} ? \gl{all} \gl{2}-go-\gl{neg}//
+\glft ‘you can't (can't) go to the creoles' village (auto)’ (personal knowledge
 )//
 \endgl
 \xe
@@ -2094,8 +2023,8 @@ copular constructions.
 \ex  Postverbal NP  \\\label{histgrme-83}
 \begingl \glpreamble wepïrï makë //
 \gla wepï-rï makë//
-\glb come-\gl{ipfv} mother:\gl{voc}//
-\glft ‘‘viene mi mamá’’ (personal knowledge
+\glb come-\gl{ipfv} mom//
+\glft ‘mi mamá comes (auto)’ (personal knowledge
 )//
 \endgl
 \xe
@@ -2103,17 +2032,17 @@ copular constructions.
 \ex  Preverbal pronoun  \\\label{desccasagrme-28}
 \begingl \glpreamble tëwï nwajtënëpëkë //
 \gla tëwï nwajtë-nëpëkë//
-\glb \gl{3}\gl{sg} dance-\gl{intr}.\gl{prog}//
-\glft ‘‘él... se la pasaba bailando’’ (personal knowledge
+\glb \gl{3}\gl{pro} dance-\gl{prog}.\gl{intr}//
+\glft ‘he... he was dancing all the time. (auto)’ (personal knowledge
 )//
 \endgl
 \xe
 
 \ex  Postverbal pronoun  \\\label{convfemgrme-113}
 \begingl \glpreamble ë'ë, tawara takï chapëtiri tëwï //
-\gla ë'ë tawara takï chapëti-ri tëwï//
-\glb yes thus \gl{cnfrm} scream-\gl{ipfv} \gl{3}\gl{sg}//
-\glft ‘‘sí, también grita ese’’ (personal knowledge
+\gla ë'ë tawara takï chapëtiri tëwï//
+\glb yes too \gl{cnfrm} *** \gl{3}\gl{pro}//
+\glft ‘yes, it also shouts that (auto)’ (personal knowledge
 )//
 \endgl
 \xe
@@ -2155,8 +2084,8 @@ There are several factors that play a role here:
 \ex  preverbal pronoun with ya  \\\label{convcosnoind-132}
 \begingl \glpreamble tëwï ya nepïjpë wejsapë //
 \gla tëwï ya nepï-jpë wej-sapë//
-\glb \gl{3}\gl{sg} \gl{erg} bring-\gl{pst} \gl{cop}-\gl{perf}//
-\glft ‘‘él lo trajo’’ (personal knowledge
+\glb \gl{3}\gl{pro} \gl{erg} bring-\gl{pst} \gl{cop}-\gl{pfv}//
+\glft ‘he brought it (auto)’ (personal knowledge
 )//
 \endgl
 \xe
@@ -2197,8 +2126,8 @@ TBD
 \ex \label{histyarirdi-615}
 \begingl \glpreamble wïrë inija tëwï //
 \gla wïrë ini-ja tëwï//
-\glb \gl{1}\gl{sg} see-\gl{neg} \gl{3}\gl{sg}//
-\glft ‘‘yo no ví eso’’ (personal knowledge
+\glb \gl{1}\gl{pro} see-\gl{neg} \gl{3}\gl{pro}//
+\glft ‘I did not see that (auto)’ (personal knowledge
 )//
 \endgl
 \xe

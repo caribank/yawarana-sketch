@@ -2,37 +2,27 @@
 
 ## Pronouns [label](sec:pronouns)
 The personal pronouns of [lg](yab) are shown in [ref](tab:pronouns).
-The system shows the usual Cariban inclusive/exclusive ([gl](1+2) and [gl](1+3)) distinction, although [mp](ejne-1-2pro) does not have the /k/ found elsewhere in the family.
-It is like a reflex of an old copula + infinitive *\*eti-në*. [todo](do we have parallel cases elsewhere?)
-Regarding plural marking, it should be noted that [mp](kontomopl) appears to usually be restricted to verbs, while *-santomo* is found with third person pronouns and demonstratives.
-
+The system shows the usual Cariban inclusive/exclusive ([gl](1+2) and [gl](1+3)) distinction, though the 1+2 pronoun [mp](ejne-1-2pro?nt) does not have the /k/ found elsewhere in the family.
+It is likely a reflex of an old copula + infinitive *\*eti-në*. [todo](do we have parallel cases elsewhere?)
+Regarding plural marking, it should be noted that [mp](kontomopl?nt), which appears on the second person plural pronoun, is usually restricted to verbs, while *-santomo* is only found with third person pronouns and demonstratives.[todo](tajne)
 
 [table](pronouns)
 
-[todo](tajne, but not attested as an article)
+Reduced forms of the first and second person pronouns occur as proclitics/prefixes[todo](proclitics or prefixes?) attaching to nouns to indicate possessor (see [ref](sec:nominalperson)), attached to verbs to indicate the A or P argument (see [ref](verbinfl)), or attached to postpositions to indicate the argument of the postposition (see [ref](sec:postinfl)).
+The occurrence of bound [mp](u1) on members of all three parts of speech is illustrated in [exref](1marking); [exref](2marking) illustrates the same distribution for [mp](me2).
 
-Reduced forms of the first and second person pronouns occur as proclitics [todo](proclitics or prefixes?) attaching to nouns to indicate possessor ([ref](sec:nominalperson)), attached to verbs to indicate subject or object (described in [ref](verbinfl)), or attached to postpositions to indicate the object of the postposition (described in [ref](sec:postinfl)):
+[ex](histyarirdi-723,convrisamaj-46?example_id=1marking)
 
-[ex](convrisamaj-28)
+[ex](histyarirdi-160,histpajirdi-114,ctovarmafl-443?example_id=2marking)
 
-[ex](desccasmaj-25)
-
-[ex](convrisamaj-2)
-[ex](ctoaragrme-7)
-
-The third person demonstrative pronouns or articles are shown in [ref](tab:pronouns3).
-[todo](is there a 4‑way distinction? [cf. Ye’kwana?])
-None of them have shortened, phonologically bound counterparts.
+The third person demonstrative pronouns or articles are shown in [ref](tab:pronouns3). [todo](is there a 4‑way distinction? [cf. Ye’kwana?])
+None of them have shortened and phonologically bound counterparts.
 
 [table](pronouns3)
 
-* nominal interrogative pronouns:
+* nominal interrogative pronouns: [todo](Are there plural forms of any of these?) [todo](no examples of _ëjkë_ 'which?')
     * [mp](aniki-who) (with _-santomo_)
     * [mp](ati-what) (no plural)
-    * _ëjkë_ 'which? ([gl](inan))'
-
-[todo](Are there plural forms of any of these?)
-
 
 ## Nominal inflection [label](sec:nouninfl)
 

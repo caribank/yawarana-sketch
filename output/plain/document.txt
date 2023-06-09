@@ -154,87 +154,91 @@ Pronouns [sec:pronouns]
 
 The personal pronouns of Yawarana are shown in [ref/tab:pronouns]. The
 system shows the usual Cariban inclusive/exclusive (1+2 and 1+3)
-distinction, although ejnë ‘1+2PRO’ does not have the /k/ found
-elsewhere in the family. It is like a reflex of an old copula +
+distinction, though the 1+2 pronoun ejnë does not have the /k/ found
+elsewhere in the family. It is likely a reflex of an old copula +
 infinitive *eti-në. [todo: do we have parallel cases elsewhere?]
-Regarding plural marking, it should be noted that -kontomo ‘PL’ appears
-to usually be restricted to verbs, while -santomo is found with third
-person pronouns and demonstratives.
+Regarding plural marking, it should be noted that -kontomo, which
+appears on the second person plural pronoun, is usually restricted to
+verbs, while -santomo is only found with third person pronouns and
+demonstratives.[todo: tajne]
 
 Pronouns: [pronouns]
 
-  -------------------------------------------
-        SG            PL
-  ----- ------------- -----------------------
-  1     wïrë ‘1PRO’   
+  --------------------------
+        SG     PL
+  ----- ------ -------------
+  1     wïrë   
 
-  1+2                 ejnë ‘1+2PRO’
+  1+2   ejnë   
 
-  1+3                 ana ‘1+3PRO’
+  1+3   ana    
 
-  2     mërë ‘2PRO’   monkontomo ‘2PL.PRO’
+  2     mërë   monkontomo
 
-  3     tëwï ‘3PRO’   tëwïsantomo ‘3PRO.PL’
-  -------------------------------------------
-
-[todo: tajne, but not attested as an article]
+  3     tëwï   tëwïsantomo
+  --------------------------
 
 Reduced forms of the first and second person pronouns occur as
-proclitics [todo: proclitics or prefixes?] attaching to nouns to
-indicate possessor ([ref/sec:nominalperson]), attached to verbs to
-indicate subject or object (described in [ref/verbinfl]), or attached to
-postpositions to indicate the object of the postposition (described in
-[ref/sec:postinfl]):
+proclitics/prefixes[todo: proclitics or prefixes?] attaching to nouns to
+indicate possessor (see [ref/sec:nominalperson]), attached to verbs to
+indicate the A or P argument (see [ref/verbinfl]), or attached to
+postpositions to indicate the argument of the postposition (see
+[ref/sec:postinfl]). The occurrence of bound u- ‘1’ on members of all
+three parts of speech is illustrated in [ex:1marking]; [ex:2marking]
+illustrates the same distribution for më- ‘2’.
 
-(convrisamaj-28)
-u-y-ïwïj-∅       yawë  u-senejka-ri  sukuri    jwama
-1-LK-house-PERT  LOC   1-stay-IPFV   silently  ***
-‘I silently stay in my house.’
+(1marking)
 
-(desccasmaj-25)
-më-nai-Ø      wëjka-se      chi-jpëwara  rë
-2-thing-POSS  fall-PFV.PST  COP-NZRlike  EMPH
-‘‘se cayó tu cosa’’
+(a) Yawarana (convrisamaj-46)
+    u-yarë   wïrë  përemekï-rï
+    1-alone  1PRO  talk-IPFV
+    ‘I just talk.’
 
-(convrisamaj-2)
-më-yaruwa-ri  më-pëkëpene
-2-laugh-IPFV  2-alone
-‘You just laugh.’
+(b) Yawarana (histyarirdi-723)
+    irë        nwa   chipëkë  u-samo-ri   u-yïpï-∅         in-charë
+    3ANA.INAN  thus  ***      1-cry-IPFV  1-mountain-PERT  see-IMN
+    ‘that’s why I’m crying seeing my hills (auto)’
 
-(ctoaragrme-7)
-moyochi
-spider
-‘la araña’
+(2marking)
+
+(a) Yawarana (ctovarmafl-443)
+    më-pana  ma   ta-ta-ja    wejsapë
+    2-DAT    RST  3P-say-NEG  ?
+    ‘didn’t he say it directly to you? (auto)’
+
+(b) Yawarana (histpajirdi-114)
+    më-tojpa-∅  wïrë
+    2-hit-IPFV  1PRO
+    ‘I will beat you to death (auto)’
+
+(c) Yawarana (histyarirdi-160)
+    weroro  wëra  këyetari  më-muku-ru
+    dog     like  ?         2-child-PERT
+    ‘your children grow up like dogs (auto)’
 
 The third person demonstrative pronouns or articles are shown in
 [ref/tab:pronouns3]. [todo: is there a 4‑way distinction?
-[cf. Ye’kwana?]] None of them have shortened, phonologically bound
+[cf. Ye’kwana?]] None of them have shortened and phonologically bound
 counterparts.
 
 Demonstrative pronouns / articles: [pronouns3]
 
-  ------------------------------------------------------------------------------------
-            ANIM                                        INAN          
-  --------- ----------------- ------------------------- ------------- ----------------
-            SG                PL                        SG            PL
+  -------------------------------------------------------------------------
+                 ANIM                                   INAN     
+  -------------- ------------- ------------------------ -------- ----------
+                 SG            PL                       SG       PL
 
-  PROX      kërë ‘PROX.ANIM’  kërësantomo               eni           enijne
-                              ‘PROX.ANIM.PL’            ‘PROX.INAN’   ‘PROX.INAN.PL’
+  PROX           kërë          kërësantomo              eni      enijne
 
-  medial?   michi ‘MED.ANIM’  michisantomo              mërë          
-  near?     / misi ‘MED.INAN’ ‘MED.INAN.PL’ / michitomo ‘MED.INAN’    
-                              ‘MED.INAN.PL’                           
+  medial/near?   michi / misi  michisantomo / michitomo mërë     
 
-  DIST      mëjkï ‘DIST.ANIM’ mëkïsantomo               mëjnï         mëjnijne
-                              ‘DIST.ANIM.PL’            ‘DIST.INAN’   ‘DIST.INAN.PL’
-  ------------------------------------------------------------------------------------
+  DIST           mëjkï         mëkïsantomo              mëjnï    mëjnijne
+  -------------------------------------------------------------------------
 
--   nominal interrogative pronouns:
+-   nominal interrogative pronouns: [todo: Are there plural forms of any
+    of these?] [todo: no examples of ëjkë ‘which?’]
     -   anïkï ‘who’ (with -santomo)
     -   ati ‘what’ (no plural)
-    -   ëjkë ‘which? (INAN)’
-
-[todo: Are there plural forms of any of these?]
 
 Nominal inflection [sec:nouninfl]
 
@@ -353,15 +357,15 @@ combine with the linker y-. Some examples are shown in
 
 Possessive prefixes on nouns: [possprefixes]
 
-  -------------------------------
-       _C        _V
-  ---- --------- ----------------
-  1    u- ‘1’    u- ‘1’y- ‘LK’
+  -------------------
+       _C     _V
+  ---- ------ -------
+  1    u-     u-y-
 
-  2    më- ‘2’   më- ‘2’y- ‘LK’
+  2    më-    më-y-
 
-  3    i- ‘3’    t-
-  -------------------------------
+  3    i-     t-
+  -------------------
 
 (convrisamaj-28)
 u-y-ïwïj-∅       yawë  u-senejka-ri  sukuri    jwama
@@ -382,22 +386,22 @@ The linker also occurs with (pro-)nominal possessors:
 
 (desccasmaj-131)
 tarine  ma
-fast    RESTR
+fast    RST
 
 There are some nouns [todo: presumably kinship terms] that take an
 apparently older old second person a- ‘2’ ([ref/tab:oldpossprefixes]).
 
 Archaic possessive prefixes on nouns: [oldpossprefixes]
 
-  -----------------------------
-       _C       _V
-  ---- -------- ---------------
-  1    u- ‘1’   u- ‘1’y- ‘LK’
+  ------------------
+       _C     _V
+  ---- ------ ------
+  1    u-     u-y-
 
-  2    a- ‘2’   a- ‘2’y- ‘LK’
+  2    a-     a-y-
 
-  3    i- ‘3’   t- ‘3’
-  -----------------------------
+  3    i-     t-
+  ------------------
 
 [todo: find more examples of these]
 
@@ -444,10 +448,10 @@ Nominal Derivational Morphology [sec:nounderiv]
     -   -imë: e.g., wara ‘woman’ waraimë ‘married woman’ (dictionary)
 -   What about -jpë ‘PST.ACNNMLZ’ on AD forms? Does it derive a noun?
     -   (histyarirdi-592)
-        pata-Ø     penarë-jpë      mëtë   ta    mërë  Cerro Muñeca  taj-toj   mare    toto        ya
-        town-POSS  before-PST.PSN  there  like  2SG                 say-CIRC  IN.REL  non.indian  ERG
-        ‘‘ahí se ve el sitio donde vivian, donde los criollos llama
-        Cerro Muñeca’’
+        pata  penarëjpë  mëtë  ta  mërë  cerro  muñeca  taj-toj        mare  toto        ya
+        ?             ?     ?   ?         ***     say-CIRC.NMLZ  ?     non_Indian  ?
+        ‘here you can see the place where they lived, where the criollos
+        call Cerro Muñeca (auto)’
 
 Verbal roots and stems [verbderiv]
 
@@ -468,9 +472,9 @@ which can only occur on transitive stems. Thus, transitive yawanka
     ‘They laugh every day.’
 
 (b) Yawarana (convfemgrme-217)
-    i-  yawë  chi-Ø     pëkë     ta-yawanka-se
-    3-  CTMP  COP-IPFV  because  3O-destroy-PFV.PST
-    ‘‘por eso, la mató’’
+    i-yawë  chipëkë  ta-yawanka-se
+    3-LOC   ***      3P-kill-PST
+    ‘therefore, he killed her (auto)’
 
 -   detransitive
 
@@ -618,17 +622,17 @@ with preceding NPs]
 
 Person marking prefixes on verbs: [verbprefixes]
 
-  -------------------------------
-        INTR       TR
-  ----- ---------- --------------
-  1     u- ‘1’     u- ‘1’
+  -----------------------
+        INTR     TR
+  ----- -------- --------
+  1     u-       u-
 
-  2     më- ‘2’    më- ‘2’
+  2     më-      më-
 
-  1+2   ej(n)-     ej(n)-
+  1+2   ej-      ej-
 
-  3     ∅          ta- ‘3P / 3’
-  -------------------------------
+  3     ∅        ta-
+  -----------------------
 
 -   më- ‘2’ marking A in [ex:2a]
 -   is the verb in [ex:learn] transitive?
@@ -637,67 +641,67 @@ Person marking prefixes on verbs: [verbprefixes]
 (2a)
 
 (a) Yawarana (convhistfamsjm-13)
-    tëwï  ma     takï   më-yakarama-Ø  chi-jpëwara  rë    kwa ta  sënka-toj          mëtë
-    3SG   RESTR  CNFRM  2-tell-IPFV    COP-NZRlike  EMPH  thus    get.finished-CIRC  there
-    ‘‘cuenta otra vez como terminaron ahí’’
+    tëwï  ma   takï   mëyakarama  chi-jpë          wararë  kwa  ta  sënka-toj         mëtë
+    3PRO  RST  CNFRM  ?           COP-PST.ACNNMLZ  ?       how  ?   finish-CIRC.NMLZ  ?
+    ‘tell us again how they ended up there (auto)’
 
 (b) Yawarana (ctovarmafl-324)
-    michi   ma     më-yapëj-jrama
-    3AN:PX  RESTR  2-seize-PROH
-    ‘‘esto no lo toques’’
+    michi     ma   mëyapëjjrama
+    MED.ANIM  RST  ?
+    ‘do not touch this (auto)’
 
 (c) Yawarana (histyarirdi-633)
-    më-ini-ja  ka  anikipinchi  tënësem  warai  yi-chapë     okono-tojpe
-    2-see-NEG  QP  whoblank     fish     like   put-ABS.NZR  get.dry-PURP
-    ‘‘usted no ha visto un pescado que se pone, para que se seque’’
+    më-ini-ja  ka  aniki  pinchi  tënësem  warai  yichapë  okonotojpe
+    2-see-NEG  ?   who    HES           like         ***
+    ‘you have not seen a fish that is put on to dry (auto)’
 
 (learn)
 
 (a) Yawarana (convhistfamsjm-15)
-    kwase  më-ëmpamï-jpë  ejnë  waimu-Ø     yaye
-    how    2-learn-PST    1+2   speak-NMLZ  PERL
-    ‘‘como aprendiste nuestro idioma’
+    kwase  më-ëmpamï-jpë  ejnë    waimu  yaye
+    how    2-learn-PST    1+2PRO  ?      LOC
+    ‘how you learned our language (auto)’
 
 (b) Yawarana (convhistfamsjm-238)
-    irëjpë  kwaraijyawë  rë    më-ëmpamï-jpë  tajto  marë         ti
-    then    when         EMPH  2-learn-PST           keeps.going  like
-    ‘‘después, cuando aprediste lo que dices?’’
+    irëjpë  kwaraijyawë  rë   më-ëmpamï-jpë  tajto  marë  ti
+    then              EMP  2-learn-PST        ?     HSY
+    ‘Afterwards, when did you learn what you say? (auto)’
 
 (2sub)
 
 (a) Yawarana (convfemgrme-43)
-    mërë  warë  më-yënë-tojpano       ka  u-y-akërë    mërë  wepï-rï
-    2SG   thus  2-eat.meat-FIN:CONCL  QP  1SG-REL-COM  2SG   come-IPFV
-    ‘‘así para tú comer tu viniste conmigo?’’
+    mërë  wa=rë     më-yënë-tojpano        ka  u-y-akërë  mërë  wepï-rï
+    ?     thus=EMP  2-eat(meat)-FUT.CONCL  ?   1-LK-with  ?     come-IPFV
+    ‘so for you to eat you came with me? (auto)’
 
 (b) Yawarana (ctoaragrme-5)
-    më-yakarama-Ø  mare
-    2-tell-IPFV    IN.REL
-    ‘ese que tu estás diciendo’
+    mëyakarama  mare
+    ?           ?
+    ‘the one you are saying (auto)’
 
 (histyarirdi-875)
-u-yepema-toj  pe   pïrarë   wïrë  inawë
-1SG-pay-CIRC  ESS  nothing  1SG   in.possesion
-‘‘yo no tengo para pagar’’
+u-yepema-tojpe  pïrarë     wïrë  inawë
+1-pay-FUT       NEG.EXIST  1PRO  have
+‘I can’t afford to pay (auto)’
 
 -   1>2:
 
 ()
 
 (a) Yawarana (convfemgrme-231)
-    entë  më-in-pojra    wïrë  ya
-    here  2-see-NEG.DES  1SG   ERG
-    ‘‘yo no los quiero ver aquí’’
+    entë      më-in-po-∅-jra      wïrë  ya
+    here.LOC  2-see-DES-IPFV-NEG  1PRO  ERG
+    ‘I don’t want to see them here (auto)’
 
 (b) Yawarana (convfemgrme-232)
-    më-ini-Ø    wïrë  ya
-    2-see-IPFV  1SG   ERG
-    ‘‘te voy a ver’’
+    më-ini-∅    wïrë  ya
+    2-see-IPFV  1PRO  ERG
+    ‘te voy a ver (auto)’
 
 (c) Yawarana (ctovarmafl-283)
-    tëwï  ke     ma     më-yepema-Ø  wïrë  ya   ta-Ø      ti    ta
-    3SG   INSTR  RESTR  2-pay-IPFV   1SG   ERG  say-IPFV  like  like
-    ‘‘te pago con esto no más, dijo’’
+    tëwï  ke   ma   mëyepema  wïrë  ya   ta-∅      ti   ta
+    3PRO  INS  RST  ?         1PRO  ERG  say-IPFV  HSY  like
+    ‘I’ll pay you with this,” he said (auto)’
 
 -   one attested case of ta- ‘3>3’ on the lexical verb of a -pëkë
     construction w/ 2nd person A on AUX [todo: which one?]
@@ -719,35 +723,35 @@ shown in [ref/tab:verbtam]. They are discussed in
 
 Verbal TAM suffixes: [verbtam]
 
-  ---------------------------------------
-  Suffix                Function
-  --------------------- -----------------
-  -ri ‘IPFV’            imperfective
+  ------------------------------
+  Suffix       Function
+  ------------ -----------------
+  -ri          imperfective
 
-  -jpë ‘PST’            past
+  -jpë         past
 
-  -se ‘PST’             past perfective
+  -se          past perfective
 
-  -sapë ‘PFV’           perfect
+  -sapë        perfect
 
-  -sarë ‘IMN’           imminent future
+  -sarë        imminent future
 
-  -nëpëkë ‘PROG.INTR’   PROG.INTR
+  -nëpëkë      PROG.INTR
 
-  pëkë ‘about’          PROG.TR
+  pëkë         PROG.TR
 
-  ‑tojpano              FUT
+  ‑tojpano     FUT
 
-  (-tojpe)              FUT
+  (-tojpe)     FUT
 
-  -ja                   NEG
+  -ja          NEG
 
-  -se-mï                ‘obligation’
+  -se-mï       ‘obligation’
 
-  -në                   impersonal S
+  -në          impersonal S
 
-  -topo                 
-  ---------------------------------------
+  -topo        
+  ------------------------------
 
 Non-declarative suffixes: [nondecltam]
 
@@ -826,9 +830,9 @@ how    1+2PRO  laugh-IPFV
 -   negation: replaced with -ja ‘NEG’ [ex:conv1stenc-28]
 
 (conv1stenc-28)
-wëjka-ja  ana  të-se       neke      ne
-fall-NEG  1+3  go-PFV.PST  CONTRAST  INTS
-‘‘no nos caimos, nosotros nos fuimos’’
+wëjka-ja  ana     tëse  neke  ne
+fall-NEG  1+3PRO  ?     CNTR  INTS
+‘no nos caimos, nosotros nos fuimos (auto)’
 
 [todo: semantics?]
 
@@ -841,19 +845,19 @@ fall-NEG  1+3  go-PFV.PST  CONTRAST  INTS
     [ex:ctoaragrme-38–ctoaragrme-40] [todo: semantics?]
 
 (ctoaragrme-38)
-irë      wejtane  mujyam    pe   pataka-ja  wej-sapë
-SIT:DEM  though   pregnant  ESS  exit-NEG   COP-PERF
-‘‘a pesar de eso no salió embarazada’’
+irë        wejtane  mujyam=pe      pataka-ja     wejsapë
+3ANA.INAN  ?        pregnancy=ESS  take_out-NEG  ?
+‘despite this, she did not get pregnant (auto)’
 
 (ctoaragrme-39)
-apataka-ja  pïnïka  wej-sapë
-exit-NEG    PROB    COP-PERF
-‘tal vez no salió (embarazada)’
+apataka-ja    pïnïka  wejsapë
+come_out-NEG  ***     ?
+‘maybe she did not come out (pregnant) (auto)’
 
 (ctoaragrme-40)
-ta-yakïjtë-ja      pïnika  wej-sapë
-3O-impregnate-NEG  PROB    COP-PERF
-‘‘tal vez no se acostó con ella’’
+tayakïjtëja  pïnika  wejsapë
+***          ?       ?
+‘maybe he didn’t sleep with her (auto)’
 
 -   what about [ex:ctorat-19]? is that existential negation?
 
@@ -872,9 +876,9 @@ then    say-IPFV  HSY  like  rain    come-IMN  rain    come-IMN
 ‘Then they said: “it’s raining, it’s raining”.’
 
 (ctoaragrme-25)
-moyochi  ta-sarë  moyochi  chi-poko-no      kojpaye     pïnika  warota-ri
-spider   say-INM  spider   COP-because-NZR  night:PERL  PROB    work-IPFV
-‘le dicen araña, tal vez porque la araña trabaja de noche’
+moyochi      ta-sarë  moyochi      chipokono  kojpaye   pïnika  warotari
+spider(sp.)  say-IMN  spider(sp.)  ***        at_night  ?       ?
+‘called a spider, perhaps because the spider works at night. (auto)’
 
 Subordinate Clause markers
 
@@ -938,15 +942,15 @@ Person marking prefixes on postpositions: [postpprefixes]
   -------------------------
         _V        _C
   ----- --------- ---------
-  1     u- y-     u-
+  1     u-y-      u-
 
-  2     më- y-    më-
+  2     më-y-     më-
 
-  1+2   ejnë y-   ejnë y-
+  1+2   ejnë y-   ejnë
 
   3     i-        t-
 
-  NP    y-        y-
+  NP    y-        ∅
   -------------------------
 
 Also:
@@ -962,13 +966,13 @@ Locative Postpositions
 
 Locative postpositions: [locpost]
 
-  -----------------------------------
-            ALL          LOC
-  --------- ------------ ------------
-  inside    yaka ‘ALL’   yawë ‘LOC’
+  -------------------------
+            ALL     LOC
+  --------- ------- -------
+  inside    yaka    yawë
 
-  aquatic   ?            ?
-  -----------------------------------
+  aquatic   ?       ?
+  -------------------------
 
 [todo: how do these fit in?]
 
@@ -983,9 +987,9 @@ Locative postpositions: [locpost]
 -   allative:
 
 (histpajirdi-186)
-ti-chikimu-ru  peti  warë  pataka-sapë  Yakucho  pana
-3-knee-POSS    leg   thus  exit-PERF             ALL
-‘‘su rodilla, su pierna, salió (llaga) hacia Ayacucho’
+tichikimuru  peti  wa=rë     patakasapë  yakucho  pana
+***          leg   thus=EMP  ?           ?        ?
+‘his knee, his leg, went out (sore) towards Ayacucho (auto)’
 
 Nonlocative Oblique Postpositions
 
@@ -1175,9 +1179,9 @@ wïrë  yaruwa-ri-jra
 ‘I don’t laugh.’
 
 (convfemgrme-298)
-këya-ja            wïrë
-be.interested-NEG  1SG
-‘‘no sé’’
+këya-ja    wïrë
+think-NEG  1PRO
+‘no sé (auto)’
 
 (convrisamaj-28)
 u-y-ïwïj-∅       yawë  u-senejka-ri  sukuri    jwama
@@ -1185,8 +1189,8 @@ u-y-ïwïj-∅       yawë  u-senejka-ri  sukuri    jwama
 ‘I silently stay in my house.’
 
 (ctorat-23)
-aaa  u-suku-ru     morone   ta    wïrë  u-sujta-∅       ta    ne
-ah   1-urine-PERT  hurting  like  1PRO  1-urinate-IPFV  like  INTS
+aaa  u-suku-ru     morone   ta-∅      wïrë  u-sujta-∅       ta    ne
+ah   1-urine-PERT  hurting  say-IPFV  1PRO  1-urinate-IPFV  like  INTS
 ‘My urine hurts, I will urinate.’
 
 -   not attested: prefixed verb followed by pronoun
@@ -1194,9 +1198,9 @@ ah   1-urine-PERT  hurting  like  1PRO  1-urinate-IPFV  like  INTS
 Second person
 
 (convamgu-7)
-toto-tomo      pata-Ø     yaka  më-të-ja
-non.indian-PL  town-POSS  into  2-go-NEG
-‘tu no (puedes) ir al pueblo de los criollos’
+toto-tomo      pata  yaka  më-të-ja
+non_Indian-PL  ?     ALL   2-go-NEG
+‘you can’t (can’t) go to the creoles’ village (auto)’
 
 -   not attested: pronoun
 
@@ -1214,18 +1218,18 @@ then    3PRO  mouse-PL     dance-IPFV
 
 (histgrme-83)
 wepï-rï    makë
-come-IPFV  mother:VOC
-‘‘viene mi mamá’’
+come-IPFV  mom
+‘mi mamá comes (auto)’
 
 (desccasagrme-28)
 tëwï  nwajtë-nëpëkë
-3SG   dance-INTR.PROG
-‘‘él… se la pasaba bailando’’
+3PRO  dance-PROG.INTR
+‘he… he was dancing all the time. (auto)’
 
 (convfemgrme-113)
-ë’ë  tawara  takï   chapëti-ri   tëwï
-yes  thus    CNFRM  scream-IPFV  3SG
-‘‘sí, también grita ese’’
+ë’ë  tawara  takï   chapëtiri  tëwï
+yes  too     CNFRM  ***        3PRO
+‘yes, it also shouts that (auto)’
 
 -   të ‘go’ has an irregular third person marker ij- ‘3’
 
@@ -1247,8 +1251,8 @@ Third on third
 
 (convcosnoind-132)
 tëwï  ya   nepï-jpë   wej-sapë
-3SG   ERG  bring-PST  COP-PERF
-‘‘él lo trajo’’
+3PRO  ERG  bring-PST  COP-PFV
+‘he brought it (auto)’
 
 Questions [questions]
 
@@ -1280,8 +1284,8 @@ Transitive clauses
 
 (histyarirdi-615)
 wïrë  ini-ja   tëwï
-1SG   see-NEG  3SG
-‘‘yo no ví eso’’
+1PRO  see-NEG  3PRO
+‘I did not see that (auto)’
 
 Nonverbal predication [nvp-order]
 
