@@ -66,7 +66,7 @@ None of these are productive, although there are many lexemes derived with them.
 
 ## Meaning-changing suffixes [label](sec:meaningderiv)
 
-* [mp](podes) (only occurs with [mp](riipfv) and [mp](jraneg))
+* [mp](podes) (only occurs with [mp](riipfv) and [mp](jra-neg))
 * [gl](PLUR)
 * [gl](CESS)
 

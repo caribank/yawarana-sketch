@@ -4,5 +4,5 @@ Categorization,[gl](np)~[gl](pred)~ [gl](np)~[gl](subj)~ [gl](cop),?
 Permanent property,[gl](adv)~[gl](pred)~ ([gl](np)~[gl](subj)~) [gl](cop),?
 Temporary property,[gl](np)~[gl](pred)~ [gl](np)~[gl](subj)~ [gl](cop),?
 Location,[gl](part)~loc-[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~) <br> [gl](adv)~[gl](pred)~ ([gl](np)~[gl](subj)~) [gl](cop) <br> [gl](loc)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~),[gl](loc)~[gl](pred)~ + [gl](cop)-[gl](neg) (+ [gl](np)~[gl](subj)~)
-Existential,?,[mp](pirare-nothing?nt)~[gl](pred)~ [gl](np)~[gl](subj)~[mp](jraneg?nt) [gl](cop)
+Existential,?,[mp](pirare-nothing?nt)~[gl](pred)~ [gl](np)~[gl](subj)~[mp](jra-neg?nt) [gl](cop)
 Possession,?,[mp](pirare-nothing?nt)~[gl](pred)~ + [gl](cop) (+ [gl](np)~[gl](subj)~)

@@ -3,7 +3,7 @@
 
 * probably relevant morphemes:
     * [mp](janeg)
-    * [mp](jraneg)
+    * [mp](jra-neg)
     * [mp](jnarineg)
     * [mp](jramaproh)
     * [mp](kempinire)

@@ -61,7 +61,7 @@ Misc:
     * what about [m](ri-ri)? looks like the most conservative form
 * diachrony: [mp](rinmlz)
 * pluralization?
-* combines with [mp](jraneg):
+* combines with [mp](jra-neg):
 
 [ex](convrisamaj-4)
 

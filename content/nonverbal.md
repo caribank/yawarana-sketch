@@ -34,7 +34,7 @@
         * one example of negation, occurs on additional copula [exref](loc-sub-neg-locpred-cop-neg-nsubj)
         * one example of *chi chipokono* [exref](convamgu-101)
 * several negation strategies:
-    * [mp](jraneg) for adverbs and on nouns in the existential [mp](pirare-neg-exist?nt) [gl](np~subj~)[mp](jraneg?nt) construction [exref](ex-main-neg-pirare-nsubj-jra)
+    * [mp](jra-neg) for adverbs and on nouns in the existential [mp](pirare-neg-exist?nt) [gl](np~subj~)[mp](jra-neg?nt) construction [exref](ex-main-neg-pirare-nsubj-jra)
     * [mp](pinire-neg) for nominal predicates and ones with locative particles
     * [mp](pirare-neg-exist) for existential predicates
         * also for identification? [exref](id-main-neg-npred-pirare)

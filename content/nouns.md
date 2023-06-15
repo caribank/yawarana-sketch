@@ -31,7 +31,6 @@ Possessed nouns may bear a person prefix, or the linker [mp](ylk?nt) ([ref](sec:
 
 [todo](noun classes re: possession)
 
-
 ### Suffixes for possessed and non-possessed nouns [label](sec:nounposssuf)
 
 In the possession construction in Yawarana, the possessor noun occurs immediately preceding the possessed noun, which is the head of the possession phrase. [todo](crossref to phrase structure)
