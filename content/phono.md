@@ -27,8 +27,7 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 * variation in _ë_/_o_/_e_ and _ï_/_i_/_u_
 
 * dipththongs
-    * /ai/, /aw/, /ei/... test combinations
-    * [todo](au or aw? ai or ay?)
+    * /ai/, /aw/, /ei/... test combinations [todo](spelling? au or aw? ai or ay?)
 
 ## Morphophonological Processes [label](sec:morphophono)
 
@@ -47,7 +46,7 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 
 #### Non-alternating reduced syllables
 
-e.g. [mp](wajto-fire)
+* e.g. [mp](wajto-fire)
 
 
 ### Vowel harmony [label](sec:vowelharm)

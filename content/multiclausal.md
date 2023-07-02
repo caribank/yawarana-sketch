@@ -1,5 +1,7 @@
 # Multiclausal [label](multiclausal)
 
+Historically, the function of subordinate clauses was covered by nominalizations and adverbializations.
+For instance, a meaning like '**after I slept**, I ate' was expressed as 'after my sleeping', the verb being a noun syntactically, followed by a postposition.
 
 * argument of the matrix clause
 * adverbial adjunct
