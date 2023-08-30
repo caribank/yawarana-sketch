@@ -44,3 +44,6 @@ Also:
 * [mp](chi-cop) combines with [mp](yawe-loc), sometimes spelled *chi yawë*, sometimes *chawë*.
 * syllable reduction
 * postpositions on bare verbs? (e.g. _wejtawë_)
+* particles can intervene
+
+[ex](convrisamaj-47)
