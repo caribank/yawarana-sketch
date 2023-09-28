@@ -1,19 +1,19 @@
-from pylingdocs.models import Entity
+from pylingdocs.models import Base
 
-class Phoneme(Entity):
+class Phoneme(Base):
     name = "Phoneme"
     cldf_table = "phonemes.csv"
     shortcut = "pnm"
 
-class POS(Entity):
+class POS(Base):
     name = "POS"
     cldf_table = "partsofspeech.csv"
     shortcut = "pos"
 
-class Lexeme(Entity):
+class Lexeme(Base):
     name = "Lexeme"
     cldf_table = "lexemes.csv"
     shortcut = "lex"
 
 
-models = [Phoneme, POS, Lexeme]
+models = [Phoneme(), POS(), Lexeme()]
