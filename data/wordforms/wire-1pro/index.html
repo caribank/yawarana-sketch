@@ -1,0 +1,1505 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.2.7">
+    
+    
+      
+        <title>wïrë - A digital sketch grammar of Yawarana (0.0.3.draft2)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/examples.css">
+    
+      <link rel="stylesheet" href="../../../assets/alignment.css">
+    
+      <link rel="stylesheet" href="../../../assets/glossing.css">
+    
+      <link rel="stylesheet" href="../../../assets/tables.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="orange">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#wire" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="A digital sketch grammar of Yawarana (0.0.3.draft2)" class="md-header__button md-logo" aria-label="A digital sketch grammar of Yawarana (0.0.3.draft2)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            A digital sketch grammar of Yawarana (0.0.3.draft2)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              wïrë
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="cyan"  aria-label="Switch to light markdown_extensions"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light markdown_extensions" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fmatter/yawarana-sketch" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Source (GitHub)
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Determine classes -->
+
+
+
+  
+
+
+<!-- Navigation -->
+<nav
+  class="md-nav md-nav--primary md-nav--integrated"
+  aria-label="Navigation"
+  data-md-level="0"
+>
+
+  <!-- Site title -->
+  <label class="md-nav__title" for="__drawer">
+    <a
+      href="../../.."
+      title="A digital sketch grammar of Yawarana (0.0.3.draft2)"
+      aria-label="A digital sketch grammar of Yawarana (0.0.3.draft2)"
+    >A digital sketch grammar of Yawarana (0.0.3.draft2)
+    </a>
+  </label>
+
+  <!-- Repository information -->
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fmatter/yawarana-sketch" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Source (GitHub)
+  </div>
+</a>
+    </div>
+  
+
+  <!-- Navigation list -->
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../intro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phono/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Phonetics and phonology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../POS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Parts of speech in Yawarana
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nouns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Nouns
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verbderiv/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Verbal roots and stems
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verbinfl/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Verbal inflection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../postp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Postpositions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../partideo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    8. Particles, ideophones and interjections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../negation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    9. Negation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../auxiliarized-constructions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10. Auxiliarized constructions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phrases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    11. Phrases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nonverbal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12. Nonverbal predications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../simpleverb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    13. Simple verbal clauses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../questions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    14. Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../multiclausal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    15. Multiclausal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wordorder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    16. Word order variation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pragmarked/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    17. Pragmatically marked constructions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../voice/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    18. Detransitive voice
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+  
+  
+
+
+<h1 id="wire">wïrë</h1>
+<ul>
+<li>ID: wire-1pro </li>
+<li>Language_ID: yab </li>
+<li>Form: wïrë </li>
+<li>Part_Of_Speech: pn </li>
+<li>Parameter_ID: ['1PRO'] </li>
+<li>Morpho_Segments: ['wïrë'] </li>
+<li>Segments: [] </li>
+<li>Source: ['muller2021yawarana'] </li>
+<li>
+<p>Media_ID: YarLex_2428_AnFo_wire </p>
+</li>
+<li>
+<p>language: <a href='/data/languages/yab.md'>Yawarana</a></p>
+</li>
+<li>stem: </li>
+<li>part_of_speech: <a href='/data/partsofspeech/pn.md'>pronoun</a></li>
+</ul>
+<h2 id="wordformparts">wordformparts</h2>
+<ul>
+<li><a href='/data/wordformparts/wire-1pro-0.md'>wire-1pro-0</a></li>
+</ul>
+<h2 id="wordformstems">wordformstems</h2>
+<ul>
+<li><a href='/data/wordformstems/wire-1pro-0.md'>wire-1pro-0</a></li>
+</ul>
+<h2 id="exampleparts">exampleparts</h2>
+<ul>
+<li><a href='/data/exampleparts/convcosnoind-119-0.md'>convcosnoind-119-0</a></li>
+<li><a href='/data/exampleparts/convestsjm-11-3.md'>convestsjm-11-3</a></li>
+<li><a href='/data/exampleparts/convestsjm-13-0.md'>convestsjm-13-0</a></li>
+<li><a href='/data/exampleparts/convestsjm-15-0.md'>convestsjm-15-0</a></li>
+<li><a href='/data/exampleparts/convestsjm-17-0.md'>convestsjm-17-0</a></li>
+<li><a href='/data/exampleparts/convestsjm-18-2.md'>convestsjm-18-2</a></li>
+<li><a href='/data/exampleparts/convestsjm-19-2.md'>convestsjm-19-2</a></li>
+<li><a href='/data/exampleparts/convestsjm-21-7.md'>convestsjm-21-7</a></li>
+<li><a href='/data/exampleparts/convestsjm-38-1.md'>convestsjm-38-1</a></li>
+<li><a href='/data/exampleparts/convestsjm-39-3.md'>convestsjm-39-3</a></li>
+<li><a href='/data/exampleparts/convestsjm-39-6.md'>convestsjm-39-6</a></li>
+<li><a href='/data/exampleparts/convestsjm-39-10.md'>convestsjm-39-10</a></li>
+<li><a href='/data/exampleparts/convestsjm-40-2.md'>convestsjm-40-2</a></li>
+<li><a href='/data/exampleparts/convestsjm-40-6.md'>convestsjm-40-6</a></li>
+<li><a href='/data/exampleparts/convestsjm-42-3.md'>convestsjm-42-3</a></li>
+<li><a href='/data/exampleparts/convestsjm-42-7.md'>convestsjm-42-7</a></li>
+<li><a href='/data/exampleparts/convestsjm-44-10.md'>convestsjm-44-10</a></li>
+<li><a href='/data/exampleparts/convestsjm-46-0.md'>convestsjm-46-0</a></li>
+<li><a href='/data/exampleparts/convestsjm-46-3.md'>convestsjm-46-3</a></li>
+<li><a href='/data/exampleparts/convestsjm-47-0.md'>convestsjm-47-0</a></li>
+<li><a href='/data/exampleparts/convestsjm-47-8.md'>convestsjm-47-8</a></li>
+<li><a href='/data/exampleparts/convestsjm-48-0.md'>convestsjm-48-0</a></li>
+<li><a href='/data/exampleparts/convestsjm-51-3.md'>convestsjm-51-3</a></li>
+<li><a href='/data/exampleparts/convestsjm-52-1.md'>convestsjm-52-1</a></li>
+<li><a href='/data/exampleparts/convestsjm-52-3.md'>convestsjm-52-3</a></li>
+<li><a href='/data/exampleparts/convestsjm-53-1.md'>convestsjm-53-1</a></li>
+<li><a href='/data/exampleparts/convestsjm-53-9.md'>convestsjm-53-9</a></li>
+<li><a href='/data/exampleparts/convestsjm-55-5.md'>convestsjm-55-5</a></li>
+<li><a href='/data/exampleparts/convestsjm-57-4.md'>convestsjm-57-4</a></li>
+<li><a href='/data/exampleparts/convestsjm-57-8.md'>convestsjm-57-8</a></li>
+<li><a href='/data/exampleparts/convestsjm-75-3.md'>convestsjm-75-3</a></li>
+<li><a href='/data/exampleparts/convestsjm-80-0.md'>convestsjm-80-0</a></li>
+<li><a href='/data/exampleparts/convestsjm-81-0.md'>convestsjm-81-0</a></li>
+<li><a href='/data/exampleparts/convestsjm-85-1.md'>convestsjm-85-1</a></li>
+<li><a href='/data/exampleparts/convestsjm-92-0.md'>convestsjm-92-0</a></li>
+<li><a href='/data/exampleparts/convestsjm-100-4.md'>convestsjm-100-4</a></li>
+<li><a href='/data/exampleparts/convestsjm-104-0.md'>convestsjm-104-0</a></li>
+<li><a href='/data/exampleparts/convrisamaj-4-0.md'>convrisamaj-4-0</a></li>
+<li><a href='/data/exampleparts/convrisamaj-7-0.md'>convrisamaj-7-0</a></li>
+<li><a href='/data/exampleparts/convrisamaj-8-7.md'>convrisamaj-8-7</a></li>
+<li><a href='/data/exampleparts/convrisamaj-8-11.md'>convrisamaj-8-11</a></li>
+<li><a href='/data/exampleparts/convrisamaj-8-14.md'>convrisamaj-8-14</a></li>
+<li><a href='/data/exampleparts/convrisamaj-17-2.md'>convrisamaj-17-2</a></li>
+<li><a href='/data/exampleparts/convrisamaj-18-3.md'>convrisamaj-18-3</a></li>
+<li><a href='/data/exampleparts/convrisamaj-18-4.md'>convrisamaj-18-4</a></li>
+<li><a href='/data/exampleparts/convrisamaj-20-2.md'>convrisamaj-20-2</a></li>
+<li><a href='/data/exampleparts/convrisamaj-21-0.md'>convrisamaj-21-0</a></li>
+<li><a href='/data/exampleparts/convrisamaj-21-3.md'>convrisamaj-21-3</a></li>
+<li><a href='/data/exampleparts/convrisamaj-22-2.md'>convrisamaj-22-2</a></li>
+<li><a href='/data/exampleparts/convrisamaj-24-0.md'>convrisamaj-24-0</a></li>
+<li><a href='/data/exampleparts/convrisamaj-24-4.md'>convrisamaj-24-4</a></li>
+<li><a href='/data/exampleparts/convrisamaj-24-6.md'>convrisamaj-24-6</a></li>
+<li><a href='/data/exampleparts/convrisamaj-26-2.md'>convrisamaj-26-2</a></li>
+<li><a href='/data/exampleparts/convrisamaj-27-1.md'>convrisamaj-27-1</a></li>
+<li><a href='/data/exampleparts/convrisamaj-34-10.md'>convrisamaj-34-10</a></li>
+<li><a href='/data/exampleparts/convrisamaj-36-2.md'>convrisamaj-36-2</a></li>
+<li><a href='/data/exampleparts/convrisamaj-37-4.md'>convrisamaj-37-4</a></li>
+<li><a href='/data/exampleparts/convrisamaj-40-2.md'>convrisamaj-40-2</a></li>
+<li><a href='/data/exampleparts/convrisamaj-44-0.md'>convrisamaj-44-0</a></li>
+<li><a href='/data/exampleparts/convrisamaj-45-4.md'>convrisamaj-45-4</a></li>
+<li><a href='/data/exampleparts/convrisamaj-45-8.md'>convrisamaj-45-8</a></li>
+<li><a href='/data/exampleparts/convrisamaj-45-10.md'>convrisamaj-45-10</a></li>
+<li><a href='/data/exampleparts/convrisamaj-46-1.md'>convrisamaj-46-1</a></li>
+<li><a href='/data/exampleparts/convrisamaj-53-3.md'>convrisamaj-53-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-14-2.md'>convfemgrme-14-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-16-0.md'>convfemgrme-16-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-17-0.md'>convfemgrme-17-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-19-0.md'>convfemgrme-19-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-19-5.md'>convfemgrme-19-5</a></li>
+<li><a href='/data/exampleparts/convfemgrme-20-2.md'>convfemgrme-20-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-28-3.md'>convfemgrme-28-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-29-0.md'>convfemgrme-29-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-61-9.md'>convfemgrme-61-9</a></li>
+<li><a href='/data/exampleparts/convfemgrme-69-2.md'>convfemgrme-69-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-78-3.md'>convfemgrme-78-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-97-5.md'>convfemgrme-97-5</a></li>
+<li><a href='/data/exampleparts/convfemgrme-105-8.md'>convfemgrme-105-8</a></li>
+<li><a href='/data/exampleparts/convfemgrme-109-0.md'>convfemgrme-109-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-144-2.md'>convfemgrme-144-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-147-10.md'>convfemgrme-147-10</a></li>
+<li><a href='/data/exampleparts/convfemgrme-149-8.md'>convfemgrme-149-8</a></li>
+<li><a href='/data/exampleparts/convfemgrme-152-0.md'>convfemgrme-152-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-152-9.md'>convfemgrme-152-9</a></li>
+<li><a href='/data/exampleparts/convfemgrme-153-2.md'>convfemgrme-153-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-160-0.md'>convfemgrme-160-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-160-8.md'>convfemgrme-160-8</a></li>
+<li><a href='/data/exampleparts/convfemgrme-162-0.md'>convfemgrme-162-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-162-2.md'>convfemgrme-162-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-163-7.md'>convfemgrme-163-7</a></li>
+<li><a href='/data/exampleparts/convfemgrme-164-0.md'>convfemgrme-164-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-168-1.md'>convfemgrme-168-1</a></li>
+<li><a href='/data/exampleparts/convfemgrme-174-0.md'>convfemgrme-174-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-175-0.md'>convfemgrme-175-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-175-2.md'>convfemgrme-175-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-175-5.md'>convfemgrme-175-5</a></li>
+<li><a href='/data/exampleparts/convfemgrme-176-2.md'>convfemgrme-176-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-177-4.md'>convfemgrme-177-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-177-7.md'>convfemgrme-177-7</a></li>
+<li><a href='/data/exampleparts/convfemgrme-178-0.md'>convfemgrme-178-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-179-4.md'>convfemgrme-179-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-179-6.md'>convfemgrme-179-6</a></li>
+<li><a href='/data/exampleparts/convfemgrme-180-0.md'>convfemgrme-180-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-180-3.md'>convfemgrme-180-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-181-0.md'>convfemgrme-181-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-181-3.md'>convfemgrme-181-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-182-2.md'>convfemgrme-182-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-182-6.md'>convfemgrme-182-6</a></li>
+<li><a href='/data/exampleparts/convfemgrme-183-1.md'>convfemgrme-183-1</a></li>
+<li><a href='/data/exampleparts/convfemgrme-184-2.md'>convfemgrme-184-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-184-4.md'>convfemgrme-184-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-185-12.md'>convfemgrme-185-12</a></li>
+<li><a href='/data/exampleparts/convfemgrme-185-14.md'>convfemgrme-185-14</a></li>
+<li><a href='/data/exampleparts/convfemgrme-186-1.md'>convfemgrme-186-1</a></li>
+<li><a href='/data/exampleparts/convfemgrme-187-0.md'>convfemgrme-187-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-192-0.md'>convfemgrme-192-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-192-3.md'>convfemgrme-192-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-193-1.md'>convfemgrme-193-1</a></li>
+<li><a href='/data/exampleparts/convfemgrme-193-6.md'>convfemgrme-193-6</a></li>
+<li><a href='/data/exampleparts/convfemgrme-194-2.md'>convfemgrme-194-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-195-2.md'>convfemgrme-195-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-195-5.md'>convfemgrme-195-5</a></li>
+<li><a href='/data/exampleparts/convfemgrme-197-7.md'>convfemgrme-197-7</a></li>
+<li><a href='/data/exampleparts/convfemgrme-200-0.md'>convfemgrme-200-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-203-0.md'>convfemgrme-203-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-203-6.md'>convfemgrme-203-6</a></li>
+<li><a href='/data/exampleparts/convfemgrme-204-0.md'>convfemgrme-204-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-205-0.md'>convfemgrme-205-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-205-2.md'>convfemgrme-205-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-206-0.md'>convfemgrme-206-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-206-3.md'>convfemgrme-206-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-208-0.md'>convfemgrme-208-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-208-5.md'>convfemgrme-208-5</a></li>
+<li><a href='/data/exampleparts/convfemgrme-227-2.md'>convfemgrme-227-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-227-10.md'>convfemgrme-227-10</a></li>
+<li><a href='/data/exampleparts/convfemgrme-231-3.md'>convfemgrme-231-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-232-1.md'>convfemgrme-232-1</a></li>
+<li><a href='/data/exampleparts/convfemgrme-233-2.md'>convfemgrme-233-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-257-1.md'>convfemgrme-257-1</a></li>
+<li><a href='/data/exampleparts/convfemgrme-257-7.md'>convfemgrme-257-7</a></li>
+<li><a href='/data/exampleparts/convfemgrme-259-2.md'>convfemgrme-259-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-260-0.md'>convfemgrme-260-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-261-0.md'>convfemgrme-261-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-262-3.md'>convfemgrme-262-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-266-3.md'>convfemgrme-266-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-266-5.md'>convfemgrme-266-5</a></li>
+<li><a href='/data/exampleparts/convfemgrme-270-2.md'>convfemgrme-270-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-270-4.md'>convfemgrme-270-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-271-0.md'>convfemgrme-271-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-271-2.md'>convfemgrme-271-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-272-1.md'>convfemgrme-272-1</a></li>
+<li><a href='/data/exampleparts/convfemgrme-272-3.md'>convfemgrme-272-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-273-4.md'>convfemgrme-273-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-274-2.md'>convfemgrme-274-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-277-0.md'>convfemgrme-277-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-279-4.md'>convfemgrme-279-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-280-0.md'>convfemgrme-280-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-281-2.md'>convfemgrme-281-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-292-2.md'>convfemgrme-292-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-298-1.md'>convfemgrme-298-1</a></li>
+<li><a href='/data/exampleparts/convfemgrme-323-0.md'>convfemgrme-323-0</a></li>
+<li><a href='/data/exampleparts/convfemgrme-323-4.md'>convfemgrme-323-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-323-6.md'>convfemgrme-323-6</a></li>
+<li><a href='/data/exampleparts/convfemgrme-331-2.md'>convfemgrme-331-2</a></li>
+<li><a href='/data/exampleparts/histanfo-1-0.md'>histanfo-1-0</a></li>
+<li><a href='/data/exampleparts/histanfo-49-6.md'>histanfo-49-6</a></li>
+<li><a href='/data/exampleparts/hist2mape-4-0.md'>hist2mape-4-0</a></li>
+<li><a href='/data/exampleparts/hist2mape-7-0.md'>hist2mape-7-0</a></li>
+<li><a href='/data/exampleparts/hist2mape-9-5.md'>hist2mape-9-5</a></li>
+<li><a href='/data/exampleparts/hist2mape-10-9.md'>hist2mape-10-9</a></li>
+<li><a href='/data/exampleparts/hist2mape-13-3.md'>hist2mape-13-3</a></li>
+<li><a href='/data/exampleparts/hist2mape-17-0.md'>hist2mape-17-0</a></li>
+<li><a href='/data/exampleparts/hist2mape-18-0.md'>hist2mape-18-0</a></li>
+<li><a href='/data/exampleparts/hist2mape-38-5.md'>hist2mape-38-5</a></li>
+<li><a href='/data/exampleparts/hist2mape-41-0.md'>hist2mape-41-0</a></li>
+<li><a href='/data/exampleparts/hist2mape-41-2.md'>hist2mape-41-2</a></li>
+<li><a href='/data/exampleparts/hist2mape-43-3.md'>hist2mape-43-3</a></li>
+<li><a href='/data/exampleparts/hist2mape-53-0.md'>hist2mape-53-0</a></li>
+<li><a href='/data/exampleparts/histgrme-1-2.md'>histgrme-1-2</a></li>
+<li><a href='/data/exampleparts/histgrme-2-0.md'>histgrme-2-0</a></li>
+<li><a href='/data/exampleparts/histgrme-10-1.md'>histgrme-10-1</a></li>
+<li><a href='/data/exampleparts/histgrme-10-4.md'>histgrme-10-4</a></li>
+<li><a href='/data/exampleparts/histgrme-11-1.md'>histgrme-11-1</a></li>
+<li><a href='/data/exampleparts/histgrme-11-3.md'>histgrme-11-3</a></li>
+<li><a href='/data/exampleparts/histgrme-11-5.md'>histgrme-11-5</a></li>
+<li><a href='/data/exampleparts/histgrme-13-2.md'>histgrme-13-2</a></li>
+<li><a href='/data/exampleparts/histgrme-19-1.md'>histgrme-19-1</a></li>
+<li><a href='/data/exampleparts/histgrme-20-2.md'>histgrme-20-2</a></li>
+<li><a href='/data/exampleparts/histgrme-25-0.md'>histgrme-25-0</a></li>
+<li><a href='/data/exampleparts/histgrme-26-2.md'>histgrme-26-2</a></li>
+<li><a href='/data/exampleparts/histgrme-37-2.md'>histgrme-37-2</a></li>
+<li><a href='/data/exampleparts/histgrme-39-0.md'>histgrme-39-0</a></li>
+<li><a href='/data/exampleparts/histgrme-45-0.md'>histgrme-45-0</a></li>
+<li><a href='/data/exampleparts/histgrme-45-7.md'>histgrme-45-7</a></li>
+<li><a href='/data/exampleparts/histgrme-46-0.md'>histgrme-46-0</a></li>
+<li><a href='/data/exampleparts/histgrme-47-0.md'>histgrme-47-0</a></li>
+<li><a href='/data/exampleparts/histgrme-48-1.md'>histgrme-48-1</a></li>
+<li><a href='/data/exampleparts/histgrme-61-3.md'>histgrme-61-3</a></li>
+<li><a href='/data/exampleparts/histgrme-61-8.md'>histgrme-61-8</a></li>
+<li><a href='/data/exampleparts/histgrme-62-2.md'>histgrme-62-2</a></li>
+<li><a href='/data/exampleparts/histgrme-62-7.md'>histgrme-62-7</a></li>
+<li><a href='/data/exampleparts/histgrme-63-1.md'>histgrme-63-1</a></li>
+<li><a href='/data/exampleparts/histgrme-63-6.md'>histgrme-63-6</a></li>
+<li><a href='/data/exampleparts/histgrme-63-7.md'>histgrme-63-7</a></li>
+<li><a href='/data/exampleparts/histgrme-63-11.md'>histgrme-63-11</a></li>
+<li><a href='/data/exampleparts/histgrme-67-5.md'>histgrme-67-5</a></li>
+<li><a href='/data/exampleparts/histgrme-67-11.md'>histgrme-67-11</a></li>
+<li><a href='/data/exampleparts/histgrme-67-13.md'>histgrme-67-13</a></li>
+<li><a href='/data/exampleparts/histgrme-68-2.md'>histgrme-68-2</a></li>
+<li><a href='/data/exampleparts/histgrme-69-2.md'>histgrme-69-2</a></li>
+<li><a href='/data/exampleparts/histgrme-70-0.md'>histgrme-70-0</a></li>
+<li><a href='/data/exampleparts/histgrme-71-0.md'>histgrme-71-0</a></li>
+<li><a href='/data/exampleparts/histgrme-87-0.md'>histgrme-87-0</a></li>
+<li><a href='/data/exampleparts/histgrme-88-0.md'>histgrme-88-0</a></li>
+<li><a href='/data/exampleparts/histgrme-90-0.md'>histgrme-90-0</a></li>
+<li><a href='/data/exampleparts/histgrme-91-0.md'>histgrme-91-0</a></li>
+<li><a href='/data/exampleparts/histgrme-91-2.md'>histgrme-91-2</a></li>
+<li><a href='/data/exampleparts/histgrme-93-1.md'>histgrme-93-1</a></li>
+<li><a href='/data/exampleparts/histgrme-97-2.md'>histgrme-97-2</a></li>
+<li><a href='/data/exampleparts/histgrme-100-0.md'>histgrme-100-0</a></li>
+<li><a href='/data/exampleparts/histgrme-108-3.md'>histgrme-108-3</a></li>
+<li><a href='/data/exampleparts/histgrme-110-0.md'>histgrme-110-0</a></li>
+<li><a href='/data/exampleparts/histgrme-111-2.md'>histgrme-111-2</a></li>
+<li><a href='/data/exampleparts/histgrme-112-2.md'>histgrme-112-2</a></li>
+<li><a href='/data/exampleparts/histgrme-114-0.md'>histgrme-114-0</a></li>
+<li><a href='/data/exampleparts/histgrme-114-3.md'>histgrme-114-3</a></li>
+<li><a href='/data/exampleparts/histgrme-115-3.md'>histgrme-115-3</a></li>
+<li><a href='/data/exampleparts/histgrme-120-0.md'>histgrme-120-0</a></li>
+<li><a href='/data/exampleparts/histgrme-120-3.md'>histgrme-120-3</a></li>
+<li><a href='/data/exampleparts/histgrme-128-0.md'>histgrme-128-0</a></li>
+<li><a href='/data/exampleparts/histgrme-134-2.md'>histgrme-134-2</a></li>
+<li><a href='/data/exampleparts/histgrme-137-0.md'>histgrme-137-0</a></li>
+<li><a href='/data/exampleparts/histaccigrme-1-3.md'>histaccigrme-1-3</a></li>
+<li><a href='/data/exampleparts/histaccigrme-2-0.md'>histaccigrme-2-0</a></li>
+<li><a href='/data/exampleparts/histaccigrme-6-0.md'>histaccigrme-6-0</a></li>
+<li><a href='/data/exampleparts/histaccigrme-8-2.md'>histaccigrme-8-2</a></li>
+<li><a href='/data/exampleparts/histaccigrme-9-0.md'>histaccigrme-9-0</a></li>
+<li><a href='/data/exampleparts/histaccigrme-18-0.md'>histaccigrme-18-0</a></li>
+<li><a href='/data/exampleparts/histaccigrme-19-2.md'>histaccigrme-19-2</a></li>
+<li><a href='/data/exampleparts/histaccigrme-20-1.md'>histaccigrme-20-1</a></li>
+<li><a href='/data/exampleparts/histaccigrme-21-1.md'>histaccigrme-21-1</a></li>
+<li><a href='/data/exampleparts/histaccigrme-21-3.md'>histaccigrme-21-3</a></li>
+<li><a href='/data/exampleparts/histaccigrme-22-0.md'>histaccigrme-22-0</a></li>
+<li><a href='/data/exampleparts/histaccigrme-24-7.md'>histaccigrme-24-7</a></li>
+<li><a href='/data/exampleparts/histaccigrme-26-0.md'>histaccigrme-26-0</a></li>
+<li><a href='/data/exampleparts/histaccigrme-27-0.md'>histaccigrme-27-0</a></li>
+<li><a href='/data/exampleparts/histaccigrme-29-4.md'>histaccigrme-29-4</a></li>
+<li><a href='/data/exampleparts/histaccigrme-30-2.md'>histaccigrme-30-2</a></li>
+<li><a href='/data/exampleparts/histaccigrme-32-4.md'>histaccigrme-32-4</a></li>
+<li><a href='/data/exampleparts/histaccigrme-35-3.md'>histaccigrme-35-3</a></li>
+<li><a href='/data/exampleparts/histaccigrme-37-0.md'>histaccigrme-37-0</a></li>
+<li><a href='/data/exampleparts/histaccigrme-38-1.md'>histaccigrme-38-1</a></li>
+<li><a href='/data/exampleparts/histaccigrme-38-3.md'>histaccigrme-38-3</a></li>
+<li><a href='/data/exampleparts/histaccigrme-39-2.md'>histaccigrme-39-2</a></li>
+<li><a href='/data/exampleparts/histaccigrme-40-3.md'>histaccigrme-40-3</a></li>
+<li><a href='/data/exampleparts/histaccigrme-40-9.md'>histaccigrme-40-9</a></li>
+<li><a href='/data/exampleparts/histaccigrme-41-0.md'>histaccigrme-41-0</a></li>
+<li><a href='/data/exampleparts/histaccigrme-43-3.md'>histaccigrme-43-3</a></li>
+<li><a href='/data/exampleparts/histaccigrme-44-0.md'>histaccigrme-44-0</a></li>
+<li><a href='/data/exampleparts/ctoaragrme-14-0.md'>ctoaragrme-14-0</a></li>
+<li><a href='/data/exampleparts/ctoaragrme-18-2.md'>ctoaragrme-18-2</a></li>
+<li><a href='/data/exampleparts/ctoaragrme-19-0.md'>ctoaragrme-19-0</a></li>
+<li><a href='/data/exampleparts/ctoaragrme-37-0.md'>ctoaragrme-37-0</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-2-6.md'>ctoyucairdi-2-6</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-4-2.md'>ctoyucairdi-4-2</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-6-4.md'>ctoyucairdi-6-4</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-6-8.md'>ctoyucairdi-6-8</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-7-2.md'>ctoyucairdi-7-2</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-8-1.md'>ctoyucairdi-8-1</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-23-6.md'>ctoyucairdi-23-6</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-33-5.md'>ctoyucairdi-33-5</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-44-3.md'>ctoyucairdi-44-3</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-90-0.md'>ctoyucairdi-90-0</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-90-4.md'>ctoyucairdi-90-4</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-102-0.md'>ctoyucairdi-102-0</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-102-5.md'>ctoyucairdi-102-5</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-102-8.md'>ctoyucairdi-102-8</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-103-0.md'>ctoyucairdi-103-0</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-103-5.md'>ctoyucairdi-103-5</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-104-1.md'>ctoyucairdi-104-1</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-105-0.md'>ctoyucairdi-105-0</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-105-14.md'>ctoyucairdi-105-14</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-106-1.md'>ctoyucairdi-106-1</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-108-3.md'>ctoyucairdi-108-3</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-111-1.md'>ctoyucairdi-111-1</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-111-4.md'>ctoyucairdi-111-4</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-111-7.md'>ctoyucairdi-111-7</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-115-3.md'>ctoyucairdi-115-3</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-115-5.md'>ctoyucairdi-115-5</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-116-1.md'>ctoyucairdi-116-1</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-116-9.md'>ctoyucairdi-116-9</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-117-3.md'>ctoyucairdi-117-3</a></li>
+<li><a href='/data/exampleparts/desccasagrme-68-3.md'>desccasagrme-68-3</a></li>
+<li><a href='/data/exampleparts/desccasagrme-68-5.md'>desccasagrme-68-5</a></li>
+<li><a href='/data/exampleparts/desccasagrme-69-2.md'>desccasagrme-69-2</a></li>
+<li><a href='/data/exampleparts/desccasagrme-77-0.md'>desccasagrme-77-0</a></li>
+<li><a href='/data/exampleparts/desccasagrme-78-3.md'>desccasagrme-78-3</a></li>
+<li><a href='/data/exampleparts/descmensgrme-3-3.md'>descmensgrme-3-3</a></li>
+<li><a href='/data/exampleparts/descmensgrme-3-5.md'>descmensgrme-3-5</a></li>
+<li><a href='/data/exampleparts/descmensgrme-3-7.md'>descmensgrme-3-7</a></li>
+<li><a href='/data/exampleparts/descmensgrme-4-0.md'>descmensgrme-4-0</a></li>
+<li><a href='/data/exampleparts/descmensgrme-4-6.md'>descmensgrme-4-6</a></li>
+<li><a href='/data/exampleparts/descmensgrme-5-0.md'>descmensgrme-5-0</a></li>
+<li><a href='/data/exampleparts/descmensgrme-5-2.md'>descmensgrme-5-2</a></li>
+<li><a href='/data/exampleparts/descmensgrme-5-5.md'>descmensgrme-5-5</a></li>
+<li><a href='/data/exampleparts/descmensgrme-29-4.md'>descmensgrme-29-4</a></li>
+<li><a href='/data/exampleparts/descmensgrme-41-0.md'>descmensgrme-41-0</a></li>
+<li><a href='/data/exampleparts/descmensgrme-41-2.md'>descmensgrme-41-2</a></li>
+<li><a href='/data/exampleparts/descmensgrme-41-4.md'>descmensgrme-41-4</a></li>
+<li><a href='/data/exampleparts/descmensgrme-41-10.md'>descmensgrme-41-10</a></li>
+<li><a href='/data/exampleparts/descmensgrme-60-0.md'>descmensgrme-60-0</a></li>
+<li><a href='/data/exampleparts/descmensgrme-61-0.md'>descmensgrme-61-0</a></li>
+<li><a href='/data/exampleparts/descmensgrme-62-3.md'>descmensgrme-62-3</a></li>
+<li><a href='/data/exampleparts/descmensgrme-63-2.md'>descmensgrme-63-2</a></li>
+<li><a href='/data/exampleparts/descmensgrme-63-5.md'>descmensgrme-63-5</a></li>
+<li><a href='/data/exampleparts/descmensgrme-65-0.md'>descmensgrme-65-0</a></li>
+<li><a href='/data/exampleparts/descmensgrme-72-0.md'>descmensgrme-72-0</a></li>
+<li><a href='/data/exampleparts/descmensgrme-73-3.md'>descmensgrme-73-3</a></li>
+<li><a href='/data/exampleparts/descmensgrme-74-0.md'>descmensgrme-74-0</a></li>
+<li><a href='/data/exampleparts/descmensgrme-75-5.md'>descmensgrme-75-5</a></li>
+<li><a href='/data/exampleparts/descmensgrme-77-0.md'>descmensgrme-77-0</a></li>
+<li><a href='/data/exampleparts/descmensgrme-77-1.md'>descmensgrme-77-1</a></li>
+<li><a href='/data/exampleparts/descmensgrme-79-3.md'>descmensgrme-79-3</a></li>
+<li><a href='/data/exampleparts/descmensgrme-81-2.md'>descmensgrme-81-2</a></li>
+<li><a href='/data/exampleparts/descmensgrme-82-2.md'>descmensgrme-82-2</a></li>
+<li><a href='/data/exampleparts/descmensgrme-82-4.md'>descmensgrme-82-4</a></li>
+<li><a href='/data/exampleparts/descmensgrme-85-4.md'>descmensgrme-85-4</a></li>
+<li><a href='/data/exampleparts/descmensgrme-85-7.md'>descmensgrme-85-7</a></li>
+<li><a href='/data/exampleparts/descmensgrme-86-3.md'>descmensgrme-86-3</a></li>
+<li><a href='/data/exampleparts/descmensgrme-91-0.md'>descmensgrme-91-0</a></li>
+<li><a href='/data/exampleparts/descmensgrme-93-0.md'>descmensgrme-93-0</a></li>
+<li><a href='/data/exampleparts/descmensgrme-95-0.md'>descmensgrme-95-0</a></li>
+<li><a href='/data/exampleparts/descmensgrme-95-6.md'>descmensgrme-95-6</a></li>
+<li><a href='/data/exampleparts/descmensgrme-97-3.md'>descmensgrme-97-3</a></li>
+<li><a href='/data/exampleparts/descmensgrme-97-6.md'>descmensgrme-97-6</a></li>
+<li><a href='/data/exampleparts/descmensgrme-103-3.md'>descmensgrme-103-3</a></li>
+<li><a href='/data/exampleparts/descmensgrme-103-10.md'>descmensgrme-103-10</a></li>
+<li><a href='/data/exampleparts/descmensgrme-106-0.md'>descmensgrme-106-0</a></li>
+<li><a href='/data/exampleparts/desccasmaj-22-3.md'>desccasmaj-22-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-23-2.md'>desccasmaj-23-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-23-5.md'>desccasmaj-23-5</a></li>
+<li><a href='/data/exampleparts/desccasmaj-23-8.md'>desccasmaj-23-8</a></li>
+<li><a href='/data/exampleparts/desccasmaj-26-0.md'>desccasmaj-26-0</a></li>
+<li><a href='/data/exampleparts/desccasmaj-27-0.md'>desccasmaj-27-0</a></li>
+<li><a href='/data/exampleparts/desccasmaj-30-3.md'>desccasmaj-30-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-31-1.md'>desccasmaj-31-1</a></li>
+<li><a href='/data/exampleparts/desccasmaj-32-2.md'>desccasmaj-32-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-32-5.md'>desccasmaj-32-5</a></li>
+<li><a href='/data/exampleparts/desccasmaj-33-3.md'>desccasmaj-33-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-33-8.md'>desccasmaj-33-8</a></li>
+<li><a href='/data/exampleparts/desccasmaj-33-10.md'>desccasmaj-33-10</a></li>
+<li><a href='/data/exampleparts/desccasmaj-34-1.md'>desccasmaj-34-1</a></li>
+<li><a href='/data/exampleparts/desccasmaj-35-0.md'>desccasmaj-35-0</a></li>
+<li><a href='/data/exampleparts/desccasmaj-35-4.md'>desccasmaj-35-4</a></li>
+<li><a href='/data/exampleparts/desccasmaj-36-0.md'>desccasmaj-36-0</a></li>
+<li><a href='/data/exampleparts/desccasmaj-36-2.md'>desccasmaj-36-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-36-7.md'>desccasmaj-36-7</a></li>
+<li><a href='/data/exampleparts/desccasmaj-36-11.md'>desccasmaj-36-11</a></li>
+<li><a href='/data/exampleparts/desccasmaj-36-15.md'>desccasmaj-36-15</a></li>
+<li><a href='/data/exampleparts/desccasmaj-36-17.md'>desccasmaj-36-17</a></li>
+<li><a href='/data/exampleparts/desccasmaj-36-20.md'>desccasmaj-36-20</a></li>
+<li><a href='/data/exampleparts/desccasmaj-37-2.md'>desccasmaj-37-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-37-9.md'>desccasmaj-37-9</a></li>
+<li><a href='/data/exampleparts/desccasmaj-38-1.md'>desccasmaj-38-1</a></li>
+<li><a href='/data/exampleparts/desccasmaj-39-9.md'>desccasmaj-39-9</a></li>
+<li><a href='/data/exampleparts/desccasmaj-79-2.md'>desccasmaj-79-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-83-3.md'>desccasmaj-83-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-84-0.md'>desccasmaj-84-0</a></li>
+<li><a href='/data/exampleparts/desccasmaj-84-2.md'>desccasmaj-84-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-86-3.md'>desccasmaj-86-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-86-6.md'>desccasmaj-86-6</a></li>
+<li><a href='/data/exampleparts/desccasmaj-87-1.md'>desccasmaj-87-1</a></li>
+<li><a href='/data/exampleparts/desccasmaj-87-6.md'>desccasmaj-87-6</a></li>
+<li><a href='/data/exampleparts/desccasmaj-89-0.md'>desccasmaj-89-0</a></li>
+<li><a href='/data/exampleparts/desccasmaj-95-2.md'>desccasmaj-95-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-100-3.md'>desccasmaj-100-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-102-2.md'>desccasmaj-102-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-104-0.md'>desccasmaj-104-0</a></li>
+<li><a href='/data/exampleparts/desccasmaj-104-4.md'>desccasmaj-104-4</a></li>
+<li><a href='/data/exampleparts/desccasmaj-104-6.md'>desccasmaj-104-6</a></li>
+<li><a href='/data/exampleparts/desccasmaj-106-1.md'>desccasmaj-106-1</a></li>
+<li><a href='/data/exampleparts/desccasmaj-107-1.md'>desccasmaj-107-1</a></li>
+<li><a href='/data/exampleparts/desccasmaj-107-3.md'>desccasmaj-107-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-107-5.md'>desccasmaj-107-5</a></li>
+<li><a href='/data/exampleparts/desccasmaj-118-1.md'>desccasmaj-118-1</a></li>
+<li><a href='/data/exampleparts/desccasmaj-118-3.md'>desccasmaj-118-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-118-4.md'>desccasmaj-118-4</a></li>
+<li><a href='/data/exampleparts/desccasmaj-119-1.md'>desccasmaj-119-1</a></li>
+<li><a href='/data/exampleparts/desccasmaj-127-3.md'>desccasmaj-127-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-142-4.md'>desccasmaj-142-4</a></li>
+<li><a href='/data/exampleparts/desccasmaj-143-1.md'>desccasmaj-143-1</a></li>
+<li><a href='/data/exampleparts/desccasmaj-143-4.md'>desccasmaj-143-4</a></li>
+<li><a href='/data/exampleparts/desccasmaj-144-1.md'>desccasmaj-144-1</a></li>
+<li><a href='/data/exampleparts/desccasmaj-144-3.md'>desccasmaj-144-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-144-6.md'>desccasmaj-144-6</a></li>
+<li><a href='/data/exampleparts/desccasmaj-144-8.md'>desccasmaj-144-8</a></li>
+<li><a href='/data/exampleparts/desccasmaj-145-0.md'>desccasmaj-145-0</a></li>
+<li><a href='/data/exampleparts/desccasmaj-147-3.md'>desccasmaj-147-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-149-4.md'>desccasmaj-149-4</a></li>
+<li><a href='/data/exampleparts/desccasmaj-149-6.md'>desccasmaj-149-6</a></li>
+<li><a href='/data/exampleparts/desccasmaj-150-3.md'>desccasmaj-150-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-151-4.md'>desccasmaj-151-4</a></li>
+<li><a href='/data/exampleparts/desccasmaj-151-7.md'>desccasmaj-151-7</a></li>
+<li><a href='/data/exampleparts/desccasmaj-152-2.md'>desccasmaj-152-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-152-4.md'>desccasmaj-152-4</a></li>
+<li><a href='/data/exampleparts/desccasmaj-152-5.md'>desccasmaj-152-5</a></li>
+<li><a href='/data/exampleparts/desccasmaj-153-2.md'>desccasmaj-153-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-154-2.md'>desccasmaj-154-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-158-0.md'>desccasmaj-158-0</a></li>
+<li><a href='/data/exampleparts/desccasmaj-158-3.md'>desccasmaj-158-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-159-1.md'>desccasmaj-159-1</a></li>
+<li><a href='/data/exampleparts/descokigrme-53-0.md'>descokigrme-53-0</a></li>
+<li><a href='/data/exampleparts/descokigrme-54-0.md'>descokigrme-54-0</a></li>
+<li><a href='/data/exampleparts/descokigrme-54-3.md'>descokigrme-54-3</a></li>
+<li><a href='/data/exampleparts/descokigrme-54-9.md'>descokigrme-54-9</a></li>
+<li><a href='/data/exampleparts/descokigrme-55-3.md'>descokigrme-55-3</a></li>
+<li><a href='/data/exampleparts/descokigrme-57-0.md'>descokigrme-57-0</a></li>
+<li><a href='/data/exampleparts/descokigrme-58-0.md'>descokigrme-58-0</a></li>
+<li><a href='/data/exampleparts/descokigrme-58-5.md'>descokigrme-58-5</a></li>
+<li><a href='/data/exampleparts/conv1stenc-69-3.md'>conv1stenc-69-3</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-2-1.md'>convsuenmaj-2-1</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-2-5.md'>convsuenmaj-2-5</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-4-0.md'>convsuenmaj-4-0</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-9-0.md'>convsuenmaj-9-0</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-11-4.md'>convsuenmaj-11-4</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-13-2.md'>convsuenmaj-13-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-14-2.md'>convsuenmaj-14-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-14-6.md'>convsuenmaj-14-6</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-15-0.md'>convsuenmaj-15-0</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-16-0.md'>convsuenmaj-16-0</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-16-5.md'>convsuenmaj-16-5</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-33-1.md'>convsuenmaj-33-1</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-48-4.md'>convsuenmaj-48-4</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-81-3.md'>convsuenmaj-81-3</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-83-2.md'>convsuenmaj-83-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-86-4.md'>convsuenmaj-86-4</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-91-5.md'>convsuenmaj-91-5</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-92-2.md'>convsuenmaj-92-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-96-2.md'>convsuenmaj-96-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-96-6.md'>convsuenmaj-96-6</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-98-0.md'>convsuenmaj-98-0</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-100-0.md'>convsuenmaj-100-0</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-101-2.md'>convsuenmaj-101-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-103-0.md'>convsuenmaj-103-0</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-103-4.md'>convsuenmaj-103-4</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-104-1.md'>convsuenmaj-104-1</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-105-0.md'>convsuenmaj-105-0</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-105-3.md'>convsuenmaj-105-3</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-108-2.md'>convsuenmaj-108-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-108-5.md'>convsuenmaj-108-5</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-109-1.md'>convsuenmaj-109-1</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-110-2.md'>convsuenmaj-110-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-111-7.md'>convsuenmaj-111-7</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-112-0.md'>convsuenmaj-112-0</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-114-1.md'>convsuenmaj-114-1</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-115-0.md'>convsuenmaj-115-0</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-115-2.md'>convsuenmaj-115-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-116-0.md'>convsuenmaj-116-0</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-116-2.md'>convsuenmaj-116-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-116-6.md'>convsuenmaj-116-6</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-117-1.md'>convsuenmaj-117-1</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-117-3.md'>convsuenmaj-117-3</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-118-1.md'>convsuenmaj-118-1</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-118-6.md'>convsuenmaj-118-6</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-120-3.md'>convsuenmaj-120-3</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-121-1.md'>convsuenmaj-121-1</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-122-2.md'>convsuenmaj-122-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-122-4.md'>convsuenmaj-122-4</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-123-10.md'>convsuenmaj-123-10</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-124-2.md'>convsuenmaj-124-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-125-1.md'>convsuenmaj-125-1</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-126-3.md'>convsuenmaj-126-3</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-127-4.md'>convsuenmaj-127-4</a></li>
+<li><a href='/data/exampleparts/convinsectmaj-4-0.md'>convinsectmaj-4-0</a></li>
+<li><a href='/data/exampleparts/convinsectmaj-30-6.md'>convinsectmaj-30-6</a></li>
+<li><a href='/data/exampleparts/convinsectmaj-123-2.md'>convinsectmaj-123-2</a></li>
+<li><a href='/data/exampleparts/convinsectmaj-124-0.md'>convinsectmaj-124-0</a></li>
+<li><a href='/data/exampleparts/convinsectmaj-124-3.md'>convinsectmaj-124-3</a></li>
+<li><a href='/data/exampleparts/convinsectmaj-125-0.md'>convinsectmaj-125-0</a></li>
+<li><a href='/data/exampleparts/convinsectmaj-130-0.md'>convinsectmaj-130-0</a></li>
+<li><a href='/data/exampleparts/convamgu-11-2.md'>convamgu-11-2</a></li>
+<li><a href='/data/exampleparts/convamgu-15-2.md'>convamgu-15-2</a></li>
+<li><a href='/data/exampleparts/convamgu-15-8.md'>convamgu-15-8</a></li>
+<li><a href='/data/exampleparts/convamgu-20-6.md'>convamgu-20-6</a></li>
+<li><a href='/data/exampleparts/convamgu-26-0.md'>convamgu-26-0</a></li>
+<li><a href='/data/exampleparts/convamgu-26-2.md'>convamgu-26-2</a></li>
+<li><a href='/data/exampleparts/convamgu-27-0.md'>convamgu-27-0</a></li>
+<li><a href='/data/exampleparts/convamgu-31-0.md'>convamgu-31-0</a></li>
+<li><a href='/data/exampleparts/convamgu-31-2.md'>convamgu-31-2</a></li>
+<li><a href='/data/exampleparts/convamgu-86-3.md'>convamgu-86-3</a></li>
+<li><a href='/data/exampleparts/convamgu-90-2.md'>convamgu-90-2</a></li>
+<li><a href='/data/exampleparts/convamgu-91-2.md'>convamgu-91-2</a></li>
+<li><a href='/data/exampleparts/convamgu-92-8.md'>convamgu-92-8</a></li>
+<li><a href='/data/exampleparts/convamgu-93-0.md'>convamgu-93-0</a></li>
+<li><a href='/data/exampleparts/convamgu-93-3.md'>convamgu-93-3</a></li>
+<li><a href='/data/exampleparts/convamgu-93-7.md'>convamgu-93-7</a></li>
+<li><a href='/data/exampleparts/convamgu-93-10.md'>convamgu-93-10</a></li>
+<li><a href='/data/exampleparts/convamgu-93-17.md'>convamgu-93-17</a></li>
+<li><a href='/data/exampleparts/convamgu-98-1.md'>convamgu-98-1</a></li>
+<li><a href='/data/exampleparts/convamgu-99-1.md'>convamgu-99-1</a></li>
+<li><a href='/data/exampleparts/convamgu-99-6.md'>convamgu-99-6</a></li>
+<li><a href='/data/exampleparts/convamgu-100-2.md'>convamgu-100-2</a></li>
+<li><a href='/data/exampleparts/convamgu-100-4.md'>convamgu-100-4</a></li>
+<li><a href='/data/exampleparts/convamgu-101-2.md'>convamgu-101-2</a></li>
+<li><a href='/data/exampleparts/convamgu-103-1.md'>convamgu-103-1</a></li>
+<li><a href='/data/exampleparts/convamgu-103-4.md'>convamgu-103-4</a></li>
+<li><a href='/data/exampleparts/convamgu-104-0.md'>convamgu-104-0</a></li>
+<li><a href='/data/exampleparts/convamgu-105-4.md'>convamgu-105-4</a></li>
+<li><a href='/data/exampleparts/convamgu-112-3.md'>convamgu-112-3</a></li>
+<li><a href='/data/exampleparts/convamgu-113-2.md'>convamgu-113-2</a></li>
+<li><a href='/data/exampleparts/convamgu-114-3.md'>convamgu-114-3</a></li>
+<li><a href='/data/exampleparts/convamgu-115-1.md'>convamgu-115-1</a></li>
+<li><a href='/data/exampleparts/convamgu-116-1.md'>convamgu-116-1</a></li>
+<li><a href='/data/exampleparts/convamgu-117-3.md'>convamgu-117-3</a></li>
+<li><a href='/data/exampleparts/convamgu-118-2.md'>convamgu-118-2</a></li>
+<li><a href='/data/exampleparts/convamgu-119-2.md'>convamgu-119-2</a></li>
+<li><a href='/data/exampleparts/convamgu-119-4.md'>convamgu-119-4</a></li>
+<li><a href='/data/exampleparts/convamgu-122-10.md'>convamgu-122-10</a></li>
+<li><a href='/data/exampleparts/convamgu-122-12.md'>convamgu-122-12</a></li>
+<li><a href='/data/exampleparts/convamgu-123-0.md'>convamgu-123-0</a></li>
+<li><a href='/data/exampleparts/convamgu-123-6.md'>convamgu-123-6</a></li>
+<li><a href='/data/exampleparts/convamgu-124-0.md'>convamgu-124-0</a></li>
+<li><a href='/data/exampleparts/convamgu-124-9.md'>convamgu-124-9</a></li>
+<li><a href='/data/exampleparts/convamgu-125-2.md'>convamgu-125-2</a></li>
+<li><a href='/data/exampleparts/convamgu-129-2.md'>convamgu-129-2</a></li>
+<li><a href='/data/exampleparts/convamgu-130-3.md'>convamgu-130-3</a></li>
+<li><a href='/data/exampleparts/convamgu-136-0.md'>convamgu-136-0</a></li>
+<li><a href='/data/exampleparts/convamgu-136-5.md'>convamgu-136-5</a></li>
+<li><a href='/data/exampleparts/convamgu-141-1.md'>convamgu-141-1</a></li>
+<li><a href='/data/exampleparts/convamgu-148-1.md'>convamgu-148-1</a></li>
+<li><a href='/data/exampleparts/convamgu-148-4.md'>convamgu-148-4</a></li>
+<li><a href='/data/exampleparts/convamgu-148-11.md'>convamgu-148-11</a></li>
+<li><a href='/data/exampleparts/convamgu-149-7.md'>convamgu-149-7</a></li>
+<li><a href='/data/exampleparts/convamgu-150-3.md'>convamgu-150-3</a></li>
+<li><a href='/data/exampleparts/convamgu-150-6.md'>convamgu-150-6</a></li>
+<li><a href='/data/exampleparts/convamgu-151-0.md'>convamgu-151-0</a></li>
+<li><a href='/data/exampleparts/convamgu-151-5.md'>convamgu-151-5</a></li>
+<li><a href='/data/exampleparts/convamgu-152-2.md'>convamgu-152-2</a></li>
+<li><a href='/data/exampleparts/convamgu-155-0.md'>convamgu-155-0</a></li>
+<li><a href='/data/exampleparts/convamgu-159-5.md'>convamgu-159-5</a></li>
+<li><a href='/data/exampleparts/convamgu-160-5.md'>convamgu-160-5</a></li>
+<li><a href='/data/exampleparts/convamgu-163-3.md'>convamgu-163-3</a></li>
+<li><a href='/data/exampleparts/convamgu-168-0.md'>convamgu-168-0</a></li>
+<li><a href='/data/exampleparts/convamgu-169-0.md'>convamgu-169-0</a></li>
+<li><a href='/data/exampleparts/convamgu-170-0.md'>convamgu-170-0</a></li>
+<li><a href='/data/exampleparts/convamgu-187-3.md'>convamgu-187-3</a></li>
+<li><a href='/data/exampleparts/convamgu-199-1.md'>convamgu-199-1</a></li>
+<li><a href='/data/exampleparts/convamgu-205-1.md'>convamgu-205-1</a></li>
+<li><a href='/data/exampleparts/convamgu-209-0.md'>convamgu-209-0</a></li>
+<li><a href='/data/exampleparts/convamgu-214-2.md'>convamgu-214-2</a></li>
+<li><a href='/data/exampleparts/convamgu-214-4.md'>convamgu-214-4</a></li>
+<li><a href='/data/exampleparts/convamgu-216-1.md'>convamgu-216-1</a></li>
+<li><a href='/data/exampleparts/convamgu-221-9.md'>convamgu-221-9</a></li>
+<li><a href='/data/exampleparts/convamgu-253-5.md'>convamgu-253-5</a></li>
+<li><a href='/data/exampleparts/convamgu-254-3.md'>convamgu-254-3</a></li>
+<li><a href='/data/exampleparts/convamgu-254-5.md'>convamgu-254-5</a></li>
+<li><a href='/data/exampleparts/convamgu-260-2.md'>convamgu-260-2</a></li>
+<li><a href='/data/exampleparts/convamgu-262-2.md'>convamgu-262-2</a></li>
+<li><a href='/data/exampleparts/convamgu-265-1.md'>convamgu-265-1</a></li>
+<li><a href='/data/exampleparts/convamgu-270-3.md'>convamgu-270-3</a></li>
+<li><a href='/data/exampleparts/convamgu-271-0.md'>convamgu-271-0</a></li>
+<li><a href='/data/exampleparts/convamgu-271-3.md'>convamgu-271-3</a></li>
+<li><a href='/data/exampleparts/convamgu-274-6.md'>convamgu-274-6</a></li>
+<li><a href='/data/exampleparts/convamgu-275-0.md'>convamgu-275-0</a></li>
+<li><a href='/data/exampleparts/convamgu-276-0.md'>convamgu-276-0</a></li>
+<li><a href='/data/exampleparts/convamgu-278-3.md'>convamgu-278-3</a></li>
+<li><a href='/data/exampleparts/convamgu-299-3.md'>convamgu-299-3</a></li>
+<li><a href='/data/exampleparts/convamgu-335-5.md'>convamgu-335-5</a></li>
+<li><a href='/data/exampleparts/convamgu-336-2.md'>convamgu-336-2</a></li>
+<li><a href='/data/exampleparts/convamgu-337-4.md'>convamgu-337-4</a></li>
+<li><a href='/data/exampleparts/convamgu-341-2.md'>convamgu-341-2</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-12-1.md'>convhistfamsjm-12-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-27-1.md'>convhistfamsjm-27-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-28-1.md'>convhistfamsjm-28-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-29-2.md'>convhistfamsjm-29-2</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-40-2.md'>convhistfamsjm-40-2</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-63-5.md'>convhistfamsjm-63-5</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-64-1.md'>convhistfamsjm-64-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-73-0.md'>convhistfamsjm-73-0</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-73-6.md'>convhistfamsjm-73-6</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-80-1.md'>convhistfamsjm-80-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-80-7.md'>convhistfamsjm-80-7</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-80-14.md'>convhistfamsjm-80-14</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-87-0.md'>convhistfamsjm-87-0</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-88-6.md'>convhistfamsjm-88-6</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-92-9.md'>convhistfamsjm-92-9</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-92-14.md'>convhistfamsjm-92-14</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-93-1.md'>convhistfamsjm-93-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-97-10.md'>convhistfamsjm-97-10</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-97-14.md'>convhistfamsjm-97-14</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-98-1.md'>convhistfamsjm-98-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-98-3.md'>convhistfamsjm-98-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-134-8.md'>convhistfamsjm-134-8</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-148-1.md'>convhistfamsjm-148-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-148-3.md'>convhistfamsjm-148-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-149-1.md'>convhistfamsjm-149-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-167-3.md'>convhistfamsjm-167-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-170-0.md'>convhistfamsjm-170-0</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-189-1.md'>convhistfamsjm-189-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-189-3.md'>convhistfamsjm-189-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-192-0.md'>convhistfamsjm-192-0</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-199-0.md'>convhistfamsjm-199-0</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-200-0.md'>convhistfamsjm-200-0</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-203-0.md'>convhistfamsjm-203-0</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-212-1.md'>convhistfamsjm-212-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-212-5.md'>convhistfamsjm-212-5</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-212-7.md'>convhistfamsjm-212-7</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-212-12.md'>convhistfamsjm-212-12</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-212-15.md'>convhistfamsjm-212-15</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-212-17.md'>convhistfamsjm-212-17</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-213-3.md'>convhistfamsjm-213-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-219-2.md'>convhistfamsjm-219-2</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-222-0.md'>convhistfamsjm-222-0</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-231-1.md'>convhistfamsjm-231-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-234-1.md'>convhistfamsjm-234-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-245-1.md'>convhistfamsjm-245-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-246-3.md'>convhistfamsjm-246-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-257-2.md'>convhistfamsjm-257-2</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-258-1.md'>convhistfamsjm-258-1</a></li>
+<li><a href='/data/exampleparts/ctowaru-51-13.md'>ctowaru-51-13</a></li>
+<li><a href='/data/exampleparts/ctowaru-68-4.md'>ctowaru-68-4</a></li>
+<li><a href='/data/exampleparts/ctorosq-3-0.md'>ctorosq-3-0</a></li>
+<li><a href='/data/exampleparts/ctorosq-5-0.md'>ctorosq-5-0</a></li>
+<li><a href='/data/exampleparts/ctorosq-7-0.md'>ctorosq-7-0</a></li>
+<li><a href='/data/exampleparts/ctorosq-8-6.md'>ctorosq-8-6</a></li>
+<li><a href='/data/exampleparts/ctorosq-20-8.md'>ctorosq-20-8</a></li>
+<li><a href='/data/exampleparts/ctorosq-20-11.md'>ctorosq-20-11</a></li>
+<li><a href='/data/exampleparts/ctorosq-20-18.md'>ctorosq-20-18</a></li>
+<li><a href='/data/exampleparts/ctorosq-28-1.md'>ctorosq-28-1</a></li>
+<li><a href='/data/exampleparts/ctorosq-29-1.md'>ctorosq-29-1</a></li>
+<li><a href='/data/exampleparts/ctorosq-31-0.md'>ctorosq-31-0</a></li>
+<li><a href='/data/exampleparts/ctorosq-42-3.md'>ctorosq-42-3</a></li>
+<li><a href='/data/exampleparts/ctorosq-56-3.md'>ctorosq-56-3</a></li>
+<li><a href='/data/exampleparts/ctorosq-56-5.md'>ctorosq-56-5</a></li>
+<li><a href='/data/exampleparts/ctorosq-80-5.md'>ctorosq-80-5</a></li>
+<li><a href='/data/exampleparts/ctorosq-97-5.md'>ctorosq-97-5</a></li>
+<li><a href='/data/exampleparts/ctorosq-100-4.md'>ctorosq-100-4</a></li>
+<li><a href='/data/exampleparts/ctorosq-100-10.md'>ctorosq-100-10</a></li>
+<li><a href='/data/exampleparts/ctorosq-106-0.md'>ctorosq-106-0</a></li>
+<li><a href='/data/exampleparts/ctorosq-107-0.md'>ctorosq-107-0</a></li>
+<li><a href='/data/exampleparts/ctorosq-109-3.md'>ctorosq-109-3</a></li>
+<li><a href='/data/exampleparts/ctorosq-110-3.md'>ctorosq-110-3</a></li>
+<li><a href='/data/exampleparts/ctorosq-117-0.md'>ctorosq-117-0</a></li>
+<li><a href='/data/exampleparts/ctorosq-118-0.md'>ctorosq-118-0</a></li>
+<li><a href='/data/exampleparts/ctorosq-124-0.md'>ctorosq-124-0</a></li>
+<li><a href='/data/exampleparts/ctorosq-125-0.md'>ctorosq-125-0</a></li>
+<li><a href='/data/exampleparts/ctorosq-125-2.md'>ctorosq-125-2</a></li>
+<li><a href='/data/exampleparts/ctorosq-135-0.md'>ctorosq-135-0</a></li>
+<li><a href='/data/exampleparts/ctorosq-145-4.md'>ctorosq-145-4</a></li>
+<li><a href='/data/exampleparts/ctorat-23-4.md'>ctorat-23-4</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-19-2.md'>ctovarmafl-19-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-54-3.md'>ctovarmafl-54-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-55-5.md'>ctovarmafl-55-5</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-60-0.md'>ctovarmafl-60-0</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-60-3.md'>ctovarmafl-60-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-77-0.md'>ctovarmafl-77-0</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-95-3.md'>ctovarmafl-95-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-106-4.md'>ctovarmafl-106-4</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-107-2.md'>ctovarmafl-107-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-114-7.md'>ctovarmafl-114-7</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-116-3.md'>ctovarmafl-116-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-118-11.md'>ctovarmafl-118-11</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-118-16.md'>ctovarmafl-118-16</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-128-3.md'>ctovarmafl-128-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-135-3.md'>ctovarmafl-135-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-137-2.md'>ctovarmafl-137-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-138-2.md'>ctovarmafl-138-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-138-6.md'>ctovarmafl-138-6</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-139-3.md'>ctovarmafl-139-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-147-4.md'>ctovarmafl-147-4</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-149-3.md'>ctovarmafl-149-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-157-6.md'>ctovarmafl-157-6</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-171-6.md'>ctovarmafl-171-6</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-183-7.md'>ctovarmafl-183-7</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-185-2.md'>ctovarmafl-185-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-186-2.md'>ctovarmafl-186-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-187-3.md'>ctovarmafl-187-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-194-1.md'>ctovarmafl-194-1</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-196-1.md'>ctovarmafl-196-1</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-222-5.md'>ctovarmafl-222-5</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-222-8.md'>ctovarmafl-222-8</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-223-2.md'>ctovarmafl-223-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-230-0.md'>ctovarmafl-230-0</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-230-13.md'>ctovarmafl-230-13</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-232-1.md'>ctovarmafl-232-1</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-233-1.md'>ctovarmafl-233-1</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-234-0.md'>ctovarmafl-234-0</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-280-0.md'>ctovarmafl-280-0</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-282-7.md'>ctovarmafl-282-7</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-282-11.md'>ctovarmafl-282-11</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-283-4.md'>ctovarmafl-283-4</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-286-3.md'>ctovarmafl-286-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-302-1.md'>ct..</li>
+</ul>
+
+
+
+
+
+                
+
+  
+
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Copyright and theme information -->
+<div class="md-copyright">
+  
+  
+    Made with <a
+      href="https://fmatter.github.io/pylingdocs/"
+      target="_blank" rel="noopener"
+    >pylingdocs</a> and 
+    <a
+      href="https://squidfunk.github.io/mkdocs-material/"
+      target="_blank" rel="noopener"
+    >
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.top", "toc.follow", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      
+        <script src="../../../assets/alignment.js"></script>
+      
+        <script src="../../../assets/examples.js"></script>
+      
+        <script src="../../../assets/refs.js"></script>
+      
+        <script src="../../../assets/crossref.js"></script>
+      
+        <script src="../../../assets/glossing_abbrevs.js"></script>
+      
+        <script src="../../../assets/glossing.js"></script>
+      
+        <script src="../../../assets/run.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1113 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.2.7">
+    
+    
+      
+        <title>yawë - A digital sketch grammar of Yawarana (0.0.3.draft2)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/examples.css">
+    
+      <link rel="stylesheet" href="../../../assets/alignment.css">
+    
+      <link rel="stylesheet" href="../../../assets/glossing.css">
+    
+      <link rel="stylesheet" href="../../../assets/tables.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="orange">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#yawe" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="A digital sketch grammar of Yawarana (0.0.3.draft2)" class="md-header__button md-logo" aria-label="A digital sketch grammar of Yawarana (0.0.3.draft2)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            A digital sketch grammar of Yawarana (0.0.3.draft2)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              yawë
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="cyan"  aria-label="Switch to light markdown_extensions"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light markdown_extensions" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fmatter/yawarana-sketch" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Source (GitHub)
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Determine classes -->
+
+
+
+  
+
+
+<!-- Navigation -->
+<nav
+  class="md-nav md-nav--primary md-nav--integrated"
+  aria-label="Navigation"
+  data-md-level="0"
+>
+
+  <!-- Site title -->
+  <label class="md-nav__title" for="__drawer">
+    <a
+      href="../../.."
+      title="A digital sketch grammar of Yawarana (0.0.3.draft2)"
+      aria-label="A digital sketch grammar of Yawarana (0.0.3.draft2)"
+    >A digital sketch grammar of Yawarana (0.0.3.draft2)
+    </a>
+  </label>
+
+  <!-- Repository information -->
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fmatter/yawarana-sketch" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Source (GitHub)
+  </div>
+</a>
+    </div>
+  
+
+  <!-- Navigation list -->
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../intro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phono/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Phonetics and phonology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../POS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Parts of speech in Yawarana
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nouns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Nouns
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verbderiv/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Verbal roots and stems
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verbinfl/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Verbal inflection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../postp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Postpositions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../partideo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    8. Particles, ideophones and interjections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../negation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    9. Negation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../auxiliarized-constructions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10. Auxiliarized constructions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phrases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    11. Phrases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nonverbal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12. Nonverbal predications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../simpleverb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    13. Simple verbal clauses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../questions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    14. Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../multiclausal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    15. Multiclausal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wordorder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    16. Word order variation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pragmarked/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    17. Pragmatically marked constructions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../voice/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    18. Detransitive voice
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+  
+  
+
+
+<h1 id="yawe">yawë</h1>
+<ul>
+<li>ID: yawe-loc </li>
+<li>Language_ID: yab </li>
+<li>Form: yawë </li>
+<li>Part_Of_Speech: postp </li>
+<li>Parameter_ID: ['LOC'] </li>
+<li>Morpho_Segments: ['yawë'] </li>
+<li>Segments: [] </li>
+<li>
+<p>Source: [] </p>
+</li>
+<li>
+<p>language: <a href='/data/languages/yab.md'>Yawarana</a></p>
+</li>
+<li>stem: </li>
+<li>part_of_speech: <a href='/data/partsofspeech/postp.md'>postposition</a></li>
+</ul>
+<h2 id="wordformparts">wordformparts</h2>
+<ul>
+<li><a href='/data/wordformparts/yawe-loc-0.md'>yawe-loc-0</a></li>
+</ul>
+<h2 id="wordformstems">wordformstems</h2>
+<ul>
+<li><a href='/data/wordformstems/yawe-loc-0.md'>yawe-loc-0</a></li>
+</ul>
+<h2 id="exampleparts">exampleparts</h2>
+<ul>
+<li><a href='/data/exampleparts/convcosnoind-7-3.md'>convcosnoind-7-3</a></li>
+<li><a href='/data/exampleparts/convcosnoind-50-0.md'>convcosnoind-50-0</a></li>
+<li><a href='/data/exampleparts/convestsjm-40-4.md'>convestsjm-40-4</a></li>
+<li><a href='/data/exampleparts/convestsjm-50-3.md'>convestsjm-50-3</a></li>
+<li><a href='/data/exampleparts/convestsjm-56-5.md'>convestsjm-56-5</a></li>
+<li><a href='/data/exampleparts/convrisamaj-28-1.md'>convrisamaj-28-1</a></li>
+<li><a href='/data/exampleparts/convrisamaj-50-4.md'>convrisamaj-50-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-10-1.md'>convfemgrme-10-1</a></li>
+<li><a href='/data/exampleparts/convfemgrme-21-1.md'>convfemgrme-21-1</a></li>
+<li><a href='/data/exampleparts/convfemgrme-99-8.md'>convfemgrme-99-8</a></li>
+<li><a href='/data/exampleparts/convfemgrme-118-3.md'>convfemgrme-118-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-124-4.md'>convfemgrme-124-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-126-3.md'>convfemgrme-126-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-127-2.md'>convfemgrme-127-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-128-3.md'>convfemgrme-128-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-133-2.md'>convfemgrme-133-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-144-5.md'>convfemgrme-144-5</a></li>
+<li><a href='/data/exampleparts/convfemgrme-144-8.md'>convfemgrme-144-8</a></li>
+<li><a href='/data/exampleparts/convfemgrme-147-3.md'>convfemgrme-147-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-151-4.md'>convfemgrme-151-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-152-5.md'>convfemgrme-152-5</a></li>
+<li><a href='/data/exampleparts/convfemgrme-153-4.md'>convfemgrme-153-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-153-9.md'>convfemgrme-153-9</a></li>
+<li><a href='/data/exampleparts/convfemgrme-157-4.md'>convfemgrme-157-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-195-4.md'>convfemgrme-195-4</a></li>
+<li><a href='/data/exampleparts/convfemgrme-198-3.md'>convfemgrme-198-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-203-3.md'>convfemgrme-203-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-208-3.md'>convfemgrme-208-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-215-1.md'>convfemgrme-215-1</a></li>
+<li><a href='/data/exampleparts/convfemgrme-216-1.md'>convfemgrme-216-1</a></li>
+<li><a href='/data/exampleparts/convfemgrme-218-2.md'>convfemgrme-218-2</a></li>
+<li><a href='/data/exampleparts/convfemgrme-222-3.md'>convfemgrme-222-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-248-8.md'>convfemgrme-248-8</a></li>
+<li><a href='/data/exampleparts/convfemgrme-248-13.md'>convfemgrme-248-13</a></li>
+<li><a href='/data/exampleparts/convfemgrme-251-6.md'>convfemgrme-251-6</a></li>
+<li><a href='/data/exampleparts/convfemgrme-256-3.md'>convfemgrme-256-3</a></li>
+<li><a href='/data/exampleparts/convfemgrme-269-6.md'>convfemgrme-269-6</a></li>
+<li><a href='/data/exampleparts/convfemgrme-269-8.md'>convfemgrme-269-8</a></li>
+<li><a href='/data/exampleparts/convfemgrme-328-3.md'>convfemgrme-328-3</a></li>
+<li><a href='/data/exampleparts/histanfo-2-5.md'>histanfo-2-5</a></li>
+<li><a href='/data/exampleparts/histanfo-18-3.md'>histanfo-18-3</a></li>
+<li><a href='/data/exampleparts/histanfo-53-2.md'>histanfo-53-2</a></li>
+<li><a href='/data/exampleparts/hist2mape-43-6.md'>hist2mape-43-6</a></li>
+<li><a href='/data/exampleparts/hist2mape-50-4.md'>hist2mape-50-4</a></li>
+<li><a href='/data/exampleparts/histgrme-44-5.md'>histgrme-44-5</a></li>
+<li><a href='/data/exampleparts/histgrme-45-10.md'>histgrme-45-10</a></li>
+<li><a href='/data/exampleparts/histgrme-58-3.md'>histgrme-58-3</a></li>
+<li><a href='/data/exampleparts/histgrme-74-1.md'>histgrme-74-1</a></li>
+<li><a href='/data/exampleparts/histgrme-75-2.md'>histgrme-75-2</a></li>
+<li><a href='/data/exampleparts/histgrme-141-2.md'>histgrme-141-2</a></li>
+<li><a href='/data/exampleparts/ctoaragrme-26-1.md'>ctoaragrme-26-1</a></li>
+<li><a href='/data/exampleparts/ctoaragrme-27-3.md'>ctoaragrme-27-3</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-8-5.md'>ctoyucairdi-8-5</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-17-2.md'>ctoyucairdi-17-2</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-48-6.md'>ctoyucairdi-48-6</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-64-2.md'>ctoyucairdi-64-2</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-66-2.md'>ctoyucairdi-66-2</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-66-8.md'>ctoyucairdi-66-8</a></li>
+<li><a href='/data/exampleparts/ctoyucairdi-115-4.md'>ctoyucairdi-115-4</a></li>
+<li><a href='/data/exampleparts/desccasagrme-19-3.md'>desccasagrme-19-3</a></li>
+<li><a href='/data/exampleparts/desccasagrme-24-3.md'>desccasagrme-24-3</a></li>
+<li><a href='/data/exampleparts/desccasagrme-29-3.md'>desccasagrme-29-3</a></li>
+<li><a href='/data/exampleparts/desccasagrme-30-3.md'>desccasagrme-30-3</a></li>
+<li><a href='/data/exampleparts/desccasagrme-82-3.md'>desccasagrme-82-3</a></li>
+<li><a href='/data/exampleparts/descmangrme-22-2.md'>descmangrme-22-2</a></li>
+<li><a href='/data/exampleparts/descmensgrme-1-2.md'>descmensgrme-1-2</a></li>
+<li><a href='/data/exampleparts/descmensgrme-7-7.md'>descmensgrme-7-7</a></li>
+<li><a href='/data/exampleparts/descmensgrme-10-6.md'>descmensgrme-10-6</a></li>
+<li><a href='/data/exampleparts/descmensgrme-12-3.md'>descmensgrme-12-3</a></li>
+<li><a href='/data/exampleparts/descmensgrme-16-6.md'>descmensgrme-16-6</a></li>
+<li><a href='/data/exampleparts/descmensgrme-41-7.md'>descmensgrme-41-7</a></li>
+<li><a href='/data/exampleparts/descmensgrme-48-6.md'>descmensgrme-48-6</a></li>
+<li><a href='/data/exampleparts/descmensgrme-70-3.md'>descmensgrme-70-3</a></li>
+<li><a href='/data/exampleparts/descmensgrme-102-3.md'>descmensgrme-102-3</a></li>
+<li><a href='/data/exampleparts/descmensgrme-104-3.md'>descmensgrme-104-3</a></li>
+<li><a href='/data/exampleparts/descmensgrme-107-2.md'>descmensgrme-107-2</a></li>
+<li><a href='/data/exampleparts/descmensgrme-108-3.md'>descmensgrme-108-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-16-2.md'>desccasmaj-16-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-22-5.md'>desccasmaj-22-5</a></li>
+<li><a href='/data/exampleparts/desccasmaj-32-4.md'>desccasmaj-32-4</a></li>
+<li><a href='/data/exampleparts/desccasmaj-33-5.md'>desccasmaj-33-5</a></li>
+<li><a href='/data/exampleparts/desccasmaj-64-3.md'>desccasmaj-64-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-65-3.md'>desccasmaj-65-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-66-2.md'>desccasmaj-66-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-80-2.md'>desccasmaj-80-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-80-7.md'>desccasmaj-80-7</a></li>
+<li><a href='/data/exampleparts/desccasmaj-81-5.md'>desccasmaj-81-5</a></li>
+<li><a href='/data/exampleparts/desccasmaj-97-5.md'>desccasmaj-97-5</a></li>
+<li><a href='/data/exampleparts/desccasmaj-121-2.md'>desccasmaj-121-2</a></li>
+<li><a href='/data/exampleparts/desccasmaj-128-3.md'>desccasmaj-128-3</a></li>
+<li><a href='/data/exampleparts/desccasmaj-142-7.md'>desccasmaj-142-7</a></li>
+<li><a href='/data/exampleparts/descokigrme-10-4.md'>descokigrme-10-4</a></li>
+<li><a href='/data/exampleparts/descokigrme-10-6.md'>descokigrme-10-6</a></li>
+<li><a href='/data/exampleparts/descokigrme-16-2.md'>descokigrme-16-2</a></li>
+<li><a href='/data/exampleparts/descokigrme-24-3.md'>descokigrme-24-3</a></li>
+<li><a href='/data/exampleparts/descokigrme-25-2.md'>descokigrme-25-2</a></li>
+<li><a href='/data/exampleparts/descokigrme-33-2.md'>descokigrme-33-2</a></li>
+<li><a href='/data/exampleparts/descokigrme-35-3.md'>descokigrme-35-3</a></li>
+<li><a href='/data/exampleparts/descokigrme-43-3.md'>descokigrme-43-3</a></li>
+<li><a href='/data/exampleparts/conv1stenc-1-2.md'>conv1stenc-1-2</a></li>
+<li><a href='/data/exampleparts/conv1stenc-89-9.md'>conv1stenc-89-9</a></li>
+<li><a href='/data/exampleparts/conv1stenc-141-5.md'>conv1stenc-141-5</a></li>
+<li><a href='/data/exampleparts/conv1stenc-146-7.md'>conv1stenc-146-7</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-8-2.md'>convsuenmaj-8-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-34-2.md'>convsuenmaj-34-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-44-13.md'>convsuenmaj-44-13</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-78-2.md'>convsuenmaj-78-2</a></li>
+<li><a href='/data/exampleparts/convsuenmaj-94-2.md'>convsuenmaj-94-2</a></li>
+<li><a href='/data/exampleparts/convinsectmaj-7-7.md'>convinsectmaj-7-7</a></li>
+<li><a href='/data/exampleparts/convinsectmaj-49-3.md'>convinsectmaj-49-3</a></li>
+<li><a href='/data/exampleparts/convinsectmaj-52-1.md'>convinsectmaj-52-1</a></li>
+<li><a href='/data/exampleparts/convinsectmaj-112-1.md'>convinsectmaj-112-1</a></li>
+<li><a href='/data/exampleparts/convamgu-12-6.md'>convamgu-12-6</a></li>
+<li><a href='/data/exampleparts/convamgu-14-2.md'>convamgu-14-2</a></li>
+<li><a href='/data/exampleparts/convamgu-38-2.md'>convamgu-38-2</a></li>
+<li><a href='/data/exampleparts/convamgu-40-5.md'>convamgu-40-5</a></li>
+<li><a href='/data/exampleparts/convamgu-50-3.md'>convamgu-50-3</a></li>
+<li><a href='/data/exampleparts/convamgu-50-8.md'>convamgu-50-8</a></li>
+<li><a href='/data/exampleparts/convamgu-63-3.md'>convamgu-63-3</a></li>
+<li><a href='/data/exampleparts/convamgu-64-5.md'>convamgu-64-5</a></li>
+<li><a href='/data/exampleparts/convamgu-91-1.md'>convamgu-91-1</a></li>
+<li><a href='/data/exampleparts/convamgu-93-5.md'>convamgu-93-5</a></li>
+<li><a href='/data/exampleparts/convamgu-93-9.md'>convamgu-93-9</a></li>
+<li><a href='/data/exampleparts/convamgu-127-6.md'>convamgu-127-6</a></li>
+<li><a href='/data/exampleparts/convamgu-155-2.md'>convamgu-155-2</a></li>
+<li><a href='/data/exampleparts/convamgu-170-4.md'>convamgu-170-4</a></li>
+<li><a href='/data/exampleparts/convamgu-181-2.md'>convamgu-181-2</a></li>
+<li><a href='/data/exampleparts/convamgu-200-4.md'>convamgu-200-4</a></li>
+<li><a href='/data/exampleparts/convamgu-211-3.md'>convamgu-211-3</a></li>
+<li><a href='/data/exampleparts/convamgu-225-3.md'>convamgu-225-3</a></li>
+<li><a href='/data/exampleparts/convamgu-232-2.md'>convamgu-232-2</a></li>
+<li><a href='/data/exampleparts/convamgu-235-3.md'>convamgu-235-3</a></li>
+<li><a href='/data/exampleparts/convamgu-256-4.md'>convamgu-256-4</a></li>
+<li><a href='/data/exampleparts/convamgu-259-4.md'>convamgu-259-4</a></li>
+<li><a href='/data/exampleparts/convamgu-269-1.md'>convamgu-269-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-5-3.md'>convhistfamsjm-5-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-28-3.md'>convhistfamsjm-28-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-30-3.md'>convhistfamsjm-30-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-30-9.md'>convhistfamsjm-30-9</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-42-1.md'>convhistfamsjm-42-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-42-4.md'>convhistfamsjm-42-4</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-56-2.md'>convhistfamsjm-56-2</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-58-8.md'>convhistfamsjm-58-8</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-64-3.md'>convhistfamsjm-64-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-70-3.md'>convhistfamsjm-70-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-73-8.md'>convhistfamsjm-73-8</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-80-3.md'>convhistfamsjm-80-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-89-4.md'>convhistfamsjm-89-4</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-92-16.md'>convhistfamsjm-92-16</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-97-3.md'>convhistfamsjm-97-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-107-4.md'>convhistfamsjm-107-4</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-186-5.md'>convhistfamsjm-186-5</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-198-4.md'>convhistfamsjm-198-4</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-202-1.md'>convhistfamsjm-202-1</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-212-9.md'>convhistfamsjm-212-9</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-232-3.md'>convhistfamsjm-232-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-242-3.md'>convhistfamsjm-242-3</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-250-4.md'>convhistfamsjm-250-4</a></li>
+<li><a href='/data/exampleparts/convhistfamsjm-253-2.md'>convhistfamsjm-253-2</a></li>
+<li><a href='/data/exampleparts/ctowaru-3-2.md'>ctowaru-3-2</a></li>
+<li><a href='/data/exampleparts/ctowaru-6-7.md'>ctowaru-6-7</a></li>
+<li><a href='/data/exampleparts/ctowaru-13-1.md'>ctowaru-13-1</a></li>
+<li><a href='/data/exampleparts/ctowaru-51-7.md'>ctowaru-51-7</a></li>
+<li><a href='/data/exampleparts/ctorosq-78-2.md'>ctorosq-78-2</a></li>
+<li><a href='/data/exampleparts/ctorosq-86-6.md'>ctorosq-86-6</a></li>
+<li><a href='/data/exampleparts/ctorosq-88-6.md'>ctorosq-88-6</a></li>
+<li><a href='/data/exampleparts/ctorosq-90-1.md'>ctorosq-90-1</a></li>
+<li><a href='/data/exampleparts/ctorosq-91-1.md'>ctorosq-91-1</a></li>
+<li><a href='/data/exampleparts/ctorat-7-1.md'>ctorat-7-1</a></li>
+<li><a href='/data/exampleparts/ctorat-28-2.md'>ctorat-28-2</a></li>
+<li><a href='/data/exampleparts/ctorat-38-2.md'>ctorat-38-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-4-2.md'>ctovarmafl-4-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-7-2.md'>ctovarmafl-7-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-25-3.md'>ctovarmafl-25-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-32-3.md'>ctovarmafl-32-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-96-1.md'>ctovarmafl-96-1</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-107-4.md'>ctovarmafl-107-4</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-112-4.md'>ctovarmafl-112-4</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-113-1.md'>ctovarmafl-113-1</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-118-2.md'>ctovarmafl-118-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-133-2.md'>ctovarmafl-133-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-144-3.md'>ctovarmafl-144-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-198-1.md'>ctovarmafl-198-1</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-213-2.md'>ctovarmafl-213-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-225-5.md'>ctovarmafl-225-5</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-227-5.md'>ctovarmafl-227-5</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-238-2.md'>ctovarmafl-238-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-257-1.md'>ctovarmafl-257-1</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-267-2.md'>ctovarmafl-267-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-275-5.md'>ctovarmafl-275-5</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-276-4.md'>ctovarmafl-276-4</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-290-3.md'>ctovarmafl-290-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-328-9.md'>ctovarmafl-328-9</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-363-3.md'>ctovarmafl-363-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-376-2.md'>ctovarmafl-376-2</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-476-3.md'>ctovarmafl-476-3</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-540-9.md'>ctovarmafl-540-9</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-549-10.md'>ctovarmafl-549-10</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-556-1.md'>ctovarmafl-556-1</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-565-4.md'>ctovarmafl-565-4</a></li>
+<li><a href='/data/exampleparts/ctovarmafl-583-2.md'>ctovarmafl-583-2</a></li>
+<li><a href='/data/exampleparts/ctotawirdi-41-5.md'>ctotawirdi-41-5</a></li>
+<li><a href='/data/exampleparts/ctotawirdi-43-1.md'>ctotawirdi-43-1</a></li>
+<li><a href='/data/exampleparts/ctotawirdi-44-1.md'>ctotawirdi-44-1</a></li>
+<li><a href='/data/exampleparts/ctotawirdi-72-1.md'>ctotawirdi-72-1</a></li>
+<li><a href='/data/exampleparts/ctotawirdi-78-6.md'>ctotawirdi-78-6</a></li>
+<li><a href='/data/exampleparts/ctotawirdi-239-6.md'>ctotawirdi-239-6</a></li>
+<li><a href='/data/exampleparts/histpajirdi-10-5.md'>histpajirdi-10-5</a></li>
+<li><a href='/data/exampleparts/histpajirdi-18-3.md'>histpajirdi-18-3</a></li>
+<li><a href='/data/exampleparts/histpajirdi-18-5.md'>histpajirdi-18-5</a></li>
+<li><a href='/data/exampleparts/histpajirdi-18-7.md'>histpajirdi-18-7</a></li>
+<li><a href='/data/exampleparts/histpajirdi-37-1.md'>histpajirdi-37-1</a></li>
+<li><a href='/data/exampleparts/histpajirdi-37-3.md'>histpajirdi-37-3</a></li>
+<li><a href='/data/exampleparts/histpajirdi-119-5.md'>histpajirdi-119-5</a></li>
+<li><a href='/data/exampleparts/histpajirdi-159-1.md'>histpajirdi-159-1</a></li>
+<li><a href='/data/exampleparts/histpajirdi-185-6.md'>histpajirdi-185-6</a></li>
+<li><a href='/data/exampleparts/histpajirdi-187-7.md'>histpajirdi-187-7</a></li>
+<li><a href='/data/exampleparts/histpajirdi-188-3.md'>histpajirdi-188-3</a></li>
+<li><a href='/data/exampleparts/histpajirdi-249-9.md'>histpajirdi-249-9</a></li>
+<li><a href='/data/exampleparts/histyarirdi-21-6.md'>histyarirdi-21-6</a></li>
+<li><a href='/data/exampleparts/histyarirdi-28-3.md'>histyarirdi-28-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-70-8.md'>histyarirdi-70-8</a></li>
+<li><a href='/data/exampleparts/histyarirdi-70-13.md'>histyarirdi-70-13</a></li>
+<li><a href='/data/exampleparts/histyarirdi-71-4.md'>histyarirdi-71-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-81-10.md'>histyarirdi-81-10</a></li>
+<li><a href='/data/exampleparts/histyarirdi-94-4.md'>histyarirdi-94-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-108-4.md'>histyarirdi-108-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-108-7.md'>histyarirdi-108-7</a></li>
+<li><a href='/data/exampleparts/histyarirdi-130-2.md'>histyarirdi-130-2</a></li>
+<li><a href='/data/exampleparts/histyarirdi-146-3.md'>histyarirdi-146-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-147-2.md'>histyarirdi-147-2</a></li>
+<li><a href='/data/exampleparts/histyarirdi-159-3.md'>histyarirdi-159-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-174-6.md'>histyarirdi-174-6</a></li>
+<li><a href='/data/exampleparts/histyarirdi-212-5.md'>histyarirdi-212-5</a></li>
+<li><a href='/data/exampleparts/histyarirdi-256-4.md'>histyarirdi-256-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-259-5.md'>histyarirdi-259-5</a></li>
+<li><a href='/data/exampleparts/histyarirdi-277-3.md'>histyarirdi-277-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-295-3.md'>histyarirdi-295-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-326-3.md'>histyarirdi-326-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-331-5.md'>histyarirdi-331-5</a></li>
+<li><a href='/data/exampleparts/histyarirdi-334-4.md'>histyarirdi-334-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-347-4.md'>histyarirdi-347-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-353-1.md'>histyarirdi-353-1</a></li>
+<li><a href='/data/exampleparts/histyarirdi-353-4.md'>histyarirdi-353-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-353-7.md'>histyarirdi-353-7</a></li>
+<li><a href='/data/exampleparts/histyarirdi-373-4.md'>histyarirdi-373-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-388-4.md'>histyarirdi-388-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-416-3.md'>histyarirdi-416-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-416-9.md'>histyarirdi-416-9</a></li>
+<li><a href='/data/exampleparts/histyarirdi-426-4.md'>histyarirdi-426-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-461-4.md'>histyarirdi-461-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-467-5.md'>histyarirdi-467-5</a></li>
+<li><a href='/data/exampleparts/histyarirdi-526-5.md'>histyarirdi-526-5</a></li>
+<li><a href='/data/exampleparts/histyarirdi-530-3.md'>histyarirdi-530-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-535-3.md'>histyarirdi-535-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-559-14.md'>histyarirdi-559-14</a></li>
+<li><a href='/data/exampleparts/histyarirdi-560-4.md'>histyarirdi-560-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-626-4.md'>histyarirdi-626-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-646-5.md'>histyarirdi-646-5</a></li>
+<li><a href='/data/exampleparts/histyarirdi-653-10.md'>histyarirdi-653-10</a></li>
+<li><a href='/data/exampleparts/histyarirdi-680-3.md'>histyarirdi-680-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-680-10.md'>histyarirdi-680-10</a></li>
+<li><a href='/data/exampleparts/histyarirdi-686-2.md'>histyarirdi-686-2</a></li>
+<li><a href='/data/exampleparts/histyarirdi-702-9.md'>histyarirdi-702-9</a></li>
+<li><a href='/data/exampleparts/histyarirdi-703-2.md'>histyarirdi-703-2</a></li>
+<li><a href='/data/exampleparts/histyarirdi-704-5.md'>histyarirdi-704-5</a></li>
+<li><a href='/data/exampleparts/histyarirdi-708-2.md'>histyarirdi-708-2</a></li>
+<li><a href='/data/exampleparts/histyarirdi-711-7.md'>histyarirdi-711-7</a></li>
+<li><a href='/data/exampleparts/histyarirdi-715-3.md'>histyarirdi-715-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-734-2.md'>histyarirdi-734-2</a></li>
+<li><a href='/data/exampleparts/histyarirdi-757-6.md'>histyarirdi-757-6</a></li>
+<li><a href='/data/exampleparts/histyarirdi-766-3.md'>histyarirdi-766-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-778-18.md'>histyarirdi-778-18</a></li>
+<li><a href='/data/exampleparts/histyarirdi-804-9.md'>histyarirdi-804-9</a></li>
+<li><a href='/data/exampleparts/histyarirdi-806-1.md'>histyarirdi-806-1</a></li>
+<li><a href='/data/exampleparts/histyarirdi-837-8.md'>histyarirdi-837-8</a></li>
+<li><a href='/data/exampleparts/histyarirdi-837-12.md'>histyarirdi-837-12</a></li>
+<li><a href='/data/exampleparts/histyarirdi-880-10.md'>histyarirdi-880-10</a></li>
+<li><a href='/data/exampleparts/histyarirdi-886-5.md'>histyarirdi-886-5</a></li>
+<li><a href='/data/exampleparts/histyarirdi-895-1.md'>histyarirdi-895-1</a></li>
+<li><a href='/data/exampleparts/histyarirdi-896-1.md'>histyarirdi-896-1</a></li>
+<li><a href='/data/exampleparts/histyarirdi-898-3.md'>histyarirdi-898-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-902-3.md'>histyarirdi-902-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-914-3.md'>histyarirdi-914-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-955-3.md'>histyarirdi-955-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-958-3.md'>histyarirdi-958-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-981-4.md'>histyarirdi-981-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-998-4.md'>histyarirdi-998-4</a></li>
+<li><a href='/data/exampleparts/histyarirdi-1002-3.md'>histyarirdi-1002-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-1007-2.md'>histyarirdi-1007-2</a></li>
+<li><a href='/data/exampleparts/histyarirdi-1022-6.md'>histyarirdi-1022-6</a></li>
+<li><a href='/data/exampleparts/histyarirdi-1023-3.md'>histyarirdi-1023-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-1029-3.md'>histyarirdi-1029-3</a></li>
+<li><a href='/data/exampleparts/histyarirdi-1043-5.md'>histyarirdi-1043-5</a></li>
+<li><a href='/data/exampleparts/histyarirdi-1053-2.md'>histyarirdi-1053-2</a></li>
+<li><a href='/data/exampleparts/histtiggrme-68-3.md'>histtiggrme-68-3</a></li>
+<li><a href='/data/exampleparts/histpedgrme-25-2.md'>histpedgrme-25-2</a></li>
+<li><a href='/data/exampleparts/histpedgrme-73-2.md'>histpedgrme-73-2</a></li>
+<li><a href='/data/exampleparts/histpedgrme-84-2.md'>histpedgrme-84-2</a></li>
+<li><a href='/data/exampleparts/histpedgrme-119-5.md'>histpedgrme-119-5</a></li>
+<li><a href='/data/exampleparts/histpedgrme-174-4.md'>histpedgrme-174-4</a></li>
+</ul>
+
+
+
+
+
+                
+
+  
+
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Copyright and theme information -->
+<div class="md-copyright">
+  
+  
+    Made with <a
+      href="https://fmatter.github.io/pylingdocs/"
+      target="_blank" rel="noopener"
+    >pylingdocs</a> and 
+    <a
+      href="https://squidfunk.github.io/mkdocs-material/"
+      target="_blank" rel="noopener"
+    >
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.top", "toc.follow", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      
+        <script src="../../../assets/alignment.js"></script>
+      
+        <script src="../../../assets/examples.js"></script>
+      
+        <script src="../../../assets/refs.js"></script>
+      
+        <script src="../../../assets/crossref.js"></script>
+      
+        <script src="../../../assets/glossing_abbrevs.js"></script>
+      
+        <script src="../../../assets/glossing.js"></script>
+      
+        <script src="../../../assets/run.js"></script>
+      
+    
+  </body>
+</html>
