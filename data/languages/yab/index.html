@@ -1,0 +1,1607 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.2.7">
+    
+    
+      
+        <title>Yawarana - A digital sketch grammar of Yawarana (0.0.3.draft2)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/examples.css">
+    
+      <link rel="stylesheet" href="../../../assets/alignment.css">
+    
+      <link rel="stylesheet" href="../../../assets/glossing.css">
+    
+      <link rel="stylesheet" href="../../../assets/tables.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="orange">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#yawarana" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="A digital sketch grammar of Yawarana (0.0.3.draft2)" class="md-header__button md-logo" aria-label="A digital sketch grammar of Yawarana (0.0.3.draft2)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            A digital sketch grammar of Yawarana (0.0.3.draft2)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Yawarana
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="cyan"  aria-label="Switch to light markdown_extensions"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light markdown_extensions" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fmatter/yawarana-sketch" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Source (GitHub)
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Determine classes -->
+
+
+
+  
+
+
+<!-- Navigation -->
+<nav
+  class="md-nav md-nav--primary md-nav--integrated"
+  aria-label="Navigation"
+  data-md-level="0"
+>
+
+  <!-- Site title -->
+  <label class="md-nav__title" for="__drawer">
+    <a
+      href="../../.."
+      title="A digital sketch grammar of Yawarana (0.0.3.draft2)"
+      aria-label="A digital sketch grammar of Yawarana (0.0.3.draft2)"
+    >A digital sketch grammar of Yawarana (0.0.3.draft2)
+    </a>
+  </label>
+
+  <!-- Repository information -->
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fmatter/yawarana-sketch" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Source (GitHub)
+  </div>
+</a>
+    </div>
+  
+
+  <!-- Navigation list -->
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../intro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phono/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Phonetics and phonology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../POS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Parts of speech in Yawarana
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nouns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Nouns
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verbderiv/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Verbal roots and stems
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verbinfl/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Verbal inflection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../postp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Postpositions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../partideo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    8. Particles, ideophones and interjections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../negation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    9. Negation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../auxiliarized-constructions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10. Auxiliarized constructions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../phrases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    11. Phrases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nonverbal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12. Nonverbal predications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../simpleverb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    13. Simple verbal clauses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../questions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    14. Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../multiclausal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    15. Multiclausal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wordorder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    16. Word order variation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pragmarked/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    17. Pragmatically marked constructions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../voice/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    18. Detransitive voice
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+  
+  
+
+
+<h1 id="yawarana">Yawarana</h1>
+<ul>
+<li>ID: yab </li>
+<li>Name: Yawarana </li>
+<li>Latitude: 1.49792 </li>
+<li>Longitude: -54.7457 </li>
+<li>Glottocode: yaba1248 </li>
+</ul>
+<h2 id="wordforms">wordforms</h2>
+<ul>
+<li><a href='/data/wordforms/ajpachike-undergrowth-prop.md'>ajpachike</a></li>
+<li><a href='/data/wordforms/ajyuru-tucuma-palm-pert.md'>ajyuru</a></li>
+<li><a href='/data/wordforms/aka-ouch-cry-of-pain.md'>aka</a></li>
+<li><a href='/data/wordforms/amuru-ripeness-pert.md'>amuru</a></li>
+<li><a href='/data/wordforms/aniki-who.md'>aniki</a></li>
+<li><a href='/data/wordforms/apiri-ripeness-pert.md'>apiri</a></li>
+<li><a href='/data/wordforms/apo-later.md'>apo</a></li>
+<li><a href='/data/wordforms/arajmate-dangerous.md'>arajmatë</a></li>
+<li><a href='/data/wordforms/arokate-difficult.md'>arokatë</a></li>
+<li><a href='/data/wordforms/asakontompene-four.md'>asakontompene</a></li>
+<li><a href='/data/wordforms/asake-two.md'>asakë</a></li>
+<li><a href='/data/wordforms/asane-2-mother-pert.md'>asanë</a></li>
+<li><a href='/data/wordforms/asereke-dry-cough-prop.md'>asereke</a></li>
+<li><a href='/data/wordforms/atiri-plot-of-cultivated-land-pert.md'>atiri</a></li>
+<li><a href='/data/wordforms/atirijpe-plot-of-cultivated-land-pert-pst.md'>atirijpë</a></li>
+<li><a href='/data/wordforms/ayawori-2-lk-uncle-pert.md'>ayawori</a></li>
+<li><a href='/data/wordforms/chijchipuru-body-movement-pert.md'>chijchipuru</a></li>
+<li><a href='/data/wordforms/ejne-1-2pro.md'>ejnë</a></li>
+<li><a href='/data/wordforms/eni-prox-inan.md'>eni</a></li>
+<li><a href='/data/wordforms/enijpete-one.md'>enijpëtë</a></li>
+<li><a href='/data/wordforms/enirono-now-nmlz.md'>enirono</a></li>
+<li><a href='/data/wordforms/ente-here-loc.md'>entë</a></li>
+<li><a href='/data/wordforms/ewine-here-all.md'>ewinë</a></li>
+<li><a href='/data/wordforms/ijmokani-cook-agtnmlz.md'>ijmokani</a></li>
+<li><a href='/data/wordforms/ijtari-3-foot-pert.md'>ijtari</a></li>
+<li><a href='/data/wordforms/inawe-have.md'>inawë</a></li>
+<li><a href='/data/wordforms/intipijke-small.md'>intipijkë</a></li>
+<li><a href='/data/wordforms/irejpe-then.md'>irëjpë</a></li>
+<li><a href='/data/wordforms/kamparake-big-prop.md'>kamparake</a></li>
+<li><a href='/data/wordforms/karasake-white.md'>karasake</a></li>
+<li><a href='/data/wordforms/kasori-fat-pert.md'>kasori</a></li>
+<li><a href='/data/wordforms/kawe-high.md'>kawë</a></li>
+<li><a href='/data/wordforms/kojpaye-at-night.md'>kojpaye</a></li>
+<li><a href='/data/wordforms/kori-brassolis-sophorae-pert.md'>kori</a></li>
+<li><a href='/data/wordforms/kururu-prochilodus-mariae-pert.md'>kururu</a></li>
+<li><a href='/data/wordforms/kuyari-tree-sp-pert.md'>kuyari</a></li>
+<li><a href='/data/wordforms/kemuru-pus-pert.md'>këmuru</a></li>
+<li><a href='/data/wordforms/kereke-old-prop.md'>kërëke</a></li>
+<li><a href='/data/wordforms/kerekemi-old-prop-nmlz.md'>kërëkemï</a></li>
+<li><a href='/data/wordforms/keya-think-acnnmlz.md'>këya</a></li>
+<li><a href='/data/wordforms/pe-ess.md'>pe</a></li>
+<li><a href='/data/wordforms/michi-med-anim.md'>michi</a></li>
+<li><a href='/data/wordforms/morone-hurting.md'>morone</a></li>
+<li><a href='/data/wordforms/mune-bulbous.md'>mune</a></li>
+<li><a href='/data/wordforms/mejki-dist-anim.md'>mëjkï</a></li>
+<li><a href='/data/wordforms/mijna-there-all.md'>mïjna</a></li>
+<li><a href='/data/wordforms/najmo-grandmother.md'>najmo</a></li>
+<li><a href='/data/wordforms/nakiri-thirst-pert.md'>nakiri</a></li>
+<li><a href='/data/wordforms/nonokemi-earth-prop-nmlz.md'>nonokemï</a></li>
+<li><a href='/data/wordforms/nopano-good-nmlz.md'>nopano</a></li>
+<li><a href='/data/wordforms/nope-good.md'>nope</a></li>
+<li><a href='/data/wordforms/ntate-mouth-npert.md'>ntatë</a></li>
+<li><a href='/data/wordforms/nuru-tongue-pert.md'>nuru</a></li>
+<li><a href='/data/wordforms/pakuri-arrow-tip-pert.md'>pakuri</a></li>
+<li><a href='/data/wordforms/pejmani-bewitch-agtnmlz.md'>pejmani</a></li>
+<li><a href='/data/wordforms/pepoye-above-perl.md'>pepoye</a></li>
+<li><a href='/data/wordforms/peri-palm-sp-pert.md'>peri</a></li>
+<li><a href='/data/wordforms/poseti-belly.md'>poseti</a></li>
+<li><a href='/data/wordforms/puturu-feel-ipfv.md'>puturu</a></li>
+<li><a href='/data/wordforms/peke-about.md'>pëkë</a></li>
+<li><a href='/data/wordforms/pekepene-alone.md'>pëkëpene</a></li>
+<li><a href='/data/wordforms/romoye-downriver.md'>romoye</a></li>
+<li><a href='/data/wordforms/rui-older-brother.md'>rui</a></li>
+<li><a href='/data/wordforms/saparari-heavy-pot-pert.md'>saparari</a></li>
+<li><a href='/data/wordforms/sukase-all.md'>sukase</a></li>
+<li><a href='/data/wordforms/tajme-ugly.md'>tajme</a></li>
+<li><a href='/data/wordforms/takunuru-laziness-pert.md'>takunuru</a></li>
+<li><a href='/data/wordforms/tapire-red.md'>tapire</a></li>
+<li><a href='/data/wordforms/tarine-fast.md'>tarine</a></li>
+<li><a href='/data/wordforms/tawaru-nyctidromus-albicollis-pert.md'>tawaru</a></li>
+<li><a href='/data/wordforms/tawori-3-uncle-pert.md'>tawori</a></li>
+<li><a href='/data/wordforms/teijpono-far-nmlz.md'>teijpono</a></li>
+<li><a href='/data/wordforms/tejpore-tasty.md'>tejpore</a></li>
+<li><a href='/data/wordforms/tejporemi-tasty-nmlz.md'>tejporemï</a></li>
+<li><a href='/data/wordforms/tejweti-3-hammock-pert.md'>tejweti</a></li>
+<li><a href='/data/wordforms/tepese-3-escape-pst.md'>tepese</a></li>
+<li><a href='/data/wordforms/terepunu-3-sick-pert.md'>terepunu</a></li>
+<li><a href='/data/wordforms/tesekemi-prop-name-prop-nmlz.md'>tesekemï</a></li>
+<li><a href='/data/wordforms/toti-3-meat-pert.md'>toti</a></li>
+<li><a href='/data/wordforms/tujnaka-iller.md'>tujnaka</a></li>
+<li><a href='/data/wordforms/teijpo-far.md'>tëijpo</a></li>
+<li><a href='/data/wordforms/tewi-3pro.md'>tëwï</a></li>
+<li><a href='/data/wordforms/tewisantomo-3pro-pl.md'>tëwïsantomo</a></li>
+<li><a href='/data/wordforms/wanene-aunt.md'>wanene</a></li>
+<li><a href='/data/wordforms/waraijtori-husband-pert.md'>waraijtori</a></li>
+<li><a href='/data/wordforms/wenaru-vomit-pert.md'>wenaru</a></li>
+<li><a href='/data/wordforms/weseyu-be-brave-acnnmlz.md'>weseyu</a></li>
+<li><a href='/data/wordforms/weseyuru-be-brave-ipfv.md'>weseyuru</a></li>
+<li><a href='/data/wordforms/wire-1pro.md'>wïrë</a></li>
+<li><a href='/data/wordforms/yane-mother.md'>yanë</a></li>
+<li><a href='/data/wordforms/yumpe-fairly.md'>yumpe</a></li>
+<li><a href='/data/wordforms/yewukuru-answer-ipfv.md'>yëwukuru</a></li>
+<li><a href='/data/wordforms/ejpina-often.md'>ëjpïna</a></li>
+<li><a href='/data/wordforms/ejte-house-npert.md'>ëjtë</a></li>
+<li><a href='/data/wordforms/eke-which.md'>ëkë</a></li>
+<li><a href='/data/wordforms/empare-already.md'>ëmpare</a></li>
+<li><a href='/data/wordforms/enukuru-go-up-ipfv.md'>ënukuru</a></li>
+<li><a href='/data/wordforms/toto-non-indian.md'>toto</a></li>
+<li><a href='/data/wordforms/re-emp.md'>rë</a></li>
+<li><a href='/data/wordforms/mokontomo-2pl-pro.md'>mokontomo</a></li>
+<li><a href='/data/wordforms/ya-erg.md'>ya</a></li>
+<li><a href='/data/wordforms/yenijpe-drink-pst.md'>yenijpë</a></li>
+<li><a href='/data/wordforms/ta-say-ipfv.md'>ta</a></li>
+<li><a href='/data/wordforms/ta-like.md'>ta</a></li>
+<li><a href='/data/wordforms/ta-say-acnnmlz.md'>ta</a></li>
+<li><a href='/data/wordforms/tototon-non-indian-pl.md'>tototon</a></li>
+<li><a href='/data/wordforms/yoti-lk-meat-pert.md'>yoti</a></li>
+<li><a href='/data/wordforms/ti-hsy.md'>ti</a></li>
+<li><a href='/data/wordforms/aaa-ah.md'>aaa</a></li>
+<li><a href='/data/wordforms/warai-like.md'>warai</a></li>
+<li><a href='/data/wordforms/e-e-yes.md'>ë'ë</a></li>
+<li><a href='/data/wordforms/waraij-like.md'>waraij</a></li>
+<li><a href='/data/wordforms/tase-say-pst.md'>tase</a></li>
+<li><a href='/data/wordforms/asuka-sugar.md'>asuka</a></li>
+<li><a href='/data/wordforms/chi-cop-acnnmlz.md'>chi</a></li>
+<li><a href='/data/wordforms/yawe-loc.md'>yawë</a></li>
+<li><a href='/data/wordforms/neke-cntr.md'>neke</a></li>
+<li><a href='/data/wordforms/ne-ints.md'>ne</a></li>
+<li><a href='/data/wordforms/yewenke-lk-ignorant.md'>yewenke</a></li>
+<li><a href='/data/wordforms/awata-surp.md'>awata</a></li>
+<li><a href='/data/wordforms/taki-cnfrm.md'>takï</a></li>
+<li><a href='/data/wordforms/pirare-neg-exist.md'>pïrarë</a></li>
+<li><a href='/data/wordforms/nwa-thus.md'>nwa</a></li>
+<li><a href='/data/wordforms/ma-rst.md'>ma</a></li>
+<li><a href='/data/wordforms/yakere-lk-with.md'>yakërë</a></li>
+<li><a href='/data/wordforms/wejsape-cop-pfv.md'>wejsapë</a></li>
+<li><a href='/data/wordforms/sa-eval.md'>sa</a></li>
+<li><a href='/data/wordforms/enirepeke-recently.md'>enirëpëke</a></li>
+<li><a href='/data/wordforms/ke-ins.md'>ke</a></li>
+<li><a href='/data/wordforms/tawara-too.md'>tawara</a></li>
+<li><a href='/data/wordforms/kajwe-coffee.md'>kajwe</a></li>
+<li><a href='/data/wordforms/yenija-drink-neg.md'>yenija</a></li>
+<li><a href='/data/wordforms/yenija-drink-neg-1.md'>yënija</a></li>
+<li><a href='/data/wordforms/esene-see-self-ipfv.md'>esene</a></li>
+<li><a href='/data/wordforms/seneja-see-self-neg.md'>seneja</a></li>
+<li><a href='/data/wordforms/wa-thus.md'>wa</a></li>
+<li><a href='/data/wordforms/arina-trembler.md'>arina</a></li>
+<li><a href='/data/wordforms/aro-rice.md'>aro</a></li>
+<li><a href='/data/wordforms/yenesemi-eat-meat-ptcp-nmlz.md'>yënësemï</a></li>
+<li><a href='/data/wordforms/tajtane-say-cncs.md'>tajtane</a></li>
+<li><a href='/data/wordforms/sere-bitter-manioc.md'>sere</a></li>
+<li><a href='/data/wordforms/okiri-chicha-pert.md'>okïrï</a></li>
+<li><a href='/data/wordforms/sukutaka-yucuta.md'>sukutaka</a></li>
+<li><a href='/data/wordforms/taji-foc.md'>taji</a></li>
+<li><a href='/data/wordforms/waraijne-like-pl.md'>waraijne</a></li>
+<li><a href='/data/wordforms/tainija-3p-see-neg.md'>tainija</a></li>
+<li><a href='/data/wordforms/kwa-how.md'>kwa</a></li>
+<li><a href='/data/wordforms/chipeke-because.md'>chipëkë</a></li>
+<li><a href='/data/wordforms/tajtoj-say-circ-nmlz.md'>tajtoj</a></li>
+<li><a href='/data/wordforms/inijpe-see-pst-acnnmlz.md'>inijpë</a></li>
+<li><a href='/data/wordforms/kampra-big.md'>kampra</a></li>
+<li><a href='/data/wordforms/chawe-loc.md'>chawë</a></li>
+<li><a href='/data/wordforms/chiyawe-when.md'>chiyawë</a></li>
+<li><a href='/data/wordforms/yeneja-eat-meat-neg.md'>yënëja</a></li>
+<li><a href='/data/wordforms/tewarai-3-like.md'>tëwarai</a></li>
+<li><a href='/data/wordforms/sereke-bitter-manioc-prop.md'>sereke</a></li>
+<li><a href='/data/wordforms/yuru-lk-starchy-food-pert.md'>yuru</a></li>
+<li><a href='/data/wordforms/onono-another.md'>onono</a></li>
+<li><a href='/data/wordforms/pano-fmr.md'>pano</a></li>
+<li><a href='/data/wordforms/yenipeke-drink-prog-tr.md'>yenipëkë</a></li>
+<li><a href='/data/wordforms/kimii-chili.md'>kïmïi</a></li>
+<li><a href='/data/wordforms/yemepeti-eat-fruits-eggs-soup-plur-ipfv.md'>yemepëti</a></li>
+<li><a href='/data/wordforms/iyawe-3-loc.md'>iyawë</a></li>
+<li><a href='/data/wordforms/yeni-drink-ipfv.md'>yeni</a></li>
+<li><a href='/data/wordforms/keyatajpe-grow-pst-acnnmlz.md'>këyatajpë</a></li>
+<li><a href='/data/wordforms/papa-father.md'>papa</a></li>
+<li><a href='/data/wordforms/yojtejpe-fish-with-hook-pst.md'>yojtëjpë</a></li>
+<li><a href='/data/wordforms/enireno-now-nmlz.md'>enirëno</a></li>
+<li><a href='/data/wordforms/takere-3-with.md'>takërë</a></li>
+<li><a href='/data/wordforms/yene-eat-meat-ipfv.md'>yënë</a></li>
+<li><a href='/data/wordforms/meki-3-anim-dist.md'>mëkï</a></li>
+<li><a href='/data/wordforms/ijtese-3-go-pst.md'>ijtëse</a></li>
+<li><a href='/data/wordforms/ati-what.md'>ati</a></li>
+<li><a href='/data/wordforms/impare-already.md'>ïmparë</a></li>
+<li><a href='/data/wordforms/tajne-3-pl.md'>tajne</a></li>
+<li><a href='/data/wordforms/tewenke-3-ignorant.md'>tewenke</a></li>
+<li><a href='/data/wordforms/kwase-how.md'>kwase</a></li>
+<li><a href='/data/wordforms/senkaja-finish-neg.md'>sënkaja</a></li>
+<li><a href='/data/wordforms/yaweno-loc-nmlz.md'>yawëno</a></li>
+<li><a href='/data/wordforms/tototomo-non-indian-pl.md'>tototomo</a></li>
+<li><a href='/data/wordforms/naike-do-acnnmlz-prop.md'>naike</a></li>
+<li><a href='/data/wordforms/yamane-make-ipfv.md'>yamanë</a></li>
+<li><a href='/data/wordforms/nepijpe-bring-pst.md'>nepïjpë</a></li>
+<li><a href='/data/wordforms/melicio-m.md'>melicio</a></li>
+<li><a href='/data/wordforms/erine-cooking-pot.md'>ërinë</a></li>
+<li><a href='/data/wordforms/nono-earth.md'>nono</a></li>
+<li><a href='/data/wordforms/yerine-lk-cooking-pot-pert.md'>yërinë</a></li>
+<li><a href='/data/wordforms/ijmojkatopo-cook-circ-nmlz.md'>ijmojkatopo</a></li>
+<li><a href='/data/wordforms/pare-also.md'>parë</a></li>
+<li><a href='/data/wordforms/pataka-take-out-ipfv.md'>pataka</a></li>
+<li><a href='/data/wordforms/aponte-seat.md'>apontë</a></li>
+<li><a href='/data/wordforms/n-ints.md'>n</a></li>
+<li><a href='/data/wordforms/yeye-tree.md'>yëye</a></li>
+<li><a href='/data/wordforms/kani-take-out-agtnmlz.md'>kani</a></li>
+<li><a href='/data/wordforms/yaponteri-lk-seat-pert.md'>yapontëri</a></li>
+<li><a href='/data/wordforms/en-prox-inan.md'>en</a></li>
+<li><a href='/data/wordforms/ejka-right.md'>ëjka</a></li>
+<li><a href='/data/wordforms/poye-above.md'>poye</a></li>
+<li><a href='/data/wordforms/turi-give-acnnmlz.md'>turi</a></li>
+<li><a href='/data/wordforms/po-loc.md'>po</a></li>
+<li><a href='/data/wordforms/poroko-basket-sp.md'>poroko</a></li>
+<li><a href='/data/wordforms/wepija-come-neg.md'>wepïja</a></li>
+<li><a href='/data/wordforms/teijpo-far-1.md'>teijpo</a></li>
+<li><a href='/data/wordforms/mukuton-child-pl.md'>mukuton</a></li>
+<li><a href='/data/wordforms/empamija-learn-neg.md'>ëmpamïja</a></li>
+<li><a href='/data/wordforms/jra-neg.md'>jra</a></li>
+<li><a href='/data/wordforms/yiwiti-lk-house-pert.md'>yïwïtï</a></li>
+<li><a href='/data/wordforms/mukutom-child-pl.md'>mukutom</a></li>
+<li><a href='/data/wordforms/uya-ratom-1-grandchild-pert-pl.md'>uya'ratom</a></li>
+<li><a href='/data/wordforms/uya-ra-1-grandchild-pert.md'>uya'ra</a></li>
+<li><a href='/data/wordforms/empampejteke-learn-plur-pl-imp.md'>ëmpampëjtëkë</a></li>
+<li><a href='/data/wordforms/moronkapo-make-suffer-des-ipfv.md'>moronkapo</a></li>
+<li><a href='/data/wordforms/ire-3ana-inan.md'>irë</a></li>
+<li><a href='/data/wordforms/taropo-say-des-ipfv.md'>taropo</a></li>
+<li><a href='/data/wordforms/uya-ratomo-1-grandchild-pert-pl.md'>uya'ratomo</a></li>
+<li><a href='/data/wordforms/waraijtokomo-man.md'>waraijtokomo</a></li>
+<li><a href='/data/wordforms/keyaja-think-neg.md'>këyaja</a></li>
+<li><a href='/data/wordforms/empamtoj-learn-circ-nmlz.md'>ëmpamtoj</a></li>
+<li><a href='/data/wordforms/tawaraij-too.md'>tawaraij</a></li>
+<li><a href='/data/wordforms/chi-cop-ipfv.md'>chi</a></li>
+<li><a href='/data/wordforms/kontomo-pl.md'>kontomo</a></li>
+<li><a href='/data/wordforms/pini-neg.md'>pïni</a></li>
+<li><a href='/data/wordforms/minte-there-loc.md'>mïntë</a></li>
+<li><a href='/data/wordforms/yenepeja-send-away-neg.md'>yenepeja</a></li>
+<li><a href='/data/wordforms/chiripo-cop-irr.md'>chiripo</a></li>
+<li><a href='/data/wordforms/yapijtomo-old.md'>yapijtomo</a></li>
+<li><a href='/data/wordforms/tajpetiri-say-plur-ipfv.md'>tajpëtiri</a></li>
+<li><a href='/data/wordforms/empansaj-learn-pfv.md'>ëmpansaj</a></li>
+<li><a href='/data/wordforms/mukutomo-child-pl.md'>mukutomo</a></li>
+<li><a href='/data/wordforms/senejkaja-stay-neg.md'>senejkaja</a></li>
+<li><a href='/data/wordforms/moronkaja-make-suffer-neg.md'>moronkaja</a></li>
+<li><a href='/data/wordforms/pojte-want-acnnmlz.md'>pojtë</a></li>
+<li><a href='/data/wordforms/yawakaja-sow-neg.md'>yawakaja</a></li>
+<li><a href='/data/wordforms/wejsaj-cop-pfv.md'>wejsaj</a></li>
+<li><a href='/data/wordforms/maniki-rel-anim.md'>maniki</a></li>
+<li><a href='/data/wordforms/indigena-indigenous-person.md'>indigena</a></li>
+<li><a href='/data/wordforms/wejpo-come-des-ipfv.md'>wejpo</a></li>
+<li><a href='/data/wordforms/yareja-bring-neg.md'>yarëja</a></li>
+<li><a href='/data/wordforms/empamipeke-learn-prog-tr.md'>ëmpamïpëkë</a></li>
+<li><a href='/data/wordforms/empamiri-learn-ipfv.md'>ëmpamïrï</a></li>
+<li><a href='/data/wordforms/taro-say-ipfv.md'>taro</a></li>
+<li><a href='/data/wordforms/penare-before.md'>penarë</a></li>
+<li><a href='/data/wordforms/yepematopo-pay-circ-nmlz.md'>yepematopo</a></li>
+<li><a href='/data/wordforms/mukuru-child-pert.md'>mukuru</a></li>
+<li><a href='/data/wordforms/ijteri-3-go-ipfv.md'>ijtëri</a></li>
+<li><a href='/data/wordforms/ijtetojpe-3-go-fut.md'>ijtëtojpe</a></li>
+<li><a href='/data/wordforms/ana-1-3pro.md'>ana</a></li>
+<li><a href='/data/wordforms/warotatopo-work-circ-nmlz.md'>warotatopo</a></li>
+<li><a href='/data/wordforms/mmm-yes.md'>mmm</a></li>
+<li><a href='/data/wordforms/tapojteja-3p-want-neg.md'>tapojtëja</a></li>
+<li><a href='/data/wordforms/mere-2pro.md'>mërë</a></li>
+<li><a href='/data/wordforms/iniri-see-ipfv.md'>iniri</a></li>
+<li><a href='/data/wordforms/meyarika-2-laugh-ipfv.md'>mëyarika</a></li>
+<li><a href='/data/wordforms/meyaruwari-2-laugh-ipfv.md'>mëyaruwari</a></li>
+<li><a href='/data/wordforms/mepekepene-2-alone.md'>mëpëkëpene</a></li>
+<li><a href='/data/wordforms/yaruwaja-laugh-neg.md'>yaruwaja</a></li>
+<li><a href='/data/wordforms/enka-right.md'>ënka</a></li>
+<li><a href='/data/wordforms/yaruwari-laugh-ipfv.md'>yaruwari</a></li>
+<li><a href='/data/wordforms/yakarama-tell-acnnmlz.md'>yakarama</a></li>
+<li><a href='/data/wordforms/mare-rel-inan.md'>mare</a></li>
+<li><a href='/data/wordforms/yaruwakem-laugh-acnnmlz-prop-nmlz.md'>yaruwakem</a></li>
+<li><a href='/data/wordforms/pinire-neg.md'>pïnirë</a></li>
+<li><a href='/data/wordforms/mekisantomo-dist-anim-pl.md'>mëkïsantomo</a></li>
+<li><a href='/data/wordforms/ki-ugh.md'>kï</a></li>
+<li><a href='/data/wordforms/serekapo-become-tired-des-ipfv.md'>serekapo</a></li>
+<li><a href='/data/wordforms/ka-q.md'>ka</a></li>
+<li><a href='/data/wordforms/pokono-about-nmlz.md'>pokono</a></li>
+<li><a href='/data/wordforms/iri-put-ipfv.md'>iri</a></li>
+<li><a href='/data/wordforms/tunam-hide-acnnmlz.md'>tunam</a></li>
+<li><a href='/data/wordforms/yarikari-laugh-ipfv.md'>yarikari</a></li>
+<li><a href='/data/wordforms/tawaja-thus-neg.md'>tawaja</a></li>
+<li><a href='/data/wordforms/yarikaja-laugh-neg.md'>yarikaja</a></li>
+<li><a href='/data/wordforms/yarikatopo-laugh-circ-nmlz.md'>yarikatopo</a></li>
+<li><a href='/data/wordforms/taitapo-3p-hear-des-ipfv.md'>taitapo</a></li>
+<li><a href='/data/wordforms/chiri-cop-acnnmlz.md'>chiri</a></li>
+<li><a href='/data/wordforms/senejkari-stay-ipfv.md'>senejkarï</a></li>
+<li><a href='/data/wordforms/uyiwij-1-lk-house-pert.md'>uyïwïj</a></li>
+<li><a href='/data/wordforms/yaka-all.md'>yaka</a></li>
+<li><a href='/data/wordforms/sukuri-silently.md'>sukuri</a></li>
+<li><a href='/data/wordforms/itari-hear-ipfv.md'>itari</a></li>
+<li><a href='/data/wordforms/wajyakiti-be-happy-ipfv.md'>wajyakïtï</a></li>
+<li><a href='/data/wordforms/kajke-say-imp.md'>kajkë</a></li>
+<li><a href='/data/wordforms/usenejkari-1-stay-ipfv.md'>usenejkari</a></li>
+<li><a href='/data/wordforms/chipokono-because.md'>chipokono</a></li>
+<li><a href='/data/wordforms/pana-dat.md'>pana</a></li>
+<li><a href='/data/wordforms/yaruwatopo-laugh-circ-nmlz.md'>yaruwatopo</a></li>
+<li><a href='/data/wordforms/inke-see-imp.md'>inkë</a></li>
+<li><a href='/data/wordforms/mere-med-inan.md'>mërë</a></li>
+<li><a href='/data/wordforms/yaruwatepeke-laugh-prog-intr.md'>yaruwatëpëkë</a></li>
+<li><a href='/data/wordforms/ini-see-acnnmlz.md'>ini</a></li>
+<li><a href='/data/wordforms/waimu-speak-ipfv.md'>waimu</a></li>
+<li><a href='/data/wordforms/ijpe-put-pst.md'>ijpë</a></li>
+<li><a href='/data/wordforms/yekerema-boast-sexually-ipfv.md'>yekerema</a></li>
+<li><a href='/data/wordforms/pinika-prob.md'>pïnika</a></li>
+<li><a href='/data/wordforms/chipokon-because.md'>chipokon</a></li>
+<li><a href='/data/wordforms/yaruwa-laugh-ipfv.md'>yaruwa</a></li>
+<li><a href='/data/wordforms/mare-still.md'>mare</a></li>
+<li><a href='/data/wordforms/yatum-day.md'>yatum</a></li>
+<li><a href='/data/wordforms/inija-see-neg.md'>inija</a></li>
+<li><a href='/data/wordforms/ke-ugh.md'>kë</a></li>
+<li><a href='/data/wordforms/uyare-1-alone.md'>uyarë</a></li>
+<li><a href='/data/wordforms/peremekiri-talk-ipfv.md'>përemekïrï</a></li>
+<li><a href='/data/wordforms/narepe-part.md'>narëpe</a></li>
+<li><a href='/data/wordforms/chiyakon-friend-pert.md'>chiyakon</a></li>
+<li><a href='/data/wordforms/yarikasemi-laugh-ptcp-nmlz.md'>yarikasemï</a></li>
+<li><a href='/data/wordforms/yakaramapetiri-tell-plur-ipfv.md'>yakaramapëtiri</a></li>
+<li><a href='/data/wordforms/yeneni-eat-meat-agtnmlz.md'>yënëni</a></li>
+<li><a href='/data/wordforms/meyewenke-2-lk-ignorant.md'>mëyewenke</a></li>
+<li><a href='/data/wordforms/takono-other.md'>takono</a></li>
+<li><a href='/data/wordforms/muku-child.md'>muku</a></li>
+<li><a href='/data/wordforms/wurijyam-woman.md'>wurijyam</a></li>
+<li><a href='/data/wordforms/tepekepene-3-alone.md'>tëpëkëpene</a></li>
+<li><a href='/data/wordforms/waraijto-husband.md'>waraijto</a></li>
+<li><a href='/data/wordforms/yutu-forest.md'>yutu</a></li>
+<li><a href='/data/wordforms/ekejna-where-nmlz.md'>ëkëjna</a></li>
+<li><a href='/data/wordforms/surukupi-fish-sp.md'>surukupi</a></li>
+<li><a href='/data/wordforms/tuna-water.md'>tuna</a></li>
+<li><a href='/data/wordforms/meyakere-2-lk-with.md'>mëyakërë</a></li>
+<li><a href='/data/wordforms/mai-lets-go.md'>mai</a></li>
+<li><a href='/data/wordforms/se-eval.md'>se</a></li>
+<li><a href='/data/wordforms/yapejtane-grab-cncs.md'>yapëjtane</a></li>
+<li><a href='/data/wordforms/makuyupi-catfish-sp.md'>makuyupi</a></li>
+<li><a href='/data/wordforms/tejta-hollow.md'>tëjta</a></li>
+<li><a href='/data/wordforms/tatuse-3p-give-pst.md'>tatuse</a></li>
+<li><a href='/data/wordforms/imukuru-3-child-pert.md'>imukuru</a></li>
+<li><a href='/data/wordforms/mukupijke-child-dim.md'>mukupïjkë</a></li>
+<li><a href='/data/wordforms/mukujpe-child-pst.md'>mukujpë</a></li>
+<li><a href='/data/wordforms/pijke-dim.md'>pïjkë</a></li>
+<li><a href='/data/wordforms/tanemese-3p-leave-pst.md'>tanëmëse</a></li>
+<li><a href='/data/wordforms/yapejke-grab-imp.md'>yapëjkë</a></li>
+<li><a href='/data/wordforms/tatase-3p-say-pst.md'>tatase</a></li>
+<li><a href='/data/wordforms/nejke-bring-imp.md'>nejkë</a></li>
+<li><a href='/data/wordforms/memukuru-2-child-pert.md'>mëmukuru</a></li>
+<li><a href='/data/wordforms/chijpe-cop-pst.md'>chijpë</a></li>
+<li><a href='/data/wordforms/tayene-3p-eat-meat-ipfv.md'>tayënë</a></li>
+<li><a href='/data/wordforms/panari-ear-pert.md'>panari</a></li>
+<li><a href='/data/wordforms/samopeke-cry-prog-tr.md'>samopëkë</a></li>
+<li><a href='/data/wordforms/tayenepejse-3p-eat-meat-plur-pst.md'>tayënëpëjse</a></li>
+<li><a href='/data/wordforms/panarijpe-ear-pert-pst.md'>panarijpë</a></li>
+<li><a href='/data/wordforms/tena-loc-nmlz.md'>tëna</a></li>
+<li><a href='/data/wordforms/mesuku-blood.md'>mesuku</a></li>
+<li><a href='/data/wordforms/meyenetojpano-2-eat-meat-fut-concl.md'>mëyënëtojpano</a></li>
+<li><a href='/data/wordforms/uyakere-1-lk-with.md'>uyakërë</a></li>
+<li><a href='/data/wordforms/wepiri-come-ipfv.md'>wepïrï</a></li>
+<li><a href='/data/wordforms/tampapeti-become-angry-plur-ipfv.md'>tampapëti</a></li>
+<li><a href='/data/wordforms/anajmo-2-grandmother-pert.md'>anajmo</a></li>
+<li><a href='/data/wordforms/yenepejsape-eat-meat-plur-pfv.md'>yënëpëjsapë</a></li>
+<li><a href='/data/wordforms/panake-ear-prop.md'>panake</a></li>
+<li><a href='/data/wordforms/tayenese-3p-eat-meat-pst.md'>tayënëse</a></li>
+<li><a href='/data/wordforms/anajmori-2-grandmother-pert.md'>anajmori</a></li>
+<li><a href='/data/wordforms/yakarama-tell-ipfv.md'>yakarama</a></li>
+<li><a href='/data/wordforms/tajromini-bad-omen.md'>tajromini</a></li>
+<li><a href='/data/wordforms/itaja-hear-neg.md'>itaja</a></li>
+<li><a href='/data/wordforms/kuruj-k.md'>kuruj</a></li>
+<li><a href='/data/wordforms/ej-house.md'>ëj</a></li>
+<li><a href='/data/wordforms/mjm-yes.md'>mjm</a></li>
+<li><a href='/data/wordforms/orojyamo-evil-being.md'>orojyamo</a></li>
+<li><a href='/data/wordforms/tajromin-bad-omen.md'>tajromin</a></li>
+<li><a href='/data/wordforms/pinchi-hes.md'>pinchi</a></li>
+<li><a href='/data/wordforms/aniki-who-1.md'>anïkï</a></li>
+<li><a href='/data/wordforms/yaye-loc.md'>yaye</a></li>
+<li><a href='/data/wordforms/ijiji-ijiji.md'>ïjïjï</a></li>
+<li><a href='/data/wordforms/samopeti-cry-plur-ipfv.md'>samopëti</a></li>
+<li><a href='/data/wordforms/iriyawe-then.md'>iriyawë</a></li>
+<li><a href='/data/wordforms/miro-m.md'>mïro</a></li>
+<li><a href='/data/wordforms/tajrominkemi-bad-omen-prop-nmlz.md'>tajrominkemï</a></li>
+<li><a href='/data/wordforms/tajrominiri-bad-omen-pert.md'>tajrominiri</a></li>
+<li><a href='/data/wordforms/semapejsejne-die-plur-pst-pl.md'>sëmapëjsejne</a></li>
+<li><a href='/data/wordforms/keresantomo-prox-anim-pl.md'>kërësantomo</a></li>
+<li><a href='/data/wordforms/uyewenke-1-lk-ignorant.md'>uyewenke</a></li>
+<li><a href='/data/wordforms/yawo-loc.md'>yawo</a></li>
+<li><a href='/data/wordforms/kayupare-k.md'>kayupare</a></li>
+<li><a href='/data/wordforms/sema-die-acnnmlz.md'>sëma</a></li>
+<li><a href='/data/wordforms/tewisantomojne-3pro-pl-pl.md'>tëwïsantomojne</a></li>
+<li><a href='/data/wordforms/tajrominke-bad-omen-prop.md'>tajrominke</a></li>
+<li><a href='/data/wordforms/eee-hey.md'>eee</a></li>
+<li><a href='/data/wordforms/enrike-e.md'>enrike</a></li>
+<li><a href='/data/wordforms/yakerej-lk-relative-pert.md'>yakerej</a></li>
+<li><a href='/data/wordforms/tayakaramari-3p-tell-ipfv.md'>tayakaramari</a></li>
+<li><a href='/data/wordforms/esemane-die-inf.md'>ësëmanë</a></li>
+<li><a href='/data/wordforms/wenkejpejse-forget-plur-pst.md'>wënkejpëjse</a></li>
+<li><a href='/data/wordforms/mewenkejse-2-forget-pst.md'>mëwënkejse</a></li>
+<li><a href='/data/wordforms/mechi-2-cop-ipfv.md'>mëchi</a></li>
+<li><a href='/data/wordforms/yatam-adolescent.md'>yatam</a></li>
+<li><a href='/data/wordforms/uyatam-1-adolescent-pert.md'>uyatam</a></li>
+<li><a href='/data/wordforms/pipi-younger-brother-of-woman.md'>pipi</a></li>
+<li><a href='/data/wordforms/make-mom.md'>makë</a></li>
+<li><a href='/data/wordforms/sepamii-get-married-hort.md'>sepamïi</a></li>
+<li><a href='/data/wordforms/tayeremari-3p-feed-ipfv.md'>tayeremari</a></li>
+<li><a href='/data/wordforms/sepanke-get-married-imp.md'>sepankë</a></li>
+<li><a href='/data/wordforms/waraijtokon-man.md'>waraijtokon</a></li>
+<li><a href='/data/wordforms/kunawo-brother-in-law.md'>kuñawo</a></li>
+<li><a href='/data/wordforms/kintase-become-tired-pst.md'>kintase</a></li>
+<li><a href='/data/wordforms/yakereti-lk-relative-pert.md'>yakereti</a></li>
+<li><a href='/data/wordforms/pedrito-p.md'>pedrito</a></li>
+<li><a href='/data/wordforms/pan-fmr.md'>pan</a></li>
+<li><a href='/data/wordforms/tapeke-say-prog-tr.md'>tapëkë</a></li>
+<li><a href='/data/wordforms/weseichemi-be-brave-ptcp-nmlz.md'>weseichemï</a></li>
+<li><a href='/data/wordforms/pojteja-want-neg.md'>pojtëja</a></li>
+<li><a href='/data/wordforms/taja-say-neg.md'>taja</a></li>
+<li><a href='/data/wordforms/winikiri-sleep-ipfv.md'>wïnïkïrï</a></li>
+<li><a href='/data/wordforms/winikija-sleep-neg.md'>wïnïkïja</a></li>
+<li><a href='/data/wordforms/sepamija-get-married-neg.md'>sepamïja</a></li>
+<li><a href='/data/wordforms/waraijtokom-man.md'>waraijtokom</a></li>
+<li><a href='/data/wordforms/mukutomojne-child-pl-pl.md'>mukutomojne</a></li>
+<li><a href='/data/wordforms/yerematojpano-feed-fut-concl.md'>yerematojpano</a></li>
+<li><a href='/data/wordforms/yawankaja-kill-neg.md'>yawankaja</a></li>
+<li><a href='/data/wordforms/sarampion-measles.md'>sarampion</a></li>
+<li><a href='/data/wordforms/pachi-older-sister-of-woman.md'>pachi</a></li>
+<li><a href='/data/wordforms/atapejse-seize-on-sup.md'>atapëjse</a></li>
+<li><a href='/data/wordforms/tapejsaj-say-plur-pfv.md'>tapëjsaj</a></li>
+<li><a href='/data/wordforms/pirikari-endure-ipfv.md'>pïrïkari</a></li>
+<li><a href='/data/wordforms/pirikaja-endure-neg.md'>pïrïkaja</a></li>
+<li><a href='/data/wordforms/mekontomo-2pl-pro.md'>mëkontomo</a></li>
+<li><a href='/data/wordforms/konopo-rain.md'>konopo</a></li>
+<li><a href='/data/wordforms/ijtejpe-3-go-pst.md'>ijtëjpë</a></li>
+<li><a href='/data/wordforms/apatakaja-come-out-neg.md'>apatakaja</a></li>
+<li><a href='/data/wordforms/tayawankase-3p-kill-pst.md'>tayawankase</a></li>
+<li><a href='/data/wordforms/mokonton-2pl-pro.md'>mokonton</a></li>
+<li><a href='/data/wordforms/neme-leave-ipfv.md'>nëmë</a></li>
+<li><a href='/data/wordforms/mokontom-2pl-pro.md'>mokontom</a></li>
+<li><a href='/data/wordforms/chijrama-cop-proh.md'>chijrama</a></li>
+<li><a href='/data/wordforms/me-pol.md'>me</a></li>
+<li><a href='/data/wordforms/kano-c.md'>kaño</a></li>
+<li><a href='/data/wordforms/meinpo-2-see-des-ipfv.md'>mëinpo</a></li>
+<li><a href='/data/wordforms/meini-2-see-ipfv.md'>mëini</a></li>
+<li><a href='/data/wordforms/nonori-earth-pert.md'>nonori</a></li>
+<li><a href='/data/wordforms/waimuru-speak-ipfv.md'>waimuru</a></li>
+<li><a href='/data/wordforms/mayawaka-m.md'>mayawaka</a></li>
+<li><a href='/data/wordforms/ya-ra-grandchild.md'>ya'ra</a></li>
+<li><a href='/data/wordforms/yape-lk-arm-wing-pert.md'>yapë</a></li>
+<li><a href='/data/wordforms/tejwej-3-hammock-pert.md'>tejwej</a></li>
+<li><a href='/data/wordforms/yaperi-lk-arm-wing-pert.md'>yapëri</a></li>
+<li><a href='/data/wordforms/moronta-hurt-ipfv.md'>moronta</a></li>
+<li><a href='/data/wordforms/uyape-1-lk-arm-wing-pert.md'>uyapë</a></li>
+<li><a href='/data/wordforms/senejkari-stay-ipfv-1.md'>senejkari</a></li>
+<li><a href='/data/wordforms/waijte-head.md'>waijtë</a></li>
+<li><a href='/data/wordforms/weretasaj-arrive-pfv.md'>weretasaj</a></li>
+<li><a href='/data/wordforms/tawejka-dawn-acnnmlz.md'>tawejka</a></li>
+<li><a href='/data/wordforms/ita-hear-ipfv.md'>ita</a></li>
+<li><a href='/data/wordforms/yakasem-dig-out-ptcp-nmlz.md'>yakasem</a></li>
+<li><a href='/data/wordforms/ijtesape-3-go-pfv.md'>ijtësapë</a></li>
+<li><a href='/data/wordforms/julieta-j.md'>julieta</a></li>
+<li><a href='/data/wordforms/imuku-3-child-pert.md'>imuku</a></li>
+<li><a href='/data/wordforms/enteno-here-loc-nmlz.md'>entëno</a></li>
+<li><a href='/data/wordforms/sepantepeke-get-married-prog-intr.md'>sepantëpëkë</a></li>
+<li><a href='/data/wordforms/mati-breast.md'>mati</a></li>
+<li><a href='/data/wordforms/yeni-drink-ipfv-1.md'>yëni</a></li>
+<li><a href='/data/wordforms/yenpo-drink-des-ipfv.md'>yënpo</a></li>
+<li><a href='/data/wordforms/asamo-cry-ipfv.md'>asamo</a></li>
+<li><a href='/data/wordforms/tayarese-3p-bring-pst.md'>tayarëse</a></li>
+<li><a href='/data/wordforms/tewijpe-3pro-pst.md'>tëwïjpë</a></li>
+<li><a href='/data/wordforms/imukurujpe-3-child-pert-pst.md'>imukurujpë</a></li>
+<li><a href='/data/wordforms/chija-cop-neg.md'>chija</a></li>
+<li><a href='/data/wordforms/tayapejse-3p-grab-pst.md'>tayapëjse</a></li>
+<li><a href='/data/wordforms/tayempekase-3p-offend-pst.md'>tayëmpëkase</a></li>
+<li><a href='/data/wordforms/tayakaramase-3p-tell-pst.md'>tayakaramase</a></li>
+<li><a href='/data/wordforms/mewaraijtori-2-husband-pert.md'>mëwaraijtori</a></li>
+<li><a href='/data/wordforms/yempekapeti-offend-plur-ipfv.md'>yëmpëkapëti</a></li>
+<li><a href='/data/wordforms/keyetajpe-grow-pst.md'>këyetajpë</a></li>
+<li><a href='/data/wordforms/yimi-lk-father.md'>yïmï</a></li>
+<li><a href='/data/wordforms/semajpe-die-pst-acnnmlz.md'>sëmajpë</a></li>
+<li><a href='/data/wordforms/keyetase-grow-pst.md'>këyetase</a></li>
+<li><a href='/data/wordforms/yojte-fish-with-hook-ipfv.md'>yojtë</a></li>
+<li><a href='/data/wordforms/aroma-limpet.md'>aroma</a></li>
+<li><a href='/data/wordforms/yakuri-agouti.md'>yakuri</a></li>
+<li><a href='/data/wordforms/ya-obl.md'>ya</a></li>
+<li><a href='/data/wordforms/makampra-aunt.md'>makampra</a></li>
+<li><a href='/data/wordforms/maijte-go-imp.md'>maijtë</a></li>
+<li><a href='/data/wordforms/kaimotata-hunt-motimp.md'>kaimotata</a></li>
+<li><a href='/data/wordforms/yomiri-be-hungry-ipfv.md'>yomiri</a></li>
+<li><a href='/data/wordforms/asamori-cry-ipfv.md'>asamori</a></li>
+<li><a href='/data/wordforms/kere-prox-anim.md'>kërë</a></li>
+<li><a href='/data/wordforms/yemi-be-hungry-acnnmlz.md'>yëmi</a></li>
+<li><a href='/data/wordforms/tejetum-sick.md'>tejetum</a></li>
+<li><a href='/data/wordforms/ipakuri-3-arrow-tip-pert.md'>ipakuri</a></li>
+<li><a href='/data/wordforms/sakara-hoplias-malabaricus.md'>sakara</a></li>
+<li><a href='/data/wordforms/nepi-bring-ipfv.md'>nepï</a></li>
+<li><a href='/data/wordforms/yakono-lk-younger-sister-of-woman-pert.md'>yakono</a></li>
+<li><a href='/data/wordforms/ijmojkake-cook-imp.md'>ijmojkakë</a></li>
+<li><a href='/data/wordforms/i-put-ipfv.md'>i</a></li>
+<li><a href='/data/wordforms/ijmojka-cook-ipfv.md'>ijmojka</a></li>
+<li><a href='/data/wordforms/serematojpe-eat-purp.md'>serematojpe</a></li>
+<li><a href='/data/wordforms/patajpe-axe-pst.md'>patajpë</a></li>
+<li><a href='/data/wordforms/te-loc.md'>të</a></li>
+<li><a href='/data/wordforms/semasaj-die-abs-nmlz.md'>sëmasaj</a></li>
+<li><a href='/data/wordforms/weroro-dog.md'>weroro</a></li>
+<li><a href='/data/wordforms/yare-bring-ipfv.md'>yarë</a></li>
+<li><a href='/data/wordforms/kejmatojpe-hunt-purp.md'>këjmatojpe</a></li>
+<li><a href='/data/wordforms/taturu-3p-give-ipfv.md'>taturu</a></li>
+<li><a href='/data/wordforms/ijmokatojpe-cook-purp.md'>ijmokatojpe</a></li>
+<li><a href='/data/wordforms/tujpe-give-pst.md'>tujpë</a></li>
+<li><a href='/data/wordforms/keyatajpe-grow-pst.md'>këyatajpë</a></li>
+<li><a href='/data/wordforms/yeme-eat-fruits-eggs-soup-ipfv.md'>yeme</a></li>
+<li><a href='/data/wordforms/yokiri-eat-starch-ipfv.md'>yokïrï</a></li>
+<li><a href='/data/wordforms/yemetikene-eat-fruits-eggs-soup-post.md'>yemetïkene</a></li>
+<li><a href='/data/wordforms/sepanse-get-married-pst.md'>sepanse</a></li>
+<li><a href='/data/wordforms/rafa-r.md'>rafa</a></li>
+<li><a href='/data/wordforms/perez-p.md'>perez</a></li>
+<li><a href='/data/wordforms/keyatase-grow-pst.md'>këyatase</a></li>
+<li><a href='/data/wordforms/tese-go-pst.md'>tëse</a></li>
+<li><a href='/data/wordforms/padrastro-stepfather-pert.md'>padrastro</a></li>
+<li><a href='/data/wordforms/keyamase-raise-pst.md'>këyamase</a></li>
+<li><a href='/data/wordforms/wera-like.md'>wëra</a></li>
+<li><a href='/data/wordforms/tapaja-beat-neg.md'>tapaja</a></li>
+<li><a href='/data/wordforms/tajtojpe-say-purp.md'>tajtojpe</a></li>
+<li><a href='/data/wordforms/wejtane-cop-cncs.md'>wejtane</a></li>
+<li><a href='/data/wordforms/teijpe-far.md'>tëijpë</a></li>
+<li><a href='/data/wordforms/yiwij-lk-house-pert.md'>yïwïj</a></li>
+<li><a href='/data/wordforms/senejka-stay-ipfv.md'>senejka</a></li>
+<li><a href='/data/wordforms/iyajteri-care-for-ipfv.md'>iyajtëri</a></li>
+<li><a href='/data/wordforms/kukurito-k.md'>kukurito</a></li>
+<li><a href='/data/wordforms/umakeri-1-mom-pert.md'>umakëri</a></li>
+<li><a href='/data/wordforms/upatakase-1-take-out-pst.md'>upatakase</a></li>
+<li><a href='/data/wordforms/makeri-mom-pert.md'>makëri</a></li>
+<li><a href='/data/wordforms/unemese-1-leave-pst.md'>unëmëse</a></li>
+<li><a href='/data/wordforms/uyenese-1-eat-meat-pst.md'>uyënëse</a></li>
+<li><a href='/data/wordforms/inche-see-sup.md'>inche</a></li>
+<li><a href='/data/wordforms/uyarese-1-bring-pst.md'>uyarëse</a></li>
+<li><a href='/data/wordforms/tiwij-3-house-pert.md'>tïwïj</a></li>
+<li><a href='/data/wordforms/itake-hear-imp.md'>itakë</a></li>
+<li><a href='/data/wordforms/wurijyamo-woman.md'>wurijyamo</a></li>
+<li><a href='/data/wordforms/meiyajtetojpano-2-care-for-fut-concl.md'>mëiyajtëtojpano</a></li>
+<li><a href='/data/wordforms/imu-3-father.md'>imu</a></li>
+<li><a href='/data/wordforms/yanke-pick-up-imp.md'>yankë</a></li>
+<li><a href='/data/wordforms/umake-1-mom-pert.md'>umakë</a></li>
+<li><a href='/data/wordforms/ejwate-hammock-npert.md'>ëjwatë</a></li>
+<li><a href='/data/wordforms/metuna-2-water-pert.md'>mëtuna</a></li>
+<li><a href='/data/wordforms/meyoti-2-lk-meat-pert.md'>mëyoti</a></li>
+<li><a href='/data/wordforms/ijmojkani-cook-agtnmlz.md'>ijmojkani</a></li>
+<li><a href='/data/wordforms/usenejkasape-1-stay-pfv.md'>usenejkasapë</a></li>
+<li><a href='/data/wordforms/ukeyetase-1-grow-pst.md'>ukëyetase</a></li>
+<li><a href='/data/wordforms/upatakajpe-1-take-out-pst.md'>upatakajpë</a></li>
+<li><a href='/data/wordforms/patakajpe-take-out-pst.md'>patakajpë</a></li>
+<li><a href='/data/wordforms/memukutomo-2-child-pert-pl.md'>mëmukutomo</a></li>
+<li><a href='/data/wordforms/tanairi-3p-do-ipfv.md'>tanairi</a></li>
+<li><a href='/data/wordforms/yansemi-pick-up-ptcp-nmlz.md'>yansemï</a></li>
+<li><a href='/data/wordforms/tusem-give-ptcp-nmlz.md'>tusem</a></li>
+<li><a href='/data/wordforms/majawa-m.md'>majawa</a></li>
+<li><a href='/data/wordforms/jwaka-ill-aq.md'>jwaka</a></li>
+<li><a href='/data/wordforms/wasai-attalea-maripa.md'>wasai</a></li>
+<li><a href='/data/wordforms/yawakipeke-grate-prog-tr.md'>yawakïpëkë</a></li>
+<li><a href='/data/wordforms/tapikatane-3p-peel-cncs.md'>tapikatane</a></li>
+<li><a href='/data/wordforms/yawakiri-grate-ipfv.md'>yawakïrï</a></li>
+<li><a href='/data/wordforms/memati-2-breast-pert.md'>mëmati</a></li>
+<li><a href='/data/wordforms/tajnomo-piaroa.md'>tajnomo</a></li>
+<li><a href='/data/wordforms/tepu-stone.md'>tëpu</a></li>
+<li><a href='/data/wordforms/tata-3p-say-ipfv.md'>tata</a></li>
+<li><a href='/data/wordforms/keyamajpe-raise-pst.md'>këyamajpë</a></li>
+<li><a href='/data/wordforms/yojteri-fish-with-hook-ipfv.md'>yojtëri</a></li>
+<li><a href='/data/wordforms/kuneri-cook-ipfv.md'>kunëri</a></li>
+<li><a href='/data/wordforms/moronkapike-make-suffer-prog-tr.md'>moronkapïkë</a></li>
+<li><a href='/data/wordforms/tamoronkapike-3p-make-suffer-prog-tr.md'>tamoronkapïkë</a></li>
+<li><a href='/data/wordforms/te-go-acnnmlz.md'>të</a></li>
+<li><a href='/data/wordforms/meteri-2-go-ipfv.md'>mëtëri</a></li>
+<li><a href='/data/wordforms/eme-2-father.md'>ëmë</a></li>
+<li><a href='/data/wordforms/itopo-put-circ-nmlz.md'>itopo</a></li>
+<li><a href='/data/wordforms/ija-put-neg.md'>ija</a></li>
+<li><a href='/data/wordforms/ijta-3-foot-pert.md'>ijta</a></li>
+<li><a href='/data/wordforms/seremake-eat-imp.md'>seremakë</a></li>
+<li><a href='/data/wordforms/seremaja-eat-neg.md'>seremaja</a></li>
+<li><a href='/data/wordforms/usamori-1-cry-ipfv.md'>usamori</a></li>
+<li><a href='/data/wordforms/pike-when.md'>pïkë</a></li>
+<li><a href='/data/wordforms/teretapiri-3-cultivated-plant-pert.md'>teretapiri</a></li>
+<li><a href='/data/wordforms/yantopo-pick-up-circ-nmlz.md'>yantopo</a></li>
+<li><a href='/data/wordforms/tinawe-3-have.md'>tinawë</a></li>
+<li><a href='/data/wordforms/apatakase-come-out-sup.md'>apatakase</a></li>
+<li><a href='/data/wordforms/najwata-harbor.md'>najwata</a></li>
+<li><a href='/data/wordforms/ka-all.md'>ka</a></li>
+<li><a href='/data/wordforms/wejse-cop-pst.md'>wejse</a></li>
+<li><a href='/data/wordforms/yenejpe-eat-meat-pst-acnnmlz.md'>yënëjpë</a></li>
+<li><a href='/data/wordforms/wejse-come-pst.md'>wejse</a></li>
+<li><a href='/data/wordforms/sare-here-all.md'>sarë</a></li>
+<li><a href='/data/wordforms/wejsaj-come-abs-nmlz.md'>wejsaj</a></li>
+<li><a href='/data/wordforms/jtari-foot-pert.md'>jtari</a></li>
+<li><a href='/data/wordforms/apono-later-nmlz.md'>apono</a></li>
+<li><a href='/data/wordforms/uyawankase-1-kill-pst.md'>uyawankase</a></li>
+<li><a href='/data/wordforms/uyawankaja-1-kill-neg.md'>uyawankaja</a></li>
+<li><a href='/data/wordforms/utojpase-1-hit-pst.md'>utojpase</a></li>
+<li><a href='/data/wordforms/tatojpase-3p-hit-pst.md'>tatojpase</a></li>
+<li><a href='/data/wordforms/esemaja-die-neg.md'>ësëmaja</a></li>
+<li><a href='/data/wordforms/sawo-rapids.md'>sawo</a></li>
+<li><a href='/data/wordforms/seni-prox-inan.md'>seni</a></li>
+<li><a href='/data/wordforms/moronemi-hurting-nmlz.md'>moronemï</a></li>
+<li><a href='/data/wordforms/yejne-lk-below.md'>yëjnë</a></li>
+<li><a href='/data/wordforms/enirem-now-nmlz.md'>enirëm</a></li>
+<li><a href='/data/wordforms/enijne-prox-inan-pl.md'>enijne</a></li>
+<li><a href='/data/wordforms/nune-moon.md'>nunë</a></li>
+<li><a href='/data/wordforms/moyochi-spider-sp.md'>moyochi</a></li>
+<li><a href='/data/wordforms/wurijyan-woman.md'>wurijyan</a></li>
+<li><a href='/data/wordforms/tayaketese-3p-cut-pst.md'>tayakëtëse</a></li>
+<li><a href='/data/wordforms/tatojpapeti-3p-hit-plur-ipfv.md'>tatojpapëti</a></li>
+<li><a href='/data/wordforms/uyejweti-1-lk-hammock-pert.md'>uyejweti</a></li>
+<li><a href='/data/wordforms/yaketeri-cut-ipfv.md'>yakëtëri</a></li>
+<li><a href='/data/wordforms/yejweti-lk-hammock-pert.md'>yejweti</a></li>
+<li><a href='/data/wordforms/yaketejrama-cut-proh.md'>yakëtëjrama</a></li>
+<li><a href='/data/wordforms/mechiri-2-cop-ipfv.md'>mëchiri</a></li>
+<li><a href='/data/wordforms/yaketejpe-cut-pst.md'>yakëtëjpë</a></li>
+<li><a href='/data/wordforms/yatun-day.md'>yatun</a></li>
+<li><a href='/data/wordforms/warotaja-work-neg.md'>warotaja</a></li>
+<li><a href='/data/wordforms/yataneri-adolescent-pert.md'>yatanëri</a></li>
+<li><a href='/data/wordforms/mujyam-pregnancy.md'>mujyam</a></li>
+<li><a href='/data/wordforms/patakaja-take-out-neg.md'>patakaja</a></li>
+<li><a href='/data/wordforms/taj-say-ipfv.md'>taj</a></li>
+<li><a href='/data/wordforms/tani-say-agtnmlz.md'>tani</a></li>
+<li><a href='/data/wordforms/yeretapi-lk-cultivated-plant-pert.md'>yeretapi</a></li>
+<li><a href='/data/wordforms/soj-splash.md'>soj</a></li>
+<li><a href='/data/wordforms/yawaka-sow-ipfv.md'>yawaka</a></li>
+<li><a href='/data/wordforms/kamprari-big-pert.md'>kamprari</a></li>
+<li><a href='/data/wordforms/yawakapeke-sow-prog-tr.md'>yawakapëkë</a></li>
+<li><a href='/data/wordforms/tayawaka-3p-sow-ipfv.md'>tayawaka</a></li>
+<li><a href='/data/wordforms/tayawakari-3p-sow-ipfv.md'>tayawakari</a></li>
+<li><a href='/data/wordforms/enijpeteno-one-nmlz.md'>enijpëtëno</a></li>
+<li><a href='/data/wordforms/ekete-where.md'>ëkëtë</a></li>
+<li><a href='/data/wordforms/tayopojpe-3p-find-pst.md'>tayopojpë</a></li>
+<li><a href='/data/wordforms/tayawakase-3p-sow-pst.md'>tayawakase</a></li>
+<li><a href='/data/wordforms/kojpa-night.md'>kojpa</a></li>
+<li><a href='/data/wordforms/tayawakajpe-3p-sow-pst.md'>tayawakajpë</a></li>
+<li><a href='/data/wordforms/eretapi-cultivated-plant.md'>eretapi</a></li>
+<li><a href='/data/wordforms/ijtetojpano-3-go-fut-concl.md'>ijtëtojpano</a></li>
+<li><a href='/data/wordforms/sejpejteke-dream-pl-imp.md'>sejpëjtëkë</a></li>
+<li><a href='/data/wordforms/yampejteke-pick-up-plur-pl-imp.md'>yampëjtëkë</a></li>
+<li><a href='/data/wordforms/kawaraturu-k-pert.md'>kawaraturu</a></li>
+<li><a href='/data/wordforms/kawaratu-k.md'>kawaratu</a></li>
+<li><a href='/data/wordforms/wajyama-kiss-ipfv.md'>wajyama</a></li>
+<li><a href='/data/wordforms/tesej-3-name-pert.md'>tesej</a></li>
+<li><a href='/data/wordforms/yamuwati-y.md'>yamuwati</a></li>
+<li><a href='/data/wordforms/teseti-3-name-pert.md'>teseti</a></li>
+<li><a href='/data/wordforms/yenipeke-drink-prog-tr-1.md'>yënïpëkë</a></li>
+<li><a href='/data/wordforms/tu-give-ipfv.md'>tu</a></li>
+<li><a href='/data/wordforms/tese-prop-name.md'>tese</a></li>
+<li><a href='/data/wordforms/we-kill-acnnmlz.md'>wë</a></li>
+<li><a href='/data/wordforms/epejpe-escape-pst.md'>epejpë</a></li>
+<li><a href='/data/wordforms/epepejse-escape-plur-pst.md'>epepëjse</a></li>
+<li><a href='/data/wordforms/wepejse-kill-plur-pst.md'>wëpëjse</a></li>
+<li><a href='/data/wordforms/konton-pl.md'>konton</a></li>
+<li><a href='/data/wordforms/tajtopojpe-say-circ-nmlz-pst.md'>tajtopojpë</a></li>
+<li><a href='/data/wordforms/wine-from.md'>winë</a></li>
+<li><a href='/data/wordforms/yojsemi-eat-starch-ptcp-nmlz.md'>yojsemï</a></li>
+<li><a href='/data/wordforms/yensemi-drink-ptcp-nmlz.md'>yënsemï</a></li>
+<li><a href='/data/wordforms/yamansemi-make-ptcp-nmlz.md'>yamansemï</a></li>
+<li><a href='/data/wordforms/yajwema-sweeten-acnnmlz.md'>yajwema</a></li>
+<li><a href='/data/wordforms/taijpe-3p-put-pst.md'>taijpë</a></li>
+<li><a href='/data/wordforms/tawejka-dawn-ipfv.md'>tawejka</a></li>
+<li><a href='/data/wordforms/yeni-drink-acnnmlz.md'>yëni</a></li>
+<li><a href='/data/wordforms/peremeki-talk-ipfv.md'>përemekï</a></li>
+<li><a href='/data/wordforms/najpi-grandfather.md'>najpï</a></li>
+<li><a href='/data/wordforms/najmotomo-grandmother-pl.md'>najmotomo</a></li>
+<li><a href='/data/wordforms/takeretijne-3-relative-pert-pl.md'>takeretijne</a></li>
+<li><a href='/data/wordforms/tepana-3-dat.md'>tëpana</a></li>
+<li><a href='/data/wordforms/tojpajpe-hit-pst.md'>tojpajpë</a></li>
+<li><a href='/data/wordforms/itatojpano-hear-fut-concl.md'>itatojpano</a></li>
+<li><a href='/data/wordforms/anajmotomo-2-grandmother-pert-pl.md'>anajmotomo</a></li>
+<li><a href='/data/wordforms/waimurujpe-language-pert-pst.md'>waimurujpë</a></li>
+<li><a href='/data/wordforms/mewinikiri-2-sleep-ipfv.md'>mëwïnïkïrï</a></li>
+<li><a href='/data/wordforms/semari-die-acnnmlz.md'>sëmari</a></li>
+<li><a href='/data/wordforms/meyawankaja-2-kill-neg.md'>mëyawankaja</a></li>
+<li><a href='/data/wordforms/mekeya-2-think-ipfv.md'>mëkëya</a></li>
+<li><a href='/data/wordforms/semo-cry-acnnmlz.md'>sëmo</a></li>
+<li><a href='/data/wordforms/yamiri-pick-up-ipfv.md'>yamïrï</a></li>
+<li><a href='/data/wordforms/oki-chicha.md'>okï</a></li>
+<li><a href='/data/wordforms/tareri-3-leaf-pert.md'>tareri</a></li>
+<li><a href='/data/wordforms/yareri-lk-leaf-pert.md'>yareri</a></li>
+<li><a href='/data/wordforms/yenipeke-drink-prog-tr-2.md'>yënipëkë</a></li>
+<li><a href='/data/wordforms/senka-finish-acnnmlz.md'>sënka</a></li>
+<li><a href='/data/wordforms/yare-lk-leaf-pert.md'>yare</a></li>
+<li><a href='/data/wordforms/yamii-pick-up-hort.md'>yamïi</a></li>
+<li><a href='/data/wordforms/yamipeke-pick-up-prog-tr.md'>yamïpëkë</a></li>
+<li><a href='/data/wordforms/yawaranatomo-yawarana-pl.md'>yawaranatomo</a></li>
+<li><a href='/data/wordforms/nwajtenepeke-dance-prog-intr.md'>nwajtënëpëkë</a></li>
+<li><a href='/data/wordforms/yeniri-drink-ipfv.md'>yëniri</a></li>
+<li><a href='/data/wordforms/kanawa-canoe.md'>kanawa</a></li>
+<li><a href='/data/wordforms/tayeniri-3p-drink-ipfv.md'>tayëniri</a></li>
+<li><a href='/data/wordforms/tatapari-3p-beat-ipfv.md'>tatapari</a></li>
+<li><a href='/data/wordforms/entono-from-here.md'>entono</a></li>
+<li><a href='/data/wordforms/chijpe-cop-pst-acnnmlz.md'>chijpë</a></li>
+<li><a href='/data/wordforms/yapijtontom-old-pl.md'>yapijtontom</a></li>
+<li><a href='/data/wordforms/mujnajteja-bury-neg.md'>mujnajtëja</a></li>
+<li><a href='/data/wordforms/tamu-3-ripeness-pert.md'>tamu</a></li>
+<li><a href='/data/wordforms/mujnajtejrama-bury-proh.md'>mujnajtëjrama</a></li>
+<li><a href='/data/wordforms/yajno-brother-in-law-man.md'>yajno</a></li>
+<li><a href='/data/wordforms/ike-put-imp.md'>ikë</a></li>
+<li><a href='/data/wordforms/tarojpe-say-pst-acnnmlz.md'>tarojpë</a></li>
+<li><a href='/data/wordforms/wajto-fire.md'>wajto</a></li>
+<li><a href='/data/wordforms/wati-burn-acnnmlz.md'>watï</a></li>
+<li><a href='/data/wordforms/yampejse-pick-up-plur-pst.md'>yampëjse</a></li>
+<li><a href='/data/wordforms/tene-go-inf.md'>tënë</a></li>
+<li><a href='/data/wordforms/yasukari-lk-sugar-pert.md'>yasukari</a></li>
+<li><a href='/data/wordforms/yakai-dig-out-hort.md'>yakai</a></li>
+<li><a href='/data/wordforms/yamansem-make-ptcp-nmlz.md'>yamansem</a></li>
+<li><a href='/data/wordforms/esene-see-self-acnnmlz.md'>esene</a></li>
+<li><a href='/data/wordforms/yawarana-yawarana.md'>yawarana</a></li>
+<li><a href='/data/wordforms/sene-see-self-acnnmlz.md'>sene</a></li>
+<li><a href='/data/wordforms/yatane-adolescent.md'>yatanë</a></li>
+<li><a href='/data/wordforms/tenuru-3-eye-pert.md'>tënuru</a></li>
+<li><a href='/data/wordforms/warotata-work-motimp.md'>warotata</a></li>
+<li><a href='/data/wordforms/rokotapetiri-become-crazy-plur-ipfv.md'>rokotapëtiri</a></li>
+<li><a href='/data/wordforms/tenu-3-eye-pert.md'>tënu</a></li>
+<li><a href='/data/wordforms/uchija-1-cop-neg.md'>uchija</a></li>
+<li><a href='/data/wordforms/iyajtepe-before.md'>iyajtëpe</a></li>
+<li><a href='/data/wordforms/uchijpe-1-cop-pst.md'>uchijpë</a></li>
+<li><a href='/data/wordforms/umukuton-1-child-pert-pl.md'>umukuton</a></li>
+<li><a href='/data/wordforms/tepetiri-go-plur-ipfv.md'>tëpëtiri</a></li>
+<li><a href='/data/wordforms/patakajpe-take-out-pst-acnnmlz.md'>patakajpë</a></li>
+<li><a href='/data/wordforms/yenepeke-eat-meat-prog-tr.md'>yënëpëkë</a></li>
+<li><a href='/data/wordforms/uyeremari-1-feed-ipfv.md'>uyeremari</a></li>
+<li><a href='/data/wordforms/wajpejnepeke-burn-plur-prog-intr.md'>wajpëjnëpëkë</a></li>
+<li><a href='/data/wordforms/punu-flesh.md'>punu</a></li>
+<li><a href='/data/wordforms/senkasem-finish-ptcp-nmlz.md'>sënkasem</a></li>
+<li><a href='/data/wordforms/chipiyu-fungus-sp.md'>chipiyu</a></li>
+<li><a href='/data/wordforms/waimuja-speak-neg.md'>waimuja</a></li>
+<li><a href='/data/wordforms/nepiri-bring-ipfv.md'>nepïrï</a></li>
+<li><a href='/data/wordforms/tari-say-acnnmlz.md'>tari</a></li>
+<li><a href='/data/wordforms/umuku-1-child-pert.md'>umuku</a></li>
+<li><a href='/data/wordforms/yeke-tooth-prop.md'>yeke</a></li>
+<li><a href='/data/wordforms/menai-2-do-ipfv.md'>mënai</a></li>
+<li><a href='/data/wordforms/waimujrama-speak-proh.md'>waimujrama</a></li>
+<li><a href='/data/wordforms/mewaimuru-2-speak-ipfv.md'>mëwaimuru</a></li>
+<li><a href='/data/wordforms/tepo-3-loc.md'>tëpo</a></li>
+<li><a href='/data/wordforms/kune-cook-ipfv.md'>kunë</a></li>
+<li><a href='/data/wordforms/moroni-pain.md'>moroni</a></li>
+<li><a href='/data/wordforms/uyu-1-lk-starchy-food-pert.md'>uyu</a></li>
+<li><a href='/data/wordforms/tapojtepori-3p-want-des-ipfv.md'>tapojtëpori</a></li>
+<li><a href='/data/wordforms/pakara-basket.md'>pakara</a></li>
+<li><a href='/data/wordforms/pikapeke-peel-prog-tr.md'>pikapëkë</a></li>
+<li><a href='/data/wordforms/wenkepiri-forget-ipfv.md'>wënkepïrï</a></li>
+<li><a href='/data/wordforms/warotasemi-work-ptcp-nmlz.md'>warotasemï</a></li>
+<li><a href='/data/wordforms/yawakija-grate-neg.md'>yawakïja</a></li>
+<li><a href='/data/wordforms/yamaneja-make-neg.md'>yamanëja</a></li>
+<li><a href='/data/wordforms/najmoton-grandmother-pl.md'>najmoton</a></li>
+<li><a href='/data/wordforms/sawankuitojpano-die-fut-concl.md'>sawankuitojpano</a></li>
+<li><a href='/data/wordforms/warota-work-acnnmlz.md'>warota</a></li>
+<li><a href='/data/wordforms/tarojpe-say-pst.md'>tarojpë</a></li>
+<li><a href='/data/wordforms/warotapeke-work-prog-tr.md'>warotapëkë</a></li>
+<li><a href='/data/wordforms/sereri-bitter-manioc-pert.md'>sereri</a></li>
+<li><a href='/data/wordforms/i-put-acnnmlz.md'>i</a></li>
+<li><a href='/data/wordforms/terepun-3-sick-pert.md'>terepun</a></li>
+<li><a href='/data/wordforms/emo-2-father.md'>ëmo</a></li>
+<li><a href='/data/wordforms/naijtopo-do-circ-nmlz.md'>naijtopo</a></li>
+<li><a href='/data/wordforms/warotane-work-inf.md'>warotanë</a></li>
+<li><a href='/data/wordforms/senkapetijpe-finish-plur-pst.md'>sënkapëtijpë</a></li>
+<li><a href='/data/wordforms/najmotom-grandmother-pl.md'>najmotom</a></li>
+<li><a href='/data/wordforms/warotakem-work-acnnmlz-prop-nmlz.md'>warotakem</a></li>
+<li><a href='/data/wordforms/sempinuku-close-eyes-acnnmlz.md'>sëmpinuku</a></li>
+<li><a href='/data/wordforms/maketon-mom-pl.md'>makëton</a></li>
+<li><a href='/data/wordforms/senkapejse-finish-plur-pst.md'>sënkapëjse</a></li>
+<li><a href='/data/wordforms/papatom-father-pl.md'>papatom</a></li>
+<li><a href='/data/wordforms/najpitom-grandfather-pl.md'>najpïtom</a></li>
+<li><a href='/data/wordforms/werewere-mosquito-sp.md'>werewere</a></li>
+<li><a href='/data/wordforms/semaja-die-neg.md'>sëmaja</a></li>
+<li><a href='/data/wordforms/ketaja-stink-neg.md'>këtaja</a></li>
+<li><a href='/data/wordforms/tajtojpano-say-fut-concl.md'>tajtojpano</a></li>
+<li><a href='/data/wordforms/watiri-burn-ipfv.md'>watïrï</a></li>
+<li><a href='/data/wordforms/nwapeke-glute-about.md'>nwapëkë</a></li>
+<li><a href='/data/wordforms/yeniri-drink-ipfv-1.md'>yënïrï</a></li>
+<li><a href='/data/wordforms/ijmojkapeke-cook-prog-tr.md'>ijmojkapëkë</a></li>
+<li><a href='/data/wordforms/wajsaj-burn-abs-nmlz.md'>wajsaj</a></li>
+<li><a href='/data/wordforms/ijmojkasemi-cook-ptcp-nmlz.md'>ijmojkasemï</a></li>
+<li><a href='/data/wordforms/ijmojkasem-cook-ptcp-nmlz.md'>ijmojkasem</a></li>
+<li><a href='/data/wordforms/ijmojka-cook-acnnmlz.md'>ijmojka</a></li>
+<li><a href='/data/wordforms/ya-ratom-grandchild-pl.md'>ya'ratom</a></li>
+<li><a href='/data/wordforms/wurijyantomo-woman-pl.md'>wurijyantomo</a></li>
+<li><a href='/data/wordforms/ya-ratomojne-grandchild-pl-pl.md'>ya'ratomojne</a></li>
+<li><a href='/data/wordforms/wejsaj-cop-abs-nmlz.md'>wejsaj</a></li>
+<li><a href='/data/wordforms/wepijpe-come-pst.md'>wepïjpë</a></li>
+<li><a href='/data/wordforms/minteno-there-loc-nmlz.md'>mïntëno</a></li>
+<li><a href='/data/wordforms/merisiyo-m.md'>merisiyo</a></li>
+<li><a href='/data/wordforms/warotajpe-work-pst.md'>warotajpë</a></li>
+<li><a href='/data/wordforms/javier-j.md'>javier</a></li>
+<li><a href='/data/wordforms/yeseti-lk-name-pert.md'>yeseti</a></li>
+<li><a href='/data/wordforms/tuni-give-agtnmlz.md'>tuni</a></li>
+<li><a href='/data/wordforms/ron-rum.md'>ron</a></li>
+<li><a href='/data/wordforms/yoki-eat-starch-ipfv.md'>yokï</a></li>
+<li><a href='/data/wordforms/inteke-see-pl-imp.md'>intëkë</a></li>
+<li><a href='/data/wordforms/wejkapetiri-fall-plur-ipfv.md'>wëjkapëtiri</a></li>
+<li><a href='/data/wordforms/yapejpo-grab-des-ipfv.md'>yapëjpo</a></li>
+<li><a href='/data/wordforms/wejkaja-fall-neg.md'>wëjkaja</a></li>
+<li><a href='/data/wordforms/montomo-2pl-pro.md'>montomo</a></li>
+<li><a href='/data/wordforms/wejkapeti-fall-plur-ipfv.md'>wëjkapëti</a></li>
+<li><a href='/data/wordforms/karasakemi-white-nmlz.md'>karasakemï</a></li>
+<li><a href='/data/wordforms/warota-work-ipfv.md'>warota</a></li>
+<li><a href='/data/wordforms/margarita-m.md'>margarita</a></li>
+<li><a href='/data/wordforms/asakeno-two-nmlz.md'>asakëno</a></li>
+<li><a href='/data/wordforms/antonio-a.md'>antonio</a></li>
+<li><a href='/data/wordforms/yawankajpe-kill-pst.md'>yawankajpë</a></li>
+<li><a href='/data/wordforms/tapejmajpe-3p-bewitch-pst.md'>tapejmajpë</a></li>
+<li><a href='/data/wordforms/taiche-3p-put-pst.md'>taiche</a></li>
+<li><a href='/data/wordforms/isere-3-bitter-manioc-pert.md'>isere</a></li>
+<li><a href='/data/wordforms/pajarito-p.md'>pajarito</a></li>
+<li><a href='/data/wordforms/tajtopo-say-circ-nmlz.md'>tajtopo</a></li>
+<li><a href='/data/wordforms/yakucho-p-a.md'>yakucho</a></li>
+<li><a href='/data/wordforms/ipojpe-put-des-pst.md'>ipojpë</a></li>
+<li><a href='/data/wordforms/semase-die-sup.md'>sëmase</a></li>
+<li><a href='/data/wordforms/ijtepejsejne-3-go-plur-pst-pl.md'>ijtëpëjsejne</a></li>
+<li><a href='/data/wordforms/ijtepejsaj-3-go-plur-pfv.md'>ijtëpëjsaj</a></li>
+<li><a href='/data/wordforms/warotase-work-sup.md'>warotase</a></li>
+<li><a href='/data/wordforms/yipiri-mountain-pert.md'>yïpïrï</a></li>
+<li><a href='/data/wordforms/tasojpase-3p-take-out-pst.md'>tasojpase</a></li>
+<li><a href='/data/wordforms/sojpa-take-out-ipfv.md'>sojpa</a></li>
+<li><a href='/data/wordforms/kasajpe-fruit-pit.md'>kasajpë</a></li>
+<li><a href='/data/wordforms/saku-sweet-potato.md'>saku</a></li>
+<li><a href='/data/wordforms/apuni-soap.md'>apuni</a></li>
+<li><a href='/data/wordforms/wepi-come-acnnmlz.md'>wepï</a></li>
+<li><a href='/data/wordforms/teja-go-neg.md'>tëja</a></li>
+<li><a href='/data/wordforms/winiki-sleep-acnnmlz.md'>wïnïkï</a></li>
+<li><a href='/data/wordforms/sejpetiri-dream-ipfv.md'>sejpëtiri</a></li>
+<li><a href='/data/wordforms/sejpejse-dream-pst.md'>sejpëjse</a></li>
+<li><a href='/data/wordforms/tejrama-go-proh.md'>tëjrama</a></li>
+<li><a href='/data/wordforms/sejke-be-imp.md'>sejkë</a></li>
+<li><a href='/data/wordforms/meyerepuntari-2-lk-become-sick-ipfv.md'>mëyerepuntari</a></li>
+<li><a href='/data/wordforms/waimu-language-pert.md'>waimu</a></li>
+<li><a href='/data/wordforms/ammm-um.md'>ammm</a></li>
+<li><a href='/data/wordforms/yojse-eat-starch-pst.md'>..</li>
+</ul>
+
+
+
+
+
+                
+
+  
+
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Copyright and theme information -->
+<div class="md-copyright">
+  
+  
+    Made with <a
+      href="https://fmatter.github.io/pylingdocs/"
+      target="_blank" rel="noopener"
+    >pylingdocs</a> and 
+    <a
+      href="https://squidfunk.github.io/mkdocs-material/"
+      target="_blank" rel="noopener"
+    >
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.top", "toc.follow", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      
+        <script src="../../../assets/alignment.js"></script>
+      
+        <script src="../../../assets/examples.js"></script>
+      
+        <script src="../../../assets/refs.js"></script>
+      
+        <script src="../../../assets/crossref.js"></script>
+      
+        <script src="../../../assets/glossing_abbrevs.js"></script>
+      
+        <script src="../../../assets/glossing.js"></script>
+      
+        <script src="../../../assets/run.js"></script>
+      
+    
+  </body>
+</html>
