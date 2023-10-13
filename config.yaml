@@ -1,0 +1,14 @@
+paths:
+  cldf: ../yawarana-corpus-cldf/full/metadata.json
+  add_bib: extra/cariban.bib
+output:
+  readme: false
+  build:
+    - mkdocs
+    - plain
+examples:
+  show_language: false
+lfts:
+  show_language: false
+input:
+  sublime: true
