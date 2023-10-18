@@ -1,0 +1,1503 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="https://caribank.github.io/yawarana-sketch/verbinfl.html" rel="canonical"/>
+<link href="verbderiv.html" rel="prev"/>
+<link href="postp.html" rel="next"/>
+<link href="assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.5.3, mkdocs-material-9.4.5" name="generator"/>
+<title>Verbal inflection - A digital sketch grammar of Yawarana (0.0.3.draft2)</title>
+<link href="assets/stylesheets/main.6a10b989.min.css" rel="stylesheet"/>
+<link href="assets/stylesheets/palette.356b1318.min.css" rel="stylesheet"/>
+<script src="https://unpkg.com/iframe-worker/shim"></script>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="css/print-site-enum-headings1.css" rel="stylesheet"/>
+<link href="css/print-site-enum-headings2.css" rel="stylesheet"/>
+<link href="css/print-site-enum-headings3.css" rel="stylesheet"/>
+<link href="css/print-site-enum-headings4.css" rel="stylesheet"/>
+<link href="css/print-site-enum-headings5.css" rel="stylesheet"/>
+<link href="css/print-site-enum-headings6.css" rel="stylesheet"/>
+<link href="css/print-site.css" rel="stylesheet"/>
+<link href="css/print-site-material.css" rel="stylesheet"/>
+<link href="assets/examples.css" rel="stylesheet"/>
+<link href="assets/alignment.css" rel="stylesheet"/>
+<link href="assets/glossing.css" rel="stylesheet"/>
+<link href="assets/tables.css" rel="stylesheet"/>
+<script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="deep-orange" data-md-color-primary="blue-grey" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#verbinfl">6. 
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="A digital sketch grammar of Yawarana (0.0.3.draft2)" class="md-header__button md-logo" data-md-component="logo" href="index.html" title="A digital sketch grammar of Yawarana (0.0.3.draft2)">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            A digital sketch grammar of Yawarana (0.0.3.draft2)
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Verbal inflection
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="deep-orange" data-md-color-media="" data-md-color-primary="blue-grey" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+<input aria-label="Switch to light markdown_extensions" class="md-option" data-md-color-accent="cyan" data-md-color-media="" data-md-color-primary="deep-orange" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light markdown_extensions">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/fmatter/yawarana-sketch" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    Source (GitHub)
+  </div>
+</a>
+</div>
+</nav>
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="index.html">
+        
+  
+    
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="intro.html">
+          
+  
+  Description
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="A digital sketch grammar of Yawarana (0.0.3.draft2)" class="md-nav__button md-logo" data-md-component="logo" href="index.html" title="A digital sketch grammar of Yawarana (0.0.3.draft2)">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"></path></svg>
+</a>
+    A digital sketch grammar of Yawarana (0.0.3.draft2)
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/fmatter/yawarana-sketch" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    Source (GitHub)
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="index.html">
+<span class="md-ellipsis">
+    Home
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+<span class="md-ellipsis">
+    Description
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            Description
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="intro.html">
+<span class="md-ellipsis">
+    Introduction
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="phono.html">
+<span class="md-ellipsis">
+    Phonetics and phonology
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="POS.html">
+<span class="md-ellipsis">
+    Parts of speech in Yawarana
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="nouns.html">
+<span class="md-ellipsis">
+    Nouns
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="verbderiv.html">
+<span class="md-ellipsis">
+    Verbal roots and stems
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Verbal inflection
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="verbinfl.html">
+<span class="md-ellipsis">
+    Verbal inflection
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:verbperson">6.1 
+    Person prefixes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:tam">6.2 
+    Main clause tense‑aspect‑mood‑polarity suffixes
+  </a>
+<nav aria-label="Main clause tense‑aspect‑mood‑polarity suffixes" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:riipfv">6.2.1 
+    -ri
+  </a>
+<nav aria-label="-ri" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#semantics">6.2.1.1 
+    Semantics
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#-jpe">6.2.2 
+    -jpë
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#-se">6.2.3 
+    -se
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#-sape">6.2.4 
+    -sapë
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:sareimn">6.2.5 
+    -sarë
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#subordinate-clause-markers">6.3 
+    Subordinate Clause markers
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:verbalnumber">6.4 
+    Number
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#copula-auxiliary">6.5 
+    Copula / Auxiliary
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="postp.html">
+<span class="md-ellipsis">
+    Postpositions
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="partideo.html">
+<span class="md-ellipsis">
+    Particles, ideophones and interjections
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="negation.html">
+<span class="md-ellipsis">
+    Negation
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="auxiliarized-constructions.html">
+<span class="md-ellipsis">
+    Auxiliarized constructions
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="phrases.html">
+<span class="md-ellipsis">
+    Phrases
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="nonverbal.html">
+<span class="md-ellipsis">
+    Nonverbal predications
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="simpleverb.html">
+<span class="md-ellipsis">
+    Simple verbal clauses
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="questions.html">
+<span class="md-ellipsis">
+    Questions
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="multiclausal.html">
+<span class="md-ellipsis">
+    Multiclausal
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="wordorder.html">
+<span class="md-ellipsis">
+    Word order variation
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="pragmarked.html">
+<span class="md-ellipsis">
+    Pragmatically marked constructions
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="voice.html">
+<span class="md-ellipsis">
+    Detransitive voice
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="references.html">
+<span class="md-ellipsis">
+    References
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="verbinfl"><span class="enumerate-headings-plugin enumerate-heading-plugin">6.</span> Verbal inflection</h1>
+<p><span title="write an introduction">❕</span></p>
+<h2 id="sec:verbperson"><span class="enumerate-headings-plugin enumerate-heading-plugin">6.1</span> Person prefixes</h2>
+<p>Verbs are inflected for person with a set of prefixes, shown in <a href="/yawarana-sketch/verbinfl#tab:verbprefixes">Table 6.1</a>.
+First and second person prefixes show ergative alignment, expressing <span class="gloss">s<span class="tooltiptext gloss-s"></span></span> and <span class="gloss">p<span class="tooltiptext gloss-p"></span></span>.
+Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional <i>ta-</i>  in <span class="gloss">3<span class="tooltiptext gloss-3"></span></span>&gt;<span class="gloss">3<span class="tooltiptext gloss-3"></span></span> scenarios.<span title="mentionworthy that this is not in alternation with preceding NPs">❕</span></p>
+<table border="1" class="dataframe">
+<caption class="table" id="tab:verbprefixes">Person marking prefixes on verbs</caption><thead>
+<tr>
+<th>
+</th>
+<th>
+<span class="gloss">intr<span class="tooltiptext gloss-intr"></span></span>
+</th>
+<th>
+<span class="gloss">tr<span class="tooltiptext gloss-tr"></span></span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span class="gloss">1<span class="tooltiptext gloss-1"></span></span>
+</td>
+<td>
+<i>u-</i>
+</td>
+<td>
+<i>u-</i>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">2<span class="tooltiptext gloss-2"></span></span>
+</td>
+<td>
+<i>më-</i>
+</td>
+<td>
+<i>më-</i>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">1+2<span class="tooltiptext gloss-1+2"></span></span>
+</td>
+<td>
+<i>ej-</i>
+</td>
+<td>
+<i>ej-</i>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">3<span class="tooltiptext gloss-3"></span></span>
+</td>
+<td>
+∅
+</td>
+<td>
+<i>ta-</i>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><i>më-</i> ‘<span class="gloss">2<span class="tooltiptext gloss-2"></span></span>’  marking A in <a class="exref" example_id="2a"></a></li>
+<li>is the verb in <a class="exref" example_id="learn"></a> transitive?</li>
+<li>those in <a class="exref" example_id="2sub"></a> and <a class="exref" example_id="1sub"></a> are subordinate</li>
+</ul>
+<ol class="example">
+<li class="example" id="2a">
+<div class="preamble"> </div>
+<ol class="subexample">
+<li class="subexample" id="2a">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">michi ma mëyapëjjrama</div>
+<div class="interlinear">
+<span class="obj">michi</span>
+<span class="gls"><span class="gloss">med<span class="tooltiptext gloss-med"></span></span>.<span class="gloss">anim<span class="tooltiptext gloss-anim"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ma</span>
+<span class="gls"><span class="gloss">rst<span class="tooltiptext gloss-rst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">më-yapëj-jrama</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>-grab-<span class="gloss">proh<span class="tooltiptext gloss-proh"></span></span></span>
+</div>
+<div class="ftr">‘do not touch this (auto)’ (ctovarmafl) </div>
+</div>
+</li>
+<li class="subexample" id="2a">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">mëinija ka, aniki pinchi, tënësem warai yichapë, okonotojpe</div>
+<div class="interlinear">
+<span class="obj">më-ini-ja</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>-see-<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ka</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">aniki</span>
+<span class="gls">who</span>
+</div>
+<div class="interlinear">
+<span class="obj">pinchi</span>
+<span class="gls"><span class="gloss">hes<span class="tooltiptext gloss-hes"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">tënësem</span>
+<span class="gls">***</span>
+</div>
+<div class="interlinear">
+<span class="obj">warai</span>
+<span class="gls">like</span>
+</div>
+<div class="interlinear">
+<span class="obj">yichapë</span>
+<span class="gls">***</span>
+</div>
+<div class="interlinear">
+<span class="obj">okonotojpe</span>
+<span class="gls">***</span>
+</div>
+<div class="ftr">‘you have not seen a fish that is put on to dry (auto)’ (histyarirdi) </div>
+</div>
+</li>
+<li class="subexample" id="2a">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">tëwï ma takï mëyakarama chijpë wararë kwa ta sënkatoj mëtë</div>
+<div class="interlinear">
+<span class="obj">tëwï</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ma</span>
+<span class="gls"><span class="gloss">rst<span class="tooltiptext gloss-rst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">takï</span>
+<span class="gls"><span class="gloss">cnfrm<span class="tooltiptext gloss-cnfrm"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">mëyakarama</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">chi-jpë</span>
+<span class="gls"><span class="gloss">cop<span class="tooltiptext gloss-cop"></span></span>-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span>.<span class="gloss">acnnmlz<span class="tooltiptext gloss-acnnmlz"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">wararë</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">kwa</span>
+<span class="gls">how</span>
+</div>
+<div class="interlinear">
+<span class="obj">ta</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">sënka-toj</span>
+<span class="gls">finish-<span class="gloss">circ<span class="tooltiptext gloss-circ"></span></span>.<span class="gloss">nmlz<span class="tooltiptext gloss-nmlz"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">mëtë</span>
+<span class="gls">?</span>
+</div>
+<div class="ftr">‘tell us again how they ended up there (auto)’ (convhistfamsjm) </div>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="learn">
+<div class="preamble"> </div>
+<ol class="subexample">
+<li class="subexample" id="learn">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">kwase mëëmpamïjpë ejnë waimu yaye</div>
+<div class="interlinear">
+<span class="obj">kwase</span>
+<span class="gls">how</span>
+</div>
+<div class="interlinear">
+<span class="obj">më-ëmpamï-jpë</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>-learn-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ejnë</span>
+<span class="gls"><span class="gloss">1+2<span class="tooltiptext gloss-1+2"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">waimu</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">yaye</span>
+<span class="gls"><span class="gloss">loc<span class="tooltiptext gloss-loc"></span></span></span>
+</div>
+<div class="ftr">‘how you learned our language (auto)’ (convhistfamsjm) </div>
+</div>
+</li>
+<li class="subexample" id="learn">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">irëjpë, kwaraijyawë rë mëëmpamïjpë tajto marë ti?</div>
+<div class="interlinear">
+<span class="obj">irëjpë</span>
+<span class="gls">then</span>
+</div>
+<div class="interlinear">
+<span class="obj">kwaraijyawë</span>
+<span class="gls">***</span>
+</div>
+<div class="interlinear">
+<span class="obj">rë</span>
+<span class="gls"><span class="gloss">emp<span class="tooltiptext gloss-emp"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">më-ëmpamï-jpë</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>-learn-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">tajto</span>
+<span class="gls">***</span>
+</div>
+<div class="interlinear">
+<span class="obj">marë</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">ti</span>
+<span class="gls"><span class="gloss">hsy<span class="tooltiptext gloss-hsy"></span></span></span>
+</div>
+<div class="ftr">‘Afterwards, when did you learn what you say? (auto)’ (convhistfamsjm) </div>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="2sub">
+<div class="preamble"> </div>
+<ol class="subexample">
+<li class="subexample" id="2sub">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">mërë warë mëyënëtojpano ka uyakërë mërë wepïrï</div>
+<div class="interlinear">
+<span class="obj">mërë</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">wa=rë</span>
+<span class="gls">thus=<span class="gloss">emp<span class="tooltiptext gloss-emp"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">më-yënë-tojpano</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>-eat(meat)-<span class="gloss">fut<span class="tooltiptext gloss-fut"></span></span>.<span class="gloss">concl<span class="tooltiptext gloss-concl"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ka</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">u-y-akërë</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>-<span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-with</span>
+</div>
+<div class="interlinear">
+<span class="obj">mërë</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">wepï-rï</span>
+<span class="gls">come-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="ftr">‘so for you to eat you came with me? (auto)’ (convfemgrme) </div>
+</div>
+</li>
+<li class="subexample" id="2sub">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">mëyakarama mare</div>
+<div class="interlinear">
+<span class="obj">mëyakarama</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">mare</span>
+<span class="gls">?</span>
+</div>
+<div class="ftr">‘the one you are saying (auto)’ (ctoaragrme) </div>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="1sub">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">uyepematojpe pïrarë wïrë inawë</div>
+<div class="interlinear">
+<span class="obj">uyepematojpe</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">pïrarë</span>
+<span class="gls"><span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>.<span class="gloss">exist<span class="tooltiptext gloss-exist"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">wïrë</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">inawë</span>
+<span class="gls">have</span>
+</div>
+<div class="ftr">‘I can't afford to pay (auto)’ (histyarirdi) </div>
+</div>
+</li>
+</ol>
+<ul>
+<li>1&gt;2:</li>
+</ul>
+<ol class="example">
+<li class="example" id="">
+<div class="preamble"> </div>
+<ol class="subexample">
+<li class="subexample" id="convfemgrme-231">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">entë mëinpojra wïrë ya</div>
+<div class="interlinear">
+<span class="obj">entë</span>
+<span class="gls">here.<span class="gloss">loc<span class="tooltiptext gloss-loc"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">më-in-po-∅=jra</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>-see-<span class="gloss">des<span class="tooltiptext gloss-des"></span></span>-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>=<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">wïrë</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ya</span>
+<span class="gls"><span class="gloss">erg<span class="tooltiptext gloss-erg"></span></span></span>
+</div>
+<div class="ftr">‘I don't want to see them here (auto)’ (convfemgrme) </div>
+</div>
+</li>
+<li class="subexample" id="convfemgrme-232">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">mëini wïrë ya</div>
+<div class="interlinear">
+<span class="obj">më-ini-∅</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>-see-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">wïrë</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ya</span>
+<span class="gls"><span class="gloss">erg<span class="tooltiptext gloss-erg"></span></span></span>
+</div>
+<div class="ftr">‘te voy a ver (auto)’ (convfemgrme) </div>
+</div>
+</li>
+<li class="subexample" id="ctovarmafl-283">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">tëwï ke ma mëyepema wïrë ya, ta ti ta</div>
+<div class="interlinear">
+<span class="obj">tëwï</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ke</span>
+<span class="gls"><span class="gloss">ins<span class="tooltiptext gloss-ins"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ma</span>
+<span class="gls"><span class="gloss">rst<span class="tooltiptext gloss-rst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">mëyepema</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">wïrë</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ya</span>
+<span class="gls"><span class="gloss">erg<span class="tooltiptext gloss-erg"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ta-∅</span>
+<span class="gls">say-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ti</span>
+<span class="gls"><span class="gloss">hsy<span class="tooltiptext gloss-hsy"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ta</span>
+<span class="gls">like</span>
+</div>
+<div class="ftr">‘I'll pay you with this," he said (auto)’ (ctovarmafl) </div>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+<ul>
+<li>one attested case of <i>ta-</i> ‘<span class="gloss">3<span class="tooltiptext gloss-3"></span></span>&gt;<span class="gloss">3<span class="tooltiptext gloss-3"></span></span>’  on the lexical verb of a <em>-pëkë</em> construction w/ 2nd person <span class="gloss">a<span class="tooltiptext gloss-a"></span></span> on <span class="gloss">aux<span class="tooltiptext gloss-aux"></span></span> <span title="which one?">❔</span><ul>
+<li>Ø‑ ‘<span class="gloss">3<span class="tooltiptext gloss-3"></span></span><span class="gloss">p<span class="tooltiptext gloss-p"></span></span>’ with transitive verbs with <span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">a<span class="tooltiptext gloss-a"></span></span> or <span class="gloss">2<span class="tooltiptext gloss-2"></span></span><span class="gloss">a<span class="tooltiptext gloss-a"></span></span></li>
+</ul>
+</li>
+<li>one example of <i>më-</i> ‘<span class="gloss">2<span class="tooltiptext gloss-2"></span></span>’  ‘<span class="gloss">2<span class="tooltiptext gloss-2"></span></span><span class="gloss">a<span class="tooltiptext gloss-a"></span></span>’ on imperative verb <span title="GrMePers.029">❕</span>
+<span title="FM: u- is sometimes wï-, but usually not transcribed, and distribution unclear">❕</span></li>
+</ul>
+<p><span title="Check: appears that first and second person are reduced forms, with long vowel? wait for leila">❔</span></p>
+<ul>
+<li>*<em>t‑V‑se</em> is no more — the <em>t‑</em> is gone, except in lexicalized items</li>
+</ul>
+<h2 id="sec:tam"><span class="enumerate-headings-plugin enumerate-heading-plugin">6.2</span> Main clause tense‑aspect‑mood‑polarity suffixes</h2>
+<p>Verbs in main clauses are inflected for TAMP with a set of suffixes, shown in <a href="/yawarana-sketch/verbinfl#tab:verbtam">Table 6.2</a>.
+They are discussed in <a href="/yawarana-sketch/verbinfl#sec:riipfv">6.2.1</a>.</p>
+<table border="1" class="dataframe">
+<caption class="table" id="tab:verbtam">Verbal TAM suffixes</caption><thead>
+<tr>
+<th>
+Suffix
+</th>
+<th>
+Function
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<i>-ri</i>
+</td>
+<td>
+imperfective
+</td>
+</tr>
+<tr>
+<td>
+<i>-jpë</i>
+</td>
+<td>
+past
+</td>
+</tr>
+<tr>
+<td>
+<i>-se</i>
+</td>
+<td>
+past perfective
+</td>
+</tr>
+<tr>
+<td>
+<i>-sapë</i>
+</td>
+<td>
+perfect
+</td>
+</tr>
+<tr>
+<td>
+<i>-sarë</i>
+</td>
+<td>
+imminent future
+</td>
+</tr>
+<tr>
+<td>
+<i>-nëpëkë</i>
+</td>
+<td>
+<span class="gloss">prog<span class="tooltiptext gloss-prog"></span></span>.<span class="gloss">intr<span class="tooltiptext gloss-intr"></span></span>
+</td>
+</tr>
+<tr>
+<td>
+<i>pëkë</i>
+</td>
+<td>
+<span class="gloss">prog<span class="tooltiptext gloss-prog"></span></span>.<span class="gloss">tr<span class="tooltiptext gloss-tr"></span></span>
+</td>
+</tr>
+<tr>
+<td>
+<em>‑tojpano</em>
+</td>
+<td>
+<span class="gloss">fut<span class="tooltiptext gloss-fut"></span></span>
+</td>
+</tr>
+<tr>
+<td>
+(<i>-tojpe</i> )
+</td>
+<td>
+<span class="gloss">fut<span class="tooltiptext gloss-fut"></span></span>
+</td>
+</tr>
+<tr>
+<td>
+<i>-ja</i>
+</td>
+<td>
+<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>
+</td>
+</tr>
+<tr>
+<td>
+<i>-se</i> <i>-mï</i>
+</td>
+<td>
+‘obligation’
+</td>
+</tr>
+<tr>
+<td>
+<i>-në</i>
+</td>
+<td>
+impersonal S
+</td>
+</tr>
+<tr>
+<td>
+<i>-topo</i>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="dataframe">
+<caption class="table" id="tab:nondecltam">Non-declarative suffixes</caption><thead>
+<tr>
+<th>
+Suffix
+</th>
+<th>
+Function
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<em>‑jrama</em>
+</td>
+<td>
+<span class="gloss">proh<span class="tooltiptext gloss-proh"></span></span>
+</td>
+</tr>
+<tr>
+<td>
+<em>-i</em>
+</td>
+<td>
+<span class="gloss">juss<span class="tooltiptext gloss-juss"></span></span>
+</td>
+</tr>
+<tr>
+<td>
+<i>-kë</i> / ‑<em>të</em><i>-kë</i>
+</td>
+<td>
+<span class="gloss">imp<span class="tooltiptext gloss-imp"></span></span> / <span class="gloss">imp<span class="tooltiptext gloss-imp"></span></span>.<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span>
+</td>
+</tr>
+<tr>
+<td>
+<i>-ta</i> / <i>-ta</i> <em>ntë</em><i>-kë</i>
+</td>
+<td>
+<span class="gloss">imp<span class="tooltiptext gloss-imp"></span></span>.<span class="gloss">mot<span class="tooltiptext gloss-mot"></span></span> /
+<span class="gloss">imp<span class="tooltiptext gloss-imp"></span></span>.<span class="gloss">mot<span class="tooltiptext gloss-mot"></span></span>.<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Misc:</p>
+<ul>
+<li><i>-se</i> =<i>pano</i>  ‘<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span>=<span class="gloss">concl<span class="tooltiptext gloss-concl"></span></span>’</li>
+<li><i>-saj</i> =<i>pano</i>  ‘<span class="gloss">pfv<span class="tooltiptext gloss-pfv"></span></span>=<span class="gloss">concl<span class="tooltiptext gloss-concl"></span></span>’</li>
+<li><i>-sarë</i> =<i>pano</i>  ‘<span class="gloss">imn<span class="tooltiptext gloss-imn"></span></span>=<span class="gloss">concl<span class="tooltiptext gloss-concl"></span></span>’</li>
+</ul>
+<h3 id="sec:riipfv"><span class="enumerate-headings-plugin enumerate-heading-plugin">6.2.1</span> <i>-ri</i></h3>
+<ul>
+<li>allomorphy:<ul>
+<li><i>-∅</i> ‘<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>’ , phonetic loss</li>
+<li><i>-ru</i> ‘<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>’ , assimilation</li>
+<li>what about <i>-rï</i> ‘<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>’ ? looks like the most conservative form</li>
+<li>consistent zero before <i>kontomo</i> ‘<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span>’ </li>
+<li>inconsistent zero before <i>jra</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’ </li>
+</ul>
+</li>
+<li>diachrony: <i>-ri</i> ‘<span class="gloss">acnnmlz<span class="tooltiptext gloss-acnnmlz"></span></span>’ </li>
+<li>pluralization?</li>
+<li>combines with <i>jra</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’ :</li>
+</ul>
+<ol class="example">
+<li class="example" id="convrisamaj-4">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">wïrë yaruwarijra</div>
+<div class="interlinear">
+<span class="obj">wïrë</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">yaruwa-ri=jra</span>
+<span class="gls">laugh-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>=<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
+</div>
+<div class="ftr">‘I don’t laugh.’ (convrisamaj) </div>
+</div>
+</li>
+</ol>
+<h4 id="semantics"><span class="enumerate-headings-plugin enumerate-heading-plugin">6.2.1.1</span> Semantics</h4>
+<ul>
+<li>not specified for tense, just imperfective aspect:<ul>
+<li>past <a class="exref" example_id="ctorat-16"></a></li>
+<li>future <a class="exref" example_id="convrisamaj-6"></a></li>
+<li>gnomic/present? <a class="exref" example_id="gnomicri"></a></li>
+</ul>
+</li>
+</ul>
+<ol class="example">
+<li class="example" id="ctorat-16">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">irëjpë tëwï waijtatomo nwajtëri</div>
+<div class="interlinear">
+<span class="obj">irëjpë</span>
+<span class="gls">then</span>
+</div>
+<div class="interlinear">
+<span class="obj">tëwï</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">waijta-tomo</span>
+<span class="gls">mouse-<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">nwajtë-ri</span>
+<span class="gls">dance-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="ftr">‘Then the mice were dancing.’ (ctorat) </div>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="convrisamaj-6">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">¿ kwase ejnë yaruwari?</div>
+<div class="interlinear">
+<span class="obj">kwase</span>
+<span class="gls">how</span>
+</div>
+<div class="interlinear">
+<span class="obj">ejnë</span>
+<span class="gls"><span class="gloss">1+2<span class="tooltiptext gloss-1+2"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">yaruwa-ri</span>
+<span class="gls">laugh-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="ftr">‘How will we laugh?’ (convrisamaj) </div>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="gnomicri">
+<div class="preamble"> </div>
+<ol class="subexample">
+<li class="subexample" id="gnomicri">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">wïrë yaruwarijra</div>
+<div class="interlinear">
+<span class="obj">wïrë</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">yaruwa-ri=jra</span>
+<span class="gls">laugh-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>=<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
+</div>
+<div class="ftr">‘I don’t laugh.’ (convrisamaj) </div>
+</div>
+</li>
+<li class="subexample" id="gnomicri">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">uyïwïj yawë usenejkari sukuri jwama</div>
+<div class="interlinear">
+<span class="obj">u-y-ïwïj-∅</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>-<span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-house-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">yawë</span>
+<span class="gls"><span class="gloss">loc<span class="tooltiptext gloss-loc"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">u-senejka-ri</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>-stay-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">sukuri</span>
+<span class="gls">silently</span>
+</div>
+<div class="interlinear">
+<span class="obj">jwama</span>
+<span class="gls">***</span>
+</div>
+<div class="ftr">‘I silently stay in my house.’ (convrisamaj) </div>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="-jpe"><span class="enumerate-headings-plugin enumerate-heading-plugin">6.2.2</span> <i>-jpë</i></h3>
+<ul>
+<li>allomorphy: none?</li>
+<li>diachrony: from <i>-jpë</i> ‘<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span>.<span class="gloss">acnnmlz<span class="tooltiptext gloss-acnnmlz"></span></span>’ 
+<span title="negation?">❔</span> <span title="semantics?">❔</span></li>
+</ul>
+<h3 id="-se"><span class="enumerate-headings-plugin enumerate-heading-plugin">6.2.3</span> <i>-se</i></h3>
+<ul>
+<li>allomorphy: <i>-se</i> /<i>-che</i> ‘<span class="gloss">ptcp<span class="tooltiptext gloss-ptcp"></span></span> / <span class="gloss">sup<span class="tooltiptext gloss-sup"></span></span>’ </li>
+<li>diachrony: from <i>-se</i> ‘<span class="gloss">ptcp<span class="tooltiptext gloss-ptcp"></span></span> / <span class="gloss">sup<span class="tooltiptext gloss-sup"></span></span>’ </li>
+<li>negation: replaced with <i>-ja</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’  <a class="exref" example_id="conv1stenc-28"></a></li>
+</ul>
+<ol class="example">
+<li class="example" id="conv1stenc-28">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">wëjkaja, ana tëse neke ne</div>
+<div class="interlinear">
+<span class="obj">wëjka-ja</span>
+<span class="gls">fall-<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ana</span>
+<span class="gls"><span class="gloss">1+3<span class="tooltiptext gloss-1+3"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">tëse</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">neke</span>
+<span class="gls"><span class="gloss">cntr<span class="tooltiptext gloss-cntr"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ne</span>
+<span class="gls"><span class="gloss">ints<span class="tooltiptext gloss-ints"></span></span></span>
+</div>
+<div class="ftr">‘no nos caimos, nosotros nos fuimos (auto)’ (conv1stenc) </div>
+</div>
+</li>
+</ol>
+<p><span title="semantics?">❔</span></p>
+<h3 id="-sape"><span class="enumerate-headings-plugin enumerate-heading-plugin">6.2.4</span> <i>-sapë</i></h3>
+<ul>
+<li>diachrony: from <i>-sapë</i> ‘<span class="gloss">abs<span class="tooltiptext gloss-abs"></span></span>.<span class="gloss">nmlz<span class="tooltiptext gloss-nmlz"></span></span>’ </li>
+<li>distribution: only occurs on the copula?</li>
+<li>allomorphy: <i>-sapë</i>  and <i>-saj</i> </li>
+<li>negation: with <i>-ja</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’  on lexical verb <a class="exref" end="ctoaragrme-40" example_id="ctoaragrme-38"></a>
+<span title="semantics?">❔</span></li>
+</ul>
+<ol class="example">
+<li class="example" id="ctoaragrme-38">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">irë wejtane mujyampe patakaja wejsapë</div>
+<div class="interlinear">
+<span class="obj">irë</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span><span class="gloss">ana<span class="tooltiptext gloss-ana"></span></span>.<span class="gloss">inan<span class="tooltiptext gloss-inan"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">wejtane</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">mujyam=pe</span>
+<span class="gls">pregnancy=<span class="gloss">ess<span class="tooltiptext gloss-ess"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">pataka-ja</span>
+<span class="gls">take_out-<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">wejsapë</span>
+<span class="gls">?</span>
+</div>
+<div class="ftr">‘despite this, she did not get pregnant (auto)’ (ctoaragrme) </div>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="ctoaragrme-39">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">apatakaja pïnïka wejsapë</div>
+<div class="interlinear">
+<span class="obj">apataka-ja</span>
+<span class="gls">come_out-<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">pïnïka</span>
+<span class="gls">***</span>
+</div>
+<div class="interlinear">
+<span class="obj">wejsapë</span>
+<span class="gls">?</span>
+</div>
+<div class="ftr">‘maybe she did not come out (pregnant) (auto)’ (ctoaragrme) </div>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="ctoaragrme-40">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">tayakïjtëja pïnika wejsapë</div>
+<div class="interlinear">
+<span class="obj">tayakïjtëja</span>
+<span class="gls">***</span>
+</div>
+<div class="interlinear">
+<span class="obj">pïnika</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">wejsapë</span>
+<span class="gls">?</span>
+</div>
+<div class="ftr">‘maybe he didn't sleep with her (auto)’ (ctoaragrme) </div>
+</div>
+</li>
+</ol>
+<ul>
+<li>what about <a class="exref" example_id="ctorat-19"></a>? is that existential negation?</li>
+</ul>
+<ol class="example">
+<li class="example" id="ctorat-19">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">pïrarë ti iwenaru wejsapë</div>
+<div class="interlinear">
+<span class="obj">pïrarë</span>
+<span class="gls"><span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>.<span class="gloss">exist<span class="tooltiptext gloss-exist"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ti</span>
+<span class="gls"><span class="gloss">hsy<span class="tooltiptext gloss-hsy"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">i-wena-ru</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span>-vomit-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">wej-sapë</span>
+<span class="gls"><span class="gloss">cop<span class="tooltiptext gloss-cop"></span></span>-<span class="gloss">pfv<span class="tooltiptext gloss-pfv"></span></span></span>
+</div>
+<div class="ftr">‘their vomit was not there.’ (ctorat) </div>
+</div>
+</li>
+</ol>
+<h3 id="sec:sareimn"><span class="enumerate-headings-plugin enumerate-heading-plugin">6.2.5</span> <i>-sarë</i></h3>
+<ul>
+<li>once a converb, now 'imminent future'</li>
+</ul>
+<ol class="example">
+<li class="example" id="ctorat-25">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">irëjpë ta ti ta konopo wejsarë konopo wejsarë</div>
+<div class="interlinear">
+<span class="obj">irëjpë</span>
+<span class="gls">then</span>
+</div>
+<div class="interlinear">
+<span class="obj">ta-∅</span>
+<span class="gls">say-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ti</span>
+<span class="gls"><span class="gloss">hsy<span class="tooltiptext gloss-hsy"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ta</span>
+<span class="gls">like</span>
+</div>
+<div class="interlinear">
+<span class="obj">konopo</span>
+<span class="gls">rain</span>
+</div>
+<div class="interlinear">
+<span class="obj">wej-sarë</span>
+<span class="gls">come-<span class="gloss">imn<span class="tooltiptext gloss-imn"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">konopo</span>
+<span class="gls">rain</span>
+</div>
+<div class="interlinear">
+<span class="obj">wej-sarë</span>
+<span class="gls">come-<span class="gloss">imn<span class="tooltiptext gloss-imn"></span></span></span>
+</div>
+<div class="ftr">‘Then they said: “it’s raining, it’s raining”.’ (ctorat) </div>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="ctoaragrme-25">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text">moyochi tasarë, moyochi chipokono kojpaye pïnika warotari</div>
+<div class="interlinear">
+<span class="obj">moyochi</span>
+<span class="gls">spider(sp.)</span>
+</div>
+<div class="interlinear">
+<span class="obj">tasarë</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">moyochi</span>
+<span class="gls">spider(sp.)</span>
+</div>
+<div class="interlinear">
+<span class="obj">chipokono</span>
+<span class="gls">because</span>
+</div>
+<div class="interlinear">
+<span class="obj">kojpaye</span>
+<span class="gls">at_night</span>
+</div>
+<div class="interlinear">
+<span class="obj">pïnika</span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj">warotari</span>
+<span class="gls">?</span>
+</div>
+<div class="ftr">‘called a spider, perhaps because the spider works at night. (auto)’ (ctoaragrme) </div>
+</div>
+</li>
+</ol>
+<h2 id="subordinate-clause-markers"><span class="enumerate-headings-plugin enumerate-heading-plugin">6.3</span> Subordinate Clause markers</h2>
+<p><span title="these should maybe go to another section">❕</span></p>
+<!-- probably all productive, right? -->
+<ul>
+<li>Nominalizations<ul>
+<li><i>-ri</i> ‘<span class="gloss">acnnmlz<span class="tooltiptext gloss-acnnmlz"></span></span>’ </li>
+<li><i>-jpë</i> ‘<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span>.<span class="gloss">acnnmlz<span class="tooltiptext gloss-acnnmlz"></span></span>’ </li>
+<li><i>-topo</i> ‘<span class="gloss">circ<span class="tooltiptext gloss-circ"></span></span>.<span class="gloss">nmlz<span class="tooltiptext gloss-nmlz"></span></span>’ </li>
+</ul>
+</li>
+<li>Adverbial Clauses (S/A)<ul>
+<li><i>-se</i> ‘supine’ </li>
+<li><i>-tane</i> ‘concessive’ </li>
+<li><i>-sarë</i> ‘converb’ </li>
+<li><em>‑yapo</em> ‘neg.purp’</li>
+<li>others?</li>
+</ul>
+</li>
+<li>Nominalization + postposition (S/P)<ul>
+<li><i>-∅</i> ‘<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>’ <i>yawë</i> ‘simult’ </li>
+<li><i>-∅</i> ‘<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>’  <i>pe</i> ‘<span class="gloss">ess<span class="tooltiptext gloss-ess"></span></span>’  ‘when’</li>
+<li><i>-saj</i> ‘<span class="gloss">abs<span class="tooltiptext gloss-abs"></span></span>.<span class="gloss">nmlz<span class="tooltiptext gloss-nmlz"></span></span>’ <i>yawë</i> ‘simult’ </li>
+<li><i>-tojpe</i> ‘purpose’  </li>
+<li>(‑jpë)=tërë ‘after’</li>
+<li>on auxiliary: <i>-ri</i>  + <em>po</em> '<span class="gloss">ctrf<span class="tooltiptext gloss-ctrf"></span></span>'</li>
+</ul>
+</li>
+<li>not attested:<ul>
+<li><em>se</em> '<span class="gloss">des<span class="tooltiptext gloss-des"></span></span>'</li>
+<li><em>-ajtawï</em> 'if when'</li>
+</ul>
+</li>
+</ul>
+<h2 id="sec:verbalnumber"><span class="enumerate-headings-plugin enumerate-heading-plugin">6.4</span> Number</h2>
+<ul>
+<li><i>-ri</i> =<i>-kontomo</i> </li>
+<li><i>-sapë</i> =<i>-kontomo</i> </li>
+<li><i>-saj</i> <i>-se</i> =<i>-jnë</i> </li>
+<li><i>-se</i> =<i>-jnë</i> =<i>-kontomo</i> </li>
+<li><i>-se</i> =<i>-jnë</i> =<em>pano</em> (<i>-se</i> =<i>-jnë</i> =kontom=<em>pano</em>?)</li>
+<li><i>-të</i> <i>-kë</i>  for the imperative</li>
+<li>what about <em>-i</em> ‘<span class="gloss">juss<span class="tooltiptext gloss-juss"></span></span>’?</li>
+</ul>
+<h2 id="copula-auxiliary"><span class="enumerate-headings-plugin enumerate-heading-plugin">6.5</span> Copula / Auxiliary</h2>
+<p><span title="paradigm">❕</span>
+<span title="did any particles develop from inflected forms?  Man, wai, manai, etc">❔</span>
+<span title="are there irregular pat/perfect participles? nahkë, etc">❔</span>
+<span title="ejnë may come from an inflected form of the copula">❕</span></p>
+<ul>
+<li>there is (synchronically suppletive) stem allomorphy: <em>chi</em> and <em>wej</em></li>
+<li><i>marë</i> ‘<span class="gloss">rel<span class="tooltiptext gloss-rel"></span></span>.<span class="gloss">inan<span class="tooltiptext gloss-inan"></span></span>’  and <i>manïkï</i> ‘<span class="gloss">rel<span class="tooltiptext gloss-rel"></span></span>.<span class="gloss">anim<span class="tooltiptext gloss-anim"></span></span>’ </li>
+</ul>
+</article>
+</div>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+  Back to top
+</button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+<!-- Copyright and theme information -->
+<div class="md-copyright">
+  
+  
+    Made with <a href="https://fmatter.github.io/pylingdocs/" rel="noopener" target="_blank">pylingdocs</a> and 
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": ".", "features": ["navigation.path", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "toc.follow", "toc.integrate"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="assets/javascripts/bundle.aecac24b.min.js"></script>
+<script src="js/print-site.js"></script>
+<script src="assets/alignment.js"></script>
+<script src="assets/examples.js"></script>
+<script src="assets/refs.js"></script>
+<script src="assets/crossref.js"></script>
+<script src="assets/glossing_abbrevs.js"></script>
+<script src="assets/glossing.js"></script>
+<script src="assets/run.js"></script>
+</body>
+</html>
