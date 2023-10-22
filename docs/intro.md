@@ -13,8 +13,9 @@
 ## This project [label](sec:thisproject)
 
 ## Variation [label](sec:variation)
-There are a number of corners of [lg](yab) grammar that are subject to variation:
+Some corners of [lg](yab) grammar are subject to variation:
 
+* vowel system ([ref](sec:vowels))
 * plural marking ([ref](sec:nominalnumber), [ref](sec:verbalnumber), [ref](postp))
 * constituent order ([ref](wordorder))
 * expression of verbal arguments ([ref](simpleverb), [ref](sec:nominalperson), [ref](sec:verbperson))

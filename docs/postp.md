@@ -45,5 +45,10 @@ Also:
 * syllable reduction
 * postpositions on bare verbs? (e.g. _wejtawë_)
 * particles can intervene
+    * [mp](pano-fmr)
+    * no others found so far
+
+[ex](convamgu-5)
 
 [ex](convrisamaj-47)
+

@@ -5,6 +5,7 @@ The personal pronouns of [lg](yab) are shown in [ref](tab:pronouns).
 The system shows the usual Cariban inclusive/exclusive ([gl](1+2) and [gl](1+3)) distinction, though the 1+2 pronoun [mp](ejne-1-2pro?nt) does not have the /k/ found elsewhere in the family.
 It is likely a reflex of an old copula + infinitive *\*eti-në*. [todo](do we have parallel cases elsewhere?)
 Regarding plural marking, it should be noted that [mp](kontomopl?nt), which appears on the second person plural pronoun, is usually restricted to verbs, while *-santomo* is only found with third person pronouns and demonstratives.[todo](tajne)
+[todo](combination of tomo and -jne?)
 
 [table](pronouns)
 
@@ -54,16 +55,23 @@ For these nouns, the difference is marked only by the presence or absence of a p
 
 [manex](unsuffixednouns)
 
-### Number suffixes [label](sec:nominalnumber)
-There are three plural suffixes that can occur on nouns, apparently freely interchangeable.
-What conditions the choice of suffix is not clear as of yet.
+### Nominal number [label](sec:nominalnumber)
+There are several pluralization strategies for nouns.
+One is the suffix [mp](tomopl?nt) ([m](tompl?nt), [m](tonpl?nt)), which occurs on both possessed and unpossessed nouns [exref](tomonouns).
 
-* _-kontomo_
+[ex](conv1stenc-123,histpajirdi-131?example_id=tomonouns)
 
-[ex](ctorat-17)
+It can be combined with the plural particle [mp](jnepl?nt) [exref](histyarirdi-944); this particle can also be the only exponent of plural [exref](ctorat-40).
 
+[ex](histyarirdi-944)
 [ex](ctorat-40)
 
+There is also the particle [mp](kontomopl?nt), which marks plurality of the possessor [exref](histyarirdi-539).
+Etymologically, it consists of an earlier \*_komo_ suffixed with [mp](tomopl).
+
+[ex](histyarirdi-539)
+
+In many nouns, old plural markers have become lexicalized, like in [mp](wiriyamo-woman) or [mp](waraijtokomo-man), which show former \*_-yamë_ and \*_komo_.
 
 ### Nominal tense [label](sec:nominaltense)
 

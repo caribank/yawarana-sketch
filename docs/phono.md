@@ -9,23 +9,19 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 [table](vowels)
 
 ### Consonants [label](sec:consonants)
-
-* minimal pairs
+* add minimal pairs
 
 
 #### /h/
-
 * glottal fricative insertion after diphthongs
 * glottal fricative insertion before occlusives
 
 
 ### Vowels [label](sec:vowels)
-
-* minimal pairs
-* vowel plots
+* add minimal pairs
+* add vowel plots
 * what about vowel length?
-* variation in _ë_/_o_/_e_ and _ï_/_i_/_u_
-
+* variation between _ë_/_o_/_e_ and _ï_/_i_/_u_
 * dipththongs
     * /ai/, /aw/, /ei/... test combinations [todo](spelling? au or aw? ai or ay?)
 
@@ -33,29 +29,23 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 
 ### Syllable Reduction [label](sec:sylred)
 
+
+#### Types
 * V<sub>1</sub>rV2 to V1:
 * nasal assimilation
-
+* what consonants reduce to /j/?
 
 #### Contexts
-
-* [gl](postp)
+* postpositions
 * verbal suffixes
 * no final nominal reduction
-
-
-#### Non-alternating reduced syllables
-
-* e.g. [mp](wajto-fire)
-
+* non-alternating reduced syllables, e.g. [mp](wajto-fire)
 
 ### Vowel harmony [label](sec:vowelharm)
-
 * progressive [mp](rupert)
 * regressive /ë/ > /o/ 
 
 ### Palatalization [label](sec:palatalization)
-
 * [mp](sapepfv)
 * [mp](sepst)
 

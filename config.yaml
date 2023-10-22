@@ -1,14 +1,31 @@
 paths:
   cldf: ../yawarana-corpus-cldf/full/metadata.json
   add_bib: extra/cariban.bib
+  audio: ../yawarana_corpus/audio
 output:
   readme: false
   build:
     - mkdocs
-    - plain
+    # - plain
+    # - latex
+    # - docx
+  preview: mkdocs
+  rich: true
+  changelog: true
+mkdocs:
+  audio: true
 examples:
   show_language: false
 lfts:
   show_language: false
 input:
   sublime: true
+releasing:
+  zip:
+    cldf: true
+    latex:
+      - main.pdf: A digital sketch grammar of Yawarana.pdf
+    mkdocs:
+      - site: html
+    plain:
+      - document.txt: plain.txt

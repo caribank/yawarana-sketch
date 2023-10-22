@@ -60,3 +60,5 @@ nvp_aff_sub:
   caption: Form-function distribution of affirmative nonverbal predications in subordinate clauses
 nvp_q_sub:
   caption: Form-function distribution of interrogative nonverbal predications in subordinate clauses
+cliteria:
+  caption: Behavior of person indices on different POS.

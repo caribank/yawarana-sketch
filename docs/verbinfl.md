@@ -56,12 +56,16 @@ Misc:
 ### [mp](riipfv?nt) [label](sec:riipfv)
 
 * allomorphy:
+    * most conservative form: [m](ri-ri)
+    * most conservative form: [m](ri)
     * [m](ri-zero), phonetic loss
     * [m](ri-ru), assimilation
-    * what about [m](ri-ri)? looks like the most conservative form
-* diachrony: [mp](rinmlz)
-* pluralization?
-* combines with [mp](jra-neg):
+    * consistent zero before [mp](kontomopl)
+    * inconsistent zero before [mp](jra-neg), see [ref](negation)
+* gave rise to [mp](rinmlz)
+* plural with [mp](kontomopl)
+* negated with [mp](jra-neg) [exref](convrisamaj-4), but potentially two distinct etymologies
+* emerging pattern: [m](ri) with postverbal (possessed?) arguments?
 
 [ex](convrisamaj-4)
 
@@ -79,15 +83,22 @@ Misc:
 
 * allomorphy: none?
 * diachrony: from [mp](jpenmlz)
-[todo](negation?) [todo](semantics?)
+* negated with [mp](jra-neg) [exref](histyarirdi-186)
+* [todo](semantics?)
+
+[ex](histyarirdi-186)
 
 ### [mp](sepst?nt)
 
 * allomorphy: [m](septcp?nt)/[m](cheptcp)
 * diachrony: from [mp](septcp)
-* negation: replaced with [mp](janeg) [exref](conv1stenc-28)
+* negation: replaced with [mp](janeg) ([ref](sec:janeg)) [exref](conv1stenc-28)
 
 [ex](conv1stenc-28)
+
+* plural: [mp](kontomopl)
+
+[ex](ctorat-30)
 
 [todo](semantics?)
 

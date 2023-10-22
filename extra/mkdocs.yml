@@ -15,3 +15,33 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light markdown_extensions
+plugins:
+    - awesome-pages
+    - enumerate-headings:
+        toc_depth: 6
+        include:
+          - "*"
+        exclude:
+          - index.md
+          - references.md
+          - data/index.md
+          - data/*
+    - search
+    - tooltips
+    # - git-revision-date-localized
+    - site-urls
+extra_css:
+  - assets/hint.min.css
+  - assets/examples.css
+  - assets/alignment.css
+  - assets/glossing.css
+  - assets/tables.css
+markdown_extensions:
+  - toc:
+      baselevel: 1
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - footnotes
+  # - tables
+  # - md_in_html
