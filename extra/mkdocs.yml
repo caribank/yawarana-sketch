@@ -24,12 +24,16 @@ plugins:
         exclude:
           - index.md
           - references.md
-          - data/index.md
+          - tags.md
+          - topics/*
+          - topics.md
           - data/*
     - search
     - tooltips
     # - git-revision-date-localized
     - site-urls
+    - tags:
+        tags_file: tags.md
 extra_css:
   - assets/hint.min.css
   - assets/examples.css
