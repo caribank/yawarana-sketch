@@ -2,12 +2,13 @@
 
 ## Distinguishing parts of speech
 
-* [src](koehn1986apalai[111]) on Apalaí: "Particles follow words of any class other than the ideophone, and never occur as free forms or in isolation."
-
 ### Adverbs
 * copredicative function
 * no person inflection [todo](except some deverbalized ones?)
 * deriving aderbs: [mp](keprop) [todo](-ke is negated with -jra only when on noun roots?)
+
+### Postpositions
+* [src](koehn1986apalai[111]) on Apalaí: "Particles follow words of any class other than the ideophone, and never occur as free forms or in isolation."
 
 ## Shared morphology
 * shared prefixes between nouns and postpositions
@@ -28,7 +29,6 @@ Even within this shared set, nouns and postpositions behave differently from ver
 [table](cliteria)
 
 ## Derivation and productivity
-
 * changing word classes
 * semantic variation & non-compositional meanings
 * productive class-changing process w/ lexically conditioned suffixes
