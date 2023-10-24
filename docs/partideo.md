@@ -4,8 +4,9 @@
 [pos](ideo)
 [pos](intj)
 
-## Particles
+* [src](koehn1986apalai[111]) on Apalaí: "Particles follow words of any class other than the ideophone, and never occur as free forms or in isolation."
 
+## Particles
 Three kinds of particles elsewhere in the family:
 
 1. second position (modals, focus)
@@ -15,7 +16,6 @@ Three kinds of particles elsewhere in the family:
 * prosodic effects?
 
 ## Ideophones
-
 * constructions with [mp](nwa-thus)? (example with _pïtï_ 'paint')
 
 ## Interjections

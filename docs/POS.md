@@ -2,8 +2,6 @@
 
 ## Distinguishing parts of speech
 
-* [src](koehn1986apalai[111]) on Apalaí: "Particles follow words of any class other than the ideophone, and never occur as free forms or in isolation."
-
 ### Adverbs
 * copredicative function
 * no person inflection [todo](except some deverbalized ones?)
