@@ -1,5 +1,4 @@
 # Nonverbal predications [label](nonverbal)
-
 [src](gildea2018reconstructing[366]) distinguishes two main formal types of nonverbal predication in Cariban languages: juxtaposition and copular constructions.
 
 * juxtaposed NP + ADV or NP + LOC is found in Arara, Ikpeng, Ye'kwana, Wayana, and Apalaí
@@ -13,6 +12,8 @@
 ## Observations
 
 ### Patterns
+[todo](turn this into running text w/ examples)
+
 * "existential particles" (*mëtë*, *mïntë*, *entë*, *ijtë*)
     * etymologically locatives, used for existential function. they **can** co-occur with the existential negative [mp](pirare-neg-exist?nt) [exref](ex-main-neg-part-pirare-cop-nsubj), [exref](ex-main-neg-part-pirare-nsubj)
     * also occur in locative function [exref](loc-main-aff-part-cop-nsubj), [exref](loc-main-aff-part-nsubj)
