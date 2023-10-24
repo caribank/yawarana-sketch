@@ -3,7 +3,6 @@
 [pos](postp)
 
 ## Defining the category
-
 * monomorphemic vs bipartite (vs 'stacked')
 
 ## Inflectional morphology [label](sec:postinfl)
@@ -12,7 +11,6 @@ Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssu
 [table](postpprefixes)
 
 Also:
-
 * [mp](kontomopl)
 * [m](dt7)
 
@@ -23,24 +21,21 @@ Also:
 
 [table](locpost)
 
-[todo](how do these fit in?)
-
-* *poye* 'above'
-* *po* 'locative'
-* *yatë* 'locative'
-* *yapo* 'negation'?
-
-* allative: 
+* others: [todo](how do these fit in?)
+    * *poye* 'above'
+    * *po* 'locative'
+    * *yatë* 'locative'
+    * *yapo* 'negation'?
+* allative in [exref](histpajirdi-186)
 
 [ex](histpajirdi-186)
 
-## Nonlocative Oblique Postpositions 
+## Nonlocative oblique postpositions 
 * [mp](pana-dat)
 * [mp](ke-ins)
 * _wanai_
 
 ## Misc
-
 * [mp](chi-cop) combines with [mp](yawe-loc), sometimes spelled *chi yawë*, sometimes *chawë*.
 * syllable reduction
 * postpositions on bare verbs? (e.g. _wejtawë_)
@@ -49,6 +44,5 @@ Also:
     * no others found so far
 
 [ex](convamgu-5)
-
 [ex](convrisamaj-47)
 

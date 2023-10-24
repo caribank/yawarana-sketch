@@ -10,7 +10,7 @@ output:
     # - latex
     # - docx
   preview: mkdocs
-  rich: true
+  rich: false
   changelog: true
 mkdocs:
   audio: true
