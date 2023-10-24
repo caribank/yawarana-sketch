@@ -33,7 +33,7 @@ plugins:
     # - git-revision-date-localized
     - site-urls
     - tags:
-        tags_file: tags.md
+        tags_file: index/tags.md
 extra_css:
   - assets/hint.min.css
   - assets/examples.css
