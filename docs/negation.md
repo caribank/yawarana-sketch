@@ -1,5 +1,4 @@
 # Negation [label](negation)
-
 There are a number of negation strategies in [lg](yab).
 The most general negator is the particle [mp](jra-neg), which can negate a number of constructions.
 It occurs cliticized to transitive and intransitive verbs [exref](jra?suffix=a-b), nouns [exref](ctovarmafl-36), adverbs [exref](convestsjm-35) , and postpositions [exref](convhistfamsjm-244).
@@ -18,9 +17,7 @@ One was a negation strategy with an adverbialized verb, the other a negative exi
 
 ### [mp](janeg) [label](sec:janeg)
 [mp](janeg) is pluralized with the postverbal particle [mp](kontomopl).
-It is the negative counterpart to [mp](sepst).
-
-[todo](hypothesis: if -se is perfective, -ja should be, too)
+It is the negative counterpart to [mp](sepst). [todo](hypothesis: if -se is perfective, -ja should be, too)
 
 ### [mp](jnarineg)
 * very rare
@@ -29,11 +26,9 @@ It is the negative counterpart to [mp](sepst).
 * never preceded by TAM (?)
 * occurs with [mp](podes)
 
-
 ### [mp](jramaproh)
 * prohibitive
 * coexists with V=[mp](jra-neg) COP[mp](keimp) [exref](histyarirdi-894)
-
 [ex](histyarirdi-894)
 
 
@@ -43,14 +38,11 @@ It is the negative counterpart to [mp](sepst).
 * *‑yapo* ‘[gl](neg).[gl](purp)’
 
 ## Nominal negation
-
 * [mp](jra-neg)
 
 ## Negative nonverbal predication
-
 * [mp](pinire-neg)
 * [mp](pirare-neg-exist)
 * [mp](pini-neg)
-
 
 ## Other negation
