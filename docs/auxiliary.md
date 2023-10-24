@@ -1,7 +1,5 @@
 # Auxiliarized constructions
-
-claim: everything can take an auxiliary, except [mp](keimp)
-
+Pattern visible so far: everything can take an auxiliary, except [mp](keimp)
 [todo](look at frequency and distributional possibilities for various forms with auxiliaries)
 [todo](are there limits on what form of AUX can occur?)
 [todo](conventionalized meanings of combinations?)
@@ -13,7 +11,6 @@ claim: everything can take an auxiliary, except [mp](keimp)
 * multiple auxiliaries
 
 ## Subordinate clauses
-
 * _chi=pëkë_
 * _chi=yawë_/_chawë_
 * _chi-ripo_
