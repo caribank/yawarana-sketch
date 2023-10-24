@@ -10,9 +10,9 @@ Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssu
 
 [table](postpprefixes)
 
-Also:
-* [mp](kontomopl)
-* [m](dt7)
+* also:
+    * [m](dt7)
+    * [mp](kontomopl)
 
 ## Locative Postpositions
 * clear bipartite Ground+Path
@@ -41,7 +41,9 @@ Also:
 * postpositions on bare verbs? (e.g. _wejtawë_)
 * particles can intervene
     * [mp](pano-fmr)
-    * no others found so far
+    * [mp](pijkedim)
+    * [mp](re-emp)
+    * [mp](ma)
 
 [ex](convamgu-5)
 [ex](convrisamaj-47)
