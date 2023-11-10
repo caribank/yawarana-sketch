@@ -12,6 +12,9 @@ output:
   preview: mkdocs
   rich: false
   changelog: true
+data:
+  data: true
+  rich: true
 mkdocs:
   audio: true
 examples:

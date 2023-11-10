@@ -1,18 +1,14 @@
 # Negation [label](negation)
-
 There are a number of negation strategies in [lg](yab).
 The most general negator is the particle [mp](jra-neg), which can negate a number of constructions.
-It occurs cliticized to transitive and intransitive verbs [exref](jra?suffix=a-b), nouns [exref](ctovarmafl-36), adverbs [exref](convestsjm-35) , and postpositions [exref](convhistfamsjm-244).
-
+It occurs encliticized to transitive and intransitive verbs [exref](jra?suffix=a-b), nouns [exref](ctovarmafl-36), adverbs [exref](convestsjm-35) , and postpositions [exref](convhistfamsjm-244).
 [ex](histyarirdi-124,convfemgrme-183,ctovarmafl-36,convestsjm-35,convhistfamsjm-244?example_id=jra)
 
-On verbs, it sometimes occurs with an overt allomorph of [mp](riipfv) [exref](convfemgrme-183), sometimes with what is currently glossed as its zero allomorph [exref](convrisamaj-24).
-
+On verbs, it sometimes occurs with an overt allomorph of [mp](riipfv) [exref](convfemgrme-183), sometimes its zero allomorph, shown in [exref](convrisamaj-24).
 [ex](convrisamaj-24)
-
-The conditioning factors of said zero allomorph are currently unknown ([ref](sec:riipfv)).
-In the specific case of [mp](jra-neg), another hypothesis imposes itself: historically, a verb with *\*-rï* and *\*pïra* was a distinct construction from a verb with bare *\*-pïra* plus copula [psrc](gildea2016negation).
-One was a negation strategy with an adverbialized verb, the other a negative existential construction with a nominalized verb. 
+This variation is found in other contexts as well, but the conditioning factors of the deletion are currently unknown (see [ref](sec:riipfv)).
+However, in the case of [mp](jra-neg), it may occur for a different reason entirely.
+Historically, a verb suffixed with *\*-rï* and followed by a particle *\*pïra* was a distinct construction from a verb with an adverbializing negative suffix *\*-pïra* and followed by a copula [psrc](gildea2016negation,caceres2016negation).
 
 ## Verbal negation
 
@@ -38,13 +34,11 @@ It is the negative counterpart to [mp](sepst).
 
 
 ### Others
-* [mp](jra-neg)
 * [mp](kempinire)
 * *‑yapo* ‘[gl](neg).[gl](purp)’
 
 ## Nominal negation
-
-* [mp](jra-neg)
+[mp](jra-neg) 
 
 ## Negative nonverbal predication
 
