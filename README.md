@@ -1,5 +1,5 @@
 # A digital sketch grammar of Yawarana
-This is a corpus-based, data-rich digital[^1] grammar of [Yawarana](yaba1248) developed by [Florian Matter](https://fl.mt).
+This is a corpus-based, data-rich digital[^1] grammar of [Yawarana](yaba1248) developed and written by [Florian Matter](https://fl.mt) in collaboration with Natalia Cáceres Arandia and Spike Gildea.
 
 Other versions:
 - [CLLD version](https://yawarana-sketch.herokuapp.com/)
