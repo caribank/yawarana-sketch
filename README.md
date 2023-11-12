@@ -6,8 +6,9 @@ A corpus-based, data-rich digital[^1] grammar of [Yawarana](yaba1248) developed 
 Bundled releases can be downloaded from this repository, which also contains the markup source code (see [lingdocs](https://fl.mt/lingdocs/markdown/) for an overview of the format).
 
 
-Other versions:
-- [CLLD version](https://yawarana-sketch.herokuapp.com/)
+Formats:
+- [CLLD](https://yawarana-sketch.herokuapp.com/)
+- [HTML](https://caribank.github.io/yawarana-sketch)
 - [PDF](https://github.com/caribank/yawarana-sketch/blob/main/output/latex/main.pdf)
 
 [^1]: [Craft your own](https://fl.mt/digital-grammar-tutorial)
