@@ -1,9 +1,5 @@
 # Particles, ideophones and interjections [label](partideo)
 
-[pos](part)
-[pos](ideo)
-[pos](intj)
-
 ## Particles
 
 Three kinds of particles elsewhere in the family:

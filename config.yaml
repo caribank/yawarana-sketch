@@ -9,12 +9,11 @@ output:
     # - plain
     # - latex
     # - docx
-  preview: mkdocs
-  rich: false
+  preview: html
   changelog: true
-data:
-  data: true
-  rich: true
+# data:
+#   data: true
+#   rich: true
 mkdocs:
   audio: true
 examples:

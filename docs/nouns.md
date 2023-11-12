@@ -4,7 +4,7 @@
 The personal pronouns of [lg](yab) are shown in [ref](tab:pronouns).
 The system shows the usual Cariban inclusive/exclusive ([gl](1+2) and [gl](1+3)) distinction, though the 1+2 pronoun [mp](ejne-1-2pro?nt) does not have the /k/ found elsewhere in the family.
 It is likely a reflex of an old copula + infinitive *\*eti-në*. [todo](do we have parallel cases elsewhere?)
-Regarding plural marking, it should be noted that [mp](kontomopl?nt), which appears on the second person plural pronoun, is usually restricted to verbs, while *-santomo* is only found with third person pronouns and demonstratives. [todo](tajne) [todo](combinations of tomo and -jne?)
+Regarding plural marking, it should be noted that [mp](kontomopl?nt), which appears on the second person plural pronoun, is usually restricted to verbs, while *-santomo* is only found with third person pronouns and demonstratives. [todo](what about tajne? and are there combinations of tomo and -jne?)
 
 [table](pronouns)
 
@@ -18,27 +18,28 @@ None of them have shortened and phonologically bound counterparts.
 
 [table](pronouns3)
 
-* nominal interrogative pronouns: [todo](Are there plural forms of any of these?) [todo](no examples of _ëjkë_ 'which?')
+* nominal interrogative pronouns: [todo](Are there plural forms of any of these? are there examples of _ëjkë_ 'which?')
     * [mp](aniki-who) (with _-santomo_)
     * [mp](ati-what) (no plural)
 
 ## Nominal inflection [label](sec:nouninfl)
 Nouns in Yawarana may bear suffixes marking their possession status ([ref](sec:nounposssuf)), number ([ref](sec:nominalnumber)), and nominal past tense ([ref](sec:nominaltense)).
-Possessed nouns may bear a person prefix, or the linker [mp](ylk?nt) ([ref](sec:nominalperson)). [todo](noun classes re: possession)
+Possessed nouns may bear a person prefix, or the linker [mp](ylk?nt) ([ref](sec:nominalperson)). [todo](nominal inflectional classes defined by prefixes & suffixes)
 
 ### Suffixes for possessed and non-possessed nouns [label](sec:nounposssuf)
 In the possession construction in Yawarana, the possessor noun occurs immediately preceding the possessed noun, which is the head of the possession phrase. [todo](crossref to phrase structure)
 Alternatively, the possessor can appear as a prefix on the possessed noun.
 The possessor noun is never marked (for instance, with genitive case), but the possessed noun (the head) is often marked for being possessed by a suffix; an unambiguous label for this counterpart of the genitive is pertensive [psrc](dixon2010basic).
 The choice of suffix is lexically conditioned; while most nouns take [mp](rupert), some take [mp](tipert?nt).
-Unpossessed nouns generally are unmarked, but some 15 nouns [todo](which? list nouns) bear the suffix [mp](tenpert) when they appear without a possessor. 
+Unpossessed nouns generally are unmarked, but some 15 nouns [todo](add list of -të nouns) bear the suffix [mp](tenpert) when they appear without a possessor. 
 
 Examples [exref](onlypossessed?end=unsuffixednouns) illustrate the possible patterns of markedness for nouns when possessed and unpossessed.
 The vast majority of nouns in our corpus are unmarked when unpossessed, but when possessed the suffix [mp](rupert) occurs [exref](onlypossessed).
-A handful of nouns [todo](i.e., the 15?) is marked with [mp](rupert?nt)/[mp](tipert) when possessed and with [mp](tenpert) when not possessed [exref](diffpossessed).
+A handful of nouns is marked with [mp](rupert?nt)/[mp](tipert) when possessed and with [mp](tenpert) when not possessed [exref](diffpossessed).
 Another handful is unmarked when possessed and marked with [mp](tenpert) when not possessed [exref](suffunpossessed).
 The fourth logical category, where neither possession or non-possession is marked, contains very few members (only one attested so far).
 For these nouns, the difference is marked only by the presence or absence of a possessive prefix or free-form possessor [exref](unsuffixednouns).
+[todo](this data should be in the dataset and referenced here)
 [manex](onlypossessed)
 [manex](diffpossessed)
 [manex](suffunpossessed)
@@ -75,7 +76,7 @@ Some examples are shown in [exref](convrisamaj-28?end=lastex).
 The linker also occurs with (pro-)nominal possessors:
 [ex](convcosnoind-52)
 [ex](convcosnoind-126)
-There are some nouns [todo](presumably kinship terms) that preserve the old second person [mp](a2) ([ref](tab:oldpossprefixes)).[todo](find more examples of these)
+There are some nouns that preserve the old second person [mp](a2) ([ref](tab:oldpossprefixes)).[todo](these are presumably kinship terms. find more examples!)
 
 [table](oldpossprefixes)
 
@@ -94,12 +95,12 @@ There are some nouns [todo](presumably kinship terms) that preserve the old seco
 
 ## Nominal Derivational Morphology [label](sec:nounderiv)
 * V → N
-    * [mp](rinmlz?translation=action NMLZ) [todo](potentially A.NMLZ)
+    * [mp](rinmlz?translation=action NMLZ) [todo](this is potentially an agent nominalizer, too)
     * [mp](jpenmlz) 
-        * also ‘[gl](PST.ABS.nmlz)’ [todo](convsuenmaj-47)
+        * also ‘[gl](PST.ABS.nmlz)’ [todo](add convsuenmaj-47)
     * [mp](neinf) or ‘generic action nominalizer’ [todo](this probably only occurs on intransitive verbs)
         * _wënkej-në_ from transitive _wënkepï_ 'forget'
-    * [mp](ninmlz) [todo](ctoyucairdi-4, descokigrme-53 for predicative use)
+    * [mp](ninmlz) [todo](see ctoyucairdi-4, descokigrme-53 for predicative use)
     * [mp](nnmlzpre?nt)V[mp](rinmlz?nt) only with [mp](yeme-eat-fruits-eggs-soup)
     * [mp](sapenmlz) (contrast with [mp](jpenmlz)) 
     * [mp](toponmlz)
@@ -112,6 +113,6 @@ There are some nouns [todo](presumably kinship terms) that preserve the old seco
     * [mp](anonmlz)
 * N → N
     * discuss _pïjkë_ and _sere-kë_ 'manioc-DIM' , reference sections
-    * _-imë_: e.g., _wara_ 'woman' _waraimë_ 'married woman' (dictionary)
+    * _-imë_: e.g., _wara_ 'woman' _waraimë_ 'married woman' (from dictionary)
 * What about [mp](jpenmlz) on [gl](ad) forms [exref](histyarirdi-592)? Does it derive a noun?
 [ex](histyarirdi-592)

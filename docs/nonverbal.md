@@ -14,13 +14,13 @@
 
 ### Patterns
 * "existential particles" (*mëtë*, *mïntë*, *entë*, *ijtë*)
-    * etymologically locatives, used for existential function. they **can** co-occur with the existential negative [mp](pirare-neg-exist?nt) [exref](ex-main-neg-part-pirare-cop-nsubj), [exref](ex-main-neg-part-pirare-nsubj)
-    * also occur in locative function [exref](loc-main-aff-part-cop-nsubj), [exref](loc-main-aff-part-nsubj)
-    * also combine with postpositional locatives [exref](histgrme-107), though more often not part of the clause? [exref](loc-sub-aff-advpred-nsubj-cop), [exref](convfemgrme-157), [exref](convfemgrme-99)
+    * etymologically locatives, used for existential function. they **can** co-occur with the existential negative [mp](pirare-neg-exist?nt)
+    * also occur in locative function
+    * also combine with postpositional locatives, though more often not part of the clause? [exref](convfemgrme-157), [exref](convfemgrme-99)
 * the copula...
     * almost always occurs with adverbs
-        * counterexample: [exref](perm-main-q-advpred-nsubj)
-        * not when negated [exref](temp-main-neg-nsubj-advpred-jra)
+        * counterexamples
+        * not when negated
     * can occur with locatives and existential particles
         * fairly solid pattern of copula serving as a location for past marking existential function: compare mostly past [exref](ex-main-aff-part-cop-nsubj) with nonpast [exref](ex-main-aff-part-nsubj)
         * however, no such pattern with locatives: copula [exref](loc-main-aff-part-cop-nsubj) and no copula [exref](loc-main-aff-part-nsubj) show no salient distribution

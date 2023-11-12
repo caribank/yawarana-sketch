@@ -12,21 +12,22 @@ Historically, a verb suffixed with *\*-rï* and followed by a particle *\*pïra*
 
 ## Verbal negation
 
-### [mp](janeg) [label](sec:janeg)
+### [mp](janeg?nt) [label](sec:janeg)
 [mp](janeg) is pluralized with the postverbal particle [mp](kontomopl).
 It is the negative counterpart to [mp](sepst).
 
 [todo](hypothesis: if -se is perfective, -ja should be, too)
 
-### [mp](jnarineg)
+### [mp](jnarineg?nt)
 * very rare
 * etymology unknown
 * occurs on verbs
 * never preceded by TAM (?)
 * occurs with [mp](podes)
+* likely cognate in Tamanaku
 
 
-### [mp](jramaproh)
+### [mp](jramaproh?nt)
 * prohibitive
 * coexists with V=[mp](jra-neg) COP[mp](keimp) [exref](histyarirdi-894)
 
