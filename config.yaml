@@ -1,5 +1,6 @@
 paths:
   cldf: cldf/metadata.json
+  # cldf: ../yawarana-corpus-cldf/full/metadata.json
   add_bib: extra/cariban.bib
   audio: ../yawarana_corpus/audio
 output:
@@ -11,9 +12,9 @@ output:
     # - docx
   preview: html
   changelog: true
-# data:
-#   data: true
-#   rich: true
+data:
+  data: true
+  rich: true
 mkdocs:
   audio: true
 examples:
