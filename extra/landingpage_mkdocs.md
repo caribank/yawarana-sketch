@@ -8,7 +8,7 @@ Other formats:
 - [CLLD](https://yawarana-sketch.herokuapp.com/)
 - [PDF](https://github.com/caribank/yawarana-sketch/blob/main/output/latex/main.pdf)
 
-Visit the [tithub repo](https://github.com/caribank/yawarana-sketch/tree/main/docs) for bundled releases and the markup source.
+Visit the [github repo](https://github.com/caribank/yawarana-sketch/tree/main/docs) for bundled releases and the markup source.
 
 [^1]: [Craft your own](https://fl.mt/digital-grammar-tutorial).
 
