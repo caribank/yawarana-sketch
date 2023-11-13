@@ -1,7 +1,11 @@
 paths:
-  cldf: ../yawarana-corpus-cldf/full/metadata.json
+  # cldf: ../yawarana-corpus-cldf/full/metadata.json
+  cldf: cldf/metadata.json
   add_bib: extra/cariban.bib
   audio: ../yawarana_corpus/audio
+data:
+  data: true
+  rich: true
 output:
   readme: false
   build:
