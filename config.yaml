@@ -13,7 +13,7 @@ output:
   preview: html
   changelog: true
 data:
-  data: false
+  data: true
   rich: true
 mkdocs:
   audio: true
