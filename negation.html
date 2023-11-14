@@ -10,28 +10,22 @@
 <link href="auxiliarized-constructions.html" rel="next"/>
 <link href="assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.5.3, mkdocs-material-9.4.5" name="generator"/>
-<title>Negation - A digital sketch grammar of Yawarana (0.0.3.draft2)</title>
+<title>9. Negation - A digital sketch grammar of Yawarana (0.0.3)</title>
 <link href="assets/stylesheets/main.6a10b989.min.css" rel="stylesheet"/>
 <link href="assets/stylesheets/palette.356b1318.min.css" rel="stylesheet"/>
 <script src="https://unpkg.com/iframe-worker/shim"></script>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<link href="css/print-site-enum-headings1.css" rel="stylesheet"/>
-<link href="css/print-site-enum-headings2.css" rel="stylesheet"/>
-<link href="css/print-site-enum-headings3.css" rel="stylesheet"/>
-<link href="css/print-site-enum-headings4.css" rel="stylesheet"/>
-<link href="css/print-site-enum-headings5.css" rel="stylesheet"/>
-<link href="css/print-site-enum-headings6.css" rel="stylesheet"/>
-<link href="css/print-site.css" rel="stylesheet"/>
-<link href="css/print-site-material.css" rel="stylesheet"/>
+<link href="assets/theme.css" rel="stylesheet"/>
+<link href="assets/hint.min.css" rel="stylesheet"/>
 <link href="assets/examples.css" rel="stylesheet"/>
 <link href="assets/alignment.css" rel="stylesheet"/>
 <link href="assets/glossing.css" rel="stylesheet"/>
 <link href="assets/tables.css" rel="stylesheet"/>
 <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 </head>
-<body data-md-color-accent="deep-orange" data-md-color-primary="blue-grey" data-md-color-scheme="default" dir="ltr">
+<body data-md-color-accent="custom" data-md-color-primary="custom" data-md-color-scheme="default" dir="ltr">
 <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -45,7 +39,7 @@
 </div>
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
-<a aria-label="A digital sketch grammar of Yawarana (0.0.3.draft2)" class="md-header__button md-logo" data-md-component="logo" href="index.html" title="A digital sketch grammar of Yawarana (0.0.3.draft2)">
+<a aria-label="A digital sketch grammar of Yawarana (0.0.3)" class="md-header__button md-logo" data-md-component="logo" href="index.html" title="A digital sketch grammar of Yawarana (0.0.3)">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -55,24 +49,24 @@
 <div class="md-header__ellipsis">
 <div class="md-header__topic">
 <span class="md-ellipsis">
-            A digital sketch grammar of Yawarana (0.0.3.draft2)
+            A digital sketch grammar of Yawarana (0.0.3)
           </span>
 </div>
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Negation
+              9. Negation
             
           </span>
 </div>
 </div>
 </div>
 <form class="md-header__option" data-md-component="palette">
-<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="deep-orange" data-md-color-media="" data-md-color-primary="blue-grey" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="custom" data-md-color-media="" data-md-color-primary="custom" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
 <label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
 </label>
-<input aria-label="Switch to light markdown_extensions" class="md-option" data-md-color-accent="cyan" data-md-color-media="" data-md-color-primary="deep-orange" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<input aria-label="Switch to light markdown_extensions" class="md-option" data-md-color-accent="deep-orange" data-md-color-media="" data-md-color-primary="deep-purple" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
 <label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light markdown_extensions">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
 </label>
@@ -108,7 +102,7 @@
 </div>
 </div>
 <div class="md-header__source">
-<a class="md-source" data-md-component="source" href="https://github.com/fmatter/yawarana-sketch" title="Go to repository">
+<a class="md-source" data-md-component="source" href="https://github.com/caribank/yawarana-sketch" title="Go to repository">
 <div class="md-source__icon md-icon">
 <svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
 </div>
@@ -127,7 +121,7 @@
   
     
   
-  Home
+  About
 
       </a>
 </li>
@@ -135,7 +129,23 @@
 <a class="md-tabs__link" href="intro.html">
           
   
-  Description
+  Chapters
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="data/wordforms">
+          
+  
+  Data
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="index/topics">
+          
+  
+  Index
 
         </a>
 </li>
@@ -151,13 +161,13 @@
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="A digital sketch grammar of Yawarana (0.0.3.draft2)" class="md-nav__button md-logo" data-md-component="logo" href="index.html" title="A digital sketch grammar of Yawarana (0.0.3.draft2)">
+<a aria-label="A digital sketch grammar of Yawarana (0.0.3)" class="md-nav__button md-logo" data-md-component="logo" href="index.html" title="A digital sketch grammar of Yawarana (0.0.3)">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"></path></svg>
 </a>
-    A digital sketch grammar of Yawarana (0.0.3.draft2)
+    A digital sketch grammar of Yawarana (0.0.3)
   </label>
 <div class="md-nav__source">
-<a class="md-source" data-md-component="source" href="https://github.com/fmatter/yawarana-sketch" title="Go to repository">
+<a class="md-source" data-md-component="source" href="https://github.com/caribank/yawarana-sketch" title="Go to repository">
 <div class="md-source__icon md-icon">
 <svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
 </div>
@@ -170,7 +180,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="index.html">
 <span class="md-ellipsis">
-    Home
+    About
   </span>
 </a>
 </li>
@@ -178,69 +188,69 @@
 <input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
 <span class="md-ellipsis">
-    Description
+    Chapters
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
 <nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_2">
 <span class="md-nav__icon md-icon"></span>
-            Description
+            Chapters
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
 <a class="md-nav__link" href="intro.html">
 <span class="md-ellipsis">
-    Introduction
+    1. Introduction
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="phono.html">
 <span class="md-ellipsis">
-    Phonetics and phonology
+    2. Phonetics and phonology
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="POS.html">
 <span class="md-ellipsis">
-    Parts of speech in Yawarana
+    3. Parts of speech in Yawarana
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="nouns.html">
 <span class="md-ellipsis">
-    Nouns
+    4. Nouns
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="verbderiv.html">
 <span class="md-ellipsis">
-    Verbal roots and stems
+    5. Verbal roots and stems
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="verbinfl.html">
 <span class="md-ellipsis">
-    Verbal inflection
+    6. Verbal inflection
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="postp.html">
 <span class="md-ellipsis">
-    Postpositions
+    7. Postpositions
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="partideo.html">
 <span class="md-ellipsis">
-    Particles, ideophones and interjections
+    8. Particles, ideophones and interjections
   </span>
 </a>
 </li>
@@ -248,13 +258,13 @@
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
 <span class="md-ellipsis">
-    Negation
+    9. Negation
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
 <a class="md-nav__link md-nav__link--active" href="negation.html">
 <span class="md-ellipsis">
-    Negation
+    9. Negation
   </span>
 </a>
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
@@ -267,6 +277,30 @@
 <a class="md-nav__link" href="#verbal-negation">9.1 
     Verbal negation
   </a>
+<nav aria-label="Verbal negation" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:janeg">9.1.1 
+    -ja
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#-jnari">9.1.2 
+    -jnari
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#-jrama">9.1.3 
+    -jrama
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#others">9.1.4 
+    Others
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#nominal-negation">9.2 
@@ -289,63 +323,63 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="auxiliarized-constructions.html">
 <span class="md-ellipsis">
-    Auxiliarized constructions
+    10. Auxiliarized constructions
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="phrases.html">
 <span class="md-ellipsis">
-    Phrases
+    11. Phrases
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="nonverbal.html">
 <span class="md-ellipsis">
-    Nonverbal predications
+    12. Nonverbal predications
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="simpleverb.html">
 <span class="md-ellipsis">
-    Simple verbal clauses
+    13. Simple verbal clauses
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="questions.html">
 <span class="md-ellipsis">
-    Questions
+    14. Questions
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="multiclausal.html">
 <span class="md-ellipsis">
-    Multiclausal
+    15. Multiclausal
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="wordorder.html">
 <span class="md-ellipsis">
-    Word order variation
+    16. Word order variation
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="pragmarked.html">
 <span class="md-ellipsis">
-    Pragmatically marked constructions
+    17. Pragmatically marked constructions
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="voice.html">
 <span class="md-ellipsis">
-    Detransitive voice
+    18. Detransitive voice
   </span>
 </a>
 </li>
@@ -353,6 +387,138 @@
 <a class="md-nav__link" href="references.html">
 <span class="md-ellipsis">
     References
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+<span class="md-ellipsis">
+    Data
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            Data
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="data/wordforms">
+<span class="md-ellipsis">
+    Wordforms
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data/stems">
+<span class="md-ellipsis">
+    Stems
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data/morphs">
+<span class="md-ellipsis">
+    Morphs
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data/lexemes">
+<span class="md-ellipsis">
+    Lexemes
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data/morphemes">
+<span class="md-ellipsis">
+    Morphemes
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data/derivationalprocesses">
+<span class="md-ellipsis">
+    Derivationalprocesses
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data/partsofspeech">
+<span class="md-ellipsis">
+    Partsofspeech
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data/texts">
+<span class="md-ellipsis">
+    Texts
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data/phonemes">
+<span class="md-ellipsis">
+    Phonemes
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data/examples">
+<span class="md-ellipsis">
+    Examples
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data/forms">
+<span class="md-ellipsis">
+    Forms
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="data/languages">
+<span class="md-ellipsis">
+    Languages
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+<span class="md-ellipsis">
+    Index
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            Index
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="index/topics">
+<span class="md-ellipsis">
+    Topics
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="index/tags">
+<span class="md-ellipsis">
+    Tags
   </span>
 </a>
 </li>
@@ -367,9 +533,9 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="negation"><span class="enumerate-headings-plugin enumerate-heading-plugin">9.</span> Negation</h1>
-<p>There is a NUMBER of constructions expressing negation.
-The most general negator is the particle <i>jra</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’ , which can negate a number of constructions.
-It can occur (usually cliticized) with transitive and intransitive verbs <a class="exref" example_id="jra" suffix="a-b"></a>, nouns <a class="exref" example_id="ctovarmafl-36"></a>, adverbs <a class="exref" example_id="convestsjm-35"></a> , and postpositions <a class="exref" example_id="convhistfamsjm-244"></a>.</p>
+<p>There are a number of negation strategies in Yawarana.
+The most general negator is the particle <a href="/yawarana-sketch/data/morphemes/jra-neg/"><em>jra</em></a>, which can negate a number of constructions.
+It occurs encliticized to transitive and intransitive verbs <a class="exref" example_id="jra" suffix="a-b"></a>, nouns <a class="exref" example_id="ctovarmafl-36"></a>, adverbs <a class="exref" example_id="convestsjm-35"></a> , and postpositions <a class="exref" example_id="convhistfamsjm-244"></a>.</p>
 <ol class="example">
 <li class="example" id="jra">
 <div class="preamble"> </div>
@@ -377,173 +543,318 @@ It can occur (usually cliticized) with transitive and intransitive verbs <a clas
 <li class="subexample" id="jra">
 <div class="interlinear-wrapper">
 <div class="preamble"> </div>
-<div class="text">kukurujra tëwï</div>
+<div class="text"><a href="/yawarana-sketch/data/examples/histyarirdi-124/"><i>kukurujra tëwï</i></a>
+</div>
 <div class="interlinear">
-<span class="obj">kuku-ru=jra</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/kukuru-answer-ipfv/"><i>kukuru</i></a>
+=<a href="/yawarana-sketch/data/wordforms/jra-neg/"><i>jra</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/kuku-answer/">kuku</a>
+<a href="/yawarana-sketch/data/morphs/ri-ru/">-ru</a>
+=<a href="/yawarana-sketch/data/morphs/jra-neg/">jra</a>
+</span>
 <span class="gls">answer-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>=<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
 </div>
 <div class="interlinear">
-<span class="obj">tëwï</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/tewi-3pro/"><i>tëwï</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/tewi-3pro/">tëwï</a>
+</span>
 <span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
 </div>
-<div class="ftr">‘do not imitate (auto)’ (histyarirdi) </div>
+<div class="ftr">‘do not imitate (auto)’ (<a href="/yawarana-sketch/data/texts/histyarirdi/#histyarirdi-124">Historia de vida de una mujer y costumbres de los yabaranas</a>
+: 124) </div>
 </div>
 </li>
 <li class="subexample" id="jra">
 <div class="interlinear-wrapper">
 <div class="preamble"> </div>
-<div class="text">uyarë wïrë wïnïkïrïjra</div>
-<div class="interlinear">
-<span class="obj">uyarë</span>
-<span class="gls">?</span>
+<div class="text"><a href="/yawarana-sketch/data/examples/convfemgrme-183/"><i>uyarë wïrë wïnïkïrïjra</i></a>
 </div>
 <div class="interlinear">
-<span class="obj">wïrë</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/uyare-1-alone/"><i>uyarë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/u1/">u-</a>
+<a href="/yawarana-sketch/data/morphs/yare-alone/">yarë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>-alone</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/wire-1pro/">wïrë</a>
+</span>
 <span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
 </div>
 <div class="interlinear">
-<span class="obj">wïnïkï-rï=jra</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/winikiri-sleep-ipfv/"><i>wïnïkïrï</i></a>
+=<a href="/yawarana-sketch/data/wordforms/jra-neg/"><i>jra</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/winiki-sleep/">wïnïkï</a>
+<a href="/yawarana-sketch/data/morphs/ri-ri/">-rï</a>
+=<a href="/yawarana-sketch/data/morphs/jra-neg/">jra</a>
+</span>
 <span class="gls">sleep-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>=<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
 </div>
-<div class="ftr">‘I did not sleep apart (auto)’ (convfemgrme) </div>
+<div class="ftr">‘I did not sleep apart (auto)’ (<a href="/yawarana-sketch/data/texts/convfemgrme/#convfemgrme-183">Conversación sobre malos augurios y otros</a>
+: 183) </div>
 </div>
 </li>
 <li class="subexample" id="jra">
 <div class="interlinear-wrapper">
 <div class="preamble"> </div>
-<div class="text">aaa, ijtarijra ta</div>
+<div class="text"><a href="/yawarana-sketch/data/examples/ctovarmafl-36/"><i>aaa, ijtarijra ta</i></a>
+</div>
 <div class="interlinear">
-<span class="obj">aaa</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/aaa-ah/"><i>aaa</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/aaa-ah/">aaa</a>
+</span>
 <span class="gls">ah</span>
 </div>
 <div class="interlinear">
-<span class="obj">i-jta-ri=jra</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/ijtari-3-foot-pert/"><i>ijtari</i></a>
+=<a href="/yawarana-sketch/data/wordforms/jra-neg/"><i>jra</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/i31/">i-</a>
+<a href="/yawarana-sketch/data/morphs/jta-foot/">jta</a>
+<a href="/yawarana-sketch/data/morphs/ripert/">-ri</a>
+=<a href="/yawarana-sketch/data/morphs/jra-neg/">jra</a>
+</span>
 <span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span>-foot-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span>=<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
 </div>
 <div class="interlinear">
-<span class="obj">ta</span>
-<span class="gls">?</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/ta-like/"><i>ta</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/ta-like/">ta</a>
+</span>
+<span class="gls">like</span>
 </div>
-<div class="ftr">‘ah, without his legs (auto)’ (ctovarmafl) </div>
+<div class="ftr">‘ah, without his legs (auto)’ (<a href="/yawarana-sketch/data/texts/ctovarmafl/#ctovarmafl-36">Cuento de Ochi y otros por MaFl</a>
+: 36) </div>
 </div>
 </li>
 <li class="subexample" id="jra">
 <div class="interlinear-wrapper">
 <div class="preamble"> </div>
-<div class="text">entë ma teijpojra wejtane</div>
+<div class="text"><a href="/yawarana-sketch/data/examples/convestsjm-35/"><i>entë ma teijpojra wejtane</i></a>
+</div>
 <div class="interlinear">
-<span class="obj">entë</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/ente-here-loc/"><i>entë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/ente-here-loc/">entë</a>
+</span>
 <span class="gls">here.<span class="gloss">loc<span class="tooltiptext gloss-loc"></span></span></span>
 </div>
 <div class="interlinear">
-<span class="obj">ma</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/ma-rst/"><i>ma</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/ma-rst/">ma</a>
+</span>
 <span class="gls"><span class="gloss">rst<span class="tooltiptext gloss-rst"></span></span></span>
 </div>
 <div class="interlinear">
-<span class="obj">teijpo=jra</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/teijpo-far/"><i>teijpo</i></a>
+=<a href="/yawarana-sketch/data/wordforms/jra-neg/"><i>jra</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/teijpo-far-1/">teijpo</a>
+=<a href="/yawarana-sketch/data/morphs/jra-neg/">jra</a>
+</span>
 <span class="gls">far=<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
 </div>
 <div class="interlinear">
-<span class="obj">wejtane</span>
-<span class="gls">?</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/wejtane-cop-cncs/"><i>wejtane</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/wej-cop/">wej</a>
+<a href="/yawarana-sketch/data/morphs/tanecncs/">-tane</a>
+</span>
+<span class="gls"><span class="gloss">cop<span class="tooltiptext gloss-cop"></span></span>-<span class="gloss">cncs<span class="tooltiptext gloss-cncs"></span></span></span>
 </div>
-<div class="ftr">‘although it is close to here (auto)’ (convestsjm) </div>
+<div class="ftr">‘although it is close to here (auto)’ (<a href="/yawarana-sketch/data/texts/convestsjm/#convestsjm-35">Conversación sobre estudios</a>
+: 35) </div>
 </div>
 </li>
 <li class="subexample" id="jra">
 <div class="interlinear-wrapper">
 <div class="preamble"> </div>
-<div class="text">toto waimu yayejra</div>
+<div class="text"><a href="/yawarana-sketch/data/examples/convhistfamsjm-244/"><i>toto waimu yayejra</i></a>
+</div>
 <div class="interlinear">
-<span class="obj">toto</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/toto-non-indian/"><i>toto</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/toto-non-indian/">toto</a>
+</span>
 <span class="gls">non_Indian</span>
 </div>
 <div class="interlinear">
-<span class="obj">waimu</span>
-<span class="gls">?</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/waimu-language-pert/"><i>waimu</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/waimu-language/">waimu</a>
+<a href="/yawarana-sketch/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls">language-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
 </div>
 <div class="interlinear">
-<span class="obj">yaye=jra</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/yaye-loc/"><i>yaye</i></a>
+=<a href="/yawarana-sketch/data/wordforms/jra-neg/"><i>jra</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/yaye-loc/">yaye</a>
+=<a href="/yawarana-sketch/data/morphs/jra-neg/">jra</a>
+</span>
 <span class="gls"><span class="gloss">loc<span class="tooltiptext gloss-loc"></span></span>=<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
 </div>
-<div class="ftr">‘not in Spanish (auto)’ (convhistfamsjm) </div>
+<div class="ftr">‘not in Spanish (auto)’ (<a href="/yawarana-sketch/data/texts/convhistfamsjm/#convhistfamsjm-244">Conversation about family with María Flores and Pablo Pérez</a>
+: 244) </div>
 </div>
 </li>
 </ol>
 </li>
 </ol>
-<p>On verbs, it sometimes occurs with an allomorph of <i>-ri</i> ‘<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>’ , sometimes without.
-Although we analyzed that morpheme as having a frequent zero allomorph (<a href="/yawarana-sketch/verbinfl#sec:riipfv">6.2.1</a>), we suspect that at least historically, a verb with <i>-ri</i> ‘<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>’  and <i>jra</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’  was a distinct construction from a verb with bare <em>-jra</em>.</p>
+<p>On verbs, it sometimes occurs with an overt allomorph of <a href="/yawarana-sketch/data/morphemes/riipfv/"><em>-ri</em></a> <a class="exref" example_id="convfemgrme-183"></a>, sometimes its zero allomorph, shown in <a class="exref" example_id="convrisamaj-24"></a>.</p>
 <ol class="example">
-<li class="example" id="histyarirdi-894">
+<li class="example" id="convrisamaj-24">
 <div class="interlinear-wrapper">
 <div class="preamble"> </div>
-<div class="text">nwarë mëtëpëtiri, tëpëtijra sejkë</div>
-<div class="interlinear">
-<span class="obj">nwa=rë</span>
-<span class="gls">thus=<span class="gloss">emp<span class="tooltiptext gloss-emp"></span></span></span>
+<div class="text"><a href="/yawarana-sketch/data/examples/convrisamaj-24/"><i>wïrë wajyakïtïjra taro wïrë ta wïrë ya</i></a>
 </div>
 <div class="interlinear">
-<span class="obj">mëtëpëtiri</span>
-<span class="gls">?</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
 </div>
 <div class="interlinear">
-<span class="obj">tëpëti-∅=jra</span>
-<span class="gls">go(PLUR)-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>=<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/wajyakiti-be-happy-ipfv/"><i>wajyakïtï</i></a>
+=<a href="/yawarana-sketch/data/wordforms/jra-neg/"><i>jra</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/wajyakiti-be-happy/">wajyakïtï</a>
+<a href="/yawarana-sketch/data/morphs/ri-zero/">-∅</a>
+=<a href="/yawarana-sketch/data/morphs/jra-neg/">jra</a>
+</span>
+<span class="gls">be_happy-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>=<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
 </div>
 <div class="interlinear">
-<span class="obj">sejkë</span>
-<span class="gls">?</span>
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/taro-say-ipfv/"><i>taro</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/taro-say/">taro</a>
+<a href="/yawarana-sketch/data/morphs/ri-zero/">-∅</a>
+</span>
+<span class="gls">say-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
 </div>
-<div class="ftr">‘you're going to go like this, you can't go like this (auto)’ (histyarirdi) </div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/ta-say-ipfv/"><i>ta</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/ta-say/">ta</a>
+<a href="/yawarana-sketch/data/morphs/ri-zero/">-∅</a>
+</span>
+<span class="gls">say-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/ya-erg/"><i>ya</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/ya-erg/">ya</a>
+</span>
+<span class="gls"><span class="gloss">erg<span class="tooltiptext gloss-erg"></span></span></span>
+</div>
+<div class="ftr">‘I’m saying I am not happy.’ (<a href="/yawarana-sketch/data/texts/convrisamaj/#convrisamaj-24">Conversación sobre la risa entre GrMe y ElPe</a>
+: 24) </div>
 </div>
 </li>
 </ol>
-<ul>
-<li>
-<p><i>jra</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’  can occur on:</p>
-<ul>
-<li>adverbs</li>
-<li>nouns</li>
-<li>postpositions</li>
-<li>historically: V-pïra (negated adverbial [incl COP]) as well as N(=/-)pïra<ul>
-<li>what is the difference between the two?</li>
-</ul>
-</li>
-<li>predicative (negative existential) with nouns and (historically) nominalized verbs</li>
-</ul>
-</li>
-<li>
-<p>hypothesis: if -se is perfective, -ja should be, too</p>
-</li>
-<li>what is the distribution w/ TAM suffixes et al?</li>
-</ul>
+<p>This variation is found in other contexts as well, but the conditioning factors of the deletion are currently unknown (see <a href="/yawarana-sketch/verbinfl#sec:riipfv">6.2.1</a>).
+However, in the case of <a href="/yawarana-sketch/data/morphemes/jra-neg/"><em>jra</em></a>, it may occur for a different reason entirely.
+Historically, a verb suffixed with <em>*-rï</em> and followed by a particle <em>*pïra</em> was a distinct construction from a verb with an adverbializing negative suffix <em>*-pïra</em> and followed by a copula (<a href="/yawarana-sketch/references/#source-gildea2016negation">Gildea and Meira 2016</a>, <a href="/yawarana-sketch/references/#source-caceres2016negation">Cáceres 2016</a>).</p>
 <h2 id="verbal-negation"><span class="enumerate-headings-plugin enumerate-heading-plugin">9.1</span> Verbal negation</h2>
+<h3 id="sec:janeg"><span class="enumerate-headings-plugin enumerate-heading-plugin">9.1.1</span> <a href="/yawarana-sketch/data/morphemes/janeg/"><em>-ja</em></a></h3>
+<p><a href="/yawarana-sketch/data/morphemes/janeg/"><em>-ja</em></a> is pluralized with the postverbal particle <a href="/yawarana-sketch/data/morphemes/kontomopl/"><em>kontomo</em></a>.
+It is the negative counterpart to <a href="/yawarana-sketch/data/morphemes/sepst/"><em>-se</em></a>.</p>
+<p><span title="hypothesis: if -se is perfective, -ja should be, too">❕</span></p>
+<h3 id="-jnari"><span class="enumerate-headings-plugin enumerate-heading-plugin">9.1.2</span> <a href="/yawarana-sketch/data/morphemes/jnarineg/"><em>-jnari</em></a></h3>
 <ul>
-<li><i>-ja</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’  corresponds to affirmative <i>-se</i> ‘<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span>’ </li>
-<li><i>-jnari</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’ <ul>
 <li>very rare</li>
 <li>etymology unknown</li>
 <li>occurs on verbs</li>
 <li>never preceded by TAM (?)</li>
-<li>occurs with <i>-po</i> ‘<span class="gloss">des<span class="tooltiptext gloss-des"></span></span>’ </li>
+<li>occurs with <a href="/yawarana-sketch/data/morphemes/podes/"><em>-po</em></a></li>
+<li>likely cognate in Tamanaku</li>
 </ul>
+<h3 id="-jrama"><span class="enumerate-headings-plugin enumerate-heading-plugin">9.1.3</span> <a href="/yawarana-sketch/data/morphemes/jramaproh/"><em>-jrama</em></a></h3>
+<ul>
+<li>prohibitive</li>
+<li>coexists with V=<a href="/yawarana-sketch/data/morphemes/jra-neg/"><em>jra</em></a> COP<a href="/yawarana-sketch/data/morphemes/keimp/"><em>-kë</em></a> <a class="exref" example_id="histyarirdi-894"></a></li>
+</ul>
+<ol class="example">
+<li class="example" id="histyarirdi-894">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/data/examples/histyarirdi-894/"><i>nwarë mëtëpëtiri, tëpëtijra sejkë</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/nwa-thus/"><i>nwa</i></a>
+=<a href="/yawarana-sketch/data/wordforms/re-emp/"><i>rë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/nwa-thus/">nwa</a>
+=<a href="/yawarana-sketch/data/morphs/re-emp/">rë</a>
+</span>
+<span class="gls">thus=<span class="gloss">emp<span class="tooltiptext gloss-emp"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/metepetiri-2-go-plur-ipfv/"><i>mëtëpëtiri</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/me2/">më-</a>
+<a href="/yawarana-sketch/data/morphs/te-go/">të</a>
+<a href="/yawarana-sketch/data/morphs/plur1/">-pëti</a>
+<a href="/yawarana-sketch/data/morphs/ri/">-ri</a>
+</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>-go-<span class="gloss">plur<span class="tooltiptext gloss-plur"></span></span>-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/tepeti-go-plur-ipfv/"><i>tëpëti</i></a>
+=<a href="/yawarana-sketch/data/wordforms/jra-neg/"><i>jra</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/data/morphs/ri-zero/">-∅</a>
+=<a href="/yawarana-sketch/data/morphs/jra-neg/">jra</a>
+</span>
+<span class="gls">go(PLUR)-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>=<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/data/wordforms/sejke-be-imp/"><i>sejkë</i></a>
+</span>
+<span class="obj"></span>
+<span class="gls">be.<span class="gloss">imp<span class="tooltiptext gloss-imp"></span></span></span>
+</div>
+<div class="ftr">‘you're going to go like this, you can't go like this (auto)’ (<a href="/yawarana-sketch/data/texts/histyarirdi/#histyarirdi-894">Historia de vida de una mujer y costumbres de los yabaranas</a>
+: 894) </div>
+</div>
 </li>
-<li><i>-jrama</i> ‘<span class="gloss">proh<span class="tooltiptext gloss-proh"></span></span>’ 
-        * prohibitive</li>
-<li><i>jra</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’ </li>
-<li><i>-kempïnirë</i> ‘<span class="gloss">ptcp<span class="tooltiptext gloss-ptcp"></span></span>.<span class="gloss">nzr<span class="tooltiptext gloss-nzr"></span></span>.<span class="gloss">gno<span class="tooltiptext gloss-gno"></span></span>:<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’ </li>
+</ol>
+<h3 id="others"><span class="enumerate-headings-plugin enumerate-heading-plugin">9.1.4</span> Others</h3>
+<ul>
+<li><a href="/yawarana-sketch/data/morphemes/kempinire/"><em>-kempïnirë</em></a></li>
 <li><em>‑yapo</em> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>.<span class="gloss">purp<span class="tooltiptext gloss-purp"></span></span>’</li>
 </ul>
 <h2 id="nominal-negation"><span class="enumerate-headings-plugin enumerate-heading-plugin">9.2</span> Nominal negation</h2>
-<ul>
-<li><i>jra</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’ </li>
-</ul>
+<p><a href="/yawarana-sketch/data/morphemes/jra-neg/"><em>jra</em></a> </p>
 <h2 id="negative-nonverbal-predication"><span class="enumerate-headings-plugin enumerate-heading-plugin">9.3</span> Negative nonverbal predication</h2>
 <ul>
-<li><i>pïnirë</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’ </li>
-<li><i>pïrarë</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>.<span class="gloss">exist<span class="tooltiptext gloss-exist"></span></span>’ </li>
-<li><i>pïni</i> ‘<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>’ </li>
+<li><a href="/yawarana-sketch/data/morphemes/pinire-neg/"><em>pïnirë</em></a></li>
+<li><a href="/yawarana-sketch/data/morphemes/pirare-neg-exist/"><em>pïrarë</em></a></li>
+<li><a href="/yawarana-sketch/data/morphemes/pini-neg/"><em>pïni</em></a></li>
 </ul>
 <h2 id="other-negation"><span class="enumerate-headings-plugin enumerate-heading-plugin">9.4</span> Other negation</h2>
 </article>
@@ -596,7 +907,6 @@ Although we analyzed that morpheme as having a frequent zero allomorph (<a href=
 </div>
 <script id="__config" type="application/json">{"base": ".", "features": ["navigation.path", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "toc.follow", "toc.integrate"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
 <script src="assets/javascripts/bundle.aecac24b.min.js"></script>
-<script src="js/print-site.js"></script>
 <script src="assets/alignment.js"></script>
 <script src="assets/examples.js"></script>
 <script src="assets/refs.js"></script>

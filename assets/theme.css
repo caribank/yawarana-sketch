@@ -1,0 +1,24 @@
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #5F8D4E;
+  --md-primary-bg-color: #E5D9B6;
+  --md-accent-fg-color: #A4BE7B;
+}
+
+/*beige E5D9B6
+light A4BE7B
+mid 5F8D4E
+dark 285430
+darker 001524*/
+
+
+[data-md-color-scheme="slate"] {
+/*  --md-primary-fg-color: red;
+  --md-primary-bg-color: blue;
+  --md-accent-fg-color: blue;
+  --md-default-fg-color: red;
+  --md-default-bg-color: blue;*/
+}
+
+.code {
+  background-color: red !important;
+}
