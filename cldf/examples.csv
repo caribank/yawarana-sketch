@@ -1,0 +1,64 @@
+ID,Language_ID,Primary_Text,Analyzed_Word,Gloss,Translated_Text,Meta_Language_ID,Comment,Media_ID,Part_Of_Speech,Original_Translation,Text_ID,Sentence_Number,Phrase_Number,Speaker_ID
+convcosnoind-52,yab,toto yoti tajtoj mare,toto	y-oti-∅	taj-toj	mare,non_Indian	LK-meat-PERT	say-CIRC.NMLZ	?,what they call the food of the criollos (auto),,,convcosnoind-52,?	?	?	?,,convcosnoind,52,,pape
+convcosnoind-126,yab,ati ke ejnë yoti yamanë wejsapë tëwï,ati	ke	ejnë	y-oti-∅	yamanë-∅	wej-sapë	tëwï,what	INS	1+2PRO	LK-meat-PERT	make-IPFV	COP-PFV	3PRO,with that we used to prepare the meat (auto),,,convcosnoind-126,?	?	?	?	?	?	?,,convcosnoind,126,,anfo
+convcosnoind-132,yab,tëwï ya nepïjpë wejsapë,tëwï	ya	nepï-jpë	wej-sapë,3PRO	ERG	bring-PST	COP-PFV,he brought it (auto),,,convcosnoind-132,?	?	?	?,,convcosnoind,132,,anfo
+convestsjm-35,yab,entë ma teijpojra wejtane,entë	ma	teijpo=jra	wej-tane,here.LOC	RST	far=NEG	COP-CNCS,although it is close to here (auto),,,convestsjm-35,?	?	?	?,,convestsjm,35,,pape
+convrisamaj-1,yab,"ati rë warai mërë iniri, irëjpë mëyarika ti",ati	rë	warai	mërë	ini-ri	irëjpë	më-yarika-∅	ti,what	EMP	like	2PRO	see-IPFV	then	2-laugh-IPFV	HSY,You see something and then you laugh.,,,convrisamaj-1,?	?	?	?	?	?	?	?,,convrisamaj,1,,elpe
+convrisamaj-4,yab,wïrë yaruwarijra,wïrë	yaruwa-ri=jra,1PRO	laugh-IPFV=NEG,I don’t laugh.,,interesting utterance-level stress pattern,convrisamaj-4,?	?,,convrisamaj,4,,grme
+convrisamaj-6,yab,¿ kwase ejnë yaruwari?,kwase	ejnë	yaruwa-ri,how	1+2PRO	laugh-IPFV,How will we laugh?,,more material after yaruwari,convrisamaj-6,?	?	?,,convrisamaj,6,,elpe
+convrisamaj-12,yab,¿ ati ejnë yaruwari?,ati	ejnë	yaruwa-ri,what	1+2PRO	laugh-IPFV,What are we going to laugh about?,,Shows ati not acting as a noun.,convrisamaj-12,?	?	?,,convrisamaj,12,,elpe
+convrisamaj-24,yab,wïrë wajyakïtïjra taro wïrë ta wïrë ya,wïrë	wajyakïtï-∅=jra	taro-∅	wïrë	ta-∅	wïrë	ya,1PRO	be_happy-IPFV=NEG	say-IPFV	1PRO	say-IPFV	1PRO	ERG,I’m saying I am not happy.,,,convrisamaj-24,?	?	?	?	?	?	?,,convrisamaj,24,,grme
+convrisamaj-28,yab,uyïwïj yawë usenejkari sukuri jwama,u-y-ïwïj-∅	yawë	u-senejka-ri	sukuri	jwama,1-LK-house-PERT	LOC	1-stay-IPFV	silently	***,I silently stay in my house.,,,convrisamaj-28,?	?	?	?	?,,convrisamaj,28,,grme
+convrisamaj-42,yab,yaruwakontomo yatum ponoko,yaruwa-∅=kontomo	yatum	ponoko,laugh-IPFV=PL	day	***,They laugh every day.,,where does this /ponoko/ come from? it's nowhere else and I don't hear it,convrisamaj-42,?	?	?,,convrisamaj,42,,grme
+convrisamaj-44,yab,wïrë inija ta rë,wïrë	ini-ja	ta	rë,1PRO	see-NEG	like	EMP,I haven’t seen.,,,convrisamaj-44,?	?	?	?,,convrisamaj,44,,elpe
+convrisamaj-46,yab,uyarë wïrë përemekïrï,u-yarë	wïrë	përemekï-rï,1-alone	1PRO	talk-IPFV,I just talk.,,,convrisamaj-46,?	?	?,,convrisamaj,46,,grme
+convrisamaj-47,yab,"aniki narëpe yakërë ejnë përemekïrï, ejnë pëkëpene, wanene",aniki	narëpe	y-akërë	ejnë	përemekï-rï	ejnë	pëkëpene	wanene,who	PART	LK-with	1+2PRO	talk-IPFV	1+2PRO	alone	aunt,"Who are we gonna talk to? We’re alone, aunt.",,Predicative postposition?,convrisamaj-47,?	?	?	?	?	?	?	?,,convrisamaj,47,,elpe
+convfemgrme-43,yab,mërë warë mëyënëtojpano ka uyakërë mërë wepïrï,mërë	wa=rë	më-yënë-tojpano	ka	u-y-akërë	mërë	wepï-rï,2PRO	thus=EMP	2-eat(meat)-FUT.CONCL	?	1-LK-with	2PRO	come-IPFV,so for you to eat you came with me? (auto),,,,?	?	?	?	?	?	?,,convfemgrme,43,,grme
+convfemgrme-113,yab,"ë'ë, tawara takï chapëtiri tëwï",ë'ë	tawara	takï	chapëtiri	tëwï,yes	too	CNFRM	***	3PRO,"yes, it also shouts that (auto)",,,,?	?	?	?	?,,convfemgrme,113,,came
+convfemgrme-183,yab,uyarë wïrë wïnïkïrïjra,u-yarë	wïrë	wïnïkï-rï=jra,1-alone	1PRO	sleep-IPFV=NEG,I did not sleep apart (auto),,,,?	?	?,,convfemgrme,183,,grme
+convfemgrme-217,yab,"iyawë chipëkë, tayawankase",i-yawë	chipëkë	ta-yawanka-se,3-LOC	because	3P-kill-PST,"therefore, he killed her (auto)",,,,?	?	?,,convfemgrme,217,,grme
+convfemgrme-231,yab,entë mëinpojra wïrë ya,entë	më-in-po-∅=jra	wïrë	ya,here.LOC	2-see-DES-IPFV=NEG	1PRO	ERG,I don't want to see them here (auto),,,,?	?	?	?,,convfemgrme,231,,grme
+convfemgrme-232,yab,mëini wïrë ya,më-ini-∅	wïrë	ya,2-see-IPFV	1PRO	ERG,te voy a ver (auto),,,,?	?	?,,convfemgrme,232,,grme
+convfemgrme-298,yab,këyaja wïrë,këya-ja	wïrë,think-NEG	1PRO,no sé (auto),,,,?	?,,convfemgrme,298,,grme
+histgrme-83,yab,wepïrï makë,wepï-rï	makë,come-IPFV	mom,mi mamá comes (auto),,,,?	?,,histgrme,83,,grme
+ctoaragrme-5,yab,mëyakarama mare,më-yakarama-∅	mare,2-tell-IPFV	REL.INAN,the one you are saying (auto),,,ctoaragrme-5,?	?,,ctoaragrme,5,,elpe
+ctoaragrme-25,yab,"moyochi tasarë, moyochi chipokono kojpaye pïnika warotari",moyochi	ta-sarë	moyochi	chipokono	kojpaye	pïnika	warota-ri,spider(sp.)	say-IMN	spider(sp.)	because	at_night	PROB	work-IPFV,"called a spider, perhaps because the spider works at night. (auto)",,,ctoaragrme-25,?	?	?	?	?	?	?,,ctoaragrme,25,,grme
+ctoaragrme-38,yab,irë wejtane mujyampe patakaja wejsapë,irë	wej-tane	mujyam=pe	pataka-ja	wej-sapë,3ANA.INAN	COP-CNCS	pregnancy=ESS	take_out-NEG	COP-PFV,"despite this, she did not get pregnant (auto)",,,ctoaragrme-38,?	?	?	?	?,,ctoaragrme,38,,elpe
+ctoaragrme-39,yab,apatakaja pïnïka wejsapë,apataka-ja	pïnïka	wej-sapë,come_out-NEG	***	COP-PFV,maybe she did not come out (pregnant) (auto),,,ctoaragrme-39,?	?	?,,ctoaragrme,39,,grme
+ctoaragrme-40,yab,tayakïjtëja pïnika wejsapë,tayakïjtëja	pïnika	wej-sapë,***	PROB	COP-PFV,maybe he didn't sleep with her (auto),,,ctoaragrme-40,?	?	?,,ctoaragrme,40,,grme
+desccasagrme-28,yab,tëwï nwajtënëpëkë,tëwï	nwajtë-nëpëkë,3PRO	dance-PROG.INTR,he... he was dancing all the time. (auto),,,,?	?,,desccasagrme,28,,grme
+conv1stenc-28,yab,"wëjkaja, ana tëse neke ne",wëjka-ja	ana	të-se	neke	ne,fall-NEG	1+3PRO	go-PST	CNTR	INTS,"no nos caimos, nosotros nos fuimos (auto)",,,,?	?	?	?	?,,conv1stenc,28,,grme
+conv1stenc-123,yab,wurijyantomo rë wejsapë ijtë,wurijyan-tomo	rë	wej-sapë	ijtë,woman-PL	EMP	COP-PFV	there,there were only women (auto),,,,?	?	?	?,,conv1stenc,123,,grme
+convamgu-5,yab,"chayi, muku tase ta makë pano ya",chayi	muku	ta-se	ta	makë	pano	ya,***	child	say-PST	like	mom	FMR	ERG,"sons, daughters, said my late mother (auto)",,,,?	?	?	?	?	?	?,,convamgu,5,,amgu
+convamgu-7,yab,tototomo pata yaka mëtëja,toto-tomo	pata-∅	yaka	më-të-ja,non_Indian-PL	village-PERT	ALL	2-go-NEG,you can't (can't) go to the creoles' village (auto),,,,?	?	?	?,,convamgu,7,,amgu
+convhistfamsjm-13,yab,tëwï ma takï mëyakarama chijpë wararë kwa ta sënkatoj mëtë,tëwï	ma	takï	më-yakarama-∅	chi-jpë	wara=rë	kwa	ta	sënka-toj	mëtë,3PRO	RST	CNFRM	2-tell-IPFV	COP-PST.ACNNMLZ	thus=EMP	how	like	finish-CIRC.NMLZ	?,tell us again how they ended up there (auto),,,convhistfamsjm-13,?	?	?	?	?	?	?	?	?	?,,convhistfamsjm,13,,pape
+convhistfamsjm-15,yab,kwase mëëmpamïjpë ejnë waimu yaye,kwase	më-ëmpamï-jpë	ejnë	waimu-∅	yaye,how	2-learn-PST	1+2PRO	language-PERT	LOC,how you learned our language (auto),,,convhistfamsjm-15,?	?	?	?	?,,convhistfamsjm,15,,pape
+convhistfamsjm-238,yab,"irëjpë, kwaraijyawë rë mëëmpamïjpë tajto marë ti?",irëjpë	kwaraijyawë	rë	më-ëmpamï-jpë	tajto	marë	ti,then	***	EMP	2-learn-PST	***	REL.INAN	HSY,"Afterwards, when did you learn what you say? (auto)",,,convhistfamsjm-238,?	?	?	?	?	?	?,,convhistfamsjm,238,,pape
+convhistfamsjm-244,yab,toto waimu yayejra,toto	waimu-∅	yaye=jra,non_Indian	language-PERT	LOC=NEG,not in Spanish (auto),,,convhistfamsjm-244,?	?	?,,convhistfamsjm,244,,mafl
+ctorat-6,yab,wïnïjse,wïnïj-se,sleep-PST,He slept.,,I hear [u] for /wï/,ctorat-6,?,,ctorat,6,,anfo
+ctorat-16,yab,irëjpë tëwï waijtatomo nwajtëri,irëjpë	tëwï	waijta-tomo	nwajtë-ri,then	3PRO	mouse-PL	dance-IPFV,Then the mice were dancing.,,,ctorat-16,?	?	?	?,,ctorat,16,,anfo
+ctorat-19,yab,pïrarë ti iwenaru wejsapë,pïrarë	ti	i-wena-ru	wej-sapë,NEG.EXIST	HSY	3-vomit-PERT	COP-PFV,their vomit was not there.,,,ctorat-19,?	?	?	?,,ctorat,19,,anfo
+ctorat-23,yab,"aaa usukuru morone ta, wïrë usujta ta ne",aaa	u-suku-ru	morone	ta	wïrë	u-sujta-∅	ta	ne,ah	1-urine-PERT	hurting	like	1PRO	1-urinate-IPFV	like	INTS,"My urine hurts, I will urinate.",,,ctorat-23,?	?	?	?	?	?	?	?,,ctorat,23,,anfo
+ctorat-25,yab,irëjpë ta ti ta konopo wejsarë konopo wejsarë,irëjpë	ta-∅	ti	ta	konopo	wej-sarë	konopo	wej-sarë,then	say-IPFV	HSY	like	rain	come-IMN	rain	come-IMN,"Then they said: “it’s raining, it’s raining”.",,,ctorat-25,?	?	?	?	?	?	?	?,,ctorat,25,,anfo
+ctorat-30,yab,tipasekontomo warë irëjpë pïrarë,tipa-se=kontomo	wa=rë	irëjpë	pïrarë,go_in_group-PST=PL	thus=EMP	then	NEG.EXIST,They left and were gone.,,focus intonation on pïrarë,ctorat-30,?	?	?	?,,ctorat,30,,anfo
+ctorat-40,yab,tipapëjsejne waijtajne,tipa-pëj-se=jne	waijta=jne,go_in_group-PLUR-PST=PL	mouse=PL,the mice went away.,,,ctorat-40,?	?,,ctorat,40,,anfo
+ctorat-45,yab,waraijtokon maniki irëjpë ijtëse,waraijtokon	maniki	irëjpë	ij-të-se,man	REL.ANIM	then	3-go-PST,Then the man went.,,Mismatch of audio & transcription.,ctorat-45,?	?	?	?,,ctorat,45,,anfo
+ctorat-46,yab,tïwïj yaka waraijtokomo manikijpë,t-ïwïj-∅	yaka	waraijtokomo	manikijpë,3-house-PERT	ALL	man	***,He went to his house.,,,ctorat-46,?	?	?	?,,ctorat,46,,anfo
+ctovarmafl-36,yab,"aaa, ijtarijra ta",aaa	i-jta-ri=jra	ta,ah	3-foot-PERT=NEG	like,"ah, without his legs (auto)",,,ctovarmafl-36,?	?	?,,ctovarmafl,36,,anfo
+ctovarmafl-283,yab,"tëwï ke ma mëyepema wïrë ya, ta ti ta",tëwï	ke	ma	më-yepema-∅	wïrë	ya	ta-∅	ti	ta,3PRO	INS	RST	2-pay-IPFV	1PRO	ERG	say-IPFV	HSY	like,"I'll pay you with this,"" he said (auto)",,,ctovarmafl-283,?	?	?	?	?	?	?	?	?,,ctovarmafl,283,,mafl
+ctovarmafl-324,yab,michi ma mëyapëjjrama,michi	ma	më-yapëj-jrama,MED.ANIM	RST	2-grab-PROH,do not touch this (auto),,,ctovarmafl-324,?	?	?,,ctovarmafl,324,,mafl
+ctovarmafl-443,yab,¿ mëpana ma tataja wejsapë?,më-pana	ma	ta-ta-ja	wej-sapë,2-DAT	RST	3P-say-NEG	COP-PFV,didn't he say it directly to you? (auto),,,ctovarmafl-443,?	?	?	?,,ctovarmafl,443,,anfo
+histpajirdi-114,yab,mëtojpa wïrë,më-tojpa-∅	wïrë,2-hit-IPFV	1PRO,I will beat you to death (auto),,,histpajirdi-114,?	?,,histpajirdi,114,,irdi
+histpajirdi-131,yab,tajne nankase takerejtomo ya,ta-jne	nanka-se	t-akere-j-tomo	ya,3-PL	find-PST	3-relative-PERT-PL	ERG,his relatives found him (auto),,,histpajirdi-131,?	?	?	?,,histpajirdi,131,,irdi
+histpajirdi-186,yab,"tichikimuru, peti warë patakasapë Yakucho pana",tichikimuru	peti	wa=rë	pataka-sapë	yakucho	pana,***	leg	thus=EMP	take_out-PFV	P._A.	DAT,"his knee, his leg, went out (sore) towards Ayacucho (auto)",,,histpajirdi-186,?	?	?	?	?	?,,histpajirdi,186,,irdi
+histyarirdi-124,yab,kukurujra tëwï,kuku-ru=jra	tëwï,answer-IPFV=NEG	3PRO,do not imitate (auto),,,histyarirdi-124,?	?,,histyarirdi,124,,irdi
+histyarirdi-160,yab,weroro wëra këyetari mëmukuru,weroro	wëra	këyeta-ri	më-muku-ru,dog	like	grow-IPFV	2-child-PERT,your children grow up like dogs (auto),,,histyarirdi-160,?	?	?	?,,histyarirdi,160,,irdi
+histyarirdi-186,yab,tëwïsantomo wïrë wejyatë këyetajpëjra,tëwïsantomo	wïrë	wejyatë	këyeta-jpë=jra,3PRO.PL	1PRO	***	grow-PST=NEG,they did not grow up with me (auto),,,histyarirdi-186,?	?	?	?,,histyarirdi,186,,irdi
+histyarirdi-539,yab,chimakontomo,chima=kontomo,path=PL,their path,,,histyarirdi-539,?,,histyarirdi,539,,irdi
+histyarirdi-592,yab,"pata penarëjpë mëtë ta, mërë Cerro Muñeca tajtoj mare toto ya",pata	penarëjpë	mëtë	ta	mërë	cerro	muñeca	taj-toj	mare	toto	ya,village	***	?	like	MED.INAN	***	***	say-CIRC.NMLZ	still	non_Indian	ERG,"here you can see the place where they lived, where the criollos call Cerro Muñeca (auto)",,,histyarirdi-592,?	?	?	?	?	?	?	?	?	?	?,,histyarirdi,592,,irdi
+histyarirdi-615,yab,wïrë inija tëwï,wïrë	ini-ja	tëwï,1PRO	see-NEG	3PRO,I did not see that (auto),,,histyarirdi-615,?	?	?,,histyarirdi,615,,irdi
+histyarirdi-633,yab,"mëinija ka, aniki pinchi, tënësem warai yichapë, okonotojpe",më-ini-ja	ka	aniki	pinchi	tënësem	warai	yichapë	okonotojpe,2-see-NEG	Q	who	HES	***	like	***	***,you have not seen a fish that is put on to dry (auto),,,histyarirdi-633,?	?	?	?	?	?	?	?,,histyarirdi,633,,irdi
+histyarirdi-723,yab,irë nwa chipëkë usamori uyïpï incharë,irë	nwa	chipëkë	u-samo-ri	u-yïpï-∅	in-charë,3ANA.INAN	thus	because	1-cry-IPFV	1-mountain-PERT	see-IMN,that's why I'm crying seeing my hills (auto),,,histyarirdi-723,?	?	?	?	?	?,,histyarirdi,723,,irdi
+histyarirdi-875,yab,uyepematojpe pïrarë wïrë inawë,u-yepema-tojpe	pïrarë	wïrë	inawë,1-pay-PURP	NEG.EXIST	1PRO	have,I can't afford to pay (auto),,,histyarirdi-875,?	?	?	?,,histyarirdi,875,,elpe
+histyarirdi-894,yab,"nwarë mëtëpëtiri, tëpëtijra sejkë",nwa=rë	më-të-pëti-ri	tëpëti-∅=jra	sejkë,thus=EMP	2-go-PLUR-IPFV	go(PLUR)-IPFV=NEG	be.IMP,"you're going to go like this, you can't go like this (auto)",,,histyarirdi-894,?	?	?	?,,histyarirdi,894,,irdi
+histyarirdi-944,yab,"wïrë najpïtomojne, wurijyantomojne sënka wara rë",wïrë	najpï-∅-tomo=jne	wurijyan-tomo=jne	sënka-∅	wara	rë,1PRO	grandfather-PERT-PL=PL	woman-PL=PL	finish-ACNNMLZ	thus	EMP,"as my grandparents disappear, the women (auto)",,,histyarirdi-944,?	?	?	?	?	?,,histyarirdi,944,,irdi

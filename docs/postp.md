@@ -6,7 +6,7 @@
 * monomorphemic vs bipartite (vs 'stacked')
 
 ## Inflectional morphology [label](sec:postinfl)
-Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssuf)). [todo](are there postpositions with third person i-?)
+Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssuf)).
 
 [table](postpprefixes)
 
@@ -21,12 +21,14 @@ Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssu
 
 [table](locpost)
 
-* others: [todo](how do these fit in?)
+[todo](gather all postpositions, organize)
+
+* further postpositions:
     * *poye* 'above'
     * *po* 'locative'
     * *yatë* 'locative'
     * *yapo* 'negation'?
-* allative in [exref](histpajirdi-186)
+* allative: 
 
 [ex](histpajirdi-186)
 

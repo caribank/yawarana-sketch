@@ -10,12 +10,14 @@ output:
   readme: false
   build:
     - mkdocs
-    # - plain
-    # - latex
+    - plain
+    - latex
     # - docx
-  preview: mkdocs
-  rich: true
+  preview: html
   changelog: true
+data:
+  data: true
+  rich: true
 mkdocs:
   audio: true
 examples:

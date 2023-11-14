@@ -9,17 +9,15 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 [table](vowels)
 
 ### Consonants [label](sec:consonants)
-* add minimal pairs
-
+[todo](search and add minimal pairs for consonants)
 
 #### /h/
 * glottal fricative insertion after diphthongs
 * glottal fricative insertion before occlusives
 
-
 ### Vowels [label](sec:vowels)
-* add minimal pairs
-* add vowel plots
+[todo](1. search and add minimal pairs for vowels, 2. add vowel plots)
+
 * what about vowel length?
 * variation between _ë_/_o_/_e_ and _ï_/_i_/_u_
 * dipththongs
@@ -31,9 +29,9 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 
 
 #### Types
-* V<sub>1</sub>rV2 to V1:
+* V<sub>1</sub>rV<sub>2</sub> to V<sub>1</sub>ː
 * nasal assimilation
-* what consonants reduce to /j/?
+* reduction to /j/ [todo](what consonants reduce to /j/?)
 
 #### Contexts
 * postpositions
@@ -42,12 +40,13 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 * non-alternating reduced syllables, e.g. [mp](wajto-fire)
 
 ### Vowel harmony [label](sec:vowelharm)
-* progressive [mp](rupert)
-* regressive /ë/ > /o/ 
+* progressive: [m](rupert)
+* regressive: /ë/ > /o/ 
 
 ### Palatalization [label](sec:palatalization)
-* [mp](sapepfv)
-* [mp](sepst)
+* [m](chajnmlz)
+* [m](chepst); [m](cheptcp)
+* [m](chareimn)
 
 ## Prosody [label](sec:prosody)
 

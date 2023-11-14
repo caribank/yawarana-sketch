@@ -1,9 +1,7 @@
 # Auxiliarized constructions
-Pattern visible so far: everything can take an auxiliary, except [mp](keimp)
-[todo](look at frequency and distributional possibilities for various forms with auxiliaries)
-[todo](are there limits on what form of AUX can occur?)
-[todo](conventionalized meanings of combinations?)
-[todo](where is person marking? also alignment)
+claim: everything can take an auxiliary, except [mp](keimp)
+
+[todo](1. look at frequency and distributional possibilities for various forms with auxiliaries 2. are there limits on what form of AUX can occur? 3. conventionalized meanings of combinations? 4. where is person marking? also alignment)
 
 ## Defining auxiliaries
 
