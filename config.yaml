@@ -6,9 +6,9 @@ paths:
 output:
   readme: false
   build:
-    # - mkdocs
+    - mkdocs
     - plain
-    # - latex
+    - latex
     # - docx
   preview: html
   changelog: true
