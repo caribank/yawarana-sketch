@@ -25,7 +25,7 @@
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "tables": [
         {
-            "dc:extent": 278,
+            "dc:extent": 234,
             "tableSchema": {
                 "columns": [
                     {
@@ -171,7 +171,7 @@
             "url": "wordforms.csv"
         },
         {
-            "dc:extent": 627,
+            "dc:extent": 621,
             "tableSchema": {
                 "columns": [
                     {
@@ -441,7 +441,7 @@
             "url": "morphs.csv"
         },
         {
-            "dc:extent": 147,
+            "dc:extent": 131,
             "tableSchema": {
                 "columns": [
                     {
@@ -643,7 +643,7 @@
             "url": "inflectionalcategories.csv"
         },
         {
-            "dc:extent": 511,
+            "dc:extent": 505,
             "tableSchema": {
                 "columns": [
                     {
@@ -846,7 +846,7 @@
             "url": "morphemes.csv"
         },
         {
-            "dc:extent": 98,
+            "dc:extent": 92,
             "tableSchema": {
                 "columns": [
                     {
@@ -1020,7 +1020,7 @@
             "url": "derivationalprocesses.csv"
         },
         {
-            "dc:extent": 463,
+            "dc:extent": 388,
             "tableSchema": {
                 "columns": [
                     {
@@ -1107,7 +1107,7 @@
             "url": "wordformparts.csv"
         },
         {
-            "dc:extent": 259,
+            "dc:extent": 214,
             "tableSchema": {
                 "columns": [
                     {
@@ -1173,7 +1173,7 @@
             "url": "wordformstems.csv"
         },
         {
-            "dc:extent": 738,
+            "dc:extent": 725,
             "tableSchema": {
                 "columns": [
                     {
@@ -1260,7 +1260,7 @@
             "url": "stemparts.csv"
         },
         {
-            "dc:extent": 528,
+            "dc:extent": 521,
             "tableSchema": {
                 "columns": [
                     {
@@ -1364,7 +1364,7 @@
             "url": "partsofspeech.csv"
         },
         {
-            "dc:extent": 17,
+            "dc:extent": 14,
             "tableSchema": {
                 "columns": [
                     {
@@ -1424,7 +1424,7 @@
             "url": "texts.csv"
         },
         {
-            "dc:extent": 528,
+            "dc:extent": 286,
             "tableSchema": {
                 "columns": [
                     {
@@ -1630,7 +1630,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 145,
+            "dc:extent": 63,
             "tableSchema": {
                 "columns": [
                     {
@@ -1893,7 +1893,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#MediaTable",
-            "dc:extent": 183,
+            "dc:extent": 131,
             "tableSchema": {
                 "columns": [
                     {

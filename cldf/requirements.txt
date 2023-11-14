@@ -45,7 +45,7 @@ pyigt==2.0.0
 pykwalify==1.8.0
 -e git+ssh://git@github.com/fmatter/pylacoan.git@f0eb9312238d0ef0f7bc36bf60cfdcb6a4f4b211#egg=pylacoan
 pylatexenc==2.10
--e git+ssh://git@github.com/fmatter/pylingdocs.git@8d6d136b5faa0f1b70fb1504a7312cdebe6c0cd8#egg=pylingdocs
+-e git+ssh://git@github.com/fmatter/pylingdocs.git@9295d521ee22d5e2974a8878beb4cb05e041ba9a#egg=pylingdocs
 pyrsistent==0.19.3
 python-dateutil==2.8.2
 python-frontmatter==1.0.0
