@@ -25,7 +25,7 @@
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "tables": [
         {
-            "dc:extent": 234,
+            "dc:extent": 1346,
             "tableSchema": {
                 "columns": [
                     {
@@ -171,7 +171,7 @@
             "url": "wordforms.csv"
         },
         {
-            "dc:extent": 621,
+            "dc:extent": 759,
             "tableSchema": {
                 "columns": [
                     {
@@ -306,7 +306,7 @@
             "url": "stems.csv"
         },
         {
-            "dc:extent": 763,
+            "dc:extent": 772,
             "tableSchema": {
                 "columns": [
                     {
@@ -441,7 +441,7 @@
             "url": "morphs.csv"
         },
         {
-            "dc:extent": 131,
+            "dc:extent": 962,
             "tableSchema": {
                 "columns": [
                     {
@@ -643,7 +643,7 @@
             "url": "inflectionalcategories.csv"
         },
         {
-            "dc:extent": 505,
+            "dc:extent": 640,
             "tableSchema": {
                 "columns": [
                     {
@@ -734,7 +734,7 @@
             "url": "lexemes.csv"
         },
         {
-            "dc:extent": 595,
+            "dc:extent": 597,
             "tableSchema": {
                 "columns": [
                     {
@@ -846,7 +846,7 @@
             "url": "morphemes.csv"
         },
         {
-            "dc:extent": 92,
+            "dc:extent": 226,
             "tableSchema": {
                 "columns": [
                     {
@@ -1020,7 +1020,7 @@
             "url": "derivationalprocesses.csv"
         },
         {
-            "dc:extent": 388,
+            "dc:extent": 2635,
             "tableSchema": {
                 "columns": [
                     {
@@ -1107,7 +1107,64 @@
             "url": "wordformparts.csv"
         },
         {
-            "dc:extent": 214,
+            "dc:extent": 1744,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "dc:description": "The associated form.",
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Form_ID"
+                    },
+                    {
+                        "dc:description": "The associated wordform.",
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "required": true,
+                        "name": "Wordform_ID"
+                    },
+                    {
+                        "dc:description": "Specifies the position of a morph in a wordform.",
+                        "dc:extent": "singlevalued",
+                        "datatype": {
+                            "base": "string",
+                            "format": "\\d+(:\\d+)?"
+                        },
+                        "required": true,
+                        "name": "Index"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Wordform_ID"
+                        ],
+                        "reference": {
+                            "resource": "wordforms.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "formparts.csv"
+        },
+        {
+            "dc:extent": 1406,
             "tableSchema": {
                 "columns": [
                     {
@@ -1173,7 +1230,7 @@
             "url": "wordformstems.csv"
         },
         {
-            "dc:extent": 725,
+            "dc:extent": 1005,
             "tableSchema": {
                 "columns": [
                     {
@@ -1260,7 +1317,7 @@
             "url": "stemparts.csv"
         },
         {
-            "dc:extent": 521,
+            "dc:extent": 555,
             "tableSchema": {
                 "columns": [
                     {
@@ -1364,7 +1421,7 @@
             "url": "partsofspeech.csv"
         },
         {
-            "dc:extent": 14,
+            "dc:extent": 23,
             "tableSchema": {
                 "columns": [
                     {
@@ -1424,7 +1481,7 @@
             "url": "texts.csv"
         },
         {
-            "dc:extent": 286,
+            "dc:extent": 730,
             "tableSchema": {
                 "columns": [
                     {
@@ -1630,7 +1687,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 63,
+            "dc:extent": 152,
             "tableSchema": {
                 "columns": [
                     {
@@ -1803,7 +1860,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 8,
+            "dc:extent": 872,
             "tableSchema": {
                 "columns": [
                     {
@@ -1893,7 +1950,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#MediaTable",
-            "dc:extent": 131,
+            "dc:extent": 3522,
             "tableSchema": {
                 "columns": [
                     {

@@ -1,14 +1,14 @@
-Suffix,Function
-[mp](riipfv?nt),imperfective
-[mp](jpepst?nt),past
-[mp](sepst?nt),past perfective
-[mp](sapepfv?nt),perfect
-[mp](sareimn?nt),imminent future
-[mp](nepeke?nt),[gl](prog.intr)
-[mp](peke-about?nt),[gl](prog.tr)
-*‑tojpano*,[gl](fut)
-([mp](tojpefut?nt)),[gl](fut)
-[mp](janeg?nt),[gl](neg)
-[mp](septcp?nt)[mp](minmlz?nt) ,‘obligation’
-[mp](neinf?nt),impersonal S
-[mp](toponmlz?nt),
+"Suffix","Function"
+"[mp](riipfv?nt)","imperfective"
+"[mp](jpepst?nt)","past"
+"[mp](sepst?nt)","past perfective"
+"[mp](sapepfv?nt)","perfect"
+"[mp](sareimn?nt)","imminent future"
+"[mp](nepeke?nt)","progressive ([gl](intr))"
+"[mp](peke-about?nt)","progressive ([gl](tr))"
+"*‑tojpano*","future"
+"([mp](tojpefut?nt))","future"
+"[mp](janeg?nt)","negation"
+"[mp](septcp?nt)[mp](minmlz?nt) ","obligation"
+"[mp](neinf?nt)","impersonal S"
+"[mp](toponmlz?nt)","?"

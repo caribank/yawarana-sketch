@@ -11,6 +11,8 @@ Three kinds of particles elsewhere in the family:
 
 * prosodic effects?
 
+Hoff 1968 on second position particles ("sentence-level meanings")
+
 ## Ideophones
 * constructions with [mp](nwa-thus)? (example with _pïtï_ 'paint')
 

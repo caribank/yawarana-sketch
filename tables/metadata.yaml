@@ -9,7 +9,7 @@ pronouns3:
   caption: Demonstrative pronouns / articles
   preprocess:
 possprefixes:
-  caption: Possessive prefixes on nouns
+  caption: Inflectional prefixes on nouns
   preprocess:
 oldpossprefixes:
   caption: Archaic possessive prefixes on nouns
@@ -24,7 +24,7 @@ locpost:
 onlypossessed: {}
 diffpossessed: {}
 verbprefixes:
-  caption: Person marking prefixes on verbs
+  caption: Person markers on verbs
 suffunpossessed: {}
 unsuffixednouns: {}
 verbtam:
@@ -62,3 +62,5 @@ nvp_q_sub:
   caption: Form-function distribution of interrogative nonverbal predications in subordinate clauses
 cliteria:
   caption: Behavior of person indices on different POS.
+a2:
+  caption: Nouns taking second person _a(y)-_.

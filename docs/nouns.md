@@ -1,24 +1,35 @@
 # Nouns [label](nouns)
+TBD: Introduction
+
+## Root suppletion in nominal possession [label](sec:irregnouns)
+* 'father':
+    * 1 *papa*
+    * 2 _ëmë_ / _omo_ / _ëmo_ (?)
+    * 3 _imu_
+    * NP _yïmï_
+* other candidates:
+    * 'arrow'
+    * 'house'
+    * 'poop'
+    * 'mother'
+    * 'hammock string'
 
 ## Pronouns [label](sec:pronouns)
 The personal pronouns of [lg](yab) are shown in [ref](tab:pronouns).
 The system shows the usual Cariban inclusive/exclusive ([gl](1+2) and [gl](1+3)) distinction, though the 1+2 pronoun [mp](ejne-1-2pro?nt) does not have the /k/ found elsewhere in the family.
-It is likely a reflex of an old copula + infinitive *\*eti-në*. [todo](do we have parallel cases elsewhere?)
-Regarding plural marking, it should be noted that [mp](kontomopl?nt), which appears on the second person plural pronoun, is usually restricted to verbs, while *-santomo* is only found with third person pronouns and demonstratives. [todo](what about tajne? and are there combinations of tomo and -jne?)
+There are plural forms of the second and third person pronouns, which are composed of the respective singular form and the plural marker [mp](kontomopl?nt) for second, _-santomo_ for third person.
+There is also a third person plural form [wf](tajne-3-pl?nt), which looks like it may etymologically be composed of the pronoun [mp](tewi-3pro?nt) and the plural marker [mp](jnepl?nt).
+The first, first inclusive, and second person pronouns can procliticize to nouns (see [ref](sec:nounphrase)), verbs (see [ref](simpleverb)) and postpositions (see [ref](sec:postp-phrase)).
 
 [table](pronouns)
 
-Reduced forms of the first and second person pronouns occur as proclitics/prefixes[todo](proclitics or prefixes?) attaching to nouns to indicate possessor (see [ref](sec:nominalperson)), attached to verbs to indicate the A or P argument (see [ref](verbinfl)), or attached to postpositions to indicate the argument of the postposition (see [ref](sec:postinfl)).
-The occurrence of bound [mp](u1) on members of all three parts of speech is illustrated in [exref](1marking); [exref](2marking) illustrates the same distribution for [mp](me2).
-[ex](histyarirdi-723,convrisamaj-46?example_id=1marking)
-[ex](histyarirdi-160,histpajirdi-114,ctovarmafl-443?example_id=2marking)
-
 The third person demonstrative pronouns or articles are shown in [ref](tab:pronouns3). [todo](is there a 4‑way distinction? [cf. Ye’kwana?])
-None of them have shortened and phonologically bound counterparts.
+None of them have shortened and phonologically bound counterparts. [todo](is there a më= from mërë?)
+[todo](what is the distribution of plural markers in pronouns?)
 
 [table](pronouns3)
 
-* nominal interrogative pronouns: [todo](Are there plural forms of any of these? are there examples of _ëjkë_ 'which?')
+* nominal interrogative pronouns: [todo](are there examples of _ëjkë_ 'which?')
     * [mp](aniki-who) (with _-santomo_)
     * [mp](ati-what) (no plural)
 
@@ -46,52 +57,51 @@ For these nouns, the difference is marked only by the presence or absence of a p
 [manex](unsuffixednouns)
 
 ### Nominal number [label](sec:nominalnumber)
-There are several pluralization strategies for nouns.
-One is the suffix [mp](tomopl?nt) ([m](tompl?nt), [m](tonpl?nt)), which occurs on both possessed and unpossessed nouns [exref](tomonouns).
+The suffix [mp](tomopl?nt) ([m](tompl?nt), [m](tonpl?nt)) occurs on both possessed and unpossessed nouns [exref](tomonouns).
 [ex](conv1stenc-123,histpajirdi-131?example_id=tomonouns)
-It can be combined with the plural particle [mp](jnepl?nt) [exref](histyarirdi-944); this particle can also be the only exponent of plural [exref](ctorat-40).
-[ex](histyarirdi-944)
-[ex](ctorat-40)
-
-There is also the particle [mp](kontomopl?nt), which marks plurality of the possessor [exref](histyarirdi-539).
-Etymologically, it consists of an earlier \*_komo_ suffixed with [mp](tomopl).
-[ex](histyarirdi-539)
-
-In many nouns, old plural markers have become lexicalized, like in [mp](wiriyamo-woman) or [mp](waraijtokomo-man), which show former \*_-yamë_ and \*_komo_.
 
 ### Nominal tense [label](sec:nominaltense)
-* [mp](jpepst)
+TBD: Describe [mp](jpepst).
 
-### Argument prefixes [label](sec:nominalperson)
-Person prefixes on nouns are conditioned by the initial segment ([ref](tab:possprefixes)).
-C-initial nouns take [m](i31), and first and second person are bare [m](u1) and [m](me2).
-On V-initial nouns, third person is marked with [m](it3), and the first and second person prefixes combine with the linker [mp](ylk?nt).
-Some examples are shown in [exref](convrisamaj-28?end=lastex).
+### Inflectional prefixes [label](sec:nominalperson)
+There are three inflectional prefixal morphemes on nouns ([ref](tab:possprefixes)).
+Prefix allomorphy is mainly conditioned by the initial segment of the noun root.
 
 [table](possprefixes)
 
+Second person [mp](a2?nt) only occurs on a small number of nouns, all of them kinship terms ([ref](tab:a2)).
+With other nouns, a second person pronoun is used; for first person and first person inclusive, a pronoun is used for all nouns (see [ref](sec:nounphrase)).
+
+[table](a2)
+
+The third person prefix has the allomorphs [m](i31?nt) and [m](it3?nt):
+[ex](convfemgrme-304)
+[ex](ctowaru-52)
+
+Finally, V-initial nouns show a linking prefix [mp](ylk?nt) when preceded by their possessor [exref](convcosnoind-126).
+It is shared by postpositions (see [ref](postp)).
+C-initial (and *i*-initial) nouns do not show a prefix in this context [exref](no-y).
+
+[ex](convcosnoind-126)
+[ex](convamgu-246,convfemgrme-48?example_id=no-y)
+
+## The noun phrase [label](sec:nounphrase)
+TBD
+
 [ex](convrisamaj-28)
 [ex](ctorat-46)
+[ex](histyarirdi-437)
+[ex](desccasmaj-38)
+[ex](histpajirdi-270)
+[ex](convfemgrme-60)
 [ex](ctorat-19?example_id=lastex)
+[ex](convfemgrme-260)
+[ex](histyarirdi-893)
+[ex](histgrme-29)
+[ex](histpajirdi-237)
+
 The linker also occurs with (pro-)nominal possessors:
 [ex](convcosnoind-52)
-[ex](convcosnoind-126)
-There are some nouns that preserve the old second person [mp](a2) ([ref](tab:oldpossprefixes)).[todo](these are presumably kinship terms. find more examples!)
-
-[table](oldpossprefixes)
-
-### Root suppletion in nominal possession [label](sec:irregnouns)
-* 'father':
-    * 1 *papa*
-    * 2 _ëmë_ / _omo_ / _ëmo_ (?)
-    * 3 _imu_
-    * NP _yïmï_
-* other candidates:
-    * 'arrow'
-    * 'house'
-    * 'poop'
-    * 'mother'
-    * 'hammock string'
 
 ## Nominal Derivational Morphology [label](sec:nounderiv)
 * V → N
@@ -116,3 +126,13 @@ There are some nouns that preserve the old second person [mp](a2) ([ref](tab:old
     * _-imë_: e.g., _wara_ 'woman' _waraimë_ 'married woman' (from dictionary)
 * What about [mp](jpenmlz) on [gl](ad) forms [exref](histyarirdi-592)? Does it derive a noun?
 [ex](histyarirdi-592)
+
+
+### The action nominalizer _-ri_ [label](sec:rinmlz)
+TBD
+
+### The past nominalizer _-jpë_ [label](sec:jpenmlz)
+TBD
+
+### The absolutive nominalizer _-sapë_ [label](sec:sapenmlz)
+TBD

@@ -42,4 +42,6 @@ It is the negative counterpart to [mp](sepst). [todo](hypothesis: if -se is perf
 * [mp](pirare-neg-exist)
 * [mp](pini-neg)
 
+[ex](ctorat-19)
+
 ## Other negation

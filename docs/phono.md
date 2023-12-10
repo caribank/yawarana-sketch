@@ -47,6 +47,9 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 * [m](chajnmlz)
 * [m](chepst); [m](cheptcp)
 * [m](chareimn)
+    * not consistent [exref](histyarirdi-723)
+
+[ex](histyarirdi-723)
 
 ## Prosody [label](sec:prosody)
 

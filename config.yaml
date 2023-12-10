@@ -4,7 +4,7 @@ paths:
   add_bib: extra/cariban.bib
   audio: ../yawarana_corpus/audio
 data:
-  data: true
+  data: false
   rich: true
 output:
   readme: false
@@ -15,13 +15,13 @@ output:
     # - docx
   preview: html
   changelog: true
-data:
-  data: true
-  rich: true
 mkdocs:
   audio: true
 examples:
   show_language: false
+  custom_links:
+    💻: http://localhost:6543/sentences/{id}
+    🖉: http://localhost:5001/example/{id}
 lfts:
   show_language: false
 input:

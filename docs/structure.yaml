@@ -16,10 +16,10 @@ partideo:
   title: Particles, ideophones and interjections
 negation:
   title: Negation
+number:
+  title: Number
 auxiliary:
   title: Auxiliarized constructions
-phrases:
-  title: Phrases
 nonverbal:
   title: Nonverbal predications
 simpleverb:

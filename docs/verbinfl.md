@@ -1,106 +1,97 @@
 # Verbal inflection [label](verbinfl)
-[todo](write an introduction)
+[lg](yab) verbs have person marking prefixes and proclitics, as well as TAM marking suffixes.
 
-## Person prefixes [label](sec:verbperson)
-Verbs are inflected for person with a set of prefixes, shown in [ref](tab:verbprefixes). [todo](Check: should first and second person not have a long vowel, because they are reduced?)
-First and second person prefixes show ergative alignment, expressing [gl](s) and [gl](p).
-Intransitive verbs are not overtly inflected for third person, while transitive verbs show an optional [mp](ta-3?nt) in [gl](3)>[gl](3) scenarios.[todo](discuss lack of complementary distribution with preceding NPs)
+## Person markers [label](sec:verbperson)
+Person marking is optional in verbs.
+The only inflectional morphology is a third person prefix [mp](ta-3?nt) ([ref](sec:ta-3)).
+The free pronouns [mp](wire-1pro?nt), [mp](mere-2pro?nt) and [mp](ejne-1-2pro?nt) ([ref](sec:pronouns)) can procliticize to both intransitive and transitive verbs. [todo](small study: length/prominence of first and second person?)
+[ref](tab:verbprefixes) gives an overview of all bound person markers found on verbs.
+For a discussion of the behavior of pronominal clitics on verbs, see [ref](simpleverb).
 
 [table](verbprefixes)
 
-### Examples
-* Second person A
-    * [mp](me2) marking A in [exref](2a)
-    * subordinate clauses [exref](2sub) and [exref](1sub)
-    * is 'learn' transitive? [exref](learn)
-
-[ex](ctovarmafl-324,histyarirdi-633,convhistfamsjm-13?example_id=2a)
-[ex](convfemgrme-43,ctoaragrme-5?example_id=2sub)
-[ex](convhistfamsjm-15,convhistfamsjm-238?example_id=learn)
-
-* First person A [exref](1sub)
-[ex](histyarirdi-875?example_id=1sub)
-
-* Transitive local scenarios
-[ex](convfemgrme-231,convfemgrme-232,ctovarmafl-283)
-* one attested case of [mp](ta-3?translation=3>3) on the lexical verb of a _-pëkë_ construction w/ 2nd person [gl](a) on [gl](aux) [todo](find that example)
-    * Ø‑ ‘[gl](3p)’ with transitive verbs with [gl](1a) or [gl](2a)
-* one example of [mp](me2?nt) ‘[gl](2A)’ on imperative verb [todo](add GrMePers.029)
-* \*_t‑V‑se_ is no more — the _t‑_ is gone, except in lexicalized items
-
 ### The third person prefix [mp](ta-3?nt) [label](sec:ta-3)
-[todo](discuss ta)
+The prefix [mp](ta-3?nt) only occurs on transitive verbs, and seems to be restricted to 3>3 scenarios, i.e. when a third person referent is acting on another third person referent [exref](convsuenmaj-17).
+However, it is not obligatory [exref](convcosnoind-53).
+Also, it can cooccur with free noun phrases referencing either the A or the P [exref](convamgu-48).
+The conditioning factors for its (non-)occurrence in 3>3 scenarios are unknown.
+
+[ex](convsuenmaj-17,convcosnoind-53,convamgu-48)
 
 ## Main clause tense‑aspect‑mood‑polarity suffixes [label](sec:tam)
 Verbs in main clauses are inflected for TAMP with a set of suffixes, shown in [ref](tab:verbtam).
-They are discussed in [ref](sec:riipfv?end=sec:sareimn).
+They are discussed in [ref](sec:riipfv?end=sec:sareimn); for a detailed overview see Cáceres & Gildea (2022) [todo](add to bibliography)
 
 [table](verbtam)
 
 [table](nondecltam)
 
-Misc:
+[todo](discuss =pano 'conclusion')
 
-* [mp](septcp?nt)=[mp](pano-fmr?nt) ‘[gl](pst)=[gl](concl)’
-* [m](sajpfv?nt)=[mp](pano-fmr?nt) ‘[gl](pfv)=[gl](concl)’
-* [mp](sareimn?nt)=[mp](pano-fmr?nt) ‘[gl](imn)=[gl](concl)’
-
-### [mp](riipfv?nt) [label](sec:riipfv)
+### The imperfective [mp](riipfv?nt) [label](sec:riipfv)
 * allomorphy:
     * most conservative form: [m](ri-ri)
-    * /ï/ > /i/: [m](ri)
-    * phonetic loss: [m](ri-zero)
+    * /ï/ > /i/ ([ref](sec:vowels)): [m](ri)
+    * phonetic loss: [m](ri-zero) ([ref](sec:sylred))
         * inconsistent zero before [mp](jra-neg), see [ref](negation)
         * consistent zero before [mp](kontomopl)
-    * assimilation: [m](ri-ru)
-* gave rise to [mp](rinmlz)
-* plural with [mp](kontomopl)
-* negated with [mp](jra-neg) [exref](convrisamaj-4), but potentially two distinct etymologies
-* emerging pattern: [m](ri) with postverbal (possessed?) arguments?
-[ex](convrisamaj-4)
+    * assimilation: [m](ri-ru) ([ref](sec:vowelharm))
+* diachrony: from [mp](rinmlz) ([ref](sec:rinmlz))
+* plural: [mp](kontomopl)
+* negation: [mp](jra-neg) [exref](convrisamaj-4), but potentially two distinct etymologies [todo](_-ri_ with postverbal [possessed?] arguments?)
+* semantics:
+    * not specified for tense, only imperfective aspect:
+        * past [exref](ctorat-16)
+        * future [exref](convrisamaj-6)
+        * gnomic/present? [exref](gnomicri)
 
-#### Semantics
-* not specified for tense, just imperfective aspect:
-    * past [exref](ctorat-16)
-    * future [exref](convrisamaj-6)
-    * gnomic/present? [exref](gnomicri)
 [ex](ctorat-16)
 [ex](convrisamaj-6)
 [ex](convrisamaj-4,convrisamaj-28?example_id=gnomicri)
 
 ### [mp](jpepst?nt)
-* allomorphy: none? [todo](semantics are unclear)
-* diachrony: from [mp](jpenmlz)
-* negated with [mp](jra-neg) [exref](histyarirdi-186)
+* allomorphy: none?
+* semantics: unclear [todo](investigate semantics of _-jpë_)
+* diachrony: from [mp](jpenmlz) ([ref](sec:jpenmlz))
+* negated with [mp](jra-neg?nt) [exref](histyarirdi-186)
+* plural: [mp](kontomopl?nt) [exref](conv1stenc-2)
 
 [ex](histyarirdi-186)
+[ex](conv1stenc-2)
 
 ### [mp](sepst?nt)
-* allomorphy: [m](septcp?nt)/[m](cheptcp)
-* diachrony: from [mp](septcp)
+* allomorphy: [m](septcp?nt)/[m](cheptcp) ([ref](sec:palatalization))
+* diachrony: from [mp](septcp) [todo](where is the participle discussed?)
 * negation: replaced with [mp](janeg) [exref](conv1stenc-28) (see also [ref](sec:janeg))
+* plural: [mp](kontomopl) and [mp](jnepl)
+* semantics: unclear [todo](semantics of _se_?)
+
 [ex](conv1stenc-28)
-* plural: [mp](kontomopl)
+[ex](ctorat-40)
 
 [ex](ctorat-30)
-[todo](semantics?)
 
 ### [mp](sapepfv?nt)
-* diachrony: from [mp](sapenmlz)
-* distribution: only occurs on the copula?
-* allomorphy: [m](sapepfv?nt) and [m](sajpfv?nt)
+* diachrony: from [mp](sapenmlz) ([ref](sec:sapenmlz))
+* allomorphy: [m](sapepfv?nt) and [m](sajpfv?nt) ([ref](sec:sylred))
 * negation: with [mp](janeg) on lexical verb [exref](ctoaragrme-38?end=ctoaragrme-40)
+* plural: [mp](kontomopl) [exref](histyarirdi-34)
+
 [todo](semantics?)
 [ex](ctoaragrme-38)
 [ex](ctoaragrme-39)
 [ex](ctoaragrme-40)
-* what about [exref](ctorat-19)? is that existential negation?
-[ex](ctorat-19)
+[ex](histyarirdi-34)
 
 ### [mp](sareimn?nt) [label](sec:sareimn)
 * once a converb, now 'imminent future'
+* allomorphy: [m](chareimn?nt) ([ref](sec:palatalization))
+* negation: ?
+* semantics: ?
+* plural: ?
+
 [ex](ctorat-25)
-[ex](ctoaragrme-25)
+[ex](histyarirdi-932)
 
 ## Subordinate Clause markers
 [todo](decide if these should be moved to another section)
@@ -128,6 +119,11 @@ Misc:
     * _-ajtawï_ 'if when'
 
 ## Number [label](sec:verbalnumber)
+The main number marking strategy for verbs uses the particle [mp](kontomopl), which usually encliticizes to the verb.
+It occurs with all major TAM suffixes [exref](kontomo).
+
+[ex](conv1stenc-109,histyarirdi-66,ctotawirdi-150,histyarirdi-559?example_id=kontomo)
+
 * [mp](riipfv?nt)=[mp](kontomopl?nt)
 * [mp](sapepfv?nt)=[mp](kontomopl?nt)
 * [m](sajpfv?nt)[mp](sepst?nt)=[mp](jnepl?nt) 

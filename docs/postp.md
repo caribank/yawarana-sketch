@@ -14,6 +14,15 @@ Postpositions take the same inflectional prefixes as nouns ([ref](sec:nounposssu
     * [m](dt7)
     * [mp](kontomopl)
 
+
+[ex](ctoyucairdi-104)
+[ex](histanfo-48)
+[ex](ctorosq-109)
+[ex](convfemgrme-17)
+
+## The postpositional phrase [label](sec:postp-phrase)
+TBD
+
 ## Locative Postpositions
 * clear bipartite Ground+Path
 * unproductive Bipartite X+Path?

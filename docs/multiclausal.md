@@ -18,6 +18,7 @@ For instance, a meaning like '**after I slept**, I ate' was expressed as 'after 
 * inanimate relativizer [mp](mare-rel-inan?nt)
 * also [mp](mare-still)
 * occurrence with nominalizations? [exref](ctoaragrme-5)
+* correlation with clause-initial _mërë_?
 
 [ex](convcosnoind-52)
 [ex](ctoaragrme-5)
