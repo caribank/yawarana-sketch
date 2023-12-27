@@ -1,4 +1,4 @@
-from pylingdocs.models import Base, Morpheme
+from lingdocs.models import Base, Morpheme
 
 class Phoneme(Base):
     name = "Phoneme"

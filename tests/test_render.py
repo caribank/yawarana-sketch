@@ -1,5 +1,5 @@
-from pylingdocs.output import create_output
-from pylingdocs.helpers import load_content
+from lingdocs.output import create_output
+from lingdocs.helpers import load_content
 import pytest
 from writio import load
 from pycldf import Dataset

@@ -1,6 +1,6 @@
-from pylingdocs.formats import MkDocs
-from pylingdocs.config import config
-from pylingdocs.helpers import Enumerator
+from lingdocs.formats import MkDocs
+from lingdocs.config import config
+from lingdocs.helpers import Enumerator
 import re
 
 class MkDocsOwn(MkDocs):
