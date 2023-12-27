@@ -1,5 +1,5 @@
-,[gl](anim),,[gl](inan),
-,[gl](sg),[gl](pl),[gl](sg),[gl](pl)
-[gl](prox),[mp](kere-prox-anim?nt),[mp](keresantomo-prox-anim-pl?nt),[mp](eni-prox-inan?nt),[mp](enijne-prox-inan-pl?nt)
-medial/near?,[mp](michi-med-anim?nt) / [mp](misi-med-inan?nt) ,[mp](michisantomo-med-inan-pl?nt) / [mp](michitomo-med-inan-pl?nt),[mp](mere-med-inan?nt),
-[gl](dist),[mp](mejki-dist-anim?nt),[mp](mekisantomo-dist-anim-pl?nt),[mp](mejni-dist-inan?nt),[mp](mejnijne-dist-inan-pl?nt)
+,"[gl](anim)",,"[gl](inan)",
+,"[gl](sg)","[gl](pl)","[gl](sg)","[gl](pl)"
+"[gl](prox)","[mp](kere-prox-anim?nt)","[wf](keresantomo-prox-anim-pl?nt)","[m](eni-prox-inan?nt) / [m](seni-prox-inan?nt)","[f](eni-jne-prox-inan-pl?nt) / [f](seni-jne-prox-inan-pl?nt)"
+"medial/near?","[mp](michi-med-anim?nt) / [mp](misi-med-inan?nt) ","[wf](michisantomo-med-anim-pl?nt) / [wf](michitomo-med-anim-pl?nt)","[mp](mere-med-inan?nt)","[f](mere-jne-med-inan-pl?nt)"
+"[gl](dist)","[mp](mejki-dist-anim?nt)","[wf](mekisantomo-dist-anim-pl?nt)","[mp](mejni-dist-inan?nt)","[f](meni-jne-dist-inan-pl?nt)"

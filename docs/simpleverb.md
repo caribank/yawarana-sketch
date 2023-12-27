@@ -1,18 +1,12 @@
 # Simple verbal clauses [label](simpleverb)
-
-* order of arguments re: the verb (and each other)
-* case marking patterns
-* indexation
-* clausal particles
-
 * the minimal verbal clause consists of a single verb [exref](oneverb)
 * only inflectional morphology is (optional) [mp](ta-3) ([ref](sec:ta-3)), compare [exref](convhistfamsjm-235) with [exref](histpajirdi-107)
 * personal proclitics can occur on verb [exref](1clitic?end=12clitic); no transitive [gl](1+2) attested
     * usually express P, 2A attested
     * [mp](wire-1pro) and [mp](ejne-1-2pro) rarely cliticized
-* arguments can be expressed by pronouns
-* ...or nouns / noun phrases
-* free order?
+* arguments can be expressed by pronouns or nouns / noun phrases
+* "free" order
+* clausal particles?
 
 [ex](histtiggrme-28,histpajirdi-107?example_id=oneverb)
 [ex](convhistfamsjm-235)
@@ -22,9 +16,8 @@
 
 [ex](histyarirdi-939?example_id=12clitic)
 
-### Person proclitics
+## Person proclitics
 
-### Examples
 * Second person A
     * [mp](me2) marking A in [exref](2a)
     * subordinate clauses [exref](2sub) and [exref](1sub)

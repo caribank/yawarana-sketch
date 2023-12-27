@@ -2,9 +2,9 @@ paths:
   # cldf: ../yawarana-corpus-cldf/full/metadata.json
   cldf: cldf/metadata.json
   add_bib: extra/cariban.bib
-  audio: ../yawarana_corpus/audio
+  audio: ../corpus/audio
 data:
-  data: false
+  data: true
   rich: true
 output:
   readme: false
@@ -24,6 +24,7 @@ examples:
     🖉: http://localhost:5001/example/{id}
 lfts:
   show_language: false
+  show_source: false
 input:
   sublime: true
 releasing:

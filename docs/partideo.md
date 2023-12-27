@@ -11,10 +11,13 @@ Three kinds of particles elsewhere in the family:
 
 * prosodic effects?
 
-Hoff 1968 on second position particles ("sentence-level meanings")
+[todo](see Hoff 1968 on second position particles ["sentence-level meanings"])
 
 ## Ideophones
-* constructions with [mp](nwa-thus)? (example with _pïtï_ 'paint')
+* a construction with [mp](nwa-thus)?
+
+[ex](ctorosq-37)
+[ex](histyarirdi-142)
 
 ## Interjections
-* kind of particle?
+* can occur in isolation

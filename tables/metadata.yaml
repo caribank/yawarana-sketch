@@ -64,3 +64,9 @@ cliteria:
   caption: Behavior of person indices on different POS.
 a2:
   caption: Nouns taking second person _a(y)-_.
+clitic-criteria:
+  caption: Comparison of phonologically bound person markers.
+cliticity:
+  caption: Ratio of bound person markers compared to free pronouns.
+cliticity-seg:
+  caption: Ratio of bound person markers compared to free pronouns, split by initial segment.

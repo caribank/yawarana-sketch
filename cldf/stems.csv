@@ -36,6 +36,7 @@ aroma-limpet,yab,aroma,aroma-limpet,limpet,aroma,a r o m a,,,n
 aropoko-ball-game,yab,aropoko,aropoko-ball-game,ball game,aropoko,a r o p o k o,,,n
 asakontompene-four,yab,asakontompene,asakontompene-four,four,asakontompene,a s a k o n t o m p e n e,,,adv
 asake-two,yab,asakë,asake-two,two,asakë,a s a k ə,,,adv
+asakere-two,yab,asakërë,asake-two,two,asakërë,a s a k ə r ə,,,adv
 asare-get-stuck,yab,asarë,asare-get-stuck,get stuck,asarë,a s a r ə,,,vi
 asere-dry-cough,yab,asere,asere-dry-cough,dry cough,asere,a s e r e,,,n
 asuka-sugar,yab,asuka,asuka-sugar,sugar,asuka,a s u k a,,,n
@@ -45,12 +46,17 @@ awajpe-mountain-eagle,yab,awajpë,awajpe-mountain-eagle,mountain eagle,awajpë,a
 awarake-wasp-sp,yab,awarakë,awarake-wasp-sp,wasp sp.,awarakë,a w a r a k ə,,,n
 awochi-tumor,yab,awochi,awochi-tumor,tumor,awochi,a w o t͡ʃ i,,,n
 chai-son-voc,yab,chai,chai-son-voc,son (voc.),chai,t͡ʃ a i,,,n
+chapeti-squeal,yab,chapëtï,chapeti-squeal,squeal,chapëtï,t͡ʃ a p ə t ɨ,,,vi
+chapeti-squeal-1,yab,chapëti,chapeti-squeal,squeal,chapëti,t͡ʃ a p ə t i,,,vi
 chijchipu-body-movement,yab,chijchipu,chijchipu-body-movement,body movement,chijchipu,t͡ʃ i h t͡ʃ i p u,,,n
 chika-bite,yab,chika,chika-bite,bite,chika,t͡ʃ i k a,,,vt
+chikimu-knee,yab,chikimu,chikimu-knee,knee,chikimu,t͡ʃ i k i m u,,,n
+ichikimu-knee,yab,ichikimu,chikimu-knee,knee,ichikimu,i t͡ʃ i k i m u,,,n
 chike-chigger,yab,chikë,chike-chigger,chigger,chikë,t͡ʃ i k ə,,,n
 chima-path,yab,chima,chima-path,path,chima,t͡ʃ i m a,,,n
 chimichimi-worm-dog,yab,chimichimi,chimichimi-worm-dog,worm (dog),chimichimi,t͡ʃ i m i t͡ʃ i m i,,,n
 chipiyu-fungus-sp,yab,chipiyu,chipiyu-fungus-sp,fungus.sp,chipiyu,t͡ʃ i p i j u,,,n
+chipe-caranna,yab,chipë,chipe-caranna,caranna,chipë,t͡ʃ i p ə,,,n
 chiramu-mange,yab,chiramu,chiramu-mange,mange,chiramu,t͡ʃ i r a m u,,,n
 chirike-star,yab,chirikë,chirike-star,star,chirikë,t͡ʃ i r i k ə,,,n
 chiri-titi-monkey,yab,chiri,chiri-titi-monkey,titi monkey,chiri,t͡ʃ i r i,,,n
@@ -154,6 +160,7 @@ muku-child,yab,muku,muku-child,child,muku,m u k u,,,n
 mune-bulbous,yab,mune,mune-bulbous,bulbous,mune,m u n e,,,adv
 munta-budding,yab,munta,munta-budding,budding,munta,m u n t a,,,vi
 mejki-dist-anim,yab,mëjkï,mejki-dist-anim,DIST.ANIM,mëjkï,m ə h k ɨ,,,pn
+meki-dist-anim,yab,mëkï,mejki-dist-anim,DIST.ANIM,mëkï,m ə k ɨ,,,pn
 mere-2pro,yab,mërë,mere-2pro,2PRO,mërë,m ə r ə,,,pn
 mijna-there-all,yab,mïjna,mijna-there-all,there.ALL,mïjna,m ɨ h n a,,,adv
 minte-there-loc,yab,mïntë,minte-there-loc,there.LOC,mïntë,m ɨ n t ə,,,adv
@@ -173,6 +180,7 @@ nop-good,yab,nop,nope-good,good,nop,n o p,,,adv
 noro-parrot-sp,yab,noro,noro-parrot-sp,parrot.sp,noro,n o r o,,,n
 noti-potential-partner,yab,noti,noti-potential-partner,potential partner; cross cousin,noti,n o t i,,,n
 nta-mouth,yab,nta,nta-mouth,mouth,nta,n t a,,,n
+inta-mouth,yab,inta,nta-mouth,mouth,inta,i n t a,,,n
 nune-moon,yab,nunë,nune-moon,moon,nunë,n u n ə,,,n
 nu-tongue,yab,nu,nu-tongue,tongue,nu,n u,,,n
 nwajte-dance,yab,nwajtë,nwajte-dance,dance,nwajtë,n w a h t ə,,,vi
@@ -188,7 +196,10 @@ pakura-coix-lacryma-jobi,yab,pakura,pakura-coix-lacryma-jobi,Coix lacryma-jobi,p
 paku-arrow-tip,yab,paku,paku-arrow-tip,arrow tip,paku,p a k u,,,n
 pana-ear,yab,pana,pana-ear,ear,pana,p a n a,,,n
 pana-dat,yab,pana,pana-dat,DAT,pana,p a n a,,,postp
+panaima-give-advice,yab,panaima,panaima-give-advice,give advice,panaima,p a n a i m a,,,vt
 papa-father,yab,papa,papa-father,father,papa,p a p a,,,n
+parata-silver,yab,parata,parata-silver,silver,parata,p a r a t a,,,n
+pirata-silver,yab,pïrata,parata-silver,silver,pïrata,p ɨ r a t a,,,n
 parujpe-broth,yab,parujpë,parujpe-broth,broth,parujpë,p a r u h p ə,,,n
 pata-village,yab,pata,pata-village,village,pata,p a t a,,,n
 pata-axe,yab,pata,pata-axe,axe,pata,p a t a,,,n
@@ -208,18 +219,21 @@ pipi-younger-brother-of-woman,yab,pipi,pipi-younger-brother-of-woman,younger bro
 pirini-walk,yab,pirini,pirini-walk,walk,pirini,p i r i n i,,,vi
 pirini-walk-1,yab,pïrini,pirini-walk,walk,pïrini,p ɨ r i n i,,,vi
 pojte-want,yab,pojtë,pojte-want,want,pojtë,p o h t ə,,,vt
+pore-leg,yab,pore,pore-leg,leg,pore,p o r e,,,n
 poroko-basket-sp,yab,poroko,poroko-basket-sp,basket.sp,poroko,p o r o k o,,,n
 poseti-belly,yab,poseti,poseti-belly,belly,poseti,p o s e t i,,,n
 pota-mouth,yab,pota,pota-mouth,mouth; shore,pota,p o t a,,,n
 poye-above,yab,poye,poye-above,above,poye,p o j e,,,postp
 punu-flesh,yab,punu,punu-flesh,flesh,punu,p u n u,,,n
 pun-flesh,yab,pun,punu-flesh,flesh,pun,p u n,,,n
+puri-older,yab,puri,puri-older,older,puri,p u r i,,,n
 putu-feel,yab,putu,putu-feel,feel,putu,p u t u,,,vt
 peke-about,yab,pëkë,peke-about,about,pëkë,p ə k ə,,,postp
 poko-about,yab,poko,peke-about,about,poko,p o k o,,,postp
 penaka-return,yab,pënaka,penaka-return,return,pënaka,p ə n a k a,Maybe derived with [mp](kavbz).,,vt
 pimi-neck,yab,pïmï,pimi-neck,neck,pïmï,p ɨ m ɨ,,,n
 pirika-endure,yab,pïrïka,pirika-endure,endure,pïrïka,p ɨ r ɨ k a,,,vt
+piti-paint,yab,pïtï,piti-paint,paint,pïtï,p ɨ t ɨ,,,vt
 roka-wash,yab,roka,roka-wash,wash,roka,r o k a,,,vt
 roko-crazy,yab,roko,roko-crazy,crazy,roko,r o k o,,,n
 romoye-downriver,yab,romoye,romoye-downriver,downriver,romoye,r o m o j e,,,adv
@@ -262,8 +276,6 @@ taj-say,yab,taj,taro-say,say,taj,t a h,,,vt
 ta-say,yab,ta,taro-say,say,ta,t a,,,vt
 tawani-darkness,yab,tawani,tawani-darkness,darkness,tawani,t a w a n i,,,n
 tawa-nyctidromus-albicollis,yab,tawa,tawa-nyctidromus-albicollis,nyctidromus albicollis,tawa,t a w a,,,n
-tejwetunu-sick,yab,tejwetunu,tejwetunu-sick,sick,tejwetunu,t e h w e t u n u,,,n
-tejetum-sick,yab,tejetum,tejwetunu-sick,sick,tejetum,t e h e t u m,,,n
 temeki-defend,yab,temekï,temeki-defend,defend,temekï,t e m e k ɨ,,,vt
 semeki-defend,yab,semekï,temeki-defend,defend,semekï,s e m e k ɨ,,,vt
 semej-defend,yab,semej,temeki-defend,defend,semej,s e m e h,,,vt
@@ -282,9 +294,10 @@ teijpo-far,yab,tëijpo,teijpo-far,far; long,tëijpo,t ə i h p o,,,adv
 teijpe-far,yab,tëijpë,teijpo-far,far; long,tëijpë,t ə i h p ə,,,adv
 teijpo-far-1,yab,teijpo,teijpo-far,far; long,teijpo,t e i h p o,,,adv
 tejta-hollow,yab,tëjta,tejta-hollow,hollow,tëjta,t ə h t a,,,n
+tenesemi-fish,yab,tënësemï,tenesemi-fish,fish,tënësemï,t ə n ə s e m ɨ,Etymologically morphologically complex.,,n
+tenesem-fish,yab,tënësem,tenesemi-fish,fish,tënësem,t ə n ə s e m,Etymologically morphologically complex.,,n
 tewi-3pro,yab,tëwï,tewi-3pro,3PRO,tëwï,t ə w ɨ,,,pn
-tewisantomo-3pro-pl,yab,tëwïsantomo,tewisantomo-3pro-pl,3PRO.PL,tëwïsantomo,t ə w ɨ s a n t o m o,,,pn
-tewisanton-3pro-pl,yab,tëwïsanton,tewisantomo-3pro-pl,3PRO.PL,tëwïsanton,t ə w ɨ s a n t o n,,,pn
+ta-3pro,yab,ta,tewi-3pro,3PRO,ta,t a,,,pn
 waijta-mouse,yab,waijta,waijta-mouse,mouse,waijta,w a i h t a,,,n
 waijte-head,yab,waijtë,waijte-head,head,waijtë,w a i h t ə,,,n
 waimu-language,yab,waimu,waimu-language,language,waimu,w a i m u,,,n
@@ -309,6 +322,8 @@ wasai-attalea-maripa,yab,wasai,wasayi-attalea-maripa,attalea maripa,wasai,w a s 
 wati-burn,yab,watï,wati-burn,burn,watï,w a t ɨ,,,vi
 waj-burn,yab,waj,wati-burn,burn,waj,w a h,,,vi
 wawe-loc-aq,yab,wawë,wawe-loc-aq,LOC.AQ,wawë,w a w ə,,,postp
+wejyaka-into-house-of,yab,wejyaka,wejyaka-into-house-of,into house of,wejyaka,w e h j a k a,,,postp
+wejyate-in-house-of,yab,wejyatë,wejyate-in-house-of,in house of,wejyatë,w e h j a t ə,,,postp
 weka-defecate,yab,weka,weka-defecate,defecate,weka,w e k a,,,vi
 wena-vomit,yab,wena,wena-vomit,vomit,wena,w e n a,,,n
 wenkepi-forget,yab,wenkepï,wenkepi-forget,forget,wenkepï,w e n k e p ɨ,,,vi
@@ -350,6 +365,7 @@ yaniki-call,yab,yanïkï,yaniki-call,call,yanïkï,j a n ɨ k ɨ,,,vt
 yanij-call,yab,yanïj,yaniki-call,call,yanïj,j a n ɨ h,,,vt
 yapijtomo-old,yab,yapijtomo,yapijtomo-old,old,yapijtomo,j a p i h t o m o,Fossilized _-tomo_.,,n
 yapijton-old,yab,yapijton,yapijtomo-old,old,yapijton,j a p i h t o n,Fossilized _-tomo_.,,n
+yapijtom-old,yab,yapijtom,yapijtomo-old,old,yapijtom,j a p i h t o m,Fossilized _-tomo_.,,n
 yapechi-grab,yab,yapëchi,yapechi-grab,grab,yapëchi,j a p ə t͡ʃ i,,,vt
 yapej-grab,yab,yapëj,yapechi-grab,grab,yapëj,j a p ə h,,,vt
 yapichi-grab,yab,yapïchi,yapechi-grab,grab,yapïchi,j a p ɨ t͡ʃ i,,,vt
@@ -365,6 +381,7 @@ yatun-day,yab,yatun,yatunu-day,day; sun,yatun,j a t u n,,,n
 yate-loc,yab,yatë,yate-loc,LOC,yatë,j a t ə,,,postp
 yawaka-sow,yab,yawaka,yawaka-sow,sow,yawaka,j a w a k a,,,vt
 yawaki-grate,yab,yawakï,yawaki-grate,grate,yawakï,j a w a k ɨ,,,vt
+yawaj-grate,yab,yawaj,yawaki-grate,grate,yawaj,j a w a h,,,vt
 yawanka-kill,yab,yawanka,yawanka-kill,kill,yawanka,j a w a n k a,,,vt
 yaye-loc,yab,yaye,yaye-loc,LOC,yaye,j a j e,,,postp
 yemekunu-five,yab,yemekunu,yemekunu-five,five,yemekunu,j e m e k u n u,,,n
@@ -525,6 +542,14 @@ maijte-go-imp,yab,maijtë,maijte-go-imp,go.IMP,maijtë,m a i h t ə,,,vi
 ejnomo-ejnomo,yab,ejnomo,ejnomo-ejnomo,ejnomo,ejnomo,e h n o m o,mother of the water,,n
 enirepeke-recently,yab,enirëpëke,enirepeke-recently,recently,enirëpëke,e n i r ə p ə k e,,,adv
 meresantomo-med-inan-pl,yab,mërësantomo,meresantomo-med-inan-pl,MED.INAN.PL,mërësantomo,m ə r ə s a n t o m o,,,pn
+mente-here,yab,mëntë,mente-here,here,mëntë,m ə n t ə,,,adv
+mete-here,yab,mëtë,mente-here,here,mëtë,m ə t ə,,,adv
+ejwetunu-sick,yab,ejwetunu,ejwetunu-sick,sick,ejwetunu,e h w e t u n u,,,n
+ejetum-sick,yab,ejetum,ejwetunu-sick,sick,ejetum,e h e t u m,,,n
+penare-ancestor,yab,penarë,penare-ancestor,ancestor,penarë,p e n a r ə,,,n
+yeneka-take-away,yab,yeneka,yeneka-take-away,take away,yeneka,j e n e k a,,,vt
+yakijte-sleep-with,yab,yakïjtë,yakijte-sleep-with,sleep with,yakïjtë,j a k ɨ h t ə,,,vt
+chayi-son,yab,chayi,chayi-son,son,chayi,t͡ʃ a j i,,,n
 sujta-urinate,yab,sujta,sujta-urinate,urinate,suj ta,s u h t a,,,vi
 kaimota-hunt,yab,kaimota,kaimota-hunt,hunt,kaimo ta,k a i m o t a,,,vi
 meteta-thin,yab,mëtëta,meteta-thin,thin,mëtë ta,m ə t ə t a,,,vi
@@ -606,155 +631,115 @@ tepeti-go-plur,yab,tëpëti,tepeti-go-plur,go (PLUR),të pëti,t ə p ə t i,,,v
 sejpeti-dream,yab,sejpëti,sejpeti-dream,dream,sej pëti,s e h p ə t i,,,vi
 sejpej-dream,yab,sejpëj,sejpeti-dream,dream,sej pëj,s e h p ə h,,,vi
 mujnajte-bury,yab,mujnajtë,mujnajte-bury,bury,mujna jtë,m u h n a h t ə,,,vt
-ajpachike-undergrowth-prop,yab,ajpachi-ke,ajpachike-undergrowth-prop,undergrowth-PROP,ajpachi ke,,,,
-asereke-dry-cough-prop,yab,asere-ke,asereke-dry-cough-prop,dry_cough-PROP,asere ke,,,,
-enirono-now-nmlz,yab,eniro-no,enirono-now-nmlz,now-NMLZ; today-NMLZ,eniro no,,,,
-ijmokani-cook-agtnmlz,yab,ijmoka-ni,ijmokani-cook-agtnmlz,cook-AGTNMLZ,ijmoka ni,,,,
-kaimoke-game-prop,yab,kaimo-ke,kaimoke-game-prop,game-PROP,kaimo ke,,,,
-kamparake-big-prop,yab,kampara-ke,kamparake-big-prop,big-PROP,kampara ke,,,,
-kereke-old-prop,yab,kërë-ke,kereke-old-prop,old-PROP,kërë ke,,,,
-nonoke-earth-prop,yab,nono-ke,nonoke-earth-prop,earth-PROP,nono ke,,,,
-nopano-good-nmlz,yab,nop-ano,nopano-good-nmlz,good-NMLZ,nop ano,,,,
-panake-ear-prop,yab,pana-ke,panake-ear-prop,ear-PROP,pana ke,,,,
-pejmani-bewitch-agtnmlz,yab,pejma-ni,pejmani-bewitch-agtnmlz,bewitch-AGTNMLZ,pej ma ni,,,,
-teijpono-far-nmlz,yab,teijpo-no,teijpono-far-nmlz,far-NMLZ; long-NMLZ,teijpo no,,,,
-tejporemi-tasty-nmlz,yab,tejpore-mï,tejporemi-tasty-nmlz,tasty-NMLZ,tejpo re mï,,,,
-tajtoj-say-circ-nmlz,yab,taj-toj,tajtoj-say-circ-nmlz,say-CIRC.NMLZ,taj toj,,,,
-sereke-bitter-manioc-prop,yab,sere-ke,sereke-bitter-manioc-prop,bitter_manioc-PROP,sere ke,,,,
-yemepeti-eat-fruits-eggs-soup-plur,yab,yeme-pëti,yemepeti-eat-fruits-eggs-soup-plur,eat(fruits_eggs_soup)-PLUR,yeme pëti,,,,
-enireno-now-nmlz,yab,enirë-no,enireno-now-nmlz,now-NMLZ; today-NMLZ,enirë no,,,,
-yaweno-loc-nmlz,yab,yawë-no,yaweno-loc-nmlz,LOC-NMLZ,yawë no,,,,
-ijmojkatopo-cook-circ-nmlz,yab,ijmojka-topo,ijmojkatopo-cook-circ-nmlz,cook-CIRC.NMLZ,ijmojka topo,,,,
-kani-take-out-agtnmlz,yab,ka-ni,kani-take-out-agtnmlz,take_out-AGTNMLZ,ka ni,,,,
-empampej-learn-plur,yab,ëmpam-pëj,empampej-learn-plur,learn-PLUR,ëmpam pëj,,,,
-moronkapo-make-suffer-des,yab,moronka-po,moronkapo-make-suffer-des,make_suffer-DES,moron ka po,,,,
-taropo-say-des,yab,taro-po,taropo-say-des,say-DES,taro po,,,,
-empamtoj-learn-circ-nmlz,yab,ëmpam-toj,empamtoj-learn-circ-nmlz,learn-CIRC.NMLZ,ëmpam toj,,,,
-tajpeti-say-plur,yab,taj-pëti,tajpeti-say-plur,say-PLUR,taj pëti,,,,
-wejpo-come-des,yab,wej-po,wejpo-come-des,come-DES,wej po,,,,
-yepematopo-pay-circ-nmlz,yab,yepema-topo,yepematopo-pay-circ-nmlz,pay-CIRC.NMLZ,yepema topo,,,,
-warotatopo-work-circ-nmlz,yab,warota-topo,warotatopo-work-circ-nmlz,work-CIRC.NMLZ,warota topo,,,,
-serekapo-become-tired-des,yab,sereka-po,serekapo-become-tired-des,become_tired-DES,s ereka po,,,,
-pokono-about-nmlz,yab,poko-no,pokono-about-nmlz,about-NMLZ,poko no,,,,
-yarikatopo-laugh-circ-nmlz,yab,yarika-topo,yarikatopo-laugh-circ-nmlz,laugh-CIRC.NMLZ,yarika topo,,,,
-itapo-hear-des,yab,ita-po,itapo-hear-des,hear-DES,ita po,,,,
-yaruwatopo-laugh-circ-nmlz,yab,yaruwa-topo,yaruwatopo-laugh-circ-nmlz,laugh-CIRC.NMLZ,yaruwa topo,,,,
-yakaramapeti-tell-plur,yab,yakarama-pëti,yakaramapeti-tell-plur,tell-PLUR,yakara ma pëti,,,,
-yeneni-eat-meat-agtnmlz,yab,yënë-ni,yeneni-eat-meat-agtnmlz,eat(meat)-AGTNMLZ,yënë ni,,,,
-ekejna-where-nmlz,yab,ëkëj-na,ekejna-where-nmlz,where-NMLZ,ëkëj na,,,,
-yapejpej-grab-plur,yab,yapëj-pëj,yapejpej-grab-plur,grab-PLUR,yapëj pëj,,,,
-mukupijke-child-dim,yab,muku-pïjkë,mukupijke-child-dim,child-DIM,muku pïjkë,,,,
-tepej-go-plur,yab,të-pëj,tepej-go-plur,go-PLUR,të pëj,,,,
-yenepej-eat-meat-plur,yab,yënë-pëj,yenepej-eat-meat-plur,eat(meat)-PLUR,yënë pëj,,,,
-tena-loc-nmlz,yab,të-na,tena-loc-nmlz,LOC-NMLZ,të na,,,,
-tampapeti-become-angry-plur,yab,tampa-pëti,tampapeti-become-angry-plur,become_angry-PLUR,tampa pëti,,,,
-samopeti-cry-plur,yab,samo-pëti,samopeti-cry-plur,cry-PLUR,samo pëti,,,,
-tajrominke-bad-omen-prop,yab,tajromin-ke,tajrominke-bad-omen-prop,bad_omen-PROP,tajromin ke,,,,
-semapej-die-plur,yab,sëma-pëj,semapej-die-plur,die-PLUR,sëma pëj,,,,
-wenkejpej-forget-plur,yab,wënkej-pëj,wenkejpej-forget-plur,forget-PLUR,wënkej pëj,,,,
-tapej-say-plur,yab,ta-pëj,tapej-say-plur,say-PLUR,ta pëj,,,,
-enteno-here-loc-nmlz,yab,entë-no,enteno-here-loc-nmlz,here.LOC-NMLZ,entë no,,,,
-yenpo-drink-des,yab,yën-po,yenpo-drink-des,drink-DES,yën po,,,,
-yempekapeti-offend-plur,yab,yëmpëka-pëti,yempekapeti-offend-plur,offend-PLUR,yëmpëka pëti,,,,
-ijmojkani-cook-agtnmlz,yab,ijmojka-ni,ijmojkani-cook-agtnmlz,cook-AGTNMLZ,ijmojka ni,,,,
-itopo-put-circ-nmlz,yab,i-topo,itopo-put-circ-nmlz,put-CIRC.NMLZ,i topo,,,,
-yantopo-pick-up-circ-nmlz,yab,yan-topo,yantopo-pick-up-circ-nmlz,pick_up-CIRC.NMLZ,yan topo,,,,
-apono-later-nmlz,yab,apo-no,apono-later-nmlz,later-NMLZ; meanwhile-NMLZ,apo no,,,,
-moronemi-hurting-nmlz,yab,morone-mï,moronemi-hurting-nmlz,hurting-NMLZ,morone mï,,,,
-enirem-now-nmlz,yab,enirë-m,enirem-now-nmlz,now-NMLZ; today-NMLZ,enirë m,,,,
-tojpapeti-hit-plur,yab,tojpa-pëti,tojpapeti-hit-plur,hit-PLUR,tojpa pëti,,,,
-tani-say-agtnmlz,yab,ta-ni,tani-say-agtnmlz,say-AGTNMLZ,ta ni,,,,
-enijpeteno-one-nmlz,yab,enijpëtë-no,enijpeteno-one-nmlz,one-NMLZ,enijpëtë no,,,,
-yampej-pick-up-plur,yab,yam-pëj,yampej-pick-up-plur,pick_up-PLUR,yam pëj,,,,
-epepej-escape-plur,yab,epe-pëj,epepej-escape-plur,escape-PLUR; hide_and_seek-PLUR,epe pëj,,,,
-wepej-kill-plur,yab,wë-pëj,wepej-kill-plur,kill-PLUR,wë pëj,,,,
-tajtopo-say-circ-nmlz,yab,taj-topo,tajtopo-say-circ-nmlz,say-CIRC.NMLZ,taj topo,,,,
-rokotapeti-become-crazy-plur,yab,rokota-pëti,rokotapeti-become-crazy-plur,become_crazy-PLUR,roko ta pëti,,,,
-wajpej-burn-plur,yab,waj-pëj,wajpej-burn-plur,burn-PLUR,waj pëj,,,,
-yeke-tooth-prop,yab,ye-ke,yeke-tooth-prop,tooth-PROP,ye ke,,,,
-pojtepo-want-des,yab,pojtë-po,pojtepo-want-des,want-DES,pojtë po,,,,
-naijtopo-do-circ-nmlz,yab,naij-topo,naijtopo-do-circ-nmlz,do-CIRC.NMLZ,naij topo,,,,
-senkapeti-finish-plur,yab,s-ënka-pëti,senkapeti-finish-plur,finish-PLUR,s ënka pëti,,,,
-senkapej-finish-plur,yab,s-ënka-pëj,senkapej-finish-plur,finish-PLUR,s ënka pëj,,,,
-minteno-there-loc-nmlz,yab,mïntë-no,minteno-there-loc-nmlz,there.LOC-NMLZ,mïntë no,,,,
-tuni-give-agtnmlz,yab,tu-ni,tuni-give-agtnmlz,give-AGTNMLZ,tu ni,,,,
-wejkapeti-fall-plur,yab,wëjka-pëti,wejkapeti-fall-plur,fall-PLUR,wëjka pëti,,,,
-yapejpo-grab-des,yab,yapëj-po,yapejpo-grab-des,grab-DES,yapëj po,,,,
-karasakemi-white-nmlz,yab,karasake-mï,karasakemi-white-nmlz,white-NMLZ,karasake mï,,,,
-asakeno-two-nmlz,yab,asakë-no,asakeno-two-nmlz,two-NMLZ,asakë no,,,,
-ipo-put-des,yab,i-po,ipo-put-des,put-DES,i po,,,,
-sematopo-die-circ-nmlz,yab,sëma-topo,sematopo-die-circ-nmlz,die-CIRC.NMLZ,sëma topo,,,,
-empampo-learn-des,yab,ëmpam-po,empampo-learn-des,learn-DES,ëmpam po,,,,
-winijpo-sleep-des,yab,wïnïj-po,winijpo-sleep-des,sleep-DES,wïnïj po,,,,
-yojtopo-eat-starch-circ-nmlz,yab,yoj-topo,yojtopo-eat-starch-circ-nmlz,eat(starch)-CIRC.NMLZ,yoj topo,,,,
-sukasemi-all-nmlz,yab,sukase-mï,sukasemi-all-nmlz,all-NMLZ,sukase mï,,,,
-wejtetoj-go-down-circ-nmlz,yab,wëjtë-toj,wejtetoj-go-down-circ-nmlz,go_down-CIRC.NMLZ,wëjtë toj,,,,
-senkatoj-finish-circ-nmlz,yab,s-ënka-toj,senkatoj-finish-circ-nmlz,finish-CIRC.NMLZ,s ënka toj,,,,
-chijtoj-cop-circ-nmlz,yab,chij-toj,chijtoj-cop-circ-nmlz,COP-CIRC.NMLZ,chij toj,,,,
-nemepeti-leave-plur,yab,nëmë-pëti,nemepeti-leave-plur,leave-PLUR,nëmë pëti,,,,
-yujwapeti-burn-plur,yab,yujwa-pëti,yujwapeti-burn-plur,burn-PLUR,yujwa pëti,,,,
-keyatapej-grow-plur,yab,këyata-pëj,keyatapej-grow-plur,grow-PLUR,këya ta pëj,,,,
-asamopej-cry-plur,yab,asamo-pëj,asamopej-cry-plur,cry-PLUR,asamo pëj,,,,
-papapijke-father-dim,yab,papa-pïjkë,papapijke-father-dim,father-DIM,papa pïjkë,,,,
-yawankatoj-kill-circ-nmlz,yab,yawanka-toj,yawankatoj-kill-circ-nmlz,kill-CIRC.NMLZ,yawanka toj,,,,
-yamanpej-make-plur,yab,yaman-pëj,yamanpej-make-plur,make-PLUR,yaman pëj,,,,
-poyeno-above-nmlz,yab,poye-no,poyeno-above-nmlz,above-NMLZ,poye no,,,,
-yenepepej-send-away-plur,yab,yenepe-pëj,yenepepej-send-away-plur,send_away-PLUR,yenepe pëj,,,,
-wejpej-come-plur,yab,wej-pëj,wejpej-come-plur,come-PLUR,wej pëj,,,,
-yawankapej-kill-plur,yab,yawanka-pëj,yawankapej-kill-plur,kill-PLUR,yawanka pëj,,,,
-yaketepej-cut-plur,yab,yakëtë-pëj,yaketepej-cut-plur,cut-PLUR,yakëtë pëj,,,,
-yawono-loc-nmlz,yab,yawo-no,yawono-loc-nmlz,LOC-NMLZ,yawo no,,,,
-yemepo-eat-fruits-eggs-soup-des,yab,yeme-po,yemepo-eat-fruits-eggs-soup-des,eat(fruits_eggs_soup)-DES,yeme po,,,,
-nopan-good-nmlz,yab,nop-an,nopan-good-nmlz,good-NMLZ,nop an,,,,
-wetopo-kill-circ-nmlz,yab,wë-topo,wetopo-kill-circ-nmlz,kill-CIRC.NMLZ,wë topo,,,,
-tapiremi-red-nmlz,yab,tapire-mï,tapiremi-red-nmlz,red-NMLZ,tapi re mï,,,,
-waraijtoke-husband-prop,yab,waraijto-ke,waraijtoke-husband-prop,husband-PROP,waraijto ke,,,,
-patakapeti-take-out-plur,yab,pataka-pëti,patakapeti-take-out-plur,take_out-PLUR,pata ka pëti,,,,
-esemapo-die-des,yab,ësëma-po,esemapo-die-des,die-DES,ësëma po,,,,
-semapo-die-des,yab,sëma-po,semapo-die-des,die-DES,sëma po,,,,
-wurijyampijke-woman-dim,yab,wurijyam-pïjkë,wurijyampijke-woman-dim,woman-DIM,wurijyam pïjkë,,,,
-naijpeti-do-plur,yab,naij-pëti,naijpeti-do-plur,do-PLUR,naij pëti,,,,
-inpeti-see-plur,yab,in-pëti,inpeti-see-plur,see-PLUR,in pëti,,,,
-tipapej-go-in-group-plur,yab,tipa-pëj,tipapej-go-in-group-plur,go_in_group-PLUR,tipa pëj,,,,
-mukuke-child-prop,yab,muku-ke,mukuke-child-prop,child-PROP,muku ke,,,,
-karasakem-white-nmlz,yab,karasake-m,karasakem-white-nmlz,white-NMLZ,karasake m,,,,
-yenepo-eat-meat-des,yab,yënë-po,yenepo-eat-meat-des,eat(meat)-DES,yënë po,,,,
-weretapej-arrive-plur,yab,wereta-pëj,weretapej-arrive-plur,arrive-PLUR,wereta pëj,,,,
-winijpej-sleep-plur,yab,wïnïj-pëj,winijpej-sleep-plur,sleep-PLUR,wïnïj pëj,,,,
-yantoj-pick-up-circ-nmlz,yab,yan-toj,yantoj-pick-up-circ-nmlz,pick_up-CIRC.NMLZ,yan toj,,,,
-atike-plot-of-cultivated-land-prop,yab,ati-ke,atike-plot-of-cultivated-land-prop,plot_of_cultivated_land-PROP,ati ke,,,,
-inpo-see-des,yab,in-po,inpo-see-des,see-DES,in po,,,,
-esemapej-die-plur,yab,ësëma-pëj,esemapej-die-plur,die-PLUR,ësëma pëj,,,,
-ejpenakapeti-return-plur,yab,ëjpënaka-pëti,ejpenakapeti-return-plur,return-PLUR,ëj pënaka pëti,,,,
-yampo-pick-up-des,yab,yam-po,yampo-pick-up-des,pick_up-DES,yam po,,,,
-kamwiyajkapo-change-des,yab,kamwiyajka-po,kamwiyajkapo-change-des,change-DES,kamwiyajka po,,,,
-yanepijke-mother-dim,yab,yanë-pïjkë,yanepijke-mother-dim,mother-DIM,yanë pïjkë,,,,
-tupo-give-des,yab,tu-po,tupo-give-des,give-DES,tu po,,,,
-teijpono-far-nmlz-1,yab,tëijpo-no,teijpono-far-nmlz-1,far-NMLZ; long-NMLZ,tëijpo no,,,,
-tojpapej-hit-plur,yab,tojpa-pëj,tojpapej-hit-plur,hit-PLUR,tojpa pëj,,,,
-pojteni-want-agtnmlz,yab,pojtë-ni,pojteni-want-agtnmlz,want-AGTNMLZ,pojtë ni,,,,
-warotapo-work-des,yab,warota-po,warotapo-work-des,work-DES,warota po,,,,
-wejpeti-come-plur,yab,wej-pëti,wejpeti-come-plur,come-PLUR,wej pëti,,,,
-wejkatopo-fall-circ-nmlz,yab,wëjka-topo,wejkatopo-fall-circ-nmlz,fall-CIRC.NMLZ,wëjka topo,,,,
-ipej-put-plur,yab,i-pëj,ipej-put-plur,put-PLUR,i pëj,,,,
-itapej-hear-plur,yab,ita-pëj,itapej-hear-plur,hear-PLUR,ita pëj,,,,
-yarepej-bring-plur,yab,yarë-pëj,yarepej-bring-plur,bring-PLUR,yarë pëj,,,,
-yapejpeti-grab-plur,yab,yapëj-pëti,yapejpeti-grab-plur,grab-PLUR,yapëj pëti,,,,
-waimuruntopo-speak-circ-nmlz,yab,waimurun-topo,waimuruntopo-speak-circ-nmlz,speak-CIRC.NMLZ,waimurun topo,,,,
-semopej-cry-plur,yab,sëmo-pëj,semopej-cry-plur,cry-PLUR,sëmo pëj,,,,
-tetopo-go-circ-nmlz,yab,të-topo,tetopo-go-circ-nmlz,go-CIRC.NMLZ,të topo,,,,
-kaimotatopo-hunt-circ-nmlz,yab,kaimota-topo,kaimotatopo-hunt-circ-nmlz,hunt-CIRC.NMLZ,kaimo ta topo,,,,
-enirom-now-nmlz,yab,eniro-m,enirom-now-nmlz,now-NMLZ; today-NMLZ,eniro m,,,,
-sempinujtopo-close-eyes-circ-nmlz,yab,sëmpinuj-topo,sempinujtopo-close-eyes-circ-nmlz,close_eyes-CIRC.NMLZ,sëmpinuj topo,,,,
-yojmatopo-mix-circ-nmlz,yab,yojma-topo,yojmatopo-mix-circ-nmlz,mix-CIRC.NMLZ,yojma topo,,,,
-kerepijke-old-dim,yab,kërë-pïjkë,kerepijke-old-dim,old-DIM,kërë pïjkë,,,,
-yateno-loc-nmlz,yab,yatë-no,yateno-loc-nmlz,LOC-NMLZ,yatë no,,,,
-yemetopo-eat-fruits-eggs-soup-circ-nmlz,yab,yeme-topo,yemetopo-eat-fruits-eggs-soup-circ-nmlz,eat(fruits_eggs_soup)-CIRC.NMLZ,yeme topo,,,,
-teano-loc-nmlz,yab,të-ano,teano-loc-nmlz,LOC-NMLZ,të ano,,,,
-yempekapo-offend-des,yab,yëmpëka-po,yempekapo-offend-des,offend-DES,yëmpëka po,,,,
-wintikapej-disappear-plur,yab,wintika-pëj,wintikapej-disappear-plur,disappear-PLUR,wintika pëj,,,,
-waimurunpej-speak-plur,yab,waimurun-pëj,waimurunpej-speak-plur,speak-PLUR,waimurun pëj,,,,
-waimupo-speak-des,yab,waimu-po,waimupo-speak-des,speak-DES,waimu po,,,,
-yareni-bring-agtnmlz,yab,yarë-ni,yareni-bring-agtnmlz,bring-AGTNMLZ,yarë ni,,,,
-wontoj-enter-circ-nmlz,yab,won-toj,wontoj-enter-circ-nmlz,enter-CIRC.NMLZ,won toj,,,,
-nejpeti-bring-plur,yab,nej-pëti,nejpeti-bring-plur,bring-PLUR,nej pëti,,,,
+ajpachike-undergrowth-prop,yab,ajpachi-ke,ajpachike-undergrowth-prop,undergrowth-PROP,ajpachi ke,,,,adv
+asereke-dry-cough-prop,yab,asere-ke,asereke-dry-cough-prop,dry_cough-PROP,asere ke,,,,adv
+enirono-now-nmlz,yab,eniro-no,enirono-now-nmlz,now-NMLZ; today-NMLZ,eniro no,,,,n
+ijmokani-cook-agtnmlz,yab,ijmoka-ni,ijmokani-cook-agtnmlz,cook-AGTNMLZ,ijmoka ni,,,,n
+kaimoke-game-prop,yab,kaimo-ke,kaimoke-game-prop,game-PROP,kaimo ke,,,,adv
+kamparake-big-prop,yab,kampara-ke,kamparake-big-prop,big-PROP,kampara ke,,,,adv
+kereke-old-prop,yab,kërë-ke,kereke-old-prop,old-PROP,kërë ke,,,,adv
+nonoke-earth-prop,yab,nono-ke,nonoke-earth-prop,earth-PROP,nono ke,,,,n
+nopano-good-nmlz,yab,nop-ano,nopano-good-nmlz,good-NMLZ,nop ano,,,,n
+panake-ear-prop,yab,pana-ke,panake-ear-prop,ear-PROP,pana ke,,,,adv
+pejmani-bewitch-agtnmlz,yab,pejma-ni,pejmani-bewitch-agtnmlz,bewitch-AGTNMLZ,pej ma ni,,,,n
+teijpono-far-nmlz,yab,teijpo-no,teijpono-far-nmlz,far-NMLZ; long-NMLZ,teijpo no,,,,n
+tejporemi-tasty-nmlz,yab,tejpore-mï,tejporemi-tasty-nmlz,tasty-NMLZ,tejpo re mï,,,,n
+sereke-bitter-manioc-prop,yab,sere-ke,sereke-bitter-manioc-prop,bitter_manioc-PROP,sere ke,,,,adv
+yemepeti-eat-fruits-eggs-soup-plur,yab,yeme-pëti,yemepeti-eat-fruits-eggs-soup-plur,eat(fruits_eggs_soup)-PLUR,yeme pëti,,,,vt
+enireno-now-nmlz,yab,enirë-no,enireno-now-nmlz,now-NMLZ; today-NMLZ,enirë no,,,,n
+yojteni-fish-with-hook-agtnmlz,yab,yojtë-ni,yojteni-fish-with-hook-agtnmlz,fish_with_hook-AGTNMLZ,yojtë ni,,,,n
+iyajteni-care-for-agtnmlz,yab,iyajtë-ni,iyajteni-care-for-agtnmlz,care_for-AGTNMLZ,iyajtë ni,,,,n
+keyamani-raise-agtnmlz,yab,këyama-ni,keyamani-raise-agtnmlz,raise-AGTNMLZ,këya ma ni,,,,n
+yaweno-loc-nmlz,yab,yawë-no,yaweno-loc-nmlz,LOC-NMLZ,yawë no,,,,n
+ijmojkatopo-cook-circ-nmlz,yab,ijmojka-topo,ijmojkatopo-cook-circ-nmlz,cook-CIRC.NMLZ,ijmojka topo,,,,n
+kani-take-out-agtnmlz,yab,ka-ni,kani-take-out-agtnmlz,take_out-AGTNMLZ,ka ni,,,,n
+moronkapo-make-suffer-des,yab,moronka-po,moronkapo-make-suffer-des,make_suffer-DES,moron ka po,,,,vt
+taropo-say-des,yab,taro-po,taropo-say-des,say-DES,taro po,,,,vt
+yepematopo-pay-circ-nmlz,yab,yepema-topo,yepematopo-pay-circ-nmlz,pay-CIRC.NMLZ,yepema topo,,,,n
+warotatopo-work-circ-nmlz,yab,warota-topo,warotatopo-work-circ-nmlz,work-CIRC.NMLZ,warota topo,,,,n
+serekapo-become-tired-des,yab,sereka-po,serekapo-become-tired-des,become_tired-DES,s ereka po,,,,vi
+yarikatopo-laugh-circ-nmlz,yab,yarika-topo,yarikatopo-laugh-circ-nmlz,laugh-CIRC.NMLZ,yarika topo,,,,n
+itapo-hear-des,yab,ita-po,itapo-hear-des,hear-DES,ita po,,,,vt
+yaruwatopo-laugh-circ-nmlz,yab,yaruwa-topo,yaruwatopo-laugh-circ-nmlz,laugh-CIRC.NMLZ,yaruwa topo,,,,n
+yakaramapeti-tell-plur,yab,yakarama-pëti,yakaramapeti-tell-plur,tell-PLUR,yakara ma pëti,,,,vt
+yeneni-eat-meat-agtnmlz,yab,yënë-ni,yeneni-eat-meat-agtnmlz,eat(meat)-AGTNMLZ,yënë ni,,,,n
+mukupijke-child-dim,yab,muku-pïjkë,mukupijke-child-dim,child-DIM,muku pïjkë,,,,n
+tepej-go-plur,yab,të-pëj,tepej-go-plur,go-PLUR,të pëj,,,,vi
+yenepej-eat-meat-plur,yab,yënë-pëj,yenepej-eat-meat-plur,eat(meat)-PLUR,yënë pëj,,,,vt
+tampapeti-become-angry-plur,yab,tampa-pëti,tampapeti-become-angry-plur,become_angry-PLUR,tampa pëti,,,,vi
+samopeti-cry-plur,yab,samo-pëti,samopeti-cry-plur,cry-PLUR,samo pëti,,,,vi
+semapej-die-plur,yab,sëma-pëj,semapej-die-plur,die-PLUR,sëma pëj,,,,vi
+enteno-here-loc-nmlz,yab,entë-no,enteno-here-loc-nmlz,here.LOC-NMLZ,entë no,,,,n
+yempekapeti-offend-plur,yab,yëmpëka-pëti,yempekapeti-offend-plur,offend-PLUR,yëmpëka pëti,,,,vt
+ijmojkani-cook-agtnmlz,yab,ijmojka-ni,ijmojkani-cook-agtnmlz,cook-AGTNMLZ,ijmojka ni,,,,n
+itopo-put-circ-nmlz,yab,i-topo,itopo-put-circ-nmlz,put-CIRC.NMLZ,i topo,,,,n
+apono-later-nmlz,yab,apo-no,apono-later-nmlz,later-NMLZ; meanwhile-NMLZ,apo no,,,,n
+moronemi-hurting-nmlz,yab,morone-mï,moronemi-hurting-nmlz,hurting-NMLZ,morone mï,,,,n
+enirem-now-nmlz,yab,enirë-m,enirem-now-nmlz,now-NMLZ; today-NMLZ,enirë m,,,,n
+yareni-bring-agtnmlz,yab,yarë-ni,yareni-bring-agtnmlz,bring-AGTNMLZ,yarë ni,,,,n
+tojpapeti-hit-plur,yab,tojpa-pëti,tojpapeti-hit-plur,hit-PLUR,tojpa pëti,,,,vt
+yaketeni-cut-agtnmlz,yab,yakëtë-ni,yaketeni-cut-agtnmlz,cut-AGTNMLZ,yakëtë ni,,,,n
+enijpeteno-one-nmlz,yab,enijpëtë-no,enijpeteno-one-nmlz,one-NMLZ,enijpëtë no,,,,n
+epepej-escape-plur,yab,epe-pëj,epepej-escape-plur,escape-PLUR; hide_and_seek-PLUR,epe pëj,,,,vi
+wepej-kill-plur,yab,wë-pëj,wepej-kill-plur,kill-PLUR,wë pëj,,,,vt
+rokotapeti-become-crazy-plur,yab,rokota-pëti,rokotapeti-become-crazy-plur,become_crazy-PLUR,roko ta pëti,,,,vi
+pojtepo-want-des,yab,pojtë-po,pojtepo-want-des,want-DES,pojtë po,,,,vt
+senkapeti-finish-plur,yab,s-ënka-pëti,senkapeti-finish-plur,finish-PLUR,s ënka pëti,,,,vi
+senkapej-finish-plur,yab,s-ënka-pëj,senkapej-finish-plur,finish-PLUR,s ënka pëj,,,,vi
+minteno-there-loc-nmlz,yab,mïntë-no,minteno-there-loc-nmlz,there.LOC-NMLZ,mïntë no,,,,n
+tuni-give-agtnmlz,yab,tu-ni,tuni-give-agtnmlz,give-AGTNMLZ,tu ni,,,,n
+wejkapeti-fall-plur,yab,wëjka-pëti,wejkapeti-fall-plur,fall-PLUR,wëjka pëti,,,,vi
+karasakemi-white-nmlz,yab,karasake-mï,karasakemi-white-nmlz,white-NMLZ,karasake mï,,,,n
+asakeno-two-nmlz,yab,asakë-no,asakeno-two-nmlz,two-NMLZ,asakë no,,,,n
+yawakani-sow-agtnmlz,yab,yawaka-ni,yawakani-sow-agtnmlz,sow-AGTNMLZ,yawaka ni,,,,n
+ipo-put-des,yab,i-po,ipo-put-des,put-DES,i po,,,,vt
+sematopo-die-circ-nmlz,yab,sëma-topo,sematopo-die-circ-nmlz,die-CIRC.NMLZ,sëma topo,,,,n
+sukasemi-all-nmlz,yab,sukase-mï,sukasemi-all-nmlz,all-NMLZ,sukase mï,,,,n
+wejtetoj-go-down-circ-nmlz,yab,wëjtë-toj,wejtetoj-go-down-circ-nmlz,go_down-CIRC.NMLZ,wëjtë toj,,,,n
+senkatoj-finish-circ-nmlz,yab,s-ënka-toj,senkatoj-finish-circ-nmlz,finish-CIRC.NMLZ,s ënka toj,,,,n
+nemepeti-leave-plur,yab,nëmë-pëti,nemepeti-leave-plur,leave-PLUR,nëmë pëti,,,,vt
+yujwapeti-burn-plur,yab,yujwa-pëti,yujwapeti-burn-plur,burn-PLUR,yujwa pëti,,,,vt
+keyatapej-grow-plur,yab,këyata-pëj,keyatapej-grow-plur,grow-PLUR,këya ta pëj,,,,vi
+papapijke-father-dim,yab,papa-pïjkë,papapijke-father-dim,father-DIM,papa pïjkë,,,,n
+yawankatoj-kill-circ-nmlz,yab,yawanka-toj,yawankatoj-kill-circ-nmlz,kill-CIRC.NMLZ,yawanka toj,,,,n
+poyeno-above-nmlz,yab,poye-no,poyeno-above-nmlz,above-NMLZ,poye no,,,,n
+yenepepej-send-away-plur,yab,yenepe-pëj,yenepepej-send-away-plur,send_away-PLUR,yenepe pëj,,,,vt
+yawankapej-kill-plur,yab,yawanka-pëj,yawankapej-kill-plur,kill-PLUR,yawanka pëj,,,,vt
+yaketepej-cut-plur,yab,yakëtë-pëj,yaketepej-cut-plur,cut-PLUR,yakëtë pëj,,,,vt
+yemepo-eat-fruits-eggs-soup-des,yab,yeme-po,yemepo-eat-fruits-eggs-soup-des,eat(fruits_eggs_soup)-DES,yeme po,,,,vt
+pitipej-paint-plur,yab,pïtï-pëj,pitipej-paint-plur,paint-PLUR,pïtï pëj,,,,vt
+wetopo-kill-circ-nmlz,yab,wë-topo,wetopo-kill-circ-nmlz,kill-CIRC.NMLZ,wë topo,,,,n
+tapiremi-red-nmlz,yab,tapire-mï,tapiremi-red-nmlz,red-NMLZ,tapi re mï,,,,n
+waraijtoke-husband-prop,yab,waraijto-ke,waraijtoke-husband-prop,husband-PROP,waraijto ke,,,,n
+patakapeti-take-out-plur,yab,pataka-pëti,patakapeti-take-out-plur,take_out-PLUR,pata ka pëti,,,,vt
+semapo-die-des,yab,sëma-po,semapo-die-des,die-DES,sëma po,,,,vi
+poreke-leg-prop,yab,pore-ke,poreke-leg-prop,leg-PROP,pore ke,,,,n
+mukuke-child-prop,yab,muku-ke,mukuke-child-prop,child-PROP,muku ke,,,,n
+karasakem-white-nmlz,yab,karasake-m,karasakem-white-nmlz,white-NMLZ,karasake m,,,,n
+yenepo-eat-meat-des,yab,yënë-po,yenepo-eat-meat-des,eat(meat)-DES,yënë po,,,,vt
+weretapej-arrive-plur,yab,wereta-pëj,weretapej-arrive-plur,arrive-PLUR,wereta pëj,,,,vi
+atike-plot-of-cultivated-land-prop,yab,ati-ke,atike-plot-of-cultivated-land-prop,plot_of_cultivated_land-PROP,ati ke,,,,adv
+ejpenakapeti-return-plur,yab,ëjpënaka-pëti,ejpenakapeti-return-plur,return-PLUR,ëj pënaka pëti,,,,vi
+kamwiyajkapo-change-des,yab,kamwiyajka-po,kamwiyajkapo-change-des,change-DES,kamwiyajka po,,,,vt
+yenekapo-take-away-des,yab,yeneka-po,yenekapo-take-away-des,take_away-DES,yeneka po,,,,vt
+yanepijke-mother-dim,yab,yanë-pïjkë,yanepijke-mother-dim,mother-DIM,yanë pïjkë,,,,n
+tupo-give-des,yab,tu-po,tupo-give-des,give-DES,tu po,,,,vt
+teijpono-far-nmlz-1,yab,tëijpo-no,teijpono-far-nmlz-1,far-NMLZ; long-NMLZ,tëijpo no,,,,n
+tojpapej-hit-plur,yab,tojpa-pëj,tojpapej-hit-plur,hit-PLUR,tojpa pëj,,,,vt
+pojteni-want-agtnmlz,yab,pojtë-ni,pojteni-want-agtnmlz,want-AGTNMLZ,pojtë ni,,,,n
+warotapo-work-des,yab,warota-po,warotapo-work-des,work-DES,warota po,,,,vi
+yawankani-kill-agtnmlz,yab,yawanka-ni,yawankani-kill-agtnmlz,kill-AGTNMLZ,yawanka ni,,,,n
+wejkatopo-fall-circ-nmlz,yab,wëjka-topo,wejkatopo-fall-circ-nmlz,fall-CIRC.NMLZ,wëjka topo,,,,n
+ipej-put-plur,yab,i-pëj,ipej-put-plur,put-PLUR,i pëj,,,,vt
+itapej-hear-plur,yab,ita-pëj,itapej-hear-plur,hear-PLUR,ita pëj,,,,vt
+yarepej-bring-plur,yab,yarë-pëj,yarepej-bring-plur,bring-PLUR,yarë pëj,,,,vt
+tetopo-go-circ-nmlz,yab,të-topo,tetopo-go-circ-nmlz,go-CIRC.NMLZ,të topo,,,,n
+kaimotatopo-hunt-circ-nmlz,yab,kaimota-topo,kaimotatopo-hunt-circ-nmlz,hunt-CIRC.NMLZ,kaimo ta topo,,,,n
+itani-hear-agtnmlz,yab,ita-ni,itani-hear-agtnmlz,hear-AGTNMLZ,ita ni,,,,n
+yojmatopo-mix-circ-nmlz,yab,yojma-topo,yojmatopo-mix-circ-nmlz,mix-CIRC.NMLZ,yojma topo,,,,n
+kerepijke-old-dim,yab,kërë-pïjkë,kerepijke-old-dim,old-DIM,kërë pïjkë,,,,n
+yateno-loc-nmlz,yab,yatë-no,yateno-loc-nmlz,LOC-NMLZ,yatë no,,,,n
+yemetopo-eat-fruits-eggs-soup-circ-nmlz,yab,yeme-topo,yemetopo-eat-fruits-eggs-soup-circ-nmlz,eat(fruits_eggs_soup)-CIRC.NMLZ,yeme topo,,,,n
+yempekapo-offend-des,yab,yëmpëka-po,yempekapo-offend-des,offend-DES,yëmpëka po,,,,vt
+wintikapej-disappear-plur,yab,wintika-pëj,wintikapej-disappear-plur,disappear-PLUR,wintika pëj,,,,vi
+waimupo-speak-des,yab,waimu-po,waimupo-speak-des,speak-DES,waimu po,,,,vi

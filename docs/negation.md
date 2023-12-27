@@ -1,6 +1,6 @@
 # Negation [label](negation)
 There are a number of negation strategies in [lg](yab).
-The most general negator is the particle [mp](jra-neg), which can negate a number of constructions.
+The most general negator is the particle =[mp](jra-neg), which can negate a number of constructions.
 It occurs encliticized to transitive and intransitive verbs [exref](jra?suffix=a-b), nouns [exref](ctovarmafl-36), adverbs [exref](convestsjm-35) , and postpositions [exref](convhistfamsjm-244).
 [ex](histyarirdi-124,convfemgrme-183,ctovarmafl-36,convestsjm-35,convhistfamsjm-244?example_id=jra)
 
@@ -32,10 +32,11 @@ It is the negative counterpart to [mp](sepst). [todo](hypothesis: if -se is perf
 
 ### Others
 * [mp](kempinire)
+    * can this be analyzed as something other than a single suffix?
 * *‑yapo* ‘[gl](neg).[gl](purp)’
 
 ## Nominal negation
-[mp](jra-neg) 
+* =[mp](jra-neg) 
 
 ## Negative nonverbal predication
 * [mp](pinire-neg)

@@ -1,11 +1,12 @@
 id: yawarana-sketch
 version: 0.0.4
 title: A digital sketch grammar of Yawarana
+domain: https://caribank.github.io/yawarana-sketch/
 authors:
 - family-names: Matter
   given-names: Florian
   orcid: 0000-0002-2545-5154
-  email: florianmatter@gmail.com
+  email: fmatter@mailbox.org
   affiliation: University of Oregon and University of Bern
 - family-names: Cáceres Arandia
   given-names: Natalia

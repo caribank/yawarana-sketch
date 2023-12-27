@@ -14,9 +14,10 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 #### /h/
 * glottal fricative insertion after diphthongs
 * glottal fricative insertion before occlusives
+    * a Venezuelan trait?
 
 ### Vowels [label](sec:vowels)
-[todo](1. search and add minimal pairs for vowels, 2. add vowel plots)
+[todo](search and add minimal pairs for vowels, add vowel plots)
 
 * what about vowel length?
 * variation between _ë_/_o_/_e_ and _ï_/_i_/_u_
@@ -36,12 +37,12 @@ The consonant phonemes of Yawarana are shown in [ref](tab:consonants), vowel pho
 #### Contexts
 * postpositions
 * verbal suffixes
-* no final nominal reduction
 * non-alternating reduced syllables, e.g. [mp](wajto-fire)
+* comparative note: no final nominal reduction
 
 ### Vowel harmony [label](sec:vowelharm)
 * progressive: [m](rupert)
-* regressive: /ë/ > /o/ 
+* regressive: /ë/ > /o/ (e.g. [m](o2))
 
 ### Palatalization [label](sec:palatalization)
 * [m](chajnmlz)

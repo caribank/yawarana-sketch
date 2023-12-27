@@ -6,20 +6,20 @@ The only inflectional criterion distinguishing the two classes is the third pers
 Thus, transitive [mp](yawanka-kill) takes [mp](ta-3?nt) [exref](convfemgrme-217), but intransitive [mp](yaruwa-laugh) does not [exref](convrisamaj-42). [todo](subclass of intransitive [?]: -nëpëkë and -tëpëkë)
 [ex](convfemgrme-217,convrisamaj-42)
 
-* potential additional types:
+* potential additional verb classes:
     * detransitive
     * ditransitive
     * "n-adding"
     * accidental lability
     * irregular 'to go'
-* note that all transitive verbs are consonant‑initial, whether etymologically or not because [mp](ylk) is added to all vowel‑initial roots
-* the _y‑_ disappears when preceded by the detransitivizer [todo](add examples for detransitivized pairs with and without /y/)
+* all transitive verbs are C‑ or *i-*initial because of the fossilization of [mp](ylk)
+* said _y‑_ disappears when preceded by the detransitivizer [todo](add examples for transitive/detransitivized pairs with and without /y/)
 
 ## Verbalizing suffixes [label](sec:vbz)
 None of these are productive, although there are many lexemes derived with them.
 
 ### Intransitive
-[todo](write introduction)
+TBD: Introduction
 
 #### -ta / -na [label](sec:tavbz)
 [mp](tavbz) derives intransitive verbs ([ref](tab:tavbz)).
@@ -30,7 +30,7 @@ None of these are productive, although there are many lexemes derived with them.
 [todo](check for -pantari; also see tri and way grammars)
 
 ### Transitive
-[todo](write introduction)
+TBD: Introduction
 
 #### -ka [label](sec:kavbz)
 [mp](kavbz) derives transitive verbs. [todo](overview table of kavbz)
@@ -42,7 +42,7 @@ None of these are productive, although there are many lexemes derived with them.
 * [mp](macaus) [todo](overview table of macaus)
 
 ## Valency-changing affixes
- [todo](write introduction)
+TBD: Introduction
 
 ### Detransitivizing prefixes [label](sec:detrz)
 [todo](distribution? morphemic analysis?)
@@ -60,5 +60,4 @@ None of these are productive, although there are many lexemes derived with them.
 
 ## Meaning-changing suffixes [label](sec:meaningderiv)
 * [mp](podes) (only occurs with [mp](riipfv) and [mp](jra-neg))
-* [mp](petiplur)
-* [gl](CESS) [todo](is there a cessative suffix?)
+* [mp](petiplur) [todo](is there a cessative suffix?)

@@ -1,4 +1,4 @@
-# Nonverbal predications [label](nonverbal)
+# Nonverbal predication [label](nonverbal)
 [src](gildea2018reconstructing[366]) distinguishes two main formal types of nonverbal predication in Cariban languages: juxtaposition and copular constructions.
 
 * juxtaposed NP + ADV or NP + LOC is found in Arara, Ikpeng, Ye'kwana, Wayana, and Apalaí
@@ -43,6 +43,9 @@
 * order is fairly flexible; potentially rigid [gl](adv)~[gl](pred)~ [gl](np~subj~) [gl](cop), though negated counterexample [exref](histyarirdi-249)
 * unclear role of [mp](maniki-rel-anim) in [gl](np)<sub>[gl](pred)</sub> + [gl](np)<sub>[gl](subj)</sub> construction
 * construction with two copulas *chi wejsapë*? [exref](convhistfamsjm-92), [exref](convhistfamsjm-59), [exref](histgrme-17), [exref](histgrme-107) [todo](ask natalia)
+
+[ex](convfemgrme-157)
+[ex](convfemgrme-99)
 
 ### Categorization issues
 * possessives vs properties can be hard to distinguish ('footed', etc.)

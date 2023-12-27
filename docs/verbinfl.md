@@ -1,26 +1,19 @@
 # Verbal inflection [label](verbinfl)
-[lg](yab) verbs have person marking prefixes and proclitics, as well as TAM marking suffixes.
+There is a range of TAM suffixes, as well as one third person prefix.
 
-## Person markers [label](sec:verbperson)
-Person marking is optional in verbs.
-The only inflectional morphology is a third person prefix [mp](ta-3?nt) ([ref](sec:ta-3)).
-The free pronouns [mp](wire-1pro?nt), [mp](mere-2pro?nt) and [mp](ejne-1-2pro?nt) ([ref](sec:pronouns)) can procliticize to both intransitive and transitive verbs. [todo](small study: length/prominence of first and second person?)
-[ref](tab:verbprefixes) gives an overview of all bound person markers found on verbs.
-For a discussion of the behavior of pronominal clitics on verbs, see [ref](simpleverb).
-
-[table](verbprefixes)
-
-### The third person prefix [mp](ta-3?nt) [label](sec:ta-3)
-The prefix [mp](ta-3?nt) only occurs on transitive verbs, and seems to be restricted to 3>3 scenarios, i.e. when a third person referent is acting on another third person referent [exref](convsuenmaj-17).
+## The third person prefix [mp](ta-3?nt) [label](sec:ta-3)
+The only inflectional morphology is a third person prefix [mp](ta-3?nt).
+It only occurs on transitive verbs, and seems to be restricted to 3>3 scenarios, i.e. when a third person referent is acting on another third person referent [exref](convsuenmaj-17).
 However, it is not obligatory [exref](convcosnoind-53).
 Also, it can cooccur with free noun phrases referencing either the A or the P [exref](convamgu-48).
 The conditioning factors for its (non-)occurrence in 3>3 scenarios are unknown.
+Note that the free pronouns [mp](wire-1pro?nt), [mp](mere-2pro?nt) and [mp](ejne-1-2pro?nt) ([ref](sec:pronouns)) can occur in the same location as [mp](ta-3?nt), but also on intransitive verbs (see [ref](simpleverb)). [todo](small study: length/prominence of first and second person?)
 
 [ex](convsuenmaj-17,convcosnoind-53,convamgu-48)
 
 ## Main clause tense‑aspect‑mood‑polarity suffixes [label](sec:tam)
 Verbs in main clauses are inflected for TAMP with a set of suffixes, shown in [ref](tab:verbtam).
-They are discussed in [ref](sec:riipfv?end=sec:sareimn); for a detailed overview see Cáceres & Gildea (2022) [todo](add to bibliography)
+They are discussed in [ref](sec:riipfv?end=sec:sareimn); for a detailed overview of past markers see Cáceres & Gildea (2022) [todo](add to bibliography).
 
 [table](verbtam)
 
@@ -124,16 +117,21 @@ It occurs with all major TAM suffixes [exref](kontomo).
 
 [ex](conv1stenc-109,histyarirdi-66,ctotawirdi-150,histyarirdi-559?example_id=kontomo)
 
-* [mp](riipfv?nt)=[mp](kontomopl?nt)
-* [mp](sapepfv?nt)=[mp](kontomopl?nt)
-* [m](sajpfv?nt)[mp](sepst?nt)=[mp](jnepl?nt) 
-* [mp](sepst?nt)=[mp](jnepl?nt)=[mp](kontomopl?nt)
-* [mp](sepst?nt)=[mp](jnepl?nt)=_pano_ ([mp](sepst?nt)=[mp](jnepl?nt)=kontom=_pano_?)
-* [mp](tepl?nt)[mp](keimp?nt) for the imperative
-* what about _-i_ ‘[gl](juss)’?
+* verbal plural patterns:
+    * [mp](riipfv?nt)=[mp](kontomopl?nt)
+    * [mp](sapepfv?nt)=[mp](kontomopl?nt)
+    * [m](sajpfv?nt)[mp](sepst?nt)=[mp](jnepl?nt) 
+    * [mp](sepst?nt)=[mp](jnepl?nt)=[mp](kontomopl?nt)
+    * [mp](tepl?nt)[mp](keimp?nt) for the imperative
+    * what about _-i_ ‘[gl](juss)’?
 
 ## Copula / Auxiliary
 * there is (synchronically suppletive) stem allomorphy: *chi* and *wej*
 
-[todo](1. add a paradigm of the copula 2. find potential particles developed from inflected forms:  Man, wai, manai, etc 3. are there irregular past/perfect participles? nahkë, etc 4. ejnë may come from an inflected form of the copula)
+TBD:
+
+1. add a paradigm of the copula
+2. find potential particles developed from inflected forms:  _man, wai, manai_, etc
+3. are there irregular past/perfect participles? _nahkë_, etc?
+4. _ejnë_ may come from an inflected form of the copula
 
