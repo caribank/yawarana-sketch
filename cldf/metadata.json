@@ -1421,7 +1421,7 @@
             "url": "partsofspeech.csv"
         },
         {
-            "dc:extent": 23,
+            "dc:extent": 3,
             "tableSchema": {
                 "columns": [
                     {
