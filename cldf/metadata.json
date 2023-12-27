@@ -1950,7 +1950,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#MediaTable",
-            "dc:extent": 3520,
+            "dc:extent": 272,
             "tableSchema": {
                 "columns": [
                     {
