@@ -11,7 +11,7 @@
 "circ","circumstantive",
 "cncs","concessive",
 "concl","conclusive",
-"contrast","contrastive",
+"cntr","contrastive",
 "cop","copula",
 "dat","dative",
 "dem","demonstrative",
@@ -107,3 +107,8 @@
 "psn","person?","from flex"
 "caus","causative",
 "gno","gnomic",
+"exist","existential",
+"eval","evaluative",
+"fmr","deceased",
+"hes","hesitative",
+"sap","speech act participant",

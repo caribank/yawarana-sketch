@@ -121,7 +121,7 @@ The linker also occurs with (pro-)nominal possessors:
 * V → N
     * [mp](rinmlz?translation=action NMLZ) [todo](this is potentially an agent nominalizer, too)
     * [mp](jpenmlz) 
-        * also ‘[gl](PST.ABS.nmlz)’ [todo](add convsuenmaj-47)
+        * also ‘[gl](pst).[gl](abs).[gl](nmlz))’ [todo](add convsuenmaj-47)
     * [mp](neinf) or ‘generic action nominalizer’ [todo](this probably only occurs on intransitive verbs)
         * _wënkej-në_ from transitive _wënkepï_ 'forget'
     * [mp](ninmlz) [todo](see ctoyucairdi-4, descokigrme-53 for predicative use)

@@ -37,8 +37,8 @@
 * Transitive local scenarios
 [ex](convfemgrme-231,convfemgrme-232,ctovarmafl-283)
 * one attested case of [mp](ta-3?translation=3>3) on the lexical verb of a _-pëkë_ construction w/ 2nd person [gl](a) on [gl](aux) [todo](find that example)
-    * zero-marked third person on transitive verbs with [gl](1a) or [gl](2a)
-* one example of [mp](me2?nt) ‘[gl](2A)’ on imperative verb [todo](add GrMePers.029)
+    * zero-marked third person on transitive verbs with [gl](1)[gl](a) or [gl](2)[gl](a)
+* one example of [mp](me2?nt) ‘[gl](2)[gl](a)’ on imperative verb [todo](add GrMePers.029)
 * \*_t‑V‑se_ is no more — the _t‑_ is gone, except in lexicalized items
 
 
