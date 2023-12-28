@@ -1,5 +1,6 @@
 appdirs==1.4.4
 Babel==2.13.0
+bibtexparser==2.0.0b4
 binaryornot==0.4.4
 certifi==2023.7.22
 cffconvert==2.0.0
@@ -10,7 +11,7 @@ cldfbench==1.14.0
 cldfcatalog==1.5.1
 -e git+ssh://git@github.com/cldf/cldfviz.git@4a1ddb648fe45f6acbbaaac35787b0d6f8b40d33#egg=cldfviz
 click==8.1.7
-clldutils==3.20.0
+clldutils==3.22.1
 colorama==0.4.6
 colorlog==6.7.0
 cookiecutter==2.4.0
@@ -25,7 +26,7 @@ Jinja2==3.1.2
 jmespath==1.0.1
 jsonschema==3.2.0
 -e git+ssh://git@github.com/fmatter/lingcorp.git@a57ab74d1d7cd6e03ee87943c926098980ab8541#egg=lingcorp
--e git+ssh://git@github.com/fmatter/lingdocs.git@454ec06146f1e36cf068c57d88a8d10a8f85defb#egg=lingdocs
+-e git+ssh://git@github.com/fmatter/lingdocs.git@01960d1d4ce6d065addc7e55a17e56bc08b9d9b8#egg=lingdocs
 lxml==4.9.3
 Markdown==3.5
 MarkupSafe==2.1.3
