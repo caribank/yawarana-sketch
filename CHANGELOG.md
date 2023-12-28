@@ -7,10 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.0.3] - 2023-11-14
+## [0.0.4] - 2023-12-28
 
 ### Added
 * initial release
 
-[Unreleased]: https://github.com/caribank/yawarana-sketch/compare/v0.0.3...HEAD
-[0.0.3]: https://github.com/caribank/yawarana-sketch/releases/tag/0.0.3
+[Unreleased]: https://github.com/caribank/yawarana-sketch/compare/v0.0.4...HEAD
+[0.0.4]: https://github.com/caribank/yawarana-sketch/releases/tag/0.0.4
