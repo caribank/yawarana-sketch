@@ -1,4 +1,4 @@
-# A digital sketch grammar of Yawarana (0.0.4)
+# A digital sketch grammar of Yawarana (v0.0.4)
 This is a **corpus-based, data-rich digital grammar**[^1] sketch of [Yawarana](yaba1248) developed and written by [Florian Matter](https://fl.mt) in collaboration with [Natalia Cáceres-Arandia](https://pages.uoregon.edu/nataliac/) and [Spike Gildea](https://cas.uoregon.edu/directory/linguistics/all/spike).
 It is based on a corpus of texts, collected by Cáceres-Arandia and annotated using [uniparser-yawarana](https://github.com/fmatter/uniparser-yawarana/).
 

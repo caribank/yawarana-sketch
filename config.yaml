@@ -19,9 +19,9 @@ mkdocs:
   audio: true
 examples:
   show_language: false
-  custom_links:
-    💻: http://localhost:6543/sentences/{id}
-    🖉: http://localhost:5001/example/{id}
+  # custom_links:
+  #   💻: http://localhost:6543/sentences/{id}
+  #   🖉: http://localhost:5001/example/{id}
 lfts:
   show_language: false
   show_source: false
