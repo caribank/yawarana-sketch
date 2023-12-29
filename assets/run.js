@@ -1,4 +1,0 @@
-numberExamples()
-// numberSections()
-numberCaptions()
-// resolveCrossrefs()
