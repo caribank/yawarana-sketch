@@ -1,0 +1,2522 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="https://caribank.github.io/yawarana-sketch/0.0.4/nouns/" rel="canonical"/>
+<link href="../POS/" rel="prev"/>
+<link href="../verbderiv/" rel="next"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.5.3, mkdocs-material-9.4.5" name="generator"/>
+<title>4. Nouns - A digital sketch grammar of Yawarana</title>
+<link href="../assets/stylesheets/main.6a10b989.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.356b1318.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../assets/theme.css" rel="stylesheet"/>
+<link href="../assets/hint.min.css" rel="stylesheet"/>
+<link href="../assets/examples.css" rel="stylesheet"/>
+<link href="../assets/alignment.css" rel="stylesheet"/>
+<link href="../assets/glossing.css" rel="stylesheet"/>
+<link href="../assets/tables.css" rel="stylesheet"/>
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="custom" data-md-color-primary="custom" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#nouns">4. 
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="A digital sketch grammar of Yawarana" class="md-header__button md-logo" data-md-component="logo" href=".." title="A digital sketch grammar of Yawarana">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            A digital sketch grammar of Yawarana
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              4. Nouns
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="custom" data-md-color-media="" data-md-color-primary="custom" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+<input aria-label="Switch to light markdown_extensions" class="md-option" data-md-color-accent="deep-orange" data-md-color-media="" data-md-color-primary="deep-purple" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light markdown_extensions">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/caribank/yawarana-sketch" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    Source (GitHub)
+  </div>
+</a>
+</div>
+</nav>
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="..">
+        
+  
+    
+  
+  About
+
+      </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../intro/">
+          
+  
+  Chapters
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../data/wordforms">
+          
+  
+  Data
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../index/topics">
+          
+  
+  Index
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="A digital sketch grammar of Yawarana" class="md-nav__button md-logo" data-md-component="logo" href=".." title="A digital sketch grammar of Yawarana">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"></path></svg>
+</a>
+    A digital sketch grammar of Yawarana
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/caribank/yawarana-sketch" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    Source (GitHub)
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="..">
+<span class="md-ellipsis">
+    About
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+<span class="md-ellipsis">
+    Chapters
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../intro/">
+<span class="md-ellipsis">
+    1. Introduction
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../phono/">
+<span class="md-ellipsis">
+    2. Phonetics and phonology
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../POS/">
+<span class="md-ellipsis">
+    3. Parts of speech in Yawarana
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    4. Nouns
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    4. Nouns
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#noun-roots">4.1 
+    Noun roots
+  </a>
+<nav aria-label="Noun roots" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:irregnouns">4.1.1 
+    Root suppletion in nominal possession
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:pronouns">4.2 
+    Pronouns
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:nouninfl">4.3 
+    Nominal inflection
+  </a>
+<nav aria-label="Nominal inflection" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:nounposssuf">4.3.1 
+    Suffixes for possessed and non-possessed nouns
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:nominalnumber">4.3.2 
+    Nominal number
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:nominaltense">4.3.3 
+    Nominal tense
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:nominalperson">4.3.4 
+    Inflectional prefixes
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:nounphrase">4.4 
+    The noun phrase
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:nounderiv">4.5 
+    Nominal Derivational Morphology
+  </a>
+<nav aria-label="Nominal Derivational Morphology" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:rinmlz">4.5.1 
+    The action nominalizer -ri
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:jpenmlz">4.5.2 
+    The past nominalizer -jpë
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sec:sapenmlz">4.5.3 
+    The absolutive nominalizer -sapë
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../verbderiv/">
+<span class="md-ellipsis">
+    5. Verbal roots and stems
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../verbinfl/">
+<span class="md-ellipsis">
+    6. Verbal inflection
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../postp/">
+<span class="md-ellipsis">
+    7. Postpositions
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../partideo/">
+<span class="md-ellipsis">
+    8. Particles, ideophones and interjections
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../negation/">
+<span class="md-ellipsis">
+    9. Negation
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../number/">
+<span class="md-ellipsis">
+    10. Number
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../auxiliarized-constructions/">
+<span class="md-ellipsis">
+    11. Auxiliarized constructions
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../nonverbal-predication/">
+<span class="md-ellipsis">
+    12. Nonverbal predication
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../simpleverb/">
+<span class="md-ellipsis">
+    13. Simple verbal clauses
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../questions/">
+<span class="md-ellipsis">
+    14. Questions
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../multiclausal/">
+<span class="md-ellipsis">
+    15. Multiclausal
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../wordorder/">
+<span class="md-ellipsis">
+    16. Word order variation
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../pragmarked/">
+<span class="md-ellipsis">
+    17. Pragmatically marked constructions
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../voice/">
+<span class="md-ellipsis">
+    18. Detransitive voice
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../references/">
+<span class="md-ellipsis">
+    References
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+<span class="md-ellipsis">
+    Data
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            Data
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/wordforms">
+<span class="md-ellipsis">
+    Wordforms
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/stems">
+<span class="md-ellipsis">
+    Stems
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/morphs">
+<span class="md-ellipsis">
+    Morphs
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/lexemes">
+<span class="md-ellipsis">
+    Lexemes
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/morphemes">
+<span class="md-ellipsis">
+    Morphemes
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/derivationalprocesses">
+<span class="md-ellipsis">
+    Derivationalprocesses
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/partsofspeech">
+<span class="md-ellipsis">
+    Partsofspeech
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/texts">
+<span class="md-ellipsis">
+    Texts
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/phonemes">
+<span class="md-ellipsis">
+    Phonemes
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/examples">
+<span class="md-ellipsis">
+    Examples
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/forms">
+<span class="md-ellipsis">
+    Forms
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/languages">
+<span class="md-ellipsis">
+    Languages
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../data/topics">
+<span class="md-ellipsis">
+    Topics
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+<span class="md-ellipsis">
+    Index
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            Index
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../index/topics">
+<span class="md-ellipsis">
+    Topics
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../index/tags">
+<span class="md-ellipsis">
+    Tags
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="nouns"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.</span> Nouns</h1>
+<p>TBD: Introduction</p>
+<h2 id="noun-roots"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.1</span> Noun roots</h2>
+<p>TBD: Introduction</p>
+<h3 id="sec:irregnouns"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.1.1</span> Root suppletion in nominal possession</h3>
+<ul>
+<li>'father':<ul>
+<li>1 <em>papa</em></li>
+<li>2 <em>ë-më</em> / <em>o-mo</em> / <em>ë-mo</em> (?)</li>
+<li>3 <em>i-mu</em></li>
+<li>NP <em>y-ïmï</em></li>
+</ul>
+</li>
+<li>often suppletive in Cariban languages: <span title="search for inflected forms of these">❕</span><ul>
+<li>'arrow'</li>
+<li>'house'</li>
+<li>'poop'</li>
+<li>'mother'</li>
+<li>'hammock string'</li>
+</ul>
+</li>
+</ul>
+<h2 id="sec:pronouns"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.2</span> Pronouns</h2>
+<p>The personal pronouns of Yawarana are shown in <a href="/yawarana-sketch/0.0.4/nouns#tab:pronouns">Table 4.1</a>.
+The system shows the usual Cariban inclusive/exclusive (<span class="gloss">1+2<span class="tooltiptext gloss-1+2"></span></span> and <span class="gloss">1+3<span class="tooltiptext gloss-1+3"></span></span>) distinction, though the 1+2 pronoun <a href="/yawarana-sketch/0.0.4/data/morphemes/ejne-1-2pro/"><em>ejnë</em></a> does not have the /k/ found elsewhere in the family.
+There are plural forms of the second and third person pronouns, which are composed of the respective singular form and the plural marker <a href="/yawarana-sketch/0.0.4/data/morphemes/kontomopl/"><em>kontomo</em></a> for second, <em>-santomo</em> for third person.
+An alternative strategy for pluralizing <a href="/yawarana-sketch/0.0.4/data/morphemes/tewi-3pro/"><em>tëwï</em></a> is by using <a href="/yawarana-sketch/0.0.4/data/morphemes/jnepl/"><em>jne</em></a>.
+This results in <i>tëwï=jne</i>, which usually simply becomes <i>ta=jne</i>.
+Singular speech act participant pronouns can procliticize to nouns (see <a href="/yawarana-sketch/0.0.4/nouns#sec:nounphrase">4.4</a>), verbs (see <a href="/yawarana-sketch/0.0.4/simpleverb#simpleverb">13</a>) and postpositions (see <a href="/yawarana-sketch/0.0.4/postp#sec:postp-phrase">7.4</a>).</p>
+<table border="1" class="dataframe">
+<caption class="table" id="tab:pronouns">Pronouns</caption><thead>
+<tr>
+<th>
+</th>
+<th>
+<span class="gloss">sg<span class="tooltiptext gloss-sg"></span></span>
+</th>
+<th>
+<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span class="gloss">1<span class="tooltiptext gloss-1"></span></span>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphemes/wire-1pro/"><em>wïrë</em></a>
+(<a href="/yawarana-sketch/0.0.4/data/morphs/u1/"><em>u</em></a>=)
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">1+2<span class="tooltiptext gloss-1+2"></span></span>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphemes/ejne-1-2pro/"><em>ejnë</em></a>
+(<a href="/yawarana-sketch/0.0.4/data/morphs/ej12/"><em>ej</em></a>=)
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">1+3<span class="tooltiptext gloss-1+3"></span></span>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphemes/ana-1-3pro/"><em>ana</em></a>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">2<span class="tooltiptext gloss-2"></span></span>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphemes/mere-2pro/"><em>mërë</em></a>
+(<a href="/yawarana-sketch/0.0.4/data/morphs/me2/"><em>më</em></a>=)
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphemes/monkontomo-2pl-pro/"><em>monkontomo</em></a>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">3<span class="tooltiptext gloss-3"></span></span>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphemes/tewi-3pro/"><em>tëwï</em></a>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/wordforms/tewisantomo-3pro-pl/"><em><i>tëwïsantomo</i></em></a>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The third person demonstrative pronouns or articles are shown in <a href="/yawarana-sketch/0.0.4/nouns#tab:pronouns3">Table 4.2</a>. <span title="is there a 4‑way distinction? [cf. Ye’kwana?]">❔</span>
+None of them have shortened and phonologically bound counterparts. <span title="is there a më= from mërë?">❔</span></p>
+<table border="1" class="dataframe">
+<caption class="table" id="tab:pronouns3">Demonstrative pronouns / articles</caption><thead>
+<tr>
+<th>
+</th>
+<th>
+<span class="gloss">anim<span class="tooltiptext gloss-anim"></span></span>
+</th>
+<th>
+</th>
+<th>
+<span class="gloss">inan<span class="tooltiptext gloss-inan"></span></span>
+</th>
+<th>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+<span class="gloss">sg<span class="tooltiptext gloss-sg"></span></span>
+</td>
+<td>
+<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span>
+</td>
+<td>
+<span class="gloss">sg<span class="tooltiptext gloss-sg"></span></span>
+</td>
+<td>
+<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">prox<span class="tooltiptext gloss-prox"></span></span>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphemes/kere-prox-anim/"><em>kërë</em></a>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/wordforms/keresantomo-prox-anim-pl/"><em><i>kërësantomo</i></em></a>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphs/eni-prox-inan/"><em>eni</em></a> /
+<a href="/yawarana-sketch/0.0.4/data/morphs/seni-prox-inan/"><em>seni</em></a>
+</td>
+<td>
+<i>eni=jne</i> / <i>seni=jne</i>
+</td>
+</tr>
+<tr>
+<td>
+medial/near?
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphemes/michi-med-anim/"><em>michi</em></a> /
+<a href="/yawarana-sketch/0.0.4/data/morphemes/misi-med-inan/"><em>misi</em></a>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/wordforms/michisantomo-med-anim-pl/"><em><i>michisantomo</i></em></a>
+/
+<a href="/yawarana-sketch/0.0.4/data/wordforms/michitomo-med-anim-pl/"><em><i>michitomo</i></em></a>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphemes/mere-med-inan/"><em>mërë</em></a>
+</td>
+<td>
+<i>mërë=jne</i>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">dist<span class="tooltiptext gloss-dist"></span></span>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphemes/mejki-dist-anim/"><em>mëjkï</em></a>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/wordforms/mekisantomo-dist-anim-pl/"><em><i>mëkïsantomo</i></em></a>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphemes/mejni-dist-inan/"><em>mëjnï</em></a>
+</td>
+<td>
+<i>mënï=jne</i>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>nominal interrogative pronouns: <span title="are there examples of _ëjkë_ " which?''="">❔</span><ul>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/aniki-who/"><em>anïkï</em></a> (<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span> with <em>-santomo</em>)</li>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/ati-what/"><em>ati</em></a> (no <span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span>)</li>
+</ul>
+</li>
+</ul>
+<h2 id="sec:nouninfl"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.3</span> Nominal inflection</h2>
+<p>Nouns in Yawarana may bear suffixes marking their possession status (<a href="/yawarana-sketch/0.0.4/nouns#sec:nounposssuf">4.3.1</a>), number (<a href="/yawarana-sketch/0.0.4/nouns#sec:nominalnumber">4.3.2</a>), and nominal past tense (<a href="/yawarana-sketch/0.0.4/nouns#sec:nominaltense">4.3.3</a>).
+Possessed nouns can carry second and third person prefixes, as well as the linker <a href="/yawarana-sketch/0.0.4/data/morphemes/ylk/"><em>y-</em></a> (<a href="/yawarana-sketch/0.0.4/nouns#sec:nominalperson">4.3.4</a>). <span title="nominal inflectional classes defined by prefixes &amp; suffixes">❕</span></p>
+<h3 id="sec:nounposssuf"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.3.1</span> Suffixes for possessed and non-possessed nouns</h3>
+<p>In the possession construction in Yawarana, the possessor noun occurs immediately preceding the possessed noun, which is the head of the possession phrase. <span title="crossref to phrase structure">❕</span>
+Alternatively, the possessor can appear as a prefix on the possessed noun.
+The possessor noun is never marked (for instance, with genitive case), but the possessed noun (the head) is often marked for being possessed by a suffix; an unambiguous label for this counterpart of the genitive is pertensive (<a href="/yawarana-sketch/0.0.4/references/#source-dixon2010basic">Dixon 2010</a>).
+The choice of suffix is lexically conditioned; while most nouns take <a href="/yawarana-sketch/0.0.4/data/morphemes/rupert/"><em>-ri</em></a>, some take <a href="/yawarana-sketch/0.0.4/data/morphemes/tipert/"><em>-ti</em></a>.
+Unpossessed nouns generally are unmarked, but some 15 nouns <span title="add list of -të nouns">❕</span> bear the suffix <a href="/yawarana-sketch/0.0.4/data/morphemes/tenpert/"><em>-të</em></a> when they appear without a possessor. </p>
+<p>Examples <a class="exref" end="unsuffixednouns" example_id="onlypossessed"></a> illustrate the possible patterns of markedness for nouns when possessed and unpossessed.
+The vast majority of nouns in our corpus are unmarked when unpossessed, but when possessed the suffix <a href="/yawarana-sketch/0.0.4/data/morphemes/rupert/"><em>-ri</em></a> occurs <a class="exref" example_id="onlypossessed"></a>.
+A handful of nouns is marked with <a href="/yawarana-sketch/0.0.4/data/morphemes/rupert/"><em>-ri</em></a>/<a href="/yawarana-sketch/0.0.4/data/morphemes/tipert/"><em>-ti</em></a> when possessed and with <a href="/yawarana-sketch/0.0.4/data/morphemes/tenpert/"><em>-të</em></a> when not possessed <a class="exref" example_id="diffpossessed"></a>.
+Another handful is unmarked when possessed and marked with <a href="/yawarana-sketch/0.0.4/data/morphemes/tenpert/"><em>-të</em></a> when not possessed <a class="exref" example_id="suffunpossessed"></a>.
+The fourth logical category, where neither possession or non-possession is marked, contains very few members (only one attested so far).
+For these nouns, the difference is marked only by the presence or absence of a possessive prefix or free-form possessor <a class="exref" example_id="unsuffixednouns"></a>.
+<span title="this data should live in the dataset and only be referenced here">❕</span></p>
+<ol class="example" markdown="block">
+<li class="example" id="onlypossessed" markdown="block"><div markdown="block">Nouns that take a suffix only when possessed:
+
+<br/><table border="1" class="dataframe">
+<thead>
+<tr>
+<th>
+<em>akajra-ri</em>
+</th>
+<th>
+‘X’s bow’
+</th>
+<th>
+<em>akajra</em>
+</th>
+<th>
+‘bow’
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<em>y-amaka-ri</em>
+</td>
+<td>
+‘X’s yucca’
+</td>
+<td>
+<em>amaka</em>
+</td>
+<td>
+‘yucca’
+</td>
+</tr>
+<tr>
+<td>
+<em>y-ántë-ri</em>
+</td>
+<td>
+‘X’s fishhook’
+</td>
+<td>
+<em>antë</em>
+</td>
+<td>
+‘fishhook’
+</td>
+</tr>
+<tr>
+<td>
+<em>y-ateri-ri</em>
+</td>
+<td>
+‘X’s garden/field’
+</td>
+<td>
+<em>ateri</em>
+</td>
+<td>
+‘garden/field’
+</td>
+</tr>
+<tr>
+<td>
+<em>ënu-ru</em>
+</td>
+<td>
+‘X’s eye’
+</td>
+<td>
+<em>ënu</em>
+</td>
+<td>
+‘eye’
+</td>
+</tr>
+<tr>
+<td>
+<em>y-ëpi-ri</em>
+</td>
+<td>
+‘X’s medicine’
+</td>
+<td>
+<em>ëpi</em>
+</td>
+<td>
+‘medicine’
+</td>
+</tr>
+</tbody>
+</table></div>
+</li>
+</ol>
+<ol class="example" markdown="block">
+<li class="example" id="diffpossessed" markdown="block"><div markdown="block">Nouns that take one suffix when possessed and another when unpossessed:
+
+<br/><table border="1" class="dataframe">
+<thead>
+<tr>
+<th>
+<em>yë-ri</em>
+</th>
+<th>
+‘X’s tooth’
+</th>
+<th>
+<em>yë-të</em>
+</th>
+<th>
+‘tooth’
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<em>pata-ri</em>
+</td>
+<td>
+‘X’s place’
+</td>
+<td>
+<em>pata-të</em>
+</td>
+<td>
+‘(part of name) San Juan de Manapiare’
+</td>
+</tr>
+<tr>
+<td>
+<em>y-ese-ti</em>
+</td>
+<td>
+‘X’s name’
+</td>
+<td>
+<em>ese-të</em>
+</td>
+<td>
+‘name’
+</td>
+</tr>
+<tr>
+<td>
+<em>y-ase-tï</em>
+</td>
+<td>
+‘X’s cord’
+</td>
+<td>
+<em>ase-të</em>
+</td>
+<td>
+‘cord’
+</td>
+</tr>
+</tbody>
+</table></div>
+</li>
+</ol>
+<ol class="example" markdown="block">
+<li class="example" id="suffunpossessed" markdown="block"><div markdown="block">Nouns that take a suffix only when unpossessed:
+
+
+<br/><table border="1" class="dataframe">
+<thead>
+<tr>
+<th>
+<em>yëjpë</em>
+</th>
+<th>
+‘X’s bone’
+</th>
+<th>
+<em>yëjpë-të</em>
+</th>
+<th>
+‘bone’
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<em>petï</em>
+</td>
+<td>
+‘X’s thigh’
+</td>
+<td>
+<em>petï-të</em> / <em>pej-të</em>
+</td>
+<td>
+‘thigh’
+</td>
+</tr>
+<tr>
+<td>
+<em>y-aponi</em>
+</td>
+<td>
+‘X’s stool’
+</td>
+<td>
+<em>apon-të</em>
+</td>
+<td>
+‘stool’
+</td>
+</tr>
+</tbody>
+</table></div>
+</li>
+</ol>
+<ol class="example" markdown="block">
+<li class="example" id="unsuffixednouns" markdown="block"><div markdown="block">Nouns that never take a suffix, whether possessed or unpossessed:
+
+<br/><table border="1" class="dataframe">
+<thead>
+<tr>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<em>i-jmëy</em>
+</td>
+<td>
+‘his egg’
+</td>
+<td>
+<em>ëjmëy</em>
+</td>
+<td>
+‘egg’
+</td>
+</tr>
+</tbody>
+</table></div>
+</li>
+</ol>
+<h3 id="sec:nominalnumber"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.3.2</span> Nominal number</h3>
+<p>The suffix <a href="/yawarana-sketch/0.0.4/data/morphemes/tomopl/"><em>-tomo</em></a> (<a href="/yawarana-sketch/0.0.4/data/morphs/tompl/"><em>-tom</em></a>, <a href="/yawarana-sketch/0.0.4/data/morphs/tonpl/"><em>-ton</em></a>) occurs on both possessed and unpossessed nouns <a class="exref" example_id="tomonouns"></a>.</p>
+<ol class="example">
+<li class="example" id="tomonouns">
+<div class="preamble"> </div>
+<ol class="subexample">
+<li class="subexample" id="tomonouns">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/conv1stenc-123/"><i>wurijyantomo rë wejsapë ijtë</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wurijyantomo-woman-pl/"><i>wurijyantomo</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wurijyan-woman/">wurijyan</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/tomopl/">-tomo</a>
+</span>
+<span class="gls">woman-<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/re-emp/"><i>rë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/re-emp/">rë</a>
+</span>
+<span class="gls"><span class="gloss">emp<span class="tooltiptext gloss-emp"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wejsape-cop-pst/"><i>wejsapë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wej-cop/">wej</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/sapepst/">-sapë</a>
+</span>
+<span class="gls"><span class="gloss">cop<span class="tooltiptext gloss-cop"></span></span>-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ijte-there/"><i>ijtë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ijte-there/">ijtë</a>
+</span>
+<span class="gls">there</span>
+</div>
+<div class="ftr">‘There were only women there.’ () </div>
+</div>
+</li>
+<li class="subexample" id="tomonouns">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/histpajirdi-131/"><i>tajne nankase takerejtomo ya</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ta-3pro/"><i>ta</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/jne-pl/"><i>jne</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ta-3pro/">ta</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/jne-pl/">jne</a>
+</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span>=<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/nankase-find-pst/"><i>nankase</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/nanka-find/">nanka</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/sepst/">-se</a>
+</span>
+<span class="gls">find-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/takerejtomo-3-relative-pert-pl/"><i>takerejtomo</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/t3/">t-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/akere-relative-1/">akere</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/jpert/">-j</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/tomopl/">-tomo</a>
+</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span>-relative-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span>-<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ya-erg/"><i>ya</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ya-erg/">ya</a>
+</span>
+<span class="gls"><span class="gloss">erg<span class="tooltiptext gloss-erg"></span></span></span>
+</div>
+<div class="ftr">‘His relatives found him.’ () </div>
+<audio controls="" src="https://filedn.eu/l7uftB8TlOoQ2iwItzK2QBX/histpajirdi-131.wav" type="audio/wav"></audio>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="sec:nominaltense"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.3.3</span> Nominal tense</h3>
+<p>TBD: Describe <a href="/yawarana-sketch/0.0.4/data/morphemes/jpepst/"><em>-jpë</em></a>.</p>
+<h3 id="sec:nominalperson"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.3.4</span> Inflectional prefixes</h3>
+<p>There are three inflectional prefixal morphemes on nouns (<a href="/yawarana-sketch/0.0.4/nouns#tab:possprefixes">Table 4.3</a>); only two of them are possessive prefixes, the third being the linker.
+Prefix allomorphy is mainly conditioned by the initial segment of the noun root.</p>
+<table border="1" class="dataframe">
+<caption class="table" id="tab:possprefixes">Inflectional prefixes on nouns</caption><thead>
+<tr>
+<th>
+</th>
+<th>
+_C
+</th>
+<th>
+_V
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span class="gloss">2<span class="tooltiptext gloss-2"></span></span>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphs/a2/"><em>a-</em></a> /
+<a href="/yawarana-sketch/0.0.4/data/morphs/e2/"><em>ë-</em></a>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ay2/"><em>ay-</em></a>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">3<span class="tooltiptext gloss-3"></span></span>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphs/i31/"><em>i-</em></a>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphs/t3/"><em>t-</em></a>
+</td>
+</tr>
+<tr>
+<td>
+<span class="gloss">np<span class="tooltiptext gloss-np"></span></span>
+</td>
+<td>
+</td>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ylk/"><em>y-</em></a>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Second person <a href="/yawarana-sketch/0.0.4/data/morphemes/a2/"><em>a(y)-</em></a> only occurs on a small number of nouns, all of them kinship terms (<a href="/yawarana-sketch/0.0.4/nouns#tab:a2">Table 4.4</a>).
+With other nouns (and for all first and first person inclusive possessors), a pronominal form is used (see <a href="/yawarana-sketch/0.0.4/nouns#sec:nounphrase">4.4</a>).
+None of the stems in <a href="/yawarana-sketch/0.0.4/nouns#tab:a2">Table 4.4</a> is attested with a pronominal second person possessor.</p>
+<table border="1" class="dataframe">
+<caption class="table" id="tab:a2">Nouns taking second person _a(y)-_.</caption><thead>
+<tr>
+<th>
+Stem
+</th>
+<th>
+Meaning
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/stems/sane-mother/"><em>sanë</em></a>
+</td>
+<td>
+‘mother’
+</td>
+</tr>
+<tr>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/stems/awo-uncle/"><em>awo</em></a>
+</td>
+<td>
+‘uncle, father in law’
+</td>
+</tr>
+<tr>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/stems/najmo-grandmother/"><em>najmo</em></a>
+</td>
+<td>
+‘grandmother’
+</td>
+</tr>
+<tr>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/stems/ya-ra-grandchild/"><em>ya’ra</em></a>
+</td>
+<td>
+‘grandchild’
+</td>
+</tr>
+<tr>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/stems/akono-younger-sister-of-woman/"><em>akono</em></a>
+</td>
+<td>
+‘younger sister of woman’
+</td>
+</tr>
+<tr>
+<td>
+<a href="/yawarana-sketch/0.0.4/data/stems/wanene-aunt/"><em>wanene</em></a>
+</td>
+<td>
+‘aunt’
+</td>
+</tr>
+</tbody>
+</table>
+<p>The third person prefix has the allomorphs <a href="/yawarana-sketch/0.0.4/data/morphs/i31/"><em>i-</em></a> and <a href="/yawarana-sketch/0.0.4/data/morphs/t3/"><em>t-</em></a>:</p>
+<ol class="example">
+<li class="example" id="convfemgrme-304">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/convfemgrme-304/"><i>mmm, imukuru ma</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/mmm-yes/"><i>mmm</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/mmm-yes/">mmm</a>
+</span>
+<span class="gls">yes</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/imukuru-3-child-pert/"><i>imukuru</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/i31/">i-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/muku-child/">muku</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert/">-ru</a>
+</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span>-child-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ma-rst/"><i>ma</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ma-rst/">ma</a>
+</span>
+<span class="gls"><span class="gloss">rst<span class="tooltiptext gloss-rst"></span></span></span>
+</div>
+<div class="ftr">‘Yes, his son.’ () </div>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="ctowaru-52">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/ctowaru-52/"><i>tapëri</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/taperi-3-arm-wing-pert/"><i>tapëri</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/t3/">t-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ape-arm-wing/">apë</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ripert/">-ri</a>
+</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span>-arm_wing-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="ftr">‘Her arm?’ () </div>
+<audio controls="" src="https://filedn.eu/l7uftB8TlOoQ2iwItzK2QBX/ctowaru-52.wav" type="audio/wav"></audio>
+</div>
+</li>
+</ol>
+<p>The linking prefix <a href="/yawarana-sketch/0.0.4/data/morphemes/ylk/"><em>y-</em></a> only occurs on V-initial nouns.
+It marks them as being preceded by their possessor <a class="exref" example_id="convcosnoind-126"></a>.
+C-initial (and <em>i</em>-initial) nouns do not show a prefix in this context <a class="exref" example_id="no-y"></a>.
+This pattern is shared by postpositions (see <a href="/yawarana-sketch/0.0.4/postp#postp">7</a>).</p>
+<ol class="example">
+<li class="example" id="convcosnoind-126">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/convcosnoind-126/"><i>ati ke ejnë yoti yamanë wejsapë tëwï</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ati-what/"><i>ati</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ati-what/">ati</a>
+</span>
+<span class="gls">what</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ke-ins/"><i>ke</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ke-ins/">ke</a>
+</span>
+<span class="gls"><span class="gloss">ins<span class="tooltiptext gloss-ins"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ejne-1-2pro/"><i>ejnë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ejne-1-2pro/">ejnë</a>
+</span>
+<span class="gls"><span class="gloss">1+2<span class="tooltiptext gloss-1+2"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yoti-lk-meat-pert/"><i>yoti</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/oti-meat/">oti</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-meat-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yamane-make-ipfv/"><i>yamanë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/yamane-make/">yamanë</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ri-zero/">-∅</a>
+</span>
+<span class="gls">make-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wejsape-cop-pst/"><i>wejsapë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wej-cop/">wej</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/sapepst/">-sapë</a>
+</span>
+<span class="gls"><span class="gloss">cop<span class="tooltiptext gloss-cop"></span></span>-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/tewi-3pro/"><i>tëwï</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/tewi-3pro/">tëwï</a>
+</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="ftr">‘With that we used to prepare the meat.’ () </div>
+<audio controls="" src="https://filedn.eu/l7uftB8TlOoQ2iwItzK2QBX/convcosnoind-126.wav" type="audio/wav"></audio>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="no-y">
+<div class="preamble"> </div>
+<ol class="subexample">
+<li class="subexample" id="no-y">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/convamgu-246/"><i>mëinta yaka</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/me-2/"><i>më</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/inta-mouth-pert/"><i>inta</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/me2/">më</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/inta-mouth/">inta</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>=mouth-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yaka-all/"><i>yaka</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/yaka-all/">yaka</a>
+</span>
+<span class="gls"><span class="gloss">all<span class="tooltiptext gloss-all"></span></span></span>
+</div>
+<div class="ftr">‘into your mouth’ () </div>
+</div>
+</li>
+<li class="subexample" id="no-y">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/convfemgrme-48/"><i>muku pana yënënijpë ti</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/muku-child/"><i>muku</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/muku-child/">muku</a>
+</span>
+<span class="gls">child</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/pana-ear-pert/"><i>pana</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/pana-ear/">pana</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls">ear-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yenenijpe-eat-meat-agtnmlz-pst/"><i>yënënijpë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/yene-eat-meat/">yënë</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ninmlz/">-ni</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/jpepst1/">-jpë</a>
+</span>
+<span class="gls">eat(meat)-<span class="gloss">agtnmlz<span class="tooltiptext gloss-agtnmlz"></span></span>-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ti-hsy/"><i>ti</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ti-hsy/">ti</a>
+</span>
+<span class="gls"><span class="gloss">hsy<span class="tooltiptext gloss-hsy"></span></span></span>
+</div>
+<div class="ftr">‘The one who ate a child's ear, so they say.’ () </div>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="sec:nounphrase"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.4</span> The noun phrase</h2>
+<p>A constituent we call the noun phrase is identifiable in the genitive construction in which one noun (or pronoun) possesses another noun.
+For instance, <a href="/yawarana-sketch/0.0.4/data/wordforms/pana-ear-pert/"><em><i>pana</i></em></a> in <a class="exref" example_id="convfemgrme-48"></a> is possessed by <a href="/yawarana-sketch/0.0.4/data/wordforms/muku-child/"><em><i>muku</i></em></a>.
+The possessor obligatorily precedes the possessum, the two parts of the constituent only being interruptible by certain particles <a class="exref" example_id="histyarirdi-276"></a>.
+Possessor SAP pronouns can occur as proclitics <a class="exref" example_id="n-clitics"></a>.
+On V-initial nouns, the linker <a href="/yawarana-sketch/0.0.4/data/morphemes/ylk/"><em>y-</em></a> appears in the genitive construction.</p>
+<ol class="example">
+<li class="example" id="convfemgrme-48">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/convfemgrme-48/"><i>muku pana yënënijpë ti</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/muku-child/"><i>muku</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/muku-child/">muku</a>
+</span>
+<span class="gls">child</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/pana-ear-pert/"><i>pana</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/pana-ear/">pana</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls">ear-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yenenijpe-eat-meat-agtnmlz-pst/"><i>yënënijpë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/yene-eat-meat/">yënë</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ninmlz/">-ni</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/jpepst1/">-jpë</a>
+</span>
+<span class="gls">eat(meat)-<span class="gloss">agtnmlz<span class="tooltiptext gloss-agtnmlz"></span></span>-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ti-hsy/"><i>ti</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ti-hsy/">ti</a>
+</span>
+<span class="gls"><span class="gloss">hsy<span class="tooltiptext gloss-hsy"></span></span></span>
+</div>
+<div class="ftr">‘The one who ate a child's ear, so they say.’ () </div>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="histyarirdi-276">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/histyarirdi-276/"><i>takonojpë rë yapijtontomo ya, najpïtom pan yakono wïrë inijpë chipëkën takï wïrë taro</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/takonojpe-other-pst/"><i>takonojpë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/takono-other/">takono</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/jpepst1/">-jpë</a>
+</span>
+<span class="gls">other-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/re-emp/"><i>rë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/re-emp/">rë</a>
+</span>
+<span class="gls"><span class="gloss">emp<span class="tooltiptext gloss-emp"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yapijtontomo-old-pl/"><i>yapijtontomo</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/yapijton-old/">yapijton</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/tomopl/">-tomo</a>
+</span>
+<span class="gls">old-<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">ya</span>
+<span class="obj"> </span>
+<span class="gls">?</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/najpitom-grandfather-pl/"><i>najpïtom</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/najpi-grandfather/">najpï</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/tompl/">-tom</a>
+</span>
+<span class="gls">grandfather-<span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/pan-fmr/"><i>pan</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/pan-fmr/">pan</a>
+</span>
+<span class="gls"><span class="gloss">fmr<span class="tooltiptext gloss-fmr"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yakono-lk-younger-sister-of-woman-pert/"><i>yakono</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/akono-younger-sister-of-woman/">akono</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-younger_sister_of_woman-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/inijpe-see-pst/"><i>inijpë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ini-see/">ini</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/jpepst1/">-jpë</a>
+</span>
+<span class="gls">see-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/chipeken-because/"><i>chipëkën</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/chipeken-because/">chipëkën</a>
+</span>
+<span class="gls">because</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/taki-cnfrm/"><i>takï</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/taki-cnfrm/">takï</a>
+</span>
+<span class="gls"><span class="gloss">cnfrm<span class="tooltiptext gloss-cnfrm"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/taro-say-ipfv/"><i>taro</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/taro-say/">taro</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ri-zero/">-∅</a>
+</span>
+<span class="gls">say-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="ftr">‘The last old ones, the younger brother of my grandparents, because I saw them, I say so.’ () </div>
+<audio controls="" src="https://filedn.eu/l7uftB8TlOoQ2iwItzK2QBX/histyarirdi-276.wav" type="audio/wav"></audio>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="n-clitics">
+<div class="preamble"> </div>
+<ol class="subexample">
+<li class="subexample" id="n-clitics">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/histyarirdi-893/"><i>¡këë! uyejwetunu, ¡këë! wïrë waijtëri, ¡këë! uyapëri, wïrë poreri, wïrë chikimuru</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/kee-ugh/"><i>këë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/kee-ugh/">këë</a>
+</span>
+<span class="gls">ugh</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/u-1/"><i>u</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/yejwetunu-lk-sick-pert/"><i>yejwetunu</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/u1/">u</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ejwetunu-sick/">ejwetunu</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>=<span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-sick-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/kee-ugh/"><i>këë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/kee-ugh/">këë</a>
+</span>
+<span class="gls">ugh</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/waijteri-head-pert/"><i>waijtëri</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/waijte-head/">waijtë</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ripert/">-ri</a>
+</span>
+<span class="gls">head-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/kee-ugh/"><i>këë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/kee-ugh/">këë</a>
+</span>
+<span class="gls">ugh</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/u-1/"><i>u</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/yaperi-lk-arm-wing-pert/"><i>yapëri</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/u1/">u</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ape-arm-wing/">apë</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ripert/">-ri</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>=<span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-arm_wing-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/poreri-leg-pert/"><i>poreri</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/pore-leg/">pore</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ripert/">-ri</a>
+</span>
+<span class="gls">leg-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/chikimuru-knee-pert/"><i>chikimuru</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/chikimu-knee/">chikimu</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert/">-ru</a>
+</span>
+<span class="gls">knee-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="ftr">‘Ugh! I'm sick, ugh, my head, ugh, my arm, my leg, my knee.’ () </div>
+</div>
+</li>
+<li class="subexample" id="n-clitics">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/convamgu-272/"><i>mëwaijtë yaka wëjkase</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/me-2/"><i>më</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/waijte-head-pert/"><i>waijtë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/me2/">më</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/waijte-head/">waijtë</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>=head-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yaka-all/"><i>yaka</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/yaka-all/">yaka</a>
+</span>
+<span class="gls"><span class="gloss">all<span class="tooltiptext gloss-all"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wejkase-fall-pst/"><i>wëjkase</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wejka-fall/">wëjka</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/sepst/">-se</a>
+</span>
+<span class="gls">fall-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="ftr">‘It went into your head.’ () </div>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="convrisamaj-28">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/convrisamaj-28/"><i>uyïwïj yawë usenejkari sukuri jwama</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/u-1/"><i>u</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/yiwij-lk-house-pert/"><i>yïwïj</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/u1/">u</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/iwij-house/">ïwïj</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>=<span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-house-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yawe-loc/"><i>yawë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/yawe-loc/">yawë</a>
+</span>
+<span class="gls"><span class="gloss">loc<span class="tooltiptext gloss-loc"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/u-1/"><i>u</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/senejkari-stay-ipfv-1/"><i>senejkari</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/u1/">u</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/ri/">-ri</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>=stay-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/sukuri-silently/"><i>sukuri</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/sukuri-silently/">sukuri</a>
+</span>
+<span class="gls">silently</span>
+</div>
+<div class="interlinear">
+<span class="obj">jwama</span>
+<span class="obj"> </span>
+<span class="gls">***</span>
+</div>
+<div class="ftr">‘I silently stay in my house.’ (<a href="/yawarana-sketch/0.0.4/data/texts/convrisamaj/#convrisamaj-28">Conversación sobre la risa entre GrMe y ElPe</a>
+: 28) </div>
+<audio controls="" src="https://filedn.eu/l7uftB8TlOoQ2iwItzK2QBX/convrisamaj-28.wav" type="audio/wav"></audio>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="ctorat-46">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/ctorat-46/"><i>tïwïj yaka waraijtokomo manikijpë</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/tiwij-3-house-pert/"><i>tïwïj</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/t3/">t-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/iwij-house/">ïwïj</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span>-house-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yaka-all/"><i>yaka</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/yaka-all/">yaka</a>
+</span>
+<span class="gls"><span class="gloss">all<span class="tooltiptext gloss-all"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/waraijtokomo-man/"><i>waraijtokomo</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/waraijtokomo-man/">waraijtokomo</a>
+</span>
+<span class="gls">man</span>
+</div>
+<div class="interlinear">
+<span class="obj">manikijpë</span>
+<span class="obj"> </span>
+<span class="gls">***</span>
+</div>
+<div class="ftr">‘The man went to his house.’ (<a href="/yawarana-sketch/0.0.4/data/texts/ctorat/#ctorat-46">Cuento de las ratas por AnFo</a>
+: 46) </div>
+<audio controls="" src="https://filedn.eu/l7uftB8TlOoQ2iwItzK2QBX/ctorat-46.wav" type="audio/wav"></audio>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="histyarirdi-437">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/histyarirdi-437/"><i>marë wïrë sëmpinukuja rë wejtane mokontomo unono, wïrë nono yenekapëkë pako</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/mare-still-1/"><i>marë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/mare-still/">marë</a>
+</span>
+<span class="gls">still</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/sempinukuja-close-eyes-neg/"><i>sëmpinukuja</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/sempinuku-close-eyes/">sëmpinuku</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/janeg/">-ja</a>
+</span>
+<span class="gls">close_eyes-<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/re-emp/"><i>rë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/re-emp/">rë</a>
+</span>
+<span class="gls"><span class="gloss">emp<span class="tooltiptext gloss-emp"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wejtane-cop-cncs/"><i>wejtane</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wej-cop/">wej</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/tanecncs/">-tane</a>
+</span>
+<span class="gls"><span class="gloss">cop<span class="tooltiptext gloss-cop"></span></span>-<span class="gloss">cncs<span class="tooltiptext gloss-cncs"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/mokontomo-2pl-pro/"><i>mokontomo</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/mokontomo-2pl-pro/">mokontomo</a>
+</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span><span class="gloss">pl<span class="tooltiptext gloss-pl"></span></span>.<span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/u-1/"><i>u</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/nono-earth-pert/"><i>nono</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/u1/">u</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/nono-earth/">nono</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>=earth-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/nono-earth-pert/"><i>nono</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/nono-earth/">nono</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls">earth-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yenekapeke-take-away-prog-tr/"><i>yenekapëkë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/yeneka-take-away/">yeneka</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/pekeprog/">-pëkë</a>
+</span>
+<span class="gls">take_away-<span class="gloss">prog<span class="tooltiptext gloss-prog"></span></span>.<span class="gloss">tr<span class="tooltiptext gloss-tr"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj">pako</span>
+<span class="obj"> </span>
+<span class="gls">***</span>
+</div>
+<div class="ftr">‘Though I haven't closed my eyes yet, you are already taking my land from me.’ () </div>
+<audio controls="" src="https://filedn.eu/l7uftB8TlOoQ2iwItzK2QBX/histyarirdi-437.wav" type="audio/wav"></audio>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="desccasmaj-38">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/desccasmaj-38/"><i>yapijtompe wïrë wejtane, ¡kë! wïyapë moroni</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yapijtom-old/"><i>yapijtom</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/pe-ess/"><i>pe</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/yapijtom-old/">yapijtom</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/pe-ess/">pe</a>
+</span>
+<span class="gls">old=<span class="gloss">ess<span class="tooltiptext gloss-ess"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wejtane-cop-cncs/"><i>wejtane</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wej-cop/">wej</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/tanecncs/">-tane</a>
+</span>
+<span class="gls"><span class="gloss">cop<span class="tooltiptext gloss-cop"></span></span>-<span class="gloss">cncs<span class="tooltiptext gloss-cncs"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ke-ugh/"><i>kë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ke-ugh/">kë</a>
+</span>
+<span class="gls">ugh</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wi-1/"><i>wï</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/yape-lk-arm-wing-pert/"><i>yapë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wi1/">wï</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ape-arm-wing/">apë</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>=<span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-arm_wing-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/moroni-pain/"><i>moroni</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/moroni-pain/">moroni</a>
+</span>
+<span class="gls">pain</span>
+</div>
+<div class="ftr">‘Although I am old, ugh, my arms hurt.’ () </div>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="histpajirdi-270">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/histpajirdi-270/"><i>ë'ë, mëyakereti</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ee-yes/"><i>ëʼë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ee-yes/">ëʼë</a>
+</span>
+<span class="gls">yes</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/me-2/"><i>më</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/yakereti-lk-relative-pert/"><i>yakereti</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/me2/">më</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/akere-relative-1/">akere</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/tipert/">-ti</a>
+</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>=<span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-relative-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="ftr">‘Yes, your family.’ () </div>
+<audio controls="" src="https://filedn.eu/l7uftB8TlOoQ2iwItzK2QBX/histpajirdi-270.wav" type="audio/wav"></audio>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="convfemgrme-60">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/convfemgrme-60/"><i>kwase neke wejsapë tëwï ma anajmori ya yakarama wejsapë</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/kwase-how/"><i>kwase</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/kwase-how/">kwase</a>
+</span>
+<span class="gls">how</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/neke-cntr/"><i>neke</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/neke-cntr/">neke</a>
+</span>
+<span class="gls"><span class="gloss">cntr<span class="tooltiptext gloss-cntr"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wejsape-cop-pst/"><i>wejsapë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wej-cop/">wej</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/sapepst/">-sapë</a>
+</span>
+<span class="gls"><span class="gloss">cop<span class="tooltiptext gloss-cop"></span></span>-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/tewi-3pro/"><i>tëwï</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/tewi-3pro/">tëwï</a>
+</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ma-rst/"><i>ma</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ma-rst/">ma</a>
+</span>
+<span class="gls"><span class="gloss">rst<span class="tooltiptext gloss-rst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/anajmori-2-grandmother-pert/"><i>anajmori</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/a2/">a-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/najmo-grandmother/">najmo</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ripert/">-ri</a>
+</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>-grandmother-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ya-erg/"><i>ya</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ya-erg/">ya</a>
+</span>
+<span class="gls"><span class="gloss">erg<span class="tooltiptext gloss-erg"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yakarama-tell-ipfv/"><i>yakarama</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ri-zero/">-∅</a>
+</span>
+<span class="gls">tell-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wejsape-cop-pst/"><i>wejsapë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wej-cop/">wej</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/sapepst/">-sapë</a>
+</span>
+<span class="gls"><span class="gloss">cop<span class="tooltiptext gloss-cop"></span></span>-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="ftr">‘what it was like, that's all your grandmother said.’ () </div>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="lastex">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/ctorat-19/"><i>pïrarë ti iwenaru wejsapë</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/pirare-neg-exist/"><i>pïrarë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/pirare-neg-exist/">pïrarë</a>
+</span>
+<span class="gls"><span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span>.<span class="gloss">exist<span class="tooltiptext gloss-exist"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/ti-hsy/"><i>ti</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ti-hsy/">ti</a>
+</span>
+<span class="gls"><span class="gloss">hsy<span class="tooltiptext gloss-hsy"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/iwenaru-3-vomit-pert/"><i>iwenaru</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/i31/">i-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/wena-vomit/">wena</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert/">-ru</a>
+</span>
+<span class="gls"><span class="gloss">3<span class="tooltiptext gloss-3"></span></span>-vomit-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wejsape-cop-pst/"><i>wejsapë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wej-cop/">wej</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/sapepst/">-sapë</a>
+</span>
+<span class="gls"><span class="gloss">cop<span class="tooltiptext gloss-cop"></span></span>-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="ftr">‘their vomit was not there.’ (<a href="/yawarana-sketch/0.0.4/data/texts/ctorat/#ctorat-19">Cuento de las ratas por AnFo</a>
+: 19) </div>
+<audio controls="" src="https://filedn.eu/l7uftB8TlOoQ2iwItzK2QBX/ctorat-19.wav" type="audio/wav"></audio>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="convfemgrme-260">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/convfemgrme-260/"><i>wïrë yapëri moronta chi taji</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yaperi-lk-arm-wing-pert/"><i>yapëri</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ape-arm-wing/">apë</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ripert/">-ri</a>
+</span>
+<span class="gls"><span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-arm_wing-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/moronta-hurt-ipfv/"><i>moronta</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ri-zero/">-∅</a>
+</span>
+<span class="gls">hurt-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/chi-cop-ipfv/"><i>chi</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/chi-cop/">chi</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ri-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">cop<span class="tooltiptext gloss-cop"></span></span>-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/taji-foc/"><i>taji</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/taji-foc/">taji</a>
+</span>
+<span class="gls"><span class="gloss">foc<span class="tooltiptext gloss-foc"></span></span></span>
+</div>
+<div class="ftr">‘My arms hurt.’ () </div>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="histyarirdi-893">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/histyarirdi-893/"><i>¡këë! uyejwetunu, ¡këë! wïrë waijtëri, ¡këë! uyapëri, wïrë poreri, wïrë chikimuru</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/kee-ugh/"><i>këë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/kee-ugh/">këë</a>
+</span>
+<span class="gls">ugh</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/u-1/"><i>u</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/yejwetunu-lk-sick-pert/"><i>yejwetunu</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/u1/">u</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ejwetunu-sick/">ejwetunu</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>=<span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-sick-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/kee-ugh/"><i>këë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/kee-ugh/">këë</a>
+</span>
+<span class="gls">ugh</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/waijteri-head-pert/"><i>waijtëri</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/waijte-head/">waijtë</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ripert/">-ri</a>
+</span>
+<span class="gls">head-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/kee-ugh/"><i>këë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/kee-ugh/">këë</a>
+</span>
+<span class="gls">ugh</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/u-1/"><i>u</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/yaperi-lk-arm-wing-pert/"><i>yapëri</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/u1/">u</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ape-arm-wing/">apë</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ripert/">-ri</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>=<span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-arm_wing-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/poreri-leg-pert/"><i>poreri</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/pore-leg/">pore</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ripert/">-ri</a>
+</span>
+<span class="gls">leg-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/wire-1pro/"><i>wïrë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/wire-1pro/">wïrë</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span><span class="gloss">pro<span class="tooltiptext gloss-pro"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/chikimuru-knee-pert/"><i>chikimuru</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/chikimu-knee/">chikimu</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert/">-ru</a>
+</span>
+<span class="gls">knee-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="ftr">‘Ugh! I'm sick, ugh, my head, ugh, my arm, my leg, my knee.’ () </div>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="histgrme-29">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/histgrme-29/"><i>asakërërë mëyawajkë, asakë mëyumukunu</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/asakere-two/"><i>asakërë</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/re-emp/"><i>rë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/asakere-two/">asakërë</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/re-emp/">rë</a>
+</span>
+<span class="gls">two=<span class="gloss">emp<span class="tooltiptext gloss-emp"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/me-2/"><i>më</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/yawajke-grate-imp/"><i>yawajkë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/me2/">më</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/yawaj-grate/">yawaj</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/keimp/">-kë</a>
+</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>=grate-<span class="gloss">imp<span class="tooltiptext gloss-imp"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/asake-two/"><i>asakë</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/asake-two/">asakë</a>
+</span>
+<span class="gls">two</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/me-2/"><i>më</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/yumukunu-lk-hand-pert/"><i>yumukunu</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/me2/">më</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/umukunu-hand/">umukunu</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>=<span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-hand-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="ftr">‘Scrape with both, two hands.’ () </div>
+</div>
+</li>
+</ol>
+<ol class="example">
+<li class="example" id="histpajirdi-237">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/histpajirdi-237/"><i>aaa, mëyakerej sëmase, ¡aj! inche utërijra</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/aaa-ah/"><i>aaa</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/aaa-ah/">aaa</a>
+</span>
+<span class="gls">ah</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/me-2/"><i>më</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/yakerej-lk-relative-pert/"><i>yakerej</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/me2/">më</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/akere-relative-1/">akere</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/jpert/">-j</a>
+</span>
+<span class="gls"><span class="gloss">2<span class="tooltiptext gloss-2"></span></span>=<span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-relative-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/semase-die-pst/"><i>sëmase</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/sema-die/">sëma</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/sepst/">-se</a>
+</span>
+<span class="gls">die-<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/aj-ah/"><i>aj</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/aj-ah/">aj</a>
+</span>
+<span class="gls">ah</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/inche-see-sup/"><i>inche</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/in-see/">in</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/cheptcp/">-che</a>
+</span>
+<span class="gls">see-<span class="gloss">sup<span class="tooltiptext gloss-sup"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/u-1/"><i>u</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/teri-go-ipfv/"><i>tëri</i></a>
+=<a href="/yawarana-sketch/0.0.4/data/wordforms/jra-neg/"><i>jra</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/u1/">u</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/te-go/">të</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/ri/">-ri</a>
+=<a href="/yawarana-sketch/0.0.4/data/morphs/jra-neg/">jra</a>
+</span>
+<span class="gls"><span class="gloss">1<span class="tooltiptext gloss-1"></span></span>=go-<span class="gloss">ipfv<span class="tooltiptext gloss-ipfv"></span></span>=<span class="gloss">neg<span class="tooltiptext gloss-neg"></span></span></span>
+</div>
+<div class="ftr">‘Ah, your family is dead, ah, I will not go see.’ () </div>
+</div>
+</li>
+</ol>
+<p>The linker also occurs with (pro-)nominal possessors:</p>
+<ol class="example">
+<li class="example" id="convcosnoind-52">
+<div class="interlinear-wrapper">
+<div class="preamble"> </div>
+<div class="text"><a href="/yawarana-sketch/0.0.4/data/examples/convcosnoind-52/"><i>toto yoti tajtoj mare</i></a>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/toto-non-indian/"><i>toto</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/toto-non-indian/">toto</a>
+</span>
+<span class="gls">non_Indian</span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/yoti-lk-meat-pert/"><i>yoti</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/ylk/">y-</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/oti-meat/">oti</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/rupert-zero/">-∅</a>
+</span>
+<span class="gls"><span class="gloss">lk<span class="tooltiptext gloss-lk"></span></span>-meat-<span class="gloss">pert<span class="tooltiptext gloss-pert"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/tajtoj-say-circ-nmlz/"><i>tajtoj</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/taj-say/">taj</a>
+<a href="/yawarana-sketch/0.0.4/data/morphs/tojnmlz/">-toj</a>
+</span>
+<span class="gls">say-<span class="gloss">circ<span class="tooltiptext gloss-circ"></span></span>.<span class="gloss">nmlz<span class="tooltiptext gloss-nmlz"></span></span></span>
+</div>
+<div class="interlinear">
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/wordforms/mare-rel-inan/"><i>mare</i></a>
+</span>
+<span class="obj"><a href="/yawarana-sketch/0.0.4/data/morphs/mare-rel-inan-1/">mare</a>
+</span>
+<span class="gls"><span class="gloss">rel<span class="tooltiptext gloss-rel"></span></span>.<span class="gloss">inan<span class="tooltiptext gloss-inan"></span></span></span>
+</div>
+<div class="ftr">‘What they call the food of the criollos.’ () </div>
+<audio controls="" src="https://filedn.eu/l7uftB8TlOoQ2iwItzK2QBX/convcosnoind-52.wav" type="audio/wav"></audio>
+</div>
+</li>
+</ol>
+<h2 id="sec:nounderiv"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.5</span> Nominal Derivational Morphology</h2>
+<ul>
+<li>V → N<ul>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/rinmlz/"><em>-ri</em></a> <span title="this is potentially an agent nominalizer, too">❕</span></li>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/jpenmlz/"><em>-jpë</em></a> <ul>
+<li>also ‘<span class="gloss">pst<span class="tooltiptext gloss-pst"></span></span>.<span class="gloss">abs<span class="tooltiptext gloss-abs"></span></span>.<span class="gloss">nmlz<span class="tooltiptext gloss-nmlz"></span></span>)’ <span title="add convsuenmaj-47">❕</span></li>
+</ul>
+</li>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/neinf/"><em>-në</em></a> or ‘generic action nominalizer’ <span title="this probably only occurs on intransitive verbs">❕</span><ul>
+<li><em>wënkej-në</em> from transitive <em>wënkepï</em> 'forget'</li>
+</ul>
+</li>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/ninmlz/"><em>-ni</em></a> <span title="see ctoyucairdi-4, descokigrme-53 for predicative use">❕</span></li>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/nnmlzpre/"><em>n-</em></a>V<a href="/yawarana-sketch/0.0.4/data/morphemes/rinmlz/"><em>-ri</em></a> only with <a href="/yawarana-sketch/0.0.4/data/morphemes/yeme-eat-fruits-eggs-soup/"><em>yeme</em></a></li>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/sapenmlz/"><em>-sapë</em></a> (contrast with <a href="/yawarana-sketch/0.0.4/data/morphemes/jpenmlz/"><em>-jpë</em></a>) </li>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/toponmlz/"><em>-topo</em></a></li>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/pininmlz/"><em>‑pïnï</em></a> <span title="only found with -se-mï, not attested as nominalizer">❕</span></li>
+</ul>
+</li>
+<li>Adv → N <ul>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/minmlz/"><em>-mï</em></a></li>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/anonmlz/"><em>-ano</em></a></li>
+</ul>
+</li>
+<li>Postp → N<ul>
+<li><a href="/yawarana-sketch/0.0.4/data/morphemes/anonmlz/"><em>-ano</em></a></li>
+</ul>
+</li>
+<li>N → N<ul>
+<li>discuss <em>pïjkë</em> and <em>sere-kë</em> 'manioc-DIM' , reference sections</li>
+<li><em>-imë</em>: e.g., <em>wara</em> 'woman' <em>waraimë</em> 'married woman' (from dictionary)</li>
+</ul>
+</li>
+</ul>
+<h3 id="sec:rinmlz"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.5.1</span> The action nominalizer <em>-ri</em></h3>
+<p>TBD</p>
+<h3 id="sec:jpenmlz"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.5.2</span> The past nominalizer <em>-jpë</em></h3>
+<p>TBD</p>
+<h3 id="sec:sapenmlz"><span class="enumerate-headings-plugin enumerate-heading-plugin">4.5.3</span> The absolutive nominalizer <em>-sapë</em></h3>
+<p>TBD</p>
+</article>
+</div>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+  Back to top
+</button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+<!-- Copyright and theme information -->
+<div class="md-copyright">
+  
+  
+    Made with <a href="https://fmatter.github.io/lingdocs/" rel="noopener" target="_blank">lingdocs</a> and 
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": ["navigation.path", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "toc.follow", "toc.integrate"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../assets/javascripts/bundle.aecac24b.min.js"></script>
+<script src="../assets/alignment.js"></script>
+<script src="../assets/examples.js"></script>
+<script src="../assets/refs.js"></script>
+<script src="../assets/crossref.js"></script>
+<script src="../assets/glossing_abbrevs.js"></script>
+<script src="../assets/glossing.js"></script>
+<script src="../assets/run.js"></script>
+</body>
+</html>
